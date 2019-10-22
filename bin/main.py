@@ -16,15 +16,19 @@ sys.path.insert(0, parentdir)  # sys.path is the module search path
 
 def main():
 
-    logging.getLogger().setLevel(logging.INFO)  # essentially does print statements to help debug
+    logging.getLogger().setLevel(logging.WARNING)  # essentially does print statements to help debug (INFO)
     # logging explained https://appdividend.com/2019/06/08/python-logging-tutorial-with-example-logging-in-python/
 
-    observations = extract()  # get text from resumes
-    output_path = os.path.join(lib.get_conf('summary_output_directory'), 'resume_summary.csv')
-    observations.to_csv(path_or_buf=output_path, index=False)
+    # observations = extract()  # get text from resumes
+    # output_path = os.path.join(lib.get_conf('summary_output_directory'), 'resume_summary.csv')
+    # observations.to_csv(path_or_buf=output_path, index=False)
 
     # to skip the section above
     observations = pd.read_csv('~/PycharmProjects/Resume-Parser/data/output/resume_summary.csv')
+
+    # from https://www.kaggle.com/maitrip/resumes/download
+    kaggle_resumes = pd.read_csv('~/PycharmProjects/Resume-Parser/data/input/resumes/Kaggle_resume_dataset.csv', usecols=[0,1,2])
+    observations = pd.concat([observations, kaggle_resumes], sort=False)
 
     # to get the start (as an int) of resume sections
     observations_parsed = resume_sectioning.section_into_columns(observations)
