@@ -489,7 +489,7 @@ def section_into_columns(observations):
                 pass
             elif df.text.loc[i].lower().find('\nresearch activities') != -1:
                 pass
-            #TODO other xyz activities to pass?
+            # TODO other xyz activities to pass?
             elif df.text.loc[i].find('ACTIVITIES') != -1:
                 df['ActivitiesLocation'].loc[i] = df.text.loc[i].find('ACTIVITIES')
             elif df.text.loc[i].replace(':', ' ').find(' Activities\n') != -1:
@@ -536,9 +536,8 @@ def section_into_columns(observations):
         if df.text.loc[i].find('\nADDITIONAL') != -1:
             df['AdditionalLocation'].loc[i] = df.text.loc[i].find('\nADDITIONAL')
 
-
         resume_count += 1
-        print("{}% done".format(round(100 * (resume_count / resume_total), 1)))
+        print("{}% done parsing".format(round(100 * (resume_count / resume_total), 1)))
 
     # to prevent education from being cut off and put into different sections (e.g. Education and Certifications)
     for num in df.index:
@@ -650,13 +649,14 @@ def word_put_in_sections(observations):
     df['Achievements'] = np.repeat("", len(df))
     df['Additional'] = np.repeat("", len(df))
 
+    resume_total = len(df)
     # putting the words into the new columns
     for num in df.index:
-        print('Sectioning resume #', num)
+        print('Sectioning resume', num, 'of', resume_total)
         x = df[col_list].iloc[num].sort_values()
         for i in range(0, len(x)):
             try:
-                df[x.index[i][:-8]].iloc[num] = df.text.iloc[num][x.iloc[i]:x.iloc[i+1]]
+                df[x.index[i][:-8]].iloc[num] = df.text.iloc[num][x.iloc[i]:x.iloc[i + 1]]
             except IndexError:
                 df[x.index[i][:-8]].iloc[num] = df.text.iloc[num][x.iloc[i]:]
 
@@ -664,18 +664,18 @@ def word_put_in_sections(observations):
     df.drop(col_list, axis=1, inplace=True)
     df.fillna('', inplace=True)
 
-    #TODO check if there are any that are all -1
+    # TODO check if there are any that are all -1
 
     return df
 
 
 def combine_sections(observations):
     df = observations
-    print('Combining sub-sections.')
+    print('\nCombining sub-sections.')
     # TODO put them together based on the order they come up in the resume
     # EDUCATION SECTION ##############################
     df['Edu'] = df['Education'] + df['Academic'] + df['RelatedCourse'] + df['CourseWork'] + df['Courses']
-    df.drop(['Education', 'Academic','RelatedCourse', 'CourseWork', 'Courses'], axis=1, inplace=True)
+    df.drop(['Education', 'Academic', 'RelatedCourse', 'CourseWork', 'Courses'], axis=1, inplace=True)
 
     # WORK SECTION ##############################
     df['Work'] = df['CurrentRole'] + df['Experience'] + df['PreviousRoles'] + df['PositionsHeld'] + \
@@ -725,7 +725,7 @@ def combine_sections(observations):
              'Additional'], axis=1, inplace=True)
 
     df['Curriculars'] = df['Co_Curricular'] + df['Extracurricular'] + df['Extra_Curricular'] + \
-                        df['CampusInvolvement'] + df['AthleticInvolvement'] + df['Involvement'] + df['Interests'] +\
+                        df['CampusInvolvement'] + df['AthleticInvolvement'] + df['Involvement'] + df['Interests'] + \
                         df['Hobbies'] + df['Affiliations'] + df['Accomplishments'] + df['Achievements']
     df.drop(['Co_Curricular', 'Extracurricular', 'Extra_Curricular', 'CampusInvolvement', 'AthleticInvolvement',
              'Involvement', 'Interests', 'Hobbies', 'Affiliations', 'Accomplishments', 'Achievements'],
