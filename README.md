@@ -28,6 +28,7 @@ open ../data/output/resume_summary.csv
  - `confs/confs.yaml.template`: Configuration file template
  - `data/input/example_resumes`: Example resumes, which are parsed w/ default configurations
  - `data/output/resume_summary.csv`: Results from parsing example resumes
+ - `data/output/resume_sections.csv`: Resumes sectioned into sections (each its own column)
 
 ### Python Environment
 
