@@ -237,14 +237,16 @@ def section_into_columns(observations):
             else:
                 df['TechnologiesLocation'].loc[i] = df.text.loc[i].find('\nTechnologies')
         if df.text.loc[i].lower().find('software') != -1:
-            if df.text.loc[i].find('SOFTWARE') != -1:
-                df['SoftwareLocation'].loc[i] = df.text.loc[i].find('SOFTWARE')
+            if df.text.loc[i].find('\nSOFTWARE') != -1:
+                df['SoftwareLocation'].loc[i] = df.text.loc[i].find('\nSOFTWARE')
             else:
                 df['SoftwareLocation'].loc[i] = df.text.loc[i].find('\nSoftware')
         if df.text.loc[i].lower().find('computer skills') != -1:
             df['ComputerSkillsLocation'].loc[i] = df.text.loc[i].lower().find('\ncomputer skills')
         if df.text.loc[i].lower().find('skill') != -1:
-            if df.text.loc[i].find('SKILLS') != -1:
+            if df.text.loc[i].lower().find('language skills') != -1:
+                pass
+            elif df.text.loc[i].find('SKILLS') != -1:
                 df['SkillsLocation'].loc[i] = df.text.loc[i].find('SKILLS')
             elif df.text.loc[i].lower().find('skill set') != -1:
                 df['SkillsLocation'].loc[i] = df.text.loc[i].lower().find('skill set')
@@ -275,7 +277,7 @@ def section_into_columns(observations):
         if df.text.loc[i].lower().find('computer knowledge') != -1:
             df['ComputerKnowledgeLocation'].loc[i] = df.text.loc[i].lower().find('\ncomputer knowledge')
         if df.text.loc[i].lower().find('qualifications') != -1:
-            if df.text.loc[i].find('QUALIFICATIONS') != -1:
+            if df.text.loc[i].find('QUALIFICATION') != -1:
                 df['QualificationsLocation'].loc[i] = df.text.loc[i].find('QUALIFICATIONS')
             else:
                 df['QualificationsLocation'].loc[i] = df.text.loc[i].find('\nQualifications')
@@ -314,16 +316,16 @@ def section_into_columns(observations):
             df['ProfessionalSkillsLocation'].loc[i] = df.text.loc[i].lower().find('\nprofessional skills')
         if df.text.loc[i].lower().find('professional activities') != -1:
             df['ProfessionalActivitiesLocation'].loc[i] = df.text.loc[i].lower().find('\nprofessional activities')
-        if df.text.loc[i].lower().find('professional affiliations') != -1:
-            df['ProfessionalAffiliationsLocation'].loc[i] = df.text.loc[i].lower().find('\nprofessional affiliations')
-        if df.text.loc[i].lower().find('professional associations') != -1:
-            df['ProfessionalAssociationsLocation'].loc[i] = df.text.loc[i].lower().find('\nprofessional associations')
-        if df.text.loc[i].lower().find('professional memberships') != -1:
-            df['ProfessionalMembershipsLocation'].loc[i] = df.text.loc[i].lower().find('\nprofessional memberships')
+        if df.text.loc[i].lower().find('professional affiliation') != -1:
+            df['ProfessionalAffiliationsLocation'].loc[i] = df.text.loc[i].lower().find('\nprofessional affiliation')
+        if df.text.loc[i].lower().find('professional association') != -1:
+            df['ProfessionalAssociationsLocation'].loc[i] = df.text.loc[i].lower().find('\nprofessional association')
+        if df.text.loc[i].lower().find('professional membership') != -1:
+            df['ProfessionalMembershipsLocation'].loc[i] = df.text.loc[i].lower().find('\nprofessional membership')
         if df.text.loc[i].lower().find('professional involvement') != -1:
             df['ProfessionalInvolvementLocation'].loc[i] = df.text.loc[i].lower().find('\nprofessional involvement')
-        if df.text.loc[i].lower().find('professional organizations') != -1:
-            df['ProfessionalOrganizationsLocation'].loc[i] = df.text.loc[i].lower().find('\nprofessional organizations')
+        if df.text.loc[i].lower().find('professional organization') != -1:
+            df['ProfessionalOrganizationsLocation'].loc[i] = df.text.loc[i].lower().find('\nprofessional organization')
         if df.text.loc[i].lower().find('associations') != -1:
             if df.text.loc[i].find('ASSOCIATIONS') != -1:
                 df['AssociationsLocation'].loc[i] = df.text.loc[i].find('ASSOCIATIONS')
@@ -376,7 +378,7 @@ def section_into_columns(observations):
                 df['PresentationsLocation'].loc[i] = df.text.loc[i].find('PRESENTATIONS')
             else:
                 df['PresentationsLocation'].loc[i] = df.text.loc[i].find('\nPresentations')
-        if df.text.loc[i].lower().find('publications') != -1:
+        if df.text.loc[i].lower().find('publication') != -1:
             if df.text.loc[i].find('PUBLICATION') != -1:
                 df['PublicationsLocation'].loc[i] = df.text.loc[i].find('PUBLICATION')
             else:

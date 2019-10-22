@@ -19,12 +19,12 @@ def main():
     logging.getLogger().setLevel(logging.INFO)  # essentially does print statements to help debug
     # logging explained https://appdividend.com/2019/06/08/python-logging-tutorial-with-example-logging-in-python/
 
-    # observations = extract()  # get text from resumes
-    # output_path = os.path.join(lib.get_conf('summary_output_directory'), 'resume_summary.csv')
-    # observations.to_csv(path_or_buf=output_path, index=False)
+    observations = extract()  # get text from resumes
+    output_path = os.path.join(lib.get_conf('summary_output_directory'), 'resume_summary.csv')
+    observations.to_csv(path_or_buf=output_path, index=False)
 
     # to skip the section above
-    observations = pd.read_csv('~/PycharmProjects/Capstone/data/output/resume_summary.csv')
+    observations = pd.read_csv('~/PycharmProjects/Resume-Parser/data/output/resume_summary.csv')
 
     # to get the start (as an int) of resume sections
     observations_parsed = resume_sectioning.section_into_columns(observations)
