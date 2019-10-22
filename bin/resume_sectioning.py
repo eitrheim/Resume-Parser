@@ -1,10 +1,11 @@
-import pandas as pd
+"""
+Sectioning the resume into education, work experience, summary, technical skills, research, and activities.
+"""
 import numpy as np
 
 
 def section_into_columns(observations):
     df = observations
-    print(df)
 
     # EDUCATION SECTION ##############################
     df['EducationLocation'] = np.repeat(-1, len(df))
@@ -103,10 +104,10 @@ def section_into_columns(observations):
 
     resume_count = 0
     resume_total = len(df)
-    print(resume_total)
+    print(resume_total, "total resumes.")
     for i in df.index:
 
-        print("Parsing : {}".format(df.file_path.loc[i][30:]))
+        print("Parsing: {}".format(df.file_path.loc[i][30:]))
 
         # EDUCATION SECTION ##############################
 
@@ -651,7 +652,7 @@ def word_put_in_sections(observations):
 
     # putting the words into the new columns
     for num in df.index:
-        print(num)
+        print('Sectioning resume #', num)
         x = df[col_list].iloc[num].sort_values()
         for i in range(0, len(x)):
             try:
@@ -670,6 +671,7 @@ def word_put_in_sections(observations):
 
 def combine_sections(observations):
     df = observations
+    print('Combining sub-sections.')
     # TODO put them together based on the order they come up in the resume
     # EDUCATION SECTION ##############################
     df['Edu'] = df['Education'] + df['Academic'] + df['RelatedCourse'] + df['CourseWork'] + df['Courses']
