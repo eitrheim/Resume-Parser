@@ -26,8 +26,9 @@ def main():
     # to skip the section above
     observations = pd.read_csv('~/PycharmProjects/Resume-Parser/data/output/resume_summary.csv')
 
-    # from https://www.kaggle.com/maitrip/resumes/download
-    kaggle_resumes = pd.read_csv('~/PycharmProjects/Resume-Parser/data/input/resumes/Kaggle_resume_dataset.csv', usecols=[0,1,2])
+    # from https://www.kaggle.com/maitrip/resumes/download, did some data cleaning on it and resaved it
+    kaggle_resumes = pd.read_csv('~/PycharmProjects/Resume-Parser/data/input/resumes/Kaggle_resume_dataset.csv',
+                                 usecols=[0, 1, 2])
     observations = pd.concat([observations, kaggle_resumes], sort=False)
 
     # to get the start (as an int) of resume sections
@@ -61,8 +62,10 @@ def extract():
     candidate_file_agg = list()  # for creating list of resume file paths
     for root, subdirs, files in os.walk(lib.get_conf('resume_directory')):  # gets path to resumes from yaml file
         # os.walk(parentdir + '/data/input/example_resumes'): would do the same thing
+        files = filter(lambda f: f.endswith(('.pdf', '.PDF')), files)  # only read pdfs
         folder_files = map(lambda x: os.path.join(root, x), files)
         candidate_file_agg.extend(folder_files)
+
     observations = pd.DataFrame(data=candidate_file_agg, columns=['file_path'])  # convert to df
     logging.info('Found {} candidate files'.format(len(observations.index)))
     observations['extension'] = observations['file_path'].apply(lambda x: os.path.splitext(x)[1])  # e.g. pdf or doc

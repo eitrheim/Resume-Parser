@@ -6,7 +6,7 @@ import numpy as np
 
 def section_into_columns(observations):
     df = observations
-
+    df = df.reset_index(drop=True)
     # EDUCATION SECTION ##############################
     df['EducationLocation'] = np.repeat(-1, len(df))
     df['AcademicLocation'] = np.repeat(-1, len(df))
@@ -18,6 +18,7 @@ def section_into_columns(observations):
     df['ProfessionalHistoryLocation'] = np.repeat(-1, len(df))
     df['ProfessionalBackgroundLocation'] = np.repeat(-1, len(df))
     df['EmploymentHistoryLocation'] = np.repeat(-1, len(df))
+    df['ProfessionalTrainingLocation'] = np.repeat(-1, len(df))
     df['CareerHistoryLocation'] = np.repeat(-1, len(df))
     df['WorkHistoryLocation'] = np.repeat(-1, len(df))
     df['ExperienceLocation'] = np.repeat(-1, len(df))
@@ -107,10 +108,9 @@ def section_into_columns(observations):
     print(resume_total, "total resumes.")
     for i in df.index:
 
-        print("Parsing: {}".format(df.file_path.loc[i][30:]))
+        print("Parsing: {}".format(df.file_path.loc[i]))
 
         # EDUCATION SECTION ##############################
-
         if df.text.loc[i].lower().find('education') != -1:  # if it can find the word education
             if df.text.loc[i].find('EDUCATION') != -1:
                 df['EducationLocation'].loc[i] = df.text.loc[i].find('EDUCATION')
@@ -565,6 +565,7 @@ def word_put_in_sections(observations):
     df['ProfessionalHistory'] = np.repeat("", len(df))
     df['ProfessionalBackground'] = np.repeat("", len(df))
     df['EmploymentHistory'] = np.repeat("", len(df))
+    df['ProfessionalTraining'] = np.repeat("", len(df))
     df['CareerHistory'] = np.repeat("", len(df))
     df['WorkHistory'] = np.repeat("", len(df))
     df['Experience'] = np.repeat("", len(df))
@@ -680,10 +681,11 @@ def combine_sections(observations):
     # WORK SECTION ##############################
     df['Work'] = df['CurrentRole'] + df['Experience'] + df['PreviousRoles'] + df['PositionsHeld'] + \
                  df['Apprenticeships'] + df['Internships'] + df['ProfessionalHistory'] + \
-                 df['ProfessionalBackground'] + df['EmploymentHistory'] + df['CareerHistory'] + df['WorkHistory']
+                 df['ProfessionalBackground'] + df['EmploymentHistory'] + df['ProfessionalTraining'] + \
+                 df['CareerHistory'] + df['WorkHistory']
     df.drop(['CurrentRole', 'Experience', 'PreviousRoles', 'PositionsHeld', 'Apprenticeships', 'Internships',
-             'ProfessionalHistory', 'ProfessionalBackground', 'EmploymentHistory', 'CareerHistory', 'WorkHistory'],
-            axis=1, inplace=True)
+             'ProfessionalHistory', 'ProfessionalBackground', 'EmploymentHistory', 'EmploymentHistory',
+             'CareerHistory', 'WorkHistory'], axis=1, inplace=True)
 
     # SUMMARY SECTION ##############################
     df['Summaries'] = df['Objective'] + df['Summary'] + df['CareerGoal'] + df['AboutMe']
