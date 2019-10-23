@@ -181,7 +181,7 @@ def section_into_columns(observations):
                 df['ExperienceLocation'].loc[i] = df.text.loc[i].lower().find('experience\n')
             elif df.text.loc[i].lower().replace(':', ' ').find('experience \n'):
                 df['ExperienceLocation'].loc[i] = df.text.loc[i].lower().replace(':', ' ').find('experience \n')
-            elif df.text.loc[i].lower().replace(':', ' ').find(' experience \n'):
+            elif df.text.loc[i].lower().replace(':', ' ').replace('-', ' ').find(' experience \n'):
                 df['ExperienceLocation'].loc[i] = df.text.loc[i].lower().replace(':', ' ').find(' experience \n')
             # else ... ?
             # TODO make sure it doesn't take study abroad experience and stuff like that
@@ -214,7 +214,7 @@ def section_into_columns(observations):
             elif df.text.loc[i].find('\nObjective') != -1:
                 df['ObjectiveLocation'].loc[i] = df.text.loc[i].find('\nObjective')
             elif df.text.loc[i].find(' objective\n') != -1:
-                df['ObjectiveLocation'].loc[i] = df.text.loc[i].replace(':', ' ').find(' Objective\n')
+                df['ObjectiveLocation'].loc[i] = df.text.loc[i].find(' Objective\n')
             else:
                 df['ObjectiveLocation'].loc[i] = df.text.loc[i].replace(':', ' ').find(' Objective \n')
                 # covers titles:
@@ -226,9 +226,9 @@ def section_into_columns(observations):
             if df.text.loc[i].lower().find('\nsummary') != -1:
                 df['SummaryLocation'].loc[i] = df.text.loc[i].lower().find('\nsummary')
             elif df.text.loc[i].lower().find(' summary\n') != -1:
-                df['SummaryLocation'].loc[i] = df.text.loc[i].lower().replace(':', ' ').find(' summary\n')
+                df['SummaryLocation'].loc[i] = df.text.loc[i].lower().find(' summary\n')
             else:
-                df['SummaryLocation'].loc[i] = df.text.loc[i].lower().replace(':', ' ').find(' summary \n')
+                df['SummaryLocation'].loc[i] = df.text.loc[i].lower().find(' summary \n')
                 # summary
             # career summary
             # professional summary
@@ -236,7 +236,8 @@ def section_into_columns(observations):
         if df.text.loc[i].lower().find('career goal') != -1:
             df['CareerGoalLocation'].loc[i] = df.text.loc[i].lower().find('\ncareer goal')
         if df.text.loc[i].lower().find('about me') != -1:
-            df['AboutMeLocation'].loc[i] = df.text.loc[i].lower().replace(':', ' ').find('about me')
+            df['AboutMeLocation'].loc[i] = df.text.loc[i].lower().replace(':', ' ').replace('\n',
+                                                                                            '  ').find('about me ')
         if df.text.loc[i].lower().find('profile') != -1:
             if df.text.loc[i].lower().find('\nprofile of skills') != -1:
                 pass
@@ -261,7 +262,7 @@ def section_into_columns(observations):
                     df['ProfileLocation'] = df.text.loc[i].lower().find('executive profile\n')
                 else:
                     df['ProfileLocation'] = df.text.loc[i].lower().replace(':', ' ').find('executive profile \n')
-                #senior executive profile
+                # senior executive profile
             else:
                 df['ProfileLocation'] = df.text.loc[i].replace(':', ' ').replace('\n', '  ').find('PROFILE ')
 
@@ -585,6 +586,7 @@ def section_into_columns(observations):
         for col in df.columns[3:]:
             if (df[col].loc[num] > x1) & (df[col].loc[num] < x2):
                 df[col].loc[num] = -1
+    # TODO do we need to do this for other sections?
 
     return df
 
@@ -712,9 +714,11 @@ def word_put_in_sections(observations):
 
 def combine_sections(observations):
     df = observations
+
     print('\nCombining sub-sections.')
-    # TODO put them together based on the order they come up in the resume
+
     # EDUCATION SECTION ##############################
+    # make sure that courses is after related course so it concatenates in a natural flow
     df['Edu'] = df['Education'] + df['Academic'] + df['RelatedCourse'] + df['CourseWork'] + df['Courses']
     df.drop(['Education', 'Academic', 'RelatedCourse', 'CourseWork', 'Courses'], axis=1, inplace=True)
 
