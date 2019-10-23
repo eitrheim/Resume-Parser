@@ -284,8 +284,10 @@ def section_into_columns(observations):
         if df.text.loc[i].lower().find('qualifications') != -1:
             if df.text.loc[i].find('\nQUALIFICATION') != -1:
                 df['QualificationsLocation'].loc[i] = df.text.loc[i].find('\nQUALIFICATION')
-            else:
+            elif df.text.loc[i].find('\nQualifications') != -1:
                 df['QualificationsLocation'].loc[i] = df.text.loc[i].find('\nQualifications')
+            else:
+                df['QualificationsLocation'].loc[i] = df.text.loc[i].lower().find('\nprofessional qualification')
         if df.text.loc[i].lower().find('career related skills') != -1:
             df['CareerRelatedSkillsLocation'].loc[i] = df.text.loc[i].lower().find('\ncareer related skills')
         if df.text.loc[i].lower().find('language') != -1:
