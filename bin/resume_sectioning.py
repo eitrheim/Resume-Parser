@@ -3,6 +3,7 @@ Sectioning the resume into education, work experience, summary, technical skills
 """
 import numpy as np
 
+#TODO last elif can just be else
 
 def section_into_columns(observations):
     df = observations
