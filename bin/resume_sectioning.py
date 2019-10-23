@@ -4,9 +4,6 @@ Sectioning the resume into education, work experience, summary, technical skills
 import numpy as np
 
 
-# TODO deal with Part time Positions while pursuing Degree
-
-
 def section_into_columns(observations):
     df = observations
     df = df.reset_index(drop=True)
@@ -29,7 +26,7 @@ def section_into_columns(observations):
     df['InternshipsLocation'] = np.repeat(-1, len(df))
     df['PreviousRolesLocation'] = np.repeat(-1, len(df))
     df['CurrentRoleLocation'] = np.repeat(-1, len(df))
-    df['PositionsHeldLocation'] = np.repeat(-1, len(df))
+    df['PositionsLocation'] = np.repeat(-1, len(df))
     # SUMMARY SECTION ##############################
     df['ObjectiveLocation'] = np.repeat(-1, len(df))
     df['SummaryLocation'] = np.repeat(-1, len(df))
@@ -204,9 +201,12 @@ def section_into_columns(observations):
         if df.text.loc[i].lower().find('current role') != -1:
             df['CurrentRoleLocation'].loc[i] = df.text.loc[i].lower().find('\ncurrent role')
         if df.text.loc[i].lower().find('positions held') != -1:
-            df['PositionsHeldLocation'].loc[i] = df.text.loc[i].lower().find('\npositions held')
+            if df.text.loc[i].lower().find('\npositions held') != -1:
+                df['PositionsLocation'].loc[i] = df.text.loc[i].lower().find('\npositions held')
+            else:
+                df['PositionsLocation'].loc[i] = df.text.loc[i].lower().replace('-', ' ').find('part time positions')
 
-            # SUMMARY SECTION ##############################
+        # SUMMARY SECTION ##############################
 
         if df.text.loc[i].lower().find('objective') != -1:
             if df.text.loc[i].find('OBJECTIVE') != -1:
@@ -237,9 +237,6 @@ def section_into_columns(observations):
             df['CareerGoalLocation'].loc[i] = df.text.loc[i].lower().find('\ncareer goal')
         if df.text.loc[i].lower().find('about me') != -1:
             df['AboutMeLocation'].loc[i] = df.text.loc[i].lower().replace(':', ' ').find('about me')
-
-
-
         if df.text.loc[i].lower().find('profile') != -1:
             if df.text.loc[i].lower().find('\nprofile of skills') != -1:
                 pass
@@ -248,25 +245,25 @@ def section_into_columns(observations):
             elif df.text.loc[i].lower().find('\nacademic profile:') != -1:
                 pass
             elif df.text.loc[i].lower().find('\nprofile:') != -1:
-                df['PositionsHeldLocation'] = df.text.loc[i].lower().find('\nprofile:')
+                df['ProfileLocation'] = df.text.loc[i].lower().find('\nprofile:')
             elif df.text.loc[i].lower().find('\npersonal profile') != -1:
-                df['PositionsHeldLocation'] = df.text.loc[i].lower().find('\npersonal profile')
+                df['ProfileLocation'] = df.text.loc[i].lower().find('\npersonal profile')
             elif df.text.loc[i].lower().find('\ncareer profile') != -1:
-                df['PositionsHeldLocation'] = df.text.loc[i].lower().find('\ncareer profile')
+                df['ProfileLocation'] = df.text.loc[i].lower().find('\ncareer profile')
             elif df.text.loc[i].lower().find('\nprofessional profile') != -1:
-                df['PositionsHeldLocation'] = df.text.loc[i].lower().find('\nprofessional profile')
+                df['ProfileLocation'] = df.text.loc[i].lower().find('\nprofessional profile')
             elif df.text.loc[i].lower().find('\nbusiness profile') != -1:
-                df['PositionsHeldLocation'] = df.text.loc[i].lower().find('\nbusiness profile')
+                df['ProfileLocation'] = df.text.loc[i].lower().find('\nbusiness profile')
             elif df.text.loc[i].lower().find('executive profile') != -1:
                 if df.text.loc[i].lower().find('\nexecutive profile') != -1:
-                    df['PositionsHeldLocation'] = df.text.loc[i].lower().find('\nexecutive profile')
+                    df['ProfileLocation'] = df.text.loc[i].lower().find('\nexecutive profile')
                 elif df.text.loc[i].lower().find('executive profile') != -1:
-                    df['PositionsHeldLocation'] = df.text.loc[i].lower().find('executive profile\n')
+                    df['ProfileLocation'] = df.text.loc[i].lower().find('executive profile\n')
                 else:
-                    df['PositionsHeldLocation'] = df.text.loc[i].lower().replace(':', ' ').find('executive profile \n')
+                    df['ProfileLocation'] = df.text.loc[i].lower().replace(':', ' ').find('executive profile \n')
                 #senior executive profile
             else:
-                df['PositionsHeldLocation'] = df.text.loc[i].replace(':', ' ').replace('\n', '  ').find('PROFILE ')
+                df['ProfileLocation'] = df.text.loc[i].replace(':', ' ').replace('\n', '  ').find('PROFILE ')
 
         # TECHNICAL SECTION ##############################
 
@@ -615,7 +612,7 @@ def word_put_in_sections(observations):
     df['Internships'] = np.repeat("", len(df))
     df['PreviousRoles'] = np.repeat("", len(df))
     df['CurrentRole'] = np.repeat("", len(df))
-    df['PositionsHeld'] = np.repeat("", len(df))
+    df['Positions'] = np.repeat("", len(df))
     # SUMMARY SECTION ##############################
     df['Objective'] = np.repeat("", len(df))
     df['Summary'] = np.repeat("", len(df))
@@ -722,11 +719,11 @@ def combine_sections(observations):
     df.drop(['Education', 'Academic', 'RelatedCourse', 'CourseWork', 'Courses'], axis=1, inplace=True)
 
     # WORK SECTION ##############################
-    df['Work'] = df['CurrentRole'] + df['Experience'] + df['PreviousRoles'] + df['PositionsHeld'] + \
+    df['Work'] = df['CurrentRole'] + df['Experience'] + df['PreviousRoles'] + df['Positions'] + \
                  df['Apprenticeships'] + df['Internships'] + df['ProfessionalHistory'] + \
                  df['ProfessionalBackground'] + df['EmploymentHistory'] + df['ProfessionalTraining'] + \
                  df['CareerHistory'] + df['WorkHistory']
-    df.drop(['CurrentRole', 'Experience', 'PreviousRoles', 'PositionsHeld', 'Apprenticeships', 'Internships',
+    df.drop(['CurrentRole', 'Experience', 'PreviousRoles', 'Positions', 'Apprenticeships', 'Internships',
              'ProfessionalHistory', 'ProfessionalBackground', 'EmploymentHistory', 'EmploymentHistory',
              'CareerHistory', 'WorkHistory'], axis=1, inplace=True)
 
