@@ -3,7 +3,9 @@ Sectioning the resume into education, work experience, summary, technical skills
 """
 import numpy as np
 
-#TODO last elif can just be else
+
+# TODO deal with Part time Positions while pursuing Degree
+
 
 def section_into_columns(observations):
     df = observations
@@ -33,6 +35,7 @@ def section_into_columns(observations):
     df['SummaryLocation'] = np.repeat(-1, len(df))
     df['CareerGoalLocation'] = np.repeat(-1, len(df))
     df['AboutMeLocation'] = np.repeat(-1, len(df))
+    df['ProfileLocation'] = np.repeat(-1, len(df))
     # TECHNICAL SECTION ##############################  knowledge related to the job
     df['TechnicalSkillsLocation'] = np.repeat(-1, len(df))
     df['TechnologiesLocation'] = np.repeat(-1, len(df))
@@ -84,6 +87,7 @@ def section_into_columns(observations):
     df['ExhibitsLocation'] = np.repeat(-1, len(df))
     df['AccoladesLocation'] = np.repeat(-1, len(df))
     df['ProgramsLocation'] = np.repeat(-1, len(df))
+    # TODO make REFERENCES section?
     # ACTIVITY SECTION ############################## what you do outside of work and school
     df['VolunteerLocation'] = np.repeat(-1, len(df))
     df['Co_CurricularLocation'] = np.repeat(-1, len(df))
@@ -126,6 +130,8 @@ def section_into_columns(observations):
         if df.text.loc[i].lower().find('academic') != -1:
             if df.text.loc[i].lower().find('academic detail') != -1:
                 df['AcademicLocation'].loc[i] = df.text.loc[i].lower().find('\nacademic detail')
+            elif df.text.loc[i].lower().find('academic profile') != -1:
+                df['AcademicLocation'].loc[i] = df.text.loc[i].lower().find('\nacademic profile')
             elif df.text.loc[i].lower().find('academic background') != -1:
                 df['AcademicLocation'].loc[i] = df.text.loc[i].lower().find('\nacademic background')
             else:
@@ -231,6 +237,36 @@ def section_into_columns(observations):
             df['CareerGoalLocation'].loc[i] = df.text.loc[i].lower().find('\ncareer goal')
         if df.text.loc[i].lower().find('about me') != -1:
             df['AboutMeLocation'].loc[i] = df.text.loc[i].lower().replace(':', ' ').find('about me')
+
+
+
+        if df.text.loc[i].lower().find('profile') != -1:
+            if df.text.loc[i].lower().find('\nprofile of skills') != -1:
+                pass
+            elif df.text.loc[i].lower().find('\nqualificiation profile:') != -1:
+                pass
+            elif df.text.loc[i].lower().find('\nacademic profile:') != -1:
+                pass
+            elif df.text.loc[i].lower().find('\nprofile:') != -1:
+                df['PositionsHeldLocation'] = df.text.loc[i].lower().find('\nprofile:')
+            elif df.text.loc[i].lower().find('\npersonal profile') != -1:
+                df['PositionsHeldLocation'] = df.text.loc[i].lower().find('\npersonal profile')
+            elif df.text.loc[i].lower().find('\ncareer profile') != -1:
+                df['PositionsHeldLocation'] = df.text.loc[i].lower().find('\ncareer profile')
+            elif df.text.loc[i].lower().find('\nprofessional profile') != -1:
+                df['PositionsHeldLocation'] = df.text.loc[i].lower().find('\nprofessional profile')
+            elif df.text.loc[i].lower().find('\nbusiness profile') != -1:
+                df['PositionsHeldLocation'] = df.text.loc[i].lower().find('\nbusiness profile')
+            elif df.text.loc[i].lower().find('executive profile') != -1:
+                if df.text.loc[i].lower().find('\nexecutive profile') != -1:
+                    df['PositionsHeldLocation'] = df.text.loc[i].lower().find('\nexecutive profile')
+                elif df.text.loc[i].lower().find('executive profile') != -1:
+                    df['PositionsHeldLocation'] = df.text.loc[i].lower().find('executive profile\n')
+                else:
+                    df['PositionsHeldLocation'] = df.text.loc[i].lower().replace(':', ' ').find('executive profile \n')
+                #senior executive profile
+            else:
+                df['PositionsHeldLocation'] = df.text.loc[i].replace(':', ' ').replace('\n', '  ').find('PROFILE ')
 
         # TECHNICAL SECTION ##############################
 
@@ -585,6 +621,7 @@ def word_put_in_sections(observations):
     df['Summary'] = np.repeat("", len(df))
     df['CareerGoal'] = np.repeat("", len(df))
     df['AboutMe'] = np.repeat("", len(df))
+    df['Profile'] = np.repeat(-1, len(df))
     # TECHNICAL SECTION ##############################
     df['TechnicalSkills'] = np.repeat("", len(df))
     df['Technologies'] = np.repeat("", len(df))
@@ -694,8 +731,8 @@ def combine_sections(observations):
              'CareerHistory', 'WorkHistory'], axis=1, inplace=True)
 
     # SUMMARY SECTION ##############################
-    df['Summaries'] = df['Objective'] + df['Summary'] + df['CareerGoal'] + df['AboutMe']
-    df.drop(['Objective', 'Summary', 'CareerGoal', 'AboutMe'], axis=1, inplace=True)
+    df['Summaries'] = df['Objective'] + df['Summary'] + df['CareerGoal'] + df['AboutMe'] + df['Profile']
+    df.drop(['Objective', 'Summary', 'CareerGoal', 'AboutMe', 'Profile'], axis=1, inplace=True)
 
     # TECHNICAL SECTION ##############################
     df['Skill'] = df['ProfessionalSkills'] + df['SpecializedSkills'] + df['CareerRelatedSkills'] + \
