@@ -128,7 +128,7 @@ def section_into_columns(observations):
                 df['AcademicLocation'].loc[i] = df.text.loc[i].lower().find('\nacademic detail')
             elif df.text.loc[i].lower().find('academic background') != -1:
                 df['AcademicLocation'].loc[i] = df.text.loc[i].lower().find('\nacademic background')
-            elif df.text.loc[i].lower().find('academic training') != -1:
+            else:
                 df['AcademicLocation'].loc[i] = df.text.loc[i].lower().find('\nacademic training')
         if df.text.loc[i].lower().find('related course') != -1:
             df['RelatedCourseLocation'].loc[i] = df.text.loc[i].lower().find('\nrelated course')
@@ -180,6 +180,7 @@ def section_into_columns(observations):
                 df['ExperienceLocation'].loc[i] = df.text.loc[i].lower().replace(':', ' ').find('experience \n')
             elif df.text.loc[i].lower().replace(':', ' ').find(' experience \n'):
                 df['ExperienceLocation'].loc[i] = df.text.loc[i].lower().replace(':', ' ').find(' experience \n')
+            # else ... ?
             # TODO make sure it doesn't take study abroad experience and stuff like that
             # experience
             # work experience
@@ -202,12 +203,14 @@ def section_into_columns(observations):
             # SUMMARY SECTION ##############################
 
         if df.text.loc[i].lower().find('objective') != -1:
-            if df.text.loc[i].lower().find('\nobjective') != -1:
-                df['ObjectiveLocation'].loc[i] = df.text.loc[i].lower().find('\nobjective')
-            elif df.text.loc[i].lower().find(' objective\n') != -1:
-                df['ObjectiveLocation'].loc[i] = df.text.loc[i].lower().replace(':', ' ').find(' objective\n')
-            elif df.text.loc[i].lower().find(' objective \n') != -1:
-                df['ObjectiveLocation'].loc[i] = df.text.loc[i].lower().replace(':', ' ').find(' objective \n')
+            if df.text.loc[i].find('OBJECTIVE') != -1:
+                df['ObjectiveLocation'].loc[i] = df.text.loc[i].find('OBJECTIVE')
+            elif df.text.loc[i].find('\nObjective') != -1:
+                df['ObjectiveLocation'].loc[i] = df.text.loc[i].find('\nObjective')
+            elif df.text.loc[i].find(' objective\n') != -1:
+                df['ObjectiveLocation'].loc[i] = df.text.loc[i].replace(':', ' ').find(' Objective\n')
+            else:
+                df['ObjectiveLocation'].loc[i] = df.text.loc[i].replace(':', ' ').find(' Objective \n')
                 # covers titles:
             # objective
             # career objective
@@ -218,7 +221,7 @@ def section_into_columns(observations):
                 df['SummaryLocation'].loc[i] = df.text.loc[i].lower().find('\nsummary')
             elif df.text.loc[i].lower().find(' summary\n') != -1:
                 df['SummaryLocation'].loc[i] = df.text.loc[i].lower().replace(':', ' ').find(' summary\n')
-            elif df.text.loc[i].lower().find(' summary \n') != -1:
+            else:
                 df['SummaryLocation'].loc[i] = df.text.loc[i].lower().replace(':', ' ').find(' summary \n')
                 # summary
             # career summary
@@ -279,8 +282,8 @@ def section_into_columns(observations):
         if df.text.loc[i].lower().find('computer knowledge') != -1:
             df['ComputerKnowledgeLocation'].loc[i] = df.text.loc[i].lower().find('\ncomputer knowledge')
         if df.text.loc[i].lower().find('qualifications') != -1:
-            if df.text.loc[i].find('QUALIFICATION') != -1:
-                df['QualificationsLocation'].loc[i] = df.text.loc[i].find('QUALIFICATIONS')
+            if df.text.loc[i].find('\nQUALIFICATION') != -1:
+                df['QualificationsLocation'].loc[i] = df.text.loc[i].find('\nQUALIFICATION')
             else:
                 df['QualificationsLocation'].loc[i] = df.text.loc[i].find('\nQualifications')
         if df.text.loc[i].lower().find('career related skills') != -1:
@@ -344,7 +347,7 @@ def section_into_columns(observations):
             else:
                 df['EndorsementsLocation'].loc[i] = df.text.loc[i].find('\nEndorsements')
         if df.text.loc[i].lower().find('memberships') != -1:
-            if df['ProfessionalMembershipsLocation'].loc[i] > -1:  # TODO for other things that could double up
+            if df['ProfessionalMembershipsLocation'].loc[i] > -1:
                 pass
             elif df.text.loc[i].find('MEMBERSHIPS') != -1:
                 df['MembershipsLocation'].loc[i] = df.text.loc[i].find('MEMBERSHIPS')
@@ -390,7 +393,7 @@ def section_into_columns(observations):
                 df['ResearchLocation'].loc[i] = df.text.loc[i].find('\nRESEARCH')
             elif df.text.loc[i].lower().find('\nresearch grants') != -1:
                 df['ResearchLocation'].loc[i] = df.text.loc[i].lower().find('\nresearch grants')
-            elif df.text.loc[i].lower().find('\nresearch projects') != -1:
+            else:
                 df['ResearchLocation'].loc[i] = df.text.loc[i].lower().find('\nresearch projects')
         if df.text.loc[i].lower().find('scholarships') != -1:
             if df.text.loc[i].find('SCHOLARSHIPS') != -1:
@@ -404,7 +407,7 @@ def section_into_columns(observations):
         if df.text.loc[i].lower().find('conference') != -1:
             if df.text.loc[i].find('\nCONFERENCE'):
                 df['ConferenceLocation'].loc[i] = df.text.loc[i].find('\nCONFERENCE')
-            elif df.text.loc[i].lower().find('\nconferences'):
+            else:
                 df['ConferenceLocation'].loc[i] = df.text.loc[i].lower().find('\nconferences')
         if df.text.loc[i].lower().find('awards') != -1:
             if df.text.loc[i].find('AWARDS') != -1:
@@ -425,7 +428,7 @@ def section_into_columns(observations):
                 df['ProjectsLocation'].loc[i] = df.text.loc[i].lower().find('\nprojects')
             elif df.text.loc[i].find(' Projects\n') != -1:
                 df['ProjectsLocation'].loc[i] = df.text.loc[i].replace(':', ' ').find(' Projects\n')
-            elif df.text.loc[i].find(' Projects \n') != -1:
+            else:
                 df['ProjectsLocation'].loc[i] = df.text.loc[i].replace(':', ' ').find(' Projects \n')
         if df.text.loc[i].lower().find('exhibits') != -1:
             if df.text.loc[i].find('EXHIBITS') != -1:
@@ -451,7 +454,7 @@ def section_into_columns(observations):
                 # volunteer work
             elif df.text.loc[i].lower().replace(':', ' ').find(' volunteer roles\n') != -1:
                 df['VolunteerLocation'].loc[i] = df.text.loc[i].lower().replace(':', ' ').find(' volunteer roles\n')
-            elif df.text.loc[i].lower().replace(':', ' ').find(' volunteer roles \n') != -1:
+            else:
                 df['VolunteerLocation'].loc[i] = df.text.loc[i].lower().replace(':', ' ').find(' volunteer roles \n')
         if df.text.loc[i].lower().find('co-curricular') != -1:
             df['Co_CurricularLocation'].loc[i] = df.text.loc[i].lower().find('\nco-curricular')
@@ -495,7 +498,7 @@ def section_into_columns(observations):
                 df['ActivitiesLocation'].loc[i] = df.text.loc[i].find('ACTIVITIES')
             elif df.text.loc[i].replace(':', ' ').find(' Activities\n') != -1:
                 df['ActivitiesLocation'].loc[i] = df.text.loc[i].replace(':', ' ').find(' Activities\n')
-            elif df.text.loc[i].replace(':', ' ').find(' Activities \n') != -1:
+            else:
                 df['ActivitiesLocation'].loc[i] = df.text.loc[i].replace(':', ' ').find(' Activities \n')
             # activities
             # creative activities
@@ -504,7 +507,7 @@ def section_into_columns(observations):
                 df['AthleticInvolvementLocation'].loc[i] = df.text.loc[i].lower().find('\nathletic involvement')
             elif df.text.loc[i].lower().find('athletics\n') != -1:
                 df['AthleticInvolvementLocation'].loc[i] = df.text.loc[i].lower().find('athletics\n')
-            elif df.text.loc[i].lower().replace(':', ' ').find('athletics \n') != -1:
+            else:
                 df['AthleticInvolvementLocation'].loc[i] = df.text.loc[i].lower().replace(':', ' ').find('athletics \n')
         if df.text.loc[i].lower().find('civic activities') != -1:
             df['CivicActivitiesLocation'].loc[i] = df.text.loc[i].lower().find('\ncivic activities')
@@ -520,7 +523,7 @@ def section_into_columns(observations):
                 df['InvolvementLocation'].loc[i] = df.text.loc[i].find('\ninvolvement')
             elif df['ProfessionalInvolvementLocation'].loc[i] != -1:
                 pass
-            elif df.text.loc[i].find('INVOLVEMENT') != -1:
+            else:
                 df['InvolvementLocation'].loc[i] = df.text.loc[i].find('INVOLVEMENT')
         if df.text.loc[i].lower().find('campus involvement') != -1:
             df['CampusInvolvementLocation'].loc[i] = df.text.loc[i].lower().find('\ncampus involvement')
