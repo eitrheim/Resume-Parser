@@ -10,10 +10,9 @@ PHONE_REGEX = r"\(?(\d{3})?\)?[\s\.-]{0,2}?(\d{3})[\s\.-]{0,2}(\d{4})"
 
 def candidate_name_extractor(input_string, nlp):
 
-    doc = nlp(input_string)
+    doc = nlp(input_string.replace('\n','.'))
 
-    # Extract entities
-    doc_entities = doc.ents
+    doc_entities = doc.ents  # extract entities
 
     # Subset to person type entities
     doc_persons = filter(lambda x: x.label_ == 'PERSON', doc_entities)
@@ -21,8 +20,7 @@ def candidate_name_extractor(input_string, nlp):
     doc_persons = map(lambda x: x.text.strip(), doc_persons)
     doc_persons = list(doc_persons)
 
-    # Assuming that the first Person entity with more than two tokens is the candidate's name
-    if len(doc_persons) > 0:
+    if len(doc_persons) > 0:  # assume that the first Person entity is the candidate's name
         return doc_persons[0]
     return "NOT FOUND"
 

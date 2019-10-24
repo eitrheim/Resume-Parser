@@ -13,7 +13,7 @@ def section_into_columns(observations):
     df['CourseWorkLocation'] = np.repeat(-1, len(df))
     df['CoursesLocation'] = np.repeat(-1, len(df))
     df['RelatedCourseLocation'] = np.repeat(-1, len(df))
-    # TODO school?
+    # TODO school? university? college?
     # WORK SECTION ##############################
     df['ProfessionalHistoryLocation'] = np.repeat(-1, len(df))
     df['ProfessionalBackgroundLocation'] = np.repeat(-1, len(df))
@@ -728,7 +728,7 @@ def combine_sections(observations):
                  df['ProfessionalBackground'] + df['EmploymentHistory'] + df['ProfessionalTraining'] + \
                  df['CareerHistory'] + df['WorkHistory']
     df.drop(['CurrentRole', 'Experience', 'PreviousRoles', 'Positions', 'Apprenticeships', 'Internships',
-             'ProfessionalHistory', 'ProfessionalBackground', 'EmploymentHistory', 'EmploymentHistory',
+             'ProfessionalHistory', 'ProfessionalBackground', 'EmploymentHistory', 'ProfessionalTraining',
              'CareerHistory', 'WorkHistory'], axis=1, inplace=True)
 
     # SUMMARY SECTION ##############################
