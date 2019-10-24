@@ -16,7 +16,7 @@ sys.path.insert(0, parentdir)  # sys.path is the module search path
 
 def main():
 
-    logging.getLogger().setLevel(logging.INFO)  # essentially does print statements to help debug (WARNING)
+    logging.getLogger().setLevel(logging.WARNING)  # essentially does print statements to help debug (WARNING)
     # logging explained https://appdividend.com/2019/06/08/python-logging-tutorial-with-example-logging-in-python/
 
     # observations = extract()  # get text from resumes
@@ -46,14 +46,11 @@ def main():
     # to skip the section above
     observations = pd.read_csv('~/PycharmProjects/Resume-Parser/data/output/resume_sections.csv')
 
-    # Spacy: Spacy NLP
-    nlp = spacy.load('en_core_web_sm')
+    nlp = spacy.load('en_core_web_sm')  # spacy NLP
 
-    # Transform data to have appropriate fields
-    observations, nlp = transform(observations[:100], nlp)  # TODO first 100
+    observations = transform(observations, nlp)  # extract data from resume sections
 
-    # Load data for downstream consumption
-    load(observations, nlp)
+    load(observations)  # save to csv to finish
 
     pass
 
@@ -85,23 +82,19 @@ def extract():
 def transform(observations, nlp):
     logging.info('Begin transform')
 
-    # Extract candidate name
     observations['candidate_name'] = observations['text'].apply(lambda x: field_extraction.candidate_name_extractor(x, nlp))
-
-    # Extract contact fields
     observations['email'] = observations['text'].apply(lambda x: lib.term_match(x, field_extraction.EMAIL_REGEX))
     observations['phone'] = observations['text'].apply(lambda x: lib.term_match(x, field_extraction.PHONE_REGEX))
 
-    # Extract skills
-    observations = field_extraction.extract_fields(observations)
+    observations = field_extraction.extract_fields(observations)  # search for terms in whole resume
 
     # Archive schema and return
     lib.archive_dataset_schemas('transform', locals(), globals())
     logging.info('End transform')
-    return observations, nlp
+    return observations
 
 
-def load(observations, nlp):
+def load(observations):
     logging.info('Begin load')
     output_path = os.path.join(lib.get_conf('summary_output_directory'), 'resume_summary.csv')
 
@@ -113,6 +106,5 @@ def load(observations, nlp):
     pass
 
 
-# Main section
 if __name__ == '__main__':
     main()

@@ -26,39 +26,75 @@ def candidate_name_extractor(input_string, nlp):
 
 
 def extract_fields(df):
-    for extractor, items_of_interest in lib.get_conf('extractors').items():
-        df[extractor] = df['text'].apply(lambda x: extract_skills(x, extractor, items_of_interest))
+    for extractor, items_of_interest in lib.get_conf('case_agnostic_whole_resume').items():
+        # column name is title of the sections in the yaml file
+        df[extractor] = df['text'].apply(lambda x: extract_skills_case_agnostic(x, items_of_interest))
+
+    for extractor, items_of_interest in lib.get_conf('case_agnostic_education').items():
+        df[extractor] = df['Edu'].apply(lambda x: extract_skills_case_agnostic(x, items_of_interest))
+    for extractor, items_of_interest in lib.get_conf('case_sensitive_education').items():
+        df[extractor] = df['Edu'].apply(lambda x: extract_skills_case_sensitive(x, items_of_interest))
+
+    for extractor, items_of_interest in lib.get_conf('case_agnostic_languages').items():
+        df[extractor] = df['Language'].apply(lambda x: extract_skills_case_agnostic(x, items_of_interest))
+
     return df
 
 
-def extract_skills(resume_text, extractor, items_of_interest):
+def extract_skills_case_agnostic(resume_text, items_of_interest):
     potential_skills_dict = dict()
     matched_skills = set()
 
-    # TODO This skill input formatting could happen once per run, instead of once per observation.
     for skill_input in items_of_interest:
-
-        # Format list inputs
+        # Format list of strings inputs
         if type(skill_input) is list and len(skill_input) >= 1:
             potential_skills_dict[skill_input[0]] = skill_input
-
         # Format string inputs
         elif type(skill_input) is str:
             potential_skills_dict[skill_input] = [skill_input]
         else:
-            logging.warn('Unknown skill listing type: {}. Please format as either a single string or a list of strings'
-                         ''.format(skill_input))
+            logging.warning('Unknown skill listing type: {}. Please format as a string or a list of strings'.format(skill_input))
 
     for (skill_name, skill_alias_list) in potential_skills_dict.items():
 
         skill_matches = 0
-        # Iterate through aliases
+        # iterate through each string in the list of equivalent words (i.e. a line in the yaml file)
+        # TODO incorporate word2vec here?
         for skill_alias in skill_alias_list:
-            # Add the number of matches for each alias
-            skill_matches += lib.term_count(resume_text, skill_alias.lower())
+            skill_matches += lib.term_count(resume_text, skill_alias.lower())  # add the # of matches for each alias
 
-        # If at least one alias is found, add skill name to set of skills
+        if skill_matches > 0:  # if at least one alias is found, add skill name to set of skills
+            matched_skills.add(skill_name)
+
+    if len(matched_skills) == 0:  # so it doesn't save 'set()' in the csv when it's empty
+        matched_skills = ''
+
+    return matched_skills
+
+
+def extract_skills_case_sensitive(resume_text, items_of_interest):
+    potential_skills_dict = dict()
+    matched_skills = set()
+
+    for skill_input in items_of_interest:
+        if type(skill_input) is list and len(skill_input) >= 1:
+            potential_skills_dict[skill_input[0]] = skill_input
+        elif type(skill_input) is str:
+            potential_skills_dict[skill_input] = [skill_input]
+        else:
+            logging.warning('Unknown skill listing type: {}.'.format(skill_input))
+
+    for (skill_name, skill_alias_list) in potential_skills_dict.items():
+
+        skill_matches = 0
+        # TODO incorporate word2vec here?
+        for skill_alias in skill_alias_list:
+            skill_matches += lib.term_count_case_sensitive(resume_text, skill_alias)
+
         if skill_matches > 0:
             matched_skills.add(skill_name)
+
+    if len(matched_skills) == 0:
+        matched_skills = ''
 
     return matched_skills
