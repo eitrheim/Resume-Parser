@@ -16,7 +16,7 @@ Curriculars,object,observations
 candidate_name,object,observations
 email,object,observations
 phone,object,observations
-work_dates,object,observations
+GPA,object,observations
 greeklife,object,observations
 certifications,object,observations
 top_10_universities,object,observations

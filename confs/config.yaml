@@ -27,24 +27,102 @@ case_agnostic_education:
   - [California Institute of Technology,Caltech]
   - Dartmouth College
   - Brown University
+  - [Washington University in St. Louis,Washington University St. Louis,Washington University in St Louis]
+  - [University of California Los Angeles,University of California Los Angeles,UCLA]
+ top_100_universities:
   - University of Notre Dame
   - Vanderbilt University
   - Cornell University
   - Rice University
-  - [Washington University in St. Louis,Washington University St. Louis,Washington University in St Louis]
-  - [University of California Los Angeles,University of California Los Angeles,UCLA]
   - Emory University
-  - [University of California Berkeley]
- top_100_universities:
-  - [California State Polytechnic University Pomona,Cal Poly Pomona]
-  - [Central Georgia Technical College,CGTC]
-  - [California State University Bakersfield,CSU Bakersfield]
-  - [California State University Chico,CSU Chico]
-  - [California State University East Bay,CSU East Bay]
-  - [California State University Fresno,CSU Fresno]
-  - [California State University Fullerton,CSU Fullerton]
+  - [University of California Berkeley,UC Berkeley]
+  - University of Oxford
+  - University of Cambridge
+  - Imperial College London
+  - National University of Singapore
+  - Tsinghua University
+  - University of Pennsylvania
+  - University of Michigan
+  - John Hopkins University
+  - University of Tokyo
+  - Australian National University
+  - University of Hong Kong
+  - New York University
+  - Carnegia Mellow University
+  - University of Washington
+  - [University of Wisonsin, University of Wisconsin Madison]
+  - [University of Texas at Austin,University of Texas Austin]
+  - Georgia Institute of Technology
+  - [University of Illinois at Urbana Champaign, University of Illinois Urbana Champaign]
+  - University of North Carolina, Chapel Hill
+  - Pennsylvania State University
+  - Boston University
+  - [The Ohio State University, Ohio State University]
+  - University of California Davis
+  - Purdue Unniversity
+  - Universiy of Southern California
+  - [University of California San Diego, UC San Diego]
+  - [University of California San Francisco, UC San Francisco]
+  - [University of California Santa Barbara, UC Santa Barbara]
+  - University of Maryland College Park
+  - University of Pittsburgh
+  - Michigan State University
+  - Emory University
+  - University of Minnesota
+  - University of Florida
+  - University of Rochester
+  - University of Toronto
+  - Case Western Reserve University
+  - wellesley College
+  - Vanderbilt University
+  - University of College Boulder
+  - Darthmough College
+  - University of Notre Dame
+  - Arizone State University
+  - University of California Irvine
+  - Georgetown University
+  - University of Illinois Chicago
+  - Amherst College
+  - Tufts University
+  - Rutgers University
+  - University of Arizona
+  - University of Miami
+  - Norther Caroline State University
+  - University of Massachusetts
+  - Indiana University
+  - University of British Columbia
+  - University of Hawaii
+  - Virginia Polytechnic Institute and State University
+  - Northeastern University
+  - University of Utah
+  - University of Kansas
+  - University of Connecticut
+  - Rensselaer Polytechnic University
+  - University of Colorado Denver
+  - Wake Forest University
+  - University of Tennessee
+  - Tulane University
+  - Illinois Institute of Technology
+  - Boston College
+  - Colorado State University
+  - Florida State University
+  - University of California Riverside
+  - Oregon State University
+  - University of Georgia
+  - Wayne State University
+  - Drexel University
+  - University of Nebraska
+  - University of Oklahoma
+  - University of Vermont
   - Drake University
   - University of Iowa
+  - University of Edinburgh
+  - Pomona College
+  - United States Naval Academy
+  - Swarthmore College
+  - Swiss Federal Institute of Technology
+  - University of Melbourne
+  - University of Sydney
 
 
 case_sensitive_education:

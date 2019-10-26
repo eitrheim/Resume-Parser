@@ -53,7 +53,7 @@ def extract_fields(df):
         df[extractor] = df['text'].apply(lambda x: extract_skills_case_agnostic(x, items_of_interest))
     # get universities
     for extractor, items_of_interest in lib.get_conf('case_agnostic_education').items():
-        df[extractor] = df['Edu'].apply(lambda x: extract_skills_case_agnostic(x.replace(' - ', ' ').replace('-', ' ').replace(',', ''), items_of_interest))
+        df[extractor] = df['Edu'].apply(lambda x: extract_skills_case_agnostic(str(x).replace(' - ', ' ').replace('-', ' ').replace(',', ''), items_of_interest))
     # get level
     for extractor, items_of_interest in lib.get_conf('case_sensitive_education').items():
         df[extractor] = df['Edu'].apply(lambda x: extract_skills_case_sensitive(x, items_of_interest))
