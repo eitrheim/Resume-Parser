@@ -1,11 +1,12 @@
 import logging
-
+import re
 from gensim.utils import simple_preprocess
-
 import lib
 
 EMAIL_REGEX = r"[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}"
 PHONE_REGEX = r"\(?(\d{3})?\)?[\s\.-]{0,2}?(\d{3})[\s\.-]{0,2}(\d{4})"
+GPA_REGEX1 = r"GPA[ .:-]+[of ]{0,3}[01234]{1}\.[0-9]{1,3}"
+GPA_REGEX2 = r"[01234]{1}\.[0-9]{1,3}[ .:-]+GPA"
 
 
 def candidate_name_extractor(input_string, nlp):
@@ -40,16 +41,23 @@ def spacy_extractor_by_type(input_string, nlp, spacy_type, num_of_words):
     return doc_persons
 
 
+def gpa_extractor(input_string):
+    result = re.findall(re.compile(GPA_REGEX1), input_string.replace('\t', ' ').replace('\r', ' '))
+    result += re.findall(re.compile(GPA_REGEX2), input_string.replace('\t', ' ').replace('\r', ' '))
+    return result
+
+
 def extract_fields(df):
     for extractor, items_of_interest in lib.get_conf('case_agnostic_whole_resume').items():
         # column name is title of the sections in the yaml file
         df[extractor] = df['text'].apply(lambda x: extract_skills_case_agnostic(x, items_of_interest))
-
+    # get universities
     for extractor, items_of_interest in lib.get_conf('case_agnostic_education').items():
-        df[extractor] = df['Edu'].apply(lambda x: extract_skills_case_agnostic(x, items_of_interest))
+        df[extractor] = df['Edu'].apply(lambda x: extract_skills_case_agnostic(x.replace(' - ', ' ').replace('-', ' ').replace(',', ''), items_of_interest))
+    # get level
     for extractor, items_of_interest in lib.get_conf('case_sensitive_education').items():
         df[extractor] = df['Edu'].apply(lambda x: extract_skills_case_sensitive(x, items_of_interest))
-
+    # get languages spoken
     for extractor, items_of_interest in lib.get_conf('case_agnostic_languages').items():
         df[extractor] = df['Language'].apply(lambda x: extract_skills_case_agnostic(x, items_of_interest))
 

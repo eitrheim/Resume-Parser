@@ -19,29 +19,24 @@ def main():
     logging.getLogger().setLevel(logging.WARNING)  # essentially does print statements to help debug (WARNING)
     # logging explained https://appdividend.com/2019/06/08/python-logging-tutorial-with-example-logging-in-python/
 
-    # observations = extract()  # get text from resumes
-    # output_path = os.path.join(lib.get_conf('summary_output_directory'), 'resume_summary.csv')
-    # observations.to_csv(path_or_buf=output_path, index=False)
-
-    # to skip the section above
-    observations = pd.read_csv('~/PycharmProjects/Resume-Parser/data/output/resume_summary.csv')
+    observations = extract()  # get text from resumes
 
     # from https://www.kaggle.com/maitrip/resumes/download, did some data cleaning on it and resaved it
     kaggle_resumes = pd.read_csv('~/PycharmProjects/Resume-Parser/data/input/resumes/Kaggle_resume_dataset.csv', usecols=[0, 1, 2])
     observations = pd.concat([observations, kaggle_resumes], sort=False)
 
     # to get the start (as an int) of resume sections
-    observations_parsed = resume_sectioning.section_into_columns(observations)
-    output_path = os.path.join(lib.get_conf('summary_output_directory'), 'resume_parsed.csv')
-    observations_parsed.to_csv(path_or_buf=output_path, index=False)
+    observations = resume_sectioning.section_into_columns(observations)
+    output_path = os.path.join(lib.get_conf('summary_output_directory'), 'resume_parsed_int.csv')
+    observations.to_csv(path_or_buf=output_path, index=False)
 
     # get only words pertaining each sub-section
-    observations_fully_parsed = resume_sectioning.word_put_in_sections(observations_parsed)
+    observations = resume_sectioning.word_put_in_sections(observations)
 
     # to combine the sub-sections
-    observations_sectioned = resume_sectioning.combine_sections(observations_fully_parsed)
+    observations = resume_sectioning.combine_sections(observations)
     output_path = os.path.join(lib.get_conf('summary_output_directory'), 'resume_sections.csv')
-    observations_sectioned.to_csv(path_or_buf=output_path, index=False)
+    observations.to_csv(path_or_buf=output_path, index=False)
 
     # to skip the section above
     # observations = pd.read_csv('~/PycharmProjects/Resume-Parser/data/output/resume_sections.csv')
@@ -85,6 +80,7 @@ def transform(observations, nlp):
     observations['candidate_name'] = observations['text'].apply(lambda x: field_extraction.candidate_name_extractor(x, nlp))
     observations['email'] = observations['text'].apply(lambda x: lib.term_match(x, field_extraction.EMAIL_REGEX))
     observations['phone'] = observations['text'].apply(lambda x: lib.term_match(x, field_extraction.PHONE_REGEX))
+    observations['GPA'] = observations['text'].apply(lambda x: lib.gpa_extractor(x))
 
     # observations['work_dates'] = observations['Work'].apply(
     #     lambda x: field_extraction.spacy_extractor_by_type(str(x).replace('\n', '. '), nlp, 'DATE', 2))

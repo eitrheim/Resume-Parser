@@ -7,27 +7,44 @@ case_agnostic_whole_resume:
  - sorority
  - fraternity
  certifications:
- - [chartered financial analyst,cfa]
+ - [chartered financial analyst,cfa,]
  - [certified public accountant,cpa]
 
 
 case_agnostic_education:
  top_10_universities:
-  - [TU Delft, TUDelft, Delft University of Technology]
-  - [Univerity of Twente, UTwente]
-  - [University of Amsterdam]
-  - [Vrije Univesriteit, VU University, VU Amsterdam]
-  - [UChicago, University of Chicago]
-  - Drake University
-  - University of Iowa
+  - Princeton University
+  - Harvard University
+  - University of Chicago
+  - Columbia University
+  - Massachusetts Institute of Technology
+  - Yale University
+  - Stanford University
+  - University of Pennsylvania
+  - Northwestern University
+  - Duke University
+  - Johns Hopkins University
+  - [California Institute of Technology,Caltech]
+  - Dartmouth College
+  - Brown University
+  - University of Notre Dame
+  - Vanderbilt University
+  - Cornell University
+  - Rice University
+  - [Washington University in St. Louis,Washington University St. Louis,Washington University in St Louis]
+  - [University of California Los Angeles,University of California Los Angeles,UCLA]
+  - Emory University
+  - [University of California Berkeley]
  top_100_universities:
   - [California State Polytechnic University Pomona,Cal Poly Pomona]
   - [Central Georgia Technical College,CGTC]
-  - [California State University - Bakersfield,CSU Bakersfield]
-  - [California State University - Chico,CSU Chico]
-  - [California State University - East Bay,CSU East Bay]
-  - [California State University - Fresno,CSU Fresno]
-  - [California State University - Fullerton,CSU Fullerton]
+  - [California State University Bakersfield,CSU Bakersfield]
+  - [California State University Chico,CSU Chico]
+  - [California State University East Bay,CSU East Bay]
+  - [California State University Fresno,CSU Fresno]
+  - [California State University Fullerton,CSU Fullerton]
+  - Drake University
+  - University of Iowa
 
 
 case_sensitive_education:

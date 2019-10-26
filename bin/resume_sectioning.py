@@ -85,7 +85,7 @@ def section_into_columns(observations):
     df['ExhibitsLocation'] = np.repeat(-1, len(df))
     df['AccoladesLocation'] = np.repeat(-1, len(df))
     df['ProgramsLocation'] = np.repeat(-1, len(df))
-    # TODO make REFERENCES section?
+    # TODO add REFERENCES, PROFESSIONAL RECOGNITION, FUNDING, PROFESSIONAL SERVICE section?
     # ACTIVITY SECTION ############################## what you do outside of work and school
     df['VolunteerLocation'] = np.repeat(-1, len(df))
     df['Co_CurricularLocation'] = np.repeat(-1, len(df))
@@ -746,8 +746,9 @@ def combine_sections(observations):
              'CareerHistory', 'WorkHistory'], axis=1, inplace=True)
 
     # SUMMARY SECTION ##############################
-    df['Summaries'] = df['Objective'] + df['Summary'] + df['CareerGoal'] + df['AboutMe'] + df['Profile']
-    df.drop(['Objective', 'Summary', 'CareerGoal', 'AboutMe', 'Profile'], axis=1, inplace=True)
+    df['Summaries'] = df['Objective'] + df['Summary'] + df['CareerGoal'] + df['AboutMe'] + df['Profile'] + \
+                      df['PersonalStatement']
+    df.drop(['Objective', 'Summary', 'CareerGoal', 'AboutMe', 'Profile', 'PersonalStatement'], axis=1, inplace=True)
 
     # TECHNICAL SECTION ##############################
     df['Skill'] = df['ProfessionalSkills'] + df['SpecializedSkills'] + df['CareerRelatedSkills'] + \

@@ -3,6 +3,7 @@ NER: https://towardsdatascience.com/a-review-of-named-entity-recognition-ner-usi
 
 List of skills from :https://www.kaggle.com/vingkan/strategeion-resume-skills#skills.txt
 
+Delete - from uni when searching
 Auditing
 AutoCAD
 Automotive
@@ -2382,7 +2383,7 @@ Diving
   rock climbing
   snowboarding
   hiking
-
+Volleyball
 
 
 
