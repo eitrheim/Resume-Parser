@@ -34,47 +34,68 @@ case_sensitive_education:
  associate_education_level:
   - [Associate of Arts,A.A.,AA]
   - [Associate of Science,A.S.,AS]
+  - [Associate of Applied Science,A.A.S.,AAS]
+  - [Associate of General Studies,A.G.S.,AGS]
+  - Associates Degree
+  - Community College
  bachelor_education_level:
-  - [Bachelor of Arts,B.A.]
-  - [Bachelor of Science,B.S.,BS]
-  - [Bachelor of Engineering,B.E.]
+  - [Bachelor of Arts,B.A.,BA]
+  - [Bachelor of Fine Arts,B.F.A.,BFA]
+  - [Bachelor of Science,B.S.,BS,BSc,B.Sc]
+  - [Bachelor of Engineering,B.E.,BE]
+  - [Bachelor of Business,Bachelors of Business]
+  - [Bachelors of Accounting,Bachelor of Accountancy]
+  - Bachelor of Technology
+  - Bachelor of Medical Science
+  - [Bachelors of Commerce,Bachelor of Commerce]
+  - [Bachelors of Finance,Bachelor of Finance]
   - [Bachelor of Business Administration,B.B.A.,BBA]
   - [Bachelor of Commerce,B.Comm]
+  - [Bachelor of Health Science,BHS,B.H.S.]
   - [Bachelor of Law,LLB]
  master_education_level:
   - [Master of Business Administration,Masters of Business Administration,MBA,M.B.A.]
   - [Master of Fine Arts,Masters of Fine Arts,M.F.A.,MFA]
+  - Master of Education
+  - Master of Business
+  - [Master in Public Administration,Master of Public Administration,M.P.A,MPA]
+  - [Master of Public Policy,Master in Public Policy,M.P.P.,MPP]
   - [Master in Business Finance,Masters in Business Finance,MBF]
   - [Master of Arts,Masters of Arts,M.A.,MA]
-  - [Master of Science,Masters of Science,MSc,M.S.]
+  - [Master of Science,Masters of Science,MSc,M.S.,M.Sc,MS]
+  - Graduate Education
+  - Graduate School
  doctor_education_level:
   - [J.D.,Juris Doctor]
+  - Law School
   - [Medical Doctor,M.D.,MD]
+  - Medical School
   - [Doctor of Dental Surgery,D.D.S.,DDS]
-  - [Doctor of Pharmacy,Pharm.D.]
+  - [Doctor of Pharmacy,Pharm.D.,PharmD]
   - [Doctor of Philosophy,PhD,Ph.D]
   - [Doctor of Medicine,MD,M.D.]
   - [Doctor of Dental Surgery,DDS,D.D.S.]
+  - [Doctoral Program,Doctoral Candidate]
 
 
 case_agnostic_languages:
  languages:
+  - Arabic
+  - Bengali
+  - [Chinese, Mandarin]
+  - Czech
+  - Danish
   - Dutch
   - English
-  - German
-  - Spanish
-  - [Chinese, Mandarin]
   - French
+  - German
   - Greek
   - Hebrew
-  - Japanese
   - Hindi
-  - Russian
-  - Arabic
-  - Punjabi
-  - Bengali
-  - Portuguese
-  - Welsh
-  - Danish
-  - Czech
   - Italian
+  - Japanese
+  - Portuguese
+  - Punjabi
+  - Russian
+  - Spanish
+  - Welsh

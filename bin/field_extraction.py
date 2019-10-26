@@ -25,6 +25,21 @@ def candidate_name_extractor(input_string, nlp):
     return "NOT FOUND"
 
 
+def spacy_extractor_by_type(input_string, nlp, spacy_type, num_of_words):
+
+    doc = nlp(input_string)
+
+    doc_entities = doc.ents  # extract entities
+
+    # Subset to spaCy_type type entities https://spacy.io/api/annotation#named-entities
+    doc_persons = filter(lambda x: x.label_ == spacy_type, doc_entities)
+    doc_persons = filter(lambda x: len(x.text.strip().split()) >= num_of_words, doc_persons)
+    doc_persons = map(lambda x: x.text.strip(), doc_persons)
+    doc_persons = list(doc_persons)
+
+    return doc_persons
+
+
 def extract_fields(df):
     for extractor, items_of_interest in lib.get_conf('case_agnostic_whole_resume').items():
         # column name is title of the sections in the yaml file

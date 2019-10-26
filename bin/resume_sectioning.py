@@ -33,6 +33,7 @@ def section_into_columns(observations):
     df['CareerGoalLocation'] = np.repeat(-1, len(df))
     df['AboutMeLocation'] = np.repeat(-1, len(df))
     df['ProfileLocation'] = np.repeat(-1, len(df))
+    df['PersonalStatementLocation'] = np.repeat(-1, len(df))
     # TECHNICAL SECTION ##############################  knowledge related to the job
     df['TechnicalSkillsLocation'] = np.repeat(-1, len(df))
     df['TechnologiesLocation'] = np.repeat(-1, len(df))
@@ -156,8 +157,13 @@ def section_into_columns(observations):
             df['ProfessionalHistoryLocation'].loc[i] = df.text.loc[i].lower().find('\nprofessional history')
         if df.text.loc[i].lower().find('professional background') != -1:
             df['ProfessionalBackgroundLocation'].loc[i] = df.text.loc[i].lower().find('\nprofessional background')
-        if df.text.loc[i].lower().find('employment history') != -1:
-            df['EmploymentHistoryLocation'].loc[i] = df.text.loc[i].lower().find('\nemployment history')
+        if df.text.loc[i].lower().find('employment') != -1:
+            if df.text.loc[i].lower().find('\nemployment history') != -1:
+                df['EmploymentHistoryLocation'].loc[i] = df.text.loc[i].lower().find('\nemployment history')
+            elif df.text.loc[i].find('EMPLOYMENT HISTORY') != -1:
+                df['EmploymentHistoryLocation'].loc[i] = df.text.loc[i].find('EMPLOYMENT HISTORY')
+            else:
+                df['EmploymentHistoryLocation'].loc[i] = df.text.loc[i].find('EMPLOYMENT')
         if df.text.loc[i].lower().find('professional training') != -1:
             df['ProfessionalTrainingLocation'].loc[i] = df.text.loc[i].lower().find('\nprofessional training')
         if df.text.loc[i].lower().find('career history') != -1:
@@ -265,6 +271,8 @@ def section_into_columns(observations):
                 # senior executive profile
             else:
                 df['ProfileLocation'] = df.text.loc[i].replace(':', ' ').replace('\n', '  ').find('PROFILE ')
+            if df.text.loc[i].lower().find('\npersonal statement') != -1:
+                df['PersonalStatementLocation'].loc[i] = df.text.loc[i].lower().find('\npersonal statement')
 
         # TECHNICAL SECTION ##############################
 
@@ -298,9 +306,11 @@ def section_into_columns(observations):
                 df['CompetenciesLocation'].loc[i] = df.text.loc[i].find('\nCompetencies')
         if df.text.loc[i].lower().find('core competencies') != -1:
             df['CoreCompetenciesLocation'].loc[i] = df.text.loc[i].lower().find('\ncore competencies')
-        if df.text.loc[i].lower().find('certifications') != -1:
+        if df.text.loc[i].lower().find('certificat') != -1:
             if df.text.loc[i].find('CERTIFICATIONS') != -1:
                 df['CertificationsLocation'].loc[i] = df.text.loc[i].find('CERTIFICATIONS')
+            elif df.text.loc[i].find('CERTIFICATES') != -1:
+                df['CertificationsLocation'].loc[i] = df.text.loc[i].find('CERTIFICATES')
             else:
                 df['CertificationsLocation'].loc[i] = df.text.loc[i].find('\nCertifications')
         if df.text.loc[i].lower().find('licenses') != -1:
@@ -437,7 +447,10 @@ def section_into_columns(observations):
             else:
                 df['ScholarshipsLocation'].loc[i] = df.text.loc[i].find('\nScholarships')
         if df.text.loc[i].lower().find('current research') != -1:
-            df['CurrentResearchLocation'].loc[i] = df.text.loc[i].lower().find('\ncurrent research')
+            if df.text.loc[i].lower().find('\ncurrent research') != -1:
+                df['CurrentResearchLocation'].loc[i] = df.text.loc[i].lower().find('\ncurrent research')
+            else:
+                df['CurrentResearchLocation'].loc[i] = df.text.loc[i].find('CURRENT RESEARCH')
         if df.text.loc[i].lower().find('academic service') != -1:
             df['AcademicServiceLocation'].loc[i] = df.text.loc[i].lower().find('\nacademic service')
         if df.text.loc[i].lower().find('conference') != -1:
@@ -620,7 +633,8 @@ def word_put_in_sections(observations):
     df['Summary'] = np.repeat("", len(df))
     df['CareerGoal'] = np.repeat("", len(df))
     df['AboutMe'] = np.repeat("", len(df))
-    df['Profile'] = np.repeat(-1, len(df))
+    df['Profile'] = np.repeat("", len(df))
+    df['PersonalStatement'] = np.repeat("", len(df))
     # TECHNICAL SECTION ##############################
     df['TechnicalSkills'] = np.repeat("", len(df))
     df['Technologies'] = np.repeat("", len(df))
