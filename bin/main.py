@@ -19,31 +19,34 @@ def main():
     logging.getLogger().setLevel(logging.WARNING)  # essentially does print statements to help debug (WARNING)
     # logging explained https://appdividend.com/2019/06/08/python-logging-tutorial-with-example-logging-in-python/
 
-    # observations = extract()  # get text from resumes
+    observations = extract()  # get text from resumes
 
     # from https://www.kaggle.com/maitrip/resumes/download, did some data cleaning on it and resaved it
-    # kaggle_resumes = pd.read_csv('~/PycharmProjects/Resume-Parser/data/input/resumes/Kaggle_resume_dataset.csv', usecols=[0, 1, 2])
+    kaggle_resumes = pd.read_csv('~/PycharmProjects/Resume-Parser/data/input/resumes/Kaggle_resume_dataset.csv', usecols=[0, 1, 2])
     # observations = pd.concat([observations, kaggle_resumes], sort=False)
 
     # to get the start (as an int) of resume sections
-    # observations = resume_sectioning.section_into_columns(observations)
-    # output_path = os.path.join(lib.get_conf('summary_output_directory'), 'resume_parsed_int.csv')
-    # observations.to_csv(path_or_buf=output_path, index=False)
+    observations = resume_sectioning.section_into_columns(observations)
+    output_path = os.path.join(lib.get_conf('summary_output_directory'), 'resume_parsed_int.csv')
+    observations.to_csv(path_or_buf=output_path, index=False)
 
     # get only words pertaining each sub-section
-    # observations = resume_sectioning.word_put_in_sections(observations)
+    observations = resume_sectioning.word_put_in_sections(observations)
 
     # to combine the sub-sections
-    # observations = resume_sectioning.combine_sections(observations)
-    # output_path = os.path.join(lib.get_conf('summary_output_directory'), 'resume_sections.csv')
-    # observations.to_csv(path_or_buf=output_path, index=False)
+    observations = resume_sectioning.combine_sections_preparse(observations)
+    output_path = os.path.join(lib.get_conf('summary_output_directory'), 'resume_sections.csv')
+    observations.to_csv(path_or_buf=output_path, index=False)
 
     # to skip the section above
-    observations = pd.read_csv('~/PycharmProjects/Resume-Parser/data/output/resume_sections.csv')
+    # observations = pd.read_csv('~/PycharmProjects/Resume-Parser/data/output/resume_sections.csv')
 
     nlp = spacy.load('en_core_web_sm')  # spacy NLP
 
     observations = transform(observations, nlp)  # extract data from resume sections
+
+    # to combine the sub-sections one last time
+    observations = resume_sectioning.combine_sections_postparse(observations)
 
     load(observations)  # save to csv to finish
 

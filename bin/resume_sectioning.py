@@ -132,6 +132,8 @@ def section_into_columns(observations):
                 df['AcademicLocation'].loc[i] = df.text.loc[i].lower().find('\nacademic profile')
             elif df.text.loc[i].lower().find('academic background') != -1:
                 df['AcademicLocation'].loc[i] = df.text.loc[i].lower().find('\nacademic background')
+            elif df.text.loc[i].lower().find('academic qualification') != -1:
+                df['AcademicLocation'].loc[i] = df.text.loc[i].lower().find('\nacademic qualification')
             else:
                 df['AcademicLocation'].loc[i] = df.text.loc[i].lower().find('\nacademic training')
         if df.text.loc[i].lower().find('related course') != -1:
@@ -337,6 +339,8 @@ def section_into_columns(observations):
         if df.text.loc[i].lower().find('language') != -1:
             if df.text.loc[i].rfind('LANGUAGE') != -1:
                 df['LanguageLocation'].loc[i] = df.text.loc[i].rfind('LANGUAGE')
+            elif df.text.loc[i].rfind('Language Proficienc') != -1:
+                df['LanguageLocation'].loc[i] = df.text.loc[i].rfind('Language Proficienc')
             else:
                 df['LanguageLocation'].loc[i] = df.text.loc[i].rfind('\nLanguage')
             # language skills
@@ -726,7 +730,7 @@ def word_put_in_sections(observations):
     return df
 
 
-def combine_sections(observations):
+def combine_sections_preparse(observations):
     df = observations
 
     print('\nCombining sub-sections.')
@@ -786,10 +790,27 @@ def combine_sections(observations):
              'Additional'], axis=1, inplace=True)
 
     df['Curriculars'] = df['Co_Curricular'] + df['Extracurricular'] + df['Extra_Curricular'] + \
-                        df['CampusInvolvement'] + df['AthleticInvolvement'] + df['Involvement'] + df['Interests'] + \
-                        df['Hobbies'] + df['Affiliations'] + df['Accomplishments'] + df['Achievements']
+                        df['CampusInvolvement'] + df['AthleticInvolvement'] + df['Involvement'] +\
+                        df['Affiliations'] + df['Accomplishments'] + df['Achievements']
     df.drop(['Co_Curricular', 'Extracurricular', 'Extra_Curricular', 'CampusInvolvement', 'AthleticInvolvement',
-             'Involvement', 'Interests', 'Hobbies', 'Affiliations', 'Accomplishments', 'Achievements'],
+             'Involvement', 'Affiliations', 'Accomplishments', 'Achievements'],
             axis=1, inplace=True)
 
+    df['Hobby'] = df['Interests'] + df['Hobbies']
+    df.drop(['Interests', 'Hobbies'], axis=1, inplace=True)
+
     return df
+
+
+def combine_sections_postparse(observations):
+    df = observations
+
+    print('\nCombining sub-sections.')
+
+    # ACTIVITY SECTION ##############################
+
+    df['Extracurriculars'] = df['Curriculars'] + df['Hobby']
+    df.drop(['Curriculars', 'Hobby'], axis=1, inplace=True)
+
+    return df
+

@@ -9,167 +9,182 @@ case_agnostic_whole_resume:
  certifications:
  - [chartered financial analyst,cfa,]
  - [certified public accountant,cpa]
+ latin_honors:
+ - cum laude
+ - magna cum laude
+ - summa cum laude
 
 
 case_agnostic_education:
  top_10_universities:
-  - Princeton University
-  - Harvard University
-  - University of Chicago
-  - Columbia University
-  - Massachusetts Institute of Technology
-  - Yale University
-  - Stanford University
-  - University of Pennsylvania
-  - Northwestern University
-  - Duke University
-  - Johns Hopkins University
-  - [California Institute of Technology,Caltech]
-  - Dartmouth College
   - Brown University
+  - [California Institute of Technology,Caltech]
+  - Columbia University
+  - Harvard University
+  - Johns Hopkins University
+  - Massachusetts Institute of Technology
+  - Northwestern University
+  - Stanford University
   - [Washington University in St. Louis,Washington University St. Louis,Washington University in St Louis]
   - [University of California Los Angeles,University of California Los Angeles,UCLA]
- top_100_universities:
-  - University of Notre Dame
-  - Vanderbilt University
-  - Cornell University
-  - Rice University
-  - Emory University
-  - [University of California Berkeley,UC Berkeley]
-  - University of Oxford
-  - University of Cambridge
-  - Imperial College London
-  - National University of Singapore
-  - Tsinghua University
+  - University of Chicago
   - University of Pennsylvania
-  - University of Michigan
-  - John Hopkins University
-  - University of Tokyo
-  - Australian National University
-  - University of Hong Kong
-  - New York University
-  - Carnegia Mellow University
-  - University of Washington
-  - [University of Wisonsin, University of Wisconsin Madison]
-  - [University of Texas at Austin,University of Texas Austin]
-  - Georgia Institute of Technology
-  - [University of Illinois at Urbana Champaign, University of Illinois Urbana Champaign]
-  - University of North Carolina, Chapel Hill
-  - Pennsylvania State University
-  - Boston University
-  - [The Ohio State University, Ohio State University]
-  - University of California Davis
-  - Purdue Unniversity
-  - Universiy of Southern California
-  - [University of California San Diego, UC San Diego]
-  - [University of California San Francisco, UC San Francisco]
-  - [University of California Santa Barbara, UC Santa Barbara]
-  - University of Maryland College Park
-  - University of Pittsburgh
-  - Michigan State University
-  - Emory University
-  - University of Minnesota
-  - University of Florida
-  - University of Rochester
-  - University of Toronto
-  - Case Western Reserve University
-  - wellesley College
-  - Vanderbilt University
-  - University of College Boulder
-  - Darthmough College
-  - University of Notre Dame
-  - Arizone State University
-  - University of California Irvine
-  - Georgetown University
-  - University of Illinois Chicago
+  - Yale University
+ top_100_universities:
   - Amherst College
-  - Tufts University
-  - Rutgers University
-  - University of Arizona
-  - University of Miami
-  - Norther Caroline State University
-  - University of Massachusetts
-  - Indiana University
-  - University of British Columbia
-  - University of Hawaii
-  - Virginia Polytechnic Institute and State University
-  - Northeastern University
-  - University of Utah
-  - University of Kansas
-  - University of Connecticut
-  - Rensselaer Polytechnic University
-  - University of Colorado Denver
-  - Wake Forest University
-  - University of Tennessee
-  - Tulane University
-  - Illinois Institute of Technology
+  - Arizona State University
+  - Australian National University
   - Boston College
+  - Boston University
+  - Carnegie Mellon University
+  - Case Western Reserve University
   - Colorado State University
-  - Florida State University
-  - University of California Riverside
-  - Oregon State University
-  - University of Georgia
-  - Wayne State University
-  - Drexel University
-  - University of Nebraska
-  - University of Oklahoma
-  - University of Vermont
+  - Cornell University
+  - Dartmouth College
   - Drake University
-  - University of Iowa
-  - University of Edinburgh
+  - Drexel University
+  - Duke University
+  - Emory University
+  - Emory University
+  - Florida State University
+  - Georgetown University
+  - Georgia Institute of Technology
+  - Illinois Institute of Technology
+  - Imperial College London
+  - Indiana University
+  - John Hopkins University
+  - Michigan State University
+  - National University of Singapore
+  - New York University
+  - New York University
+  - Northeastern University
+  - North Carolina State University
+  - Ohio State University
+  - Oregon State University
+  - Pennsylvania State University
   - Pomona College
-  - United States Naval Academy
+  - Princeton University
+  - Purdue University
+  - Rensselaer Polytechnic University
+  - Rice University
+  - Rutgers University
   - Swarthmore College
   - Swiss Federal Institute of Technology
+  - Tsinghua University
+  - Tufts University
+  - Tulane University
+  - United States Naval Academy
+  - University of Arizona
+  - University of British Columbia
+  - [University of California Davis,UC Davis]
+  - [University of California Irvine,UC Irvine]
+  - University of Cambridge
+  - University of College Boulder
+  - University of Colorado Denver
+  - University of Connecticut
+  - University of Edinburgh
+  - University of Florida
+  - University of Georgia
+  - University of Hawaii
+  - University of Hong Kong
+  - University of Illinois Chicago
+  - University of Iowa
+  - University of Kansas
+  - University of Maryland College Park
+  - University of Massachusetts
   - University of Melbourne
+  - University of Miami
+  - University of Michigan
+  - University of Minnesota
+  - [University of Nebraska,University of Nebraska Lincoln, University of Nebraska-Lincoln]
+  - [University of North Carolina Chapel Hill,UNC Chapel Hill]
+  - University of Notre Dame
+  - University of Notre Dame
+  - University of Oklahoma
+  - University of Oxford
+  - University of Pennsylvania
+  - University of Pittsburgh
+  - University of Rochester
+  - University of Southern California
   - University of Sydney
-
+  - University of Tennessee
+  - University of Tokyo
+  - University of Toronto
+  - University of Utah
+  - University of Vermont
+  - University of Washington
+  - Vanderbilt University
+  - Vanderbilt University
+  - Virginia Polytechnic Institute and State University
+  - Wake Forest University
+  - Wayne State University
+  - Wellesley College
+  - [University of California Berkeley,UC Berkeley]
+  - [University of California San Diego,UC San Diego]
+  - [University of California San Francisco,UC San Francisco]
+  - [University of California Santa Barbara,UC Santa Barbara]
+  - [University of Illinois at Urbana Champaign,University of Illinois Urbana Champaign]
+  - [University of Texas at Austin,University of Texas Austin]
+  - [University of Wisconsin,University of Wisconsin Madison]
+ other_universities:
+  - Bucknell University
+  - College of Charleston
+  - Kent State University
+  - Nanyang Technological University
+  -
+  - Shanghai International Studies University
+  - [University of California Santa Cruz, UC Santa Cruz]
+  - University of London
+  - University of Nottingham
+  - University of Phoenix
+  - University of San Francisco
 
 case_sensitive_education:
  associate_education_level:
-  - [Associate of Arts,A.A.,AA]
-  - [Associate of Science,A.S.,AS]
-  - [Associate of Applied Science,A.A.S.,AAS]
-  - [Associate of General Studies,A.G.S.,AGS]
+  - [Associate of Arts,A.A.,' AA']
+  - [Associate of Science,A.S.,' AS']
+  - [Associate of Applied Science,A.A.S.,' AAS']
+  - [Associate of General Studies,A.G.S.,' AGS']
   - Associates Degree
   - Community College
  bachelor_education_level:
-  - [Bachelor of Arts,B.A.,BA]
-  - [Bachelor of Fine Arts,B.F.A.,BFA]
-  - [Bachelor of Science,B.S.,BS,BSc,B.Sc]
-  - [Bachelor of Engineering,B.E.,BE]
-  - [Bachelor of Business,Bachelors of Business]
+  - [Bachelor of Arts,B.A.,' BA']
+  - [Bachelor of Fine Arts,B.F.A.,' BFA']
+  - [Bachelor of Science,B.S.,' BS',BSc,B.Sc]
+  - [Bachelor of Engineering,B.E.,' BE']
   - [Bachelors of Accounting,Bachelor of Accountancy]
   - Bachelor of Technology
   - Bachelor of Medical Science
   - [Bachelors of Commerce,Bachelor of Commerce]
   - [Bachelors of Finance,Bachelor of Finance]
-  - [Bachelor of Business Administration,B.B.A.,BBA]
+  - [Bachelor of Business Administration,B.B.A.,' BBA']
+  - [Bachelor of Business,Bachelors of Business]
   - [Bachelor of Commerce,B.Comm]
-  - [Bachelor of Health Science,BHS,B.H.S.]
+  - [Bachelor of Health Science,' BHS',B.H.S.]
   - [Bachelor of Law,LLB]
+  - Bachelor’s Degree
  master_education_level:
-  - [Master of Business Administration,Masters of Business Administration,MBA,M.B.A.]
-  - [Master of Fine Arts,Masters of Fine Arts,M.F.A.,MFA]
+  - [Master of Business Administration,Masters of Business Administration,' MBA',M.B.A.]
+  - [Master of Fine Arts,Masters of Fine Arts,M.F.A.,' MFA']
   - Master of Education
   - Master of Business
-  - [Master in Public Administration,Master of Public Administration,M.P.A,MPA]
-  - [Master of Public Policy,Master in Public Policy,M.P.P.,MPP]
-  - [Master in Business Finance,Masters in Business Finance,MBF]
-  - [Master of Arts,Masters of Arts,M.A.,MA]
-  - [Master of Science,Masters of Science,MSc,M.S.,M.Sc,MS]
+  - [Master in Public Administration,Master of Public Administration,M.P.A,' MPA']
+  - [Master of Public Policy,Master in Public Policy,M.P.P.,' MPP']
+  - [Master in Business Finance,Masters in Business Finance,' MBF']
+  - [Master of Arts,Masters of Arts,M.A.,' MA']
+  - [Master of Science,Masters of Science,MSc,M.S.,M.Sc,' MS']
   - Graduate Education
   - Graduate School
  doctor_education_level:
   - [J.D.,Juris Doctor]
   - Law School
-  - [Medical Doctor,M.D.,MD]
+  - [Medical Doctor,M.D.,' MD']
   - Medical School
-  - [Doctor of Dental Surgery,D.D.S.,DDS]
+  - [Doctor of Dental Surgery,D.D.S.,' DDS']
   - [Doctor of Pharmacy,Pharm.D.,PharmD]
   - [Doctor of Philosophy,PhD,Ph.D]
-  - [Doctor of Medicine,MD,M.D.]
-  - [Doctor of Dental Surgery,DDS,D.D.S.]
+  - [Doctor of Medicine,' MD',M.D.]
+  - [Doctor of Dental Surgery,' DDS',D.D.S.]
   - [Doctoral Program,Doctoral Candidate]
 
 

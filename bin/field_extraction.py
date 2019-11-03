@@ -84,7 +84,7 @@ def extract_skills_case_agnostic(resume_text, items_of_interest):
         # iterate through each string in the list of equivalent words (i.e. a line in the yaml file)
         # TODO incorporate word2vec here?
         for skill_alias in skill_alias_list:
-            skill_matches += lib.term_count(resume_text, skill_alias.lower())  # add the # of matches for each alias
+            skill_matches += lib.term_count(resume_text.replace(',', ''), skill_alias.lower())  # add the # of matches for each alias
 
         if skill_matches > 0:  # if at least one alias is found, add skill name to set of skills
             matched_skills.add(skill_name)
@@ -112,7 +112,7 @@ def extract_skills_case_sensitive(resume_text, items_of_interest):
         skill_matches = 0
         # TODO incorporate word2vec here?
         for skill_alias in skill_alias_list:
-            skill_matches += lib.term_count_case_sensitive(resume_text, skill_alias)
+            skill_matches += lib.term_count_case_sensitive(resume_text.replace(',', ''), skill_alias)
 
         if skill_matches > 0:
             matched_skills.add(skill_name)
