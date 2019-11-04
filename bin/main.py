@@ -22,7 +22,7 @@ def main():
     observations = extract()  # get text from resumes
 
     # from https://www.kaggle.com/maitrip/resumes/download, did some data cleaning on it and resaved it
-    kaggle_resumes = pd.read_csv('~/PycharmProjects/Resume-Parser/data/input/resumes/Kaggle_resume_dataset.csv', usecols=[0, 1, 2])
+    # kaggle_resumes = pd.read_csv('~/PycharmProjects/Resume-Parser/data/input/resumes/Kaggle_resume_dataset.csv', usecols=[0, 1, 2])
     # observations = pd.concat([observations, kaggle_resumes], sort=False)
 
     # to get the start (as an int) of resume sections

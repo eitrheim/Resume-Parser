@@ -7,7 +7,7 @@ case_agnostic_whole_resume:
  - sorority
  - fraternity
  certifications:
- - [chartered financial analyst,cfa,]
+ - [chartered financial analyst,cfa]
  - [certified public accountant,cpa]
  latin_honors:
  - cum laude
@@ -131,7 +131,6 @@ case_agnostic_education:
   - College of Charleston
   - Kent State University
   - Nanyang Technological University
-  -
   - Shanghai International Studies University
   - [University of California Santa Cruz, UC Santa Cruz]
   - University of London
@@ -141,50 +140,50 @@ case_agnostic_education:
 
 case_sensitive_education:
  associate_education_level:
-  - [Associate of Arts,A.A.,' AA']
-  - [Associate of Science,A.S.,' AS']
-  - [Associate of Applied Science,A.A.S.,' AAS']
-  - [Associate of General Studies,A.G.S.,' AGS']
+  - [Associate of Arts,A.A.," AA "]
+  - [Associate of Science,A.S.,' AS ']
+  - [Associate of Applied Science,A.A.S.,' AAS ']
+  - [Associate of General Studies,A.G.S.,' AGS ']
   - Associates Degree
   - Community College
  bachelor_education_level:
-  - [Bachelor of Arts,B.A.,' BA']
-  - [Bachelor of Fine Arts,B.F.A.,' BFA']
-  - [Bachelor of Science,B.S.,' BS',BSc,B.Sc]
-  - [Bachelor of Engineering,B.E.,' BE']
+  - [Bachelor of Arts,B.A.,' BA ']
+  - [Bachelor of Fine Arts,B.F.A.,' BFA ']
+  - [Bachelor of Science,B.S.,' BS ',BSc,B.Sc]
+  - [Bachelor of Engineering,B.E.,' BE ']
   - [Bachelors of Accounting,Bachelor of Accountancy]
   - Bachelor of Technology
   - Bachelor of Medical Science
   - [Bachelors of Commerce,Bachelor of Commerce]
   - [Bachelors of Finance,Bachelor of Finance]
-  - [Bachelor of Business Administration,B.B.A.,' BBA']
+  - [Bachelor of Business Administration,B.B.A.,' BBA ']
   - [Bachelor of Business,Bachelors of Business]
   - [Bachelor of Commerce,B.Comm]
-  - [Bachelor of Health Science,' BHS',B.H.S.]
+  - [Bachelor of Health Science,' BHS ',B.H.S.]
   - [Bachelor of Law,LLB]
   - Bachelor’s Degree
  master_education_level:
   - [Master of Business Administration,Masters of Business Administration,' MBA',M.B.A.]
-  - [Master of Fine Arts,Masters of Fine Arts,M.F.A.,' MFA']
+  - [Master of Fine Arts,Masters of Fine Arts,M.F.A.,' MFA ']
   - Master of Education
   - Master of Business
-  - [Master in Public Administration,Master of Public Administration,M.P.A,' MPA']
-  - [Master of Public Policy,Master in Public Policy,M.P.P.,' MPP']
-  - [Master in Business Finance,Masters in Business Finance,' MBF']
-  - [Master of Arts,Masters of Arts,M.A.,' MA']
-  - [Master of Science,Masters of Science,MSc,M.S.,M.Sc,' MS']
+  - [Master in Public Administration,Master of Public Administration,M.P.A,' MPA ']
+  - [Master of Public Policy,Master in Public Policy,M.P.P.,' MPP ']
+  - [Master in Business Finance,Masters in Business Finance,' MBF ']
+  - [Master of Arts,Masters of Arts,M.A.,' MA ']
+  - [Master of Science,Masters of Science,MSc,M.S.,M.Sc,' MS ']
   - Graduate Education
   - Graduate School
  doctor_education_level:
   - [J.D.,Juris Doctor]
   - Law School
-  - [Medical Doctor,M.D.,' MD']
+  - [Medical Doctor,M.D.,' MD ']
   - Medical School
-  - [Doctor of Dental Surgery,D.D.S.,' DDS']
+  - [Doctor of Dental Surgery,D.D.S.,' DDS ']
   - [Doctor of Pharmacy,Pharm.D.,PharmD]
   - [Doctor of Philosophy,PhD,Ph.D]
   - [Doctor of Medicine,' MD',M.D.]
-  - [Doctor of Dental Surgery,' DDS',D.D.S.]
+  - [Doctor of Dental Surgery,' DDS ',D.D.S.]
   - [Doctoral Program,Doctoral Candidate]
 
 

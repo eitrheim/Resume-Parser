@@ -48,6 +48,7 @@ def gpa_extractor(input_string):
 
 
 def extract_fields(df):
+    # note all commas are removed at this point
     for extractor, items_of_interest in lib.get_conf('case_agnostic_whole_resume').items():
         # column name is title of the sections in the yaml file
         df[extractor] = df['text'].apply(lambda x: extract_skills_case_agnostic(x, items_of_interest))
@@ -56,7 +57,7 @@ def extract_fields(df):
         df[extractor] = df['Edu'].apply(lambda x: extract_skills_case_agnostic(str(x).replace(' - ', ' ').replace('-', ' ').replace(',', ''), items_of_interest))
     # get level
     for extractor, items_of_interest in lib.get_conf('case_sensitive_education').items():
-        df[extractor] = df['Edu'].apply(lambda x: extract_skills_case_sensitive(x, items_of_interest))
+        df[extractor] = df['Edu'].apply(lambda x: extract_skills_case_sensitive(x.replace('\n', ' '), items_of_interest))
     # get languages spoken
     for extractor, items_of_interest in lib.get_conf('case_agnostic_languages').items():
         df[extractor] = df['Language'].apply(lambda x: extract_skills_case_agnostic(x, items_of_interest))

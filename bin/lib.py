@@ -7,7 +7,8 @@ import re
 import subprocess
 
 import pandas as pd
-import yaml
+# import yaml
+from ruamel.yaml import YAML
 
 import pdf2text
 import pdf2textNEWER
@@ -26,6 +27,8 @@ def load_confs(confs_path='../confs/config.yaml'):
     global CONFS
 
     if CONFS is None:
+        yaml = YAML()
+        yaml.preserve_quotes = True
         try:
             CONFS = yaml.load(open(confs_path))
         except IOError:
