@@ -1,4 +1,4 @@
-file_path,extension,text,Language,Edu,Work,Summaries,Skill,Member,Writing,Researching,Honor,Activity,Curriculars,Hobby
+file_path,extension,text,Language,Edu,Course,Work,Summaries,Skill,Member,Writing,Researching,Honor,Activity,Curriculars,Hobby
 ../data/input/resumes/VolunteerResume_LK.pdf,.pdf,"Lauren Kollauf
 
 Content Creator & Nonprofit Storyteller
@@ -68,7 +68,7 @@ CONTACT ME:
 lauren@iowahealthieststate.com
 /Lauren-Kollauf
 
-","
+",,"
 CURRENT ROLE:
 Content Marketing Coordinator
 Healthiest State Initiative, June 2018 – Present
@@ -1208,7 +1208,7 @@ Engineering
 
  
  
-WORKING ","EXPERIENCE: 
+WORKING ",,"EXPERIENCE: 
  
 
 Company: 
@@ -2126,7 +2126,7 @@ Jan 2004 – Dec 2005  Hwa Chong Institution
   GCE ‘A’ Levels with distinctions in Biology and Economics 
 
  
-   CORPORATE ","EXPERIENCE 
+   CORPORATE ",,"EXPERIENCE 
 
  
 
@@ -2526,7 +2526,7 @@ Learning and Image Recognition, Natural Language Processing
 THE COLLEGE OF CHARLESTON                                                                                                      Charleston, SC 
 Bachelors of Science of Psychology - Developmental (May 2013) 
      GPA: 3.5 
-","
+",,"
 WORK EXPERIENCE 
 Northwestern University                                                                                                                                   Chicago, IL 
 Clinical Research Coordinator                                                                                                            Oct 2016 – Sep 2018 
@@ -2706,7 +2706,7 @@ Major: Broadcast News | Minor: Sociology | Concentration: Marketing & Management
  
 Humboldt University – Berlin, Germany – January to May 2011 – Metropolitan Studies program  
  
-","EXPERIENCE  
+",,"EXPERIENCE  
 The Des Moines Register – Des Moines, Iowa 
 Producer | January 2015 – Present  
 
@@ -3032,7 +3032,7 @@ Professional courses attended
 •  Year 2014: Certificate in Fund Administration 
 •  Year 2012: Bloomberg AIM 
 
- ","
+ ",,"
 Work History & Responsibilities 
 
 1.  Company: Lion Global Investors Limited 
@@ -3391,7 +3391,7 @@ Nanyang Junior College
 GCE “A” Levels 
  
  
-","EXPERIENCE 
+",,"EXPERIENCE 
 Compliance Officer at Vickers Financial Group (S) Pte Ltd 
 July 2013 to Present (3 years 7 months) 
 Compliance Duties: 
@@ -3624,7 +3624,7 @@ Master of Science, Analytics
 University of Washington 
 Bachelor of Science, Economics 
 Bachelor of Arts, Finance 
-","
+",,"
 PROFESSIONAL EXPERIENCE 
 
 West Monroe Partners 
@@ -4125,7 +4125,7 @@ Completed Bachelor in Accountancy, Second Major in Corporate Communication
  
 Rouen Business School (France) 
 Completed an exchange semester under the Master Grande Ecole Programme with 3 distinctions 
- ","
+ ",,"
 WORK EXPERIENCE 
 PricewaterhouseCoopers Risk Services Pte. Ltd. 
 Risk Assurance Assistant Manager – Governance, Risk and Controls 
@@ -4690,7 +4690,7 @@ Improvised the efficiency of Stock Takes, by introducing Minimum Quantity stock 
 
 out CTCs; resulted in the average aging balance decreasing from 90 to 120 to 60 to 90 days thereafter. 
 
-",,"
+",,,"
 Professional Experience 
  
 The Unity Group of Companies Pte Ltd - Associate                                                                                   September 2016 – till date 
@@ -5015,7 +5015,7 @@ Minor: International Relations
 International Leadership Scholarship
 
 Graduated May 2012
-","
+",,"
 Work Experience
 Project Director, Socratic Technologies 
 
@@ -5225,7 +5225,7 @@ Bachelor of Science in Mathematics
 Davidson, NC 
 Sep 2009 – May 2013 
 
-","EXPERIENCE 
+",,"EXPERIENCE 
 
 Chicago, IL 
 Jan 2019 - Present 
@@ -5437,7 +5437,7 @@ NOTICE PERIOD
 Bachelor of Accountancy 1996 - Nanyang Technological University 
 GCE “A” level 1992 - St Andrew’s Junior College 
 GCE “O’ Level 1990 - Crescent Girls’ School 
- ","EXPERIENCE 
+ ",,"EXPERIENCE 
 2007 – Present 
 EDBI Pte Ltd/ EDB Investments Pte Ltd/ Bio*One Capital Pte Ltd 
 – Director, Finance (2015 - Present) 
@@ -5773,7 +5773,7 @@ Major: Business Management
  
 SIGNIFICANT COURSEWORK 
 Business Finance, Principles of Management, Legal Environment of Business 
- ","
+ ",,"
 WORK EXPERIENCE  
 Kent State University, Kent, Ohio 
 Resident Advisor 
@@ -5999,7 +5999,7 @@ University of San Francisco
 Bachelor of Arts in Mathematics
 University of California, Santa Cruz
 Overall GPA: 3.5
-","
+",,"
 WORK EXPERIENCE
 
 Bank of America
@@ -6371,7 +6371,7 @@ Proficiency in system applications:
 
 4 
 
-","
+",,"
 Professional Experience: 
  
 Phillip Capital Management (S) Limited 
@@ -6761,7 +6761,7 @@ Profile Notes and Activity (2)
 
 3/7/2017—View by Ayyaz Ahmad
 
-","
+",,"
 Experience
 Compliance Lead at Vertex Venture Management Pte Ltd
 September 2016  -  Present  (7 months)
@@ -6968,7 +6968,7 @@ UNIVERSITY OF CHICAGO  |  March 2020 Expected
 Cumulative GPA: 4.0 (on a 4.0 scale) 
 Master of Science in Analytics 
  
-","EXPERIENCE 
+",,"EXPERIENCE 
  
 WEST MONROE PARTNERS 
 Data Analytics Consultant Intern  |  Chicago, IL  |  June 2019 – August 2019 
@@ -7139,7 +7139,7 @@ Expected June 2015
 May 2014
 
 SELECTED
-",,,"SKILLS
+",,,,"SKILLS
 
 Python, R, MySQL, PostgreSQL, Matlab, LaTeX, JMP
 
@@ -7485,7 +7485,7 @@ E: office@fundspartnership.com | W: www.fundspartnership.com Employment Agency L
 
 •  FLUENT IN ENGLISH, MALAY 
 
-","
+",,"
 PROFESSIONAL EXPERIENCE 
  
 PACIFIC STAR FINANCIAL PTE LTD OCT 2010 - PRESENT 
@@ -7976,7 +7976,7 @@ Lau Peiwen Erwina
 Erwina_lau@hotmail.com 
   Date of Birth:                                                                       29th March 1987 
    Residency Status:                                                            Singapore Citizen 
-   ",,,,,,,,,,
+   ",,,,,,,,,,,
 ../data/input/resumes/Resume_LK volunteer.pdf,.pdf,"Lauren Kollauf
 
 Content Creator & Nonprofit Storyteller
@@ -8046,7 +8046,7 @@ CONTACT ME:
 lauren@iowahealthieststate.com
 /Lauren-Kollauf
 
-","
+",,"
 CURRENT ROLE:
 Content Marketing Coordinator
 Healthiest State Initiative, June 2018 – Present
@@ -8718,7 +8718,7 @@ Ngee Ann Poly (2006 – 2009)
  
 Nippon Yusen Kaisha (2011- 2012) 
  
-Personal Skills ",,,"
+Personal Skills ",,,,"
 Software Skills 
 
  
@@ -9083,7 +9083,7 @@ Saleem Lalani – Deal Sheet
 
                 Page 1 of 1 
 
-","
+",,"
 PROFESSIONAL EXPERIENCE:  
 
 LUMINANCE FUND (Swiss-Asia Financial Services) – Part-Time Research Associate: (December 2016 – to date) – Singapore  
@@ -9274,7 +9274,7 @@ GPA 3.478/4.0
 Successful completion of EIT/FE exam, South Dakota registration number E-11137 
 Category II certified vibration analyst through the Vibration Institute 
 
- ","
+ ",,"
 Work Experience 
 Small business owner (part-time), Long Mountain Investments, LLC 
 College Station, TX, July 2016-Current 
@@ -10278,7 +10278,7 @@ Study Abroad Experience
 Universidad Espiritu Santo; Guayaquil, Ecuador                                                                                 
  
  
-","
+",,"
 WORK EXPERIENCE 
 
  
@@ -11284,7 +11284,7 @@ UNIVERSITY OF OTAGO (NEW ZEALAND) – Semester abroad; Fall 2013
 
 are present around the world.  It served as a launching point for my interest in international 
 business.  
-","
+",,"
 Professional Experience  _______________________________________________________________  
 
 PROLIANT BIOLOGICALS (SALES & MARKETING MANAGER)  JAN 2019 - PRESENT 
@@ -11982,7 +11982,7 @@ Biochemistry, Cell and Molecular Biology, magna cum laude
  
 Hennepin Technical College, Bloomington, MN  
 Emergency Medical Technician-Basic  
-","
+",,"
 PROFESSIONAL EXPERIENCE 
 
   Obstetrics and Gynecology Intern 
@@ -13259,7 +13259,7 @@ Drake
   6th,	
   2014)	
   
-","EXPERIENCE	
+",,"EXPERIENCE	
   
 Summer	
   Financial	
@@ -13962,7 +13962,7 @@ Bachelors of Accounting (Hons) from Nanyang Technological University (Singapore)
 
 
  Member of Certified Practising Accountants of Australia (“CPA Australia”)
-","
+",,"
 Professional Experiences
 
 Manager
@@ -14196,7 +14196,7 @@ Illinois Bar, admitted and in good standing, 2017.
  
 The University of Chicago Law School, Chicago, Illinois 
 J.D., graduated with Honors, June 2017 
-","EXPERIENCE 
+",,"EXPERIENCE 
  
 Skadden, Arps, Slate, Meagher & Flom LLP, Chicago, Illinois 
 Associate, September 2017 - Current 
@@ -14431,7 +14431,7 @@ challenges and questions.
 Education 
 1982 
 1977  B.Sc., MS., Applied Mathematics, Moscow State University, Russia. 
- ","
+ ",,"
 Experienced university professor. 25 years of teaching experience (Moscow St. Univ., Univ. of Chicago). 
  
 Experience 
@@ -14801,7 +14801,7 @@ RMIT, Singapore
 
  
 
-Languages  ",,,"
+Languages  ",,,,"
 Skills 
 MS Office (Word, Excel, PowerPoint) 
 MYOB 
@@ -14921,7 +14921,7 @@ Semester long study abroad program at the Universidad de Jaén in Jaén, Spain
 
 Cedar Falls, IA
 
-","
+",,"
 WORK EXPERIENCE 
 
 RedRidge Diligence Services - Chicago, IL
@@ -15211,7 +15211,7 @@ Minor: Art History
 
          
 
-","
+",,"
 Experience:  
  
  
@@ -15558,7 +15558,7 @@ Systems Engineering, Alpha Pi Mu Honors Society Certificate of Excellence in Ind
 
  
 
- ","
+ ",,"
 PROFESSIONAL EXPERIENCE 
 
  
@@ -15739,7 +15739,7 @@ Databases, Linear Regression Analysis, Time Series Analysis, Intro. SAS
 BS, Physics
 
 University of San Francisco, May 2014
-Minors: Computer Sciences, Mathematics","Experience
+Minors: Computer Sciences, Mathematics",,"Experience
 
 Data Scientist
 
@@ -15980,7 +15980,7 @@ Bachelor of Science in Economics, double majored in Psychology                  
 •  Relevant Coursework: Advanced Economics, Econometrics, Computational Finance, Multivariate Statistics 
 •  Leadership: Student Senator, Vice President of Chinese Student and Scholar Association 
 •  GMAT: 750, GRE: 332, Dean’s List, Alberta Corkery Scholarship Recipient, Member of Psi Chi Honor Society   
- ","
+ ",,"
 PROFESSIONAL EXPERIENCE                                                                                                                                                     
 Uptake Technologies 
 Data Science Intern   
@@ -16274,7 +16274,7 @@ Education
  
  
  
-Work ","
+Work ",,"
 Experience 
 2011-Present 
 2009-2011 
@@ -17006,7 +17006,7 @@ Singapore Institute of Management
 
 	
 
-IT ","
+IT ",,"
 PROFESSIONAL EXPERIENCE 
 2007 to Present  
  
@@ -17871,7 +17871,7 @@ Cook/Kitchen manager
 
 Billings, MT 
 
-",,,"
+",,,,"
 Qualifications 
 ",,,,,,,
 ../data/input/resumes/Catherine Crisp_Resume_2019-08-12.pdf,.pdf,"CATHERINE CRISP 
@@ -18150,7 +18150,7 @@ Major: International Studies | Minor: Environmental Studies
 GREEN BUILDING CERTIFICATION INSTITUTE | APRIL 2018 
 LEED AP Operations + Maintenance  
 
-","EXPERIENCE 
+",,"EXPERIENCE 
 
 WEST MONROE PARTNERS 
 
@@ -18706,7 +18706,7 @@ Gardening
 
 rohiniprakash1@gmail.com| +6598624747| PAGE 2 
 
-","EXPERIENCE  
+",,"EXPERIENCE  
 
 Fu nd   M an a ge me n t  
 Fund tax structuring 
@@ -19178,7 +19178,7 @@ Bachelor of Science in Banking & Finance - University of London (External Progra
 Graduated with Honors; Scored in Principles of Banking, Corporate Finance & Banking Operations & Risk Analysis 
 Diploma in Accounting & Finance - Temasek Polytechnic, Singapore 
  
-","
+",,"
 PROFESSIONAL EXPERIENCE 
 Apr 2016 –   
 Present   
@@ -19704,7 +19704,7 @@ Bachelor of Arts in Finance, Major GPA: 4.0/4.0| Cumulative GPA: 3.96/4.0
 
  
 
-","EXPERIENCE 
+",,"EXPERIENCE 
 360i | Chicago, IL 
 Junior Data Scientist   
 •  Build machine learning models to solve different client-related problems in the digital advertising space. 

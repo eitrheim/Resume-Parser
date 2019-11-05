@@ -52,12 +52,33 @@ def extract_fields(df):
     for extractor, items_of_interest in lib.get_conf('case_agnostic_whole_resume').items():
         # column name is title of the sections in the yaml file
         df[extractor] = df['text'].apply(lambda x: extract_skills_case_agnostic(x, items_of_interest))
-    # get universities
+    # drop cum laude if summa cum laude or magna cum laude are present
+    x = df[df.latin_honors == df.latin_honors]  # so it doesn't look at nans
+    for i in x.index:
+        if 'summa cum laude' in x.latin_honors.loc[i]:
+            df.latin_honors.loc[i].remove('cum laude')
+        if 'magna cum laude' in x.latin_honors.loc[i]:
+            df.latin_honors.loc[i].remove('cum laude')
+
+    # get universities and majors/minors
     for extractor, items_of_interest in lib.get_conf('case_agnostic_education').items():
-        df[extractor] = df['Edu'].apply(lambda x: extract_skills_case_agnostic(str(x).replace(' - ', ' ').replace('-', ' ').replace(',', ''), items_of_interest))
+        df[extractor] = df['Edu'].apply(lambda x: extract_skills_case_agnostic(str(x).replace(' - ', ' ').replace(' & ', ' and ').replace('-', ' ').replace(',', ''), items_of_interest))
+    # TODO drop duplicates
+    # TODO use word2vec to get all similar majors
+
     # get level
     for extractor, items_of_interest in lib.get_conf('case_sensitive_education').items():
         df[extractor] = df['Edu'].apply(lambda x: extract_skills_case_sensitive(x.replace('\n', ' '), items_of_interest))
+    # drop bach of biz if bach of biz admin is present
+    x = df[df.bachelor_education_level == df.bachelor_education_level]  # so it doesn't look at nans
+    for i in x.index:
+        if 'Bachelor of Business Administration' in x.bachelor_education_level.loc[i]:
+            df.bachelor_education_level.loc[i].remove('Bachelor of Business')
+
+    # get coursework
+    for extractor, items_of_interest in lib.get_conf('case_agnostic_courses').items():
+        df[extractor] = df['Course'].apply(lambda x: extract_skills_case_agnostic(x, items_of_interest))
+
     # get languages spoken
     for extractor, items_of_interest in lib.get_conf('case_agnostic_languages').items():
         df[extractor] = df['Language'].apply(lambda x: extract_skills_case_agnostic(x, items_of_interest))
@@ -71,13 +92,14 @@ def extract_skills_case_agnostic(resume_text, items_of_interest):
 
     for skill_input in items_of_interest:
         # Format list of strings inputs
-        if type(skill_input) is list and len(skill_input) >= 1:
+        if type(skill_input) is not str and len(skill_input) >= 1:
             potential_skills_dict[skill_input[0]] = skill_input
         # Format string inputs
-        elif type(skill_input) is str:
+        if type(skill_input) is str:
             potential_skills_dict[skill_input] = [skill_input]
         else:
-            logging.warning('Unknown skill listing type: {}. Please format as a string or a list of strings'.format(skill_input))
+            pass
+            #logging.warning('Unknown skill listing type: {}. Please format as a string or a list of strings'.format(skill_input))
 
     for (skill_name, skill_alias_list) in potential_skills_dict.items():
 
@@ -101,12 +123,13 @@ def extract_skills_case_sensitive(resume_text, items_of_interest):
     matched_skills = set()
 
     for skill_input in items_of_interest:
-        if type(skill_input) is list and len(skill_input) >= 1:
+        if type(skill_input) is not str and len(skill_input) >= 1:
             potential_skills_dict[skill_input[0]] = skill_input
         elif type(skill_input) is str:
             potential_skills_dict[skill_input] = [skill_input]
         else:
-            logging.warning('Unknown skill listing type: {}.'.format(skill_input))
+            pass
+            #logging.warning('Unknown skill listing type: {}.'.format(skill_input))
 
     for (skill_name, skill_alias_list) in potential_skills_dict.items():
 

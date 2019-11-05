@@ -4,6 +4,7 @@ extension,object,observations
 text,object,observations
 Language,object,observations
 Edu,object,observations
+Course,object,observations
 Work,object,observations
 Summaries,object,observations
 Skill,object,observations
@@ -24,8 +25,10 @@ latin_honors,object,observations
 top_10_universities,object,observations
 top_100_universities,object,observations
 other_universities,object,observations
+major_minor,object,observations
 associate_education_level,object,observations
 bachelor_education_level,object,observations
 master_education_level,object,observations
 doctor_education_level,object,observations
+courses,object,observations
 languages,object,observations

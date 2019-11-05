@@ -29,6 +29,7 @@ def load_confs(confs_path='../confs/config.yaml'):
     if CONFS is None:
         yaml = YAML()
         yaml.preserve_quotes = True
+        yaml.indent(mapping=4, sequence=4, offset=2)
         try:
             CONFS = yaml.load(open(confs_path))
         except IOError:

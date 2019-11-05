@@ -2,13 +2,16 @@ resume_directory: ../data/input/resumes
 summary_output_directory: ../data/output
 data_schema_dir: ../data/schema
 
+
 case_agnostic_whole_resume:
  greeklife:
  - sorority
  - fraternity
  certifications:
- - [chartered financial analyst,cfa]
- - [certified public accountant,cpa]
+ - [Chartered Financial Analyst,CFA]
+ - [Certified Public Accountant,CPA]
+ - [Association of Chartered Certified Accountant,ACCA]
+ - [Chartered Institute of Management Accountants,CIMA]
  latin_honors:
  - cum laude
  - magna cum laude
@@ -129,82 +132,382 @@ case_agnostic_education:
  other_universities:
   - Bucknell University
   - College of Charleston
+  - Creighton University
+  - Humboldt University
   - Kent State University
   - Nanyang Technological University
   - Shanghai International Studies University
+  - Singapore Management University
+  - South Dakota School of Mines and Technology
+  - Texas A&M University
   - [University of California Santa Cruz, UC Santa Cruz]
   - University of London
+  - University of Michigan
   - University of Nottingham
+  - University of Otago
   - University of Phoenix
   - University of San Francisco
+ major_minor:
+  - [Accounting,Forensic Accounting]
+  - [Adult Development,Gerontology]
+  - [Aeronautics,Aeronautical Engineering,Aeronautical Engineering Technologies,Aerospace Engineering,Astronautics,Astrophysics,Space Science,Astronomy,Planetary Science]
+  - [African Studies,Pan-African Studies,African-American Studies,Africana Studies,Pan-African Studies]
+  - [Agricultural Business,Agricultural Economics,International Agriculture,Agribusiness Operations,Agricultural Technology Management,Agricultural Management,Agricultural Mechanization]
+  - [Agriculture,Agricultural Production,Agricultural Science,Agricultural Engineering,Agricultural Bioengineering,Crop Science,Feed Science,Agronomy]
+  - [Airway Science,Aircraft Technology,Air Transportation,Air Traffic Control,Aircraft Mechanics,Aircraft Navigation,Aircraft Piloting]
+  - [American Studies,Canadian Studies,North American Area Studies,Native American Studies,American Native American Studies,Latin American Studies,Latino Studies,Latin American Area Studies,Chicano Studies,Chicano Studies,Puerto Rican Studies,Latin American Studies,Caribbean Studies]
+  - [Analytics,Computational Analysis]
+  - [Animal Science,Animal Bioscience,Animal Behavior,Ethology]
+  - [Archaeology,Archeology,Anthropology]
+  - [Architecture,Architectural Design,Architectural Environmental Design,Architectural Drafting Technology,Architectural Engineering]
+  - [Art,Studio Art,Studio Arts,Painting,Ceramics,Multimedia,Poetry,Printmaking,Printmaking,Illustration,Drawing,Art Conservation,Digital Arts,Contemporary Arts,Electronic Art,Visual Arts]
+  - [Artificial Intelligence,Robotics]
+  - [Asian Studies,Asian American Studies,Asian Area Studies,Asian-American Studies,East Asian Civilizations,East Asian Studies,South Asia Studies,South Asian Studies,Southeast Asia Studies,Near Eastern Civilizations,Eastern Civilizations]
+  - [Automotive Engineering,Automotive Mechanics,Automotive Technology,Autobody Repair]
+  - [Aviation,Aviation Management,Aviation Operations,Aviation Science,Avionics Technology]
+  - [Bakery Science,Culinary Arts]
+  - [Biobehavioral Health,Biological Basis of Behavior]
+  - [Biology,Cell Biology,Cellular Biology,Molecular Biology,Microbiology,Molecular Life Science,Biological Chemistry,Biological Sciences,Cellular and Molecular Biology,Physiology,Quantitative Biology,Integrative Biology]
+  - [Biomedical Engineering,Biomedical Science]
+  - [Biophysics,Biophysical Science]
+  - [Bioresource Science,Bioresource Engineering]
+  - [Building Technology,Circulation Technology]
+  - [Business Administration,Business Management,Small Business Operations]
+  - [Business Analytics,Business Intelligence]
+  - [Chemical Engineering,Soft Materials Engineering]
+  - [Child Care,Child Care Services Management,Child Development]
+  - [Civil Engineering,Civil Engineering Technology]
+  - [Communication Technology,Telecommunication,Communication Networks,Communication Engineering,Communication Security]
+  - [Communication,Communication Studies,Professional Communication,Business Communication,Political Communication,Mass Communication,Organizational Communication,Corporate Communication,Communication Arts,Technical Communication,Digital Communication,Global Communication,Rhetoric,Rhetorical Studies,Public Speaking]
+  - [Computer Engineering,Computer Engineering Technology]
+  - [Computer Networks and Systems,Computer Network Technology,Computer System Administration,Computer Systems Analysis,Computer Networking,Computer Network,Network Administration]
+  - [Computer Science,Computer Programming]
+  - [Construction Engineering,Construction Technology,Construction Management]
+  - [Counseling,School Counseling,Christian Counseling,Marriage & Family Therapy]
+  - [Criminal Science,Criminal Justice,Criminology,Crime and Justice Studies,Crime Law and Justice,Social Justice,Corrections]
+  - [Data Management Technology,Data Processing]
+  - [Data Science,Data Analytics]
+  - [Dental Hygiene,Dental Assisting]
+  - [Diesel Technology,Diesel Mechanics]
+  - [Drafting Technology,Computer Aided Drafting,Mechanical Drafting Technology]
+  - [Early Childhood Education,Kindergarten Education,Elementary Education]
+  - [Ecology,Ecology Science]
+  - [Economics,Mathematical Economics,Econometrics]
+  - [Education Administration,Educational Administration]
+  - [Education,Education Studies]
+  - [Electrical Engineering,Electronics Engineering,Electromechanical Engineering]
+  - [Engineering,Engineering Science]
+  - [English As A Second Language,Education of The Deaf]
+  - [English Education, Language Arts Education]
+  - [Environmental Design,Environmental Architecture]
+  - [Environmental Engineering,Environmental Health Engineering,Environmental Systems Engineering]
+  - [Environmental Studies,Environmental Science,Environmental Policy,Environmental and Urban Studies]
+  - [Equestrian Studies,Equine Studies,Equine Business]
+  - [Ethnic Studies,Ethnicity Studies,Race Studies,Comparative Race and Ethnic Studies,Comparative Race Studies]
+  - [European Studies,East European Studies,European Area Studies,Scandinavian Studies,Italian Studies]
+  - [Facilities Administration,Facilities Management]
+  - [Fashion,Apparel Design,Fashion Design]
+  - [Film,Film Studies,Digital Filmmaking,Film Production,Cinema,Cinematography,Cinema Studies,Video Production,Digital Studies]
+  - [Finance,Financial Planning,Banking,International Finance,Financial Management]
+  - [Fitness Management,Fitness Administration]
+  - [Food and Nutrition,Food Science,Food Studies,Food Technology,Nutrition,Nutrition Science,Nutritional Science,Dietetics,Molecular Metabolism]
+  - [Forensics,Forensic Science]
+  - [Forestry,Forest Science,Forest Technology,Forestry Management]
+  - [Funeral Services,Mortuary Science]
+  - [Gender Studies,Women's Studies,Sexuality Studies,Gender and Sexuality Studies]
+  - [Genetics,Molecular Genetics,Human Genetics]
+  - [Genomics,Epigenomics,Epigenetics]
+  - [Geography,Geographical Sciences,Geographic Information Systems]
+  - [Geology,Geological Engineering,Geological Science,Geoscience]
+  - [Global Health,Global Health Sciences]
+  - [Graphic Design,Computer Graphics,Animation,Electronic Animation,Special Effects,Video Game Design,Game Design]
+  - [Health Services Administration,Health Systems Management,Medical Office Administration,Hospital Administration,Healthcare Administration,Health Administration,Healthcare Management]
+  - [Hispanic Studies,Hispanic-American Studies]
+  - [History of Art,American History,Museum Studies,Architectural History]
+  - [History,European History,Ancient History,American History,Classical Civilization,Medieval Studies,Renaissance Studies,Cuneiform Studies,Assyriology,Hittitology,Sumerology,Medieval Studies]
+  - [Home Economics,Consumer Economics,Family and Consumer Science,Family Economics, Family and Life Sciences,Family Studies]
+  - [Horticulture,Horticulture Operation,Botany,Horticulture Management,Horticulture Science,Plant Studies,Plant Biology,Plant Pathology,Landscape Horticulture]
+  - [Hospitality,Hospitality Management,Hotel Management,Motel Management,Restaurant Management,Restaurant Services Management]
+  - [Human Development,Comparative Human Development]
+  - [Human Resources,Human Resources Development,Human Resources Management]
+  - [Human Rights Studies,Human Rights]
+  - [Immunology,Immunomics]
+  - [Industrial Production Technologies,Machine Tool Technology]
+  - [Informatics,Health Informatics,Healthcare Informatics,Bioinformatics,Biomedical Informatics]
+  - [Information Science,Information Systems,Informational Systems,Management Information Systems]
+  - [Information Technology,Information Technology Management]
+  - [Interior Design,Furniture Design,Textile Designs,Textile Engineering,Interior Architecture]
+  - [International Business,International Business Management]
+  - [International Relations,International Affairs,Global Studies,International Studies]
+  - [Journalism,Photojournalism,Broadcast Journalism,Radio Broadcasting,Television Broadcasting,Radio Production,Radio And Television,Television Production,Recording Technology,Recording Arts Technology,News Media,Digital Media,Media Studies, Media Arts]
+  - [Kinesiology,Exercise Science,Exercise Biology,Sports Medicine,Sports Science,Personal Training,Athletic Training]
+  - [Labor Relations,Industrial Relations]
+  - [Landscape Architecture,Landscape Design,Land Use Management,Land Use Planning,Turfgrass Science,Range Science,Range Management,Soil Science]
+  - [Law Enforcement,Protective Services]
+  - [Law Politics and Society,Law Letters and Society,Law And Society]
+  - [Law,Legal Studies]
+  - [Legal Assistant,Legal Assisting,Paralegal,Legal Administrative]
+  - [Liberal Studies,Multidisciplinary Studies,Humanities,Individual Studies,Interdisciplinary Studies,General Science,Liberal Arts,Integrated Science Studies]
+  - [Literary Studies,Classical Studies,Classics,French Literature,Romance Literature,Greek Culture, Roman Culture,Attic Greek]
+  - [Literature,African Literatures,American Literature,Asian Literatures,Comparative Literature,English Literature,Foreign Literature,French Literature,German Literature,Italian Literature,Jewish Literature,Middle Eastern Literature,Roman Literature,Romance Literature,Russian Literature,Slavic Literatures,Spanish Literature]
+  - [Logistics,Business Logistics,Logistics Management,Supply Chain Management]
+  - [Management,Institutional Management,Operations Management,Operations Supervision,Project Management,Management Science]
+  - [Marine Science,Marine Biology,Aquatic Biology,Aquaculture,Aquatic Science]
+  - [Marketing,Sales Marketing,Digital Marketing]
+  - [Material Management,Materials Management]
+  - [Materials Science,Materials Science and Engineering,Materials Engineering]
+  - [Mathematics Education,Math Education]
+  - [Mathematics,Applied Math,Applied Mathematics,Mathematics Science,Computational Mathematics]
+  - [Mechanical Engineering,Mechanical Engineering Technology]
+  - [Medical Assistant,Medical Assisting]
+  - [Medical Billing,Medical Records,Diagnostic Medical Sonography]
+  - [Medical Imaging Science,Sonography]
+  - [Medical Technology,Medical Laboratory Technology,Medical Radiologic Technology,Emergency Medical Technology,Nuclear Medicine Technology,Medicine Technology,Surgical Technology,Health Technology,Clinical Laboratory Science,Clinical Lab Science,Medical Laboratory Scientist,Medical Lab Scientist]
+  - [Mental Health Services,Mental Health Counseling,Community Mental Health]
+  - [Merchandising,Sales Merchandising,Merchandising Operations,Fashion Merchandising]
+  - [Meteorology,Atmospheric Science]
+  - [Middle Eastern Studies,Modern Middle Eastern Studies,Armenian Studies,Egyptology,Egyptian Civilization,Isreali Studies,Persian Studies,Iranian Studies,Turkish Studies,Ottoman Studies]
+  - [Middle School Education,Junior High Education]
+  - [Military Technologies,Military Science]
+  - [Music,Church Music,Ethnomusicology,Music Composition,Music Education,Music History,Music Industry,Music Management,Music Performance,Music Production,Music Theory,Music Therapy,Musical Theater,Jazz Studies,Choir]
+  - [Neuroscience,Neurobiology,Computational Neuroscience]
+  - [Nursing,Licensed Practiced Nurse," LPN ",Registered Nurse," RN ",Legal Nurse Consulting]
+  - [Oceanography,Ocean Engineering]
+  - [Office Management,Office Administration,Office Supervision]
+  - [Organizational Behavior,Organizational Behavior Studies,Organizational Leadership]
+  - [Osteopathic Medicine,Holistic Medicine]
+  - [Parks and Recreation,Recreation and Parks,Parks Recreation,Recreation Management]
+  - [Pathology,Experimental Pathology]
+  - [Pharmacy,Pharmacology]
+  - [Philosophy,Contemplative Studies]
+  - [Physical Science,Earth Science]
+  - [Physics, Theoretical Physics,Geophysics,Engineering Physics,Chemical Physics]
+  - [Political Science,Politics,Government]
+  - [Psychology,Educational Psychology,Biopsychology,Social Psychology,Developmental Psychology,Clinical Psychology,Experimental Psychology,Cognitive Psychology,Industrial Psychology,Physiological Psychology,Forensic Psychology,Counseling Psychology,Behavioural Sciences,Behavioral Science,Behavioral Neuroscience,Behavioral Psychology,Biopsychology,Psychobiology]
+  - [Public Health,Health and Society, Public Health Sciences]
+  - [Public Policy,Public Policy Analysis,Computational Analysis and Public Policy,Public Policy and Service,Public Policy Studies]
+  - [Public Relations,Public Affairs]
+  - [Purchasing Management,Buying Operations]
+  - [Quantum Computing,Supercomputing,Quantum Processing,Quantum Engineering,Quantum Technology]
+  - [Quantum Mechanics,Quantum Physics, Quantum Theory,Matrix Mechanics]
+  - [Radiology,Radiologic Technology]
+  - [Rehabilitation Therapy,Physical Therapy,Physical Therapy Assisting,Occupational Therapy,Occupational Therapy Assisting,Vocational Rehabilitation Counseling,Rehabilitation Services]
+  - [Resource Management,Sustainable Resource Management,Natural Resources Management,Natural Resources Conservation,Sustainability]
+  - [Retail Management,Store Management]
+  - [Risk Management,Emergency Management,Response Management,Threat Management,Threat and Response Management]
+  - [Senior High Education,Secondary Education]
+  - [Social Science Education,Social Studies Education]
+  - [Social Science,Computational Social Science]
+  - [Social Welfare,Social Work,Social Service Administrative]
+  - [Sociology,Rural Sociology,Public Sociology]
+  - [Speech Studies,Linguistics,Speech Pathology,Speech Communication,Speech Science,Communication Disorders,Communication Disorder Services,Hearing Disorder,Speech Disorder,Hearing Science]
+  - [Sport Management,Sports Management,Sport Administration,Sports Administration]
+  - [Substance Abuse Counseling,Drug Abuse Counseling,Alcohol Abuse Counseling]
+  - [Surveying,Surveying Technology]
+  - [Systems Engineering,Systems Analysis]
+  - [Theater Studies,Theater,Theatre,Theater Management,Technical Theater,Theatre Arts,Visual Arts,Drama,Theatre Drama,Acting,Prop Production,Costume Design,Stage Design,Stage Management,Dance,Performance Studies]
+  - [Theology,Bible Studies,Biblical Studies,Islamic Studies,Divinity,Seminary,Religion,Religious Education,Religious Studies,Youth Ministries,Jewish Studies,Judaic Studies,Pastoral Studies,Youth Ministries,Ministry,Ministry Administration,Church Administration,ChristianityReligious Ethics,History of Christianity,History of Judaism]
+  - [Tourism,Tourism Management,Travel Management,Tourism Marketing,Travel Marketing]
+  - [Urban Planning,City Planning]
+  - [Urban Studies,Urban Affairs]
+  - [Veterinarian Assisting,Veterinary Technician]
+  - [Veterinary Science,Veterinary Studies,Veterinarian Technology,Veterinary Medicine]
+  - [Visual Communication,Visual Communication Design,Visual Studies]
+  - [Viticulture,Vineyard Management,Enology]
+  - [War Studies,Peace Studies,Genocide Studies]
+  - [Web Design,Webpage Design]
+  - [Web Development,Web Management]
+  - [Welding Technology,Welding Engineering,Metalsmithing]
+  - [Wildlife Management,Wildlife Science,Wildlife Technology,Wildlands Management,Fish Management,Fishery Science,Aquaculture]
+  - [World Languages,African Language,American Sign Language,Ancient Language,Arabic,Arabic Studies,Asian Language,Catalan,Chinese,Classical Language,East Asian Language,English Language,English Studies,Egyptian Language,Foreign Language,French,French Language,Francophone Studies,German,German Language,Germanic Studies,Hebrew,Middle Eastern Language,Modern Language,Near Eastern Language,Norwegian,Romance Language,Russian,Slavic Language,Semitic Languages,Spanish,Spanish Language,Turkish,Persian,Kazakh,Italian,Modern Hebrew,Latin,South Slavic,Japanese,Korean,Portuguese,Uzbek,Yiddish,Swahili,Modern Greek,Greek,South Asian Language,Bangla,Hindi,Malayalam,Marathi,Pali,Sanskrit,Tamil,Telugu,Tibetan,Urdu,Basque,Slavic,Czech,Bosnian,Croatian,Serbian,Polish,Akkadian,Anatolian,Ancient Anatolian,Aramaic,Armenian,Classical Hebrew,Egpytian,Ge'ez,Sumerian]
+  - [Writing,Business Writing,Creative Writing,Technical Writing,Screenwriting,Playwriting,English Composition,English Writing]
+  - [Zoology,Entomology]
+  - Advertising
+  - Agricultural Education
+  - Anatomy
+  - Art Education
+  - Biochemistry
+  - Bioengineering
+  - Bioethics
+  - Biological Engineering
+  - Biotechnology
+  - Business
+  - Business Education
+  - Ceramic Engineering
+  - Chemistry
+  - Chiropractic
+  - Clinical and Translational Science
+  - Clinical Trials Management
+  - Cognitive Science
+  - Cognitive Science
+  - Community Advocacy
+  - Community Organization
+  - Conflict Resolution
+  - Contracts Management
+  - Cyber Security
+  - Dentistry
+  - Design
+  - Design
+  - Educational Leadership
+  - Educational Technology
+  - Endocrinology
+  - Entrepreneurship
+  - Environmental Control Technologies
+  - Epidemiology
+  - Floriculture
+  - Food Services Management
+  - Genealogy
+  - Global Studies
+  - Health Education
+  - Historic Preservation
+  - Homeland Security
+  - Human Services
+  - Industrial Design
+  - Industrial Engineering
+  - Industrial Management
+  - Juridical Science
+  - Library Science
+  - Managerial Economics
+  - Medicine
+  - Metallurgical Engineering
+  - Mineral Engineering
+  - Minority Studies
+  - Molecular Engineering
+  - Nuclear Engineering
+  - Occupational Safety
+  - Optometry
+  - Paleontology
+  - Petroleum Engineering
+  - Pharmacogenomics
+  - Phlebotomy
+  - Physical Education
+  - Physician Assistant
+  - Postsecondary Education
+  - Project Management
+  - Public Administration
+  - Quality Control
+  - Real Estate
+  - Respiratory Therapy
+  - Safety Technologies
+  - Science Education
+  - Secretarial Studies
+  - Software Engineering
+  - Sound Engineering
+  - Special Education
+  - Statistics
+  - Technology Education
+  - Thermodynamics
+  - Toxicology
+  - Transportation
+  - Urban Teacher Education
+
+
+case_agnostic_courses:
+ courses:
+  - Data Mining
+  - Machine Learning
+
 
 case_sensitive_education:
  associate_education_level:
   - [Associate of Arts,A.A.," AA "]
-  - [Associate of Science,A.S.,' AS ']
-  - [Associate of Applied Science,A.A.S.,' AAS ']
-  - [Associate of General Studies,A.G.S.,' AGS ']
+  - [Associate of Science,A.S.," AS "]
+  - [Associate of Applied Science,A.A.S.," AAS "]
+  - [Associate of General Studies,A.G.S.," AGS "]
   - Associates Degree
   - Community College
  bachelor_education_level:
-  - [Bachelor of Arts,B.A.,' BA ']
-  - [Bachelor of Fine Arts,B.F.A.,' BFA ']
-  - [Bachelor of Science,B.S.,' BS ',BSc,B.Sc]
-  - [Bachelor of Engineering,B.E.,' BE ']
-  - [Bachelors of Accounting,Bachelor of Accountancy]
-  - Bachelor of Technology
-  - Bachelor of Medical Science
-  - [Bachelors of Commerce,Bachelor of Commerce]
-  - [Bachelors of Finance,Bachelor of Finance]
-  - [Bachelor of Business Administration,B.B.A.,' BBA ']
-  - [Bachelor of Business,Bachelors of Business]
-  - [Bachelor of Commerce,B.Comm]
-  - [Bachelor of Health Science,' BHS ',B.H.S.]
-  - [Bachelor of Law,LLB]
-  - Bachelor’s Degree
+  - [Bachelor of Arts,Bachelors of Arts,B.A.," BA "]
+  - [Bachelor of Fine Arts,Bachelors of Fine Arts,B.F.A.," BFA "]
+  - [Bachelor of Science,Bachelors of Science,B.S.," BS "," BSC ",BSc,B.Sc]
+  - [Bachelor of Engineering,Bachelors of Engineering,B.E.," BE "]
+  - [Bachelor of Economics,Bachelors of Economics]
+  - [Bachelor of Accounting,Bachelor of Accountancy]
+  - [Bachelor of Technology,Bachelors of Technology]
+  - [Bachelor of Medical Science,Bachelors of Medical Science]
+  - [Bachelor of Commerce,Bachelors of Commerce]
+  - [Bachelor of Finance,Bachelors of Finance]
+  - [Bachelor of Business Administration,Bachelors of Business Administration,Bachelor in Business Administration,B.B.A.," BBA "]
+  - [Bachelor of Business,Bachelors of Business,Bachelor in Business]
+  - [Bachelor of Commerce,Bachelors of Commerce,B.Comm]
+  - [Bachelor of Health Science,Bachelors of Health Science," BHS ",B.H.S.]
+  - [Bachelor of Law,Bachelors of Law,LLB]
+  - [Bachelor Degree,Bachelors Degree,Bachelor’s Degree]
  master_education_level:
-  - [Master of Business Administration,Masters of Business Administration,' MBA',M.B.A.]
-  - [Master of Fine Arts,Masters of Fine Arts,M.F.A.,' MFA ']
-  - Master of Education
-  - Master of Business
-  - [Master in Public Administration,Master of Public Administration,M.P.A,' MPA ']
-  - [Master of Public Policy,Master in Public Policy,M.P.P.,' MPP ']
-  - [Master in Business Finance,Masters in Business Finance,' MBF ']
-  - [Master of Arts,Masters of Arts,M.A.,' MA ']
-  - [Master of Science,Masters of Science,MSc,M.S.,M.Sc,' MS ']
+  - [Master of Business Administration,Masters of Business Administration,Master's of Business Administration," MBA",M.B.A.]
+  - [Master of Fine Arts,Masters of Fine Arts,Master's of Fine Arts,M.F.A.," MFA "]
+  - [Master of Education,Masters of Education,Master's of Education]
+  - [Master of Business,Masters of Business,Master's of Business]
+  - [Master of Public Administration,Master's of Public Administration,Masters of Public Administration,Master in Public Administration,M.P.A," MPA "]
+  - [Master of Public Policy,Master's of Public Policy,Masters of Public Policy,Master in Public Policy,M.P.P.," MPP "]
+  - [Master of Business Finance,Master's of Business Finance,Masters of Business Finance,Master in Business Finance," MBF "]
+  - [Master of Arts,Masters of Arts,Master's of Arts,M.A.," MA "]
+  - [Master of Science,Masters of Science,Master's of Science,MSc,M.S.,M.Sc," MS "]
   - Graduate Education
   - Graduate School
  doctor_education_level:
   - [J.D.,Juris Doctor]
   - Law School
-  - [Medical Doctor,M.D.,' MD ']
+  - [Medical Doctor,M.D.," MD "]
   - Medical School
-  - [Doctor of Dental Surgery,D.D.S.,' DDS ']
+  - [Doctor of Dental Surgery,D.D.S.," DDS "]
   - [Doctor of Pharmacy,Pharm.D.,PharmD]
   - [Doctor of Philosophy,PhD,Ph.D]
-  - [Doctor of Medicine,' MD',M.D.]
-  - [Doctor of Dental Surgery,' DDS ',D.D.S.]
+  - [Doctor of Medicine," MD",M.D.]
+  - [Doctor of Dental Surgery," DDS ",D.D.S.]
   - [Doctoral Program,Doctoral Candidate]
 
 
 case_agnostic_languages:
  languages:
+  - Akkadian
+  - Anatolian
   - Arabic
-  - Bengali
+  - Aramaic
+  - Armenian
+  - [Bengali,Bangla]
+  - Basque
+  - Bosnian
+  - Catalan
   - [Chinese, Mandarin]
+  - Croatian
   - Czech
   - Danish
   - Dutch
+  - Egyptian
   - English
   - French
+  - Ge'ez
   - German
   - Greek
   - Hebrew
   - Hindi
   - Italian
   - Japanese
+  - Kazakh
+  - Korean
+  - Latin
+  - [Malay,Malayalam]
+  - Marathi
+  - Norwegian
+  - Pali
+  - Persian
+  - Polish
   - Portuguese
   - Punjabi
   - Russian
+  - Sanskrit
+  - Serbian
+  - Sign Languange
+  - Slavic
   - Spanish
+  - Sumerian
+  - Swahili
+  - Tamil
+  - Telugu
+  - Tibetan
+  - Turkish
   - Welsh
+  - Urdu
+  - Uzbek
+  - Yiddish

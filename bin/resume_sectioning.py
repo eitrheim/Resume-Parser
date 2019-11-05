@@ -106,12 +106,11 @@ def section_into_columns(observations):
     df['AchievementsLocation'] = np.repeat(-1, len(df))
     df['AdditionalLocation'] = np.repeat(-1, len(df))
 
-    resume_count = 0
     resume_total = len(df)
     print(resume_total, "total resumes.")
     for i in df.index:
 
-        print("Parsing: {}".format(df.file_path.loc[i]))
+        print('Parsing', i, 'of', resume_total)
 
         # EDUCATION SECTION ##############################
         if df.text.loc[i].lower().find('education') != -1:  # if it can find the word education
@@ -593,9 +592,6 @@ def section_into_columns(observations):
         if df.text.loc[i].find('\nADDITIONAL') != -1:
             df['AdditionalLocation'].loc[i] = df.text.loc[i].find('\nADDITIONAL')
 
-        resume_count += 1
-        print("{}% done parsing".format(round(100 * (resume_count / resume_total), 1)))
-
     # to prevent education from being cut off and put into different sections (e.g. Education and Certifications)
     for num in df.index:
         x1 = df.EducationLocation.loc[num]
@@ -713,7 +709,7 @@ def word_put_in_sections(observations):
     resume_total = len(df)
     # putting the words into the new columns
     for num in df.index:
-        print('Sectioning resume', num, 'of', resume_total)
+        print('Sectioning', num, 'of', resume_total)
         x = df[col_list].iloc[num].sort_values()
         for i in range(0, len(x)):
             try:
@@ -737,8 +733,10 @@ def combine_sections_preparse(observations):
 
     # EDUCATION SECTION ##############################
     # make sure that courses is after related course so it concatenates in a natural flow
-    df['Edu'] = df['Education'] + df['Academic'] + df['RelatedCourse'] + df['CourseWork'] + df['Courses']
-    df.drop(['Education', 'Academic', 'RelatedCourse', 'CourseWork', 'Courses'], axis=1, inplace=True)
+    df['Edu'] = df['Education'] + df['Academic']
+    df.drop(['Education', 'Academic'], axis=1, inplace=True)
+    df['Course'] = df['RelatedCourse'] + df['CourseWork'] + df['Courses']
+    df.drop(['RelatedCourse', 'CourseWork', 'Courses'], axis=1, inplace=True)
 
     # WORK SECTION ##############################
     df['Work'] = df['CurrentRole'] + df['Experience'] + df['PreviousRoles'] + df['Positions'] + \
@@ -806,6 +804,10 @@ def combine_sections_postparse(observations):
     df = observations
 
     print('\nCombining sub-sections.')
+
+    # EDUCATION SECTION ##############################
+    df['Education'] = df['Edu'] + df['Course']
+    df.drop(['Edu', 'Course'], axis=1, inplace=True)
 
     # ACTIVITY SECTION ##############################
 
