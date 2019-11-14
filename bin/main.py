@@ -85,10 +85,10 @@ def transform(observations, nlp):
 
     print("Extracting name, email, phone, and GPA")
     observations = observations.fillna('')
-    # observations['candidate_name'] = observations['text'].apply(lambda x: field_extraction.candidate_name_extractor(x, nlp))
-    # observations['email'] = observations['text'].apply(lambda x: lib.term_match(x, field_extraction.EMAIL_REGEX))
-    # observations['phone'] = observations['text'].apply(lambda x: lib.term_match(x, field_extraction.PHONE_REGEX))
-    # observations['GPA'] = observations['text'].apply(lambda x: field_extraction.gpa_extractor(x))
+    observations['candidate_name'] = observations['text'].apply(lambda x: field_extraction.candidate_name_extractor(x, nlp))
+    observations['email'] = observations['text'].apply(lambda x: lib.term_match(x, field_extraction.EMAIL_REGEX))
+    observations['phone'] = observations['text'].apply(lambda x: lib.term_match(x, field_extraction.PHONE_REGEX))
+    observations['GPA'] = observations['text'].apply(lambda x: field_extraction.gpa_extractor(x))
 
     # observations['work_dates'] = observations['Work'].apply(
     #     lambda x: field_extraction.spacy_extractor_by_type(str(x).replace('\n', '. '), nlp, 'DATE', 2))

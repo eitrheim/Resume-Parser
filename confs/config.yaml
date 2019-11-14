@@ -535,28 +535,74 @@ case_agnostic_languages:
 case_agnostic_work:
  company_foodbev:
   - [KraftHeinz,Kraft,Kraft Foods,Heinz]
+  - The Andersons
   - [AnheuserBusch InBev,AB InBev,Anheuser Busch,SABMiller,AmBev,Grupo Modelo]
+  - Archer Daniels Midland
+  - Arla Foods
+  - Asahi Group
+  - [BrownForman,Brown Forman]
   - Campbell
+  - Cargill
+  - Chiquita
+  - [" CHS "]
+  - [Cliffs Natural Resources,Cliffs Natural]
+  - Clorox
   - [CocaCola,Coca Cola]
+  - [ColgatePalmolive,Colgate Palmolive]
   - [Conagra,Conagra Foods,Conagra Brands]
+  - Dairy Farmers of America
   - Danone
+  - [Danish Crown,Tulip Food]
+  - Dean Foods
+  - Del Monte
+  - Dole Food
+  - Diageo
   - [Dr Pepper Snapple Group,Dr Pepper,Keurig Dr Pepper]
+  - FEMSA
+  - Fonterra
   - General Mills
+  - [Grupo Bimbo,Barcel]
+  - Grupo Lala
+  - Heineken
   - [Hersey Company,Hersheys]
-  - Hormel Foods
+  - [Hormel Foods,Hormel]
+  - Hillshire
+  - [International Flavors & Fragrances,International Flavors and Fragrances,Intl Flavors & Fragrances]
+  - [" JBS "]
   - [JM Smucker, JMSmucker]
+  - [Johnson & Johnson," J&J "]
   - Kelloggs
-  - " Mars "
+  - Kerry Group
+  - [Kimberly Clark,KimberlyClark]
+  - Kirin Holdings
+  - Lactalis
+  - Maple Leaf Foods
+  - [" Mars "]
+  - McCain Foods
   - Mead Johnson
   - [Molson Coors,Molson Brewery,Coors Brewing,Molson Brewing]
   - Mondelez
+  - Monster Beverage
+  - National Beef
   - Nestle
+  - Oscar Mayer
   - Pepperidge Farm
   - PepsiCo
+  - Perdue
+  - Pilgrims Pride
+  - Pinnacle Foods
   - [Proctor and Gamble,"P&G "]
   - [Restaurant Brands International,Restaurant Brands Intl]
+  - Sanderson Farms
+  - Saputo
+  - [Smithfield Foods,Smithfield]
+  - Suntory
   - Tyson Foods
+  - [WH Group,Shuanghui Group]
   - Unilever
+  - Vion Food
+  - Yum Brands
+  - Yurun Group
  company_other:
   - [" 3M "]
   - 99 Cents Only Stores
