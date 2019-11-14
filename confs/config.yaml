@@ -540,8 +540,8 @@ case_agnostic_work:
   - Archer Daniels Midland
   - Arla Foods
   - Asahi Group
-  - [BrownForman,Brown Forman]
-  - Campbell
+  - [BrownForman,Brown Formanm,Jack Daniels,Woodford Reserve,Old Forester]
+  - [Campbell,Pepperidge Farm,Snyders of Hanover,Spaghettios,Kelsen Group,Pace Foods]
   - Cargill
   - Chiquita
   - [" CHS "]
@@ -555,12 +555,12 @@ case_agnostic_work:
   - [Danish Crown,Tulip Food]
   - Dean Foods
   - Del Monte
-  - Dole Food
+  - [" Dole "]
   - Diageo
   - [Dr Pepper Snapple Group,Dr Pepper,Keurig Dr Pepper]
   - FEMSA
   - Fonterra
-  - General Mills
+  - [General Mills,Annies Homegrown,Betty Crocker,Bisquick,Gold Medal Flour,Pillsbury,Gardettos,Nature Valley,Old El Paso,Fruit by the Foot,Fruit Gushers,Fruit Rollups,Hamburger Helper,Totinos,Yoplait,Haagen Dazs,HaagenDazs]
   - [Grupo Bimbo,Barcel]
   - Grupo Lala
   - Heineken
@@ -571,7 +571,7 @@ case_agnostic_work:
   - [" JBS "]
   - [JM Smucker, JMSmucker]
   - [Johnson & Johnson," J&J "]
-  - Kelloggs
+  - [Kelloggs,Rxbar,PopTarts,Pringles,Bear Naked,Cheezit]
   - Kerry Group
   - [Kimberly Clark,KimberlyClark]
   - Kirin Holdings
@@ -581,13 +581,13 @@ case_agnostic_work:
   - McCain Foods
   - Mead Johnson
   - [Molson Coors,Molson Brewery,Coors Brewing,Molson Brewing]
-  - Mondelez
+  - [Mondelez," oreo ",Nabisco, Chips Ahoy,Belvita,Triscuit,Toblerone,Cadbury]
   - Monster Beverage
   - National Beef
   - Nestle
+  - Ocean Spray
   - Oscar Mayer
-  - Pepperidge Farm
-  - PepsiCo
+  - [PepsiCo,Tropicana,Frito Lay,FritoLay,Quaker FoodsCheetos,Tostitos,Doritos,Aunt Jemima]
   - Perdue
   - Pilgrims Pride
   - Pinnacle Foods
@@ -598,1084 +598,1075 @@ case_agnostic_work:
   - [Smithfield Foods,Smithfield]
   - Suntory
   - Tyson Foods
+  - Welchs
   - [WH Group,Shuanghui Group]
   - Unilever
   - Vion Food
-  - Yum Brands
+  - [Yum Brands,Yum! Brands]
   - Yurun Group
+ company_services:
+ - [" ADP ",Automatic Data Processing]
+ - [Adtalem Global Education,DeVry Education Group]
+ - AECOM
+ - Align Technology
+ - Alliance Data Systems
+ - Altice
+ - [Amerco,UHAUAL]
+ - American Greetings
+ - American Tower
+ - Apollo Education Group
+ - Aramark
+ - [ArcBest,ABF Freight]
+ - ASGN
+  - Boston Consulting Group
+ - [" Brinks "]
+ - Brookdale Senior Living
+ - Cintas
+ - Clean Harbors
+ - Comcast
+ - DISH Network
+ - Disney
+ - [Dycom Industries,Dycom]
+ - Ecolab
+ - Equifax
+  - [" EY "]
+ - FedEx
+ - H&R Block
+ - Iron Mountain
+ - L3 Communications
+ - Level 3 Communications
+ - Mastercard
+ - Meredith
+ - Public Storage
+ - Republic Services
+ - Sinclair Broadcast Group
+ - Stericycle
+ - Time Warner
+ - Tribune Media
+ - [United Parcel Service," UPS "]
+ - United Rentals
+ - [Verizon Communications,Verizon]
+ - Visa
+ - WW Grainger
+ - Walt Disney
+ - Waste Management
+ company_consumer:
+ - 99 Cents Only Stores
+ - [Abercrombie & Fitch,Abercrombie and Fitch]
+ - Advance Auto Parts
+ - Alaska Air Group
+ - [Albertsons,Albertsons Co]
+ - Alliance One International
+ - Altria Group
+ - AMC Networks
+ - American Airlines Group
+ - American Eagle Outfitters
+ - Asbury Automotive Group
+ - Ascena Retail Group
+ - Atlas Air
+ - AutoNation
+ - AutoZone
+ - [Avis Budget Group,Avis Budget]
+ - Avon Products
+ - [" Ball Corp"," Ball "]
+ - [Barnes & Noble,Barnes & Noble Education]
+ - Beazer Homes
+ - [Bed Bath & Beyond,Bed Bath and Beyond]
+ - Best Buy
+ - Big Lots
+ - [BJs Wholesale Club,BJs Wholesale]
+ - Bloomin Brands
+ - Boyd Gaming
+ - Brinker International
+ - Brunswick
+ - Buffalo Wild Wings
+ - Burlington Stores
+ - Cabelas
+ - Caesars Entertainment
+ - Caseys General Stores
+ - Cheesecake Factory
+ - [Chicos FAS,Chicos]
+ - [Chipotle Mexican Grill,Chipotle]
+ - [Cinemark Holdings,Cinemark]
+ - Columbia Sportswear
+ - [Costco,Costco Wholesale]
+ - [Cracker Barrel Old Country Store,Cracker Barrel]
+ - DR Horton
+ - [Delta Air Lines,Delta Airlines]
+ - Dillards
+ - Dollar General
+ - Dollar Tree
+ - Dominos Pizza
+ - Eldorado Resorts
+ - Estee Lauder
+ - Finish Line
+ - Foot Locker
+ - Fossil Group
+ - GameStop
+ - Gap Inc
+ - General Motors
+ - [Harley Davidson,HarleyDavidson]
+ - Hasbro
+ - Herman Miller
+ - [Hertz Global Holdings,Hertz]
+ - [Hilton Worldwide Holdings,Hilton Worldwide]
+ - Home Depot
+ - [Host Hotels & Resorts,Host Hotels and Resorts]
+ - [Hovnanian Enterprises,Hovnanian]
+ - [Hyatt Hotels,Hyatt]
+ - [JC Penney,JCPenney]
+ - [JCrew Group,Jcrew]
+ - [JetBlue Airways,JetBlue]
+ - [" KB Home "]
+ - Kohls
+ - L Brands
+ - Las Vegas Sands
+ - Lennar
+ - Levi Strauss
+ - [Live Nation Entertainment,Live Nation]
+ - [" Lowes "]
+ - Macys
+ - M/I Homes
+ - McDonalds
+ - Meritage Homes
+ - MGM Resorts
+ - [Michaels Stores,Michaels Companies]
+ - Neiman Marcus
+ - Newell Brands
+ - Nike
+ - Nordstrom
+ - [OReilly Automotive,O Reilly Automotive]
+ - Office Depot
+ - Overstockcom
+ - Panera Bread
+ - [Park Hotels & Resorts,Park Hotels and Resorts]
+ - Party City
+ - Penske Automotive
+ - Pier 1 Imports
+ - Ralph Lauren
+ - Sally Beauty
+ - [Sears Holdings," Sears "]
+ - [Sherwin Williams,SherwinWilliams]
+ - Skechers
+ - Southwest Airlines
+ - Spirit Airlines
+ - Staples
+ - Starbucks
+ - Steelcase
+ - [Tapestry, Kate Spade New York,Stuart Weitzman]
+ - Taylor Morrison Home
+ - Toll Brothers
+ - Toys R Us
+ - Tractor Supply
+ - TravelCenters of America
+ - Tupperware Brands
+ - Ulta Beauty
+ - Under Armour
+ - [United Continental,United Airlines]
+ - United Natural Foods
+ - Urban Outfitters
+ - Vail Resorts
+ - Valspar
+ - Valvoline
+ - [Walgreens Boots Alliance,Walgreens Boots,Walgreens]
+ - Walmart
+ - Whirlpool
+ - Whole Foods Market
+ - William Lyon Homes
+ - [Williams Sonoma,WilliamsSonoma]
+ - Winnebago
+ - Wolverine World Wide
+ - Wynn Resorts
+ company_health:
+ - Abbott Laboratories
+ - AbbVie
+ - Acadia Healthcare
+ - Aetna
+ - Agilent Technologies
+ - Alere
+ - Alexion Pharmaceuticals
+ - Allscripts Healthcare Solutions
+ - AmerisourceBergen
+ - Amgen
+ - AMN Healthcare Services
+ - Anthem
+ - [Baxter International,Baxter]
+ - Becton Dickinson
+ - BioRad Laboratories
+ - Biogen
+ - Boston Scientific
+ - [BristolMyers Squibb,Bristol Myers Squibb]
+ - Cardinal Health
+ - Celgene
+ - Cerner
+ - Cigna
+ - Community Health Systems
+ - CVS Health
+ - Danaher
+ - [DaVita HealthCare Partners,DaVita HealthCare]
+ - Diplomat Pharmacy
+ - Eli Lilly
+ - Encompass Health
+ - Envision Healthcare
+ - Express Scripts Holding
+ - Genesis Healthcare
+ - Gilead Sciences
+ - HCA Healthcare
+ - Healthcare Services Group
+ - HealthSouth
+ - Humana
+ - Iasis Healthcare
+ - Kindred Healthcare
+ - [Laboratory Corp of America,Laboratory Corporation of America,LabCorp]
+ - LifePoint Health
+ - Magellan Health
+ - McCormick
+ - McKesson
+ - Medical Mutual of Ohio
+ - Merck
+ - Molina Healthcare
+ - Pfizer
+ - PharMerica
+ - PRA Health Sciences
+ - [Regeneron Pharmaceuticals,Regeneron]
+ - Select Medical Holdings
+ - St Jude Medical
+ - Stryker
+ - Syneos Health
+ - Tenet Healthcare
+ - Thermo Fisher Scientific
+ - UnitedHealth Group
+ - Universal Health Services
+ - Varian Medical Systems
+ - Vertex Pharmaceuticals
+ - WellCare Health Plans
+ - Zimmer Biomet
+ company_energychem:
+ - [AMark Precious Metals,A Mark Precious Metals]
+ - A Schulman
+ - [" AES "]
+ - [Air Products & Chemicals,Air Products and Chemicals]
+ - Airgas
+ - Albemarle
+ - Alcoa
+ - Aleris
+ - Alliance Resource Partners
+ - Alliant Energy
+ - Alon USA Energy
+ - Ameren
+ - American Electric Power
+ - American Water Works
+ - Anadarko Petroleum
+ - Antero Resources
+ - Arch Coal
+ - [Ashland Global,Ashland Global Specialty Chemicals]
+ - Atmos Energy
+ - Baker Hughes
+ - Berry Global
+ - [C&J Energy,C&J Energy Services]
+ - [Cabot,Cabot Oil and Gas,Cabot Oil & Gas]
+ - CenterPoint Energy
+ - [CF Industries Holdings,CF Industries]
+ - Cheniere Energy
+ - Chesapeake Energy
+ - Cimarex Energy
+ - CMS Energy
+ - ConocoPhillips
+ - Consol Energy
+ - Contura Energy
+ - Devon Energy
+ - Diamondback Energy
+ - Dominion Energy
+ - Dow Chemical
+ - DTE Energy
+ - Duke Energy
+ - Eastman Chemical
+ - Energy Transfer Equity
+ - Eversource Energy
+ - Exelon
+ - Exxon Mobil
+ - [Ferrellgas Partners,Ferrellgas]
+ - FirstEnergy
+ - [FMC Technologies," FMC "]
+ - Genesis Energy
+ - Great Plains Energy
+ - Halliburton
+ - Hawaiian Electric Industries
+ - Komatsu Mining
+ - Liberty Oilfield Services
+ - [Marathon Oil,Marathon Petroleum]
+ - Martin Marietta Materials
+ - Murphy Oil
+ - National Oilwell Varco
+ - New Jersey Resources
+ - Newmont Goldcorp
+ - Newmont Mining
+ - NextEra Energy
+ - NGL Energy Partners
+ - Noble Energy
+ - NRG Energy
+ - NuStar Energy
+ - Oasis Petroleum
+ - Occidental Petroleum
+ - OGE Energy
+ - PBF Energy
+ - Peabody Energy
+ - Portland General Electric
+ - PPG Industries
+ - Puget Energy
+ - Renewable Energy Group
+ - Sempra Energy
+ - SM Energy
+ - Southwest Gas Holdings
+ - Southwestern Energy
+ - Spectra Energy
+ - Summit Materials
+ - Superior Energy Services
+ - United Refining
+ - United States Steel
+ - Valero Energy
+ - Vistra Energy
+ - WEC Energy
+ - Westar Energy
+ - Westlake Chemical
+ - Whiting Petroleum
+ - Worthington Industries
+ - WPX Energy
+ - Xcel Energy
+ company_industrial:
+ - [" 3M "]
+ - AO Smith
+ - Acuity Brands
+ - [" AGCO "]
+ - AK Steel Holding
+ - [Alleghany,Allegheny Technologies]
+ - Allison Transmission Holdings
+ - [American Axle & Manufacturing,American Axle and Manufacturing]
+ - Ametek
+ - [Anixter International,Anixter]
+ - Applied Industrial Technologies
+ - [AptarGroup," Aptar "]
+ - Arconic
+ - Autoliv
+ - Avery Dennison
+ - B/E Aerospace
+ - Beacon Roofing Supply
+ - Belden
+ - [" Bemis "]
+ - Benchmark Electronics
+ - Boeing
+ - Boise Cascade
+ - BorgWarner
+ - Builders FirstSource
+ - Carlisle
+ - Carpenter Technology
+ - Caterpillar
+ - Commercial Metals
+ - Crane
+ - Cummins
+ - ["Deere "]
+ - [" Dover "]
+ - Emerson Electric
+ - Esterline Technologies
+ - Flowserve
+ - Fluor
+ - Fortive
+ - [Fortune Brands Home & Security,Fortune Brands,Fortune Brands Home and Security]
+ - Foundation Building Materials
+ - General Dynamics
+ - General Electric
+ - [Honeywell International,Honeywell]
+ - Hubbell
+ - [Hyster Yale Materials,HysterYale,Hyster Yale]
+ - Illinois Tool Works
+ - Kansas City Southern
+ - Kennametal
+ - Keysight Technologies
+ - L3 Technologies
+ - Lockheed Martin
+ - Masco
+ - Modine Manufacturing
+ - Mohawk Industries
+ - Mueller Industries
+ - NCI Building Systems
+ - Norfolk Southern
+ - [Northrop Grumman,Orbital ATK]
+ - Owens Corning
+ - [Parker Hannifin,ParkerHannifin]
+ - Patrick Industries
+ - Phillips 66
+ - Polaris Industries
+ - Rayonier Advanced Materials
+ - Raytheon
+ - Rockwell Automation
+ - Rockwell Collins
+ - [Schnitzer Steel Industries,Schnitzer Steel]
+ - [Snap on,Snapon]
+ - Spirit AeroSystems
+ - Roper Technologies
+ - [Stanley Black & Decker,Black & Decker,Stanley Works,Stanley Black and Decker]
+ - Steel Dynamics
+ - Thor Industries
+ - Timken
+ - TopBuild
+ - [" Toro "]
+ - Trinity Industries
+ - Union Pacific
+ - United Technologies
+ - Valmont Industries
+ - Vulcan Materials
+ - [Westinghouse Air Brake,Westinghouse Air Brake Technologies,WABTEC]
+ - Xylem
+ company_tech:
+ - Activision Blizzard
+ - [Adobe,Adobe Systems]
+ - [" ADT "]
+ - Advanced Micro Devices
+ - Akamai Technologies
+ - Alphabet
+ - Amkor Technology
+ - Amphenol
+ - Analog Devices
+ - Apache
+ - Apple
+ - Applied Materials
+ - Arista Networks
+ - Arrow Electronics
+ - AT&T
+ - Autodesk
+ - Avaya
+ - Avnet
+ - [Booking Holdings,Bookingcom, Pricelinecom, Agodacom, Kayakcom, Cheapflights, Rentalcarscom, Momondo,OpenTable]
+ - Booz Allen Hamilton
+ - Broadcom
+ - [Citrix Systems,Citrix]
+ - [Cognizant Technology Solutions,Cognizant Technology]
+ - Cypress Semiconductor
+ - Dell Technologies
+ - DXC Technology
+ - eBay
+ - Electronic Arts
+ - [Expedia,Expedia Group]
+ - Facebook
+ - Fitbit
+ - GoDaddy
+ - Groupon
+ - [Harman International Industries,Harman International]
+ - [Hewlett Packard Enterprise,Hewlett Packard, HP Inc]
+ - ["IBM "]
+ - ["Intel "]
+ - [Jabil Circuit,Jabil]
+ - Lyft
+ - [Maxar Technologies,Maxar]
+ - Microchip Technology
+ - Micron Technology
+ - Microsoft
+ - Netflix
+ - Nvidia
+ - ON Semiconductor
+ - Oracle
+ - Pitney Bowes
+ - Red Hat
+ - [Salesforce,salesforcecom]
+ - Shutterfly
+ - Square
+ - SS&C Technologies
+ - Super Micro Computer
+ - Texas Instruments
+ - TTM Technologies
+ - Twitter
+ - Workday
+ - Xerox
+ - Yahoo
+ - Zebra Technologies
+ company_fin:
+ - Affiliated Managers Group
+ - Aflac
+ - [" AIG "]
+ - Alliance Holdings
+ - Allstate
+ - Ally Financial
+ - Amazon
+ - American Equity Investment Life Holding
+ - American Express
+ - American Family Insurance Group
+ - American Financial Group
+ - American National Insurance
+ - Ameriprise Financial
+ - Amica Mutual Insurance
+ - AmTrust Financial Services
+ - Annaly Capital Management
+ - Apollo Global Management
+ - Arthur J Gallagher
+ - Assurant
+ - [AutoOwners Insurance,Auto Owners Insurance]
+ - [AvalonBay,AvalonBay Communities]
+ - [Bank of America, Merrill Lynch]
+ - Bank of New York Mellon
+ - [BB&T Corp," BB&T"]
+ - Berkshire Hathaway
+ - BGC Partners
+ - BlackRock
+ - Blackstone
+ - Boston Properties
+ - Brighthouse Financial
+ - [Broadridge Financial Solutions,Broadridge,Broadridge Financial]
+ - [Capital One Financial,Capital One]
+ - [Cboe Global Markets,Chicago Board Options Exchange,BATS Global Markets]
+ - CBRE Group
+ - Charles Schwab
+ - Cincinnati Financial
+ - Citigroup
+ - [Citizens Financial Group,Citizens Financial]
+ - CNO Financial Group
+ - Country Financial
+ - [Crestwood Equity Partners,Crestwood Equity]
+ - [Digital Realty Trust,Digital Realty]
+ - [Discover Financial Services,Discover Financial]
+ - E*Trade Financial,E*Trade," Etrade "]
+ - Equity Residential
+ - Erie Insurance Group
+ - Fannie Mae
+ - Farmers Insurance
+ - Federated Mutual Insurance
+ - [Fidelity National,Fidelity National Financial,Fidelity National Information Services]
+ - Fifth Third Bancorp
+ - First American Financial
+ - First Republic Bank
+ - [Genworth Financial,Genworth]
+ - [Goldman Sachs Group,Goldman Sachs]
+ - [Guardian Life Insurance Company of America,Guardian Life]
+ - Hanover Insurance
+ - [Hartford Financial Services,Hartford Financial]
+ - Hospitality Properties Trust
+ - [Huntington Bancshares,Huntington National Bank]
+ - [JP Morgan Chase,JPMorgan,JPMorgan Chase, Chase Bank]
+ - Jefferies Financial Group
+ - [Edward Jones,Jones Financial]
+ - [Liberty Mutual Insurance Group,Liberty Mutual]
+ - LPL Financial
+ - [M&T Bank,M&T Bank Corp,M and T Bank,M & T Bank]
+ - [Massachusetts Mutual Life Insurance,Massachusetts Mutual,Mass Mutual]
+ - MetLife
+ - Moodys
+ - Morgan Stanley
+ - [Mutual of America Life Insurance,Mutual of America]
+ - [Mutual of Omaha Insurance,Mutual of Omaha]
+ - Nasdaq
+ - Nationstar Mortgage Holdings
+ - New Residential Investment
+ - [New York Community Bancorp,New York Community Bank,NY Community Bancorp,NY Community Bank]
+ - [New York Life Insurance,New York Life,NY Life Insurance]
+ - NLV Financial
+ - Northern Trust
+ - Northwestern Mutual
+ - PayPal
+ - [Penn Mutual Life Insurance,Penn Mutual]
+ - [PNC Financial Services,PNC Financial]
+ - [Principal Financial,Principal Global Investors]
+ - [Prudential Financial,Prudential]
+ - Raymond James Financial
+ - Realogy
+ - Regions Financial
+ - [Reinsurance Group of America," RGA "]
+ - [S&P Global,Standard & Poors,Standard&Poors]
+ - Securian Financial
+ - Selective Insurance Group
+ - [Sentry Insurance Group,Sentry Insurance]
+ - [Simon Property Group,Simon Property]
+ - SL Green Realty
+ - [State Farm Insurance,State Farm]
+ - State Street
+ - [Stifel Financial,Stifel]
+ - SunTrust Banks
+ - SVB Financial
+ - Synchrony Financial
+ - [T Rowe Price,Trowe Price]
+ - TD Ameritrade
+ - [Thrivent Financial for Lutherans,Thrivent Financial]
+ - [TIAA,Teachers Insurance and Annuity Association]
+ - TransUnion
+ - Travelers
+ - [US Bancorp, US Bank]
+ - [" USAA ",United Services Automobile Association]
+ - Vornado Realty Trust
+ - Voya Financial
+ - Wells Fargo
+ - [Western & Southern Financial Group,Western & Southern Financial,Western and Southern Financial]
+ - [Zions Bancorp,Zions Bank]
  company_other:
-  - [" 3M "]
-  - 99 Cents Only Stores
-  - [AMark Precious Metals,A Mark Precious Metals]
-  - A Schulman
-  - AO Smith
-  - Aarons
-  - Abbott Laboratories
-  - AbbVie
-  - [Abercrombie & Fitch,Abercrombie and Fitch]
-  - ABM Industries
-  - Acadia Healthcare
-  - Activision Blizzard
-  - Acuity Brands
-  - [Adobe,Adobe Systems]
-  - [" ADP "]
-  - [" ADT "]
-  - Adtalem Global Education
-  - Advance Auto Parts
-  - Advanced Micro Devices
-  - AECOM
-  - [" AES "]
-  - Aetna
-  - Affiliated Managers Group
-  - Aflac
-  - [" AGCO "]
-  - Agilent Technologies
-  - [" AIG "]
-  - [Air Products & Chemicals,Air Products and Chemicals]
-  - Airgas
-  - AK Steel Holding
-  - Akamai Technologies
-  - Alaska Air Group
-  - Albemarle
-  - [Albertsons,Albertsons Co]
-  - Alcoa
-  - Alere
-  - Aleris
-  - Alexion Pharmaceuticals
-  - Align Technology
-  - [Alleghany,Allegheny Technologies]
-  - Alliance Data Systems
-  - Alliance Holdings
-  - Alliance One International
-  - Alliance Resource Partners
-  - Alliant Energy
-  - Allison Transmission Holdings
-  - Allscripts Healthcare Solutions
-  - Allstate
-  - Ally Financial
-  - Alon USA Energy
-  - Alphabet
-  - Altice USA
-  - Altria Group
-  - Amazon
-  - AMC Networks
-  - Amerco
-  - Ameren
-  - American Airlines Group
-  - [American Axle & Manufacturing,American Axle and Manufacturing]
-  - American Eagle Outfitters
-  - American Electric Power
-  - American Equity Investment Life Holding
-  - American Express
-  - American Family Insurance Group
-  - American Financial Group
-  - American Greetings
-  - American National Insurance
-  - American Tower
-  - American Water Works
-  - Ameriprise Financial
-  - AmerisourceBergen
-  - Ametek
-  - Amgen
-  - Amica Mutual Insurance
-  - Amkor Technology
-  - AMN Healthcare Services
-  - Amphenol
-  - AmTrust Financial Services
-  - Anadarko Petroleum
-  - Analog Devices
-  - Andersons
-  - Anixter International
-  - Annaly Capital Management
-  - Antero Resources
-  - Anthem
-  - Apache
-  - Apollo Education Group
-  - Apollo Global Management
-  - Apple
-  - Applied Industrial Technologies
-  - Applied Materials
-  - AptarGroup
-  - Aramark
-  - ArcBest
-  - Arch Coal
-  - Archer Daniels Midland
-  - Arconic
-  - Arista Networks
-  - Arrow Electronics
-  - Arthur J Gallagher
-  - Asbury Automotive Group
-  - Ascena Retail Group
-  - ASGN
-  - Ashland Global Holdings
-  - Assurant
-  - AT&T
-  - Atlas Air Worldwide
-  - Atmos Energy
-  - [AutoOwners Insurance,Auto Owners Insurance]
-  - Autodesk
-  - Autoliv
-  - AutoNation
-  - AutoZone
-  - [AvalonBay,AvalonBay Communities]
-  - Avaya
-  - Avery Dennison
-  - [Avis Budget Group,Avis Budget]
-  - Avnet
-  - Avon Products
-  - B/E Aerospace
-  - Baker Hughes
-  - [" Ball "]
-  - [Bank of America, Merrill Lynch]
-  - Bank of New York Mellon
-  - [Barnes & Noble,Barnes & Noble Education]
-  - Baxter International
-  - BB&T Corp
-  - Beacon Roofing Supply
-  - Beazer Homes
-  - Becton Dickinson
-  - [Bed Bath & Beyond,Bed Bath and Beyond]
-  - Belden
-  - [" Bemis "]
-  - Benchmark Electronics
-  - Berkshire Hathaway
-  - Berry Global Group
-  - Best Buy
-  - BGC Partners
-  - Big Lots
-  - BioRad Laboratories
-  - Biogen
-  - [BJs Wholesale Club,BJs Wholesale]
-  - [Blackhawk Network Holdings,Blackhawk Network]
-  - BlackRock
-  - Blackstone
-  - Bloomin Brands
-  - [BlueLinx Holdings,BlueLinx]
-  - [BMC Stock Holdings,BMC Stock]
-  - Boeing
-  - Boise Cascade
-  - [BonTon Stores,BonTon]
-  - [Booking Holdings,Bookingcom, Pricelinecom, Agodacom, Kayakcom, Cheapflights, Rentalcarscom, Momondo,OpenTable]
-  - Booz Allen Hamilton
-  - BorgWarner
-  - Boston Properties
-  - Boston Scientific
-  - Boyd Gaming
-  - [Briggs & Stratton,Briggs and Stratton,Briggs&Stratton]
-  - Brighthouse Financial
-  - BrightView Holdings
-  - [" Brinks "]
-  - Brinker International
-  - [BristolMyers Squibb,Bristol Myers Squibb]
-  - Broadcom
-  - [Broadridge Financial Solutions,Broadridge,Broadridge Financial]
-  - [Brocade Communications Systems,Brocade Communications]
-  - Brookdale Senior Living
-  - [Brown & Brown,Brown and Brown]
-  - [BrownForman,Brown Forman]
-  - Brunswick
-  - Buckeye Partners
-  - Buffalo Wild Wings
-  - Builders FirstSource
-  - Burlington Stores
-  - CH Robinson Worldwide
-  - [CR Bard,CRBard]
-  - [C&J Energy,C&J Energy Services]
-  - Cabelas
-  - [Cabot,Cabot Oil and Gas,Cabot Oil & Gas]
-  - CACI International
-  - Cadence Design Systems
-  - Caesars Entertainment
-  - [CalMaine Foods,CalMaine]
-  - [CalAtlantic Group,CalAtlantic]
-  - Caleres
-  - California Resources
-  - Calpine
-  - [Calumet Specialty Products,Calumet Specialty Products Partners]
-  - [Camping World Holdings,Camping World]
-  - [Capital One Financial,Capital One]
-  - Cardinal Health
-  - Carlisle
-  - Carlyle Group
-  - CarMax
-  - Carpenter Technology
-  - Carters
-  - Carvana
-  - Caseys General Stores
-  - Catalent
-  - Caterpillar
-  - [Cboe Global Markets,Chicago Board Options Exchange,BATS Global Markets]
-  - CBRE Group
-  - [" CBS "]
-  - CDK Global
-  - [" CDW "]
-  - Celanese
-  - Celgene
-  - Centene
-  - CenterPoint Energy
-  - [Central Garden & Pet,Central Garden and Pet]
-  - Century Communities
-  - CenturyLink
-  - Cerner
-  - [CF Industries Holdings,CF Industries]
-  - CH2M Hill
-  - [Charles River Laboratories,Charles River]
-  - Charles Schwab
-  - [Charter Communications,Charter Comm]
-  - Cheesecake Factory
-  - Chemours
-  - Cheniere Energy
-  - Chesapeake Energy
-  - Chevron
-  - [Chicos FAS,Chicos]
-  - [Chipotle Mexican Grill,Chipotle]
-  - [" CHS "]
-  - Church & Dwight
-  - Ciena
-  - Cigna
-  - Cimarex Energy
-  - Cincinnati Financial
-  - [Cinemark Holdings,Cinemark]
-  - Cintas
-  - [Cisco Systems,Cisco]
-  - CIT Group
-  - Citigroup
-  - [Citizens Financial Group,Citizens Financial]
-  - [Citrix Systems,Citrix]
-  - Clean Harbors
-  - [ClevelandCliffs,Cleveland Cliffs]
-  - [Cliffs Natural Resources,Cliffs Natural]
-  - Clorox
-  - CME Group
-  - CMS Energy
-  - CNO Financial Group
-  - [Cognizant Technology Solutions,Cognizant Technology]
-  - Colfax
-  - [ColgatePalmolive,Colgate Palmolive]
-  - Colony Capital
-  - Columbia Sportswear
-  - Comcast
-  - Comerica
-  - [Comfort Systems USA,Comfort Systems]
-  - Commercial Metals
-  - [CommScope Holding,CommScope]
-  - Community Health Systems
-  - Concho Resources
-  - Conduent
-  - ConocoPhillips
-  - Consol Energy
-  - Consolidated Edison
-  - Constellation Brands
-  - Continental Resources
-  - Contura Energy
-  - Convergys
-  - [Cooper Cos,CooperCompanies]
-  - [Cooper Tire & Rubber,Cooper Tire and Rubber]
-  - [CooperStandard Holdings,CooperStandard,Cooper Standard Holdings,Cooper Standard]
-  - [CoreMark Holding,Core Mark Holding,CoreMark]
-  - CoreCivic
-  - CoreLogic
-  - Corning
-  - Corteva
-  - [Costco,Costco Wholesale]
-  - [" Coty "]
-  - Country Financial
-  - [Cracker Barrel Old Country Store,Cracker Barrel]
-  - Crane
-  - [Crestwood Equity Partners,Crestwood Equity]
-  - [Crown Castle International,Crown Castle]
-  - Crown Holdings
-  - [" CSRA "]
-  - CST Brands
-  - [" CSX "]
-  - Cummins
-  - [CUNA Mutual Group,CUNA Mutual]
-  - [Curtiss Wright,CurtissWright]
-  - CVS Health
-  - Cypress Semiconductor
-  - DR Horton
-  - [" Dana "]
-  - Danaher
-  - Darden Restaurants
-  - Darling Ingredients
-  - DaVita
-  - [DaVita HealthCare Partners,DaVita HealthCare]
-  - DCP Midstream
-  - Dean Foods
-  - Deckers Outdoor
-  - ["Deere "]
-  - [Delek US Holdings,Delek]
-  - Dell Technologies
-  - [Delta Air Lines,Delta Airlines]
-  - [Delta Tucker Holdings,Delta Tucker]
-  - Dentsply Sirona
-  - Devon Energy
-  - Diamondback Energy
-  - Dicks Sporting Goods
-  - Diebold Nixdorf
-  - [Digital Realty Trust,Digital Realty]
-  - Dillards
-  - Diplomat Pharmacy
-  - [Discover Financial Services,Discover Financial]
-  - Discovery
-  - [Discovery Communications,Discovery Inc,Discovery Networks]
-  - DISH Network
-  - Disney
-  - Dollar General
-  - Dollar Tree
-  - Dominion Energy
-  - Dominion Resources
-  - Dominos Pizza
-  - Domtar
-  - Donaldson
-  - [" Dover "]
-  - Dow Chemical
-  - DST Systems
-  - [" DSW "]
-  - DTE Energy
-  - Duke Energy
-  - [DuPont,DowDuPont]
-  - DXC Technology
-  - [Dycom Industries,Dycom]
-  - Dynegy
-  - E*Trade Financial,E*Trade," Etrade "]
-  - Eastman Chemical
-  - eBay
-  - Echo Global Logistics
-  - EchoStar
-  - Ecolab
-  - Edgewell Personal Care
-  - Edison International
-  - Edwards Lifesciences
-  - Eldorado Resorts
-  - Electronic Arts
-  - Element Solutions
-  - Eli Lilly
-  - [EMCOR Group,EMCOR]
-  - Emerson Electric
-  - Enable Midstream Partners
-  - Encompass Health
-  - Energy Transfer Equity
-  - EnerSys
-  - [Engility Holdings,Engility]
-  - EnLink Midstream
-  - Ensign Group
-  - Entergy
-  - Enterprise Products Partners
-  - Envision Healthcare
-  - EOG Resources
-  - [" EQT "]
-  - Equifax
-  - Equinix
-  - Equity Residential
-  - Erie Insurance Group
-  - Essendant
-  - Estee Lauder
-  - Esterline Technologies
-  - Euronet Worldwide
-  - Evercore
-  - [" Evergy "]
-  - Eversource Energy
-  - Exelon
-  - [Expedia,Expedia Group]
-  - Expeditors International of Washington
-  - Express Scripts Holding
-  - Exxon Mobil
-  - F5 Networks
-  - Facebook
-  - Fannie Mae
-  - Farmers Insurance
-  - Fastenal
-  - Federated Mutual Insurance
-  - FedEx
-  - [Ferrellgas Partners,Ferrellgas]
-  - [Fidelity National,Fidelity National Financial,Fidelity National Information Services]
-  - Fifth Third Bancorp
-  - Finish Line
-  - First American Financial
-  - First Data
-  - First Horizon National
-  - First Republic Bank
-  - First Solar
-  - FirstEnergy
-  - ["Fiserv "]
-  - Fitbit
-  - [FleetCor Technologies,FleetCor]
-  - Flowers Foods
-  - Flowserve
-  - Fluor
-  - FM Global
-  - [FMC Technologies," FMC "]
-  - Foot Locker
-  - Ford Motor
-  - Fortive
-  - [Fortune Brands Home & Security,Fortune Brands,Fortune Brands Home and Security]
-  - Fossil Group
-  - Foundation Building Materials
-  - Franklin Resources
-  - [" Freds "]
-  - Freddie Mac
-  - FreeportMcMoRan
-  - Frontier Communications
-  - FTI Consulting
-  - [GIII Apparel Group,GIII Appael]
-  - GameStop
-  - Gannett
-  - Gap Inc
-  - Gardner Denver
-  - Gartner
-  - Generac Holdings
-  - General Cable
-  - General Dynamics
-  - General Electric
-  - General Motors
-  - Genesco
-  - [Genesee & Wyoming,Genesee and Wyoming]
-  - Genesis Energy
-  - Genesis Healthcare
-  - Genuine Parts
-  - [Genworth Financial,Genworth]
-  - GEO Group
-  - [" GGP "]
-  - Gilead Sciences
-  - Global Partners
-  - Global Payments
-  - [" GMS "]
-  - GNC Holdings
-  - GoDaddy
-  - [Goldman Sachs Group,Goldman Sachs]
-  - [Goodyear Tire & Rubber,Goodyear, Goodyear Tire and Rubber]
-  - Graham Holdings
-  - Granite Construction
-  - [Graphic Packaging Holding,Graphic Packaging]
-  - Graybar Electric
-  - Great Plains Energy
-  - Green Plains
-  - [Greenbrier Companies,Greenbrier]
-  - [" Greif "]
-  - Griffon
-  - Group 1 Automotive
-  - Groupon
-  - [Guardian Life Insurance Company of America,Guardian Life]
-  - [HB Fuller,HBFuller]
-  - H&R Block
-  - [Hain Celestial Group,Hain Celestial]
-  - Halliburton
-  - Hanesbrands
-  - Hanover Insurance
-  - [Harley Davidson,HarleyDavidson]
-  - [Harman International Industries,Harman International]
-  - [Hartford Financial Services,Hartford Financial]
-  - Hasbro
-  - Hawaiian Electric Industries
-  - Hawaiian Holdings
-  - HC2 Holdings
-  - HCA Healthcare
-  - HCA Holdings
-  - [" HCP "]
-  - [HD Supply Holdings,HD Supply]
-  - Healthcare Services Group
-  - HealthSouth
-  - [Helmerich & Payne,Helmerich and PayneHelmerich Payne]
-  - Henry Schein
-  - Herc Holdings
-  - Herman Miller
-  - [Hertz Global Holdings,Hertz]
-  - [Hewlett Packard Enterprise,Hewlett Packard, HP Inc]
-  - Hexcel
-  - Hexion
-  - hhgregg
-  - [HillRom Holdings,HillRom,Hill Rom]
-  - [Hilton Worldwide Holdings,Hilton Worldwide]
-  - [" HNI "]
-  - HollyFrontier
-  - Hologic
-  - Home Depot
-  - [Honeywell International,Honeywell]
-  - Hospitality Properties Trust
-  - [Host Hotels & Resorts,Host Hotels and Resorts]
-  - [Hovnanian Enterprises,Hovnanian]
-  - HRG Group
-  - [" HSN "]
-  - Hub Group
-  - Hubbell
-  - Humana
-  - [Huntington Bancshares,Huntington National Bank]
-  - Huntington Ingalls
-  - Huntsman
-  - [Hyatt Hotels,Hyatt]
-  - Hyster Yale Materials,HysterYale,Hyster Yale]
-  - [InterActiveCorp,IAC]
-  - Iasis Healthcare
-  - ["IBM "]
-  - Icahn Enterprises
-  - ["IDEX "]
-  - [IDEXX Laboratories,IDEXX Lab]
-  - iHeartMedia
-  - Illinois Tool Works
-  - Illumina
-  - ["Infor "]
-  - Ingles Markets
-  - Ingredion
-  - Insight Enterprises
-  - Insperity
-  - Intel
-  - Interactive Brokers Group
-  - Intercontinental Exchange
-  - [International Flavors & Fragrances,International Flavors and Fragrances,Intl Flavors & Fragrances]
-  - International Paper
-  - Interpublic Group
-  - INTL FCStone
-  - Intuit
-  - Intuitive Surgical
-  - IQVIA Holdings
-  - Iron Mountain
-  - Itron
-  - [" ITT "]
-  - [JB Hunt Transport Services,JBHunt,JB Hunt Transport,JB Hunt]
-  - [JC Penney,JCPenney]
-  - [JCrew Group,Jcrew]
-  - [JP Morgan Chase,JPMorgan,JPMorgan Chase, Chase Bank]
-  - [Jabil Circuit,Jabil]
-  - Jacobs Engineering Group
-  - Jefferies Financial Group
-  - [JELDWEN Holding,JELD WEN,JELDWEN]
-  - [JetBlue Airways,JetBlue]
-  - [Johnson & Johnson," J&J "]
-  - [Edward Jones,Jones Financial]
-  - Jones Lang LaSalle
-  - Juniper Networks
-  - Kaman
-  - Kansas City Southern
-  - [KapStone Paper & Packaging,KapStone Paper and Packaging,KapStone Paper]
-  - [Kar Auction Services,Kar Auction]
-  - [" KB Home "]
-  - [" KBR "]
-  - Keane Group
-  - Kelly Services
-  - Kemper
-  - Kennametal
-  - KeyCorp
-  - Keysight Technologies
-  - [Kimberly Clark,KimberlyClark]
-  - Kinder Morgan
-  - Kindred Healthcare
-  - [" Kirby "]
-  - [" KKR "]
-  - [KLA Tencor,KLATencor]
-  - [Knight Swift Transportation,Knight Swift,KnightSwift]
-  - Knights of Columbus
-  - Kohls
-  - Komatsu Mining
-  - Kraton
-  - Kroger
-  - L Brands
-  - L3 Communications
-  - L3 Technologies
-  - [Laboratory Corp of America,Laboratory Corporation of America,LabCorp]
-  - Lam Research
-  - [Lamb Weston Holdings,Lamb Weston]
-  - [Land Olakes, Land O Lakes]
-  - Landstar System
-  - Las Vegas Sands
-  - Laureate Education
-  - LCI Industries
-  - [" Lear "]
-  - Legg Mason
-  - [Leggett & Platt,Leggett and Platt,Leggett]
-  - [Leidos Holdings,Leidos]
-  - Lennar
-  - Lennox
-  - Leucadia
-  - Level 3 Communications
-  - Levi Strauss
-  - Liberty Interactive
-  - Liberty Media
-  - [Liberty Mutual Insurance Group,Liberty Mutual]
-  - Liberty Oilfield Services
-  - LifePoint Health
-  - Lincoln Electric
-  - Lincoln National
-  - Lithia Motors
-  - [Live Nation Entertainment,Live Nation]
-  - [" LKQ "]
-  - Lockheed Martin
-  - Loews
-  - [LouisianaPacific,Louisiana Pacific]
-  - [" Lowes "]
-  - LPL Financial
-  - LSC Communications
-  - Lyft
-  - M/I Homes
-  - [M&T Bank,M&T Bank Corp,M and T Bank,M & T Bank]
-  - Macys
-  - Magellan Health
-  - Magellan Midstream Partners
-  - ManpowerGroup
-  - [" ManTech "]
-  - [Marathon Oil,Marathon Petroleum]
-  - Markel
-  - [Marriott International,Marriott]
-  - [Marsh & McLennan,Marsh and McLennan]
-  - Martin Marietta Materials
-  - Masco
-  - [Massachusetts Mutual Life Insurance,Massachusetts Mutual,Mass Mutual]
-  - MasTec
-  - Mastercard
-  - Matson
-  - Mattel
-  - [Maxar Technologies,Maxar]
-  - Maxim Integrated Products
-  - Maximus
-  - McCormick
-  - McDonalds
-  - McKesson
-  - MDC Holdings
-  - [MDU Resources Group,MDU Resources]
-  - Medical Mutual of Ohio
-  - Mednax
-  - Merck
-  - Mercury General
-  - Meredith
-  - Meritage Homes
-  - Meritor
-  - Metaldyne Performance
-  - MetLife
-  - [Mettler Toledo International,Mettler Toledo,MettlerToledo]
-  - MGM Resorts
-  - [Michaels Stores,Michaels Companies]
-  - Microchip Technology
-  - Micron Technology
-  - Microsoft
-  - Middleby
-  - MKS Instruments
-  - Modine Manufacturing
-  - Mohawk Industries
-  - Molina Healthcare
-  - Monsanto
-  - Monster Beverage
-  - Moodys
-  - [" Moog "]
-  - Morgan Stanley
-  - Mosaic
-  - [Motorola Solutions,Motorola]
-  - MPM Holdings
-  - MRC Global
-  - MSC Industrial Direct
-  - Mueller Industries
-  - Murphy Oil
-  - [Mutual of America Life Insurance,Mutual of America]
-  - [Mutual of Omaha Insurance,Mutual of Omaha]
-  - Nasdaq
-  - [National General Holdings,National General]
-  - National Oilwell Varco
-  - Nationstar Mortgage Holdings
-  - Nationwide
-  - Navient
-  - Navistar International
-  - NCI Building Systems
-  - [" NCR "]
-  - Neiman Marcus
-  - NetApp
-  - Netflix
-  - New Jersey Resources
-  - New Residential Investment
-  - [New York Community Bancorp,New York Community Bank,NY Community Bancorp,NY Community Bank]
-  - [New York Life Insurance,New York Life,NY Life Insurance]
-  - Newell Brands
-  - Newfield Exploration
-  - Newmark Group
-  - NewMarket
-  - Newmont Goldcorp
-  - Newmont Mining
-  - News Corp
-  - Nexeo Solutions
-  - Nexstar Media Group
-  - NextEra Energy
-  - NGL Energy Partners
-  - Nike
-  - NiSource
-  - NLV Financial
-  - Noble Energy
-  - Nordson
-  - Nordstrom
-  - Norfolk Southern
-  - Northern Trust
-  - [Northrop Grumman,Orbital ATK]
-  - Northwestern Mutual
-  - NRG Energy
-  - Nu Skin Enterprises
-  - Nuance Communications
-  - Nucor
-  - NuStar Energy
-  - Nvidia
-  - [" NVR "]
-  - [OReilly Automotive,O Reilly Automotive]
-  - Oasis Petroleum
-  - Occidental Petroleum
-  - Oceaneering International
-  - Office Depot
-  - OGE Energy
-  - Ohio National Mutual
-  - [Old Dominion Freight Line,Old Dominion]
-  - Old Republic International
-  - Olin
-  - Omnicom Group
-  - ON Semiconductor
-  - OneMain Holdings
-  - Oneok
-  - Oracle
-  - Oshkosh
-  - Overstockcom
-  - [Owens & Minor,Owens and Minor]
-  - Owens Corning
-  - [Owens Illinois,OwensIllinois]
-  - Paccar
-  - Pacific Life
-  - [Packaging Corp of America,Packaging Corporation of America]
-  - Palo Alto Networks
-  - Panera Bread
-  - [Par Pacific Holdings,Par Pacific]
-  - Parexel
-  - [Park Hotels & Resorts,Park Hotels and Resorts]
-  - [Parker Hannifin,ParkerHannifin]
-  - Party City
-  - Patrick Industries
-  - Patterson
-  - Paychex
-  - PayPal
-  - PBF Energy
-  - PC Connection
-  - [" PCM "]
-  - Peabody Energy
-  - [Penn Mutual Life Insurance,Penn Mutual]
-  - Penn National Gaming
-  - Penske Automotive
-  - Performance Food Group
-  - PerkinElmer
-  - Peter Kiewit Sons
-  - Pfizer
-  - PG&E
-  - PharMerica
-  - Philip Morris
-  - Phillips 66
-  - Pier 1 Imports
-  - Pinnacle Entertainment
-  - Pinnacle Foods
-  - Pinnacle West Capital
-  - Pioneer Natural Resources
-  - Pitney Bowes
-  - [Plains GP Holdings,Plains GP]
-  - Platform Specialty Products
-  - Plexus
-  - [Ply Gem Holdings,Ply Gem]
-  - [PNC Financial Services,PNC Financial]
-  - Polaris Industries
-  - PolyOne
-  - Portland General Electric
-  - Post Holdings
-  - PPG Industries
-  - [" PPL "]
-  - PRA Health Sciences
-  - Praxair
-  - Presidio
-  - Priceline
-  - PriceSmart
-  - Primoris Services
-  - [Principal Financial,Principal Global Investors]
-  - Progressive
-  - Prologis
-  - [Prudential Financial,Prudential]
-  - Public Service Enterprise
-  - Public Storage
-  - Publix Super Markets
-  - Puget Energy
-  - PulteGroup
-  - [" PVH "]
-  - Qorvo
-  - [Quad/Graphics,QuadGraphics]
-  - Qualcomm
-  - Quanta Services
-  - Quest Diagnostics
-  - Quintiles Transnational
-  - Qurate Retail
-  - [RR Donnelley & Sons,RR Donnelley]
-  - Ralph Lauren
-  - Range Resources
-  - Raymond James Financial
-  - Rayonier Advanced Materials
-  - Raytheon
-  - Realogy
-  - Red Hat
-  - Regal Beloit
-  - [Regal Entertainment Group,Regal Entertainment]
-  - [Regeneron Pharmaceuticals,Regeneron]
-  - Regions Financial
-  - Regis
-  - [Reinsurance Group of America," RGA "]
-  - [Reliance Steel & Aluminum,Reliance Steel and Aluminum]
-  - Renewable Energy Group
-  - [Rent A Center,RentACenter]
-  - Republic Services
-  - ResMed
-  - Resolute Forest Products
-  - REV Group
-  - Revlon
-  - Rexnord
-  - Rite Aid
-  - Roadrunner Transportation Systems
-  - [Robert Half International,Robert Half]
-  - Rockwell Automation
-  - Rockwell Collins
-  - Roper Technologies
-  - Ross Stores
-  - RPM International
-  - Rush Enterprises
-  - Ryder System
-  - Ryerson Holding
-  - S&P Global
-  - Sabre
-  - [Salesforce,salesforcecom]
-  - Sally Beauty
-  - Sanderson Farms
-  - Sanmina
-  - SCANA
-  - ScanSource
-  - Schneider National
-  - [Schnitzer Steel Industries,Schnitzer Steel]
-  - Science Applications International
-  - Scientific Games
-  - [Scotts MiracleGro,Scotts Miracle Gro]
-  - Scripps Networks Interactive
-  - Seaboard
-  - Sealed Air
-  - [Sears Holdings," Sears "]
-  - Securian Financial
-  - Select Medical Holdings
-  - Selective Insurance Group
-  - SemGroup
-  - Sempra Energy
-  - [Sentry Insurance Group,Sentry Insurance]
-  - Service Corp International
-  - [ServiceMaster Global Holdings,ServiceMaster]
-  - ServiceNow
-  - [Sherwin Williams,SherwinWilliams]
-  - Shutterfly
-  - Silgan Holdings
-  - [Simon Property Group,Simon Property]
-  - Sinclair Broadcast Group
-  - SiteOne Landscape Supply
-  - Skechers
-  - SkyWest
-  - Skyworks Solutions
-  - SL Green Realty
-  - SM Energy
-  - [Smart & Final Stores,Smart and Final Stores]
-  - [Snap on,Snapon]
-  - [Snyders Lance,SnydersLance]
-  - Sonic Automotive
-  - Sonoco Products
-  - Southwest Airlines
-  - Southwest Gas Holdings
-  - Southwestern Energy
-  - SpartanNash
-  - Spectra Energy
-  - Spectrum Brands
-  - Spirit AeroSystems
-  - Spirit Airlines
-  - Sprague Resources
-  - Sprouts Farmers Market
-  - SPX FLOW
-  - Square
-  - SS&C Technologies
-  - St Jude Medical
-  - [Stanley Black & Decker,Black & Decker,Stanley Works,Stanley Black and Decker]
-  - Staples
-  - Starbucks
-  - [State Farm Insurance,State Farm]
-  - State Street
-  - Steel Dynamics
-  - Steelcase
-  - Stepan
-  - Stericycle
-  - Stewart Information Services
-  - [Stifel Financial,Stifel]
-  - Stryker
-  - Summit Materials
-  - SunTrust Banks
-  - Super Micro Computer
-  - Superior Energy Services
-  - Supervalu
-  - SVB Financial
-  - Swift Transportation
-  - Symantec
-  - Synchrony Financial
-  - Syneos Health
-  - Synnex
-  - Synopsys
-  - Sysco
-  - [T Rowe Price,Trowe Price]
-  - Tailored Brands
-  - [Tapestry, Kate Spade New York,Stuart Weitzman]
-  - Targa Resources
-  - Taylor Morrison Home
-  - TD Ameritrade
-  - Tech Data
-  - TEGNA
-  - [Teledyne Technologies,Teledyne]
-  - Teleflex
-  - [Telephone & Data Systems,Telephone and Data Systems]
-  - Tempur Sealy
-  - Tenet Healthcare
-  - Tenneco
-  - Teradata
-  - Teradyne
-  - Terex
-  - Tesla
-  - Tesoro
-  - Tetra Tech
-  - Texas Instruments
-  - Texas Roadhouse
-  - Textron
-  - Thermo Fisher Scientific
-  - Thor Industries
-  - [Thrivent Financial for Lutherans,Thrivent Financial]
-  - [TIAA,Teachers Insurance and Annuity Association]
-  - Time Warner
-  - Timken
-  - TJX
-  - Toll Brothers
-  - TopBuild
-  - Tops Holding
-  - Torchmark
-  - [" Toro "]
-  - Total System Services
-  - Tower International
-  - Toys R Us
-  - Tractor Supply
-  - TransDigm Group
-  - TransUnion
-  - TravelCenters of America
-  - Travelers
-  - TreeHouse Foods
-  - TRI Pointe Group
-  - Tribune Media
-  - Trimble
-  - TriNet Group
-  - Trinity Industries
-  - [Triple S Management,TripleS Management,"Triple S "]
-  - Triumph Group
-  - TrueBlue
-  - TTM Technologies
-  - Tupperware Brands
-  - Tutor Perini
-  - [Twenty First Century Fox,TwentyFirst Century Fox]
-  - Twitter
-  - [US Bancorp, US Bank]
-  - [" UGI "]
-  - Ulta Beauty
-  - Under Armour
-  - Unified Grocers
-  - Union Pacific
-  - Unisys
-  - United Continental
-  - United Natural Foods
-  - [United Parcel Service," UPS "]
-  - United Refining
-  - United Rentals
-  - United States Steel
-  - United Technologies
-  - UnitedHealth Group
-  - Univar
-  - Universal
-  - Universal Forest Products
-  - Universal Health Services
-  - Univision Communications
-  - Unum Group
-  - Urban Outfitters
-  - [" US Foods"]
-  - [" USAA ",United Services Automobile Association]
-  - [" USG "]
-  - Vail Resorts
-  - Valero Energy
-  - Valmont Industries
-  - Valspar
-  - Valvoline
-  - Vantiv
-  - Varian Medical Systems
-  - [" VCA "]
-  - Vectren
-  - Ventas
-  - [VeriFone Systems,VeriFone]
-  - [Verisk Analytics,Verisk]
-  - Veritiv
-  - [Verizon Communications,Verizon]
-  - Verso
-  - Vertex Pharmaceuticals
-  - Viacom
-  - Visa
-  - Vishay Intertechnology
-  - Vista Outdoor
-  - Visteon
-  - Vistra Energy
-  - Vornado Realty Trust
-  - Voya Financial
-  - Vulcan Materials
-  - [" VWR "]
-  - [WR Berkley,WRBerkley]
-  - WW Grainger
-  - Wabash National
-  - WABCO
-  - [Walgreens Boots Alliance,Walgreens Boots,Walgreens]
-  - Walmart
-  - Walt Disney
-  - Warner Music
-  - Waste Management
-  - Watsco
-  - Wayfair
-  - WEC Energy
-  - Weis Markets
-  - WellCare Health Plans
-  - Wells Fargo
-  - Welltower
-  - Werner Enterprises
-  - [WESCO,WESCO International]
-  - Westar Energy
-  - [Western & Southern Financial Group,Western & Southern Financial,Western and Southern Financial]
-  - Western Digital
-  - Western Refining
-  - Western Union
-  - [Westinghouse Air Brake,Westinghouse Air Brake Technologies,WABTEC]
-  - Westlake Chemical
-  - WestRock
-  - Weyerhaeuser
-  - WGL Holdings
-  - Whirlpool
-  - WhiteWave Foods
-  - Whiting Petroleum
-  - Whole Foods Market
-  - William Lyon Homes
-  - [Williams Sonoma,WilliamsSonoma]
-  - Windstream Holdings
-  - Winnebago
-  - Wolverine World Wide
-  - Workday
-  - World Fuel Services
-  - Worldpay
-  - Worthington Industries
-  - WPX Energy
-  - [Wyndham Worldwide,Wyndham]
-  - Wynn Resorts
-  - Xcel Energy
-  - Xerox
-  - Xilinx
-  - XPO Logistics
-  - Xylem
-  - Yahoo
-  - YRC Worldwide
-  - Yum Brands
-  - Zayo Group
-  - Zebra Technologies
-  - Zimmer Biomet
-  - [Zions Bancorp,Zions Bank]
-  - Zoetis
+ - [Blackhawk Network Holdings,Blackhawk Network]
+ - [BlueLinx Holdings,BlueLinx]
+ - [BMC Stock Holdings,BMC Stock]
+ - [BonTon Stores,BonTon]
+ - [Briggs & Stratton,Briggs and Stratton,Briggs&Stratton]
+ - BrightView Holdings
+ - [Brocade Communications Systems,Brocade Communications]
+ - [Brown & Brown,Brown and Brown]
+ - Buckeye Partners
+ - CH Robinson Worldwide
+ - [CR Bard,CRBard]
+ - CACI International
+ - Cadence Design Systems
+ - [CalMaine Foods,CalMaine]
+ - [CalAtlantic Group,CalAtlantic]
+ - Caleres
+ - California Resources
+ - Calpine
+ - [Calumet Specialty Products,Calumet Specialty Products Partners]
+ - [Camping World Holdings,Camping World]
+ - Carlyle Group
+ - CarMax
+ - Carters
+ - Carvana
+ - Catalent
+ - [" CBS "]
+ - CDK Global
+ - [" CDW "]
+ - Celanese
+ - Centene
+ - [Central Garden & Pet,Central Garden and Pet]
+ - Century Communities
+ - CenturyLink
+ - CH2M Hill
+ - [Charles River Laboratories,Charles River]
+ - [Charter Communications,Charter Comm]
+ - Chemours
+ - Church & Dwight
+ - Ciena
+ - [Cisco Systems,Cisco]
+ - CIT Group
+ - [ClevelandCliffs,Cleveland Cliffs]
+ - CME Group
+ - Colfax
+ - Colony Capital
+ - Comerica
+ - [Comfort Systems USA,Comfort Systems]
+ - [CommScope Holding,CommScope]
+ - Concho Resources
+ - Conduent
+ - Consolidated Edison
+ - Constellation Brands
+ - Continental Resources
+ - Convergys
+ - [Cooper Cos,CooperCompanies]
+ - [Cooper Tire & Rubber,Cooper Tire and Rubber]
+ - [CooperStandard Holdings,CooperStandard,Cooper Standard Holdings,Cooper Standard]
+ - [CoreMark Holding,Core Mark Holding,CoreMark]
+ - CoreCivic
+ - CoreLogic
+ - Corning
+ - Corteva
+ - [" Coty "]
+ - [Crown Castle International,Crown Castle]
+ - Crown Holdings
+ - [" CSRA "]
+ - CST Brands
+ - [" CSX "]
+ - [CUNA Mutual Group,CUNA Mutual]
+ - [Curtiss Wright,CurtissWright]
+ - [" Dana "]
+ - Darden Restaurants
+ - Darling Ingredients
+ - DaVita
+ - DCP Midstream
+ - Dean Foods
+ - Deckers Outdoor
+ - [Delek US Holdings,Delek]
+ - [Delta Tucker Holdings,Delta Tucker]
+ - Dentsply Sirona
+ - Dicks Sporting Goods
+ - Diebold Nixdorf
+ - Discovery
+ - [Discovery Communications,Discovery Inc,Discovery Networks]
+ - Dominion Resources
+ - Domtar
+ - Donaldson
+ - DST Systems
+ - [" DSW "]
+ - [DuPont,DowDuPont]
+ - Dynegy
+ - Echo Global Logistics
+ - EchoStar
+ - Edgewell Personal Care
+ - Edison International
+ - Edwards Lifesciences
+ - Element Solutions
+ - [EMCOR Group,EMCOR]
+ - Enable Midstream Partners
+ - EnerSys
+ - [Engility Holdings,Engility]
+ - EnLink Midstream
+ - Ensign Group
+ - Entergy
+ - Enterprise Products Partners
+ - EOG Resources
+ - [" EQT "]
+ - Equinix
+ - Essendant
+ - Euronet Worldwide
+ - Evercore
+ - [" Evergy "]
+ - Expeditors International of Washington
+ - F5 Networks
+ - Fastenal
+ - First Data
+ - First Horizon National
+ - First Solar
+ - ["Fiserv "]
+ - [FleetCor Technologies,FleetCor]
+ - Flowers Foods
+ - FM Global
+ - Ford Motor
+ - Franklin Resources
+ - [" Freds "]
+ - Freddie Mac
+ - FreeportMcMoRan
+ - Frontier Communications
+ - FTI Consulting
+ - [GIII Apparel Group,GIII Appael]
+ - Gannett
+ - Gardner Denver
+ - Gartner
+ - Generac Holdings
+ - General Cable
+ - Genesco
+ - [Genesee & Wyoming,Genesee and Wyoming]
+ - Genuine Parts
+ - GEO Group
+ - [" GGP "]
+ - Global Partners
+ - Global Payments
+ - [" GMS "]
+ - GNC Holdings
+ - [Goodyear Tire & Rubber,Goodyear, Goodyear Tire and Rubber]
+ - Graham Holdings
+ - Granite Construction
+ - [Graphic Packaging Holding,Graphic Packaging]
+ - Graybar Electric
+ - Green Plains
+ - [Greenbrier Companies,Greenbrier]
+ - [" Greif "]
+ - Griffon
+ - Group 1 Automotive
+ - [HB Fuller,HBFuller]
+ - [Hain Celestial Group,Hain Celestial]
+ - Hanesbrands
+ - Hawaiian Holdings
+ - HC2 Holdings
+ - HCA Holdings
+ - [" HCP "]
+ - [HD Supply Holdings,HD Supply]
+ - [Helmerich & Payne,Helmerich and PayneHelmerich Payne]
+ - Henry Schein
+ - Herc Holdings
+ - Hexcel
+ - Hexion
+ - hhgregg
+ - [HillRom Holdings,HillRom,Hill Rom]
+ - [" HNI "]
+ - HollyFrontier
+ - Hologic
+ - HRG Group
+ - [" HSN "]
+ - Hub Group
+ - Huntington Ingalls
+ - Huntsman
+ - [InterActiveCorp,IAC]
+ - Icahn Enterprises
+ - ["IDEX "]
+ - [IDEXX Laboratories,IDEXX Lab]
+ - iHeartMedia
+ - Illumina
+ - ["Infor "]
+ - Ingles Markets
+ - Ingredion
+ - Insight Enterprises
+ - Insperity
+ - Interactive Brokers Group
+ - Intercontinental Exchange
+ - International Paper
+ - Interpublic Group
+ - INTL FCStone
+ - Intuit
+ - Intuitive Surgical
+ - IQVIA Holdings
+ - Itron
+ - [" ITT "]
+ - [JB Hunt Transport Services,JBHunt,JB Hunt Transport,JB Hunt]
+ - Jacobs Engineering Group
+ - [JELDWEN Holding,JELD WEN,JELDWEN]
+ - Jones Lang LaSalle
+ - Juniper Networks
+ - Kaman
+ - [KapStone Paper & Packaging,KapStone Paper and Packaging,KapStone Paper]
+ - [Kar Auction Services,Kar Auction]
+ - [" KBR "]
+ - Keane Group
+ - Kelly Services
+ - Kemper
+ - KeyCorp
+ - Kinder Morgan
+ - [" Kirby "]
+ - [" KKR "]
+ - [KLA Tencor,KLATencor]
+ - [Knight Swift Transportation,Knight Swift,KnightSwift]
+ - Knights of Columbus
+ - Kraton
+ - Kroger
+ - Lam Research
+ - [Lamb Weston Holdings,Lamb Weston]
+ - [Land Olakes, Land O Lakes]
+ - Landstar System
+ - Laureate Education
+ - LCI Industries
+ - [" Lear "]
+ - Legg Mason
+ - [Leggett & Platt,Leggett and Platt,Leggett]
+ - [Leidos Holdings,Leidos]
+ - Lennox
+ - Leucadia
+ - Liberty Interactive
+ - Liberty Media
+ - Lincoln Electric
+ - Lincoln National
+ - Lithia Motors
+ - [" LKQ "]
+ - Loews
+ - [LouisianaPacific,Louisiana Pacific]
+ - LSC Communications
+ - Magellan Midstream Partners
+ - ManpowerGroup
+ - [" ManTech "]
+ - Markel
+ - [Marriott International,Marriott]
+ - [Marsh & McLennan,Marsh and McLennan]
+ - MasTec
+ - Matson
+ - Maxim Integrated Products
+ - Maximus
+ - MDC Holdings
+ - [MDU Resources Group,MDU Resources]
+ - Mednax
+ - Mercury General
+ - Meritor
+ - Metaldyne Performance
+ - [Mettler Toledo International,Mettler Toledo,MettlerToledo]
+ - Middleby
+ - MKS Instruments
+ - Monsanto
+ - [" Moog "]
+ - Mosaic
+ - [Motorola Solutions,Motorola]
+ - MPM Holdings
+ - MRC Global
+ - MSC Industrial Direct
+ - [National General Holdings,National General]
+ - Navient
+ - Navistar International
+ - [" NCR "]
+ - NetApp
+ - Newfield Exploration
+ - Newmark Group
+ - NewMarket
+ - News Corp
+ - Nexeo Solutions
+ - Nexstar Media Group
+ - NiSource
+ - Nordson
+ - Nu Skin Enterprises
+ - Nuance Communications
+ - Nucor
+ - [" NVR "]
+ - Oceaneering International
+ - Ohio National Mutual
+ - [Old Dominion Freight Line,Old Dominion]
+ - Old Republic International
+ - Olin
+ - Omnicom Group
+ - OneMain Holdings
+ - Oneok
+ - Oshkosh
+ - [Owens & Minor,Owens and Minor]
+ - [Owens Illinois,OwensIllinois]
+ - Paccar
+ - Pacific Life
+ - [Packaging Corp of America,Packaging Corporation of America]
+ - Palo Alto Networks
+ - [Par Pacific Holdings,Par Pacific]
+ - Parexel
+ - Patterson
+ - Paychex
+ - PC Connection
+ - [" PCM "]
+ - Penn National Gaming
+ - Performance Food Group
+ - PerkinElmer
+ - Peter Kiewit Sons
+ - PG&E
+ - Philip Morris
+ - Pinnacle Entertainment
+ - Pinnacle West Capital
+ - Pioneer Natural Resources
+ - [Plains GP Holdings,Plains GP]
+ - Platform Specialty Products
+ - Plexus
+ - [Ply Gem Holdings,Ply Gem]
+ - PolyOne
+ - Post Holdings
+ - [" PPL "]
+ - Praxair
+ - Presidio
+ - Priceline
+ - PriceSmart
+ - Primoris Services
+ - Prologis
+ - Public Service Enterprise
+ - Publix Super Markets
+ - PulteGroup
+ - [" PVH "]
+ - Qorvo
+ - [Quad/Graphics,QuadGraphics]
+ - Qualcomm
+ - Quanta Services
+ - Quest Diagnostics
+ - Quintiles Transnational
+ - Qurate Retail
+ - [RR Donnelley & Sons,RR Donnelley]
+ - Range Resources
+ - Regal Beloit
+ - [Regal Entertainment Group,Regal Entertainment]
+ - [" Regis "]
+ - [Reliance Steel & Aluminum,Reliance Steel and Aluminum]
+ - [Rent A Center,RentACenter]
+ - ResMed
+ - Resolute Forest Products
+ - REV Group
+ - Revlon
+ - Rexnord
+ - Rite Aid
+ - Roadrunner Transportation Systems
+ - [Robert Half International,Robert Half]
+ - Ross Stores
+ - RPM International
+ - Rush Enterprises
+ - Ryder System
+ - Ryerson Holding
+ - Sabre
+ - Sanderson Farms
+ - Sanmina
+ - SCANA
+ - ScanSource
+ - Schneider National
+ - Science Applications International
+ - Scientific Games
+ - [Scotts MiracleGro,Scotts Miracle Gro]
+ - Scripps Networks Interactive
+ - Seaboard
+ - Sealed Air
+ - SemGroup
+ - Service Corp International
+ - [ServiceMaster Global Holdings,ServiceMaster]
+ - ServiceNow
+ - Silgan Holdings
+ - SiteOne Landscape Supply
+ - SkyWest
+ - Skyworks Solutions
+ - [Smart & Final Stores,Smart and Final Stores]
+ - [Snyders Lance,SnydersLance]
+ - Sonic Automotive
+ - Sonoco Products
+ - SpartanNash
+ - Spectrum Brands
+ - Sprague Resources
+ - Sprouts Farmers Market
+ - SPX FLOW
+ - Stepan
+ - Stewart Information Services
+ - Supervalu
+ - Swift Transportation
+ - Symantec
+ - Synnex
+ - Synopsys
+ - Sysco
+ - Tailored Brands
+ - Targa Resources
+ - Tech Data
+ - TEGNA
+ - [Teledyne Technologies,Teledyne]
+ - Teleflex
+ - [Telephone & Data Systems,Telephone and Data Systems]
+ - Tempur Sealy
+ - Tenneco
+ - Teradata
+ - Teradyne
+ - Terex
+ - Tesla
+ - Tesoro
+ - Tetra Tech
+ - Texas Roadhouse
+ - Textron
+ - TJX
+ - Tops Holding
+ - Torchmark
+ - Total System Services
+ - Tower International
+ - TransDigm Group
+ - TreeHouse Foods
+ - TRI Pointe Group
+ - Trimble
+ - TriNet Group
+ - [Triple S Management,TripleS Management,"Triple S "]
+ - Triumph Group
+ - TrueBlue
+ - Tutor Perini
+ - [Twenty First Century Fox,TwentyFirst Century Fox]
+ - [" UGI "]
+ - Unified Grocers
+ - Unisys
+ - Univar
+ - Universal
+ - Universal Forest Products
+ - Univision Communications
+ - Unum Group
+ - [" US Foods"]
+ - [" USG "]
+ - Vantiv
+ - [" VCA "]
+ - Vectren
+ - Ventas
+ - [VeriFone Systems,VeriFone]
+ - [Verisk Analytics,Verisk]
+ - Veritiv
+ - Verso
+ - Viacom
+ - Vishay Intertechnology
+ - Vista Outdoor
+ - Visteon
+ - [" VWR "]
+ - [WR Berkley,WRBerkley]
+ - Wabash National
+ - WABCO
+ - Warner Music
+ - Watsco
+ - Wayfair
+ - Weis Markets
+ - Welltower
+ - Werner Enterprises
+ - [WESCO,WESCO International]
+ - Western Digital
+ - Western Refining
+ - Western Union
+ - WestRock
+ - Weyerhaeuser
+ - WGL Holdings
+ - WhiteWave Foods
+ - Windstream Holdings
+ - World Fuel Services
+ - Worldpay
+ - [Wyndham Worldwide,Wyndham]
+ - Xilinx
+ - XPO Logistics
+ - YRC Worldwide
+ - Zayo Group
+ - Zoetis

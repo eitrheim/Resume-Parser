@@ -1,3 +1,5 @@
+requests
+beautifulsoup4
 numpy==1.17.2
 gensim==3.7.1
 pandas==0.24.2
