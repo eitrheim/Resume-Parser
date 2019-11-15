@@ -1094,6 +1094,7 @@ case_agnostic_work:
  - Autodesk
  - Avaya
  - Avnet
+ - Baidu
  - [Booking Holdings,Bookingcom, Pricelinecom, Agodacom, Kayakcom, Cheapflights, Rentalcarscom, Momondo,OpenTable]
  - Booz Allen Hamilton
  - Broadcom
@@ -1107,18 +1108,23 @@ case_agnostic_work:
  - Electronic Arts
  - [Expedia,Expedia Group]
  - Facebook
+ - Foxconn
  - Fitbit
  - GoDaddy
  - Groupon
  - Halogen Software
  - [Harman International Industries,Harman International]
  - [Hewlett Packard Enterprise,Hewlett Packard, HP Inc]
+ - Hitachi
+ - Huawei
  - ["IBM "]
  - iCIMS
  - ["Intel "]
  - [Jabil Circuit,Jabil]
+ - JDcom
  - Kenexa
  - Lawson Software
+ - LG Electronics
  - Lyft
  - [Maxar Technologies,Maxar]
  - Microchip Technology
@@ -1128,18 +1134,23 @@ case_agnostic_work:
  - Nvidia
  - ON Semiconductor
  - Oracle
+ - Panasonic
  - Pitney Bowes
  - Red Hat
  - Saba Software
+ - Samsung
  - SAP
  - [Salesforce,salesforcecom]
  - Shutterfly
  - Square
  - SS&C Technologies
  - Skillsoft
+ - Sony
  - Sumtotal Systems
  - Super Micro Computer
  - Taleo Corporation
+ - TCS
+ - Tencent
  - Texas Instruments
  - TTM Technologies
  - Twitter

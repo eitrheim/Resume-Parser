@@ -22,38 +22,16 @@ def update_yaml(main_section, sub_section, wiki_extension):
             pass
         elif list(li.attrs.keys()) == ['style']:
             pass
-        # elif li.text == 'List of private equity firms':
-        #     break
         elif li.text == 'Private equity firm':
             break
-        # elif li.text == 'List of bakeries':
-        #     break
         elif li.text == 'Fitness wear':
-            break
-        # elif li.text == 'List of Canadian electric utilities':
-        #     break
-        # elif li.text == 'List of energy storage projects':
-        #     break
-        # elif li.text == 'List of investment banks':
-        #     break
-        # elif li.text == 'List of largest biotechnology & pharmaceutical companies':
-        #     break
-        # elif li.text == 'Lists of public utilities':
             break
         elif li.text == 'Canadian Petroleum Companies':
             break
-        # elif li.text == 'List of Illinois companies':
-        #     break
-        # elif li.text == 'List of Danish wind turbine manufacturers':
-        #     break
-        # elif li.text == 'List of pharmaceutical companies':
-        #     break
         elif li.text == 'Casual':
             break
         elif li.text == 'Acorn Computers':
             break
-        # elif li.text == 'List of computer system manufacturers':
-        #     break
         elif li.text == 'Enterprise search':
             break
         elif 'List of ' in li.text:
@@ -61,6 +39,14 @@ def update_yaml(main_section, sub_section, wiki_extension):
         elif 'Lists of ' in li.text:
             break
         elif li.text == 'Electronic design':
+            break
+        elif li.text == 'Yazoo and Mississippi Valley Railroad':
+            break
+        elif li.text == 'Airline codes':
+            break
+        elif li.text == 'Telegram & Gazette':
+            break
+        elif li.text == 'Film treatment':
             break
         else:
             x = li.text
@@ -233,7 +219,79 @@ def update_yaml_table3(main_section, sub_section, wiki_extension, col):
 
 
 def update_yaml_table4(main_section, sub_section, wiki_extension, col):
+    with open('confs/config.yaml', 'r') as stream:
+        try:
+            data_loaded = yaml.safe_load(stream)
+        except yaml.YAMLError as exc:
+            print(exc)
+    print("Accessing Wikipedia")
+    html = requests.get('https://en.wikipedia.org/wiki/'+wiki_extension).text
+    soup = bs(html, 'html.parser')
+    print("Getting List Items and Adding to YAML\n")
+
+    right_table = soup.find('table', class_='wikitable')
+    for row in right_table.findAll('tr'):
+        cells = row.findAll('td')
+        if len(cells) > 1:
+            x = cells[col].text.split('[')[0].split(' /')[0].split('(')[0]
+            x = re.sub('[,.-]', '', x).replace('\n', '').replace('\'', '').replace(' ^', '').lstrip()
+            print(x)
+            data_loaded[main_section][sub_section].append(x)
+
+    # for item in data_loaded[main_section][sub_section]:
+    #     if "List of " in item:
+    #         data_loaded[main_section][sub_section].remove(item)
+
+    try:
+        data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=lambda x: x[0])
+        data_loaded[main_section][sub_section] = list(
+            k for k, _ in itertools.groupby(data_loaded[main_section][sub_section]))
+        print("\nSorted and Dropped Duplicates")
+    except IndexError:
+        pass
+
+    with open('TESTING.yaml', 'w') as fp:
+        yaml.dump(data_loaded, fp)
+    print("Updated Yaml File Saved")
+
+
+def update_yaml_table4all(main_section, sub_section, wiki_extension, col):
     with open('TESTING.yaml', 'r') as stream:
+        try:
+            data_loaded = yaml.safe_load(stream)
+        except yaml.YAMLError as exc:
+            print(exc)
+    print("Accessing Wikipedia")
+    html = requests.get('https://en.wikipedia.org/wiki/'+wiki_extension).text
+    soup = bs(html, 'html.parser')
+    print("Getting List Items and Adding to YAML\n")
+
+    right_table = soup.findAll('table', class_='wikitable')
+    for table in right_table:
+        # print(table)
+        for row in table.findAll('tr'):
+            cells = row.findAll('td')
+            if len(cells) > 1:
+                x = cells[col].text.split('[')[0].split(' /')[0].split('(')[0]
+                x = re.sub('[,.-]', '', x).replace('\n', '').replace('\'', '').replace(' ^', '').lstrip()
+                print(x)
+                data_loaded[main_section][sub_section].append(x)
+
+    try:
+        data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=lambda x: x[0])
+        data_loaded[main_section][sub_section] = list(
+            k for k, _ in itertools.groupby(data_loaded[main_section][sub_section]))
+        print("\nSorted and Dropped Duplicates")
+    except IndexError:
+        pass
+
+    with open('TESTING.yaml', 'w') as fp:
+        yaml.dump(data_loaded, fp)
+    print("Updated Yaml File Saved")
+
+
+def update_yaml_table5(main_section, sub_section, wiki_extension, col):
+    with open('confs/config.yaml', 'r') as stream:
         try:
             data_loaded = yaml.safe_load(stream)
         except yaml.YAMLError as exc:
@@ -269,7 +327,7 @@ def update_yaml_table4(main_section, sub_section, wiki_extension, col):
     print("Updated Yaml File Saved")
 
 
-def update_yaml_table5(main_section, sub_section, wiki_extension):
+def update_yaml_table6(main_section, sub_section, wiki_extension):
     with open('TESTING.yaml', 'r') as stream:
         try:
             data_loaded = yaml.safe_load(stream)
@@ -330,7 +388,7 @@ def update_yaml_table5(main_section, sub_section, wiki_extension):
 # update_yaml('case_agnostic_work', 'company_fin', 'List_of_asset_management_firms')
 # update_yaml_table1('case_agnostic_work', 'company_fin', 'List_of_asset_management_firms', 1)
 # update_yaml('case_agnostic_work', 'company_fin', 'List_of_investment_banks')
-# update_yaml_table5('case_agnostic_work', 'company_fin', 'List_of_venture_capital_firms')
+# update_yaml_table6('case_agnostic_work', 'company_fin', 'List_of_venture_capital_firms')
 # update_yaml_table2('case_agnostic_work', 'company_fin', 'List_of_private_equity_firms', 0)
 # update_yaml_table4('case_agnostic_work', 'company_fin', 'List_of_largest_banks', 1)
 # update_yaml_table2('case_agnostic_work', 'company_fin', 'List_of_systemically_important_banks', 0)
@@ -350,7 +408,6 @@ def update_yaml_table5(main_section, sub_section, wiki_extension):
 # update_yaml_table2('case_agnostic_work', 'company_energychem', 'List_of_steel_producers', 13)
 # update_yaml_table4('case_agnostic_work', 'company_tech', 'Semiconductor_equipment_sales_leaders_by_year', 1)
 # update_yaml_table2('case_agnostic_work', 'company_services', 'List_of_multiple-system_operators', 0)
-# update_yaml_table4('case_agnostic_work', 'company_consumer', 'List_of_casinos_in_the_United_States', 0)
 # update_yaml_table2('case_agnostic_work', 'company_consumer', 'List_of_supermarket_chains', 0)
 # update_yaml('case_agnostic_work', 'company_consumer', 'List_of_pharmacies')
 # update_yaml_table2('case_agnostic_work', 'company_consumer', 'List_of_chained-brand_hotels', 0)
@@ -372,21 +429,41 @@ def update_yaml_table5(main_section, sub_section, wiki_extension):
 # update_yaml_table2('case_agnostic_work', 'company_tech', 'List_of_electric-vehicle-battery_manufacturers', 0)
 # update_yaml_table2('case_agnostic_work', 'company_services', 'List_of_telephone_operating_companies', 1)
 # update_yaml('case_agnostic_work', 'company_energychem', 'List_of_silicon_producers')
+# update_yaml_table2('case_agnostic_work', 'company_tech', 'List_of_photovoltaics_companies', 0)
+# update_yaml_table4all('case_agnostic_work', 'company_consumer', 'List_of_airlines_of_the_United_States', 0)
+# update_yaml_table5('case_agnostic_work', 'company_consumer', 'List_of_casinos_in_the_United_States', 0)
+# update_yaml_table2('case_agnostic_work', 'company_consumer', 'List_of_cruise_lines', 0)
+# update_yaml('case_agnostic_work', 'company_industrial', 'List_of_Class_I_railroads')
+# update_yaml('case_agnostic_work', 'company_consumer', 'List_of_charter_airlines')
+# update_yaml_table2('case_agnostic_work', 'company_services', 'List_of_largest_container_shipping_companies', 0)
+# update_yaml('case_agnostic_work', 'company_tech', 'List_of_system-on-a-chip_suppliers')
+# update_yaml_table2('case_agnostic_work', 'company_tech', 'List_of_companies_involved_in_quantum_computing_or_communication', 0)
+# update_yaml_table2('case_agnostic_work', 'company_tech', 'List_of_data_recovery_companies', 0)
+# update_yaml_table4all('case_agnostic_work', 'company_services', 'List_of_IT_consulting_firms', 0)
+# update_yaml_table4('case_agnostic_work', 'company_tech', 'List_of_largest_Internet_companies', 1)
+# update_yaml_table4('case_agnostic_work', 'company_fin', 'List_of_hedge_funds', 1)
+# update_yaml_table4('case_agnostic_work', 'company_services', 'List_of_newspapers_in_the_United_States', 1)
+# update_yaml_table4('case_agnostic_work', 'company_services', 'List_of_newspapers_by_circulation', 0)
+# update_yaml('case_agnostic_work', 'company_services', 'List_of_newspapers_serving_cities_over_100,000_in_the_United_States')
+# update_yaml_table4all('case_agnostic_work', 'company_consumer', 'List_of_restaurant_chains_in_the_United_States', 0)
+# update_yaml_table4all('case_agnostic_work', 'company_industrial', 'List_of_largest_manufacturing_companies_by_revenue', 1)
+# update_yaml('case_agnostic_work', 'company_fin', 'List_of_United_States_insurance_companies')
+# update_yaml('case_agnostic_work', 'company_fin', 'List_of_international_banking_institutions')
+# update_yaml_table4all('case_agnostic_work', 'company_tech', 'Semiconductor_equipment_sales_leaders_by_year', 2)
+# update_yaml_table4('case_agnostic_work', 'company_energychem', 'List_of_largest_aluminum_producers_by_output', 1)
+# update_yaml('case_agnostic_work', 'company_other', 'List_of_companies_in_the_Chicago_metropolitan_area')
+# update_yaml_table2('case_agnostic_work', 'company_other', 'List_of_largest_companies_by_revenue', 0)
+update_yaml_table4('case_agnostic_work', 'company_tech', 'List_of_glossy_display_branding_manufacturers', 0)
 
 
 
-
-
-
-
+# delete dups in company_other
+##################################################
 # revisit
+# update_yaml('case_agnostic_work', 'company_tech', 'List_of_3D_printer_manufacturers')
 # update_yaml('case_agnostic_work', 'company_tech', 'List_of_semiconductor_IP_core_vendors')
 # update_yaml('case_agnostic_work', 'company_tech', 'List_of_enterprise_search_vendors')
 # update_yaml('case_agnostic_work', 'company_energychem', 'List_of_United_States_electric_companies')
-##################################################
-# delete dups in "other"
-# update_yaml('case_agnostic_work', 'company_other', 'List_of_companies_in_the_Chicago_metropolitan_area')
-# update_yaml_table('case_agnostic_work', 'company_other', 'List_of_largest_companies_by_revenue', 0)
 ##################################################
 # figure out how to scrape these
 # https://en.wikipedia.org/wiki/List_of_United_States_natural_gas_companies
@@ -411,4 +488,26 @@ def update_yaml_table5(main_section, sub_section, wiki_extension):
 # https://en.wikipedia.org/wiki/List_of_press_release_agencies
 # https://en.wikipedia.org/wiki/List_of_CAx_companies
 # https://en.wikipedia.org/wiki/List_of_electronics_brands
+# https://en.wikipedia.org/wiki/List_of_bus_operating_companies
+# https://en.wikipedia.org/wiki/List_of_big_data_companies
+# https://en.wikipedia.org/wiki/Tech_companies_in_the_New_York_metropolitan_area
+# https://en.wikipedia.org/wiki/List_of_banks_(alphabetical)
+# https://en.wikipedia.org/wiki/List_of_mobile_network_operators
+# https://en.wikipedia.org/wiki/List_of_communication_satellite_companies
+# https://en.wikipedia.org/wiki/List_of_largest_biomedical_companies_by_revenue
+# https://en.wikipedia.org/wiki/List_of_film_distributors_by_country#United_States
+# https://en.wikipedia.org/wiki/List_of_solid-state_drive_manufacturers
+# https://en.wikipedia.org/wiki/List_of_soft_drink_producers
+# https://en.wikipedia.org/wiki/List_of_PLC_manufacturers
+# https://en.wikipedia.org/wiki/List_of_major_arms_industry_corporations_by_country
+# https://en.wikipedia.org/wiki/List_of_public_corporations_by_market_capitalization
 
+
+# Left of on list of lists:
+# https://en.wikipedia.org/wiki/Category:Food_industry-related_lists
+# https://en.wikipedia.org/wiki/Category:Lists_of_retailers
+# https://en.wikipedia.org/wiki/Category:Lists_of_energy_companies
+# https://en.wikipedia.org/wiki/Category:Lists_of_consumer_electronics_manufacturers
+# https://en.wikipedia.org/wiki/Category:Lists_of_retailers
+# https://en.wikipedia.org/wiki/Lists_of_companies
+# https://en.wikipedia.org/wiki/Category:Lists_of_companies_by_industry
