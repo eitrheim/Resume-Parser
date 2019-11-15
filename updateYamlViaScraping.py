@@ -58,6 +58,8 @@ def update_yaml(main_section, sub_section, wiki_extension):
             break
         elif 'List of ' in li.text:
             break
+        elif 'Lists of ' in li.text:
+            break
         elif li.text == 'Electronic design':
             break
         else:
@@ -324,7 +326,7 @@ def update_yaml_table5(main_section, sub_section, wiki_extension):
 
 # update_yaml('case_agnostic_work', 'company_foodbev', 'List_of_food_companies')
 # update_yaml_table1('case_agnostic_work', 'company_health', 'List_of_largest_biotechnology_and_pharmaceutical_companies', 1)
-# update_yaml('case_agnostic_work',  'company_health', 'List_of_pharmaceutical_companies')
+# update_yaml('case_agnostic_work', 'company_health', 'List_of_pharmaceutical_companies')
 # update_yaml('case_agnostic_work', 'company_fin', 'List_of_asset_management_firms')
 # update_yaml_table1('case_agnostic_work', 'company_fin', 'List_of_asset_management_firms', 1)
 # update_yaml('case_agnostic_work', 'company_fin', 'List_of_investment_banks')
@@ -337,7 +339,6 @@ def update_yaml_table5(main_section, sub_section, wiki_extension):
 # update_yaml_table2('case_agnostic_work', 'company_consumer', 'List_of_lingerie_brands', 0)
 # update_yaml('case_agnostic_work', 'company_consumer', 'List_of_fitness_wear_brands')
 # update_yaml('case_agnostic_work', 'company_energychem', 'List_of_concentrating_solar_thermal_power_companies')
-# update_yaml('case_agnostic_work', 'company_energychem', 'List_of_United_States_electric_companies')
 # update_yaml('case_agnostic_work', 'company_energychem', 'List_of_United_States_water_companies')
 # update_yaml('case_agnostic_work', 'company_energychem', 'List_of_oilfield_service_companies')
 # update_yaml_table2('case_agnostic_work', 'company_energychem', 'List_of_largest_oil_and_gas_companies_by_revenue', 1)
@@ -350,7 +351,7 @@ def update_yaml_table5(main_section, sub_section, wiki_extension):
 # update_yaml_table4('case_agnostic_work', 'company_tech', 'Semiconductor_equipment_sales_leaders_by_year', 1)
 # update_yaml_table2('case_agnostic_work', 'company_services', 'List_of_multiple-system_operators', 0)
 # update_yaml_table4('case_agnostic_work', 'company_consumer', 'List_of_casinos_in_the_United_States', 0)
-update_yaml_table2('case_agnostic_work', 'company_consumer', 'List_of_supermarket_chains', 0)
+# update_yaml_table2('case_agnostic_work', 'company_consumer', 'List_of_supermarket_chains', 0)
 # update_yaml('case_agnostic_work', 'company_consumer', 'List_of_pharmacies')
 # update_yaml_table2('case_agnostic_work', 'company_consumer', 'List_of_chained-brand_hotels', 0)
 # update_yaml_table2lists('case_agnostic_work', 'company_consumer', 'List_of_chained-brand_hotels', 6)
@@ -381,6 +382,7 @@ update_yaml_table2('case_agnostic_work', 'company_consumer', 'List_of_supermarke
 # revisit
 # update_yaml('case_agnostic_work', 'company_tech', 'List_of_semiconductor_IP_core_vendors')
 # update_yaml('case_agnostic_work', 'company_tech', 'List_of_enterprise_search_vendors')
+# update_yaml('case_agnostic_work', 'company_energychem', 'List_of_United_States_electric_companies')
 ##################################################
 # delete dups in "other"
 # update_yaml('case_agnostic_work', 'company_other', 'List_of_companies_in_the_Chicago_metropolitan_area')
