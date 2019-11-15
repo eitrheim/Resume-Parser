@@ -46,6 +46,8 @@ def update_yaml(main_section, sub_section, wiki_extension):
             break
         elif li.text == 'List of Danish wind turbine manufacturers':
             break
+        elif li.text == 'List of pharmaceutical companies':
+            break
         else:
             x = li.text
             x = x.split(' (')[0]
@@ -53,14 +55,17 @@ def update_yaml(main_section, sub_section, wiki_extension):
             print(x)
             data_loaded[main_section][sub_section].append(x)
 
-    for item in data_loaded[main_section][sub_section]:
-        if "List of " in item:
-            data_loaded[main_section][sub_section].remove(item)
+    # for item in data_loaded[main_section][sub_section]:
+    #     if "List of " in item:
+    #         data_loaded[main_section][sub_section].remove(item)
 
-    print("\nSorting and Dropping Duplicates")
-    data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=lambda x: x[0])
-    data_loaded[main_section][sub_section] = list(
-        k for k, _ in itertools.groupby(data_loaded[main_section][sub_section]))
+    try:
+        data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=lambda x: x[0])
+        data_loaded[main_section][sub_section] = list(
+            k for k, _ in itertools.groupby(data_loaded[main_section][sub_section]))
+        print("\nSorted and Dropped Duplicates")
+    except IndexError:
+        pass
 
     with open('TESTING.yaml', 'w') as fp:
         yaml.dump(data_loaded, fp)
@@ -87,14 +92,15 @@ def update_yaml_table1(main_section, sub_section, wiki_extension, col):
             print(x)
             data_loaded[main_section][sub_section].append(x)
 
-    for item in data_loaded[main_section][sub_section]:
-        if "List of " in item:
-            data_loaded[main_section][sub_section].remove(item)
+    # for item in data_loaded[main_section][sub_section]:
+    #     if "List of " in item:
+    #         data_loaded[main_section][sub_section].remove(item)
 
-    print("\nSorting and Dropping Duplicates")
     try:
         data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=lambda x: x[0])
-        data_loaded[main_section][sub_section] = list(k for k, _ in itertools.groupby(data_loaded[main_section][sub_section]))
+        data_loaded[main_section][sub_section] = list(
+            k for k, _ in itertools.groupby(data_loaded[main_section][sub_section]))
+        print("\nSorted and Dropped Duplicates")
     except IndexError:
         pass
 
@@ -123,14 +129,49 @@ def update_yaml_table2(main_section, sub_section, wiki_extension, col):
             print(x)
             data_loaded[main_section][sub_section].append(x)
 
-    for item in data_loaded[main_section][sub_section]:
-        if "List of " in item:
-            data_loaded[main_section][sub_section].remove(item)
+    # for item in data_loaded[main_section][sub_section]:
+    #     if "List of " in item:
+    #         data_loaded[main_section][sub_section].remove(item)
 
-    print("\nSorting and Dropping Duplicates")
     try:
         data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=lambda x: x[0])
-        data_loaded[main_section][sub_section] = list(k for k, _ in itertools.groupby(data_loaded[main_section][sub_section]))
+        data_loaded[main_section][sub_section] = list(
+            k for k, _ in itertools.groupby(data_loaded[main_section][sub_section]))
+        print("\nSorted and Dropped Duplicates")
+    except IndexError:
+        pass
+
+    with open('TESTING.yaml', 'w') as fp:
+        yaml.dump(data_loaded, fp)
+    print("Updated Yaml File Saved")
+
+
+def update_yaml_table2lists(main_section, sub_section, wiki_extension, col):
+    with open('TESTING.yaml', 'r') as stream:
+        try:
+            data_loaded = yaml.safe_load(stream)
+        except yaml.YAMLError as exc:
+            print(exc)
+    print("Accessing Wikipedia")
+    html = requests.get('https://en.wikipedia.org/wiki/'+wiki_extension).text
+    soup = bs(html, 'html.parser')
+    print("Getting List Items and Adding to YAML\n")
+
+    right_table = soup.find('table', class_='wikitable sortable')
+    for row in right_table.findAll('tr'):
+        cells = row.findAll('td')
+        if len(cells) > 1:
+            for x in cells[col].text.split(','):
+                x = x.split('[')[0].split(' /')[0].split('(')[0]
+                x = re.sub('[.-]', '', x).replace('\n', '').replace('\'', '').replace(' ^', '').lstrip()
+                print(x)
+                data_loaded[main_section][sub_section].append(x)
+
+    try:
+        data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=lambda x: x[0])
+        data_loaded[main_section][sub_section] = list(
+            k for k, _ in itertools.groupby(data_loaded[main_section][sub_section]))
+        print("\nSorted and Dropped Duplicates")
     except IndexError:
         pass
 
@@ -159,14 +200,15 @@ def update_yaml_table3(main_section, sub_section, wiki_extension, col):
             print(x)
             data_loaded[main_section][sub_section].append(x)
 
-    for item in data_loaded[main_section][sub_section]:
-        if "List of " in item:
-            data_loaded[main_section][sub_section].remove(item)
+    # for item in data_loaded[main_section][sub_section]:
+    #     if "List of " in item:
+    #         data_loaded[main_section][sub_section].remove(item)
 
-    print("\nSorting and Dropping Duplicates")
     try:
         data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=lambda x: x[0])
-        data_loaded[main_section][sub_section] = list(k for k, _ in itertools.groupby(data_loaded[main_section][sub_section]))
+        data_loaded[main_section][sub_section] = list(
+            k for k, _ in itertools.groupby(data_loaded[main_section][sub_section]))
+        print("\nSorted and Dropped Duplicates")
     except IndexError:
         pass
 
@@ -195,14 +237,15 @@ def update_yaml_table4(main_section, sub_section, wiki_extension, col):
             print(x)
             data_loaded[main_section][sub_section].append(x)
 
-    for item in data_loaded[main_section][sub_section]:
-        if "List of " in item:
-            data_loaded[main_section][sub_section].remove(item)
+    # for item in data_loaded[main_section][sub_section]:
+    #     if "List of " in item:
+    #         data_loaded[main_section][sub_section].remove(item)
 
-    print("\nSorting and Dropping Duplicates")
     try:
         data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=lambda x: x[0])
-        data_loaded[main_section][sub_section] = list(k for k, _ in itertools.groupby(data_loaded[main_section][sub_section]))
+        data_loaded[main_section][sub_section] = list(
+            k for k, _ in itertools.groupby(data_loaded[main_section][sub_section]))
+        print("\nSorted and Dropped Duplicates")
     except IndexError:
         pass
 
@@ -247,14 +290,17 @@ def update_yaml_table5(main_section, sub_section, wiki_extension):
                         print(x)
                         data_loaded[main_section][sub_section].append(x)
 
-    for item in data_loaded[main_section][sub_section]:
-        if "List of " in item:
-            data_loaded[main_section][sub_section].remove(item)
+    # for item in data_loaded[main_section][sub_section]:
+    #     if "List of " in item:
+    #         data_loaded[main_section][sub_section].remove(item)
 
-    print("\nSorting and Dropping Duplicates")
-    data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=lambda x: x[0])
-    data_loaded[main_section][sub_section] = list(
-        k for k, _ in itertools.groupby(data_loaded[main_section][sub_section]))
+    try:
+        data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=lambda x: x[0])
+        data_loaded[main_section][sub_section] = list(
+            k for k, _ in itertools.groupby(data_loaded[main_section][sub_section]))
+        print("\nSorted and Dropped Duplicates")
+    except IndexError:
+        pass
 
     with open('TESTING.yaml', 'w') as fp:
         yaml.dump(data_loaded, fp)
@@ -288,17 +334,28 @@ def update_yaml_table5(main_section, sub_section, wiki_extension):
 # update_yaml_table2('case_agnostic_work', 'company_energychem', 'List_of_steel_producers', 13)
 # update_yaml_table4('case_agnostic_work', 'company_tech', 'Semiconductor_equipment_sales_leaders_by_year', 1)
 # update_yaml_table2('case_agnostic_work', 'company_services', 'List_of_multiple-system_operators', 0)
+# update_yaml_table4('case_agnostic_work', 'company_consumer', 'List_of_casinos_in_the_United_States', 0)
+# update_yaml_table2('case_agnostic_work', 'company_consumer', 'List_of_supermarket_chains', 0)
+# update_yaml('case_agnostic_work', 'company_consumer', 'List_of_pharmacies')
+# update_yaml_table2('case_agnostic_work', 'company_consumer', 'List_of_chained-brand_hotels', 0)
+# update_yaml_table2lists('case_agnostic_work', 'company_consumer', 'List_of_chained-brand_hotels', 6)
+# update_yaml_table2lists('case_agnostic_work', 'company_consumer', 'List_of_chained-brand_hotels', 7)
+# update_yaml_table2lists('case_agnostic_work', 'company_consumer', 'List_of_chained-brand_hotels', 8)
+# update_yaml_table2lists('case_agnostic_work', 'company_consumer', 'List_of_chained-brand_hotels', 9)
+# update_yaml_table2lists('case_agnostic_work', 'company_consumer', 'List_of_chained-brand_hotels', 10)
+# update_yaml_table2lists('case_agnostic_work', 'company_consumer', 'List_of_chained-brand_hotels', 11)
+# update_yaml_table2('case_agnostic_work', 'company_services', 'List_of_largest_law_firms_by_revenue', 1)
+# update_yaml_table2('case_agnostic_work', 'company_services', 'List_of_largest_United_States-based_law_firms_by_head_count', 1)
+
+update_yaml('case_agnostic_work', 'company_consumer', 'List_of_marketing_research_firms')
 
 
-update_yaml('case_agnostic_work', 'company_consumer', 'List_of_superstores')
 
-
-
-
+#delete dups in "other"
 # update_yaml('case_agnostic_work', 'company_other', 'List_of_companies_in_the_Chicago_metropolitan_area')
 # update_yaml_table('case_agnostic_work', 'company_other', 'List_of_largest_companies_by_revenue', 0)
-#delete dups in "other"
 
+#figure out how to scrape these
 # https://en.wikipedia.org/wiki/List_of_United_States_natural_gas_companies
 # https://en.wikipedia.org/wiki/List_of_oil_exploration_and_production_companies#North_America
 # https://en.wikipedia.org/wiki/List_of_modern_armament_manufacturers
@@ -309,7 +366,11 @@ update_yaml('case_agnostic_work', 'company_consumer', 'List_of_superstores')
 # https://en.wikipedia.org/wiki/List_of_United_States_over-the-air_television_networks
 # https://en.wikipedia.org/wiki/List_of_United_States_pay_television_channels
 # https://en.wikipedia.org/wiki/List_of_animation_studios
-
-
-
-
+# https://en.wikipedia.org/wiki/List_of_convenience_stores
+# https://en.wikipedia.org/wiki/List_of_retailers%27_cooperatives
+# https://en.wikipedia.org/wiki/List_of_department_stores_by_country
+# https://en.wikipedia.org/wiki/List_of_game_manufacturers
+# https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_North_America
+# https://en.wikipedia.org/wiki/List_of_bookstore_chains
+# https://en.wikipedia.org/wiki/List_of_book_sales_clubs
+# https://en.wikipedia.org/wiki/List_of_superstores
