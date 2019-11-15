@@ -22,35 +22,47 @@ def update_yaml(main_section, sub_section, wiki_extension):
             pass
         elif list(li.attrs.keys()) == ['style']:
             pass
-        elif li.text == 'List of private equity firms':
-            break
+        # elif li.text == 'List of private equity firms':
+        #     break
         elif li.text == 'Private equity firm':
             break
-        elif li.text == 'List of bakeries':
-            break
+        # elif li.text == 'List of bakeries':
+        #     break
         elif li.text == 'Fitness wear':
             break
-        elif li.text == 'List of Canadian electric utilities':
-            break
-        elif li.text == 'List of energy storage projects':
-            break
-        elif li.text == 'List of investment banks':
-            break
-        elif li.text == 'List of largest biotechnology & pharmaceutical companies':
-            break
-        elif li.text == 'Lists of public utilities':
+        # elif li.text == 'List of Canadian electric utilities':
+        #     break
+        # elif li.text == 'List of energy storage projects':
+        #     break
+        # elif li.text == 'List of investment banks':
+        #     break
+        # elif li.text == 'List of largest biotechnology & pharmaceutical companies':
+        #     break
+        # elif li.text == 'Lists of public utilities':
             break
         elif li.text == 'Canadian Petroleum Companies':
             break
-        elif li.text == 'List of Illinois companies':
+        # elif li.text == 'List of Illinois companies':
+        #     break
+        # elif li.text == 'List of Danish wind turbine manufacturers':
+        #     break
+        # elif li.text == 'List of pharmaceutical companies':
+        #     break
+        elif li.text == 'Casual':
             break
-        elif li.text == 'List of Danish wind turbine manufacturers':
+        elif li.text == 'Acorn Computers':
             break
-        elif li.text == 'List of pharmaceutical companies':
+        # elif li.text == 'List of computer system manufacturers':
+        #     break
+        elif li.text == 'Enterprise search':
+            break
+        elif 'List of ' in li.text:
+            break
+        elif li.text == 'Electronic design':
             break
         else:
             x = li.text
-            x = x.split(' (')[0]
+            x = x.split(' (')[0].split('[')[0]
             x = re.sub('[,.-]', '', x).replace('\'', '').lstrip()
             print(x)
             data_loaded[main_section][sub_section].append(x)
@@ -164,8 +176,9 @@ def update_yaml_table2lists(main_section, sub_section, wiki_extension, col):
             for x in cells[col].text.split(','):
                 x = x.split('[')[0].split(' /')[0].split('(')[0]
                 x = re.sub('[.-]', '', x).replace('\n', '').replace('\'', '').replace(' ^', '').lstrip()
-                print(x)
-                data_loaded[main_section][sub_section].append(x)
+                if x != "":
+                    print(x)
+                    data_loaded[main_section][sub_section].append(x)
 
     try:
         data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=lambda x: x[0])
@@ -307,6 +320,8 @@ def update_yaml_table5(main_section, sub_section, wiki_extension):
     print("Updated Yaml File Saved")
 
 
+
+
 # update_yaml('case_agnostic_work', 'company_foodbev', 'List_of_food_companies')
 # update_yaml_table1('case_agnostic_work', 'company_health', 'List_of_largest_biotechnology_and_pharmaceutical_companies', 1)
 # update_yaml('case_agnostic_work',  'company_health', 'List_of_pharmaceutical_companies')
@@ -335,7 +350,7 @@ def update_yaml_table5(main_section, sub_section, wiki_extension):
 # update_yaml_table4('case_agnostic_work', 'company_tech', 'Semiconductor_equipment_sales_leaders_by_year', 1)
 # update_yaml_table2('case_agnostic_work', 'company_services', 'List_of_multiple-system_operators', 0)
 # update_yaml_table4('case_agnostic_work', 'company_consumer', 'List_of_casinos_in_the_United_States', 0)
-# update_yaml_table2('case_agnostic_work', 'company_consumer', 'List_of_supermarket_chains', 0)
+update_yaml_table2('case_agnostic_work', 'company_consumer', 'List_of_supermarket_chains', 0)
 # update_yaml('case_agnostic_work', 'company_consumer', 'List_of_pharmacies')
 # update_yaml_table2('case_agnostic_work', 'company_consumer', 'List_of_chained-brand_hotels', 0)
 # update_yaml_table2lists('case_agnostic_work', 'company_consumer', 'List_of_chained-brand_hotels', 6)
@@ -346,16 +361,32 @@ def update_yaml_table5(main_section, sub_section, wiki_extension):
 # update_yaml_table2lists('case_agnostic_work', 'company_consumer', 'List_of_chained-brand_hotels', 11)
 # update_yaml_table2('case_agnostic_work', 'company_services', 'List_of_largest_law_firms_by_revenue', 1)
 # update_yaml_table2('case_agnostic_work', 'company_services', 'List_of_largest_United_States-based_law_firms_by_head_count', 1)
+# update_yaml('case_agnostic_work', 'company_services', 'List_of_marketing_research_firms')
+# update_yaml('case_agnostic_work', 'company_consumer', 'List of executive search firms')
+# update_yaml('case_agnostic_work', 'company_tech', 'List_of_computer_system_manufacturers')
+# update_yaml('case_agnostic_work', 'company_tech', 'List_of_computer_hardware_manufacturers')
+# update_yaml('case_agnostic_work', 'company_tech', 'List_of_advertising_technology_companies')
+# update_yaml_table2('case_agnostic_work', 'company_tech', 'List_of_flash_memory_controller_manufacturers', 0)
+# update_yaml_table4('case_agnostic_work', 'company_tech', 'List_of_EDA_companies', 0)
+# update_yaml_table2('case_agnostic_work', 'company_tech', 'List_of_electric-vehicle-battery_manufacturers', 0)
+# update_yaml_table2('case_agnostic_work', 'company_services', 'List_of_telephone_operating_companies', 1)
+# update_yaml('case_agnostic_work', 'company_energychem', 'List_of_silicon_producers')
 
-update_yaml('case_agnostic_work', 'company_consumer', 'List_of_marketing_research_firms')
 
 
 
-#delete dups in "other"
+
+
+
+# revisit
+# update_yaml('case_agnostic_work', 'company_tech', 'List_of_semiconductor_IP_core_vendors')
+# update_yaml('case_agnostic_work', 'company_tech', 'List_of_enterprise_search_vendors')
+##################################################
+# delete dups in "other"
 # update_yaml('case_agnostic_work', 'company_other', 'List_of_companies_in_the_Chicago_metropolitan_area')
 # update_yaml_table('case_agnostic_work', 'company_other', 'List_of_largest_companies_by_revenue', 0)
-
-#figure out how to scrape these
+##################################################
+# figure out how to scrape these
 # https://en.wikipedia.org/wiki/List_of_United_States_natural_gas_companies
 # https://en.wikipedia.org/wiki/List_of_oil_exploration_and_production_companies#North_America
 # https://en.wikipedia.org/wiki/List_of_modern_armament_manufacturers
@@ -374,3 +405,8 @@ update_yaml('case_agnostic_work', 'company_consumer', 'List_of_marketing_researc
 # https://en.wikipedia.org/wiki/List_of_bookstore_chains
 # https://en.wikipedia.org/wiki/List_of_book_sales_clubs
 # https://en.wikipedia.org/wiki/List_of_superstores
+# https://en.wikipedia.org/wiki/List_of_cleaning_companies
+# https://en.wikipedia.org/wiki/List_of_press_release_agencies
+# https://en.wikipedia.org/wiki/List_of_CAx_companies
+# https://en.wikipedia.org/wiki/List_of_electronics_brands
+
