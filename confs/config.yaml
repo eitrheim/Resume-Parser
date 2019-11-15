@@ -608,6 +608,7 @@ case_agnostic_work:
  - [" ADP ",Automatic Data Processing]
  - [Adtalem Global Education,DeVry Education Group]
  - AECOM
+ - Alaska Communications
  - Align Technology
  - Alliance Data Systems
  - Altice
@@ -618,18 +619,22 @@ case_agnostic_work:
  - Aramark
  - [ArcBest,ABF Freight]
  - ASGN
-  - Boston Consulting Group
+ - AT&T
+ - Boston Consulting Group
  - [" Brinks "]
  - Brookdale Senior Living
+ - CenturyLink
  - Cintas
  - Clean Harbors
  - Comcast
+ - Consolidated Communications
  - DISH Network
  - Disney
  - [Dycom Industries,Dycom]
  - Ecolab
+ - Frontier Communications
  - Equifax
-  - [" EY "]
+ - [" EY "]
  - FedEx
  - H&R Block
  - Iron Mountain
@@ -641,6 +646,7 @@ case_agnostic_work:
  - Republic Services
  - Sinclair Broadcast Group
  - Stericycle
+ - [TDS Telecom,Telephone and Data Systems]
  - Time Warner
  - Tribune Media
  - [United Parcel Service," UPS "]
@@ -650,6 +656,14 @@ case_agnostic_work:
  - WW Grainger
  - Walt Disney
  - Waste Management
+ - 20th Century Fox Television
+ - ABC Studios
+ - Sony Pictures
+ - Universal Studio
+ - Amblin Television
+ - Warner Bros Television
+ - New Line Television
+ - MGM Television
  company_consumer:
  - 99 Cents Only Stores
  - [Abercrombie & Fitch,Abercrombie and Fitch]
@@ -680,13 +694,18 @@ case_agnostic_work:
  - Brinker International
  - Brunswick
  - Buffalo Wild Wings
+ - [BuildABear,Build A Bear]
+ - Buick
  - Burlington Stores
  - Cabelas
+ - Cadillac
  - Caesars Entertainment
  - Caseys General Stores
  - Cheesecake Factory
+ - Chevrolet
  - [Chicos FAS,Chicos]
  - [Chipotle Mexican Grill,Chipotle]
+ - Chrysler
  - [Cinemark Holdings,Cinemark]
  - Columbia Sportswear
  - [Costco,Costco Wholesale]
@@ -694,17 +713,22 @@ case_agnostic_work:
  - DR Horton
  - [Delta Air Lines,Delta Airlines]
  - Dillards
+ - Dodge
  - Dollar General
  - Dollar Tree
  - Dominos Pizza
  - Eldorado Resorts
  - Estee Lauder
+ - Fiat Chrysler
  - Finish Line
  - Foot Locker
+ - Ford
  - Fossil Group
  - GameStop
  - Gap Inc
  - General Motors
+ - GMC
+ - Hallmark
  - [Harley Davidson,HarleyDavidson]
  - Hasbro
  - Herman Miller
@@ -716,6 +740,7 @@ case_agnostic_work:
  - [Hyatt Hotels,Hyatt]
  - [JC Penney,JCPenney]
  - [JCrew Group,Jcrew]
+ - Jeep
  - [JetBlue Airways,JetBlue]
  - [" KB Home "]
  - Kohls
@@ -723,6 +748,7 @@ case_agnostic_work:
  - Las Vegas Sands
  - Lennar
  - Levi Strauss
+ - Lincoln Motor Company
  - [Live Nation Entertainment,Live Nation]
  - [" Lowes "]
  - Macys
@@ -744,6 +770,7 @@ case_agnostic_work:
  - Penske Automotive
  - Pier 1 Imports
  - Ralph Lauren
+ - RAM
  - Sally Beauty
  - [Sears Holdings," Sears "]
  - [Sherwin Williams,SherwinWilliams]
@@ -892,6 +919,8 @@ case_agnostic_work:
  - CMS Energy
  - ConocoPhillips
  - Consol Energy
+ - Consolidated Edison
+ - Consumers Energy
  - Contura Energy
  - Devon Energy
  - Diamondback Energy
@@ -905,9 +934,11 @@ case_agnostic_work:
  - Exelon
  - Exxon Mobil
  - [Ferrellgas Partners,Ferrellgas]
+ - Florida Power & Light
  - FirstEnergy
  - [FMC Technologies," FMC "]
  - Genesis Energy
+ - Georgia Power
  - Great Plains Energy
  - Halliburton
  - Hawaiian Electric Industries
@@ -928,14 +959,17 @@ case_agnostic_work:
  - Oasis Petroleum
  - Occidental Petroleum
  - OGE Energy
+ - Pacific Gas & Electric
  - PBF Energy
  - Peabody Energy
  - Portland General Electric
  - PPG Industries
+ - Public Service Elec & Gas
  - Puget Energy
  - Renewable Energy Group
  - Sempra Energy
  - SM Energy
+ - Southern California Edison
  - Southwest Gas Holdings
  - Southwestern Energy
  - Spectra Energy
