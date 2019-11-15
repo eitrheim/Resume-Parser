@@ -785,14 +785,19 @@ case_agnostic_work:
  - Agilent Technologies
  - Alere
  - Alexion Pharmaceuticals
+ - Allergan
  - Allscripts Healthcare Solutions
  - AmerisourceBergen
  - Amgen
  - AMN Healthcare Services
  - Anthem
+ - Astellas
+ - AstraZeneca
+ - Bayer
  - [Baxter International,Baxter]
  - Becton Dickinson
  - BioRad Laboratories
+ - BioMarin
  - Biogen
  - Boston Scientific
  - [BristolMyers Squibb,Bristol Myers Squibb]
@@ -802,20 +807,25 @@ case_agnostic_work:
  - Cigna
  - Community Health Systems
  - CVS Health
+ - Daiichi Sankyo
  - Danaher
  - [DaVita HealthCare Partners,DaVita HealthCare]
  - Diplomat Pharmacy
  - Eli Lilly
+ - Eisai Pharmaceutical
  - Encompass Health
  - Envision Healthcare
  - Express Scripts Holding
  - Genesis Healthcare
  - Gilead Sciences
+ - GlaxoSmithKline
  - HCA Healthcare
  - Healthcare Services Group
  - HealthSouth
  - Humana
  - Iasis Healthcare
+ - Illumnia
+ - Incyte
  - Kindred Healthcare
  - [Laboratory Corp of America,Laboratory Corporation of America,LabCorp]
  - LifePoint Health
@@ -825,14 +835,22 @@ case_agnostic_work:
  - Medical Mutual of Ohio
  - Merck
  - Molina Healthcare
+ - Mylan
+ - Novartis
+ - Novo Nordisk
+ - Perrigo
  - Pfizer
  - PharMerica
  - PRA Health Sciences
  - [Regeneron Pharmaceuticals,Regeneron]
+ - [" roche "]
+ - Sanofi
  - Select Medical Holdings
+ - Shire Pharmaceuticals
  - St Jude Medical
  - Stryker
  - Syneos Health
+ - Takeda Pharmaceuticals
  - Tenet Healthcare
  - Thermo Fisher Scientific
  - UnitedHealth Group
@@ -841,6 +859,7 @@ case_agnostic_work:
  - Vertex Pharmaceuticals
  - WellCare Health Plans
  - Zimmer Biomet
+ - Zoetis
  company_energychem:
  - [AMark Precious Metals,A Mark Precious Metals]
  - A Schulman
@@ -1101,7 +1120,9 @@ case_agnostic_work:
  - Assurant
  - [AutoOwners Insurance,Auto Owners Insurance]
  - [AvalonBay,AvalonBay Communities]
+ - [Banco Itau,Banco Itaú]
  - [Bank of America, Merrill Lynch]
+ - Bank of Montreal
  - Bank of New York Mellon
  - [BB&T Corp," BB&T"]
  - Berkshire Hathaway
@@ -1111,6 +1132,7 @@ case_agnostic_work:
  - Boston Properties
  - Brighthouse Financial
  - [Broadridge Financial Solutions,Broadridge,Broadridge Financial]
+ - Canadian Imperial Bank of Commerce
  - [Capital One Financial,Capital One]
  - [Cboe Global Markets,Chicago Board Options Exchange,BATS Global Markets]
  - CBRE Group
@@ -1169,7 +1191,9 @@ case_agnostic_work:
  - Realogy
  - Regions Financial
  - [Reinsurance Group of America," RGA "]
- - [S&P Global,Standard & Poors,Standard&Poors]
+ - Royal Bank of Canada
+ - [S&P Global,Standard & Poors,Standard&Poors,Standard and Poors]
+ - Scotiabank
  - Securian Financial
  - Selective Insurance Group
  - [Sentry Insurance Group,Sentry Insurance]
@@ -1185,6 +1209,7 @@ case_agnostic_work:
  - TD Ameritrade
  - [Thrivent Financial for Lutherans,Thrivent Financial]
  - [TIAA,Teachers Insurance and Annuity Association]
+ - [Toronto Dominion Bank,TorontoDominion Bank]
  - TransUnion
  - Travelers
  - [US Bancorp, US Bank]
@@ -1194,6 +1219,52 @@ case_agnostic_work:
  - Wells Fargo
  - [Western & Southern Financial Group,Western & Southern Financial,Western and Southern Financial]
  - [Zions Bancorp,Zions Bank]
+ - AAC Capital Partners
+ - Equistone Partners
+ - Baring Vostok Capital Partners
+ - Kohlberg Kravis Roberts
+ - Irving Place Capital
+ - PAI Partners
+ - ABS Capital
+ - Trimaran Capital Partners
+ - Court Square Capital Partners
+ - CVC Capital Partners
+ - Welsh Carson Anderson & Stowe
+ - Bruckmann Rosser Sherrill & Co
+ - Willis Stein & Partners
+ - CIVC Partners
+ - DLJ Merchant Banking
+ - Avista Capital Partners
+ - Diamond Castle Holdings
+ - Castle Harlan
+ - CIP Capital
+ - MidOcean Partners
+ - Madison Dearborn Partners
+ - CCMP Capital
+ - Trilantic Capital Partners
+ - Metalmark Capital
+ - Bridgepoint Capital
+ - Terra Firma Capital
+ - UBS Capital
+ - Affinity Equity Partners
+ - Capvis
+ - Lightyear Capital
+ - Pamlico
+ - William Blair
+ - Kohlberg Kravis Roberts
+ - Carlyle Group
+ - TPG Capital
+ - Warburg Pincus
+ - Advent International
+ - Apollo Global Management
+ - EnCap Investments
+ - Neuberger Berman
+ - CVC Capital Partners
+ - Bain Capital
+ - Thoma Bravo
+ - Vista Equity Partners
+ - Apax Partners
+ - Clayton Dubilier & Rice
  company_other:
  - [Blackhawk Network Holdings,Blackhawk Network]
  - [BlueLinx Holdings,BlueLinx]
