@@ -48,16 +48,18 @@ def update_yaml(main_section, sub_section, wiki_extension):
             break
         elif li.text == 'Film treatment':
             break
+        elif li.text == 'Ocean Freeze Frozen Yogurt':
+            break
+        elif li.text == 'Bass effects':
+            break
+        elif li.text == 'Multinational company topics':
+            break
         else:
             x = li.text
             x = x.split(' (')[0].split('[')[0]
             x = re.sub('[,.-]', '', x).replace('\'', '').lstrip()
             print(x)
             data_loaded[main_section][sub_section].append(x)
-
-    # for item in data_loaded[main_section][sub_section]:
-    #     if "List of " in item:
-    #         data_loaded[main_section][sub_section].remove(item)
 
     try:
         data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=lambda x: x[0])
@@ -92,10 +94,6 @@ def update_yaml_table1(main_section, sub_section, wiki_extension, col):
             print(x)
             data_loaded[main_section][sub_section].append(x)
 
-    # for item in data_loaded[main_section][sub_section]:
-    #     if "List of " in item:
-    #         data_loaded[main_section][sub_section].remove(item)
-
     try:
         data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=lambda x: x[0])
         data_loaded[main_section][sub_section] = list(
@@ -128,10 +126,6 @@ def update_yaml_table2(main_section, sub_section, wiki_extension, col):
             x = re.sub('[,.-]', '', x).replace('\n', '').replace('\'', '').replace(' ^', '').lstrip()
             print(x)
             data_loaded[main_section][sub_section].append(x)
-
-    # for item in data_loaded[main_section][sub_section]:
-    #     if "List of " in item:
-    #         data_loaded[main_section][sub_section].remove(item)
 
     try:
         data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=lambda x: x[0])
@@ -201,10 +195,6 @@ def update_yaml_table3(main_section, sub_section, wiki_extension, col):
             print(x)
             data_loaded[main_section][sub_section].append(x)
 
-    # for item in data_loaded[main_section][sub_section]:
-    #     if "List of " in item:
-    #         data_loaded[main_section][sub_section].remove(item)
-
     try:
         data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=lambda x: x[0])
         data_loaded[main_section][sub_section] = list(
@@ -219,7 +209,7 @@ def update_yaml_table3(main_section, sub_section, wiki_extension, col):
 
 
 def update_yaml_table4(main_section, sub_section, wiki_extension, col):
-    with open('confs/config.yaml', 'r') as stream:
+    with open('TESTING.yaml', 'r') as stream:
         try:
             data_loaded = yaml.safe_load(stream)
         except yaml.YAMLError as exc:
@@ -237,10 +227,6 @@ def update_yaml_table4(main_section, sub_section, wiki_extension, col):
             x = re.sub('[,.-]', '', x).replace('\n', '').replace('\'', '').replace(' ^', '').lstrip()
             print(x)
             data_loaded[main_section][sub_section].append(x)
-
-    # for item in data_loaded[main_section][sub_section]:
-    #     if "List of " in item:
-    #         data_loaded[main_section][sub_section].remove(item)
 
     try:
         data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=lambda x: x[0])
@@ -291,7 +277,7 @@ def update_yaml_table4all(main_section, sub_section, wiki_extension, col):
 
 
 def update_yaml_table5(main_section, sub_section, wiki_extension, col):
-    with open('confs/config.yaml', 'r') as stream:
+    with open('TESTING.yaml', 'r') as stream:
         try:
             data_loaded = yaml.safe_load(stream)
         except yaml.YAMLError as exc:
@@ -309,10 +295,6 @@ def update_yaml_table5(main_section, sub_section, wiki_extension, col):
             x = re.sub('[,.-]', '', x).replace('\n', '').replace('\'', '').replace(' ^', '').lstrip()
             print(x)
             data_loaded[main_section][sub_section].append(x)
-
-    # for item in data_loaded[main_section][sub_section]:
-    #     if "List of " in item:
-    #         data_loaded[main_section][sub_section].remove(item)
 
     try:
         data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=lambda x: x[0])
@@ -363,10 +345,6 @@ def update_yaml_table6(main_section, sub_section, wiki_extension):
                         print(x)
                         data_loaded[main_section][sub_section].append(x)
 
-    # for item in data_loaded[main_section][sub_section]:
-    #     if "List of " in item:
-    #         data_loaded[main_section][sub_section].remove(item)
-
     try:
         data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=lambda x: x[0])
         data_loaded[main_section][sub_section] = list(
@@ -380,9 +358,7 @@ def update_yaml_table6(main_section, sub_section, wiki_extension):
     print("Updated Yaml File Saved")
 
 
-
-
-# update_yaml('case_agnostic_work', 'company_foodbev', 'List_of_food_companies')
+update_yaml('case_agnostic_work', 'company_foodbev', 'List_of_food_companies')
 # update_yaml_table1('case_agnostic_work', 'company_health', 'List_of_largest_biotechnology_and_pharmaceutical_companies', 1)
 # update_yaml('case_agnostic_work', 'company_health', 'List_of_pharmaceutical_companies')
 # update_yaml('case_agnostic_work', 'company_fin', 'List_of_asset_management_firms')
@@ -453,11 +429,44 @@ def update_yaml_table6(main_section, sub_section, wiki_extension):
 # update_yaml_table4('case_agnostic_work', 'company_energychem', 'List_of_largest_aluminum_producers_by_output', 1)
 # update_yaml('case_agnostic_work', 'company_other', 'List_of_companies_in_the_Chicago_metropolitan_area')
 # update_yaml_table2('case_agnostic_work', 'company_other', 'List_of_largest_companies_by_revenue', 0)
-update_yaml_table4('case_agnostic_work', 'company_tech', 'List_of_glossy_display_branding_manufacturers', 0)
+# update_yaml_table4('case_agnostic_work', 'company_tech', 'List_of_glossy_display_branding_manufacturers', 0)
+# update_yaml_table4('case_agnostic_work', 'company_consumer', 'List_of_bean-to-bar_chocolate_manufacturers', 0)
+# update_yaml('case_agnostic_work', 'company_consumer', 'List_of_frozen_yogurt_companies')
+# update_yaml('case_agnostic_work', 'company_services', 'List_of_websites_about_food_and_drink')
+# update_yaml('case_agnostic_work', 'company_tech', 'List_of_bass_amplifier_and_loudspeaker_manufacturers')
+# update_yaml_table4('case_agnostic_work', 'company_tech', 'List_of_digital_camera_brands', 2)
+# update_yaml_table4all('case_agnostic_work', 'company_other', 'List_of_SRI_International_spin-offs', 0)
+# update_yaml_table4('case_agnostic_work', 'company_other', 'List_of_largest_European_manufacturing_companies_by_revenue', 0)
+# update_yaml('case_agnostic_work', 'company_other', 'List_of_Six_Sigma_companies')
+# update_yaml_table4('case_agnostic_work', 'company_other', 'List_of_S%26P_500_companies', 1)
+# update_yaml('case_agnostic_work', 'company_other', 'List_of_multinational_corporations')
+# update_yaml_table4('case_agnostic_work', 'company_other', 'List_of_companies_of_the_European_Union', 1)
+# update_yaml_table4('case_agnostic_work', 'company_energychem', 'List_of_copper_production_by_company', 1)
+# update_yaml_table4all('case_agnostic_work', 'company_other', 'List_of_largest_corporate_profits_and_losses', 1)
 
 
 
-# delete dups in company_other
+
+
+# deleting companies in 'other' if they are in another section
+with open('TESTING.yaml', 'r') as stream:
+    data_loaded = yaml.safe_load(stream)
+
+for company_type in data_loaded['case_agnostic_work'].keys():
+    if company_type == 'company_other':
+        pass
+    else:
+        for item in data_loaded['case_agnostic_work'][company_type]:
+            if item in data_loaded['case_agnostic_work']['company_other']:
+                data_loaded['case_agnostic_work']['company_other'].remove(item)
+                print(item, "deleted from company_other")
+
+with open('TESTING.yaml', 'w') as fp:
+    yaml.dump(data_loaded, fp)
+
+
+
+
 ##################################################
 # revisit
 # update_yaml('case_agnostic_work', 'company_tech', 'List_of_3D_printer_manufacturers')
@@ -501,13 +510,16 @@ update_yaml_table4('case_agnostic_work', 'company_tech', 'List_of_glossy_display
 # https://en.wikipedia.org/wiki/List_of_PLC_manufacturers
 # https://en.wikipedia.org/wiki/List_of_major_arms_industry_corporations_by_country
 # https://en.wikipedia.org/wiki/List_of_public_corporations_by_market_capitalization
+# https://en.wikipedia.org/wiki/List_of_television_manufacturers
+# https://en.wikipedia.org/wiki/List_of_flat_panel_display_manufacturers
+# https://en.wikipedia.org/wiki/List_of_loudspeaker_manufacturers
+# https://en.wikipedia.org/wiki/List_of_unicorn_startup_companies
+# https://en.wikipedia.org/wiki/List_of_government-owned_companies
+# https://en.wikipedia.org/wiki/List_of_holding_companies
+# https://en.wikipedia.org/wiki/List_of_franchises
+# https://en.wikipedia.org/wiki/List_of_largest_employers
+# https://en.wikipedia.org/wiki/List_of_conglomerates
+# https://en.wikipedia.org/wiki/List_of_company_registers#United_States
 
 
-# Left of on list of lists:
-# https://en.wikipedia.org/wiki/Category:Food_industry-related_lists
-# https://en.wikipedia.org/wiki/Category:Lists_of_retailers
-# https://en.wikipedia.org/wiki/Category:Lists_of_energy_companies
-# https://en.wikipedia.org/wiki/Category:Lists_of_consumer_electronics_manufacturers
-# https://en.wikipedia.org/wiki/Category:Lists_of_retailers
-# https://en.wikipedia.org/wiki/Lists_of_companies
-# https://en.wikipedia.org/wiki/Category:Lists_of_companies_by_industry
+
