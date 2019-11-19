@@ -46,7 +46,7 @@ deans list
 any special kinds of scholarships
 Psi Chi Honor Society
 
-
+https://github.com/summanlp/textrank
 
 
 Automated Resume Screening System: https://github.com/JAIJANYANI/Automated-Resume-Screening-System
@@ -54,7 +54,8 @@ NER: https://towardsdatascience.com/a-review-of-named-entity-recognition-ner-usi
 
 List of skills from :https://www.kaggle.com/vingkan/strategeion-resume-skills#skills.txt
 
-Delete - from uni when searching
+
+
 Auditing
 AutoCAD
 Automotive
@@ -330,25 +331,6 @@ Diving
   - IBM Cloud
 
 
-
- companies:
-  - Amazon
-  - Google
-  - Microsoft
-  - Irevna Research Services
-  - Lochan & Co
-  - NIIT
-  - Ghosh Khanna
-  - C C Chokshi
-  - Shapoorji Paloonji
-  - Boeing
-  - The Home Depot
-  - Capital One
-  - Bank of America
-  - Starbucks
-  - IBM
-  - Apple
-  - Facebook
 
 
 

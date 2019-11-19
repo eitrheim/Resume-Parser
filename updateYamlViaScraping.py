@@ -456,6 +456,25 @@ def update_yaml_table7(main_section, sub_section, wiki_extension):
     print("Updated Yaml File Saved")
 
 
+def sort_yaml(main_section, sub_section):
+    with open('confs/config.yaml', 'r') as stream:
+        try:
+            data_loaded = yaml.safe_load(stream)
+        except yaml.YAMLError as exc:
+            print(exc)
+    try:
+        data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=lambda x: x[0])
+        data_loaded[main_section][sub_section] = list(
+            k for k, _ in itertools.groupby(data_loaded[main_section][sub_section]))
+        print("\nSorted and Dropped Duplicates")
+    except IndexError:
+        pass
+
+    with open('confs/config.yaml', 'w') as fp:
+        yaml.dump(data_loaded, fp)
+    print("Updated Yaml File Saved")
+
+
 ############################ updating schools ############################
                 # list_of_links = []
                 # print("Accessing Wikipedia")
@@ -539,6 +558,12 @@ def update_yaml_table7(main_section, sub_section, wiki_extension):
 
 
 
+
+
+
+
+
+
 # deleting schools in 'other' if they are in another section
 with open('confs/config.yaml', 'r') as stream:
     data_loaded = yaml.safe_load(stream)
@@ -565,7 +590,10 @@ for item in data_loaded['case_agnostic_education']['other_universities']:
         data_loaded['case_agnostic_education']['community_college'].append(item)
         data_loaded['case_agnostic_education']['other_universities'].remove(item)
         print(item, "added to community_college")
-
+    if 'Technical College' in item:
+        data_loaded['case_agnostic_education']['community_college'].append(item)
+        data_loaded['case_agnostic_education']['other_universities'].remove(item)
+        print(item, "added to community_college")
 with open('confs/config.yaml', 'w') as fp:
     yaml.dump(data_loaded, fp)
 
@@ -669,6 +697,15 @@ with open('confs/config.yaml', 'w') as fp:
 # update_yaml_dash_comma_split('case_agnostic_work', 'company_tech', 'List_of_3D_printer_manufacturers')
 # update_yaml_dash_comma_split('case_agnostic_work', 'company_tech', 'List_of_semiconductor_IP_core_vendors')
 # update_yaml_dash_comma_split('case_agnostic_work', 'company_energychem', 'List_of_United_States_electric_companies')
+
+sort_yaml('case_agnostic_work', 'company_foodbev')
+sort_yaml('case_agnostic_work', 'company_fin')
+sort_yaml('case_agnostic_work', 'company_tech')
+sort_yaml('case_agnostic_work', 'company_services')
+sort_yaml('case_agnostic_work', 'company_health')
+sort_yaml('case_agnostic_work', 'company_energychem')
+sort_yaml('case_agnostic_work', 'company_other')
+sort_yaml('case_agnostic_hobbies', 'hobbies')
 
 # # deleting companies in 'other' if they are in another section
 with open('confs/config.yaml', 'r') as stream:

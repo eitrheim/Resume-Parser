@@ -1320,6 +1320,12 @@ case_agnostic_education:
   - Yakima Valley College
   - Zane State College
   - Hinds Community College at Utica
+  - J F Drake State Technical College
+  - Los Angeles TradeTechnical College
+  - Minnesota State Community & Technical College
+  - Northwest Kansas Technical College
+  - Trenholm State Technical College
+  - Minnesota West Community & Technical College
   major_minor:
   - - Accounting
     - Forensic Accounting
@@ -3383,7 +3389,6 @@ case_agnostic_education:
   - Johnson University
   - Jacksonville State University
   - Judson College
-  - J F Drake State Technical College
   - Jackson State University
   - Jarvis Christian College
   - Johnson C Smith University
@@ -3443,7 +3448,6 @@ case_agnostic_education:
   - Los Angeles Mission College
   - Los Angeles Pierce College
   - Los Angeles Southwest College
-  - Los Angeles TradeTechnical College
   - Los Angeles Valley College
   - Los Medanos College
   - Lynn University
@@ -3636,8 +3640,6 @@ case_agnostic_education:
   - Macalester College
   - Martin Luther College
   - Mesabi Range College
-  - Minnesota State Community & Technical College
-  - Minnesota West Community & Technical College
   - Mississippi State University
   - Mississippi Valley State University
   - Mississippi College
@@ -3849,7 +3851,6 @@ case_agnostic_education:
   - North Park University
   - Northwestern College
   - Newman University
-  - Northwest Kansas Technical College
   - Northern Kentucky University
   - Nicholls State University
   - Northwestern State University
@@ -4686,7 +4687,6 @@ case_agnostic_education:
   - Texas College
   - Texas Southern University
   - Tougaloo College
-  - Trenholm State Technical College
   - Tuskegee University
   - University of London
   - University of Northern Iowa
@@ -5382,38 +5382,6 @@ case_agnostic_education:
   - York College of Pennsylvania
   - York College
   - Yellowstone Christian College
-  - '[A 2]'
-  - '[A 4]'
-  - '[A 6]'
-  - '[A 11]'
-  - '[p]'
-  - '[A 37]'
-  - '[A 39]'
-  - '[A 1]'
-  - '[A 2]'
-  - '[A 3]'
-  - '[A 4]'
-  - '[A 3]'
-  - '[A 5]'
-  - '[A 1]'
-  - '[A 6]'
-  - '[A 7]'
-  - '[A 8]'
-  - '[A 9]'
-  - '[A 10]'
-  - '[A 11]'
-  - '[A 9]'
-  - '[A 1]'
-  - '[A 11]'
-  - '[A 3]'
-  - '[A 4]'
-  - '[A 12]'
-  - '[A 13]'
-  - '[A 3]'
-  - '[A 4]'
-  - '[A 11]'
-  - '[A 12]'
-  - '[A 13]'
   top_100_universities:
   - Amherst College
   - Arizona State University
@@ -5556,6 +5524,45 @@ case_agnostic_education:
   - University of Chicago
   - University of Pennsylvania
   - Yale University
+case_agnostic_hobbies:
+  hobbies:
+  - Basketball
+  - Baseball
+  - Drag Racing
+  - Golf
+  - Hockey
+  - Juggling
+  - Knife Throwing
+  - Motor Cross
+  - Reading
+  - Rollerblading
+  - Surfing
+  - Swimming
+  - Skiing
+  - Traveling
+  - Table Tennis
+  - Volleyball
+  - Water Skiing
+  - chess
+  - cooking
+  - camping
+  - football
+  - hiking
+  - jogging
+  - painting
+  - piano
+  - reading
+  - running
+  - rock climbing
+  - swimming
+  - soccer
+  - snowboarding
+  - skiing
+  - tacos
+  - travel
+  - trekking
+  - volleyball
+  - video games
 case_agnostic_languages:
   languages:
   - Akkadian
@@ -5635,7 +5642,7 @@ case_agnostic_work:
   - 99 Cents Only Stores
   - - Abercrombie & Fitch
     - Abercrombie and Fitch
-  - Accor
+  - 'Accor '
   - Advance Auto Parts
   - Alaska Air Group
   - - Albertsons
@@ -6077,9 +6084,9 @@ case_agnostic_work:
   - BB&T and SunTrust Banks
   - Bank of Beijing
   - Bank of New York Mellon
+  - Banco Itau
   - - BB&T Corp
     - ' BB&T'
-  - Banco Itau
   - - Bank of America
     - Merrill Lynch
   - - Broadridge Financial Solutions
@@ -6135,11 +6142,13 @@ case_agnostic_work:
     - Digital Realty
   - - Discover Financial Services
     - Discover Financial
-  - E*Trade Financial,E*Trade," Etrade "]
   - Equity Residential
   - Erie Insurance Group
   - Equistone Partners
   - EnCap Investments
+  - - E*Trade Financial
+    - E*Trade
+    - Etrade
   - - Edward Jones
     - Jones Financial
   - Fannie Mae
@@ -6317,15 +6326,91 @@ case_agnostic_work:
   - - Zions Bancorp
     - Zions Bank
   company_foodbev:
-  - CHS
-  - Dole
-  - JBS
-  - Mars
   - 2 Sisters Food Group
   - Archer Daniels Midland
   - Arla Foods
   - Asahi Group
   - Associated British Foods
+  - All Joy Foods
+  - Agrana
+  - AnheuserBusch InBev
+  - Agropur
+  - Amoy Food
+  - Alpina Productos Alimenticios
+  - Agrokor
+  - Atlantic Grupa
+  - Arla Foods
+  - Atria
+  - Alter Eco
+  - Amorino
+  - Alnatura
+  - Asbach Uralt
+  - August Storck
+  - Arapian
+  - Aavin
+  - Al Nassma Chocolate
+  - Amira Nature Foods
+  - Amul
+  - Amedei
+  - Auricchio
+  - Autogrill
+  - Abbey Cheese Company
+  - Abrakebabra Investments
+  - Ardsallagh Goat Farm
+  - Angel Bakeries
+  - Ajinomoto
+  - Asahi Breweries
+  - Americana Group
+  - Ah Cacao Real Chocolate
+  - Alpura
+  - Alsea
+  - Australian Homemade
+  - AVEBE
+  - Alliance Group
+  - Ajegroup
+  - Alicorp
+  - AmRest
+  - Almarai
+  - ABR Holdings
+  - Aalst Chocolate
+  - Asian Home Gourmet
+  - Ayam Brand
+  - AarhusKarlshamn
+  - Abba Seafood
+  - Arla Foods
+  - Apikoglu
+  - A E Rodda & Son
+  - AG Barr
+  - Antonelli Bros Ltd
+  - Associated British Foods
+  - A L Simpkin & Co Ltd
+  - Alvarado Street Bakery
+  - Arizmendi Bakery
+  - Au Bon Pain
+  - Avalon International Breads
+  - Archer Daniels Midland
+  - Abdallah Candies
+  - Amano Artisan Chocolate
+  - American Licorice Company
+  - Annabelle Candy Company
+  - Askinosie Chocolate
+  - All American Foods
+  - Alpenrose Dairy
+  - Aurora Organic Dairy
+  - ATreat Bottling Company
+  - Adirondack Beverages
+  - American Beverage Association
+  - Appalachian Brewing Company
+  - Arizona Beverage Company
+  - A Zeregas Sons Inc
+  - Amys Kitchen
+  - Albertsons
+  - Axium Foods
+  - Amalgamated Sugar Company
+  - American Crystal Sugar Company
+  - American Sugar Refining
+  - Alimentos La Giralda
+  - An Giang Coffee
   - All Joy Foods
   - Agrana
   - AnheuserBusch InBev
@@ -6524,11 +6609,124 @@ case_agnostic_work:
   - Badia Spices
   - Basic Food Flavors
   - Bien Hoa Sugar
+  - Bakers
+  - BOS Ice Tea
+  - Baiada Poultry
+  - Bakers Delight
+  - Balfours
+  - BaskinRobbins Australia
+  - Beerenberg Farm
+  - Bega Cheese
+  - Bellamys Australia
+  - Bickfords Australia
+  - Boost Juice
+  - Breadtop
+  - Bulla Dairy Foods
+  - Bundaberg Brewed Drinks
+  - Brauerei Ottakringer
+  - Bahra Biscuit Factory
+  - Brazilian Fast Food Corporation
+  - BRF SA
+  - Bothwell Cheese
+  - Bright Food
+  - Bel Group
+  - Biscuiterie SaintMichel
+  - Biscuits Fossier
+  - Bonnat Chocolates
+  - Bonduelle
+  - Bongrain
+  - Bahlsen
+  - Born Feinkost
+  - Banas Dairy
+  - Balaji Wafers
+  - Bikanervala
+  - Bihar State Milk Cooperative Federation
+  - Bisk Farm
+  - Bonn Group of Industries
+  - Britannia Industries
+  - BTW
+  - Balconi
+  - Balocco
+  - Barilla Group
+  - Bartolo Nardini
+  - Bertagni
+  - Barrys Tea
+  - Beal Organic Cheese
+  - Bewleys
+  - Bluebell Falls
+  - Burren Smokehouse
+  - Butlers Chocolates
+  - Bermans Bakery
+  - BOH Plantations
+  - Bachoco
+  - Bufalo
+  - Bavaria Brewery
+  - Bama Gruppen
+  - Brynild Gruppen
+  - Babayevsky
+  - Bambi
+  - BIP Brewery
+  - Bee Cheng Hiang
+  - Bengawan Solo
+  - BreadTalk
+  - BEHER
+  - Borges Mediterranean Group
+  - Barry Callebaut
+  - Bell Food Group
+  - Boon Rawd Brewery
+  - Bermudez Biscuit Company
+  - Bakkavor
+  - Bates Dairy
+  - Baxters
+  - Bens Cookies
+  - Benugo
+  - Bernard Matthews Ltd
+  - Bompas & Parr
+  - Booker Group
+  - Braces Bakery
+  - Brains Brewery
+  - Britvic
+  - Burtons Biscuit Company
+  - Big Apple Bagels
+  - Blue Chip Cookies
+  - Boudin Bakery
+  - Breadsmith
+  - Bobs Red Mill
+  - Bunge Limited
+  - Boyer Brothers
+  - Brachs
+  - Brown and Haley
+  - Bittersweet Plantation Dairy
+  - BelGioioso Cheese
+  - Blue Bell Creameries
+  - Brewster Dairy
+  - Byrne Dairy
+  - Bai Brands
+  - Boylan Bottling Company
+  - BrownForman
+  - Bruce Foods
+  - Brynwood Partners
+  - Bush Brothers and Company
+  - Bellisio Foods
+  - Blue Diamond Growers
+  - Buddy Fruits
+  - Boars Head Provision Company
+  - Burgers Smokehouse
+  - BR Guest
+  - Bloomin Brands
+  - Bravo Brio Restaurant Group
+  - Brinker International
+  - Beer Nuts
+  - Blairs Sauces and Snacks
+  - Badia Spices
+  - Basic Food Flavors
+  - Bien Hoa Sugar
   - - BrownForman
     - Brown Formanm
     - Jack Daniels
     - Woodford Reserve
     - Old Forester
+  - CHS
   - Cargill
   - Chiquita
   - Clorox
@@ -6646,6 +6844,120 @@ case_agnostic_work:
   - ConAgra Foods
   - Chocolates El Rey
   - Cuulong Fish
+  - Cevital
+  - Choppies
+  - Clover
+  - Colcom Foods
+  - Camperdown Dairy International
+  - Canberra Milk
+  - Cavalier Chocolate
+  - Confiserie Roodthooft
+  - Copacol
+  - Canyon Creek Food Company
+  - Chapmans
+  - Cott
+  - Castano
+  - Compania de las Cervecerias Unidas
+  - Concha y Toro
+  - Chaoda Modern Agriculture
+  - COFCO Group
+  - Convenience Retail Asia
+  - Carlsberg Group
+  - Chr Hansen
+  - CoRo Food
+  - Cloetta
+  - Castel Group
+  - Comigel
+  - Compagnie des Fromages et RichesMonts
+  - Cooperl Arc Atlantique
+  - C Hahne Muhlenwerke GmbH & Co KG
+  - Coppenrath & Wiese
+  - Cafe Coffee Day
+  - Candico
+  - Creambell
+  - Campari Group
+  - Carapelli
+  - Cielo
+  - Cirio
+  - Coppola Foods
+  - Cahills Farm Cheese
+  - Carlow Brewing Company
+  - Carrigaline Farmhouse Cheese
+  - C&C Group
+  - Calbee
+  - Chilchota Alimentos
+  - Cholula Hot Sauce
+  - Chelsea Sugar Refinery
+  - Cookie Time
+  - Cermaq
+  - Coop Norge
+  - Corporacion Lindley SA
+  - CDO Foodsphere
+  - Century Pacific Food
+  - Cerealis
+  - Cofaco
+  - Conservas Ramirez
+  - Conserveira do Sul
+  - Cherkizovo
+  - CJ Group
+  - Crown Confectionery
+  - Calidad Pascual
+  - Campofrio Food Group
+  - Cargills
+  - Ceylon Biscuits Limited
+  - Ceylon Cold Stores
+  - Cloetta
+  - Cailler
+  - Chiquita Brands International
+  - Coffee World
+  - Coop
+  - Confiserie Sprungli
+  - Charoen Pokphand Foods
+  - Carib Brewery
+  - Chumak
+  - Charbonnel et Walker
+  - Clarks Pies
+  - Coop Food
+  - Compass Group
+  - Connoisseurs Bakery
+  - Cook Trading
+  - Cooplands
+  - Cranswick plc
+  - Carlos Bake Shop
+  - Cavanagh Company
+  - Collin Street Bakery
+  - Crumbs Bake Shop
+  - Cargill
+  - CHS Inc
+  - ContiGroup Companies
+  - Carolina Foods
+  - Chagrin Falls Popcorn Shop
+  - Chocolove
+  - Cabot Creamery
+  - CalMaine
+  - CassClay
+  - Chaseholm Farm Creamery
+  - Clover Stornetta Farms
+  - Cowgirl Creamery
+  - Crystal Creamery
+  - Cypress Point Creamery
+  - Castle Brands
+  - Cawy Bottling Company
+  - Crunk Energy Drink
+  - Catterton Partners
+  - Cherrybrook Kitchen
+  - Colavita
+  - Cuisine Solutions
+  - Captain Kens Foods
+  - Calavo Growers
+  - Columbus Salame
+  - Casa Sanchez Foods
+  - Charles Chips
+  - Crystal Hot Sauce
+  - Campbell Soup Company
+  - ConAgra Foods
+  - Chocolates El Rey
+  - Cuulong Fish
   - - Campbell
     - Pepperidge Farm
     - Snyders of Hanover
@@ -6661,11 +6973,81 @@ case_agnostic_work:
   - - Conagra
     - Conagra Foods
     - Conagra Brands
+  - Dole
   - Dairy Farmers of America
   - Danone
   - Dean Foods
   - Del Monte
   - Diageo
+  - Distell Group Limited
+  - Darrell Lea
+  - Dick Smith Foods
+  - Do & Co
+  - Delhaize Group
+  - Duc dO
+  - Daiya
+  - DanD Foods
+  - Dare Foods
+  - Dachan Food
+  - Dairy Farm International Holdings
+  - Danish Agro
+  - Danish Crown AmbA
+  - DAVA Foods
+  - Dalloyau
+  - Danone
+  - Daregal
+  - Debauve & Gallais
+  - Delifrance
+  - Dusseldorfer Lowensenf
+  - Dr Oetker
+  - Dabur
+  - Dudhsagar Dairy
+  - De Cecco
+  - Divella
+  - Domori
+  - Donegal Creameries
+  - Douwe Egberts
+  - Droste
+  - Den Lille Nottefabrikken
+  - Drammens Is
+  - Dalda
+  - Don Jorge
+  - Delta Cafes
+  - Doosan Corporation
+  - Daintee
+  - Delica
+  - Dachan Food
+  - Dairy Crest
+  - Delamere Dairy
+  - Devro
+  - Dietary Foods Ltd
+  - Divine Chocolate
+  - Druckers Vienna Patisserie
+  - Dagoba Chocolate
+  - Dans Chocolates
+  - Dylans Candy Bar
+  - Dairy Farmers of America
+  - Darigold
+  - DCI Cheese Company
+  - Dean Foods
+  - Days Beverages
+  - Deep Foods
+  - Del Monte Foods
+  - Dole Food Company
+  - Driscolls
+  - DArtagnan
+  - Dakota Beef
+  - Daniele Inc
+  - Dietz & Watson
+  - Darden Restaurants
+  - Del Friscos Restaurant Group
+  - Delaware North
+  - Dine Brands Global
+  - Dunkin Brands
+  - Dot Foods
+  - Dakota Style
+  - Daves Gourmet
+  - DogGone Sauce
   - Distell Group Limited
   - Darrell Lea
   - Dick Smith Foods
@@ -6763,6 +7145,29 @@ case_agnostic_work:
   - Empire Kosher
   - Elmers Fine Foods
   - Empresas Polar
+  - Ernest Hillier Chocolates
+  - Earths Own Food Company
+  - Elior Group
+  - Evga SA
+  - Everest Spices
+  - Elledi
+  - Ezaki Glico
+  - Efreshcom
+  - Emersons Brewery
+  - Evansdale Cheese
+  - Engro Corporation
+  - Enrique Cassinelli and Sons
+  - Ebro Foods
+  - Engelholms Glass
+  - Emmi AG
+  - Est Cola
+  - Efes Beverage Group
+  - Ellsworth Cooperative Creamery
+  - Eden Foods Inc
+  - Edwards Baking
+  - Empire Kosher
+  - Elmers Fine Foods
+  - Empresas Polar
   - FEMSA
   - Fonterra
   - Famous Brands
@@ -6814,7 +7219,121 @@ case_agnostic_work:
   - Franks RedHot
   - Frenchs
   - Frontier Natural Products Coop
+  - Famous Brands
+  - Ferguson Plarre Bakehouses
+  - Frosty Boy
+  - Fufeng Group
+  - Fujian Dali Group
+  - Franck
+  - FriisHolm
+  - Fazer
+  - Fleury Michon
+  - Frosta AG
+  - Fazer
+  - Faasos
+  - Ferrero SpA
+  - Flahavans
+  - Fyffes
+  - Fujimitsu Corporation
+  - Fujiya
+  - Felda Global Ventures Holdings
+  - FrieslandCampina
+  - Fonterra
+  - Foodstuffs
+  - Foxton Fizz
+  - Felleskjopet
+  - Fjordland
+  - Friele
+  - Fauji Foundation
+  - Figaro Coffee Company
+  - Frulact
+  - Findus
+  - FranchesMontagnes Brewery
+  - Flavorite Ice Cream
+  - F Duerr & Sons
+  - Foxs Confectionery
+  - Fiendish Feet
+  - First Milk
+  - Fivemiletown Creamery
+  - Flowers Foods
+  - Fuji Food
+  - Friesingers Candies
+  - Flagship Food Group
+  - Freds Frozen Foods
+  - Floyd Wilcox & Sons Inc
+  - Franklin Baker Company
+  - Fresh Del Monte Produce
+  - Friedas Inc
+  - Foster Farms
+  - Franks RedHot
+  - Frenchs
+  - Frontier Natural Products Coop
   - Grupo Lala
+  - Golden Web
+  - Grupo Arcor
+  - Glacio
+  - Garoto
+  - Grupo Petropolis
+  - Ganong Bros
+  - Gay Lea
+  - George Weston Limited
+  - Global Sweeteners
+  - Grupo Nutresa
+  - Groupe Bigard
+  - Groupe Doux
+  - Groupe Holder
+  - Groupe Le Duff
+  - Groupe Limagrain
+  - Granini
+  - Gelati Cecchi
+  - Giovanni Rana
+  - Girolamo Luxardo
+  - Granarolo
+  - Grom
+  - Guglielmo coffee
+  - Gustobene
+  - Gleeson Group
+  - Greencore
+  - Grupo Andersons
+  - Grupo Bimbo
+  - Gruma
+  - Grupo Lala
+  - Grupo La Nortenita
+  - Grupo Lala
+  - Goodman Fielder
+  - Greggs
+  - Gartnerhallen
+  - Gourmet Foods
+  - Grupo RAR
+  - Gyeonggi Snack Company
+  - Galletas Gullon
+  - Grupo Calvo
+  - Gunnar Dafgard
+  - Gulsan
+  - Gelato Italia
+  - Ginsters
+  - Goldenfry
+  - Greene King
+  - Graze
+  - Grodzinski Bakery
+  - Great Harvest Bread Company
+  - Gavilon
+  - Georgetown Cupcake
+  - Gertrude Hawk Chocolates
+  - Giambris Quality Sweets
+  - Goetzes Candy Company
+  - Guittard Chocolate Company
+  - Gallikers
+  - Gossner Foods
+  - Grafton Village Cheese Company
+  - Guayaki
+  - Goya Foods
+  - Gustobene
+  - Global Franchise Group
+  - Gordon Food Service
+  - Golden Flake
+  - Gold Pure Food Products Co
+  - General Mills
   - Golden Web
   - Grupo Arcor
   - Glacio
@@ -6955,6 +7474,60 @@ case_agnostic_work:
   - Highlands Coffee
   - Huda Beer
   - Hue Beer
+  - Havanna
+  - Haighs Chocolates
+  - Huon Aquaculture
+  - Hangzhou Wahaha Group
+  - Hanwei Group
+  - Huiyuan Juice
+  - HKScan
+  - Hediard
+  - Halloren Chocolate Factory
+  - Handlmaier
+  - Hans Adler
+  - Haribo
+  - Haitoglou Bros
+  - Haldirams
+  - Heritage Foods
+  - Hadji Bey
+  - House Foods
+  - Heineken International
+  - Healtheries
+  - Hubbard Foods
+  - HennigOlsen Iskremfabrikk
+  - HOFF Norske Potetindustrier
+  - Hval Sjokoladefabrikk
+  - Hortex
+  - Hollys Coffee
+  - Hero Group
+  - HeySong Corporation
+  - Hsin Tung Yang
+  - House of Angostura
+  - Higgidy
+  - Hope and Greenwood
+  - Hovis
+  - HR Bradfords
+  - Happy Cow Creamery
+  - Hershey Creamery Company
+  - Hilmar Cheese Company
+  - Horizon Organic
+  - HP Hood
+  - Hint Water
+  - Hosmer Mountain Soda
+  - Hollandia Produce
+  - Hatfield Quality Meats
+  - Heritage Foods USA
+  - Hormel
+  - Herlocher Foods
+  - Huy Fong Foods
+  - Hain Celestial Group
+  - Hormel
+  - Habeco
+  - Hai Ha Confectionery
+  - Hanoimilk
+  - Highlands Coffee
+  - Huda Beer
+  - Hue Beer
   - - Hersey Company
     - Hersheys
   - - Hormel Foods
@@ -6983,9 +7556,34 @@ case_agnostic_work:
   - Isalys
   - Idahoan Foods
   - Ingredion
+  - Inghams Enterprises
+  - Isis Central Sugar Mill
+  - International Meal Company
+  - IANSA
+  - Intersnack
+  - Ion
+  - Idhayam
+  - Indian dairy products
+  - ITC Limited
+  - Indofood
+  - Irwins Bakery
+  - Ibarra
+  - Isklar
+  - Indykpol
+  - Inmarko
+  - Imlek ad
+  - Irwins Bakery
+  - Italian Peoples Bakery
+  - Idaho Candy Company
+  - Impact Confections
+  - Ice River Springs
+  - Isalys
+  - Idahoan Foods
+  - Ingredion
   - - International Flavors & Fragrances
     - International Flavors and Fragrances
     - Intl Flavors & Fragrances
+  - JBS
   - Julius Meinl
   - Jules Destrooper
   - John Martin Brewery
@@ -7007,6 +7605,28 @@ case_agnostic_work:
   - Jones Soda
   - Jel Sert
   - J&Ds Down Home Enterprises
+  - Julius Meinl
+  - Jules Destrooper
+  - John Martin Brewery
+  - JBS SA
+  - Jim Pattison Group
+  - Just Us!
+  - Jubilant FoodWorks
+  - Jarritos
+  - Jose Cuervo
+  - Jollibee
+  - Jeongin Food
+  - Joeun Food
+  - Jordans
+  - Jelly Belly
+  - Joyva
+  - Just Born
+  - Joseph Gallo Farms
+  - Junket
+  - Jones Soda
+  - J & J Snack Foods
+  - Jel Sert
+  - J&Ds Down Home Enterprises
   - - JM Smucker
     - JMSmucker
   - - Johnson & Johnson
@@ -7014,6 +7634,67 @@ case_agnostic_work:
     - J & J
   - Kerry Group
   - Kirin Holdings
+  - Kenya Wine Agencies Limited
+  - Kawartha Dairy Company
+  - Kee Wah Bakery
+  - Kweichow Moutai Company
+  - Koestlin
+  - Kras
+  - Kohberg Bakery Group
+  - Knuthenlund
+  - Kaslink Foods
+  - KYKNOS SA
+  - Karachi Bakery
+  - Karnataka Milk Federation
+  - Kerala Cooperative Milk Marketing Federation
+  - Kerala Solvent Extractions
+  - KS Oils
+  - Kerry Group
+  - Kabaya
+  - Kagome
+  - Kikkoman
+  - Kirin Company
+  - Kout Food Group
+  - Karts
+  - Ketel One
+  - Kavli
+  - Kavli Trust
+  - Kamis
+  - Krasny Oktyabr Open JointStock Company
+  - Knjaz Milos ad
+  - Killiney Kopitiam
+  - Korea Tobacco & Ginseng Corporation
+  - Kalise Menorquina
+  - Kimlan Foods
+  - Kuo Yuan Ye
+  - Khon Kaen Sugar
+  - KC Confectionery Limited
+  - Kiss Baking Company Limited
+  - Kristal Kola
+  - Khortytsia
+  - Konti Group
+  - Kremenchukmyaso
+  - Konditor & Cook
+  - Kings Hawaiian
+  - Kossars Bialys
+  - King Arthur Flour
+  - Kuli Kuli Inc
+  - Keggs Candies
+  - Kerns
+  - Kristian Regale
+  - Krinos Foods
+  - Kronos Foods
+  - K&Ns Foods USA
+  - Kansas City Steak Company
+  - Kiolbassa Sausage
+  - Koch Foods
+  - Koegel Meat Company
+  - Kroger
+  - Kars Nuts
+  - Kelloggs
+  - Kraft Heinz
+  - Keurig Dr Pepper
+  - Kinh Do Corporation
   - Kenya Wine Agencies Limited
   - Kawartha Dairy Company
   - Kee Wah Bakery
@@ -7143,6 +7824,62 @@ case_agnostic_work:
   - Lettuce Entertain You Enterprises
   - Landrys Inc
   - Lubys
+  - Les Domaines Agricoles
+  - La Serenisima
+  - Lion Dairy & Drinks
+  - Le Pain Quotidien
+  - Leonidas
+  - Lotus Bakeries
+  - Lassonde Industries
+  - Laura Secord Chocolates
+  - Lesters Foods Ltd
+  - La Rose Noire
+  - Logismose Meyers
+  - La Vie Claire
+  - Lactalis
+  - Lur Berri
+  - Lorenz SnackWorld
+  - La Molisana
+  - Lavazza
+  - Lazzaroni
+  - Loacker
+  - Lakeland Dairies
+  - Lyons Tea
+  - LEOC Japan
+  - La Costena
+  - Lucas Bols
+  - Lewis Road Creamery
+  - Livestock Improvement Corporation
+  - Lerum
+  - La Iberica
+  - Liwayway Holdings Company
+  - Lactogal
+  - La Fantana
+  - Lotte Confectionery
+  - Lantmannen
+  - La Clandestine Absinthe
+  - Lindt & Sprungli
+  - Lion Capital LLP
+  - Lloyd Maunder
+  - Loch Duart
+  - La Segunda Central Bakery
+  - Le Macaron
+  - Levain Bakery
+  - Liz Lovely
+  - Little Crow Foods
+  - Love Grown Foods
+  - Land OLakes
+  - Leprino Foods
+  - Lifeway Foods
+  - Luzianne
+  - La Loma Foods
+  - Lucks Incorporated
+  - Limoneira
+  - Lobels of New York
+  - Lettuce Entertain You Enterprises
+  - Landrys Inc
+  - Lubys
+  - Mars
   - Maple Leaf Foods
   - McCain Foods
   - Mead Johnson
@@ -7169,6 +7906,115 @@ case_agnostic_work:
   - Meica
   - Mestemacher
   - Muller
+  - Mymuesli
+  - Melissa SA
+  - Mevgal
+  - Miran Pastourma
+  - Mahashian Di Hatti
+  - Marico
+  - Mavalli Tiffin Room
+  - Meat Products of India
+  - Milk Mantra
+  - Monginis
+  - Morarka Organic
+  - Mother Dairy
+  - MTR Foods
+  - Mayora Indah
+  - Marzadro Distillery
+  - Massimo Zanetti Beverage Group
+  - Mauds Ice Creams
+  - Murphys Ice Cream
+  - Maruchan
+  - Maruha Nichiro
+  - Marukome
+  - Meiji Dairies
+  - Meiji Seika
+  - Mizkan
+  - Morinaga
+  - Mamee DoubleDecker
+  - Munchys
+  - Mayordomo
+  - McCashins Brewery
+  - Monteiths
+  - My Food Bag
+  - Maarud
+  - Mitchells Fruit Farms Limited
+  - Murree Brewery
+  - Mama Sitas Holding Company
+  - Maxs of Manila
+  - Monde Nissin
+  - Maspex
+  - Mlekara Subotica
+  - MahouSan Miguel Group
+  - Maliban Biscuit Manufactories Limited
+  - Mackmyra Whisky
+  - Max Felchlin
+  - Migros
+  - Minor International
+  - Mitr Phol
+  - Mado
+  - Mackies
+  - McCowans
+  - Metcalfes Food Company
+  - Michton
+  - Millies Cookies
+  - Moo Free Limited
+  - Mornflake
+  - Martins Famous Pastry Shoppe Inc
+  - Mrs Fields
+  - MFA Incorporated
+  - Magnolia Bakery
+  - Monsanto
+  - Mast Brothers
+  - Marich Confectionery
+  - Marin French Cheese Company
+  - Maytag Dairy Farms
+  - Murrays Cheese
+  - Manhattan Special
+  - Martinellis
+  - Matt Brewing Company
+  - Molson Coors Brewing Company
+  - Monarch Beverage Inc
+  - Manischewitz
+  - Mrs Ts Pierogies
+  - Maui Pineapple Company
+  - Marathon Enterprises Inc
+  - Molinaris
+  - McDonalds
+  - Mrs Fishers
+  - Martins Potato Chips
+  - McKee Foods
+  - Mikesells
+  - McCormick & Company
+  - Mezzetta
+  - Mrs Cubbisons Foods
+  - Mt Olive Pickle Company
+  - Michigan Sugar
+  - Mars Incorporated
+  - McCormick & Company
+  - Monarch Beverage Company
+  - Mondelez International
+  - Meat Corporation of Namibia
+  - Melcom
+  - Molinos Rio de la Plata
+  - Mrs Macs Pies
+  - Murray Goulburn Cooperative
+  - Manner
+  - Meurens
+  - Marfrig
+  - M&M Food Market
+  - Maple Leaf Foods
+  - Maypole Dairy Products
+  - McCain Foods
+  - Metro Inc
+  - Mikes Hard Lemonade Co
+  - MTY Food Group
+  - Mengniu Dairy
+  - Menier Chocolate
+  - Michel et Augustin
+  - Mederer GmbH
+  - Meica
+  - Mestemacher Muller
   - Mymuesli
   - Melissa SA
   - Mevgal
@@ -7308,8 +8154,73 @@ case_agnostic_work:
   - Niman Ranch
   - Norbest
   - Nueskes Applewood Smoked Meats
+  - Nile Breweries Limited
+  - Norco Cooperative
+  - Nuttelex
+  - Neuhaus
+  - Natures Path
+  - Naya Waters
+  - Nomad Foods
+  - Niederegger
+  - Nordzucker
+  - Nardini
+  - Nonino Grappa
+  - Nobo
+  - Nippon Flour Mills
+  - Nippon Ham
+  - Nippon Suisan Kaisha
+  - Nissin Foods
+  - Nutreco
+  - Nora Industrier
+  - Nortura
+  - Norway Royal Salmon
+  - National Foods Limited
+  - Nadec
+  - Nectar doo
+  - Nongshim
+  - Nutrexpa
+  - Norrmejerier
+  - Nestle
+  - Nemiroff
+  - Neals Yard Dairy
+  - Natures Harmony Farm
+  - National Beverage
+  - Natrona Bottling Company
+  - Numi Organic Tea
+  - Newmans Own
+  - National Beef Packing Company
+  - Niman Ranch
+  - Norbest
+  - Nueskes Applewood Smoked Meats
   - Ocean Spray
   - Oscar Mayer
+  - Olymel
+  - Organic Meadow Cooperative
+  - Orissa State Cooperative Milk Producers Federation
+  - Old Bushmills Distillery
+  - Ornua
+  - Osem
+  - Orkla Group
+  - OMORe
+  - Orion Confectionery
+  - Ottogi
+  - Osborne Group
+  - Osotspa
+  - Obolon
+  - Oakhouse Foods
+  - Orwashers bakery
+  - Organic Valley
+  - Old Orchard Brands
+  - Oogave
+  - Ocean Spray
+  - Organically Grown Company
+  - Omaha Steaks
+  - Oberweis Dairy
+  - Ovation Brands
+  - Oberto Sausage Company
+  - Old Dutch Foods
+  - Odells
+  - Olivio Premium Products
   - Olymel
   - Organic Meadow Cooperative
   - Orissa State Cooperative Milk Producers Federation
@@ -7404,6 +8315,71 @@ case_agnostic_work:
   - Pure Indian Foods
   - PepsiCo
   - Post Holdings
+  - Pioneer Foods
+  - Patties Foods
+  - Preshafood
+  - Pez
+  - Premiere Moisson
+  - Premium Brands Holdings Corporation
+  - Purdys Chocolates
+  - Purity Factories
+  - Postobon
+  - Podravka
+  - Picard Surgeles
+  - Pernod Ricard
+  - Papadopoulos
+  - Paulig
+  - Parle Agro
+  - Parle Products
+  - Patanjali Ayurved
+  - Perigreen
+  - Pulla Reddy Sweets
+  - Punjabi Chandu Halwai Karachiwala
+  - Parmalat
+  - Pernigotti
+  - Polli
+  - Prigat
+  - Polar Ice Cream
+  - Progressive Enterprises
+  - Pakola
+  - Puin
+  - Pulmuone
+  - Pescanova
+  - Pelwatte Sugar Industries PLC
+  - Pagen
+  - Polarbrod
+  - Peppersmith
+  - Peters Food Services
+  - Plum Baby
+  - Pork Farms
+  - Pukka Herbs
+  - Pukka Pies
+  - Premier Foods
+  - Princes Group
+  - Peanut Butter & Co
+  - POET
+  - Penn State University Creamery
+  - Pierres Ice Cream Company
+  - Point Reyes Farmstead Cheese Company
+  - Prairie Farms Dairy
+  - Peets Coffee & Tea
+  - Poland Spring
+  - Polar Beverages
+  - Premama
+  - Peas of Mind
+  - Pero Family Farms Food Company
+  - Parker House Sausage Company
+  - Pat LaFrieda Meat Purveyors
+  - Perdue Farms
+  - Plumrose USA
+  - Panera Bread
+  - Performance Food Group
+  - Publix
+  - Plochmans
+  - Pompeian Inc
+  - Pure Indian Foods
+  - PepsiCo
+  - Post Holdings
   - - PepsiCo
     - Tropicana
     - Frito Lay
@@ -7417,6 +8393,63 @@ case_agnostic_work:
   - Quala
   - Quely
   - Quiggins
+  - Quala
+  - Quely
+  - Quiggins
+  - Retail Food Group
+  - Rauch
+  - Red Bull GmbH
+  - Recipe Unlimited
+  - Restaurant Brands International
+  - Rogers Sugar
+  - Raisio Group
+  - Rajesh Masala
+  - REI Agro Limited
+  - Ruchi Soya
+  - R&H Hall
+  - Ramly Group
+  - Remia
+  - Royal Wessanen
+  - Restaurant Brands
+  - Republic Biscuit Corporation
+  - RFM Corporation
+  - Rot Front Open JointStock Company
+  - Rubin
+  - Roberts
+  - Ricola
+  - Rivella
+  - Red Bull
+  - Roshen
+  - R&R Ice Cream
+  - Rakusens
+  - Restaurant Group
+  - Riverford
+  - Roadchef
+  - Rowse Honey
+  - Racine Danish Kringles
+  - Revival Soy
+  - Riceland Foods
+  - Reeds Candy
+  - Rocky Mountain Chocolate Factory
+  - Rogue Creamery
+  - R Torre & Company Inc
+  - Red Diamond
+  - Richelieu Foods
+  - Rhee Bros Inc
+  - Rosa Food
+  - Resers Fine Foods
+  - Rhino Foods
+  - Ruiz Foods
+  - Red Gold
+  - Robertsons Hams
+  - Real Mex Restaurants
+  - Restaurants Unlimited Inc
+  - Roark Capital Group
+  - Reyes Holdings
+  - Roberts American Gourmet Food
+  - Rudolph Foods
+  - Reily Foods Company
+  - Rich Products
   - Retail Food Group
   - Rauch
   - Red Bull GmbH
@@ -7499,6 +8532,125 @@ case_agnostic_work:
   - Sri Krishna Sweets
   - Suguna Foods
   - Suminter India Organics
+  - San Carlo
+  - Sterilgarda
+  - Shamrock Foods
+  - Strauss
+  - Sapporo Brewery
+  - Shidax
+  - Snow Brand Milk Products
+  - Suntory
+  - Sabah Tea
+  - Sime Darby
+  - Sidral Mundet
+  - Sigma Alimentos
+  - Silver Fern Farms
+  - Speights
+  - Synlait
+  - SalMar
+  - Synnove Finden
+  - Shan Food Industries
+  - Shezan International
+  - San Miguel Corporation
+  - San Miguel Food and Beverage
+  - Serenitea
+  - SL Agritech Corporation
+  - Sovena Group
+  - Sumol + Compal
+  - Savola Group
+  - Swisslion Group
+  - Samyang Food
+  - Seoul Milk
+  - Snackbox Food Holdings
+  - SPC Group
+  - Sulbing
+  - San Nicasio
+  - SIA Glass
+  - Schweizer Getraenke AG Obermeilen
+  - S M Jaleel and Company
+  - Solo Beverage Company
+  - Sandora
+  - SoyuzViktan
+  - Svitoch
+  - SABMiller
+  - Sainsburys
+  - Samworth Brothers
+  - Sayers
+  - Scotty Brand Ltd
+  - Skinny Candy
+  - Slimming World
+  - Square Pie
+  - SSP Group
+  - Stoats Porridge Bars
+  - Swizzels Matlow
+  - Schmidt Baking Company
+  - Semifreddis Bakery
+  - Sprinkles Cupcakes
+  - Sunbeam Bread
+  - Sanders Confectionery
+  - Sarris Candies
+  - Scharffen Berger Chocolate Maker
+  - Schimpffs Confectionery
+  - Sees Candies
+  - Smarties Candy Company
+  - Somebodys Mothers Chocolate Sauce
+  - Spangler Candy Company
+  - Sargento
+  - Schoeps Ice Cream
+  - Schreiber Foods
+  - Shamrock Farms
+  - Siggis Dairy
+  - Smiling Hill Farm
+  - SmithFoods
+  - Straus Family Creamery
+  - Sunshine Dairy
+  - Sweet Grass Dairy
+  - Steaz
+  - Street King
+  - Suja Juice
+  - Sclafani Foods
+  - Seneca Foods
+  - Streits
+  - Schwan Food Company
+  - Simple and Crisp
+  - Sunkist Growers Incorporated
+  - Sentinel Capital Partners
+  - Starbucks
+  - Stockade Companies
+  - Saladinos Inc
+  - SuperValu
+  - Shearers Foods
+  - Snak King
+  - SnydersLance
+  - Silver Spring Foods
+  - Solo Foods
+  - Spreckels Sugar Company
+  - Seaboard Corporation
+  - Sabeco
+  - SOMED
+  - Spur Corporation
+  - SanCor
+  - San Remo Macaroni Company
+  - Sanitarium
+  - Schweppes Australia
+  - So Natural
+  - Sustagen
+  - Shollar water
+  - Sofia Mel
+  - Saputo
+  - Sobeys
+  - SunOpta
+  - Soprole
+  - Shuanghui
+  - Stauning Whisky
+  - SARIA
+  - Sudzucker
+  - Shanthi Feeds
+  - Skylark Group
+  - Sri Krishna Sweets
+  - Suguna Foods
+  - Suminter India Organics
+  - Sacla Italia
   - San Carlo
   - Sterilgarda
   - Shamrock Foods
@@ -7678,6 +8830,84 @@ case_agnostic_work:
   - Tootsie Roll Industries
   - Tyson Foods
   - Trung Nguyen
+  - Tiger Brands
+  - Tilda Uganda
+  - Tongaat Hulett
+  - Tassal
+  - The a2 Milk Company
+  - Thomas Foods International
+  - Three Threes Condiments
+  - Tien Chun VeTsin
+  - Ting Hsin International Group
+  - Toms International
+  - Tereos
+  - The Soufflet Group
+  - Teekampagne
+  - Teekanne
+  - Terkenlis
+  - The Grand Sweets and Snacks
+  - Tasty Bite
+  - Tayto
+  - Tara
+  - Tohato
+  - Toyo Suisan
+  - The Italian Baker
+  - Talleys Group
+  - Tatua Dairy Company
+  - Tegel Foods
+  - Tine
+  - Tymbark
+  - Tee Yih Jia
+  - Tory Food
+  - TaTung
+  - Tetra Laval
+  - Tropenhaus Frutigen
+  - Ting Hsin International Group
+  - Tingyi
+  - Tao Kae Noi
+  - Thai President Foods
+  - Thai Union Group
+  - ThaiBev
+  - Tekel Birasi
+  - Tangerine Confectionery
+  - Tate & Lyle
+  - Tesco
+  - Tunnocks
+  - Tyrrells
+  - The Claxton Bakery
+  - The Andersons
+  - The Leavitt Corporation
+  - Two Degrees Food
+  - Taza Chocolate
+  - TCHO
+  - The Warrell Corporation
+  - Tillamook County Creamery Association
+  - Talking Rain
+  - Tavalon Tea
+  - Tazo
+  - Turkey Hill
+  - Troegs Brewing Company
+  - Tabatchnick
+  - Trappeys Hot Sauce
+  - The Bauman Family
+  - The Morning Star Company
+  - Taylor Farms
+  - Turbana
+  - Tallgrass Beef Company
+  - The Briad Group
+  - The Wendys Company
+  - Thanasi Foods
+  - Tabasco sauce
+  - Tapatio hot sauce
+  - Texas Pete
+  - The CocaCola Company
+  - The Hershey Company
+  - The JM Smucker Company
+  - T Marzetti Company
+  - TreeHouse Foods
+  - Tootsie Roll Industries
+  - Tyson Foods
+  - Trung Nguyen
   - Unilever
   - UniPresident Enterprises Corporation
   - United Plantations
@@ -7697,7 +8927,53 @@ case_agnostic_work:
   - Utz Quality Foods
   - Urban Accents
   - US Sugar Corporation
+  - UniPresident Enterprises Corporation
+  - United Plantations
+  - Unilever
+  - Universal Robina
+  - Udders
+  - Unser Bier
+  - UniPresident Enterprises Corporation
+  - Ummah Foods
+  - United States Bakery
+  - US Mills
+  - United Cooperative
+  - Unreal Brands
+  - United Dairy Farmers
+  - Usingers
+  - US Foods
+  - Utz Quality Foods
+  - Urban Accents
+  - US Sugar Corporation
   - Vion Food
+  - Vinagro
+  - Vanparys
+  - Vigor SA
+  - Vitta Foods
+  - Voortman Cookies
+  - Viro
+  - Vindija
+  - Valio
+  - Valrhona
+  - Vivartia
+  - Vadilal
+  - Venchi
+  - Vicenzi
+  - Voiello
+  - Valeo Foods
+  - Valentina
+  - Vion NV
+  - Vinmonopolet
+  - Valouro
+  - Vilac
+  - VillarsMaitreChocolatier
+  - Vestey Group
+  - Voodoo Doughnut
+  - Vermont Creamery
+  - Vanberg & DeWulf
+  - Vitarroz
+  - Vinacafe
+  - Vinamilk
   - Vinagro
   - Vanparys
   - Vigor SA
@@ -7774,10 +9050,73 @@ case_agnostic_work:
   - WingTime
   - Western Sugar Cooperative
   - WhiteWave Foods
+  - Warrnambool Cheese and Butter
+  - Weis
+  - Wendys Supa Sundaes
+  - Wesfarmers
+  - Want Want
+  - Waldemar Behn
+  - Wild
+  - Westland Milk Products
+  - Whitestone cheese
+  - Whittakers
+  - Wigram Beer
+  - Winiary
+  - WimmBillDann Foods
+  - Wasabrod
+  - Want Want
+  - WeiChuan Food Corporation
+  - Waitrose
+  - Walkers Nonsuch
+  - Walkers Shortbread
+  - Warburtons
+  - Warrens Bakery
+  - Welcome Break
+  - Whitbread
+  - Whitby Seafoods Ltd
+  - Wilkin & Sons
+  - William Jackson Food Group
+  - Wrights Pies
+  - Westminster Cracker Company
+  - Whetstone Chocolates
+  - Whitmans
+  - Wainwright Dairy
+  - Winchester Cheese Company
+  - Winder Farms
+  - Wisconsin Cheeseman
+  - White Rock Beverages
+  - Whos Your Daddy Inc
+  - Wish Farms
+  - Walmart
+  - Winder Farms
+  - Winn Dixie
+  - Whole Foods Market
+  - Wise Foods
+  - Wyandot Snacks
+  - Wickles
+  - WingTime
+  - Western Sugar Cooperative
+  - WhiteWave Foods
   - - WH Group
     - Shuanghui Group
   - Xinjiang Chalkis CoLtd
   - Yurun Group
+  - Ysco
+  - Yili Group
+  - Yurun Group
+  - Yehuda Matzos
+  - Yakult
+  - Yamazaki Baking
+  - Yit Foh Tenom Coffee
+  - Ya Kun Kaya Toast
+  - Yeo Hiap Seng
+  - Yeolmae Food
+  - Yildiz Holding
+  - Yarych Confectionery
+  - Yeo Valley
+  - Yanceys Fancy
+  - Yarnell Ice Cream Co
+  - Yum! Brands
   - Ysco
   - Yili Group
   - Yurun Group
@@ -7805,10 +9144,18 @@ case_agnostic_work:
   - ZhL
   - Zacky Farms
   - Zevia
+  - Zoo Holdings Group
+  - Zvecevo
+  - Zott
+  - Zensho
+  - Zealong
+  - Zajecarsko pivo
+  - ZhL
+  - Zacky Farms
+  - Zevia
   - cakovecki mlinovi
   - stark
   company_health:
-  - ' roche '
   - Abbott Laboratories
   - AbbVie
   - Acadia Healthcare
@@ -7840,7 +9187,7 @@ case_agnostic_work:
   - BristolMyers Squibb
   - Biogen
   - Bayer
-  - 'BioMarin '
+  - BioMarin
   - - Baxter International
     - Baxter
   - - BristolMyers Squibb
@@ -7855,7 +9202,7 @@ case_agnostic_work:
   - Daiichi Sankyo
   - Danaher
   - Diplomat Pharmacy
-  - 'Daiichi Sankyo '
+  - Daiichi Sankyo
   - - DaVita HealthCare Partners
     - DaVita HealthCare
   - Eli Lilly
@@ -7864,7 +9211,7 @@ case_agnostic_work:
   - Envision Healthcare
   - Express Scripts Holding
   - Eli Lilly & Co
-  - 'Eisai Pharmaceutical '
+  - Eisai Pharmaceutical
   - Genesis Healthcare
   - Gilead Sciences
   - GlaxoSmithKline
@@ -7876,8 +9223,8 @@ case_agnostic_work:
   - Iasis Healthcare
   - Illumnia
   - Incyte
-  - 'Illumina '
-  - 'Incyte '
+  - Illumina
+  - Incyte
   - Johnson & Johnson
   - Kindred Healthcare
   - LifePoint Health
@@ -7892,7 +9239,7 @@ case_agnostic_work:
   - Molina Healthcare
   - Mylan
   - Merck & Co
-  - 'Mylan '
+  - Mylan
   - Novartis
   - Novo Nordisk
   - Novartis
@@ -7902,7 +9249,7 @@ case_agnostic_work:
   - PharMerica
   - PRA Health Sciences
   - Pfizer
-  - 'Perrigo '
+  - Perrigo
   - Roche
   - Regeneron Pharmaceuticals
   - - Regeneron Pharmaceuticals
@@ -7919,7 +9266,7 @@ case_agnostic_work:
   - Takeda Pharmaceuticals
   - Tenet Healthcare
   - Thermo Fisher Scientific
-  - 'Takeda Pharmaceutical '
+  - Takeda Pharmaceutical
   - UnitedHealth Group
   - Universal Health Services
   - Varian Medical Systems
@@ -7928,10 +9275,10 @@ case_agnostic_work:
   - Zimmer Biomet
   - Zoetis
   company_industrial:
-  - - ' 3M '
+  - ' 3M '
   - AO Smith
   - Acuity Brands
-  - - ' AGCO '
+  - AGCO
   - AK Steel Holding
   - - Alleghany
     - Allegheny Technologies
@@ -7943,14 +9290,14 @@ case_agnostic_work:
     - Anixter
   - Applied Industrial Technologies
   - - AptarGroup
-    - ' Aptar '
+    - Aptar
   - Arconic
   - Autoliv
   - Avery Dennison
   - B/E Aerospace
   - Beacon Roofing Supply
   - Belden
-  - - ' Bemis '
+  - Bemis
   - Benchmark Electronics
   - Boeing
   - Boise Cascade
@@ -7962,8 +9309,8 @@ case_agnostic_work:
   - Commercial Metals
   - Crane
   - Cummins
-  - - 'Deere '
-  - - ' Dover '
+  - Deere
+  - Dover
   - Emerson Electric
   - Esterline Technologies
   - Flowserve
@@ -8019,7 +9366,7 @@ case_agnostic_work:
   - Thor Industries
   - Timken
   - TopBuild
-  - - ' Toro '
+  - Toro
   - Trinity Industries
   - Union Pacific
   - United Technologies
@@ -8030,28 +9377,28 @@ case_agnostic_work:
     - WABTEC
   - Xylem
   company_other:
-  - - ' CBS '
-  - - ' CDW '
-  - - ' CSRA '
-  - - ' CSX '
-  - - ' Coty '
-  - - ' DSW '
-  - - ' Dana '
-  - - ' EQT '
-  - - ' Evergy '
+  - ' CBS '
+  - ' CDW '
+  - ' CSRA '
+  - ' CSX '
+  - ' Coty '
+  - ' DSW '
+  - ' Dana '
+  - ' EQT '
+  - ' Evergy '
   - ' Freds '
   - ' GGP '
-  - - ' GMS '
-  - - ' Greif '
-  - - ' HCP '
-  - - ' HNI '
+  - ' GMS '
+  - ' Greif '
+  - ' HCP '
+  - ' HNI '
   - ' HSN '
   - ' ITT '
-  - - ' KBR '
-  - - ' KKR '
-  - - ' Kirby '
-  - - ' LKQ '
-  - - ' Lear '
+  - ' KBR '
+  - ' KKR '
+  - ' Kirby '
+  - ' LKQ '
+  - ' Lear '
   - ' ManTech '
   - ' Moog '
   - ' NCR '
@@ -8061,7 +9408,6 @@ case_agnostic_work:
   - ' PVH '
   - ' Regis '
   - ' UGI '
-  - ' US Foods'
   - ' USG '
   - ' VCA '
   - ' VWR '
@@ -8134,7 +9480,7 @@ case_agnostic_work:
   - APL Logistics
   - Allianz
   - AXA
-  - 'Atos '
+  - Atos
   - AbbVie Inc
   - ABIOMED Inc
   - Accenture plc
@@ -8794,7 +10140,6 @@ case_agnostic_work:
     - HillRom
     - Hill Rom
   - Icahn Enterprises
-  - Illumina
   - Ingles Markets
   - Insight Enterprises
   - Insperity
@@ -9552,7 +10897,7 @@ case_agnostic_work:
   - Toyota
   - Total
   - Trafigura
-  - 'The Vanguard Group '
+  - The Vanguard Group
   - The Bank of New York Mellon Corp
   - The Clorox Company
   - The Cooper Companies
@@ -9583,6 +10928,7 @@ case_agnostic_work:
     - 'Triple S '
   - - Twenty First Century Fox
     - TwentyFirst Century Fox
+  - 'US Foods '
   - Unified Grocers
   - Unisys
   - Univar
@@ -9688,7 +11034,7 @@ case_agnostic_work:
   - William Blair & Company
   - Wind Point Partners
   - Wm Wrigley Jr Company
-  - 'Worlds Finest Chocolate '
+  - Worlds Finest Chocolate
   - Wheaton Franciscan Healthcare
   - Walgreens
   - World Dryer
@@ -9696,7 +11042,7 @@ case_agnostic_work:
   - Weigel Broadcasting
   - WGN America
   - Winston & Strawn
-  - 'WhittmanHart '
+  - WhittmanHart
   - Westell
   - WMS Industries
   - Willis Group
@@ -9754,25 +11100,29 @@ case_agnostic_work:
   company_services:
   - - ' ADP '
     - Automatic Data Processing
-  - - Adtalem Global Education
-    - DeVry Education Group
+  - - ' Brinks '
+  - - ' EY '
+  - 20th Century Fox Television
   - AECOM
   - Alaska Communications
   - Align Technology
   - Alliance Data Systems
   - Altice
-  - - Amerco
-    - UHAUAL
   - American Greetings
   - American Tower
   - Apollo Education Group
   - Aramark
-  - - ArcBest
-    - ABF Freight
   - ASGN
   - AT&T
+  - ABC Studios
+  - Amblin Television
+  - - Adtalem Global Education
+    - DeVry Education Group
+  - - Amerco
+    - UHAUAL
+  - - ArcBest
+    - ABF Freight
   - Boston Consulting Group
-  - - ' Brinks '
   - Brookdale Senior Living
   - CenturyLink
   - Cintas
@@ -9784,9 +11134,8 @@ case_agnostic_work:
   - - Dycom Industries
     - Dycom
   - Ecolab
-  - Frontier Communications
   - Equifax
-  - - ' EY '
+  - Frontier Communications
   - FedEx
   - H&R Block
   - Iron Mountain
@@ -9794,37 +11143,32 @@ case_agnostic_work:
   - Level 3 Communications
   - Mastercard
   - Meredith
+  - MGM Television
+  - New Line Television
   - Public Storage
   - Republic Services
   - Sinclair Broadcast Group
   - Stericycle
-  - - TDS Telecom
-    - Telephone and Data Systems
+  - Sony Pictures
   - Time Warner
   - Tribune Media
+  - - TDS Telecom
+    - Telephone and Data Systems
+  - United Rentals
+  - Universal Studio
   - - United Parcel Service
     - ' UPS '
-  - United Rentals
+  - Visa
   - - Verizon Communications
     - Verizon
-  - Visa
   - WW Grainger
   - Walt Disney
   - Waste Management
-  - 20th Century Fox Television
-  - ABC Studios
-  - Sony Pictures
-  - Universal Studio
-  - Amblin Television
   - Warner Bros Television
-  - New Line Television
-  - MGM Television
   company_tech:
+  - - ' ADT '
   - Activision Blizzard
   - Acer
-  - - Adobe
-    - Adobe Systems
-  - - ' ADT '
   - Advanced Micro Devices
   - Akamai Technologies
   - Alphabet
@@ -9841,7 +11185,11 @@ case_agnostic_work:
   - Autodesk
   - Avaya
   - Avnet
+  - - Adobe
+    - Adobe Systems
   - Baidu
+  - Booz Allen Hamilton
+  - Broadcom
   - - Booking Holdings
     - Bookingcom
     - Pricelinecom
@@ -9851,17 +11199,14 @@ case_agnostic_work:
     - Rentalcarscom
     - Momondo
     - OpenTable
-  - Booz Allen Hamilton
-  - Broadcom
+  - Cornerstone onDemand
+  - Cypress Semiconductor
   - - Citrix Systems
     - Citrix
   - - Cognizant Technology Solutions
     - Cognizant Technology
-  - Cornerstone onDemand
-  - Cypress Semiconductor
   - Dell Technologies
   - DXC Technology
-  - eBay
   - Electronic Arts
   - - Expedia
     - Expedia Group
@@ -9872,29 +11217,28 @@ case_agnostic_work:
   - GoDaddy
   - Groupon
   - Halogen Software
+  - Hitachi
+  - Huawei
   - - Harman International Industries
     - Harman International
   - - Hewlett Packard Enterprise
     - Hewlett Packard
     - HP Inc
-  - Hitachi
-  - Huawei
   - - 'IBM '
-  - iCIMS
   - - 'Intel '
+  - JDcom
   - - Jabil Circuit
     - Jabil
-  - JDcom
   - Kenexa
   - Lawson Software
   - Lenovo
   - LG Electronics
   - Lyft
-  - - Maxar Technologies
-    - Maxar
   - Microchip Technology
   - Micron Technology
   - Microsoft
+  - - Maxar Technologies
+    - Maxar
   - Netflix
   - Nvidia
   - ON Semiconductor
@@ -9905,8 +11249,6 @@ case_agnostic_work:
   - Saba Software
   - Samsung
   - SAP
-  - - Salesforce
-    - salesforcecom
   - Shutterfly
   - Square
   - SS&C Technologies
@@ -9914,6 +11256,8 @@ case_agnostic_work:
   - Sony
   - Sumtotal Systems
   - Super Micro Computer
+  - - Salesforce
+    - salesforcecom
   - Taleo Corporation
   - TCS
   - Tencent
@@ -9924,6 +11268,8 @@ case_agnostic_work:
   - Xerox
   - Yahoo
   - Zebra Technologies
+  - eBay
+  - iCIMS
 case_sensitive_education:
   associate_education_level:
   - - Associate of Arts

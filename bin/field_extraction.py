@@ -86,6 +86,11 @@ def extract_fields(df):
     for extractor, items_of_interest in lib.get_conf('case_agnostic_work').items():
         df[extractor] = df['Work'].apply(lambda x: extract_skills_case_agnostic(re.sub('[,.-]', '', x).replace('\'', ''), items_of_interest))
 
+    print("Extracting hobbies and interests")
+    for extractor, items_of_interest in lib.get_conf('case_agnostic_hobbies').items():
+        df[extractor] = df['Hobby'].apply(
+            lambda x: extract_skills_case_agnostic(re.sub('[,.-]', '', x).replace('\'', ''), items_of_interest))
+
     return df
 
 
