@@ -83,7 +83,7 @@ def extract():
 def transform(observations, nlp):
     logging.info('Begin transform')
 
-    print("Extracting name, email, phone, and GPA")
+    print("Extracting name, email, phone, GPA, and dates of work experience")
     observations = observations.fillna('')
     observations['candidate_name'] = observations['text'].apply(lambda x: field_extraction.candidate_name_extractor(x, nlp))
     observations['email'] = observations['text'].apply(lambda x: lib.term_match(x, field_extraction.EMAIL_REGEX))

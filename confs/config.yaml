@@ -60,19 +60,9 @@ case_agnostic_education:
   - Anoka Technical College
   - Aaniiih Nakoda College
   - Alamance Community College
-  - "Asheville\u2013Buncombe Technical Community College"
+  - AshevilleBuncombe Technical Community College
   - Aiken Technical College
-  - 'Alamo Community College District
-
-    Northeast Lakeview College
-
-    Northwest Vista College
-
-    Palo Alto College
-
-    St Philips College
-
-    San Antonio College'
+  - Alamo Community College District
   - Alvin Community College
   - Amarillo College
   - Angelina College
@@ -97,13 +87,9 @@ case_agnostic_education:
   - Bunker Hill Community College
   - Brookdale Community College
   - Bronx Community College
-  - 'Butler County Community College '
+  - Butler County Community College
   - Barbados Community College
-  - 'Bandar Penawar Community College Bandar Penawar
-
-    Branch campus Bandar Tenggara'
-  - Branch campus Bandar Tenggara
-  - Branch campus Tanjung Piai Pontian
+  - Bandar Penawar Community College Bandar Penawar
   - Bandar Darulaman Community College Jitra
   - Bukit Beruang Community College Bukit Beruang
   - Bentong Community College Karak
@@ -252,7 +238,7 @@ case_agnostic_education:
   - Clovis Community College
   - Cayuga Community College
   - Clinton Community College
-  - "Columbia\u2013Greene Community College"
+  - ColumbiaGreene Community College
   - Corning Community College
   - Caldwell Community College & Technical Institute
   - Cape Fear Community College
@@ -300,11 +286,9 @@ case_agnostic_education:
   - Clark College
   - Clover Park Technical College
   - Columbia Basin College
-  - 'Community Colleges of Spokane
-
-    Spokane Community College
-
-    Spokane Falls Community College'
+  - Community Colleges of Spokane
+  - Spokane Community College
+  - Spokane Falls Community College
   - College of Menominee Nation
   - Chippewa Valley Technical College
   - Casper College
@@ -320,7 +304,7 @@ case_agnostic_education:
   - Davidson County Community College
   - Delaware County Community College
   - Dyersburg State Community College
-  - "Din\xE9 College"
+  - Dine College
   - Delaware Technical Community College
   - Daytona State College
   - Danville Area Community College
@@ -330,8 +314,8 @@ case_agnostic_education:
   - Delta College
   - Dakota County Technical College
   - Dawson Community College
-  - "Din\xE9 College"
-  - "Do\xF1a Ana Community College"
+  - Dine College
+  - Dona Ana Community College
   - Dutchess Community College
   - Davidson County Community College
   - Durham Technical Community College
@@ -339,21 +323,14 @@ case_agnostic_education:
   - Delaware County Community College
   - Denmark Technical College
   - Dyersburg State Community College
-  - 'Dallas County Community College District
-
-    Brookhaven College
-
-    Cedar Valley College
-
-    Eastfield College
-
-    El Centro College
-
-    Mountain View College
-
-    North Lake College
-
-    Richland College'
+  - Dallas County Community College District
+  - Brookhaven College
+  - Cedar Valley College
+  - Eastfield College
+  - El Centro College
+  - Mountain View College
+  - North Lake College
+  - Richland College
   - Del Mar College
   - Dabney S Lancaster Community College
   - Danville Community College
@@ -375,13 +352,10 @@ case_agnostic_education:
   - Eastern Idaho Technical College
   - East St Louis Community College Center
   - Elgin Community College
-  - 'Eastern Iowa Community College District
-
-    Clinton Community College
-
-    Muscatine Community College
-
-    Scott Community College'
+  - Eastern Iowa Community College
+  - Clinton Community College
+  - Muscatine Community College
+  - Scott Community College
   - Ellsworth Community College
   - Elizabethtown Community and Technical College
   - Eastern Maine Community College
@@ -418,7 +392,7 @@ case_agnostic_education:
   - Flathead Valley Community College
   - Fort Peck Community College
   - Finger Lakes Community College
-  - "Fulton\u2013Montgomery Community College"
+  - FultonMontgomery Community College
   - Fayetteville Technical Community College
   - Forsyth Technical Community College
   - Fort Berthold Community College
@@ -439,9 +413,6 @@ case_agnostic_education:
   - Gogebic Community College
   - Grik Community College Gerik
   - Gadsden State Community College
-  - 'Gila Community College District
-
-    Gila Community College'
   - Gila Community College
   - GateWay Community College
   - Glendale Community College
@@ -538,7 +509,6 @@ case_agnostic_education:
   - Iowa Central Community College
   - Itasca Community College
   - Iowa Western Community College
-  - "I\u1E37isa\u0121vik College"
   - Indian River State College
   - Illinois Central College
   - Illinois Eastern Community Colleges
@@ -601,7 +571,7 @@ case_agnostic_education:
   - Kodiak College
   - Kapiolani Community College
   - Kauai Community College
-  - "Kennedy\u2013King College"
+  - KennedyKing College
   - Kankakee Community College
   - Kaskaskia College
   - Kishwaukee College
@@ -642,7 +612,7 @@ case_agnostic_education:
   - Lawson State Community College
   - Lurleen B Wallace Community College
   - Lamar Community College
-  - "Lake\u2013Sumter State College"
+  - LakeSumter State College
   - Lanier Technical College
   - Leeward Community College
   - Lincoln Trail College
@@ -671,17 +641,11 @@ case_agnostic_education:
   - Lake Area Technical Institute
   - Laredo Community College
   - Lee College
-  - 'Lone Star College System
-
-    Lone Star CollegeCyFair
-
-    Lone Star CollegeKingwood
-
-    Lone Star CollegeMontgomery
-
-    Lone Star CollegeNorth Harris
-
-    Lone Star CollegeTomball'
+  - Lone Star CollegeCyFair
+  - Lone Star CollegeKingwood
+  - Lone Star CollegeMontgomery
+  - Lone Star CollegeNorth Harris
+  - Lone Star CollegeTomball
   - Lone Star CollegeCyFair
   - Lone Star CollegeKingwood
   - Lone Star CollegeMontgomery
@@ -721,27 +685,17 @@ case_agnostic_education:
   - Mentakab Community College Temerloh
   - Marion Military Institute
   - MatanuskaSusitna College
-  - 'Maricopa County Community College District
-
-    ChandlerGilbert Community College
-
-    Estrella Mountain Community College
-
-    GateWay Community College
-
-    Glendale Community College
-
-    Mesa Community College
-
-    Paradise Valley Community College
-
-    Phoenix College
-
-    Rio Salado College
-
-    Scottsdale Community College
-
-    South Mountain Community College'
+  - Maricopa County Community College
+  - ChandlerGilbert Community College
+  - Estrella Mountain Community College
+  - GateWay Community College
+  - Glendale Community College
+  - Mesa Community College
+  - Paradise Valley Community College
+  - Phoenix College
+  - Rio Salado College
+  - Scottsdale Community College
+  - South Mountain Community College
   - Mesa Community College
   - Mohave Community College
   - MidSouth Community College
@@ -773,7 +727,7 @@ case_agnostic_education:
   - Muskegon Community College
   - Mesabi Range Community and Technical College
   - Minneapolis Community and Technical College
-  - "Minnesota State College \u2013 Southeast Technical"
+  - Minnesota State College Southeast Technical
   - Minnesota State Community and Technical College
   - Minnesota West Community and Technical College
   - Meridian Community College
@@ -781,7 +735,7 @@ case_agnostic_education:
   - Mississippi Gulf Coast Community College
   - Metropolitan Community College
   - Mineral Area College
-  - "Missouri State University\u2013West Plains"
+  - Missouri State UniversityWest Plains
   - Moberly Area Community College
   - Miles Community College
   - Missoula College University of Montana
@@ -897,11 +851,9 @@ case_agnostic_education:
   - Nicolet Area Technical College
   - Northcentral Technical College
   - Northeast Wisconsin Technical College
-  - 'Northern Wyoming Community College District
-
-    Gillette College
-
-    Sheridan College'
+  - Northern Wyoming Community College
+  - Gillette College
+  - Sheridan College
   - Northwest College
   - Oakton Community College
   - Oakland Community College
@@ -913,7 +865,7 @@ case_agnostic_education:
   - Oconee Fall Line Technical College
   - Ogeechee Technical College
   - Okefenokee Technical College
-  - "Olive\u2013Harvey College"
+  - OliveHarvey College
   - Olney Central College
   - Oakton Community College
   - Owensboro Community and Technical College
@@ -936,9 +888,7 @@ case_agnostic_education:
   - Portland Community College
   - Patrick Henry Community College
   - Prince Georges Community College
-  - 'Pasir Gudang Community College Pasir Gudang
-
-    Branch campus Tanjung Piai Pontian'
+  - Pasir Gudang Community College Pasir Gudang
   - Paya Besar Community College Gambang
   - Pasir Salak Community College Kampung Gajah
   - Prince William Sound College
@@ -1086,7 +1036,7 @@ case_agnostic_education:
   - Santa Fe College
   - Seminole State College of Florida
   - South Florida State College
-  - "State College of Florida Manatee\u2013Sarasota"
+  - State College of Florida ManateeSarasota
   - Savannah Technical College
   - South Georgia Technical College
   - Southeastern Technical College
@@ -1184,70 +1134,39 @@ case_agnostic_education:
   - Teluk Intan Community College Seri Manjung
   - Tawau Community College Tawau
   - Tohono Oodham Community College
-  - 'The University of Arkansas System
-
-    Cossatot Community College
-
-    Phillips Community College
-
-    UACC Batesville
-
-    UACC Hope
-
-    UACC Morrilton'
+  - Cossatot Community College
+  - Phillips Community College
+  - UACC Batesville
+  - UACC Hope
+  - UACC Morrilton
   - Trinidad State Junior College
   - Three Rivers Community College
   - Tunxis Community College
   - Tallahassee Community College
-  - 'Technical College System of Georgia
-
-    Albany Technical College
-
-    Altamaha Technical College
-
-    Athens Technical College
-
-    Atlanta Technical College
-
-    Augusta Technical College
-
-    Central Georgia Technical College
-
-    Chattahoochee Technical College
-
-    Columbus Technical College
-
-    Georgia Northwestern Technical College
-
-    Georgia Piedmont Technical College
-
-    Gwinnett Technical College
-
-    Lanier Technical College
-
-    Moultrie Technical College
-
-    North Georgia Technical College
-
-    Oconee Fall Line Technical College
-
-    Ogeechee Technical College
-
-    Okefenokee Technical College
-
-    Savannah Technical College
-
-    South Georgia Technical College
-
-    Southeastern Technical College
-
-    Southern Crescent Technical College
-
-    Southwest Georgia Technical College
-
-    West Georgia Technical College
-
-    Wiregrass Georgia Technical College'
+  - Albany Technical College
+  - Altamaha Technical College
+  - Athens Technical College
+  - Atlanta Technical College
+  - Augusta Technical College
+  - Central Georgia Technical College
+  - Chattahoochee Technical College
+  - Columbus Technical College
+  - Georgia Northwestern Technical College
+  - Georgia Piedmont Technical College
+  - Gwinnett Technical College
+  - Lanier Technical College
+  - Moultrie Technical College
+  - North Georgia Technical College
+  - Oconee Fall Line Technical College
+  - Ogeechee Technical College
+  - Okefenokee Technical College
+  - Savannah Technical College
+  - South Georgia Technical College
+  - Southeastern Technical College
+  - Southern Crescent Technical College
+  - Southwest Georgia Technical College
+  - West Georgia Technical College
+  - Wiregrass Georgia Technical College
   - Triton College
   - Three Rivers Community College
   - Truckee Meadows Community College
@@ -1273,58 +1192,39 @@ case_agnostic_education:
   - Tacoma Community College
   - Ulster County Community College
   - Umpqua Community College
-  - 'University of Alaska Anchorage has five community college campuses including:
-
-    Kenai Peninsula College
-
-    Kodiak College
-
-    MatanuskaSusitna College
-
-    Prince William Sound College'
-  - 'University of Alaska Fairbanks has four community college campuses
-
-    UAF Community and Technical College'
-  - UAF Community and Technical College
+  - Kenai Peninsula College
+  - Kodiak College
+  - MatanuskaSusitna College
+  - Prince William Sound College
+  - - University of Alaska Fairbanks Community and Technical College
+    - UAF Community and Technical College
   - University of Alaska Southeast has two community college campuses
   - UACC Batesville
   - UACC Hope
   - UACC Morrilton
-  - 'University of Hawaii
-
-    Hawaii Community College
-
-    Honolulu Community College
-
-    Kapiolani Community College
-
-    Kauai Community College
-
-    Leeward Community College
-
-    Maui Community College
-
-    Windward Community College'
+  - Hawaii Community College
+  - Honolulu Community College
+  - Kapiolani Community College
+  - Kauai Community College
+  - Leeward Community College
+  - Maui Community College
+  - Windward Community College
   - United Tribes Technical College
   - University of Cincinnati Clermont College
   - Umpqua Community College
-  - "University of Wisconsin Colleges\nUW\u2013Baraboo/Sauk County\nUW\u2013Barron\
-    \ County\nUW\u2013Fond du Lac\nUW\u2013Fox Valley\nUW\u2013Manitowoc\nUW\u2013\
-    Marathon County\nUW\u2013Marinette\nUW\u2013Marshfield/Wood County\nUW\u2013Richland\n\
-    UW\u2013Rock County\nUW\u2013Sheboygan\nUW\u2013Washington County\nUW\u2013Waukesha"
-  - "UW\u2013Baraboo/Sauk County"
-  - "UW\u2013Barron County"
-  - "UW\u2013Fond du Lac"
-  - "UW\u2013Fox Valley"
-  - "UW\u2013Manitowoc"
-  - "UW\u2013Marathon County"
-  - "UW\u2013Marinette"
-  - "UW\u2013Marshfield/Wood County"
-  - "UW\u2013Richland"
-  - "UW\u2013Rock County"
-  - "UW\u2013Sheboygan"
-  - "UW\u2013Washington County"
-  - "UW\u2013Waukesha"
+  - UWBaraboo/Sauk County
+  - UWBarron County
+  - UWFond du Lac
+  - UWFox Valley
+  - UWManitowoc
+  - UWMarathon County
+  - UWMarinette
+  - UWMarshfield/Wood County
+  - UWRichland
+  - UWRock County
+  - UWSheboygan
+  - UWWashington County
+  - UWWaukesha
   - Vermilion Community College
   - Vance Granville Community College
   - Volunteer State Community College
@@ -1364,7 +1264,7 @@ case_agnostic_education:
   - Western Iowa Tech Community College
   - West Kentucky Community and Technical College
   - Washington County Community College
-  - "Wor\u2013Wic Community College"
+  - WorWic Community College
   - Washtenaw Community College
   - Wayne County Community College District
   - West Shore Community College
@@ -1386,7 +1286,7 @@ case_agnostic_education:
   - Western Dakota Technical Institute
   - Walters State Community College
   - Weatherford College
-  - 'Western Texas College '
+  - Western Texas College
   - Wharton County Junior College
   - Wytheville Community College
   - Walla Walla Community College
@@ -1394,39 +1294,22 @@ case_agnostic_education:
   - Whatcom Community College
   - West Virginia Northern Community College
   - West Virginia University at Parkersburg
-  - 'Wisconsin Technical College System
-
-    Blackhawk Technical College
-
-    Chippewa Valley Technical College
-
-    Fox Valley Technical College
-
-    Gateway Technical College
-
-    Lakeshore Technical College
-
-    Madison Area Technical College
-
-    MidState Technical College
-
-    Milwaukee Area Technical College
-
-    Moraine Park Technical College
-
-    Nicolet Area Technical College
-
-    Northcentral Technical College
-
-    Northeast Wisconsin Technical College
-
-    Southwest Wisconsin Technical College
-
-    Waukesha County Technical College
-
-    Western Technical College
-
-    Wisconsin Indianhead Technical College'
+  - Blackhawk Technical College
+  - Chippewa Valley Technical College
+  - Fox Valley Technical College
+  - Gateway Technical College
+  - Lakeshore Technical College
+  - Madison Area Technical College
+  - MidState Technical College
+  - Milwaukee Area Technical College
+  - Moraine Park Technical College
+  - Nicolet Area Technical College
+  - Northcentral Technical College
+  - Northeast Wisconsin Technical College
+  - Southwest Wisconsin Technical College
+  - Waukesha County Technical College
+  - Western Technical College
+  - Wisconsin Indianhead Technical College
   - Waukesha County Technical College
   - Western Technical College
   - Wisconsin Indianhead Technical College
@@ -2003,6 +1886,7 @@ case_agnostic_education:
     - Organizational Leadership
   - - Osteopathic Medicine
     - Holistic Medicine
+  - Packaging Engineering
   - - Parks and Recreation
     - Recreation and Parks
     - Parks Recreation
@@ -2644,7 +2528,7 @@ case_agnostic_education:
   - Barclay College
   - Bethesda University
   - Biola University
-  - "Birmingham\u2013Southern College"
+  - BirminghamSouthern College
   - BarberScotia College
   - Benedict College
   - Bennett College
@@ -2685,7 +2569,7 @@ case_agnostic_education:
   - California State University Maritime Academy
   - College of Alameda
   - Cabrillo College
-  - "Ca\xF1ada College"
+  - Canada College
   - College of the Canyons
   - Cerritos College
   - Chabot College
@@ -3506,7 +3390,6 @@ case_agnostic_education:
   - Kent State University
   - Keiser University
   - Knox College
-  - KennedyKing College
   - Kansas State University
   - Kansas Wesleyan University
   - Kansas Christian College
@@ -3564,7 +3447,6 @@ case_agnostic_education:
   - Los Angeles Valley College
   - Los Medanos College
   - Lynn University
-  - LakeSumter State College
   - Lewis Clark State College
   - Loyola University Chicago
   - Lewis University
@@ -4070,7 +3952,6 @@ case_agnostic_education:
   - Orange Coast College
   - Oxnard College
   - Olivet Nazarene University
-  - OliveHarvey College
   - Oakland City University
   - Ottawa University
   - Oakland University
@@ -4353,7 +4234,7 @@ case_agnostic_education:
   - Southern Arkansas University
   - Saint Marys College of California
   - San Diego State University
-  - "San Jos\xE9 State University"
+  - San Jose State University
   - Santa Clara University
   - San Francisco State University
   - Sonoma State University
@@ -4383,7 +4264,6 @@ case_agnostic_education:
   - Saint Leo University
   - St Thomas University
   - Southeastern University
-  - State College of Florida ManateeSarasota
   - Southern Illinois University Carbondale
   - Southern Illinois University Edwardsville
   - Saint Xavier University
@@ -5178,9 +5058,9 @@ case_agnostic_education:
   - University of North Carolina at Pembroke
   - University of North Georgia
   - University of Pittsburgh at Johnstown
-  - "University of Puerto Rico at Bayam\xF3n"
-  - "University of Puerto Rico at Mayag\xFCez"
-  - "University of Puerto Rico at R\xEDo Piedras"
+  - University of Puerto Rico at Bayamon
+  - University of Puerto Rico at Mayaguez
+  - University of Puerto Rico at Rio Piedras
   - University of the Sciences
   - University of Sioux Falls
   - University of South Carolina Aiken
@@ -5380,7 +5260,6 @@ case_agnostic_education:
   - West Texas A&M University
   - Wayland Baptist University
   - Wiley College
-  - Western Texas College
   - Weber State University
   - Westminster College
   - Washington and Lee University
@@ -5553,7 +5432,7 @@ case_agnostic_education:
   - Duke University
   - Ecole normale superieure
   - - Ecole Polytechnique Federale de Lausanne
-    - EPFL
+    - ' EPFL '
   - Emory University
   - ETH Zurich
   - Florida State University
@@ -5933,7 +5812,7 @@ case_agnostic_work:
   - Wolverine World Wide
   - Wynn Resorts
   company_energychem:
-  - - ' AES '
+  - ' AES '
   - A Schulman
   - Airgas
   - Albemarle
@@ -6140,7 +6019,7 @@ case_agnostic_work:
   - Xcel Energy
   - Yara International
   company_fin:
-  - - ' AIG '
+  - ' AIG '
   - - ' USAA '
     - United Services Automobile Association
   - Affiliated Managers Group
@@ -6200,8 +6079,7 @@ case_agnostic_work:
   - Bank of New York Mellon
   - - BB&T Corp
     - ' BB&T'
-  - - Banco Itau
-    - "Banco Ita\xFA"
+  - Banco Itau
   - - Bank of America
     - Merrill Lynch
   - - Broadridge Financial Solutions
@@ -6225,10 +6103,10 @@ case_agnostic_work:
   - CVC Capital Partners
   - Clayton Dubilier & Rice
   - China Construction Bank Corporation
-  - "Cr\xE9dit Agricole"
+  - Credit Agricole
   - Citigroup Inc
   - China Merchants Bank
-  - "Cr\xE9dit Mutuel"
+  - Credit Mutuel
   - China CITIC Bank
   - China Minsheng Bank
   - Credit Suisse
@@ -6294,7 +6172,7 @@ case_agnostic_work:
   - ING Group
   - 'Industrial Bank '
   - Intesa Sanpaolo
-  - "Ita\xFA Unibanco"
+  - Itau Unibanco
   - Jefferies Financial Group
   - JPMorgan Chase & Co
   - Japan Post Bank
@@ -6380,7 +6258,7 @@ case_agnostic_work:
   - SVB Financial
   - Synchrony Financial
   - Sumitomo Mitsui Financial Group
-  - "Soci\xE9t\xE9 G\xE9n\xE9rale"
+  - Societe Generale
   - Shanghai Pudong Development Bank
   - Scotiabank
   - Standard Chartered
@@ -6439,10 +6317,10 @@ case_agnostic_work:
   - - Zions Bancorp
     - Zions Bank
   company_foodbev:
-  - - ' CHS '
-  - - ' Dole '
-  - - ' JBS '
-  - - ' Mars '
+  - CHS
+  - Dole
+  - JBS
+  - Mars
   - 2 Sisters Food Group
   - Archer Daniels Midland
   - Arla Foods
@@ -6495,7 +6373,7 @@ case_agnostic_work:
   - AarhusKarlshamn
   - Abba Seafood
   - Arla Foods
-  - "Apiko\u011Flu"
+  - Apikoglu
   - A E Rodda & Son
   - AG Barr
   - Antonelli Bros Ltd
@@ -6576,7 +6454,7 @@ case_agnostic_work:
   - Bartolo Nardini
   - Bertagni
   - Barrys Tea
-  - "B\xE9al Organic Cheese"
+  - Beal Organic Cheese
   - Bewleys
   - Bluebell Falls
   - Burren Smokehouse
@@ -6584,7 +6462,7 @@ case_agnostic_work:
   - Bermans Bakery
   - BOH Plantations
   - Bachoco
-  - "B\xFAfalo"
+  - Bufalo
   - Bavaria Brewery
   - Bama Gruppen
   - Brynild Gruppen
@@ -6600,7 +6478,7 @@ case_agnostic_work:
   - Bell Food Group
   - Boon Rawd Brewery
   - Bermudez Biscuit Company
-  - "Bakkav\xF6r"
+  - Bakkakor
   - Bates Dairy
   - Baxters
   - Bens Cookies
@@ -6666,8 +6544,8 @@ case_agnostic_work:
   - Canyon Creek Food Company
   - Chapmans
   - Cott
-  - "Casta\xF1o"
-  - "Compa\xF1\xEDa de las Cervecer\xEDas Unidas"
+  - Castano
+  - Compania de las Cervecervas Unidas
   - Concha y Toro
   - Chaoda Modern Agriculture
   - COFCO Group
@@ -6680,7 +6558,7 @@ case_agnostic_work:
   - Comigel
   - Compagnie des Fromages et RichesMonts
   - Cooperl Arc Atlantique
-  - "C Hahne M\xFChlenwerke GmbH & Co KG"
+  - C Hahne Mulenwerke GmbH & Co KG
   - Coppenrath & Wiese
   - Cafe Coffee Day
   - Candico
@@ -6701,7 +6579,7 @@ case_agnostic_work:
   - Cookie Time
   - Cermaq
   - Coop Norge
-  - "Corporaci\xF3n Lindley SA"
+  - Corporacion Lindley SA
   - CDO Foodsphere
   - Century Pacific Food
   - Cerealis
@@ -6712,7 +6590,7 @@ case_agnostic_work:
   - CJ Group
   - Crown Confectionery
   - Calidad Pascual
-  - "Campofr\xEDo Food Group"
+  - Campofrio Food Group
   - Cargills
   - Ceylon Biscuits Limited
   - Ceylon Cold Stores
@@ -6721,7 +6599,7 @@ case_agnostic_work:
   - Chiquita Brands International
   - Coffee World
   - Coop
-  - "Confiserie Spr\xFCngli"
+  - Confiserie Sprungli
   - Charoen Pokphand Foods
   - Carib Brewery
   - Chumak
@@ -6806,8 +6684,8 @@ case_agnostic_work:
   - Danone
   - Daregal
   - Debauve & Gallais
-  - "D\xE9lifrance"
-  - "D\xFCsseldorfer L\xF6wensenf"
+  - Delifrance
+  - Dusseldorfer Lowensenf
   - Dr Oetker
   - Dabur
   - Dudhsagar Dairy
@@ -6817,11 +6695,11 @@ case_agnostic_work:
   - Donegal Creameries
   - Douwe Egberts
   - Droste
-  - "Den Lille N\xF8ttefabrikken"
+  - Den Lille Nottefabrikken
   - Drammens Is
   - Dalda
   - Don Jorge
-  - "Delta Caf\xE9s"
+  - Delta Cafes
   - Doosan Corporation
   - Daintee
   - Delica
@@ -6909,7 +6787,7 @@ case_agnostic_work:
   - Fonterra
   - Foodstuffs
   - Foxton Fizz
-  - "Felleskj\xF8pet"
+  - Felleskjopet
   - Fjordland
   - Friele
   - Fauji Foundation
@@ -6941,7 +6819,7 @@ case_agnostic_work:
   - Grupo Arcor
   - Glacio
   - Garoto
-  - "Grupo Petr\xF3polis"
+  - Grupo Petropolis
   - Ganong Bros
   - Gay Lea
   - George Weston Limited
@@ -6966,7 +6844,7 @@ case_agnostic_work:
   - Grupo Bimbo
   - Gruma
   - Grupo Lala
-  - "Grupo La Norte\xF1ita"
+  - Grupo La Nortenita
   - Grupo Lala
   - Goodman Fielder
   - Greggs
@@ -6974,9 +6852,9 @@ case_agnostic_work:
   - Gourmet Foods
   - Grupo RAR
   - Gyeonggi Snack Company
-  - "Galletas Gull\xF3n"
+  - Galletas Gullon
   - Grupo Calvo
-  - "Gunnar Dafg\xE5rd"
+  - Gunnar Dafgard
   - Gulsan
   - Gelato Italia
   - Ginsters
@@ -6984,7 +6862,6 @@ case_agnostic_work:
   - Greene King
   - Graze
   - Grodzinski Bakery
-  - "G\xFC"
   - Great Harvest Bread Company
   - Gavilon
   - Georgetown Cupcake
@@ -6995,7 +6872,7 @@ case_agnostic_work:
   - Gallikers
   - Gossner Foods
   - Grafton Village Cheese Company
-  - "Guayak\xED"
+  - Guayaki
   - Goya Foods
   - Gustobene
   - Global Franchise Group
@@ -7031,9 +6908,9 @@ case_agnostic_work:
   - Hanwei Group
   - Huiyuan Juice
   - HKScan
-  - "H\xE9diard"
+  - Hediard
   - Halloren Chocolate Factory
-  - "H\xE4ndlmaier"
+  - Handlmaier
   - Hans Adler
   - Haribo
   - Haitoglou Bros
@@ -7128,13 +7005,13 @@ case_agnostic_work:
   - Joseph Gallo Farms
   - Junket
   - Jones Soda
-  - J & J Snack Foods
   - Jel Sert
   - J&Ds Down Home Enterprises
   - - JM Smucker
     - JMSmucker
   - - Johnson & Johnson
-    - ' J&J '
+    - J&J
+    - J & J
   - Kerry Group
   - Kirin Holdings
   - Kenya Wine Agencies Limited
@@ -7142,7 +7019,7 @@ case_agnostic_work:
   - Kee Wah Bakery
   - Kweichow Moutai Company
   - Koestlin
-  - "Kra\u0161"
+  - Kras
   - Kohberg Bakery Group
   - Knuthenlund
   - Kaslink Foods
@@ -7164,7 +7041,7 @@ case_agnostic_work:
   - Kavli Trust
   - Kamis
   - Krasny Oktyabr Open JointStock Company
-  - "Knjaz Milo\u0161 ad"
+  - Knjaz Milos ad
   - Killiney Kopitiam
   - Korea Tobacco & Ginseng Corporation
   - Kalise Menorquina
@@ -7212,7 +7089,7 @@ case_agnostic_work:
     - Heinz
   - Lactalis
   - Les Domaines Agricoles
-  - "La Seren\xEDsima"
+  - La Serenisima
   - Lion Dairy & Drinks
   - Le Pain Quotidien
   - Leonidas
@@ -7221,7 +7098,7 @@ case_agnostic_work:
   - Laura Secord Chocolates
   - Lesters Foods Ltd
   - La Rose Noire
-  - "L\xF8gismose Meyers"
+  - Logismose Meyers
   - La Vie Claire
   - Lactalis
   - Lur Berri
@@ -7233,7 +7110,7 @@ case_agnostic_work:
   - Lakeland Dairies
   - Lyons Tea
   - LEOC Japan
-  - "La Coste\xF1a"
+  - La Costena
   - Lucas Bols
   - Lewis Road Creamery
   - Livestock Improvement Corporation
@@ -7243,9 +7120,9 @@ case_agnostic_work:
   - Lactogal
   - La Fantana
   - Lotte Confectionery
-  - "Lantm\xE4nnen"
+  - Lantmannen
   - La Clandestine Absinthe
-  - "Lindt & Spr\xFCngli"
+  - Lindt & Sprungli
   - Lion Capital LLP
   - Lloyd Maunder
   - Loch Duart
@@ -7272,7 +7149,7 @@ case_agnostic_work:
   - Monster Beverage
   - Meat Corporation of Namibia
   - Melcom
-  - "Molinos R\xEDo de la Plata"
+  - Molinos Rio de la Plata
   - Mrs Macs Pies
   - Murray Goulburn Cooperative
   - Manner
@@ -7291,7 +7168,7 @@ case_agnostic_work:
   - Mederer GmbH
   - Meica
   - Mestemacher
-  - "M\xFCller"
+  - Muller
   - Mymuesli
   - Melissa SA
   - Mevgal
@@ -7385,7 +7262,7 @@ case_agnostic_work:
     - Coors Brewing
     - Molson Brewing
   - - Mondelez
-    - ' Oreo '
+    - Oreo
     - Nabisco
     - Chips Ahoy
     - Belvita
@@ -7405,7 +7282,6 @@ case_agnostic_work:
   - Nordzucker
   - Nardini
   - Nonino Grappa
-  - "Nob\xF3"
   - Nippon Flour Mills
   - Nippon Ham
   - Nippon Suisan Kaisha
@@ -7420,7 +7296,7 @@ case_agnostic_work:
   - Nongshim
   - Nutrexpa
   - Norrmejerier
-  - "Nestl\xE9"
+  - Nestle
   - Nemiroff
   - Neals Yard Dairy
   - Natures Harmony Farm
@@ -7441,7 +7317,7 @@ case_agnostic_work:
   - Ornua
   - Osem
   - Orkla Group
-  - "OMOR\xC9"
+  - OMORe
   - Orion Confectionery
   - Ottogi
   - Osborne Group
@@ -7451,7 +7327,7 @@ case_agnostic_work:
   - Orwashers bakery
   - Organic Valley
   - Old Orchard Brands
-  - "Oogav\xE9"
+  - Oogave
   - Ocean Spray
   - Organically Grown Company
   - Omaha Steaks
@@ -7467,14 +7343,13 @@ case_agnostic_work:
   - Pioneer Foods
   - Patties Foods
   - Preshafood
-  - Pez
-  - "Premi\xE8re Moisson"
+  - Premiere Moisson
   - Premium Brands Holdings Corporation
   - Purdys Chocolates
   - Purity Factories
-  - "Postob\xF3n"
+  - Postobon
   - Podravka
-  - "Picard Surgel\xE9s"
+  - Picard Surgeles
   - Pernod Ricard
   - Papadopoulos
   - Paulig
@@ -7495,8 +7370,8 @@ case_agnostic_work:
   - Pulmuone
   - Pescanova
   - Pelwatte Sugar Industries PLC
-  - "P\xE5gen"
-  - "Polarbr\xF6d"
+  - Pagen
+  - Polarbrod
   - Peppersmith
   - Peters Food Services
   - Plum Baby
@@ -7538,7 +7413,7 @@ case_agnostic_work:
     - Doritos
     - Aunt Jemima
   - - Proctor and Gamble
-    - 'P&G '
+    - P&G
   - Quala
   - Quely
   - Quiggins
@@ -7618,13 +7493,12 @@ case_agnostic_work:
   - Shuanghui
   - Stauning Whisky
   - SARIA
-  - "S\xFCdzucker"
+  - Sudzucker
   - Shanthi Feeds
   - Skylark Group
   - Sri Krishna Sweets
   - Suguna Foods
   - Suminter India Organics
-  - "Sacl\xE0 Italia"
   - San Carlo
   - Sterilgarda
   - Shamrock Foods
@@ -7641,12 +7515,10 @@ case_agnostic_work:
   - Speights
   - Synlait
   - SalMar
-  - "Synn\xF8ve Finden"
+  - Synnove Finden
   - Shan Food Industries
   - Shezan International
-  - 'San Miguel Corporation
-
-    San Miguel Food and Beverage'
+  - San Miguel Corporation
   - San Miguel Food and Beverage
   - Serenitea
   - SL Agritech Corporation
@@ -7766,7 +7638,7 @@ case_agnostic_work:
   - Thai President Foods
   - Thai Union Group
   - ThaiBev
-  - "Tekel Biras\u0131"
+  - Tekel Birasi
   - Tangerine Confectionery
   - Tate & Lyle
   - Tesco
@@ -7784,7 +7656,7 @@ case_agnostic_work:
   - Tavalon Tea
   - Tazo
   - Turkey Hill
-  - "Tr\xF6egs Brewing Company"
+  - Troegs Brewing Company
   - Tabatchnick
   - Trappeys Hot Sauce
   - The Bauman Family
@@ -7796,7 +7668,7 @@ case_agnostic_work:
   - The Wendys Company
   - Thanasi Foods
   - Tabasco sauce
-  - "Tapat\xEDo hot sauce"
+  - Tapatio hot sauce
   - Texas Pete
   - The CocaCola Company
   - The Hershey Company
@@ -7805,7 +7677,7 @@ case_agnostic_work:
   - TreeHouse Foods
   - Tootsie Roll Industries
   - Tyson Foods
-  - "Trung Nguy\xEAn"
+  - Trung Nguyen
   - Unilever
   - UniPresident Enterprises Corporation
   - United Plantations
@@ -7868,7 +7740,7 @@ case_agnostic_work:
   - Wigram Beer
   - Winiary
   - WimmBillDann Foods
-  - "Wasabr\xF6d"
+  - Wasabrod
   - Want Want
   - WeiChuan Food Corporation
   - Waitrose
@@ -7916,7 +7788,7 @@ case_agnostic_work:
   - Ya Kun Kaya Toast
   - Yeo Hiap Seng
   - Yeolmae Food
-  - "Y\u0131ld\u0131z Holding"
+  - Yildiz Holding
   - Yarych Confectionery
   - Yeo Valley
   - Yanceys Fancy
@@ -7925,18 +7797,18 @@ case_agnostic_work:
   - - Yum Brands
     - Yum! Brands
   - Zoo Holdings Group
-  - "Zve\u010Devo"
+  - Zvecevo
   - Zott
   - Zensho
   - Zealong
-  - "Zaje\u010Darsko pivo"
+  - Zajecarsko pivo
   - ZhL
   - Zacky Farms
   - Zevia
-  - "\u010Cakove\u010Dki mlinovi"
-  - "\u0160tark"
+  - cakovecki mlinovi
+  - stark
   company_health:
-  - - ' roche '
+  - ' roche '
   - Abbott Laboratories
   - AbbVie
   - Acadia Healthcare
@@ -8167,37 +8039,37 @@ case_agnostic_work:
   - - ' Dana '
   - - ' EQT '
   - - ' Evergy '
-  - - ' Freds '
-  - - ' GGP '
+  - ' Freds '
+  - ' GGP '
   - - ' GMS '
   - - ' Greif '
   - - ' HCP '
   - - ' HNI '
-  - - ' HSN '
-  - - ' ITT '
+  - ' HSN '
+  - ' ITT '
   - - ' KBR '
   - - ' KKR '
   - - ' Kirby '
   - - ' LKQ '
   - - ' Lear '
-  - - ' ManTech '
-  - - ' Moog '
-  - - ' NCR '
-  - - ' NVR '
-  - - ' PCM '
-  - - ' PPL '
-  - - ' PVH '
-  - - ' Regis '
-  - - ' UGI '
-  - - ' US Foods'
-  - - ' USG '
-  - - ' VCA '
-  - - ' VWR '
+  - ' ManTech '
+  - ' Moog '
+  - ' NCR '
+  - ' NVR '
+  - ' PCM '
+  - ' PPL '
+  - ' PVH '
+  - ' Regis '
+  - ' UGI '
+  - ' US Foods'
+  - ' USG '
+  - ' VCA '
+  - ' VWR '
   - 22nd Century Media
   - 360i
   - 3M
   - 3M Company
-  - "5 Rabbit Cervecer\xEDa"
+  - 5 Rabbit Cerveceria
   - Adrian Smith + Gordon Gill Architecture
   - Acme Boots a unit of DoubleH Boots
   - Avlon Industries
@@ -8333,7 +8205,7 @@ case_agnostic_work:
   - Braintree
   - Bankers Life
   - Blue Cross Blue Shield Association
-  - "Baderbr\xE4u"
+  - Baderbrau
   - Beam Suntory
   - Bernard Food Industries
   - Budlong Pickle Company
@@ -8455,7 +8327,7 @@ case_agnostic_work:
   - Conagra Brands
   - CF Industries
   - Cake Girls
-  - "Cos\xEC"
+  - Cosi
   - Cancer Treatment Centers of America
   - Caremark Rx
   - Catamaran Corporation
@@ -8678,7 +8550,7 @@ case_agnostic_work:
   - Equity Global Management
   - EQ Office
   - Enesco
-  - "Encyclop\xE6dia Britannica Inc"
+  - Encyclopedia Britannica
   - Essendant
   - Empire Today
   - ELoan
@@ -8697,7 +8569,6 @@ case_agnostic_work:
   - Experian
   - Exor
   - Eastman Kodak Company
-  - 'Evonik Industries '
   - E*Trade
   - Eaton Corporation
   - Ecolab Inc
@@ -10133,7 +10004,7 @@ case_sensitive_education:
     - LLB
   - - Bachelor Degree
     - Bachelors Degree
-    - "Bachelor\u2019s Degree"
+    - Bachelors Degree
     - Bachelor's Degree
   doctor_education_level:
   - - J.D.
