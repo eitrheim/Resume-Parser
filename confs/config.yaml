@@ -1,327 +1,869 @@
-resume_directory: ../data/input/resumes
-summary_output_directory: ../data/output
-data_schema_dir: ../data/schema
-
-
-case_agnostic_whole_resume:
- certifications:
- - [Chartered Financial Analyst,CFA]
- - [Certified Public Accountant,CPA]
- - [Association of Chartered Certified Accountant,ACCA]
- - [Chartered Institute of Management Accountants,CIMA]
- - [Association of Certified Financial Crime Specialists,ACFCS]
- latin_honors:
- - cum laude
- - magna cum laude
- - summa cum laude
-
-
+case_agnostic_courses:
+  courses:
+  - Data Mining
+  - Machine Learning
+  - - Linear Algebra
+    - Linear Algebra and Matrix Analysis
+  - - Statistical Analysis
+    - Statistics
+  - Data Engineering Platforms
+  - Big Data Analysis
+  - Deep Learning
+  - Natural Language Processing
+  - Business Finance
+  - Principles of Management
+  - Legal Environment of Business
+  - Optimization
+  - Time Series
+  - Exploratory Data Analysis
+  - Relational Databases
+  - NoSQL Databases
+  - Linear Regression
+  - Data Visualization
+  - Bayesian Methods
+  - Economics
+  - Econometrics
+  - Computational Finance
+  - Multivariate Statistics
 case_agnostic_education:
- top_10_universities:
-  - Brown University
-  - [California Institute of Technology,Caltech]
-  - Columbia University
-  - Harvard University
-  - Johns Hopkins University
-  - Massachusetts Institute of Technology
-  - Northwestern University
-  - Stanford University
-  - [Washington University in St. Louis,Washington University St. Louis,Washington University in St Louis]
-  - [University of California Los Angeles,University of California Los Angeles,UCLA]
-  - University of Chicago
-  - University of Pennsylvania
-  - Yale University
- top_100_universities:
-  - Amherst College
-  - Arizona State University
-  - Australian National University
-  - Boston College
-  - Boston University
-  - Carnegie Mellon University
-  - Case Western Reserve University
-  - Colorado State University
-  - Cornell University
-  - Dartmouth College
-  - Drake University
-  - Drexel University
-  - Duke University
-  - Emory University
-  - Emory University
-  - Florida State University
-  - Georgetown University
-  - Georgia Institute of Technology
-  - Illinois Institute of Technology
-  - Imperial College London
-  - Indiana University
-  - John Hopkins University
-  - Michigan State University
-  - National University of Singapore
-  - New York University
-  - New York University
-  - Northeastern University
-  - North Carolina State University
-  - Ohio State University
-  - Oregon State University
-  - Pennsylvania State University
-  - Pomona College
-  - Princeton University
-  - Purdue University
-  - Rensselaer Polytechnic Institute
-  - Rice University
-  - Rutgers University
-  - Swarthmore College
-  - Swiss Federal Institute of Technology
-  - Tsinghua University
-  - Tufts University
-  - Tulane University
-  - United States Naval Academy
-  - University of Arizona
-  - University of British Columbia
-  - [University of California Davis,UC Davis]
-  - [University of California Irvine,UC Irvine]
-  - University of Cambridge
-  - University of College Boulder
-  - University of Colorado Denver
-  - University of Connecticut
-  - University of Edinburgh
-  - University of Florida
-  - University of Georgia
-  - University of Hawaii
-  - University of Hong Kong
-  - University of Illinois Chicago
-  - University of Iowa
-  - University of Kansas
-  - University of Maryland College Park
-  - University of Massachusetts
-  - University of Melbourne
-  - University of Miami
-  - University of Michigan
-  - University of Minnesota
-  - [University of Nebraska,University of Nebraska Lincoln, University of Nebraska-Lincoln]
-  - [University of North Carolina Chapel Hill,UNC Chapel Hill]
-  - University of Notre Dame
-  - University of Notre Dame
-  - University of Oklahoma
-  - University of Oxford
-  - University of Pennsylvania
-  - University of Pittsburgh
-  - University of Rochester
-  - University of Southern California
-  - University of Sydney
-  - University of Tennessee
-  - University of Tokyo
-  - University of Toronto
-  - University of Utah
-  - University of Vermont
-  - University of Washington
-  - Vanderbilt University
-  - Vanderbilt University
-  - Virginia Polytechnic Institute and State University
-  - Wake Forest University
-  - Wayne State University
-  - Wellesley College
-  - [University of California Berkeley,UC Berkeley,UC at Berkeley]
-  - [University of California San Diego,UC San Diego]
-  - [University of California San Francisco,UC San Francisco]
-  - [University of California Santa Barbara,UC Santa Barbara]
-  - [University of Illinois at Urbana Champaign,University of Illinois Urbana Champaign]
-  - [University of Texas at Austin,University of Texas Austin]
-  - [University of Wisconsin,University of Wisconsin Madison]
- other_universities:
-  - Bucknell University
-  - College of Charleston
-  - Creighton University
-  - Davidson College
-  - Humboldt University
-  - Kent State University
-  - Moscow State University
-  - Nanyang Technological University
-  - Rouen Business School
-  - Shanghai International Studies University
-  - Singapore Management University
-  - South Dakota School of Mines and Technology
-  - Texas A&M University
-  - [University of California Santa Cruz, UC Santa Cruz]
-  - University of London
-  - University of Michigan
-  - University of Northern Iowa
-  - University of Nottingham
-  - University of Otago
-  - University of Phoenix
-  - University of San Francisco
- major_minor:
-  - [Accounting,Forensic Accounting,Accountancy]
-  - [Adult Development,Gerontology]
-  - [Aeronautics,Aeronautical Engineering,Aeronautical Engineering Technologies,Aerospace Engineering,Astronautics,Astrophysics,Space Science,Astronomy,Planetary Science]
-  - [African Studies,Pan-African Studies,African-American Studies,Africana Studies,Pan-African Studies]
-  - [Agricultural Business,Agricultural Economics,International Agriculture,Agribusiness Operations,Agricultural Technology Management,Agricultural Management,Agricultural Mechanization]
-  - [Agriculture,Agricultural Production,Agricultural Science,Agricultural Engineering,Agricultural Bioengineering,Crop Science,Feed Science,Agronomy]
-  - [Airway Science,Aircraft Technology,Air Transportation,Air Traffic Control,Aircraft Mechanics,Aircraft Navigation,Aircraft Piloting]
-  - [American Studies,Canadian Studies,North American Area Studies,Native American Studies,American Native American Studies,Latin American Studies,Latino Studies,Latin American Area Studies,Chicano Studies,Chicano Studies,Puerto Rican Studies,Latin American Studies,Caribbean Studies]
-  - [Analytics,Computational Analysis]
-  - [Animal Science,Animal Bioscience,Animal Behavior,Ethology]
-  - [Archaeology,Archeology,Anthropology]
-  - [Architecture,Architectural Design,Architectural Environmental Design,Architectural Drafting Technology,Architectural Engineering]
-  - [Art Studies,Studio Art,Studio Arts,Painting,Ceramics,Multimedia,Poetry,Printmaking,Printmaking,Illustration,Drawing,Art Conservation,Digital Arts,Contemporary Arts,Electronic Art,Visual Arts]
-  - [Artificial Intelligence,Robotics]
-  - [Asian Studies,Asian American Studies,Asian Area Studies,Asian-American Studies,East Asian Civilizations,East Asian Studies,South Asia Studies,South Asian Studies,Southeast Asia Studies,Near Eastern Civilizations,Eastern Civilizations]
-  - [Automotive Engineering,Automotive Mechanics,Automotive Technology,Autobody Repair]
-  - [Aviation,Aviation Management,Aviation Operations,Aviation Science,Avionics Technology]
-  - [Bakery Science,Culinary Arts]
-  - [Biobehavioral Health,Biological Basis of Behavior]
-  - [Biology,Cell Biology,Cellular Biology,Molecular Biology,Microbiology,Molecular Life Science,Biological Chemistry,Biological Sciences,Cellular and Molecular Biology,Physiology,Quantitative Biology,Integrative Biology]
-  - [Biomedical Engineering,Biomedical Science]
-  - [Biophysics,Biophysical Science]
-  - [Bioresource Science,Bioresource Engineering]
-  - [Building Technology,Circulation Technology]
-  - [Business Administration,Business Management,Small Business Operations]
-  - [Business Analytics,Business Intelligence]
-  - [Chemical Engineering,Soft Materials Engineering]
-  - [Child Care,Child Care Services Management,Child Development]
-  - [Civil Engineering,Civil Engineering Technology]
-  - [Communication Technology,Telecommunication,Communication Networks,Communication Engineering,Communication Security]
-  - [Communication,Communication Studies,Professional Communication,Business Communication,Political Communication,Mass Communication,Organizational Communication,Corporate Communication,Communication Arts,Technical Communication,Digital Communication,Global Communication,Rhetoric,Rhetorical Studies,Public Speaking]
-  - [Computer Engineering,Computer Engineering Technology]
-  - [Computer Networks and Systems,Computer Network Technology,Computer System Administration,Computer Systems Analysis,Computer Networking,Computer Network,Network Administration]
-  - [Computer Science,Computer Programming]
-  - [Construction Engineering,Construction Technology,Construction Management]
-  - [Counseling,School Counseling,Christian Counseling,Marriage & Family Therapy]
-  - [Criminal Science,Criminal Justice,Criminology,Crime and Justice Studies,Crime Law and Justice,Social Justice,Corrections]
-  - [Data Management Technology,Data Processing]
-  - [Data Science,Data Analytics]
-  - [Dental Hygiene,Dental Assisting]
-  - [Diesel Technology,Diesel Mechanics]
-  - [Drafting Technology,Computer Aided Drafting,Mechanical Drafting Technology]
-  - [Early Childhood Education,Kindergarten Education,Elementary Education]
-  - [Ecology,Ecology Science]
-  - [Economics,Mathematical Economics,Econometrics]
-  - [Education Administration,Educational Administration]
-  - [Electrical Engineering,Electronics Engineering,Electromechanical Engineering]
-  - [English As A Second Language,Education of The Deaf]
-  - [English Education, Language Arts Education]
-  - [Environmental Design,Environmental Architecture]
-  - [Environmental Engineering,Environmental Health Engineering,Environmental Systems Engineering]
-  - [Environmental Studies,Environmental Science,Environmental Policy,Environmental and Urban Studies]
-  - [Equestrian Studies,Equine Studies,Equine Business]
-  - [Ethnic Studies,Ethnicity Studies,Race Studies,Comparative Race and Ethnic Studies,Comparative Race Studies]
-  - [European Studies,East European Studies,European Area Studies,Scandinavian Studies,Italian Studies]
-  - [Facilities Administration,Facilities Management]
-  - [Fashion,Apparel Design,Fashion Design]
-  - [Film,Film Studies,Digital Filmmaking,Film Production,Cinema,Cinematography,Cinema Studies,Video Production,Digital Studies]
-  - [Finance,Financial Planning,Banking,International Finance,Financial Management]
-  - [Fitness Management,Fitness Administration]
-  - [Food and Nutrition,Food Science,Food Studies,Food Technology,Nutrition,Nutrition Science,Nutritional Science,Dietetics,Molecular Metabolism]
-  - [Forensics,Forensic Science]
-  - [Forestry,Forest Science,Forest Technology,Forestry Management]
-  - [Funeral Services,Mortuary Science]
-  - [Gender Studies,Women's Studies,Sexuality Studies,Gender and Sexuality Studies]
-  - [Genetics,Molecular Genetics,Human Genetics]
-  - [Genomics,Epigenomics,Epigenetics]
-  - [Geography,Geographical Sciences,Geographic Information Systems]
-  - [Geology,Geological Engineering,Geological Science,Geoscience]
-  - [Global Health,Global Health Sciences]
-  - [Graphic Design,Computer Graphics,Animation,Electronic Animation,Special Effects,Video Game Design,Game Design]
-  - [Health Services Administration,Health Systems Management,Medical Office Administration,Hospital Administration,Healthcare Administration,Health Administration,Healthcare Management]
-  - [Hispanic Studies,Hispanic-American Studies]
-  - [History of Art,American History,Museum Studies,Architectural History, Art History]
-  - [History,European History,Ancient History,American History,Classical Civilization,Medieval Studies,Renaissance Studies,Cuneiform Studies,Assyriology,Hittitology,Sumerology,Medieval Studies]
-  - [Home Economics,Consumer Economics,Family and Consumer Science,Family Economics, Family and Life Sciences,Family Studies]
-  - [Horticulture,Horticulture Operation,Botany,Horticulture Management,Horticulture Science,Plant Studies,Plant Biology,Plant Pathology,Landscape Horticulture]
-  - [Hospitality,Hospitality Management,Hotel Management,Motel Management,Restaurant Management,Restaurant Services Management]
-  - [Human Development,Comparative Human Development]
-  - [Human Resources,Human Resources Development,Human Resources Management]
-  - [Human Rights Studies,Human Rights]
-  - [Immunology,Immunomics]
-  - [Industrial Production Technologies,Machine Tool Technology]
-  - [Informatics,Health Informatics,Healthcare Informatics,Bioinformatics,Biomedical Informatics]
-  - [Information Science,Information Systems,Informational Systems,Management Information Systems]
-  - [Information Technology,Information Technology Management]
-  - [Interior Design,Furniture Design,Textile Designs,Textile Engineering,Interior Architecture]
-  - [International Business,International Business Management]
-  - [International Relations,International Affairs,Global Studies,International Studies]
-  - [Journalism,Photojournalism,Broadcast Journalism,Broadcast News,Radio Broadcasting,Television Broadcasting,Radio Production,Radio And Television,Television Production,Recording Technology,Recording Arts Technology,News Media,Digital Media,Media Studies, Media Arts]
-  - [Kinesiology,Exercise Science,Exercise Biology,Sports Medicine,Sports Science,Personal Training,Athletic Training]
-  - [Labor Relations,Industrial Relations]
-  - [Landscape Architecture,Landscape Design,Land Use Management,Land Use Planning,Turfgrass Science,Range Science,Range Management,Soil Science]
-  - [Law Enforcement,Protective Services]
-  - [Law Politics and Society,Law Letters and Society,Law And Society]
-  - [Law,Legal Studies]
-  - [Legal Assistant,Legal Assisting,Paralegal,Legal Administrative]
-  - [Liberal Studies,Multidisciplinary Studies,Humanities,Individual Studies,Interdisciplinary Studies,General Science,Liberal Arts,Integrated Science Studies]
-  - [Literary Studies,Classical Studies,Classics,French Literature,Romance Literature,Greek Culture, Roman Culture,Attic Greek]
-  - [Literature,African Literatures,American Literature,Asian Literatures,Comparative Literature,English Literature,Foreign Literature,French Literature,German Literature,Italian Literature,Jewish Literature,Middle Eastern Literature,Roman Literature,Romance Literature,Russian Literature,Slavic Literatures,Spanish Literature]
-  - [Logistics,Business Logistics,Logistics Management,Supply Chain Management]
-  - [Management,Institutional Management,Operations Management,Operations Supervision,Project Management,Management Science]
-  - [Marine Science,Marine Biology,Aquatic Biology,Aquaculture,Aquatic Science]
-  - [Marketing,Sales Marketing,Digital Marketing]
-  - [Material Management,Materials Management]
-  - [Materials Science,Materials Science and Engineering,Materials Engineering]
-  - [Mathematics Education,Math Education]
-  - [Mathematics,Applied Math,Applied Mathematics,Mathematics Science,Computational Mathematics]
-  - [Mechanical Engineering,Mechanical Engineering Technology]
-  - [Medical Assistant,Medical Assisting]
-  - [Medical Billing,Medical Records,Diagnostic Medical Sonography]
-  - [Medical Imaging Science,Sonography]
-  - [Medical Technology,Medical Laboratory Technology,Medical Radiologic Technology,Emergency Medical Technology,Nuclear Medicine Technology,Medicine Technology,Surgical Technology,Health Technology,Clinical Laboratory Science,Clinical Lab Science,Medical Laboratory Scientist,Medical Lab Scientist]
-  - [Mental Health Services,Mental Health Counseling,Community Mental Health]
-  - [Merchandising,Sales Merchandising,Merchandising Operations,Fashion Merchandising]
-  - [Meteorology,Atmospheric Science]
-  - [Middle Eastern Studies,Modern Middle Eastern Studies,Armenian Studies,Egyptology,Egyptian Civilization,Isreali Studies,Persian Studies,Iranian Studies,Turkish Studies,Ottoman Studies]
-  - [Middle School Education,Junior High Education]
-  - [Military Technologies,Military Science]
-  - [Music,Church Music,Ethnomusicology,Music Composition,Music Education,Music History,Music Industry,Music Management,Music Performance,Music Production,Music Theory,Music Therapy,Musical Theater,Jazz Studies,Choir]
-  - [Neuroscience,Neurobiology,Computational Neuroscience]
-  - [Nursing,Licensed Practiced Nurse," LPN ",Registered Nurse," RN ",Legal Nurse Consulting]
-  - [Oceanography,Ocean Engineering]
-  - [Office Management,Office Administration,Office Supervision]
-  - [Organizational Behavior,Organizational Behavior Studies,Organizational Leadership]
-  - [Osteopathic Medicine,Holistic Medicine]
-  - [Parks and Recreation,Recreation and Parks,Parks Recreation,Recreation Management]
-  - [Pathology,Experimental Pathology]
-  - [Pharmacy,Pharmacology]
-  - [Philosophy,Contemplative Studies]
-  - [Physical Science,Earth Science]
-  - [Physics, Theoretical Physics,Geophysics,Engineering Physics,Chemical Physics]
-  - [Political Science,Politics,Government]
-  - [Psychology,Educational Psychology,Biopsychology,Social Psychology,Developmental Psychology,Clinical Psychology,Experimental Psychology,Cognitive Psychology,Industrial Psychology,Physiological Psychology,Forensic Psychology,Counseling Psychology,Behavioural Sciences,Behavioral Science,Behavioral Neuroscience,Behavioral Psychology,Biopsychology,Psychobiology]
-  - [Public Health,Health and Society, Public Health Sciences]
-  - [Public Policy,Public Policy Analysis,Computational Analysis and Public Policy,Public Policy and Service,Public Policy Studies]
-  - [Public Relations,Public Affairs]
-  - [Purchasing Management,Buying Operations]
-  - [Quantum Computing,Supercomputing,Quantum Processing,Quantum Engineering,Quantum Technology]
-  - [Quantum Mechanics,Quantum Physics, Quantum Theory,Matrix Mechanics]
-  - [Radiology,Radiologic Technology]
-  - [Rehabilitation Therapy,Physical Therapy,Physical Therapy Assisting,Occupational Therapy,Occupational Therapy Assisting,Vocational Rehabilitation Counseling,Rehabilitation Services]
-  - [Resource Management,Sustainable Resource Management,Natural Resources Management,Natural Resources Conservation,Sustainability]
-  - [Retail Management,Store Management]
-  - [Risk Management,Emergency Management,Response Management,Threat Management,Threat and Response Management]
-  - [Senior High Education,Secondary Education]
-  - [Social Science Education,Social Studies Education]
-  - [Social Science,Computational Social Science]
-  - [Social Welfare,Social Work,Social Service Administrative]
-  - [Sociology,Rural Sociology,Public Sociology]
-  - [Speech Studies,Linguistics,Speech Pathology,Speech Communication,Speech Science,Communication Disorders,Communication Disorder Services,Hearing Disorder,Speech Disorder,Hearing Science]
-  - [Sport Management,Sports Management,Sport Administration,Sports Administration]
-  - [Substance Abuse Counseling,Drug Abuse Counseling,Alcohol Abuse Counseling]
-  - [Surveying,Surveying Technology]
-  - [Systems Engineering,Systems Analysis]
-  - [Theater Studies,Theater,Theatre,Theater Management,Technical Theater,Theatre Arts,Visual Arts,Drama,Theatre Drama,Acting,Prop Production,Costume Design,Stage Design,Stage Management,Dance,Performance Studies]
-  - [Theology,Bible Studies,Biblical Studies,Islamic Studies,Divinity,Seminary,Religion,Religious Education,Religious Studies,Youth Ministries,Jewish Studies,Judaic Studies,Pastoral Studies,Youth Ministries,Ministry,Ministry Administration,Church Administration,ChristianityReligious Ethics,History of Christianity,History of Judaism]
-  - [Tourism,Tourism Management,Travel Management,Tourism Marketing,Travel Marketing]
-  - [Urban Planning,City Planning]
-  - [Urban Studies,Urban Affairs]
-  - [Veterinarian Assisting,Veterinary Technician]
-  - [Veterinary Science,Veterinary Studies,Veterinarian Technology,Veterinary Medicine]
-  - [Visual Communication,Visual Communication Design,Visual Studies]
-  - [Viticulture,Vineyard Management,Enology]
-  - [War Studies,Peace Studies,Genocide Studies]
-  - [Web Design,Webpage Design]
-  - [Web Development,Web Management]
-  - [Welding Technology,Welding Engineering,Metalsmithing]
-  - [Wildlife Management,Wildlife Science,Wildlife Technology,Wildlands Management,Fish Management,Fishery Science,Aquaculture]
-  - [World Languages,African Language,Akkadian,American Sign Language,Anatolian,Ancient Anatolian,Ancient Language,Arabic,Arabic Studies,Aramaic,Armenian,Asian Language,Bangla,Basque,Bosnian,Catalan,Chinese,Classical Hebrew,Classical Language,Croatian,Czech,East Asian Language,Egpytian,Egyptian Language,English Language,English Studies,Foreign Language,Francophone Studies,French,French Language,"German ",German Language,Germanic Studies,Greek,Hebrew,Hindi,Italian,Japanese,Kazakh,Korean,Latin,Malayalam,Marathi,Middle Eastern Language,Modern Greek,Modern Hebrew,Modern Language,Near Eastern Language,Norwegian,Pali,Persian,Polish,Portuguese,Romance Language,Russian,Sanskrit,Semitic Languages,Serbian,Slavic,Slavic Language,South Asian Language,South Slavic,Spanish,Spanish Language,Sumerian,Swahili,Tamil,Telugu,Tibetan,Turkish,Urdu,Uzbek,Yiddish]
-  - [Writing,Business Writing,Creative Writing,Technical Writing,Screenwriting,Playwriting,English Composition,English Writing]
-  - [Zoology,Entomology]
+  community_college:
+  - Des Moines Area Community College
+  major_minor:
+  - - Accounting
+    - Forensic Accounting
+    - Accountancy
+  - - Adult Development
+    - Gerontology
+  - - Aeronautics
+    - Aeronautical Engineering
+    - Aeronautical Engineering Technologies
+    - Aerospace Engineering
+    - Astronautics
+    - Astrophysics
+    - Space Science
+    - Astronomy
+    - Planetary Science
+  - - African Studies
+    - Pan-African Studies
+    - African-American Studies
+    - Africana Studies
+    - Pan-African Studies
+  - - Agricultural Business
+    - Agricultural Economics
+    - International Agriculture
+    - Agribusiness Operations
+    - Agricultural Technology Management
+    - Agricultural Management
+    - Agricultural Mechanization
+  - - Agriculture
+    - Agricultural Production
+    - Agricultural Science
+    - Agricultural Engineering
+    - Agricultural Bioengineering
+    - Crop Science
+    - Feed Science
+    - Agronomy
+  - - Airway Science
+    - Aircraft Technology
+    - Air Transportation
+    - Air Traffic Control
+    - Aircraft Mechanics
+    - Aircraft Navigation
+    - Aircraft Piloting
+  - - American Studies
+    - Canadian Studies
+    - North American Area Studies
+    - Native American Studies
+    - American Native American Studies
+    - Latin American Studies
+    - Latino Studies
+    - Latin American Area Studies
+    - Chicano Studies
+    - Chicano Studies
+    - Puerto Rican Studies
+    - Latin American Studies
+    - Caribbean Studies
+  - - Analytics
+    - Computational Analysis
+  - - Animal Science
+    - Animal Bioscience
+    - Animal Behavior
+    - Ethology
+  - - Archaeology
+    - Archeology
+    - Anthropology
+  - - Architecture
+    - Architectural Design
+    - Architectural Environmental Design
+    - Architectural Drafting Technology
+    - Architectural Engineering
+  - - Art Studies
+    - Studio Art
+    - Studio Arts
+    - Painting
+    - Ceramics
+    - Multimedia
+    - Poetry
+    - Printmaking
+    - Printmaking
+    - Illustration
+    - Drawing
+    - Art Conservation
+    - Digital Arts
+    - Contemporary Arts
+    - Electronic Art
+    - Visual Arts
+  - - Artificial Intelligence
+    - Robotics
+  - - Asian Studies
+    - Asian American Studies
+    - Asian Area Studies
+    - Asian-American Studies
+    - East Asian Civilizations
+    - East Asian Studies
+    - South Asia Studies
+    - South Asian Studies
+    - Southeast Asia Studies
+    - Near Eastern Civilizations
+    - Eastern Civilizations
+  - - Automotive Engineering
+    - Automotive Mechanics
+    - Automotive Technology
+    - Autobody Repair
+  - - Aviation
+    - Aviation Management
+    - Aviation Operations
+    - Aviation Science
+    - Avionics Technology
+  - - Bakery Science
+    - Culinary Arts
+  - - Biobehavioral Health
+    - Biological Basis of Behavior
+  - - Biology
+    - Cell Biology
+    - Cellular Biology
+    - Molecular Biology
+    - Microbiology
+    - Molecular Life Science
+    - Biological Chemistry
+    - Biological Sciences
+    - Cellular and Molecular Biology
+    - Physiology
+    - Quantitative Biology
+    - Integrative Biology
+  - - Biomedical Engineering
+    - Biomedical Science
+  - - Biophysics
+    - Biophysical Science
+  - - Bioresource Science
+    - Bioresource Engineering
+  - - Building Technology
+    - Circulation Technology
+  - - Business Administration
+    - Business Management
+    - Small Business Operations
+  - - Business Analytics
+    - Business Intelligence
+  - - Chemical Engineering
+    - Soft Materials Engineering
+  - - Child Care
+    - Child Care Services Management
+    - Child Development
+  - - Civil Engineering
+    - Civil Engineering Technology
+  - - Communication Technology
+    - Telecommunication
+    - Communication Networks
+    - Communication Engineering
+    - Communication Security
+  - - Communication
+    - Communication Studies
+    - Professional Communication
+    - Business Communication
+    - Political Communication
+    - Mass Communication
+    - Organizational Communication
+    - Corporate Communication
+    - Communication Arts
+    - Technical Communication
+    - Digital Communication
+    - Global Communication
+    - Rhetoric
+    - Rhetorical Studies
+    - Public Speaking
+  - - Computer Engineering
+    - Computer Engineering Technology
+  - - Computer Networks and Systems
+    - Computer Network Technology
+    - Computer System Administration
+    - Computer Systems Analysis
+    - Computer Networking
+    - Computer Network
+    - Network Administration
+  - - Computer Science
+    - Computer Programming
+  - - Construction Engineering
+    - Construction Technology
+    - Construction Management
+  - - Counseling
+    - School Counseling
+    - Christian Counseling
+    - Marriage & Family Therapy
+  - - Criminal Science
+    - Criminal Justice
+    - Criminology
+    - Crime and Justice Studies
+    - Crime Law and Justice
+    - Social Justice
+    - Corrections
+  - - Data Management Technology
+    - Data Processing
+  - - Data Science
+    - Data Analytics
+  - - Dental Hygiene
+    - Dental Assisting
+  - - Diesel Technology
+    - Diesel Mechanics
+  - - Drafting Technology
+    - Computer Aided Drafting
+    - Mechanical Drafting Technology
+  - - Early Childhood Education
+    - Kindergarten Education
+    - Elementary Education
+  - - Ecology
+    - Ecology Science
+  - - Economics
+    - Mathematical Economics
+    - Econometrics
+  - - Education Administration
+    - Educational Administration
+  - - Electrical Engineering
+    - Electronics Engineering
+    - Electromechanical Engineering
+  - - English As A Second Language
+    - Education of The Deaf
+  - - English Education
+    - Language Arts Education
+  - - Environmental Design
+    - Environmental Architecture
+  - - Environmental Engineering
+    - Environmental Health Engineering
+    - Environmental Systems Engineering
+  - - Environmental Studies
+    - Environmental Science
+    - Environmental Policy
+    - Environmental and Urban Studies
+  - - Equestrian Studies
+    - Equine Studies
+    - Equine Business
+  - - Ethnic Studies
+    - Ethnicity Studies
+    - Race Studies
+    - Comparative Race and Ethnic Studies
+    - Comparative Race Studies
+  - - European Studies
+    - East European Studies
+    - European Area Studies
+    - Scandinavian Studies
+    - Italian Studies
+  - - Facilities Administration
+    - Facilities Management
+  - - Fashion
+    - Apparel Design
+    - Fashion Design
+  - - Film
+    - Film Studies
+    - Digital Filmmaking
+    - Film Production
+    - Cinema
+    - Cinematography
+    - Cinema Studies
+    - Video Production
+    - Digital Studies
+  - - Finance
+    - Financial Planning
+    - Banking
+    - International Finance
+    - Financial Management
+  - - Fitness Management
+    - Fitness Administration
+  - - Food and Nutrition
+    - Food Science
+    - Food Studies
+    - Food Technology
+    - Nutrition
+    - Nutrition Science
+    - Nutritional Science
+    - Dietetics
+    - Molecular Metabolism
+  - - Forensics
+    - Forensic Science
+  - - Forestry
+    - Forest Science
+    - Forest Technology
+    - Forestry Management
+  - - Funeral Services
+    - Mortuary Science
+  - - Gender Studies
+    - Women's Studies
+    - Sexuality Studies
+    - Gender and Sexuality Studies
+  - - Genetics
+    - Molecular Genetics
+    - Human Genetics
+  - - Genomics
+    - Epigenomics
+    - Epigenetics
+  - - Geography
+    - Geographical Sciences
+    - Geographic Information Systems
+  - - Geology
+    - Geological Engineering
+    - Geological Science
+    - Geoscience
+  - - Global Health
+    - Global Health Sciences
+  - - Graphic Design
+    - Computer Graphics
+    - Animation
+    - Electronic Animation
+    - Special Effects
+    - Video Game Design
+    - Game Design
+  - - Health Services Administration
+    - Health Systems Management
+    - Medical Office Administration
+    - Hospital Administration
+    - Healthcare Administration
+    - Health Administration
+    - Healthcare Management
+  - - Hispanic Studies
+    - Hispanic-American Studies
+  - - History of Art
+    - American History
+    - Museum Studies
+    - Architectural History
+    - Art History
+  - - History
+    - European History
+    - Ancient History
+    - American History
+    - Classical Civilization
+    - Medieval Studies
+    - Renaissance Studies
+    - Cuneiform Studies
+    - Assyriology
+    - Hittitology
+    - Sumerology
+    - Medieval Studies
+  - - Home Economics
+    - Consumer Economics
+    - Family and Consumer Science
+    - Family Economics
+    - Family and Life Sciences
+    - Family Studies
+  - - Horticulture
+    - Horticulture Operation
+    - Botany
+    - Horticulture Management
+    - Horticulture Science
+    - Plant Studies
+    - Plant Biology
+    - Plant Pathology
+    - Landscape Horticulture
+  - - Hospitality
+    - Hospitality Management
+    - Hotel Management
+    - Motel Management
+    - Restaurant Management
+    - Restaurant Services Management
+  - - Human Development
+    - Comparative Human Development
+  - - Human Resources
+    - Human Resources Development
+    - Human Resources Management
+  - - Human Rights Studies
+    - Human Rights
+  - - Immunology
+    - Immunomics
+  - - Industrial Production Technologies
+    - Machine Tool Technology
+  - - Informatics
+    - Health Informatics
+    - Healthcare Informatics
+    - Bioinformatics
+    - Biomedical Informatics
+  - - Information Science
+    - Information Systems
+    - Informational Systems
+    - Management Information Systems
+  - - Information Technology
+    - Information Technology Management
+  - - Interior Design
+    - Furniture Design
+    - Textile Designs
+    - Textile Engineering
+    - Interior Architecture
+  - - International Business
+    - International Business Management
+  - - International Relations
+    - International Affairs
+    - Global Studies
+    - International Studies
+  - - Journalism
+    - Photojournalism
+    - Broadcast Journalism
+    - Broadcast News
+    - Radio Broadcasting
+    - Television Broadcasting
+    - Radio Production
+    - Radio And Television
+    - Television Production
+    - Recording Technology
+    - Recording Arts Technology
+    - News Media
+    - Digital Media
+    - Media Studies
+    - Media Arts
+  - - Kinesiology
+    - Exercise Science
+    - Exercise Biology
+    - Sports Medicine
+    - Sports Science
+    - Personal Training
+    - Athletic Training
+  - - Labor Relations
+    - Industrial Relations
+  - - Landscape Architecture
+    - Landscape Design
+    - Land Use Management
+    - Land Use Planning
+    - Turfgrass Science
+    - Range Science
+    - Range Management
+    - Soil Science
+  - - Law Enforcement
+    - Protective Services
+  - - Law Politics and Society
+    - Law Letters and Society
+    - Law And Society
+  - - Law
+    - Legal Studies
+  - - Legal Assistant
+    - Legal Assisting
+    - Paralegal
+    - Legal Administrative
+  - - Liberal Studies
+    - Multidisciplinary Studies
+    - Humanities
+    - Individual Studies
+    - Interdisciplinary Studies
+    - General Science
+    - Liberal Arts
+    - Integrated Science Studies
+  - - Literary Studies
+    - Classical Studies
+    - Classics
+    - French Literature
+    - Romance Literature
+    - Greek Culture
+    - Roman Culture
+    - Attic Greek
+  - - Literature
+    - African Literatures
+    - American Literature
+    - Asian Literatures
+    - Comparative Literature
+    - English Literature
+    - Foreign Literature
+    - French Literature
+    - German Literature
+    - Italian Literature
+    - Jewish Literature
+    - Middle Eastern Literature
+    - Roman Literature
+    - Romance Literature
+    - Russian Literature
+    - Slavic Literatures
+    - Spanish Literature
+  - - Logistics
+    - Business Logistics
+    - Logistics Management
+    - Supply Chain Management
+  - - Management
+    - Institutional Management
+    - Operations Management
+    - Operations Supervision
+    - Project Management
+    - Management Science
+  - - Marine Science
+    - Marine Biology
+    - Aquatic Biology
+    - Aquaculture
+    - Aquatic Science
+  - - Marketing
+    - Sales Marketing
+    - Digital Marketing
+  - - Material Management
+    - Materials Management
+  - - Materials Science
+    - Materials Science and Engineering
+    - Materials Engineering
+  - - Mathematics Education
+    - Math Education
+  - - Mathematics
+    - Applied Math
+    - Applied Mathematics
+    - Mathematics Science
+    - Computational Mathematics
+  - - Mechanical Engineering
+    - Mechanical Engineering Technology
+  - - Medical Assistant
+    - Medical Assisting
+  - - Medical Billing
+    - Medical Records
+    - Diagnostic Medical Sonography
+  - - Medical Imaging Science
+    - Sonography
+  - - Medical Technology
+    - Medical Laboratory Technology
+    - Medical Radiologic Technology
+    - Emergency Medical Technology
+    - Nuclear Medicine Technology
+    - Medicine Technology
+    - Surgical Technology
+    - Health Technology
+    - Clinical Laboratory Science
+    - Clinical Lab Science
+    - Medical Laboratory Scientist
+    - Medical Lab Scientist
+  - - Mental Health Services
+    - Mental Health Counseling
+    - Community Mental Health
+  - - Merchandising
+    - Sales Merchandising
+    - Merchandising Operations
+    - Fashion Merchandising
+  - - Meteorology
+    - Atmospheric Science
+  - - Middle Eastern Studies
+    - Modern Middle Eastern Studies
+    - Armenian Studies
+    - Egyptology
+    - Egyptian Civilization
+    - Isreali Studies
+    - Persian Studies
+    - Iranian Studies
+    - Turkish Studies
+    - Ottoman Studies
+  - - Middle School Education
+    - Junior High Education
+  - - Military Technologies
+    - Military Science
+  - - Music
+    - Church Music
+    - Ethnomusicology
+    - Music Composition
+    - Music Education
+    - Music History
+    - Music Industry
+    - Music Management
+    - Music Performance
+    - Music Production
+    - Music Theory
+    - Music Therapy
+    - Musical Theater
+    - Jazz Studies
+    - Choir
+  - - Neuroscience
+    - Neurobiology
+    - Computational Neuroscience
+  - - Nursing
+    - Licensed Practiced Nurse
+    - ' LPN '
+    - Registered Nurse
+    - ' RN '
+    - Legal Nurse Consulting
+  - - Oceanography
+    - Ocean Engineering
+  - - Office Management
+    - Office Administration
+    - Office Supervision
+  - - Organizational Behavior
+    - Organizational Behavior Studies
+    - Organizational Leadership
+  - - Osteopathic Medicine
+    - Holistic Medicine
+  - - Parks and Recreation
+    - Recreation and Parks
+    - Parks Recreation
+    - Recreation Management
+  - - Pathology
+    - Experimental Pathology
+  - - Pharmacy
+    - Pharmacology
+  - - Philosophy
+    - Contemplative Studies
+  - - Physical Science
+    - Earth Science
+  - - Physics
+    - Theoretical Physics
+    - Geophysics
+    - Engineering Physics
+    - Chemical Physics
+  - - Political Science
+    - Politics
+    - Government
+  - - Psychology
+    - Educational Psychology
+    - Biopsychology
+    - Social Psychology
+    - Developmental Psychology
+    - Clinical Psychology
+    - Experimental Psychology
+    - Cognitive Psychology
+    - Industrial Psychology
+    - Physiological Psychology
+    - Forensic Psychology
+    - Counseling Psychology
+    - Behavioural Sciences
+    - Behavioral Science
+    - Behavioral Neuroscience
+    - Behavioral Psychology
+    - Biopsychology
+    - Psychobiology
+  - - Public Health
+    - Health and Society
+    - Public Health Sciences
+  - - Public Policy
+    - Public Policy Analysis
+    - Computational Analysis and Public Policy
+    - Public Policy and Service
+    - Public Policy Studies
+  - - Public Relations
+    - Public Affairs
+  - - Purchasing Management
+    - Buying Operations
+  - - Quantum Computing
+    - Supercomputing
+    - Quantum Processing
+    - Quantum Engineering
+    - Quantum Technology
+  - - Quantum Mechanics
+    - Quantum Physics
+    - Quantum Theory
+    - Matrix Mechanics
+  - - Radiology
+    - Radiologic Technology
+  - - Rehabilitation Therapy
+    - Physical Therapy
+    - Physical Therapy Assisting
+    - Occupational Therapy
+    - Occupational Therapy Assisting
+    - Vocational Rehabilitation Counseling
+    - Rehabilitation Services
+  - - Resource Management
+    - Sustainable Resource Management
+    - Natural Resources Management
+    - Natural Resources Conservation
+    - Sustainability
+  - - Retail Management
+    - Store Management
+  - - Risk Management
+    - Emergency Management
+    - Response Management
+    - Threat Management
+    - Threat and Response Management
+  - - Senior High Education
+    - Secondary Education
+  - - Social Science Education
+    - Social Studies Education
+  - - Social Science
+    - Computational Social Science
+  - - Social Welfare
+    - Social Work
+    - Social Service Administrative
+  - - Sociology
+    - Rural Sociology
+    - Public Sociology
+  - - Speech Studies
+    - Linguistics
+    - Speech Pathology
+    - Speech Communication
+    - Speech Science
+    - Communication Disorders
+    - Communication Disorder Services
+    - Hearing Disorder
+    - Speech Disorder
+    - Hearing Science
+  - - Sport Management
+    - Sports Management
+    - Sport Administration
+    - Sports Administration
+  - - Substance Abuse Counseling
+    - Drug Abuse Counseling
+    - Alcohol Abuse Counseling
+  - - Surveying
+    - Surveying Technology
+  - - Systems Engineering
+    - Systems Analysis
+  - - Theater Studies
+    - Theater
+    - Theatre
+    - Theater Management
+    - Technical Theater
+    - Theatre Arts
+    - Visual Arts
+    - Drama
+    - Theatre Drama
+    - Acting
+    - Prop Production
+    - Costume Design
+    - Stage Design
+    - Stage Management
+    - Dance
+    - Performance Studies
+  - - Theology
+    - Bible Studies
+    - Biblical Studies
+    - Islamic Studies
+    - Divinity
+    - Seminary
+    - Religion
+    - Religious Education
+    - Religious Studies
+    - Youth Ministries
+    - Jewish Studies
+    - Judaic Studies
+    - Pastoral Studies
+    - Youth Ministries
+    - Ministry
+    - Ministry Administration
+    - Church Administration
+    - ChristianityReligious Ethics
+    - History of Christianity
+    - History of Judaism
+  - - Tourism
+    - Tourism Management
+    - Travel Management
+    - Tourism Marketing
+    - Travel Marketing
+  - - Urban Planning
+    - City Planning
+  - - Urban Studies
+    - Urban Affairs
+  - - Veterinarian Assisting
+    - Veterinary Technician
+  - - Veterinary Science
+    - Veterinary Studies
+    - Veterinarian Technology
+    - Veterinary Medicine
+  - - Visual Communication
+    - Visual Communication Design
+    - Visual Studies
+  - - Viticulture
+    - Vineyard Management
+    - Enology
+  - - War Studies
+    - Peace Studies
+    - Genocide Studies
+  - - Web Design
+    - Webpage Design
+  - - Web Development
+    - Web Management
+  - - Welding Technology
+    - Welding Engineering
+    - Metalsmithing
+  - - Wildlife Management
+    - Wildlife Science
+    - Wildlife Technology
+    - Wildlands Management
+    - Fish Management
+    - Fishery Science
+    - Aquaculture
+  - - World Languages
+    - African Language
+    - Akkadian
+    - American Sign Language
+    - Anatolian
+    - Ancient Anatolian
+    - Ancient Language
+    - Arabic
+    - Arabic Studies
+    - Aramaic
+    - Armenian
+    - Asian Language
+    - Bangla
+    - Basque
+    - Bosnian
+    - Catalan
+    - Chinese
+    - Classical Hebrew
+    - Classical Language
+    - Croatian
+    - Czech
+    - East Asian Language
+    - Egpytian
+    - Egyptian Language
+    - English Language
+    - English Studies
+    - Foreign Language
+    - Francophone Studies
+    - French
+    - French Language
+    - 'German '
+    - German Language
+    - Germanic Studies
+    - Greek
+    - Hebrew
+    - Hindi
+    - Italian
+    - Japanese
+    - Kazakh
+    - Korean
+    - Latin
+    - Malayalam
+    - Marathi
+    - Middle Eastern Language
+    - Modern Greek
+    - Modern Hebrew
+    - Modern Language
+    - Near Eastern Language
+    - Norwegian
+    - Pali
+    - Persian
+    - Polish
+    - Portuguese
+    - Romance Language
+    - Russian
+    - Sanskrit
+    - Semitic Languages
+    - Serbian
+    - Slavic
+    - Slavic Language
+    - South Asian Language
+    - South Slavic
+    - Spanish
+    - Spanish Language
+    - Sumerian
+    - Swahili
+    - Tamil
+    - Telugu
+    - Tibetan
+    - Turkish
+    - Urdu
+    - Uzbek
+    - Yiddish
+  - - Writing
+    - Business Writing
+    - Creative Writing
+    - Technical Writing
+    - Screenwriting
+    - Playwriting
+    - English Composition
+    - English Writing
+  - - Zoology
+    - Entomology
   - Advertising
   - Agricultural Education
   - Anatomy
@@ -329,7 +871,8 @@ case_agnostic_education:
   - Biochemistry
   - Bioengineering
   - Bioethics
-  - [Biological Engineering,Biological Systems Engineering]
+  - - Biological Engineering
+    - Biological Systems Engineering
   - Biotechnology
   - Business
   - Business Education
@@ -344,7 +887,8 @@ case_agnostic_education:
   - Community Organization
   - Conflict Resolution
   - Contracts Management
-  - [Cyber Security,Cyber Security Engineering]
+  - - Cyber Security
+    - Cyber Security Engineering
   - Dentistry
   - Design
   - Educational Leadership
@@ -400,89 +944,195 @@ case_agnostic_education:
   - Toxicology
   - Transportation
   - Urban Teacher Education
-
-
-case_agnostic_courses:
- courses:
-  - Data Mining
-  - Machine Learning
-  - [Linear Algebra,Linear Algebra and Matrix Analysis]
-  - [Statistical Analysis,Statistics]
-  - Data Engineering Platforms
-  - Big Data Analysis
-  - Deep Learning
-  - Natural Language Processing
-  - Business Finance
-  - Principles of Management
-  - Legal Environment of Business
-  - Optimization
-  - Time Series
-  - Exploratory Data Analysis
-  - Relational Databases
-  - NoSQL Databases
-  - Linear Regression
-  - Data Visualization
-  - Bayesian Methods
-  - Economics
-  - Econometrics
-  - Computational Finance
-  - Multivariate Statistics
-
-
-case_sensitive_education:
- associate_education_level:
-  - [Associate of Arts,A.A.," AA "]
-  - [Associate of Science,A.S.," AS "]
-  - [Associate of Applied Science,A.A.S.," AAS "]
-  - [Associate of General Studies,A.G.S.," AGS "]
-  - Associates Degree
-  - Community College
- bachelor_education_level:
-  - [Bachelor of Arts,Bachelors of Arts,B.A.," BA "]
-  - [Bachelor of Fine Arts,Bachelor in Fine Arts,Bachelors of Fine Arts,B.F.A.," BFA "]
-  - [Bachelor of Science,Bachelors of Science,Bachelor in Science,B.S.," BS "," BSC ",BSc,B.Sc]
-  - [Bachelor of Engineering,Bachelor in Engineering,Bachelors of Engineering,B.E.," BE "]
-  - [Bachelor of Economics,Bachelors of Economics,Bachelor in Economics]
-  - [Bachelor of Accounting,Bachelor of Accountancy,Bachelor in Accountancy,Bachelor in Accounting]
-  - [Bachelor of Technology,Bachelors of Technology,Bachelor in Technology]
-  - [Bachelor of Medical Science,Bachelors of Medical Science,Bachelor in Medical Science]
-  - [Bachelor of Commerce,Bachelors of Commerce,Bachelor in Commerce]
-  - [Bachelor of Finance,Bachelors of Finance,Bachelor in Finance]
-  - [Bachelor of Business Administration,Bachelors of Business Administration,Bachelor in Business Administration,B.B.A.," BBA "]
-  - [Bachelor of Business,Bachelors of Business,Bachelor in Business]
-  - [Bachelor of Commerce,Bachelor in Commerce,Bachelors of Commerce,B.Comm]
-  - [Bachelor of Health Science,Bachelors of Health Science,Bachelor in Health Science," BHS ",B.H.S.]
-  - [Bachelor of Law,Bachelors of Law,LLB]
-  - [Bachelor Degree,Bachelors Degree,Bachelor’s Degree,Bachelor's Degree]
- master_education_level:
-  - [Master of Business Administration,Masters of Business Administration,Master's of Business Administration," MBA",M.B.A.]
-  - [Master of Fine Arts,Masters of Fine Arts,Master's of Fine Arts,M.F.A.," MFA "]
-  - [Master of Education,Masters of Education,Master's of Education]
-  - [Master of Business,Masters of Business,Master's of Business]
-  - [Master of Public Administration,Master's of Public Administration,Masters of Public Administration,Master in Public Administration,M.P.A," MPA "]
-  - [Master of Public Policy,Master's of Public Policy,Masters of Public Policy,Master in Public Policy,M.P.P.," MPP "]
-  - [Master of Business Finance,Master's of Business Finance,Masters of Business Finance,Master in Business Finance," MBF "]
-  - [Master of Arts,Masters of Arts,Master's of Arts,M.A.," MA "]
-  - [Master of Science,Masters of Science,Master's of Science,MSc,M.S.,M.Sc," MS "," MS."]
-  - Graduate Education
-  - Graduate School
- doctor_education_level:
-  - [J.D.,Juris Doctor,Law School]
-  - [Medical Doctor,M.D.," MD ",Doctor of Medicine,Medical School]
-  - [Doctor of Dental Surgery,D.D.S.," DDS "]
-  - [Doctor of Pharmacy,Pharm.D.,PharmD]
-  - [Doctor of Philosophy,PhD,Ph.D]
-  - [Doctoral Program,Doctoral Candidate]
-
-
+  other_universities:
+  - Bucknell University
+  - College of Charleston
+  - Creighton University
+  - Davidson College
+  - Drake University
+  - Humboldt University
+  - Kent State University
+  - Moscow State University
+  - Nanyang Technological University
+  - Rouen Business School
+  - Shanghai International Studies University
+  - Singapore Management University
+  - South Dakota School of Mines and Technology
+  - Texas A&M University
+  - - University of California Santa Cruz
+    - UC Santa Cruz
+  - University of London
+  - University of Northern Iowa
+  - University of Nottingham
+  - University of Otago
+  - University of Phoenix
+  - University of San Francisco
+  - Bates College
+  - Bowdoin College
+  - Bucknell University
+  - Colgate University
+  - Connecticut College
+  - Colby College
+  - Hamilton College
+  - Haverford College
+  - Lafayette College
+  - Middlebury College
+  - Trinity College
+  - Union College
+  - Vassar College
+  - Wesleyan University
+  - Williams College
+  top_100_universities:
+  - Amherst College
+  - Arizona State University
+  - Australian National University
+  - Boston College
+  - Boston University
+  - - California Institute of Technology
+    - Caltech
+  - Carnegie Mellon University
+  - Case Western Reserve University
+  - Colorado State University
+  - Cornell University
+  - Dartmouth College
+  - Duke University
+  - Drexel University
+  - Duke University
+  - "Ecole normale sup\xE9rieure"
+  - - "\xC9cole Polytechnique F\xE9d\xE9rale de Lausanne"
+    - EPFL
+  - Emory University
+  - ETH Zurich
+  - Florida State University
+  - Georgetown University
+  - Georgia Institute of Technology
+  - Hong Kong University of Science and Technology
+  - Illinois Institute of Technology
+  - Imperial College London
+  - Indiana University
+  - John Hopkins University
+  - Kings College London
+  - McGill University
+  - Michigan State University
+  - National University of Singapore
+  - - Nanyang Technological University
+    - ' NTU '
+  - New York University
+  - New York University
+  - Northeastern University
+  - North Carolina State University
+  - Ohio State University
+  - Oregon State University
+  - Pennsylvania State University
+  - Pomona College
+  - Princeton University
+  - Purdue University
+  - Rensselaer Polytechnic Institute
+  - Rice University
+  - Rutgers University
+  - Swarthmore College
+  - Swiss Federal Institute of Technology
+  - Tsinghua University
+  - Tufts University
+  - Tulane University
+  - United States Naval Academy
+  - University of Arizona
+  - University of British Columbia
+  - - University of California Berkeley
+    - UC Berkeley
+  - - University of California Davis
+    - UC Davis
+  - - University of California Irvine
+    - UC Irvine
+  - University of Cambridge
+  - - University of College London
+    - ' UCL '
+  - University of Colorado Denver
+  - University of Connecticut
+  - University of Edinburgh
+  - University of Florida
+  - University of Georgia
+  - University of Hawaii
+  - University of Hong Kong
+  - University of Illinois Chicago
+  - University of Iowa
+  - University of Kansas
+  - University of Manchester
+  - University of Maryland College Park
+  - University of Massachusetts
+  - University of Melbourne
+  - University of Miami
+  - University of Michigan
+  - University of Minnesota
+  - - University of Nebraska
+    - University of Nebraska Lincoln
+    - University of Nebraska-Lincoln
+  - - University of North Carolina Chapel Hill
+    - UNC Chapel Hill
+  - University of Notre Dame
+  - University of Oklahoma
+  - University of Oxford
+  - University of Pennsylvania
+  - University of Pittsburgh
+  - University of Rochester
+  - University of Southern California
+  - University of Sydney
+  - University of Tennessee
+  - University of Tokyo
+  - University of Toronto
+  - University of Utah
+  - University of Vermont
+  - University of Washington
+  - Vanderbilt University
+  - Vanderbilt University
+  - Virginia Polytechnic Institute and State University
+  - Wake Forest University
+  - Wayne State University
+  - Wellesley College
+  - - University of California Berkeley
+    - UC Berkeley
+    - UC at Berkeley
+  - - University of California San Diego
+    - UC San Diego
+  - - University of California San Francisco
+    - UC San Francisco
+  - - University of California Santa Barbara
+    - UC Santa Barbara
+  - - University of Illinois at Urbana Champaign
+    - University of Illinois Urbana Champaign
+  - - University of Texas at Austin
+    - University of Texas Austin
+  - - University of Wisconsin
+    - University of Wisconsin Madison
+  top_10_universities:
+  - Brown University
+  - - California Institute of Technology
+    - Caltech
+  - Columbia University
+  - Harvard University
+  - Johns Hopkins University
+  - - Massachusetts Institute of Technology
+    - ' MIT '
+  - Northwestern University
+  - Stanford University
+  - - Washington University in St. Louis
+    - Washington University St. Louis
+    - Washington University in St Louis
+  - - University of California Los Angeles
+    - University of California Los Angeles
+    - UCLA
+  - University of Chicago
+  - University of Pennsylvania
+  - Yale University
 case_agnostic_languages:
- languages:
+  languages:
   - Akkadian
   - Anatolian
   - Arabic
   - Aramaic
   - Armenian
-  - [Bengali,Bangla]
+  - - Bengali
+    - Bangla
   - Basque
   - Bosnian
   - Cantonese
@@ -506,7 +1156,8 @@ case_agnostic_languages:
   - Kazakh
   - Korean
   - Latin
-  - [Malay,Malayalam]
+  - - Malay
+    - Malayalam
   - Mandarin
   - Marathi
   - Norwegian
@@ -531,1277 +1182,1782 @@ case_agnostic_languages:
   - Urdu
   - Uzbek
   - Yiddish
-
+case_agnostic_whole_resume:
+  certifications:
+  - - Chartered Financial Analyst
+    - CFA
+  - - Certified Public Accountant
+    - CPA
+  - - Association of Chartered Certified Accountant
+    - ACCA
+  - - Chartered Institute of Management Accountants
+    - CIMA
+  - - Association of Certified Financial Crime Specialists
+    - ACFCS
+  latin_honors:
+  - cum laude
+  - magna cum laude
+  - summa cum laude
 case_agnostic_work:
- company_foodbev:
-  - [KraftHeinz,Kraft,Kraft Foods,Heinz]
+  company_consumer:
+  - 99 Cents Only Stores
+  - - Abercrombie & Fitch
+    - Abercrombie and Fitch
+  - Accor
+  - Advance Auto Parts
+  - Alaska Air Group
+  - - Albertsons
+    - Albertsons Co
+  - Alliance One International
+  - Altria Group
+  - Aman Resorts
+  - AMC Networks
+  - American Airlines Group
+  - American Eagle Outfitters
+  - APA Group
+  - Asbury Automotive Group
+  - Ascena Retail Group
+  - Ascott Limited
+  - Atlas Air
+  - AutoNation
+  - AutoZone
+  - - Avis Budget Group
+    - Avis Budget
+  - Avon Products
+  - - ' Ball Corp'
+    - ' Ball '
+  - Banyan Tree Holdings
+  - - Barnes & Noble
+    - Barnes & Noble Education
+  - Beazer Homes
+  - - Bed Bath & Beyond
+    - Bed Bath and Beyond
+  - Best Buy
+  - Big Lots
+  - - BJs Wholesale Club
+    - BJs Wholesale
+  - Bloomin Brands
+  - Boyd Gaming
+  - Brinker International
+  - Brunswick
+  - Buffalo Wild Wings
+  - - BuildABear
+    - Build A Bear
+  - Buick
+  - Burlington Stores
+  - Cabelas
+  - Cadillac
+  - Caesars Entertainment
+  - Caseys General Stores
+  - Cheesecake Factory
+  - Chevrolet
+  - - Chicos FAS
+    - Chicos
+  - - Chipotle Mexican Grill
+    - Chipotle
+  - Chrysler
+  - - Cinemark Holdings
+    - Cinemark
+  - Columbia Sportswear
+  - - Costco
+    - Costco Wholesale
+  - - Cracker Barrel Old Country Store
+    - Cracker Barrel
+  - DR Horton
+  - - Delta Air Lines
+    - Delta Airlines
+  - Dillards
+  - Dodge
+  - Dollar General
+  - Dollar Tree
+  - Dominos Pizza
+  - Eldorado Resorts
+  - Estee Lauder
+  - Fiat Chrysler
+  - Finish Line
+  - Foot Locker
+  - Ford
+  - Fossil Group
+  - GameStop
+  - Gap Inc
+  - General Motors
+  - GMC
+  - Hallmark
+  - - Harley Davidson
+    - HarleyDavidson
+  - Hasbro
+  - Herman Miller
+  - - Hertz Global Holdings
+    - Hertz
+  - - Hilton Worldwide Holdings
+    - Hilton Worldwide
+  - Home Depot
+  - - Host Hotels & Resorts
+    - Host Hotels and Resorts
+  - - Hovnanian Enterprises
+    - Hovnanian
+  - - Hyatt Hotels
+    - Hyatt
+  - - JC Penney
+    - JCPenney
+  - - JCrew Group
+    - Jcrew
+  - Jeep
+  - - JetBlue Airways
+    - JetBlue
+  - - ' KB Home '
+  - Kohls
+  - L Brands
+  - Las Vegas Sands
+  - Lennar
+  - Levi Strauss
+  - Lincoln Motor Company
+  - - Live Nation Entertainment
+    - Live Nation
+  - - ' Lowes '
+  - Macys
+  - M/I Homes
+  - McDonalds
+  - Meritage Homes
+  - MGM Resorts
+  - - Michaels Stores
+    - Michaels Companies
+  - Neiman Marcus
+  - Newell Brands
+  - Nike
+  - Nordstrom
+  - - OReilly Automotive
+    - O Reilly Automotive
+  - Office Depot
+  - Overstockcom
+  - Panera Bread
+  - - Park Hotels & Resorts
+    - Park Hotels and Resorts
+  - Party City
+  - Penske Automotive
+  - Pier 1 Imports
+  - Ralph Lauren
+  - RAM
+  - Sally Beauty
+  - - Sears Holdings
+    - ' Sears '
+  - - Sherwin Williams
+    - SherwinWilliams
+  - Skechers
+  - Southwest Airlines
+  - Spirit Airlines
+  - Staples
+  - Starbucks
+  - Steelcase
+  - - Tapestry
+    - Kate Spade New York
+    - Stuart Weitzman
+  - Taylor Morrison Home
+  - Toll Brothers
+  - Toys R Us
+  - Tractor Supply
+  - TravelCenters of America
+  - Tupperware Brands
+  - Ulta Beauty
+  - Under Armour
+  - - United Continental
+    - United Airlines
+  - United Natural Foods
+  - Urban Outfitters
+  - Vail Resorts
+  - Valspar
+  - Valvoline
+  - - Walgreens Boots Alliance
+    - Walgreens Boots
+    - Walgreens
+  - Walmart
+  - Whirlpool
+  - Whole Foods Market
+  - William Lyon Homes
+  - - Williams Sonoma
+    - WilliamsSonoma
+  - Winnebago
+  - Wolverine World Wide
+  - Wynn Resorts
+  company_energychem:
+  - - AMark Precious Metals
+    - A Mark Precious Metals
+  - A Schulman
+  - - ' AES '
+  - - Air Products & Chemicals
+    - Air Products and Chemicals
+  - Airgas
+  - Albemarle
+  - Alcoa
+  - Aleris
+  - Alliance Resource Partners
+  - Alliant Energy
+  - Alon USA Energy
+  - Ameren
+  - American Electric Power
+  - American Water Works
+  - Anadarko Petroleum
+  - Antero Resources
+  - Arch Coal
+  - - Ashland Global
+    - Ashland Global Specialty Chemicals
+  - Atmos Energy
+  - Baker Hughes
+  - Berry Global
+  - - C&J Energy
+    - C&J Energy Services
+  - - Cabot
+    - Cabot Oil and Gas
+    - Cabot Oil & Gas
+  - CenterPoint Energy
+  - - CF Industries Holdings
+    - CF Industries
+  - Cheniere Energy
+  - Chesapeake Energy
+  - Cimarex Energy
+  - CMS Energy
+  - ConocoPhillips
+  - Consol Energy
+  - Consolidated Edison
+  - Consumers Energy
+  - Contura Energy
+  - Devon Energy
+  - Diamondback Energy
+  - Dominion Energy
+  - Dow Chemical
+  - DTE Energy
+  - Duke Energy
+  - Eastman Chemical
+  - Energy Transfer Equity
+  - Eversource Energy
+  - Exelon
+  - Exxon Mobil
+  - - Ferrellgas Partners
+    - Ferrellgas
+  - Florida Power & Light
+  - FirstEnergy
+  - - FMC Technologies
+    - ' FMC '
+  - Genesis Energy
+  - Georgia Power
+  - Great Plains Energy
+  - Halliburton
+  - Hawaiian Electric Industries
+  - Komatsu Mining
+  - Liberty Oilfield Services
+  - - Marathon Oil
+    - Marathon Petroleum
+  - Martin Marietta Materials
+  - Murphy Oil
+  - National Oilwell Varco
+  - New Jersey Resources
+  - Newmont Goldcorp
+  - Newmont Mining
+  - NextEra Energy
+  - NGL Energy Partners
+  - Noble Energy
+  - NRG Energy
+  - NuStar Energy
+  - Oasis Petroleum
+  - Occidental Petroleum
+  - OGE Energy
+  - Pacific Gas & Electric
+  - PBF Energy
+  - Peabody Energy
+  - Portland General Electric
+  - PPG Industries
+  - Public Service Elec & Gas
+  - Puget Energy
+  - Renewable Energy Group
+  - Sempra Energy
+  - SM Energy
+  - Southern California Edison
+  - Southwest Gas Holdings
+  - Southwestern Energy
+  - Spectra Energy
+  - Summit Materials
+  - Superior Energy Services
+  - United Refining
+  - United States Steel
+  - Valero Energy
+  - Vistra Energy
+  - WEC Energy
+  - Westar Energy
+  - Westlake Chemical
+  - Whiting Petroleum
+  - Worthington Industries
+  - WPX Energy
+  - Xcel Energy
+  company_fin:
+  - Affiliated Managers Group
+  - Aflac
+  - - ' AIG '
+  - Alliance Holdings
+  - Allstate
+  - Ally Financial
+  - Amazon
+  - American Equity Investment Life Holding
+  - American Express
+  - American Family Insurance Group
+  - American Financial Group
+  - American National Insurance
+  - Ameriprise Financial
+  - Amica Mutual Insurance
+  - AmTrust Financial Services
+  - Annaly Capital Management
+  - Apollo Global Management
+  - Arthur J Gallagher
+  - Assurant
+  - - AutoOwners Insurance
+    - Auto Owners Insurance
+  - - AvalonBay
+    - AvalonBay Communities
+  - - Banco Itau
+    - "Banco Ita\xFA"
+  - - Bank of America
+    - Merrill Lynch
+  - Bank of Montreal
+  - Bank of New York Mellon
+  - - BB&T Corp
+    - ' BB&T'
+  - Berkshire Hathaway
+  - BGC Partners
+  - BlackRock
+  - Blackstone
+  - Boston Properties
+  - Brighthouse Financial
+  - - Broadridge Financial Solutions
+    - Broadridge
+    - Broadridge Financial
+  - Canadian Imperial Bank of Commerce
+  - - Capital One Financial
+    - Capital One
+  - - Cboe Global Markets
+    - Chicago Board Options Exchange
+    - BATS Global Markets
+  - CBRE Group
+  - Charles Schwab
+  - Cincinnati Financial
+  - Citigroup
+  - - Citizens Financial Group
+    - Citizens Financial
+  - CNO Financial Group
+  - Country Financial
+  - - Crestwood Equity Partners
+    - Crestwood Equity
+  - - Digital Realty Trust
+    - Digital Realty
+  - - Discover Financial Services
+    - Discover Financial
+  - E*Trade Financial,E*Trade," Etrade "]
+  - Equity Residential
+  - Erie Insurance Group
+  - Fannie Mae
+  - Farmers Insurance
+  - Federated Mutual Insurance
+  - - Fidelity National
+    - Fidelity National Financial
+    - Fidelity National Information Services
+  - Fifth Third Bancorp
+  - First American Financial
+  - First Republic Bank
+  - - Genworth Financial
+    - Genworth
+  - - Goldman Sachs Group
+    - Goldman Sachs
+  - - Guardian Life Insurance Company of America
+    - Guardian Life
+  - Hanover Insurance
+  - - Hartford Financial Services
+    - Hartford Financial
+  - Hospitality Properties Trust
+  - - Huntington Bancshares
+    - Huntington National Bank
+  - - JP Morgan Chase
+    - JPMorgan
+    - JPMorgan Chase
+    - Chase Bank
+  - Jefferies Financial Group
+  - - Edward Jones
+    - Jones Financial
+  - - Liberty Mutual Insurance Group
+    - Liberty Mutual
+  - LPL Financial
+  - - M&T Bank
+    - M&T Bank Corp
+    - M and T Bank
+    - M & T Bank
+  - - Massachusetts Mutual Life Insurance
+    - Massachusetts Mutual
+    - Mass Mutual
+  - MetLife
+  - Moodys
+  - Morgan Stanley
+  - - Mutual of America Life Insurance
+    - Mutual of America
+  - - Mutual of Omaha Insurance
+    - Mutual of Omaha
+  - Nasdaq
+  - Nationstar Mortgage Holdings
+  - New Residential Investment
+  - - New York Community Bancorp
+    - New York Community Bank
+    - NY Community Bancorp
+    - NY Community Bank
+  - - New York Life Insurance
+    - New York Life
+    - NY Life Insurance
+  - NLV Financial
+  - Northern Trust
+  - Northwestern Mutual
+  - PayPal
+  - - Penn Mutual Life Insurance
+    - Penn Mutual
+  - - PNC Financial Services
+    - PNC Financial
+  - - Principal Financial
+    - Principal Global Investors
+  - - Prudential Financial
+    - Prudential
+  - Raymond James Financial
+  - Realogy
+  - Regions Financial
+  - - Reinsurance Group of America
+    - ' RGA '
+  - Royal Bank of Canada
+  - - S&P Global
+    - Standard & Poors
+    - Standard&Poors
+    - Standard and Poors
+  - Scotiabank
+  - Securian Financial
+  - Selective Insurance Group
+  - - Sentry Insurance Group
+    - Sentry Insurance
+  - - Simon Property Group
+    - Simon Property
+  - SL Green Realty
+  - - State Farm Insurance
+    - State Farm
+  - State Street
+  - - Stifel Financial
+    - Stifel
+  - SunTrust Banks
+  - SVB Financial
+  - Synchrony Financial
+  - - T Rowe Price
+    - Trowe Price
+  - TD Ameritrade
+  - - Thrivent Financial for Lutherans
+    - Thrivent Financial
+  - - TIAA
+    - Teachers Insurance and Annuity Association
+  - - Toronto Dominion Bank
+    - TorontoDominion Bank
+  - TransUnion
+  - Travelers
+  - - US Bancorp
+    - US Bank
+  - - ' USAA '
+    - United Services Automobile Association
+  - Vornado Realty Trust
+  - Voya Financial
+  - Wells Fargo
+  - - Western & Southern Financial Group
+    - Western & Southern Financial
+    - Western and Southern Financial
+  - - Zions Bancorp
+    - Zions Bank
+  - AAC Capital Partners
+  - Equistone Partners
+  - Baring Vostok Capital Partners
+  - Kohlberg Kravis Roberts
+  - Irving Place Capital
+  - PAI Partners
+  - ABS Capital
+  - Trimaran Capital Partners
+  - Court Square Capital Partners
+  - CVC Capital Partners
+  - Welsh Carson Anderson & Stowe
+  - Bruckmann Rosser Sherrill & Co
+  - Willis Stein & Partners
+  - CIVC Partners
+  - DLJ Merchant Banking
+  - Avista Capital Partners
+  - Diamond Castle Holdings
+  - Castle Harlan
+  - CIP Capital
+  - MidOcean Partners
+  - Madison Dearborn Partners
+  - CCMP Capital
+  - Trilantic Capital Partners
+  - Metalmark Capital
+  - Bridgepoint Capital
+  - Terra Firma Capital
+  - UBS Capital
+  - Affinity Equity Partners
+  - Capvis
+  - Lightyear Capital
+  - Pamlico
+  - William Blair
+  - Kohlberg Kravis Roberts
+  - Carlyle Group
+  - TPG Capital
+  - Warburg Pincus
+  - Advent International
+  - Apollo Global Management
+  - EnCap Investments
+  - Neuberger Berman
+  - CVC Capital Partners
+  - Bain Capital
+  - Thoma Bravo
+  - Vista Equity Partners
+  - Apax Partners
+  - Clayton Dubilier & Rice
+  company_foodbev:
+  - - KraftHeinz
+    - Kraft
+    - Kraft Foods
+    - Heinz
   - The Andersons
-  - [AnheuserBusch InBev,AB InBev,Anheuser Busch,SABMiller,AmBev,Grupo Modelo]
+  - - AnheuserBusch InBev
+    - AB InBev
+    - Anheuser Busch
+    - SABMiller
+    - AmBev
+    - Grupo Modelo
   - Archer Daniels Midland
   - Arla Foods
   - Asahi Group
-  - [BrownForman,Brown Formanm,Jack Daniels,Woodford Reserve,Old Forester]
-  - [Campbell,Pepperidge Farm,Snyders of Hanover,Spaghettios,Kelsen Group,Pace Foods]
+  - Associated British Foods
+  - - BrownForman
+    - Brown Formanm
+    - Jack Daniels
+    - Woodford Reserve
+    - Old Forester
+  - - Campbell
+    - Pepperidge Farm
+    - Snyders of Hanover
+    - Spaghettios
+    - Kelsen Group
+    - Pace Foods
   - Cargill
   - Chiquita
-  - [" CHS "]
-  - [Cliffs Natural Resources,Cliffs Natural]
+  - - ' CHS '
+  - - Cliffs Natural Resources
+    - Cliffs Natural
   - Clorox
-  - [CocaCola,Coca Cola]
-  - [ColgatePalmolive,Colgate Palmolive]
-  - [Conagra,Conagra Foods,Conagra Brands]
+  - - CocaCola
+    - Coca Cola
+  - - ColgatePalmolive
+    - Colgate Palmolive
+  - - Conagra
+    - Conagra Foods
+    - Conagra Brands
   - Dairy Farmers of America
   - Danone
-  - [Danish Crown,Tulip Food]
+  - - Danish Crown
+    - Tulip Food
   - Dean Foods
   - Del Monte
-  - [" Dole "]
+  - - ' Dole '
   - Diageo
-  - [Dr Pepper Snapple Group,Dr Pepper,Keurig Dr Pepper]
+  - - Dr Pepper Snapple Group
+    - Dr Pepper
+    - Keurig Dr Pepper
   - FEMSA
   - Fonterra
-  - [General Mills,Annies Homegrown,Betty Crocker,Bisquick,Gold Medal Flour,Pillsbury,Gardettos,Nature Valley,Old El Paso,Fruit by the Foot,Fruit Gushers,Fruit Rollups,Hamburger Helper,Totinos,Yoplait,Haagen Dazs,HaagenDazs]
-  - [Grupo Bimbo,Barcel]
+  - - General Mills
+    - Annies Homegrown
+    - Betty Crocker
+    - Bisquick
+    - Gold Medal Flour
+    - Pillsbury
+    - Gardettos
+    - Nature Valley
+    - Old El Paso
+    - Fruit by the Foot
+    - Fruit Gushers
+    - Fruit Rollups
+    - Hamburger Helper
+    - Totinos
+    - Yoplait
+    - Haagen Dazs
+    - HaagenDazs
+  - - Grupo Bimbo
+    - Barcel
   - Grupo Lala
   - Heineken
-  - [Hersey Company,Hersheys]
-  - [Hormel Foods,Hormel]
+  - - Hersey Company
+    - Hersheys
+  - - Hormel Foods
+    - Hormel
   - Hillshire
-  - [International Flavors & Fragrances,International Flavors and Fragrances,Intl Flavors & Fragrances]
-  - [" JBS "]
-  - [JM Smucker, JMSmucker]
-  - [Johnson & Johnson," J&J "]
-  - [Kelloggs,Rxbar,PopTarts,Pringles,Bear Naked,Cheezit]
+  - - International Flavors & Fragrances
+    - International Flavors and Fragrances
+    - Intl Flavors & Fragrances
+  - - ' JBS '
+  - - JM Smucker
+    - JMSmucker
+  - - Johnson & Johnson
+    - ' J&J '
+  - - Kelloggs
+    - Rxbar
+    - PopTarts
+    - Pringles
+    - Bear Naked
+    - Cheezit
   - Kerry Group
-  - [Kimberly Clark,KimberlyClark]
+  - - Kimberly Clark
+    - KimberlyClark
   - Kirin Holdings
   - Lactalis
   - Maple Leaf Foods
-  - [" Mars "]
+  - - ' Mars '
   - McCain Foods
   - Mead Johnson
-  - [Molson Coors,Molson Brewery,Coors Brewing,Molson Brewing]
-  - [Mondelez," oreo ",Nabisco, Chips Ahoy,Belvita,Triscuit,Toblerone,Cadbury]
+  - - Molson Coors
+    - Molson Brewery
+    - Coors Brewing
+    - Molson Brewing
+  - - Mondelez
+    - ' oreo '
+    - Nabisco
+    - Chips Ahoy
+    - Belvita
+    - Triscuit
+    - Toblerone
+    - Cadbury
   - Monster Beverage
   - National Beef
   - Nestle
   - Ocean Spray
   - Oscar Mayer
-  - [PepsiCo,Tropicana,Frito Lay,FritoLay,Quaker FoodsCheetos,Tostitos,Doritos,Aunt Jemima]
+  - - PepsiCo
+    - Tropicana
+    - Frito Lay
+    - FritoLay
+    - Quaker FoodsCheetos
+    - Tostitos
+    - Doritos
+    - Aunt Jemima
   - Perdue
   - Pilgrims Pride
   - Pinnacle Foods
-  - [Proctor and Gamble,"P&G "]
-  - [Restaurant Brands International,Restaurant Brands Intl]
+  - - Proctor and Gamble
+    - 'P&G '
+  - - Restaurant Brands International
+    - Restaurant Brands Intl
   - Sanderson Farms
   - Saputo
-  - [Smithfield Foods,Smithfield]
+  - - Smithfield Foods
+    - Smithfield
   - Suntory
+  - Tata Global Beverages
+  - Ten Fu Group
   - Tyson Foods
   - Welchs
-  - [WH Group,Shuanghui Group]
+  - - WH Group
+    - Shuanghui Group
   - Unilever
   - Vion Food
-  - [Yum Brands,Yum! Brands]
+  - - Yum Brands
+    - Yum! Brands
   - Yurun Group
- company_services:
- - [" ADP ",Automatic Data Processing]
- - [Adtalem Global Education,DeVry Education Group]
- - AECOM
- - Alaska Communications
- - Align Technology
- - Alliance Data Systems
- - Altice
- - [Amerco,UHAUAL]
- - American Greetings
- - American Tower
- - Apollo Education Group
- - Aramark
- - [ArcBest,ABF Freight]
- - ASGN
- - AT&T
- - Boston Consulting Group
- - [" Brinks "]
- - Brookdale Senior Living
- - CenturyLink
- - Cintas
- - Clean Harbors
- - Comcast
- - Consolidated Communications
- - DISH Network
- - Disney
- - [Dycom Industries,Dycom]
- - Ecolab
- - Frontier Communications
- - Equifax
- - [" EY "]
- - FedEx
- - H&R Block
- - Iron Mountain
- - L3 Communications
- - Level 3 Communications
- - Mastercard
- - Meredith
- - Public Storage
- - Republic Services
- - Sinclair Broadcast Group
- - Stericycle
- - [TDS Telecom,Telephone and Data Systems]
- - Time Warner
- - Tribune Media
- - [United Parcel Service," UPS "]
- - United Rentals
- - [Verizon Communications,Verizon]
- - Visa
- - WW Grainger
- - Walt Disney
- - Waste Management
- - 20th Century Fox Television
- - ABC Studios
- - Sony Pictures
- - Universal Studio
- - Amblin Television
- - Warner Bros Television
- - New Line Television
- - MGM Television
- company_consumer:
- - 99 Cents Only Stores
- - [Abercrombie & Fitch,Abercrombie and Fitch]
- - Accor
- - Advance Auto Parts
- - Alaska Air Group
- - [Albertsons,Albertsons Co]
- - Alliance One International
- - Altria Group
- - Aman Resorts
- - AMC Networks
- - American Airlines Group
- - American Eagle Outfitters
- - APA Group
- - Asbury Automotive Group
- - Ascena Retail Group
- - Ascott Limited
- - Atlas Air
- - AutoNation
- - AutoZone
- - [Avis Budget Group,Avis Budget]
- - Avon Products
- - [" Ball Corp"," Ball "]
- - Banyan Tree Holdings
- - [Barnes & Noble,Barnes & Noble Education]
- - Beazer Homes
- - [Bed Bath & Beyond,Bed Bath and Beyond]
- - Best Buy
- - Big Lots
- - [BJs Wholesale Club,BJs Wholesale]
- - Bloomin Brands
- - Boyd Gaming
- - Brinker International
- - Brunswick
- - Buffalo Wild Wings
- - [BuildABear,Build A Bear]
- - Buick
- - Burlington Stores
- - Cabelas
- - Cadillac
- - Caesars Entertainment
- - Caseys General Stores
- - Cheesecake Factory
- - Chevrolet
- - [Chicos FAS,Chicos]
- - [Chipotle Mexican Grill,Chipotle]
- - Chrysler
- - [Cinemark Holdings,Cinemark]
- - Columbia Sportswear
- - [Costco,Costco Wholesale]
- - [Cracker Barrel Old Country Store,Cracker Barrel]
- - DR Horton
- - [Delta Air Lines,Delta Airlines]
- - Dillards
- - Dodge
- - Dollar General
- - Dollar Tree
- - Dominos Pizza
- - Eldorado Resorts
- - Estee Lauder
- - Fiat Chrysler
- - Finish Line
- - Foot Locker
- - Ford
- - Fossil Group
- - GameStop
- - Gap Inc
- - General Motors
- - GMC
- - Hallmark
- - [Harley Davidson,HarleyDavidson]
- - Hasbro
- - Herman Miller
- - [Hertz Global Holdings,Hertz]
- - [Hilton Worldwide Holdings,Hilton Worldwide]
- - Home Depot
- - [Host Hotels & Resorts,Host Hotels and Resorts]
- - [Hovnanian Enterprises,Hovnanian]
- - [Hyatt Hotels,Hyatt]
- - [JC Penney,JCPenney]
- - [JCrew Group,Jcrew]
- - Jeep
- - [JetBlue Airways,JetBlue]
- - [" KB Home "]
- - Kohls
- - L Brands
- - Las Vegas Sands
- - Lennar
- - Levi Strauss
- - Lincoln Motor Company
- - [Live Nation Entertainment,Live Nation]
- - [" Lowes "]
- - Macys
- - M/I Homes
- - McDonalds
- - Meritage Homes
- - MGM Resorts
- - [Michaels Stores,Michaels Companies]
- - Neiman Marcus
- - Newell Brands
- - Nike
- - Nordstrom
- - [OReilly Automotive,O Reilly Automotive]
- - Office Depot
- - Overstockcom
- - Panera Bread
- - [Park Hotels & Resorts,Park Hotels and Resorts]
- - Party City
- - Penske Automotive
- - Pier 1 Imports
- - Ralph Lauren
- - RAM
- - Sally Beauty
- - [Sears Holdings," Sears "]
- - [Sherwin Williams,SherwinWilliams]
- - Skechers
- - Southwest Airlines
- - Spirit Airlines
- - Staples
- - Starbucks
- - Steelcase
- - [Tapestry, Kate Spade New York,Stuart Weitzman]
- - Taylor Morrison Home
- - Toll Brothers
- - Toys R Us
- - Tractor Supply
- - TravelCenters of America
- - Tupperware Brands
- - Ulta Beauty
- - Under Armour
- - [United Continental,United Airlines]
- - United Natural Foods
- - Urban Outfitters
- - Vail Resorts
- - Valspar
- - Valvoline
- - [Walgreens Boots Alliance,Walgreens Boots,Walgreens]
- - Walmart
- - Whirlpool
- - Whole Foods Market
- - William Lyon Homes
- - [Williams Sonoma,WilliamsSonoma]
- - Winnebago
- - Wolverine World Wide
- - Wynn Resorts
- company_health:
- - Abbott Laboratories
- - AbbVie
- - Acadia Healthcare
- - Aetna
- - Agilent Technologies
- - Alere
- - Alexion Pharmaceuticals
- - Allergan
- - Allscripts Healthcare Solutions
- - AmerisourceBergen
- - Amgen
- - AMN Healthcare Services
- - Anthem
- - Astellas
- - AstraZeneca
- - Bayer
- - [Baxter International,Baxter]
- - Becton Dickinson
- - BioRad Laboratories
- - BioMarin
- - Biogen
- - Boston Scientific
- - [BristolMyers Squibb,Bristol Myers Squibb]
- - Cardinal Health
- - Celgene
- - Cerner
- - Cigna
- - Community Health Systems
- - CVS Health
- - Daiichi Sankyo
- - Danaher
- - [DaVita HealthCare Partners,DaVita HealthCare]
- - Diplomat Pharmacy
- - Eli Lilly
- - Eisai Pharmaceutical
- - Encompass Health
- - Envision Healthcare
- - Express Scripts Holding
- - Genesis Healthcare
- - Gilead Sciences
- - GlaxoSmithKline
- - HCA Healthcare
- - Healthcare Services Group
- - HealthSouth
- - Humana
- - Iasis Healthcare
- - Illumnia
- - Incyte
- - Kindred Healthcare
- - [Laboratory Corp of America,Laboratory Corporation of America,LabCorp]
- - LifePoint Health
- - Magellan Health
- - McCormick
- - McKesson
- - Medical Mutual of Ohio
- - Merck
- - Molina Healthcare
- - Mylan
- - Novartis
- - Novo Nordisk
- - Perrigo
- - Pfizer
- - PharMerica
- - PRA Health Sciences
- - [Regeneron Pharmaceuticals,Regeneron]
- - [" roche "]
- - Sanofi
- - Select Medical Holdings
- - Shire Pharmaceuticals
- - St Jude Medical
- - Stryker
- - Syneos Health
- - Takeda Pharmaceuticals
- - Tenet Healthcare
- - Thermo Fisher Scientific
- - UnitedHealth Group
- - Universal Health Services
- - Varian Medical Systems
- - Vertex Pharmaceuticals
- - WellCare Health Plans
- - Zimmer Biomet
- - Zoetis
- company_energychem:
- - [AMark Precious Metals,A Mark Precious Metals]
- - A Schulman
- - [" AES "]
- - [Air Products & Chemicals,Air Products and Chemicals]
- - Airgas
- - Albemarle
- - Alcoa
- - Aleris
- - Alliance Resource Partners
- - Alliant Energy
- - Alon USA Energy
- - Ameren
- - American Electric Power
- - American Water Works
- - Anadarko Petroleum
- - Antero Resources
- - Arch Coal
- - [Ashland Global,Ashland Global Specialty Chemicals]
- - Atmos Energy
- - Baker Hughes
- - Berry Global
- - [C&J Energy,C&J Energy Services]
- - [Cabot,Cabot Oil and Gas,Cabot Oil & Gas]
- - CenterPoint Energy
- - [CF Industries Holdings,CF Industries]
- - Cheniere Energy
- - Chesapeake Energy
- - Cimarex Energy
- - CMS Energy
- - ConocoPhillips
- - Consol Energy
- - Consolidated Edison
- - Consumers Energy
- - Contura Energy
- - Devon Energy
- - Diamondback Energy
- - Dominion Energy
- - Dow Chemical
- - DTE Energy
- - Duke Energy
- - Eastman Chemical
- - Energy Transfer Equity
- - Eversource Energy
- - Exelon
- - Exxon Mobil
- - [Ferrellgas Partners,Ferrellgas]
- - Florida Power & Light
- - FirstEnergy
- - [FMC Technologies," FMC "]
- - Genesis Energy
- - Georgia Power
- - Great Plains Energy
- - Halliburton
- - Hawaiian Electric Industries
- - Komatsu Mining
- - Liberty Oilfield Services
- - [Marathon Oil,Marathon Petroleum]
- - Martin Marietta Materials
- - Murphy Oil
- - National Oilwell Varco
- - New Jersey Resources
- - Newmont Goldcorp
- - Newmont Mining
- - NextEra Energy
- - NGL Energy Partners
- - Noble Energy
- - NRG Energy
- - NuStar Energy
- - Oasis Petroleum
- - Occidental Petroleum
- - OGE Energy
- - Pacific Gas & Electric
- - PBF Energy
- - Peabody Energy
- - Portland General Electric
- - PPG Industries
- - Public Service Elec & Gas
- - Puget Energy
- - Renewable Energy Group
- - Sempra Energy
- - SM Energy
- - Southern California Edison
- - Southwest Gas Holdings
- - Southwestern Energy
- - Spectra Energy
- - Summit Materials
- - Superior Energy Services
- - United Refining
- - United States Steel
- - Valero Energy
- - Vistra Energy
- - WEC Energy
- - Westar Energy
- - Westlake Chemical
- - Whiting Petroleum
- - Worthington Industries
- - WPX Energy
- - Xcel Energy
- company_industrial:
- - [" 3M "]
- - AO Smith
- - Acuity Brands
- - [" AGCO "]
- - AK Steel Holding
- - [Alleghany,Allegheny Technologies]
- - Allison Transmission Holdings
- - [American Axle & Manufacturing,American Axle and Manufacturing]
- - Ametek
- - [Anixter International,Anixter]
- - Applied Industrial Technologies
- - [AptarGroup," Aptar "]
- - Arconic
- - Autoliv
- - Avery Dennison
- - B/E Aerospace
- - Beacon Roofing Supply
- - Belden
- - [" Bemis "]
- - Benchmark Electronics
- - Boeing
- - Boise Cascade
- - BorgWarner
- - Builders FirstSource
- - Carlisle
- - Carpenter Technology
- - Caterpillar
- - Commercial Metals
- - Crane
- - Cummins
- - ["Deere "]
- - [" Dover "]
- - Emerson Electric
- - Esterline Technologies
- - Flowserve
- - Fluor
- - Fortive
- - [Fortune Brands Home & Security,Fortune Brands,Fortune Brands Home and Security]
- - Foundation Building Materials
- - General Dynamics
- - General Electric
- - [Honeywell International,Honeywell]
- - Hubbell
- - [Hyster Yale Materials,HysterYale,Hyster Yale]
- - Illinois Tool Works
- - Kansas City Southern
- - Kennametal
- - Keysight Technologies
- - L3 Technologies
- - Lockheed Martin
- - Masco
- - Modine Manufacturing
- - Mohawk Industries
- - Mueller Industries
- - NCI Building Systems
- - Norfolk Southern
- - [Northrop Grumman,Orbital ATK]
- - Owens Corning
- - [Parker Hannifin,ParkerHannifin]
- - Patrick Industries
- - Phillips 66
- - Polaris Industries
- - Rayonier Advanced Materials
- - Raytheon
- - Rockwell Automation
- - Rockwell Collins
- - [Schnitzer Steel Industries,Schnitzer Steel]
- - [Snap on,Snapon]
- - Spirit AeroSystems
- - Roper Technologies
- - [Stanley Black & Decker,Black & Decker,Stanley Works,Stanley Black and Decker]
- - Steel Dynamics
- - Thor Industries
- - Timken
- - TopBuild
- - [" Toro "]
- - Trinity Industries
- - Union Pacific
- - United Technologies
- - Valmont Industries
- - Vulcan Materials
- - [Westinghouse Air Brake,Westinghouse Air Brake Technologies,WABTEC]
- - Xylem
- company_tech:
- - Activision Blizzard
- - Acer
- - [Adobe,Adobe Systems]
- - [" ADT "]
- - Advanced Micro Devices
- - Akamai Technologies
- - Alphabet
- - Amkor Technology
- - Amphenol
- - Analog Devices
- - Apache
- - Apple
- - Applied Materials
- - Arista Networks
- - Arrow Electronics
- - AT&T
- - Asus
- - Autodesk
- - Avaya
- - Avnet
- - Baidu
- - [Booking Holdings,Bookingcom, Pricelinecom, Agodacom, Kayakcom, Cheapflights, Rentalcarscom, Momondo,OpenTable]
- - Booz Allen Hamilton
- - Broadcom
- - [Citrix Systems,Citrix]
- - [Cognizant Technology Solutions,Cognizant Technology]
- - Cornerstone onDemand
- - Cypress Semiconductor
- - Dell Technologies
- - DXC Technology
- - eBay
- - Electronic Arts
- - [Expedia,Expedia Group]
- - Facebook
- - Foxconn
- - Fitbit
- - Fujitsu
- - GoDaddy
- - Groupon
- - Halogen Software
- - [Harman International Industries,Harman International]
- - [Hewlett Packard Enterprise,Hewlett Packard, HP Inc]
- - Hitachi
- - Huawei
- - ["IBM "]
- - iCIMS
- - ["Intel "]
- - [Jabil Circuit,Jabil]
- - JDcom
- - Kenexa
- - Lawson Software
- - Lenovo
- - LG Electronics
- - Lyft
- - [Maxar Technologies,Maxar]
- - Microchip Technology
- - Micron Technology
- - Microsoft
- - Netflix
- - Nvidia
- - ON Semiconductor
- - Oracle
- - Panasonic
- - Pitney Bowes
- - Red Hat
- - Saba Software
- - Samsung
- - SAP
- - [Salesforce,salesforcecom]
- - Shutterfly
- - Square
- - SS&C Technologies
- - Skillsoft
- - Sony
- - Sumtotal Systems
- - Super Micro Computer
- - Taleo Corporation
- - TCS
- - Tencent
- - Texas Instruments
- - TTM Technologies
- - Twitter
- - Workday
- - Xerox
- - Yahoo
- - Zebra Technologies
- company_fin:
- - Affiliated Managers Group
- - Aflac
- - [" AIG "]
- - Alliance Holdings
- - Allstate
- - Ally Financial
- - Amazon
- - American Equity Investment Life Holding
- - American Express
- - American Family Insurance Group
- - American Financial Group
- - American National Insurance
- - Ameriprise Financial
- - Amica Mutual Insurance
- - AmTrust Financial Services
- - Annaly Capital Management
- - Apollo Global Management
- - Arthur J Gallagher
- - Assurant
- - [AutoOwners Insurance,Auto Owners Insurance]
- - [AvalonBay,AvalonBay Communities]
- - [Banco Itau,Banco Itaú]
- - [Bank of America, Merrill Lynch]
- - Bank of Montreal
- - Bank of New York Mellon
- - [BB&T Corp," BB&T"]
- - Berkshire Hathaway
- - BGC Partners
- - BlackRock
- - Blackstone
- - Boston Properties
- - Brighthouse Financial
- - [Broadridge Financial Solutions,Broadridge,Broadridge Financial]
- - Canadian Imperial Bank of Commerce
- - [Capital One Financial,Capital One]
- - [Cboe Global Markets,Chicago Board Options Exchange,BATS Global Markets]
- - CBRE Group
- - Charles Schwab
- - Cincinnati Financial
- - Citigroup
- - [Citizens Financial Group,Citizens Financial]
- - CNO Financial Group
- - Country Financial
- - [Crestwood Equity Partners,Crestwood Equity]
- - [Digital Realty Trust,Digital Realty]
- - [Discover Financial Services,Discover Financial]
- - E*Trade Financial,E*Trade," Etrade "]
- - Equity Residential
- - Erie Insurance Group
- - Fannie Mae
- - Farmers Insurance
- - Federated Mutual Insurance
- - [Fidelity National,Fidelity National Financial,Fidelity National Information Services]
- - Fifth Third Bancorp
- - First American Financial
- - First Republic Bank
- - [Genworth Financial,Genworth]
- - [Goldman Sachs Group,Goldman Sachs]
- - [Guardian Life Insurance Company of America,Guardian Life]
- - Hanover Insurance
- - [Hartford Financial Services,Hartford Financial]
- - Hospitality Properties Trust
- - [Huntington Bancshares,Huntington National Bank]
- - [JP Morgan Chase,JPMorgan,JPMorgan Chase, Chase Bank]
- - Jefferies Financial Group
- - [Edward Jones,Jones Financial]
- - [Liberty Mutual Insurance Group,Liberty Mutual]
- - LPL Financial
- - [M&T Bank,M&T Bank Corp,M and T Bank,M & T Bank]
- - [Massachusetts Mutual Life Insurance,Massachusetts Mutual,Mass Mutual]
- - MetLife
- - Moodys
- - Morgan Stanley
- - [Mutual of America Life Insurance,Mutual of America]
- - [Mutual of Omaha Insurance,Mutual of Omaha]
- - Nasdaq
- - Nationstar Mortgage Holdings
- - New Residential Investment
- - [New York Community Bancorp,New York Community Bank,NY Community Bancorp,NY Community Bank]
- - [New York Life Insurance,New York Life,NY Life Insurance]
- - NLV Financial
- - Northern Trust
- - Northwestern Mutual
- - PayPal
- - [Penn Mutual Life Insurance,Penn Mutual]
- - [PNC Financial Services,PNC Financial]
- - [Principal Financial,Principal Global Investors]
- - [Prudential Financial,Prudential]
- - Raymond James Financial
- - Realogy
- - Regions Financial
- - [Reinsurance Group of America," RGA "]
- - Royal Bank of Canada
- - [S&P Global,Standard & Poors,Standard&Poors,Standard and Poors]
- - Scotiabank
- - Securian Financial
- - Selective Insurance Group
- - [Sentry Insurance Group,Sentry Insurance]
- - [Simon Property Group,Simon Property]
- - SL Green Realty
- - [State Farm Insurance,State Farm]
- - State Street
- - [Stifel Financial,Stifel]
- - SunTrust Banks
- - SVB Financial
- - Synchrony Financial
- - [T Rowe Price,Trowe Price]
- - TD Ameritrade
- - [Thrivent Financial for Lutherans,Thrivent Financial]
- - [TIAA,Teachers Insurance and Annuity Association]
- - [Toronto Dominion Bank,TorontoDominion Bank]
- - TransUnion
- - Travelers
- - [US Bancorp, US Bank]
- - [" USAA ",United Services Automobile Association]
- - Vornado Realty Trust
- - Voya Financial
- - Wells Fargo
- - [Western & Southern Financial Group,Western & Southern Financial,Western and Southern Financial]
- - [Zions Bancorp,Zions Bank]
- - AAC Capital Partners
- - Equistone Partners
- - Baring Vostok Capital Partners
- - Kohlberg Kravis Roberts
- - Irving Place Capital
- - PAI Partners
- - ABS Capital
- - Trimaran Capital Partners
- - Court Square Capital Partners
- - CVC Capital Partners
- - Welsh Carson Anderson & Stowe
- - Bruckmann Rosser Sherrill & Co
- - Willis Stein & Partners
- - CIVC Partners
- - DLJ Merchant Banking
- - Avista Capital Partners
- - Diamond Castle Holdings
- - Castle Harlan
- - CIP Capital
- - MidOcean Partners
- - Madison Dearborn Partners
- - CCMP Capital
- - Trilantic Capital Partners
- - Metalmark Capital
- - Bridgepoint Capital
- - Terra Firma Capital
- - UBS Capital
- - Affinity Equity Partners
- - Capvis
- - Lightyear Capital
- - Pamlico
- - William Blair
- - Kohlberg Kravis Roberts
- - Carlyle Group
- - TPG Capital
- - Warburg Pincus
- - Advent International
- - Apollo Global Management
- - EnCap Investments
- - Neuberger Berman
- - CVC Capital Partners
- - Bain Capital
- - Thoma Bravo
- - Vista Equity Partners
- - Apax Partners
- - Clayton Dubilier & Rice
- company_other:
- - [Blackhawk Network Holdings,Blackhawk Network]
- - [BlueLinx Holdings,BlueLinx]
- - [BMC Stock Holdings,BMC Stock]
- - [BonTon Stores,BonTon]
- - [Briggs & Stratton,Briggs and Stratton,Briggs&Stratton]
- - BrightView Holdings
- - [Brocade Communications Systems,Brocade Communications]
- - [Brown & Brown,Brown and Brown]
- - Buckeye Partners
- - CH Robinson Worldwide
- - [CR Bard,CRBard]
- - CACI International
- - Cadence Design Systems
- - [CalMaine Foods,CalMaine]
- - [CalAtlantic Group,CalAtlantic]
- - Caleres
- - California Resources
- - Calpine
- - [Calumet Specialty Products,Calumet Specialty Products Partners]
- - [Camping World Holdings,Camping World]
- - Carlyle Group
- - CarMax
- - Carters
- - Carvana
- - Catalent
- - [" CBS "]
- - CDK Global
- - [" CDW "]
- - Celanese
- - Centene
- - [Central Garden & Pet,Central Garden and Pet]
- - Century Communities
- - CenturyLink
- - CH2M Hill
- - [Charles River Laboratories,Charles River]
- - [Charter Communications,Charter Comm]
- - Chemours
- - Church & Dwight
- - Ciena
- - [Cisco Systems,Cisco]
- - CIT Group
- - [ClevelandCliffs,Cleveland Cliffs]
- - CME Group
- - Colfax
- - Colony Capital
- - Comerica
- - [Comfort Systems USA,Comfort Systems]
- - [CommScope Holding,CommScope]
- - Concho Resources
- - Conduent
- - Consolidated Edison
- - Constellation Brands
- - Continental Resources
- - Convergys
- - [Cooper Cos,CooperCompanies]
- - [Cooper Tire & Rubber,Cooper Tire and Rubber]
- - [CooperStandard Holdings,CooperStandard,Cooper Standard Holdings,Cooper Standard]
- - [CoreMark Holding,Core Mark Holding,CoreMark]
- - CoreCivic
- - CoreLogic
- - Corning
- - Corteva
- - [" Coty "]
- - [Crown Castle International,Crown Castle]
- - Crown Holdings
- - [" CSRA "]
- - CST Brands
- - [" CSX "]
- - [CUNA Mutual Group,CUNA Mutual]
- - [Curtiss Wright,CurtissWright]
- - [" Dana "]
- - Darden Restaurants
- - Darling Ingredients
- - DaVita
- - DCP Midstream
- - Dean Foods
- - Deckers Outdoor
- - [Delek US Holdings,Delek]
- - [Delta Tucker Holdings,Delta Tucker]
- - Dentsply Sirona
- - Dicks Sporting Goods
- - Diebold Nixdorf
- - Discovery
- - [Discovery Communications,Discovery Inc,Discovery Networks]
- - Dominion Resources
- - Domtar
- - Donaldson
- - DST Systems
- - [" DSW "]
- - [DuPont,DowDuPont]
- - Dynegy
- - Echo Global Logistics
- - EchoStar
- - Edgewell Personal Care
- - Edison International
- - Edwards Lifesciences
- - Element Solutions
- - [EMCOR Group,EMCOR]
- - Enable Midstream Partners
- - EnerSys
- - [Engility Holdings,Engility]
- - EnLink Midstream
- - Ensign Group
- - Entergy
- - Enterprise Products Partners
- - EOG Resources
- - [" EQT "]
- - Equinix
- - Essendant
- - Euronet Worldwide
- - Evercore
- - [" Evergy "]
- - Expeditors International of Washington
- - F5 Networks
- - Fastenal
- - First Data
- - First Horizon National
- - First Solar
- - ["Fiserv "]
- - [FleetCor Technologies,FleetCor]
- - Flowers Foods
- - FM Global
- - Ford Motor
- - Franklin Resources
- - [" Freds "]
- - Freddie Mac
- - FreeportMcMoRan
- - Frontier Communications
- - FTI Consulting
- - [GIII Apparel Group,GIII Appael]
- - Gannett
- - Gardner Denver
- - Gartner
- - Generac Holdings
- - General Cable
- - Genesco
- - [Genesee & Wyoming,Genesee and Wyoming]
- - Genuine Parts
- - GEO Group
- - [" GGP "]
- - Global Partners
- - Global Payments
- - [" GMS "]
- - GNC Holdings
- - [Goodyear Tire & Rubber,Goodyear, Goodyear Tire and Rubber]
- - Graham Holdings
- - Granite Construction
- - [Graphic Packaging Holding,Graphic Packaging]
- - Graybar Electric
- - Green Plains
- - [Greenbrier Companies,Greenbrier]
- - [" Greif "]
- - Griffon
- - Group 1 Automotive
- - [HB Fuller,HBFuller]
- - [Hain Celestial Group,Hain Celestial]
- - Hanesbrands
- - Hawaiian Holdings
- - HC2 Holdings
- - HCA Holdings
- - [" HCP "]
- - [HD Supply Holdings,HD Supply]
- - [Helmerich & Payne,Helmerich and PayneHelmerich Payne]
- - Henry Schein
- - Herc Holdings
- - Hexcel
- - Hexion
- - hhgregg
- - [HillRom Holdings,HillRom,Hill Rom]
- - [" HNI "]
- - HollyFrontier
- - Hologic
- - HRG Group
- - [" HSN "]
- - Hub Group
- - Huntington Ingalls
- - Huntsman
- - [InterActiveCorp,IAC]
- - Icahn Enterprises
- - ["IDEX "]
- - [IDEXX Laboratories,IDEXX Lab]
- - iHeartMedia
- - Illumina
- - ["Infor "]
- - Ingles Markets
- - Ingredion
- - Insight Enterprises
- - Insperity
- - Interactive Brokers Group
- - Intercontinental Exchange
- - International Paper
- - Interpublic Group
- - INTL FCStone
- - Intuit
- - Intuitive Surgical
- - IQVIA Holdings
- - Itron
- - [" ITT "]
- - [JB Hunt Transport Services,JBHunt,JB Hunt Transport,JB Hunt]
- - Jacobs Engineering Group
- - [JELDWEN Holding,JELD WEN,JELDWEN]
- - Jones Lang LaSalle
- - Juniper Networks
- - Kaman
- - [KapStone Paper & Packaging,KapStone Paper and Packaging,KapStone Paper]
- - [Kar Auction Services,Kar Auction]
- - [" KBR "]
- - Keane Group
- - Kelly Services
- - Kemper
- - KeyCorp
- - Kinder Morgan
- - [" Kirby "]
- - [" KKR "]
- - [KLA Tencor,KLATencor]
- - [Knight Swift Transportation,Knight Swift,KnightSwift]
- - Knights of Columbus
- - Kraton
- - Kroger
- - Lam Research
- - [Lamb Weston Holdings,Lamb Weston]
- - [Land Olakes, Land O Lakes]
- - Landstar System
- - Laureate Education
- - LCI Industries
- - [" Lear "]
- - Legg Mason
- - [Leggett & Platt,Leggett and Platt,Leggett]
- - [Leidos Holdings,Leidos]
- - Lennox
- - Leucadia
- - Liberty Interactive
- - Liberty Media
- - Lincoln Electric
- - Lincoln National
- - Lithia Motors
- - [" LKQ "]
- - Loews
- - [LouisianaPacific,Louisiana Pacific]
- - LSC Communications
- - Magellan Midstream Partners
- - ManpowerGroup
- - [" ManTech "]
- - Markel
- - [Marriott International,Marriott]
- - [Marsh & McLennan,Marsh and McLennan]
- - MasTec
- - Matson
- - Maxim Integrated Products
- - Maximus
- - MDC Holdings
- - [MDU Resources Group,MDU Resources]
- - Mednax
- - Mercury General
- - Meritor
- - Metaldyne Performance
- - [Mettler Toledo International,Mettler Toledo,MettlerToledo]
- - Middleby
- - MKS Instruments
- - Monsanto
- - [" Moog "]
- - Mosaic
- - [Motorola Solutions,Motorola]
- - MPM Holdings
- - MRC Global
- - MSC Industrial Direct
- - [National General Holdings,National General]
- - Navient
- - Navistar International
- - [" NCR "]
- - NetApp
- - Newfield Exploration
- - Newmark Group
- - NewMarket
- - News Corp
- - Nexeo Solutions
- - Nexstar Media Group
- - NiSource
- - Nordson
- - Nu Skin Enterprises
- - Nuance Communications
- - Nucor
- - [" NVR "]
- - Oceaneering International
- - Ohio National Mutual
- - [Old Dominion Freight Line,Old Dominion]
- - Old Republic International
- - Olin
- - Omnicom Group
- - OneMain Holdings
- - Oneok
- - Oshkosh
- - [Owens & Minor,Owens and Minor]
- - [Owens Illinois,OwensIllinois]
- - Paccar
- - Pacific Life
- - [Packaging Corp of America,Packaging Corporation of America]
- - Palo Alto Networks
- - [Par Pacific Holdings,Par Pacific]
- - Parexel
- - Patterson
- - Paychex
- - PC Connection
- - [" PCM "]
- - Penn National Gaming
- - Performance Food Group
- - PerkinElmer
- - Peter Kiewit Sons
- - PG&E
- - Philip Morris
- - Pinnacle Entertainment
- - Pinnacle West Capital
- - Pioneer Natural Resources
- - [Plains GP Holdings,Plains GP]
- - Platform Specialty Products
- - Plexus
- - [Ply Gem Holdings,Ply Gem]
- - PolyOne
- - Post Holdings
- - [" PPL "]
- - Praxair
- - Presidio
- - Priceline
- - PriceSmart
- - Primoris Services
- - Prologis
- - Public Service Enterprise
- - Publix Super Markets
- - PulteGroup
- - [" PVH "]
- - Qorvo
- - [Quad/Graphics,QuadGraphics]
- - Qualcomm
- - Quanta Services
- - Quest Diagnostics
- - Quintiles Transnational
- - Qurate Retail
- - [RR Donnelley & Sons,RR Donnelley]
- - Range Resources
- - Regal Beloit
- - [Regal Entertainment Group,Regal Entertainment]
- - [" Regis "]
- - [Reliance Steel & Aluminum,Reliance Steel and Aluminum]
- - [Rent A Center,RentACenter]
- - ResMed
- - Resolute Forest Products
- - REV Group
- - Revlon
- - Rexnord
- - Rite Aid
- - Roadrunner Transportation Systems
- - [Robert Half International,Robert Half]
- - Ross Stores
- - RPM International
- - Rush Enterprises
- - Ryder System
- - Ryerson Holding
- - Sabre
- - Sanderson Farms
- - Sanmina
- - SCANA
- - ScanSource
- - Schneider National
- - Science Applications International
- - Scientific Games
- - [Scotts MiracleGro,Scotts Miracle Gro]
- - Scripps Networks Interactive
- - Seaboard
- - Sealed Air
- - SemGroup
- - Service Corp International
- - [ServiceMaster Global Holdings,ServiceMaster]
- - ServiceNow
- - Silgan Holdings
- - SiteOne Landscape Supply
- - SkyWest
- - Skyworks Solutions
- - [Smart & Final Stores,Smart and Final Stores]
- - [Snyders Lance,SnydersLance]
- - Sonic Automotive
- - Sonoco Products
- - SpartanNash
- - Spectrum Brands
- - Sprague Resources
- - Sprouts Farmers Market
- - SPX FLOW
- - Stepan
- - Stewart Information Services
- - Supervalu
- - Swift Transportation
- - Symantec
- - Synnex
- - Synopsys
- - Sysco
- - Tailored Brands
- - Targa Resources
- - Tech Data
- - TEGNA
- - [Teledyne Technologies,Teledyne]
- - Teleflex
- - [Telephone & Data Systems,Telephone and Data Systems]
- - Tempur Sealy
- - Tenneco
- - Teradata
- - Teradyne
- - Terex
- - Tesla
- - Tesoro
- - Tetra Tech
- - Texas Roadhouse
- - Textron
- - TJX
- - Tops Holding
- - Torchmark
- - Total System Services
- - Tower International
- - TransDigm Group
- - TreeHouse Foods
- - TRI Pointe Group
- - Trimble
- - TriNet Group
- - [Triple S Management,TripleS Management,"Triple S "]
- - Triumph Group
- - TrueBlue
- - Tutor Perini
- - [Twenty First Century Fox,TwentyFirst Century Fox]
- - [" UGI "]
- - Unified Grocers
- - Unisys
- - Univar
- - Universal
- - Universal Forest Products
- - Univision Communications
- - Unum Group
- - [" US Foods"]
- - [" USG "]
- - Vantiv
- - [" VCA "]
- - Vectren
- - Ventas
- - [VeriFone Systems,VeriFone]
- - [Verisk Analytics,Verisk]
- - Veritiv
- - Verso
- - Viacom
- - Vishay Intertechnology
- - Vista Outdoor
- - Visteon
- - [" VWR "]
- - [WR Berkley,WRBerkley]
- - Wabash National
- - WABCO
- - Warner Music
- - Watsco
- - Wayfair
- - Weis Markets
- - Welltower
- - Werner Enterprises
- - [WESCO,WESCO International]
- - Western Digital
- - Western Refining
- - Western Union
- - WestRock
- - Weyerhaeuser
- - WGL Holdings
- - WhiteWave Foods
- - Windstream Holdings
- - World Fuel Services
- - Worldpay
- - [Wyndham Worldwide,Wyndham]
- - Xilinx
- - XPO Logistics
- - YRC Worldwide
- - Zayo Group
- - Zoetis
+  company_health:
+  - Abbott Laboratories
+  - AbbVie
+  - Acadia Healthcare
+  - Aetna
+  - Agilent Technologies
+  - Alere
+  - Alexion Pharmaceuticals
+  - Allergan
+  - Allscripts Healthcare Solutions
+  - AmerisourceBergen
+  - Amgen
+  - AMN Healthcare Services
+  - Anthem
+  - Astellas
+  - AstraZeneca
+  - Bayer
+  - - Baxter International
+    - Baxter
+  - Becton Dickinson
+  - BioRad Laboratories
+  - BioMarin
+  - Biogen
+  - Boston Scientific
+  - - BristolMyers Squibb
+    - Bristol Myers Squibb
+  - Cardinal Health
+  - Celgene
+  - Cerner
+  - Cigna
+  - Community Health Systems
+  - CVS Health
+  - Daiichi Sankyo
+  - Danaher
+  - - DaVita HealthCare Partners
+    - DaVita HealthCare
+  - Diplomat Pharmacy
+  - Eli Lilly
+  - Eisai Pharmaceutical
+  - Encompass Health
+  - Envision Healthcare
+  - Express Scripts Holding
+  - Genesis Healthcare
+  - Gilead Sciences
+  - GlaxoSmithKline
+  - HCA Healthcare
+  - Healthcare Services Group
+  - HealthSouth
+  - Humana
+  - Iasis Healthcare
+  - Illumnia
+  - Incyte
+  - Kindred Healthcare
+  - - Laboratory Corp of America
+    - Laboratory Corporation of America
+    - LabCorp
+  - LifePoint Health
+  - Magellan Health
+  - McCormick
+  - McKesson
+  - Medical Mutual of Ohio
+  - Merck
+  - Molina Healthcare
+  - Mylan
+  - Novartis
+  - Novo Nordisk
+  - Perrigo
+  - Pfizer
+  - PharMerica
+  - PRA Health Sciences
+  - - Regeneron Pharmaceuticals
+    - Regeneron
+  - - ' roche '
+  - Sanofi
+  - Select Medical Holdings
+  - Shire Pharmaceuticals
+  - St Jude Medical
+  - Stryker
+  - Syneos Health
+  - Takeda Pharmaceuticals
+  - Tenet Healthcare
+  - Thermo Fisher Scientific
+  - UnitedHealth Group
+  - Universal Health Services
+  - Varian Medical Systems
+  - Vertex Pharmaceuticals
+  - WellCare Health Plans
+  - Zimmer Biomet
+  - Zoetis
+  company_industrial:
+  - - ' 3M '
+  - AO Smith
+  - Acuity Brands
+  - - ' AGCO '
+  - AK Steel Holding
+  - - Alleghany
+    - Allegheny Technologies
+  - Allison Transmission Holdings
+  - - American Axle & Manufacturing
+    - American Axle and Manufacturing
+  - Ametek
+  - - Anixter International
+    - Anixter
+  - Applied Industrial Technologies
+  - - AptarGroup
+    - ' Aptar '
+  - Arconic
+  - Autoliv
+  - Avery Dennison
+  - B/E Aerospace
+  - Beacon Roofing Supply
+  - Belden
+  - - ' Bemis '
+  - Benchmark Electronics
+  - Boeing
+  - Boise Cascade
+  - BorgWarner
+  - Builders FirstSource
+  - Carlisle
+  - Carpenter Technology
+  - Caterpillar
+  - Commercial Metals
+  - Crane
+  - Cummins
+  - - 'Deere '
+  - - ' Dover '
+  - Emerson Electric
+  - Esterline Technologies
+  - Flowserve
+  - Fluor
+  - Fortive
+  - - Fortune Brands Home & Security
+    - Fortune Brands
+    - Fortune Brands Home and Security
+  - Foundation Building Materials
+  - General Dynamics
+  - General Electric
+  - - Honeywell International
+    - Honeywell
+  - Hubbell
+  - - Hyster Yale Materials
+    - HysterYale
+    - Hyster Yale
+  - Illinois Tool Works
+  - Kansas City Southern
+  - Kennametal
+  - Keysight Technologies
+  - L3 Technologies
+  - Lockheed Martin
+  - Masco
+  - Modine Manufacturing
+  - Mohawk Industries
+  - Mueller Industries
+  - NCI Building Systems
+  - Norfolk Southern
+  - - Northrop Grumman
+    - Orbital ATK
+  - Owens Corning
+  - - Parker Hannifin
+    - ParkerHannifin
+  - Patrick Industries
+  - Phillips 66
+  - Polaris Industries
+  - Rayonier Advanced Materials
+  - Raytheon
+  - Rockwell Automation
+  - Rockwell Collins
+  - - Schnitzer Steel Industries
+    - Schnitzer Steel
+  - - Snap on
+    - Snapon
+  - Spirit AeroSystems
+  - Roper Technologies
+  - - Stanley Black & Decker
+    - Black & Decker
+    - Stanley Works
+    - Stanley Black and Decker
+  - Steel Dynamics
+  - Thor Industries
+  - Timken
+  - TopBuild
+  - - ' Toro '
+  - Trinity Industries
+  - Union Pacific
+  - United Technologies
+  - Valmont Industries
+  - Vulcan Materials
+  - - Westinghouse Air Brake
+    - Westinghouse Air Brake Technologies
+    - WABTEC
+  - Xylem
+  company_other:
+  - - Blackhawk Network Holdings
+    - Blackhawk Network
+  - - BlueLinx Holdings
+    - BlueLinx
+  - - BMC Stock Holdings
+    - BMC Stock
+  - - BonTon Stores
+    - BonTon
+  - - Briggs & Stratton
+    - Briggs and Stratton
+    - Briggs&Stratton
+  - BrightView Holdings
+  - - Brocade Communications Systems
+    - Brocade Communications
+  - - Brown & Brown
+    - Brown and Brown
+  - Buckeye Partners
+  - CH Robinson Worldwide
+  - - CR Bard
+    - CRBard
+  - CACI International
+  - Cadence Design Systems
+  - - CalMaine Foods
+    - CalMaine
+  - - CalAtlantic Group
+    - CalAtlantic
+  - Caleres
+  - California Resources
+  - Calpine
+  - - Calumet Specialty Products
+    - Calumet Specialty Products Partners
+  - - Camping World Holdings
+    - Camping World
+  - Carlyle Group
+  - CarMax
+  - Carters
+  - Carvana
+  - Catalent
+  - - ' CBS '
+  - CDK Global
+  - - ' CDW '
+  - Celanese
+  - Centene
+  - - Central Garden & Pet
+    - Central Garden and Pet
+  - Century Communities
+  - CenturyLink
+  - CH2M Hill
+  - - Charles River Laboratories
+    - Charles River
+  - - Charter Communications
+    - Charter Comm
+  - Chemours
+  - Church & Dwight
+  - Ciena
+  - - Cisco Systems
+    - Cisco
+  - CIT Group
+  - - ClevelandCliffs
+    - Cleveland Cliffs
+  - CME Group
+  - Colfax
+  - Colony Capital
+  - Comerica
+  - - Comfort Systems USA
+    - Comfort Systems
+  - - CommScope Holding
+    - CommScope
+  - Concho Resources
+  - Conduent
+  - Consolidated Edison
+  - Constellation Brands
+  - Continental Resources
+  - Convergys
+  - - Cooper Cos
+    - CooperCompanies
+  - - Cooper Tire & Rubber
+    - Cooper Tire and Rubber
+  - - CooperStandard Holdings
+    - CooperStandard
+    - Cooper Standard Holdings
+    - Cooper Standard
+  - - CoreMark Holding
+    - Core Mark Holding
+    - CoreMark
+  - CoreCivic
+  - CoreLogic
+  - Corning
+  - Corteva
+  - - ' Coty '
+  - - Crown Castle International
+    - Crown Castle
+  - Crown Holdings
+  - - ' CSRA '
+  - CST Brands
+  - - ' CSX '
+  - - CUNA Mutual Group
+    - CUNA Mutual
+  - - Curtiss Wright
+    - CurtissWright
+  - - ' Dana '
+  - Darden Restaurants
+  - Darling Ingredients
+  - DaVita
+  - DCP Midstream
+  - Dean Foods
+  - Deckers Outdoor
+  - - Delek US Holdings
+    - Delek
+  - - Delta Tucker Holdings
+    - Delta Tucker
+  - Dentsply Sirona
+  - Dicks Sporting Goods
+  - Diebold Nixdorf
+  - Discovery
+  - - Discovery Communications
+    - Discovery Inc
+    - Discovery Networks
+  - Dominion Resources
+  - Domtar
+  - Donaldson
+  - DST Systems
+  - - ' DSW '
+  - - DuPont
+    - DowDuPont
+  - Dynegy
+  - Echo Global Logistics
+  - EchoStar
+  - Edgewell Personal Care
+  - Edison International
+  - Edwards Lifesciences
+  - Element Solutions
+  - - EMCOR Group
+    - EMCOR
+  - Enable Midstream Partners
+  - EnerSys
+  - - Engility Holdings
+    - Engility
+  - EnLink Midstream
+  - Ensign Group
+  - Entergy
+  - Enterprise Products Partners
+  - EOG Resources
+  - - ' EQT '
+  - Equinix
+  - Essendant
+  - Euronet Worldwide
+  - Evercore
+  - - ' Evergy '
+  - Expeditors International of Washington
+  - F5 Networks
+  - Fastenal
+  - First Data
+  - First Horizon National
+  - First Solar
+  - - 'Fiserv '
+  - - FleetCor Technologies
+    - FleetCor
+  - Flowers Foods
+  - FM Global
+  - Ford Motor
+  - Franklin Resources
+  - - ' Freds '
+  - Freddie Mac
+  - FreeportMcMoRan
+  - Frontier Communications
+  - FTI Consulting
+  - - GIII Apparel Group
+    - GIII Appael
+  - Gannett
+  - Gardner Denver
+  - Gartner
+  - Generac Holdings
+  - General Cable
+  - Genesco
+  - - Genesee & Wyoming
+    - Genesee and Wyoming
+  - Genuine Parts
+  - GEO Group
+  - - ' GGP '
+  - Global Partners
+  - Global Payments
+  - - ' GMS '
+  - GNC Holdings
+  - - Goodyear Tire & Rubber
+    - Goodyear
+    - Goodyear Tire and Rubber
+  - Graham Holdings
+  - Granite Construction
+  - - Graphic Packaging Holding
+    - Graphic Packaging
+  - Graybar Electric
+  - Green Plains
+  - - Greenbrier Companies
+    - Greenbrier
+  - - ' Greif '
+  - Griffon
+  - Group 1 Automotive
+  - - HB Fuller
+    - HBFuller
+  - - Hain Celestial Group
+    - Hain Celestial
+  - Hanesbrands
+  - Hawaiian Holdings
+  - HC2 Holdings
+  - HCA Holdings
+  - - ' HCP '
+  - - HD Supply Holdings
+    - HD Supply
+  - - Helmerich & Payne
+    - Helmerich and PayneHelmerich Payne
+  - Henry Schein
+  - Herc Holdings
+  - Hexcel
+  - Hexion
+  - hhgregg
+  - - HillRom Holdings
+    - HillRom
+    - Hill Rom
+  - - ' HNI '
+  - HollyFrontier
+  - Hologic
+  - HRG Group
+  - - ' HSN '
+  - Hub Group
+  - Huntington Ingalls
+  - Huntsman
+  - - InterActiveCorp
+    - IAC
+  - Icahn Enterprises
+  - - 'IDEX '
+  - - IDEXX Laboratories
+    - IDEXX Lab
+  - iHeartMedia
+  - Illumina
+  - - 'Infor '
+  - Ingles Markets
+  - Ingredion
+  - Insight Enterprises
+  - Insperity
+  - Interactive Brokers Group
+  - Intercontinental Exchange
+  - International Paper
+  - Interpublic Group
+  - INTL FCStone
+  - Intuit
+  - Intuitive Surgical
+  - IQVIA Holdings
+  - Itron
+  - - ' ITT '
+  - - JB Hunt Transport Services
+    - JBHunt
+    - JB Hunt Transport
+    - JB Hunt
+  - Jacobs Engineering Group
+  - - JELDWEN Holding
+    - JELD WEN
+    - JELDWEN
+  - Jones Lang LaSalle
+  - Juniper Networks
+  - Kaman
+  - - KapStone Paper & Packaging
+    - KapStone Paper and Packaging
+    - KapStone Paper
+  - - Kar Auction Services
+    - Kar Auction
+  - - ' KBR '
+  - Keane Group
+  - Kelly Services
+  - Kemper
+  - KeyCorp
+  - Kinder Morgan
+  - - ' Kirby '
+  - - ' KKR '
+  - - KLA Tencor
+    - KLATencor
+  - - Knight Swift Transportation
+    - Knight Swift
+    - KnightSwift
+  - Knights of Columbus
+  - Kraton
+  - Kroger
+  - Lam Research
+  - - Lamb Weston Holdings
+    - Lamb Weston
+  - - Land Olakes
+    - Land O Lakes
+  - Landstar System
+  - Laureate Education
+  - LCI Industries
+  - - ' Lear '
+  - Legg Mason
+  - - Leggett & Platt
+    - Leggett and Platt
+    - Leggett
+  - - Leidos Holdings
+    - Leidos
+  - Lennox
+  - Leucadia
+  - Liberty Interactive
+  - Liberty Media
+  - Lincoln Electric
+  - Lincoln National
+  - Lithia Motors
+  - - ' LKQ '
+  - Loews
+  - - LouisianaPacific
+    - Louisiana Pacific
+  - LSC Communications
+  - Magellan Midstream Partners
+  - ManpowerGroup
+  - - ' ManTech '
+  - Markel
+  - - Marriott International
+    - Marriott
+  - - Marsh & McLennan
+    - Marsh and McLennan
+  - MasTec
+  - Matson
+  - Maxim Integrated Products
+  - Maximus
+  - MDC Holdings
+  - - MDU Resources Group
+    - MDU Resources
+  - Mednax
+  - Mercury General
+  - Meritor
+  - Metaldyne Performance
+  - - Mettler Toledo International
+    - Mettler Toledo
+    - MettlerToledo
+  - Middleby
+  - MKS Instruments
+  - Monsanto
+  - - ' Moog '
+  - Mosaic
+  - - Motorola Solutions
+    - Motorola
+  - MPM Holdings
+  - MRC Global
+  - MSC Industrial Direct
+  - - National General Holdings
+    - National General
+  - Navient
+  - Navistar International
+  - - ' NCR '
+  - NetApp
+  - Newfield Exploration
+  - Newmark Group
+  - NewMarket
+  - News Corp
+  - Nexeo Solutions
+  - Nexstar Media Group
+  - NiSource
+  - Nordson
+  - Nu Skin Enterprises
+  - Nuance Communications
+  - Nucor
+  - - ' NVR '
+  - Oceaneering International
+  - Ohio National Mutual
+  - - Old Dominion Freight Line
+    - Old Dominion
+  - Old Republic International
+  - Olin
+  - Omnicom Group
+  - OneMain Holdings
+  - Oneok
+  - Oshkosh
+  - - Owens & Minor
+    - Owens and Minor
+  - - Owens Illinois
+    - OwensIllinois
+  - Paccar
+  - Pacific Life
+  - - Packaging Corp of America
+    - Packaging Corporation of America
+  - Palo Alto Networks
+  - - Par Pacific Holdings
+    - Par Pacific
+  - Parexel
+  - Patterson
+  - Paychex
+  - PC Connection
+  - - ' PCM '
+  - Penn National Gaming
+  - Performance Food Group
+  - PerkinElmer
+  - Peter Kiewit Sons
+  - PG&E
+  - Philip Morris
+  - Pinnacle Entertainment
+  - Pinnacle West Capital
+  - Pioneer Natural Resources
+  - - Plains GP Holdings
+    - Plains GP
+  - Platform Specialty Products
+  - Plexus
+  - - Ply Gem Holdings
+    - Ply Gem
+  - PolyOne
+  - Post Holdings
+  - - ' PPL '
+  - Praxair
+  - Presidio
+  - Priceline
+  - PriceSmart
+  - Primoris Services
+  - Prologis
+  - Public Service Enterprise
+  - Publix Super Markets
+  - PulteGroup
+  - - ' PVH '
+  - Qorvo
+  - - Quad/Graphics
+    - QuadGraphics
+  - Qualcomm
+  - Quanta Services
+  - Quest Diagnostics
+  - Quintiles Transnational
+  - Qurate Retail
+  - - RR Donnelley & Sons
+    - RR Donnelley
+  - Range Resources
+  - Regal Beloit
+  - - Regal Entertainment Group
+    - Regal Entertainment
+  - - ' Regis '
+  - - Reliance Steel & Aluminum
+    - Reliance Steel and Aluminum
+  - - Rent A Center
+    - RentACenter
+  - ResMed
+  - Resolute Forest Products
+  - REV Group
+  - Revlon
+  - Rexnord
+  - Rite Aid
+  - Roadrunner Transportation Systems
+  - - Robert Half International
+    - Robert Half
+  - Ross Stores
+  - RPM International
+  - Rush Enterprises
+  - Ryder System
+  - Ryerson Holding
+  - Sabre
+  - Sanderson Farms
+  - Sanmina
+  - SCANA
+  - ScanSource
+  - Schneider National
+  - Science Applications International
+  - Scientific Games
+  - - Scotts MiracleGro
+    - Scotts Miracle Gro
+  - Scripps Networks Interactive
+  - Seaboard
+  - Sealed Air
+  - SemGroup
+  - Service Corp International
+  - - ServiceMaster Global Holdings
+    - ServiceMaster
+  - ServiceNow
+  - Silgan Holdings
+  - SiteOne Landscape Supply
+  - SkyWest
+  - Skyworks Solutions
+  - - Smart & Final Stores
+    - Smart and Final Stores
+  - - Snyders Lance
+    - SnydersLance
+  - Sonic Automotive
+  - Sonoco Products
+  - SpartanNash
+  - Spectrum Brands
+  - Sprague Resources
+  - Sprouts Farmers Market
+  - SPX FLOW
+  - Stepan
+  - Stewart Information Services
+  - Supervalu
+  - Swift Transportation
+  - Symantec
+  - Synnex
+  - Synopsys
+  - Sysco
+  - Tailored Brands
+  - Targa Resources
+  - Tech Data
+  - TEGNA
+  - - Teledyne Technologies
+    - Teledyne
+  - Teleflex
+  - - Telephone & Data Systems
+    - Telephone and Data Systems
+  - Tempur Sealy
+  - Tenneco
+  - Teradata
+  - Teradyne
+  - Terex
+  - Tesla
+  - Tesoro
+  - Tetra Tech
+  - Texas Roadhouse
+  - Textron
+  - TJX
+  - Tops Holding
+  - Torchmark
+  - Total System Services
+  - Tower International
+  - TransDigm Group
+  - TreeHouse Foods
+  - TRI Pointe Group
+  - Trimble
+  - TriNet Group
+  - - Triple S Management
+    - TripleS Management
+    - 'Triple S '
+  - Triumph Group
+  - TrueBlue
+  - Tutor Perini
+  - - Twenty First Century Fox
+    - TwentyFirst Century Fox
+  - - ' UGI '
+  - Unified Grocers
+  - Unisys
+  - Univar
+  - Universal
+  - Universal Forest Products
+  - Univision Communications
+  - Unum Group
+  - - ' US Foods'
+  - - ' USG '
+  - Vantiv
+  - - ' VCA '
+  - Vectren
+  - Ventas
+  - - VeriFone Systems
+    - VeriFone
+  - - Verisk Analytics
+    - Verisk
+  - Veritiv
+  - Verso
+  - Viacom
+  - Vishay Intertechnology
+  - Vista Outdoor
+  - Visteon
+  - - ' VWR '
+  - - WR Berkley
+    - WRBerkley
+  - Wabash National
+  - WABCO
+  - Warner Music
+  - Watsco
+  - Wayfair
+  - Weis Markets
+  - Welltower
+  - Werner Enterprises
+  - - WESCO
+    - WESCO International
+  - Western Digital
+  - Western Refining
+  - Western Union
+  - WestRock
+  - Weyerhaeuser
+  - WGL Holdings
+  - WhiteWave Foods
+  - Windstream Holdings
+  - World Fuel Services
+  - Worldpay
+  - - Wyndham Worldwide
+    - Wyndham
+  - Xilinx
+  - XPO Logistics
+  - YRC Worldwide
+  - Zayo Group
+  - Zoetis
+  company_services:
+  - - ' ADP '
+    - Automatic Data Processing
+  - - Adtalem Global Education
+    - DeVry Education Group
+  - AECOM
+  - Alaska Communications
+  - Align Technology
+  - Alliance Data Systems
+  - Altice
+  - - Amerco
+    - UHAUAL
+  - American Greetings
+  - American Tower
+  - Apollo Education Group
+  - Aramark
+  - - ArcBest
+    - ABF Freight
+  - ASGN
+  - AT&T
+  - Boston Consulting Group
+  - - ' Brinks '
+  - Brookdale Senior Living
+  - CenturyLink
+  - Cintas
+  - Clean Harbors
+  - Comcast
+  - Consolidated Communications
+  - DISH Network
+  - Disney
+  - - Dycom Industries
+    - Dycom
+  - Ecolab
+  - Frontier Communications
+  - Equifax
+  - - ' EY '
+  - FedEx
+  - H&R Block
+  - Iron Mountain
+  - L3 Communications
+  - Level 3 Communications
+  - Mastercard
+  - Meredith
+  - Public Storage
+  - Republic Services
+  - Sinclair Broadcast Group
+  - Stericycle
+  - - TDS Telecom
+    - Telephone and Data Systems
+  - Time Warner
+  - Tribune Media
+  - - United Parcel Service
+    - ' UPS '
+  - United Rentals
+  - - Verizon Communications
+    - Verizon
+  - Visa
+  - WW Grainger
+  - Walt Disney
+  - Waste Management
+  - 20th Century Fox Television
+  - ABC Studios
+  - Sony Pictures
+  - Universal Studio
+  - Amblin Television
+  - Warner Bros Television
+  - New Line Television
+  - MGM Television
+  company_tech:
+  - Activision Blizzard
+  - Acer
+  - - Adobe
+    - Adobe Systems
+  - - ' ADT '
+  - Advanced Micro Devices
+  - Akamai Technologies
+  - Alphabet
+  - Amkor Technology
+  - Amphenol
+  - Analog Devices
+  - Apache
+  - Apple
+  - Applied Materials
+  - Arista Networks
+  - Arrow Electronics
+  - AT&T
+  - Asus
+  - Autodesk
+  - Avaya
+  - Avnet
+  - Baidu
+  - - Booking Holdings
+    - Bookingcom
+    - Pricelinecom
+    - Agodacom
+    - Kayakcom
+    - Cheapflights
+    - Rentalcarscom
+    - Momondo
+    - OpenTable
+  - Booz Allen Hamilton
+  - Broadcom
+  - - Citrix Systems
+    - Citrix
+  - - Cognizant Technology Solutions
+    - Cognizant Technology
+  - Cornerstone onDemand
+  - Cypress Semiconductor
+  - Dell Technologies
+  - DXC Technology
+  - eBay
+  - Electronic Arts
+  - - Expedia
+    - Expedia Group
+  - Facebook
+  - Foxconn
+  - Fitbit
+  - Fujitsu
+  - GoDaddy
+  - Groupon
+  - Halogen Software
+  - - Harman International Industries
+    - Harman International
+  - - Hewlett Packard Enterprise
+    - Hewlett Packard
+    - HP Inc
+  - Hitachi
+  - Huawei
+  - - 'IBM '
+  - iCIMS
+  - - 'Intel '
+  - - Jabil Circuit
+    - Jabil
+  - JDcom
+  - Kenexa
+  - Lawson Software
+  - Lenovo
+  - LG Electronics
+  - Lyft
+  - - Maxar Technologies
+    - Maxar
+  - Microchip Technology
+  - Micron Technology
+  - Microsoft
+  - Netflix
+  - Nvidia
+  - ON Semiconductor
+  - Oracle
+  - Panasonic
+  - Pitney Bowes
+  - Red Hat
+  - Saba Software
+  - Samsung
+  - SAP
+  - - Salesforce
+    - salesforcecom
+  - Shutterfly
+  - Square
+  - SS&C Technologies
+  - Skillsoft
+  - Sony
+  - Sumtotal Systems
+  - Super Micro Computer
+  - Taleo Corporation
+  - TCS
+  - Tencent
+  - Texas Instruments
+  - TTM Technologies
+  - Twitter
+  - Workday
+  - Xerox
+  - Yahoo
+  - Zebra Technologies
+case_sensitive_education:
+  associate_education_level:
+  - - Associate of Arts
+    - A.A.
+    - ' AA '
+  - - Associate of Science
+    - A.S.
+    - ' AS '
+  - - Associate of Applied Science
+    - A.A.S.
+    - ' AAS '
+  - - Associate of General Studies
+    - A.G.S.
+    - ' AGS '
+  - Associates Degree
+  - Community College
+  bachelor_education_level:
+  - - Bachelor of Arts
+    - Bachelors of Arts
+    - B.A.
+    - ' BA '
+  - - Bachelor of Fine Arts
+    - Bachelor in Fine Arts
+    - Bachelors of Fine Arts
+    - B.F.A.
+    - ' BFA '
+  - - Bachelor of Science
+    - Bachelors of Science
+    - Bachelor in Science
+    - B.S.
+    - ' BS '
+    - ' BSC '
+    - BSc
+    - B.Sc
+  - - Bachelor of Engineering
+    - Bachelor in Engineering
+    - Bachelors of Engineering
+    - B.E.
+    - ' BE '
+  - - Bachelor of Economics
+    - Bachelors of Economics
+    - Bachelor in Economics
+  - - Bachelor of Accounting
+    - Bachelor of Accountancy
+    - Bachelor in Accountancy
+    - Bachelor in Accounting
+  - - Bachelor of Technology
+    - Bachelors of Technology
+    - Bachelor in Technology
+  - - Bachelor of Medical Science
+    - Bachelors of Medical Science
+    - Bachelor in Medical Science
+  - - Bachelor of Commerce
+    - Bachelors of Commerce
+    - Bachelor in Commerce
+  - - Bachelor of Finance
+    - Bachelors of Finance
+    - Bachelor in Finance
+  - - Bachelor of Business Administration
+    - Bachelors of Business Administration
+    - Bachelor in Business Administration
+    - B.B.A.
+    - ' BBA '
+  - - Bachelor of Business
+    - Bachelors of Business
+    - Bachelor in Business
+  - - Bachelor of Commerce
+    - Bachelor in Commerce
+    - Bachelors of Commerce
+    - B.Comm
+  - - Bachelor of Health Science
+    - Bachelors of Health Science
+    - Bachelor in Health Science
+    - ' BHS '
+    - B.H.S.
+  - - Bachelor of Law
+    - Bachelors of Law
+    - LLB
+  - - Bachelor Degree
+    - Bachelors Degree
+    - "Bachelor\u2019s Degree"
+    - Bachelor's Degree
+  doctor_education_level:
+  - - J.D.
+    - Juris Doctor
+    - Law School
+  - - Medical Doctor
+    - M.D.
+    - ' MD '
+    - Doctor of Medicine
+    - Medical School
+  - - Doctor of Dental Surgery
+    - D.D.S.
+    - ' DDS '
+  - - Doctor of Pharmacy
+    - Pharm.D.
+    - PharmD
+  - - Doctor of Philosophy
+    - PhD
+    - Ph.D
+  - - Doctoral Program
+    - Doctoral Candidate
+  master_education_level:
+  - - Master of Business Administration
+    - Masters of Business Administration
+    - Master's of Business Administration
+    - ' MBA'
+    - M.B.A.
+  - - Master of Fine Arts
+    - Masters of Fine Arts
+    - Master's of Fine Arts
+    - M.F.A.
+    - ' MFA '
+  - - Master of Education
+    - Masters of Education
+    - Master's of Education
+  - - Master of Business
+    - Masters of Business
+    - Master's of Business
+  - - Master of Public Administration
+    - Master's of Public Administration
+    - Masters of Public Administration
+    - Master in Public Administration
+    - M.P.A
+    - ' MPA '
+  - - Master of Public Policy
+    - Master's of Public Policy
+    - Masters of Public Policy
+    - Master in Public Policy
+    - M.P.P.
+    - ' MPP '
+  - - Master of Business Finance
+    - Master's of Business Finance
+    - Masters of Business Finance
+    - Master in Business Finance
+    - ' MBF '
+  - - Master of Arts
+    - Masters of Arts
+    - Master's of Arts
+    - M.A.
+    - ' MA '
+  - - Master of Science
+    - Masters of Science
+    - Master's of Science
+    - MSc
+    - M.S.
+    - M.Sc
+    - ' MS '
+    - ' MS.'
+  - Graduate Education
+  - Graduate School
+data_schema_dir: ../data/schema
+resume_directory: ../data/input/resumes
+summary_output_directory: ../data/output

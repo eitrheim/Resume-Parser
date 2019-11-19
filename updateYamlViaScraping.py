@@ -6,7 +6,7 @@ import itertools
 
 
 def update_yaml(main_section, sub_section, wiki_extension):
-    with open('TESTING.yaml', 'r') as stream:
+    with open('confs/config.yaml', 'r') as stream:
         try:
             data_loaded = yaml.safe_load(stream)
         except yaml.YAMLError as exc:
@@ -34,6 +34,8 @@ def update_yaml(main_section, sub_section, wiki_extension):
             break
         elif li.text == 'Enterprise search':
             break
+        elif li.text == 'Distance education institutions based in the United States':
+            break
         elif 'List of ' in li.text:
             break
         elif 'Lists of ' in li.text:
@@ -53,6 +55,12 @@ def update_yaml(main_section, sub_section, wiki_extension):
         elif li.text == 'Bass effects':
             break
         elif li.text == 'Multinational company topics':
+            break
+        elif li.text == 'Great Books Program':
+            break
+        elif li.text == 'Higher education in the United States':
+            break
+        elif li.text == 'Polytechnics':
             break
         else:
             x = li.text
@@ -74,8 +82,63 @@ def update_yaml(main_section, sub_section, wiki_extension):
     print("Updated Yaml File Saved")
 
 
+def update_yaml_dash_comma_split(main_section, sub_section, wiki_extension):
+    with open('confs/config.yaml', 'r') as stream:
+        try:
+            data_loaded = yaml.safe_load(stream)
+        except yaml.YAMLError as exc:
+            print(exc)
+    print("Accessing Wikipedia")
+    html = requests.get('https://en.wikipedia.org/wiki/' + wiki_extension).text
+    soup = bs(html, 'html.parser')
+    print("Getting List Items and Adding to YAML\n")
+    for i, li in enumerate(soup.select('li')):
+        if list(li.attrs.keys()) == ['class']:
+            pass
+        elif list(li.attrs.keys()) == ['id']:
+            pass
+        elif list(li.attrs.keys()) == ['style']:
+            pass
+        elif 'List of ' in li.text:
+            break
+        elif 'Lists of ' in li.text:
+            break
+        elif li.text == '3D printer companies':
+            break
+        elif li.text == 'Electronic design':
+            break
+        elif li.text == 'Official website':
+            break
+        elif li.text == 'Land Grant Colleges':
+            break
+        elif li.text == 'Catholicism portal':
+            break
+        elif li.text == 'Student loan debt':
+            break
+        elif li.text == 'Art school':
+            break
+        else:
+            x = li.text
+            x = x.split(' (')[0].split('[')[0].split(' –')[0].split(' -')[0].split(',')[0]
+            x = re.sub('[,.-]', '', x).replace('\'', '').replace('–', ' ').replace('–', ' ').lstrip()
+            print(x)
+            data_loaded[main_section][sub_section].append(x)
+
+    try:
+        data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=lambda x: x[0])
+        data_loaded[main_section][sub_section] = list(
+            k for k, _ in itertools.groupby(data_loaded[main_section][sub_section]))
+        print("\nSorted and Dropped Duplicates")
+    except IndexError:
+        pass
+
+    with open('TESTING.yaml', 'w') as fp:
+        yaml.dump(data_loaded, fp)
+    print("Updated Yaml File Saved")
+
+
 def update_yaml_table1(main_section, sub_section, wiki_extension, col):
-    with open('TESTING.yaml', 'r') as stream:
+    with open('confs/config.yaml', 'r') as stream:
         try:
             data_loaded = yaml.safe_load(stream)
         except yaml.YAMLError as exc:
@@ -108,7 +171,7 @@ def update_yaml_table1(main_section, sub_section, wiki_extension, col):
 
 
 def update_yaml_table2(main_section, sub_section, wiki_extension, col):
-    with open('TESTING.yaml', 'r') as stream:
+    with open('confs/config.yaml', 'r') as stream:
         try:
             data_loaded = yaml.safe_load(stream)
         except yaml.YAMLError as exc:
@@ -141,7 +204,7 @@ def update_yaml_table2(main_section, sub_section, wiki_extension, col):
 
 
 def update_yaml_table2lists(main_section, sub_section, wiki_extension, col):
-    with open('TESTING.yaml', 'r') as stream:
+    with open('confs/config.yaml', 'r') as stream:
         try:
             data_loaded = yaml.safe_load(stream)
         except yaml.YAMLError as exc:
@@ -176,7 +239,7 @@ def update_yaml_table2lists(main_section, sub_section, wiki_extension, col):
 
 
 def update_yaml_table3(main_section, sub_section, wiki_extension, col):
-    with open('TESTING.yaml', 'r') as stream:
+    with open('confs/config.yaml', 'r') as stream:
         try:
             data_loaded = yaml.safe_load(stream)
         except yaml.YAMLError as exc:
@@ -209,7 +272,7 @@ def update_yaml_table3(main_section, sub_section, wiki_extension, col):
 
 
 def update_yaml_table4(main_section, sub_section, wiki_extension, col):
-    with open('TESTING.yaml', 'r') as stream:
+    with open('confs/config.yaml', 'r') as stream:
         try:
             data_loaded = yaml.safe_load(stream)
         except yaml.YAMLError as exc:
@@ -242,7 +305,7 @@ def update_yaml_table4(main_section, sub_section, wiki_extension, col):
 
 
 def update_yaml_table4all(main_section, sub_section, wiki_extension, col):
-    with open('TESTING.yaml', 'r') as stream:
+    with open('confs/config.yaml', 'r') as stream:
         try:
             data_loaded = yaml.safe_load(stream)
         except yaml.YAMLError as exc:
@@ -277,7 +340,7 @@ def update_yaml_table4all(main_section, sub_section, wiki_extension, col):
 
 
 def update_yaml_table5(main_section, sub_section, wiki_extension, col):
-    with open('TESTING.yaml', 'r') as stream:
+    with open('confs/config.yaml', 'r') as stream:
         try:
             data_loaded = yaml.safe_load(stream)
         except yaml.YAMLError as exc:
@@ -310,7 +373,7 @@ def update_yaml_table5(main_section, sub_section, wiki_extension, col):
 
 
 def update_yaml_table6(main_section, sub_section, wiki_extension):
-    with open('TESTING.yaml', 'r') as stream:
+    with open('confs/config.yaml', 'r') as stream:
         try:
             data_loaded = yaml.safe_load(stream)
         except yaml.YAMLError as exc:
@@ -344,6 +407,41 @@ def update_yaml_table6(main_section, sub_section, wiki_extension):
                         x = re.sub('[,.-]', '', x).replace('\n', '').replace('\'', '')
                         print(x)
                         data_loaded[main_section][sub_section].append(x)
+    try:
+        data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=lambda x: x[0])
+        data_loaded[main_section][sub_section] = list(
+            k for k, _ in itertools.groupby(data_loaded[main_section][sub_section]))
+        print("\nSorted and Dropped Duplicates")
+    except IndexError:
+        pass
+
+    with open('TESTING.yaml', 'w') as fp:
+        yaml.dump(data_loaded, fp)
+    print("Updated Yaml File Saved")
+
+
+def update_yaml_table7(main_section, sub_section, wiki_extension):
+    with open('confs/config.yaml', 'r') as stream:
+        try:
+            data_loaded = yaml.safe_load(stream)
+        except yaml.YAMLError as exc:
+            print(exc)
+    print("Accessing Wikipedia")
+    html = requests.get('https://en.wikipedia.org/wiki/' + wiki_extension).text
+    soup = bs(html, 'html.parser')
+    print("Getting List Items and Adding to YAML\n")
+
+    right_table = soup.find('table')
+    for row in right_table.findAll('tr'):
+        for col in row.findAll('th'):
+            for tag in col.find_all(True):
+                if tag.text in ['Location', 'Partners', 'Industries', 'Assets under management']:
+                    pass
+                else:
+                    x = tag.text.split(" (")[0]
+                    x = re.sub('[,.-]', '', x).replace('\n', '').replace('\'', '')
+                    print(x)
+                    data_loaded[main_section][sub_section].append(x)
 
     try:
         data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=lambda x: x[0])
@@ -358,7 +456,115 @@ def update_yaml_table6(main_section, sub_section, wiki_extension):
     print("Updated Yaml File Saved")
 
 
-update_yaml('case_agnostic_work', 'company_foodbev', 'List_of_food_companies')
+############################ updating schools ############################
+# list_of_links = []
+# print("Accessing Wikipedia")
+# html = requests.get('https://en.wikipedia.org/wiki/List_of_college_athletic_programs_by_U.S._state').text
+# soup = bs(html, 'html.parser')
+# for i, li in enumerate(soup.select('li')):
+#     if list(li.attrs.keys()) == ['class']:
+#         pass
+#     elif list(li.attrs.keys()) == ['id']:
+#         pass
+#     elif list(li.attrs.keys()) == ['style']:
+#         pass
+#     elif li.text == 'List of Division I athletic directors':
+#         break
+#     else:
+#         list_of_links.append(li.text)
+#         print(li.text)
+#
+# for link in list_of_links:
+#     update_yaml_table4all('case_agnostic_education', 'other_universities', link, 1)
+
+# update_yaml_table7('case_agnostic_education', 'other_universities', 'List_of_NAIA_institutions')
+# update_yaml_table7('case_agnostic_education', 'other_universities', 'List_of_NCAA_Division_I_institutions')
+# update_yaml_table7('case_agnostic_education', 'other_universities', 'List_of_NCAA_Division_II_institutions')
+# update_yaml_table7('case_agnostic_education', 'other_universities', 'List_of_NCAA_Division_III_institutions')
+# update_yaml_table4('case_agnostic_education', 'other_universities', 'List_of_USCAA_institutions', 0)
+# update_yaml_table4all('case_agnostic_education', 'other_universities', 'List_of_NCCAA_institutions', 0)
+# update_yaml_table4('case_agnostic_education', 'other_universities', 'List_of_American_colleges_and_universities_abroad', 0)
+# update_yaml('case_agnostic_education', 'other_universities', 'List_of_NAIH_Institutions')
+# update_yaml_table4('case_agnostic_education', 'other_universities', 'List_of_NCAA_Division_II_wrestling_programs', 0)
+# update_yaml_table4('case_agnostic_education', 'other_universities', 'List_of_Benedictine_colleges_and_universities', 0)
+# update_yaml_table4('case_agnostic_education', 'other_universities', 'List_of_historically_black_colleges_and_universities', 0)
+# update_yaml('case_agnostic_education', 'community_college', 'List_of_community_colleges')
+# update_yaml_table4all('case_agnostic_education', 'other_universities', 'List_of_colleges_and_universities_in_the_United_States_by_endowment', 0)
+# update_yaml_table4('case_agnostic_education', 'other_universities', 'List_of_schools_of_international_relations_in_the_United_States', 2)
+# update_yaml_dash_comma_split('case_agnostic_education', 'community_college', 'List_of_junior_colleges_in_the_United_States')
+# update_yaml('case_agnostic_education', 'other_universities', 'List_of_universities_accredited_by_DEAC')
+# update_yaml_table4('case_agnostic_education', 'other_universities', 'List_of_medical_schools_in_the_United_States', 1)
+# update_yaml_table4('case_agnostic_education', 'other_universities', 'List_of_Lutheran_colleges_and_universities_in_the_United_States', 0)
+# update_yaml_table4('case_agnostic_education', 'other_universities', 'List_of_library_science_schools', 1)
+# update_yaml('case_agnostic_education', 'other_universities', 'List_of_library_science_schools')
+# update_yaml('case_agnostic_education', 'other_universities', 'List_of_liberal_arts_colleges_in_the_United_States')
+# update_yaml_table4all('case_agnostic_education', 'other_universities', 'List_of_law_schools_in_the_United_States', 1)
+# update_yaml('case_agnostic_education', 'other_universities', 'List_of_land-grant_universities')
+# update_yaml_table4('case_agnostic_education', 'other_universities', 'List_of_University_of_Puerto_Rico_campuses', 0)
+# update_yaml('case_agnostic_education', 'other_universities', 'List_of_Posse_Scholars_school_partnerships')
+# update_yaml_table4all('case_agnostic_education', 'other_universities', 'List_of_pharmacy_schools_in_the_United_States', 2)
+# update_yaml('case_agnostic_education', 'other_universities', 'List_of_online_colleges_in_the_United_States')
+# update_yaml_table4all('case_agnostic_education', 'other_universities', 'List_of_American_universities_with_Olympic_medals', 1)
+# update_yaml_dash_comma_split('case_agnostic_education', 'other_universities', 'List_of_nursing_schools_in_the_United_States')
+# update_yaml_dash_comma_split('case_agnostic_education', 'other_universities', 'National_Space_Grant_College_and_Fellowship_Program')
+# update_yaml_dash_comma_split('case_agnostic_education', 'other_universities', 'National_Sea_Grant_College_Program')
+# update_yaml_table4all('case_agnostic_education', 'other_universities', 'List_of_research_universities_in_the_United_States', 0)
+# update_yaml('case_agnostic_education', 'other_universities', 'List_of_Catholic_universities_and_colleges_in_the_United_States')
+# update_yaml('case_agnostic_education', 'other_universities', 'List_of_state_and_territorial_universities_in_the_United_States')
+# update_yaml_table4('case_agnostic_education', 'community_college', 'List_of_United_States_technological_universities', 0)
+# update_yaml_table4('case_agnostic_education', 'other_universities', 'List_of_schools_accredited_by_the_Association_of_Theological_Schools_in_the_United_States_and_Canada', 0)
+# update_yaml('case_agnostic_education', 'other_universities', 'List_of_tribal_colleges_and_universities')
+# update_yaml('case_agnostic_education', 'other_universities', 'List_of_schools_of_veterinary_medicine')
+# update_yaml('case_agnostic_education', 'community_college', 'List_of_vocational_colleges_in_the_United_States')
+# update_yaml_dash_comma_split('case_agnostic_education', 'other_universities', 'List_of_for-profit_universities_and_colleges')
+# update_yaml_table4('case_agnostic_education', 'other_universities', 'List_of_largest_universities_and_university_networks_by_enrollment', 1)
+# update_yaml('case_agnostic_education', 'other_universities', 'List_of_postgraduate-only_institutions')
+# update_yaml_dash_comma_split('case_agnostic_education', 'other_universities', 'List_of_unaccredited_institutions_of_higher_education')
+# update_yaml_dash_comma_split('case_agnostic_education', 'other_universities', 'List_of_international_schools')
+# update_yaml_dash_comma_split('case_agnostic_education', 'other_universities', 'List_of_EQUIS_accredited_institutions')
+# update_yaml_dash_comma_split('case_agnostic_education', 'other_universities', 'List_of_institutions_accredited_by_AMBA')
+# update_yaml_dash_comma_split('case_agnostic_education', 'other_universities', 'List_of_schools_of_international_relations')
+# update_yaml_dash_comma_split('case_agnostic_education', 'other_universities', 'List_of_liberal_arts_colleges')
+# update_yaml_table4('case_agnostic_education', 'other_universities', 'List_of_lantern_slide_collections', 0)
+# update_yaml_table4all('case_agnostic_education', 'other_universities', 'List_of_engineering_schools', 1)
+# update_yaml_table4all('case_agnostic_education', 'other_universities', 'List_of_engineering_schools', 1)
+# update_yaml('case_agnostic_education', 'other_universities', 'List_of_art_schools')
+# update_yaml_table4all('case_agnostic_education', 'other_universities', 'List_of_open_universities', 0)
+# update_yaml('case_agnostic_education', 'other_universities', 'National_university')
+
+
+
+
+
+
+
+
+#if it says community college move it to community/technical college
+
+# deleting schools in 'other' if they are in another section
+with open('confs/config.yaml', 'r') as stream:
+    data_loaded = yaml.safe_load(stream)
+
+for company_type in data_loaded['case_agnostic_education'].keys():
+    if company_type == 'other_universities':
+        pass
+    else:
+        for item in data_loaded['case_agnostic_education'][company_type]:
+            if item in data_loaded['case_agnostic_education']['other_universities']:
+                data_loaded['case_agnostic_education']['other_universities'].remove(item)
+                print(item, "deleted from other_universities")
+
+with open('confs/config.yaml', 'w') as fp:
+    yaml.dump(data_loaded, fp)
+
+
+
+
+
+
+
+############################ updating companies ############################
+# update_yaml('case_agnostic_work', 'company_foodbev', 'List_of_food_companies')
 # update_yaml_table1('case_agnostic_work', 'company_health', 'List_of_largest_biotechnology_and_pharmaceutical_companies', 1)
 # update_yaml('case_agnostic_work', 'company_health', 'List_of_pharmaceutical_companies')
 # update_yaml('case_agnostic_work', 'company_fin', 'List_of_asset_management_firms')
@@ -443,36 +649,33 @@ update_yaml('case_agnostic_work', 'company_foodbev', 'List_of_food_companies')
 # update_yaml_table4('case_agnostic_work', 'company_other', 'List_of_companies_of_the_European_Union', 1)
 # update_yaml_table4('case_agnostic_work', 'company_energychem', 'List_of_copper_production_by_company', 1)
 # update_yaml_table4all('case_agnostic_work', 'company_other', 'List_of_largest_corporate_profits_and_losses', 1)
+# update_yaml('case_agnostic_work', 'company_other', 'List_of_private_security_companies')
+# update_yaml_table4all('case_agnostic_work', 'company_tech', 'List_of_private_spaceflight_companies', 0)
+# update_yaml('case_agnostic_work', 'company_other', 'List_of_multi-level_marketing_companies')
+# update_yaml('case_agnostic_work', 'company_services', 'List_of_television_production_companies')
+# update_yaml_table4all('case_agnostic_work', 'company_services', 'List_of_United_States_over-the-air_television_networks', 0)
+# update_yaml_table4all('case_agnostic_work', 'company_services', 'List_of_United_States_pay_television_channels', 0)
+# update_yaml_dash_comma_split('case_agnostic_work', 'company_other', 'List_of_modeling_agencies')
+# update_yaml_dash_comma_split('case_agnostic_work', 'company_tech', 'List_of_3D_printer_manufacturers')
+# update_yaml_dash_comma_split('case_agnostic_work', 'company_tech', 'List_of_semiconductor_IP_core_vendors')
+# update_yaml_dash_comma_split('case_agnostic_work', 'company_energychem', 'List_of_United_States_electric_companies')
 
+# # deleting companies in 'other' if they are in another section
+# with open('TESTING.yaml', 'r') as stream:
+#     data_loaded = yaml.safe_load(stream)
+#
+# for company_type in data_loaded['case_agnostic_work'].keys():
+#     if company_type == 'company_other':
+#         pass
+#     else:
+#         for item in data_loaded['case_agnostic_work'][company_type]:
+#             if item in data_loaded['case_agnostic_work']['company_other']:
+#                 data_loaded['case_agnostic_work']['company_other'].remove(item)
+#                 print(item, "deleted from company_other")
+#
+# with open('TESTING.yaml', 'w') as fp:
+#     yaml.dump(data_loaded, fp)
 
-
-
-
-# deleting companies in 'other' if they are in another section
-with open('TESTING.yaml', 'r') as stream:
-    data_loaded = yaml.safe_load(stream)
-
-for company_type in data_loaded['case_agnostic_work'].keys():
-    if company_type == 'company_other':
-        pass
-    else:
-        for item in data_loaded['case_agnostic_work'][company_type]:
-            if item in data_loaded['case_agnostic_work']['company_other']:
-                data_loaded['case_agnostic_work']['company_other'].remove(item)
-                print(item, "deleted from company_other")
-
-with open('TESTING.yaml', 'w') as fp:
-    yaml.dump(data_loaded, fp)
-
-
-
-
-##################################################
-# revisit
-# update_yaml('case_agnostic_work', 'company_tech', 'List_of_3D_printer_manufacturers')
-# update_yaml('case_agnostic_work', 'company_tech', 'List_of_semiconductor_IP_core_vendors')
-# update_yaml('case_agnostic_work', 'company_tech', 'List_of_enterprise_search_vendors')
-# update_yaml('case_agnostic_work', 'company_energychem', 'List_of_United_States_electric_companies')
 ##################################################
 # figure out how to scrape these
 # https://en.wikipedia.org/wiki/List_of_United_States_natural_gas_companies
@@ -482,8 +685,6 @@ with open('TESTING.yaml', 'w') as fp:
 # https://en.wikipedia.org/wiki/state_drive_manufacturers
 # https://en.wikipedia.org/wiki/List_of_video_game_developers
 # https://en.wikipedia.org/wiki/List_of_video_game_publishers
-# https://en.wikipedia.org/wiki/List_of_United_States_over-the-air_television_networks
-# https://en.wikipedia.org/wiki/List_of_United_States_pay_television_channels
 # https://en.wikipedia.org/wiki/List_of_animation_studios
 # https://en.wikipedia.org/wiki/List_of_convenience_stores
 # https://en.wikipedia.org/wiki/List_of_retailers%27_cooperatives
@@ -520,6 +721,4 @@ with open('TESTING.yaml', 'w') as fp:
 # https://en.wikipedia.org/wiki/List_of_largest_employers
 # https://en.wikipedia.org/wiki/List_of_conglomerates
 # https://en.wikipedia.org/wiki/List_of_company_registers#United_States
-
-
-
+# https://en.wikipedia.org/wiki/List_of_film_production_companies
