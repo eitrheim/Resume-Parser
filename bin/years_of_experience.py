@@ -3,9 +3,13 @@ import re
 months = ['january','jan','february','feb','march','mar','april','apr','may','june','jun','july','jul',
           'august','aug','september','sept','sep','october','oct','november', 'nov', 'december', 'dec']
 
+list_of_dates = []
 
-def parse(input_string):
-    list_of_dates = []
+
+def years_of_experience(input_string):
+    input_string = input_string.lower().replace(')', ' - ').replace('–', ' - ').replace('-', ' - ').replace('\n', ' ').replace('\t', ' ').replace('\r', ' ').replace('\'', ' ').replace('’', ' ')
+    input_string = re.sub('[ ]+'," ", input_string)
+
     tokens = filter(None, re.split(r'(\S+|\W+)', input_string))
     tokens = list(tokens)
     for i in range(len(tokens)):
@@ -24,7 +28,7 @@ def parse(input_string):
                                 else:
                                     pass
                             except:
-                                print('fuck4',tokens[i+6])
+                                pass
                         else:
                             pass
                     elif tokens[i+4] == 'to':
@@ -39,7 +43,7 @@ def parse(input_string):
                                 else:
                                     pass
                             except:
-                                print('fuck3',tokens[i+8])
+                                pass
                         else:
                             pass
 
@@ -56,7 +60,7 @@ def parse(input_string):
                                 else:
                                     pass
                             except:
-                                print('fuck4',tokens[i+6])
+                                pass
                         else:
                             pass
                     elif tokens[i+4] == 'to':
@@ -71,20 +75,10 @@ def parse(input_string):
                                 else:
                                     pass
                             except:
-                                print('fuck3',tokens[i+8])
+                                pass
                         else:
                             pass
 
-
             except:
-                print('fuck1', tokens[i+2])
+                pass
     return(list_of_dates)
-
-
-import pandas as pd
-df = pd.read_csv('data/output/resume_summary.csv')
-df = df.Work
-input_string = re.sub('[ ]+'," ", df[15].lower().replace('–', ' - ').replace('-', ' - ').replace('\n', ' ').replace('\t', ' ').replace('\r', ' ').replace('\'', ' ').replace('’', ' '))
-print(input_string,'\n')
-
-parse(list_of_dates)

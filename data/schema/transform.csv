@@ -19,8 +19,10 @@ candidate_name,object,observations
 email,object,observations
 phone,object,observations
 GPA,object,observations
+years_experience,object,observations
 certifications,object,observations
 latin_honors,object,observations
+community_college,object,observations
 major_minor,object,observations
 other_universities,object,observations
 top_100_universities,object,observations
@@ -31,4 +33,12 @@ doctor_education_level,object,observations
 master_education_level,object,observations
 courses,object,observations
 languages,object,observations
+company_consumer,object,observations
+company_energychem,object,observations
+company_fin,object,observations
 company_foodbev,object,observations
+company_health,object,observations
+company_industrial,object,observations
+company_other,object,observations
+company_services,object,observations
+company_tech,object,observations

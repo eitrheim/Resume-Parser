@@ -7,6 +7,8 @@ EMAIL_REGEX = r"[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}"
 PHONE_REGEX = r"\(?(\d{3})?\)?[\s\.-]{0,2}?(\d{3})[\s\.-]{0,2}(\d{4})"
 GPA_REGEX1 = r"GPA[ .:-]+[of ]{0,3}[01234]{1}\.[0-9]{1,3}"
 GPA_REGEX2 = r"[01234]{1}\.[0-9]{1,3}[ .:-]+GPA"
+months = ['january', 'jan', 'february', 'feb', 'march', 'mar', 'april', 'apr', 'may', 'june', 'jun', 'july', 'jul',
+          'august', 'aug', 'september', 'sept', 'sep', 'october', 'oct', 'november', 'nov', 'december', 'dec']
 
 
 def candidate_name_extractor(input_string, nlp):
@@ -48,7 +50,7 @@ def gpa_extractor(input_string):
 
 
 def extract_fields(df):
-    # note all commas are removed at this point from the extract_skills_case_ functions
+    # note all commas and apostrophes are removed at this point from the extract_skills_case_ functions
     print("Extracting certifications, latin honors")
     for extractor, items_of_interest in lib.get_conf('case_agnostic_whole_resume').items():
         # column name is title of the sections in the yaml file
@@ -66,8 +68,7 @@ def extract_fields(df):
     print("Extracting universities and majors/minors")
     for extractor, items_of_interest in lib.get_conf('case_agnostic_education').items():
         df[extractor] = df['Edu'].apply(lambda x: extract_skills_case_agnostic(str(x).replace(' - ', ' ').replace(' & ', ' and ').replace('-', ' ').replace(',', ''), items_of_interest))
-    # TODO drop duplicates
-    # TODO use word2vec to get all similar majors
+    # TODO use word2vec to get all similar majors?
 
     print("Extracting level of education")
     for extractor, items_of_interest in lib.get_conf('case_sensitive_education').items():
@@ -109,7 +110,7 @@ def extract_skills_case_agnostic(resume_text, items_of_interest):
         # iterate through each string in the list of equivalent words (i.e. a line in the yaml file)
         # TODO incorporate word2vec here?
         for skill_alias in skill_alias_list:
-            skill_matches += lib.term_count(resume_text.replace(',', ''), skill_alias.lower())  # add the # of matches for each alias
+            skill_matches += lib.term_count(resume_text.replace(',', '').replace('\'', ''), skill_alias.lower())  # add the # of matches for each alias
 
         if skill_matches > 0:  # if at least one alias is found, add skill name to set of skills
             matched_skills.add(skill_name)
@@ -138,7 +139,7 @@ def extract_skills_case_sensitive(resume_text, items_of_interest):
         skill_matches = 0
         # TODO incorporate word2vec here?
         for skill_alias in skill_alias_list:
-            skill_matches += lib.term_count_case_sensitive(resume_text.replace(',', ''), skill_alias)
+            skill_matches += lib.term_count_case_sensitive(resume_text.replace(',', '').replace('\'', ''), skill_alias)
 
         if skill_matches > 0:
             matched_skills.add(skill_name)
@@ -147,3 +148,82 @@ def extract_skills_case_sensitive(resume_text, items_of_interest):
         matched_skills = ''
 
     return matched_skills
+
+
+def years_of_experience(input_string):
+    list_of_dates = []
+    input_string = input_string.lower().replace(')', ' - ').replace('–', ' - ').replace('-', ' - ').replace('\n', ' ').replace('\t', ' ').replace('\r', ' ').replace('\'', ' ').replace('’', ' ')
+    input_string = re.sub('[ ]+', " ", input_string)
+
+    tokens = filter(None, re.split(r'(\S+|\W+)', input_string))
+    tokens = list(tokens)
+    for i in range(len(tokens)):
+        if tokens[i] in months:
+            try:
+                if int(tokens[i+2]) in range(1970,2025):
+                    if tokens[i+3] == ' - ':
+                        if tokens[i+4] in ['current', 'present', 'today']:
+                            list_of_dates.append(''.join(tokens[i:i+5]))
+                        elif tokens[i+4] in months:
+                            try:
+                                if int(tokens[i+6]) in range(1970,2025):
+                                    list_of_dates.append(''.join(tokens[i:i+7]))
+                                elif int(tokens[i+6]) in range(0,100):
+                                    list_of_dates.append(''.join(tokens[i:i+7]))
+                                else:
+                                    pass
+                            except:
+                                pass
+                        else:
+                            pass
+                    elif tokens[i+4] == 'to':
+                        if tokens[i+6] in ['current', 'present', 'today']:
+                            list_of_dates.append(''.join(tokens[i:i+7]))
+                        elif tokens[i+6] in months:
+                            try:
+                                if int(tokens[i+8]) in range(1970,2025):
+                                    list_of_dates.append(''.join(tokens[i:i+9]))
+                                elif int(tokens[i+8]) in range(0,100):
+                                    list_of_dates.append(''.join(tokens[i:i+9]))
+                                else:
+                                    pass
+                            except:
+                                pass
+                        else:
+                            pass
+
+                elif int(tokens[i+2]) in range(0,100):
+                    if tokens[i+3] == ' - ':
+                        if tokens[i+4] in ['current', 'present', 'today']:
+                            list_of_dates.append(''.join(tokens[i:i+5]))
+                        elif tokens[i+4] in months:
+                            try:
+                                if int(tokens[i+6]) in range(1970,2025):
+                                    list_of_dates.append(''.join(tokens[i:i+7]))
+                                elif int(tokens[i+6]) in range(0,100):
+                                    list_of_dates.append(''.join(tokens[i:i+7]))
+                                else:
+                                    pass
+                            except:
+                                pass
+                        else:
+                            pass
+                    elif tokens[i+4] == 'to':
+                        if tokens[i+6] in ['current', 'present', 'today']:
+                            list_of_dates.append(''.join(tokens[i:i+7]))
+                        elif tokens[i+6] in months:
+                            try:
+                                if int(tokens[i+8]) in range(1970,2025):
+                                    list_of_dates.append(''.join(tokens[i:i+9]))
+                                elif int(tokens[i+8]) in range(0,100):
+                                    list_of_dates.append(''.join(tokens[i:i+9]))
+                                else:
+                                    pass
+                            except:
+                                pass
+                        else:
+                            pass
+
+            except:
+                pass
+    return list_of_dates

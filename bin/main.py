@@ -89,6 +89,7 @@ def transform(observations, nlp):
     observations['email'] = observations['text'].apply(lambda x: lib.term_match(x, field_extraction.EMAIL_REGEX))
     observations['phone'] = observations['text'].apply(lambda x: lib.term_match(x, field_extraction.PHONE_REGEX))
     observations['GPA'] = observations['text'].apply(lambda x: field_extraction.gpa_extractor(x))
+    observations['years_experience'] = observations['Work'].apply(lambda x: field_extraction.years_of_experience(x))
 
     # observations['work_dates'] = observations['Work'].apply(
     #     lambda x: field_extraction.spacy_extractor_by_type(str(x).replace('\n', '. '), nlp, 'DATE', 2))
