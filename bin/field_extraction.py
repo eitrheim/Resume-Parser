@@ -51,52 +51,53 @@ def gpa_extractor(input_string):
 
 def extract_fields(df):
     # note all commas and apostrophes are removed at this point from the extract_skills_case_ functions
-    print("Extracting certifications, latin honors")
-    for extractor, items_of_interest in lib.get_conf('case_agnostic_whole_resume').items():
-        # column name is title of the sections in the yaml file
-        df[extractor] = df['text'].apply(lambda x: extract_skills_case_agnostic(x, items_of_interest))
-    # drop cum laude if summa cum laude or magna cum laude are present
-    x = df[df.latin_honors == df.latin_honors]  # so it doesn't look at nans
-    for i in x.index:
-        if 'summa cum laude' in x.latin_honors.loc[i]:
-            df.latin_honors.loc[i].remove('cum laude')
-        elif 'magna cum laude' in x.latin_honors.loc[i]:
-            df.latin_honors.loc[i].remove('cum laude')
-        else:
-            pass
+    # print("Extracting certifications, latin honors, soft skills")
+    # for extractor, items_of_interest in lib.get_conf('case_agnostic_whole_resume').items():
+    #     # column name is title of the sections in the yaml file
+    #     df[extractor] = df['text'].apply(lambda x: extract_skills_case_agnostic(x, items_of_interest))
+    # # drop cum laude if summa cum laude or magna cum laude are present
+    # x = df[df.latin_honors == df.latin_honors]  # so it doesn't look at nans
+    # for i in x.index:
+    #     if 'summa cum laude' in x.latin_honors.loc[i]:
+    #         df.latin_honors.loc[i].remove('cum laude')
+    #     elif 'magna cum laude' in x.latin_honors.loc[i]:
+    #         df.latin_honors.loc[i].remove('cum laude')
+    #     else:
+    #         pass
 
-    print("Extracting universities and majors/minors")
-    for extractor, items_of_interest in lib.get_conf('case_agnostic_education').items():
-        df[extractor] = df['Edu'].apply(lambda x: extract_skills_case_agnostic(str(x).replace(' - ', ' ').replace(' & ', ' and ').replace('-', ' ').replace(',', ''), items_of_interest))
-    # TODO use word2vec to get all similar majors?
+    # print("Extracting universities and majors/minors")
+    # for extractor, items_of_interest in lib.get_conf('case_agnostic_education').items():
+    #     df[extractor] = df['Edu'].apply(lambda x: extract_skills_case_agnostic(str(x).replace(' - ', ' ').replace(' & ', ' and ').replace('-', ' ').replace(',', ''), items_of_interest))
+    # # TODO use word2vec to get all similar majors?
 
-    print("Extracting level of education")
-    for extractor, items_of_interest in lib.get_conf('case_sensitive_education').items():
-        df[extractor] = df['Edu'].apply(lambda x: extract_skills_case_sensitive(x.replace('\n', ' '), items_of_interest))
+    # print("Extracting level of education")
+    # for extractor, items_of_interest in lib.get_conf('case_sensitive_education').items():
+    #     df[extractor] = df['Edu'].apply(lambda x: extract_skills_case_sensitive(x.replace('\n', ' '), items_of_interest))
 
-    print("Extracting coursework")
-    for extractor, items_of_interest in lib.get_conf('case_agnostic_courses').items():
-        df[extractor] = df['Course'].apply(lambda x: extract_skills_case_agnostic(x, items_of_interest))
+    # print("Extracting coursework")
+    # for extractor, items_of_interest in lib.get_conf('case_agnostic_courses').items():
+    #     df[extractor] = df['Course'].apply(lambda x: extract_skills_case_agnostic(x, items_of_interest))
 
-    print("Extracting languages spoken")
-    for extractor, items_of_interest in lib.get_conf('case_agnostic_languages').items():
-        df[extractor] = df['Language'].apply(lambda x: extract_skills_case_agnostic(x, items_of_interest))
+    # print("Extracting languages spoken")
+    # for extractor, items_of_interest in lib.get_conf('case_agnostic_languages').items():
+    #     df[extractor] = df['Language'].apply(lambda x: extract_skills_case_agnostic(x, items_of_interest))
+
+    # print("Extracting hobbies and interests")
+    # for extractor, items_of_interest in lib.get_conf('case_agnostic_hobbies').items():
+    #     df[extractor] = df['Hobby'].apply(
+    #         lambda x: extract_skills_case_agnostic(x.replace('\'', ''), items_of_interest))
+
+    print("Extracting technical skills")
+    for extractor, items_of_interest in lib.get_conf('case_agnostic_skill').items():
+        df[extractor] = df['Skill'].apply(
+            lambda x: extract_skills_case_agnostic(re.sub('[,.]', '', x).replace('\'', ''), items_of_interest))
 
     print("Extracting companies worked at")
     for extractor, items_of_interest in lib.get_conf('case_agnostic_work').items():
         df[extractor] = df['Work'].apply(lambda x: extract_skills_case_agnostic(re.sub('[,.-]', '', x).replace('\'', ''), items_of_interest))
 
-    print("Extracting hobbies and interests")
-    for extractor, items_of_interest in lib.get_conf('case_agnostic_hobbies').items():
-        df[extractor] = df['Hobby'].apply(
-            lambda x: extract_skills_case_agnostic(x.replace('\'', ''), items_of_interest))
-
-    print("Extracting technical and soft skills")
-    for extractor, items_of_interest in lib.get_conf('case_agnostic_skill').items():
-        df[extractor] = df['Skill'].apply(
-            lambda x: extract_skills_case_agnostic(re.sub('[,.]', '', x).replace('\'', ''), items_of_interest))
-
     return df
+
 
 
 def extract_skills_case_agnostic(resume_text, items_of_interest):

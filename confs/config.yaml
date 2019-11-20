@@ -1603,7 +1603,7 @@ case_agnostic_education:
   - - Funeral Services
     - Mortuary Science
   - - Gender Studies
-    - Women's Studies
+    - Women"s Studies
     - Sexuality Studies
     - Gender and Sexuality Studies
   - - Genetics
@@ -1878,9 +1878,9 @@ case_agnostic_education:
     - Computational Neuroscience
   - - Nursing
     - Licensed Practiced Nurse
-    - ' LPN '
+    - " LPN "
     - Registered Nurse
-    - ' RN '
+    - " RN "
     - Legal Nurse Consulting
   - - Oceanography
     - Ocean Engineering
@@ -2110,7 +2110,7 @@ case_agnostic_education:
     - Francophone Studies
     - French
     - French Language
-    - 'German '
+    - "German "
     - German Language
     - Germanic Studies
     - Greek
@@ -2940,7 +2940,7 @@ case_agnostic_education:
   - Dominican University
   - Drew University
   - DYouville College
-  - 'Davis College '
+  - Davis College
   - Dean College
   - Dallas Baptist University
   - Dallas Christian College
@@ -4371,7 +4371,7 @@ case_agnostic_education:
   - Spartanburg Methodist College
   - South Dakota State University
   - South Dakota School of Mines and Technology
-  - 'Sewanee: The University of the South'
+  - "Sewanee: The University of the South"
   - Sam Houston State University
   - Southern Methodist University
   - Stephen F Austin State University
@@ -4394,7 +4394,7 @@ case_agnostic_education:
   - Shepherd University
   - St Norbert College
   - Silver Lake College
-  - 'Sheridan College '
+  - "Sheridan College "
   - St Ambrose University
   - St Andrews University
   - St Louis College of Pharmacy
@@ -4517,7 +4517,7 @@ case_agnostic_education:
   - Salve Regina University
   - Sarah Lawrence College
   - Schreiner University
-  - 'Sewanee: The University of the South'
+  - "Sewanee: The University of the South"
   - Shenandoah University
   - Simmons University
   - Simpson College
@@ -4802,7 +4802,7 @@ case_agnostic_education:
   - University of Nebraska Lincoln
   - University of Nebraska Omaha
   - University of Nebraska at Kearney
-  - 'Union College '
+  - "Union College "
   - University of Nevada Reno
   - University of Nevada Las Vegas
   - University of New Hampshire
@@ -5153,7 +5153,6 @@ case_agnostic_education:
   - Voorhees College
   - Virginia Commonwealth University
   - Virginia Military Institute
-  - 'Virginia Polytechnic Institute and State University '
   - Virginia State University
   - Virginia Union University
   - Virginia Wesleyan University
@@ -5416,7 +5415,7 @@ case_agnostic_education:
   - Michigan State University
   - National University of Singapore
   - - Nanyang Technological University
-    - ' NTU '
+    - " NTU "
   - New York University
   - New York University
   - Northeastern University
@@ -5446,7 +5445,7 @@ case_agnostic_education:
     - UC Irvine
   - University of Cambridge
   - - University of College London
-    - ' UCL '
+    - " UCL "
   - University of Colorado Denver
   - University of Connecticut
   - University of Edinburgh
@@ -5512,7 +5511,7 @@ case_agnostic_education:
   - Harvard University
   - Johns Hopkins University
   - - Massachusetts Institute of Technology
-    - ' MIT '
+    - " MIT "
   - Northwestern University
   - Stanford University
   - - Washington University in St. Louis
@@ -5526,82 +5525,77 @@ case_agnostic_education:
   - Yale University
 case_agnostic_hobbies:
   hobbies:
-  - Basketball
   - Baseball
   - Basketball
-  - Baseball
-  - Drag Racing
   - Diving
+  - Drag Racing
   - Football
   - Golf
   - Gymnastics
-  - Golf
   - Hockey
   - Juggling
   - Knife Throwing
   - Motor Cross
   - Reading
   - Rollerblading
+  - Skiing
+  - Soccer
   - Surfing
   - Swimming
-  - Skiing
-  - Swimming
-  - Soccer
-  - Traveling
   - Table Tennis
+  - Traveling
   - Volleyball
   - Water Skiing
   - bird watching
   - blogging
   - boating
-  - chess
-  - cooking
-  - camping
-  - craft beer
-  - collecting art
   - calligraphy
+  - camping
+  - chess
+  - collecting art
   - collecting
+  - cooking
+  - craft beer
   - dancing
   - endurance sports
-  - football
   - fishing
+  - football
   - gardening
-  - guitar
   - geocaching
+  - guitar
   - hiking
   - hunting
   - ironman
   - jogging
   - knitting
-  - movies
   - magic
+  - movies
   - origami
   - painting
-  - piano
   - philanthropy
   - photography
+  - piano
   - podcast
-  - reading
-  - running
-  - rock climbing
-  - robotics
   - racing cars
-  - swimming
-  - soccer
-  - snowboarding
-  - skiing
-  - sewing
+  - reading
+  - robotics
+  - rock climbing
+  - running
   - sculpting
+  - sewing
+  - skiing
+  - snowboarding
+  - soccer
   - strategy games
+  - swimming
   - tacos
+  - team sports
   - travel
   - trekking
   - triathlon
-  - team sports
+  - video games
   - volleyball
-  - video games
   - volunteering
-  - video games
   - wine
   - yoga
 case_agnostic_languages:
@@ -5625,7 +5619,7 @@ case_agnostic_languages:
   - Egyptian
   - English
   - French
-  - Ge'ez
+  - Ge"ez
   - German
   - Greek
   - Hebrew
@@ -5664,109 +5658,160 @@ case_agnostic_languages:
   - Yiddish
 case_agnostic_skill:
   technical_skills:
-  - ' C'
-  - ' R'
-  - - ' GCP'
+  - " C"
+  - " R"
+  - " SAS "
+  - - " GCP"
     - Google Cloud Platform
+  - - " Mac "
+    - MacOS
+  - Ableton live suite
+  - Airflow
+  - Algorithms
+  - App Development
+  - AutoCAD
   - Axioma
   - Azkaban
-  - Airflow
-  - AutoCAD
-  - Adobe Photoshop
-  - Algorithms
+  - Azure
+  - - Adobe creative suite
+    - Adobe Photoshop
+    - Photoshop
+    - Adobe illustrator
+    - Adobe InDesign
+    - InsDesign
   - - Agile methodology
     - Agile
   - - Amazon Web Services
-    - ' AWS'
+    - " AWS"
+  - - Application Programming Interface
+    - " API "
   - - Azure
     - Mircosoft Azure
   - Big data
-  - C++
   - C#
+  - "C++"
   - CRD
   - CSS
   - Clustering
+  - Cognos Analytics
+  - - Content Management Systems
+    - " CMS "
   - Database design
   - Data pipeline
   - Data architecture
   - Data engineering
   - Data mining
+  - Data visualization software
   - Decision trees
+  - Docker
+  - Dreamweaver
   - Elixir
   - FactSet
-  - Hive
+  - Facebook for business
+  - Google adwords
+  - Google analytics
+  - - Git
+    - Verision control
+    - github
+    - gitlab
+  - - Graphic User Interfaces
+    - GUI
   - H20
+  - Hive
   - Html
+  - Hubspot sales
   - - Hadoop
     - Apache Hadoop
   - - Hbase
     - Apache Hbase
   - IBM Cloud
-  - JavaScript
-  - Java
-  - Javascript
   - JQuery
-  - Java
+  - JavaScript
   - Jsp
   - Jspf
   - - Java
     - JavaEE
-  - Keras
   - Kanban
+  - Keras
+  - Keyword optimization
   - Linux
   - Luigi
-  - Matlab
-  - MondoDB
-  - MS SQL Server
   - MATLAB
+  - Matlab
   - Machine learning
-  - - Mac
-    - MacOS
+  - Mendeley
+  - Microsoft office
+  - Microsoft Word
+  - Microsoft Excel
+  - Microsoft Access
+  - Microsoft Publisher
+  - Microsoft Visio
+  - MondoDB
+  - - Microsoft PowerPoint
+    - PowerPoint
   - - MySQL
     - My SQL
+    - MS SQL Server
+  - NVivo
   - Neo4j
   - Neural networks
   - Objective-C
-  - Oracle
   - - Oracle
     - Oracle database
-  - PHP
   - PCF
+  - PHP
+  - Power BI
   - Python
   - Pylearn2
   - - Postgress
     - Postgresql
   - Quickbooks
+  - Robotic Process Automation
   - Rust
   - Ruby
-  - Robotic Process Automation
-  - Swift
-  - SQL
-  - Scala
-  - SmartCo
   - SDLC
-  - Storm
-  - Spark-Streaming
+  - SPSS
   - SQL
+  - STATA
+  - Scala
+  - Sendgrid
+  - SmartCo
+  - Smalltalk
   - Software development
+  - Software Development
+  - Spark-Streaming
+  - Storm
+  - Surveyxact
+  - Swift
+  - - Search engine optimization
+    - SEO
   - - Sklearn
     - scikit-learn
+    - scikit learn
     - sk-learn
     - scikitlearn
   - - Spark
     - Apache Spark
+  - Tableau
+  - Typeform
   - - Tensorflow
     - tensor-flow
   - UI design
+  - UWP
+  - Unit testing
   - Unix
   - VHDL
   - - VBA
     - Visual Basic for Applications
     - Visual Basic
+  - WPF
+  - Waterfall
+  - Web scraping
   - Windows Server
   - Windows
   - Wordpress
-  - Waterfall
+  - XAML
+  - operating systems
 case_agnostic_whole_resume:
   certifications:
   - - Chartered Financial Analyst
@@ -5786,403 +5831,358 @@ case_agnostic_whole_resume:
   soft_skills:
   - account management
   - account-based marketing
+  - accruacy
   - action-oriented
   - active listening
+  - ad design
+  - ad effectiveness
   - adaptability
+  - adaptable
   - advertising
   - advertising management
+  - agile methodologies
+  - agility
+  - analytical
   - analyzing rfps
   - answering customer questions
   - arrangement
+  - articulate speech
+  - artistic
+  - artistic sense
   - assertiveness
   - asset management
-  - awareness of applicable laws
-  - adaptability
-  - artistic sense
-  - assertiveness
-  - adaptability
-  - artistic sense
-  - assertiveness
-  - auditing
-  - adaptability
-  - adaptable
-  - artistic
-  - analytical
+  - attention to detail
   - attentiveness
-  - assertiveness
-  - automation
-  - adobe illustrator
-  - agile methodologies
-  - analytical
-  - agility
-  - authenticity
+  - auditing
   - authentic
+  - authenticity
+  - automation
+  - awareness of applicable laws
+  - b2b marketing
+  - balance
   - balanced scorecard
   - behavioral finance
   - benchmarking
+  - body language
   - brainstorming
+  - brand ambassador
   - brand audit
   - brand management
   - brand measurement
   - brand strategy
   - branding
   - budget control
+  - budget development
   - budget variance analysis
+  - budgeting
   - building trust
   - business acumen
   - business analysis
+  - business communication
   - business development
   - business disputes
+  - business driven
+  - business ethic
   - business ethics
+  - business etiquette
   - business financing
+  - business intelligence
   - business knowledge
   - business law
   - business model
   - business planning
-  - business process management
-  - body language
-  - business ethics
-  - business etiquette
-  - business trend awareness
-  - business analysis
-  - budgeting
-  - business strategy
-  - business process improvement
-  - business services
-  - business planning
-  - branding
-  - business intelligence
   - business process
-  - business ethic
-  - business etiquette
+  - business process improvement
+  - business process management
+  - business services
+  - business strategy
   - business trend awareness
-  - balance
-  - business driven
   - business-driven
-  - brainstorming
-  - b2b marketing
-  - customer relationship management
-  - crm
   - call management
+  - calm
+  - calmness
+  - campaign managment
   - category management
   - category strategy
   - championing initiatives
+  - change management
   - channel management
   - channel strategy
   - channels management
+  - charisma
   - choice modeling
   - clarity
   - closing deals
   - coaching
+  - collaborating
+  - collaboration
+  - collaborative
+  - collaborator
+  - color theory
   - commercial perspective
+  - commitment
   - communication
+  - community engagement
+  - compassion
+  - competitive
   - competitive analysis
   - competitive focus
   - competitive strategy
+  - competitiveness
   - competitor analysis
+  - complaint handling
+  - complaint resolution
   - compliance
+  - concept design
+  - concept testing
   - conciseness
   - conducting studies
+  - confidence
+  - conflict management
+  - conflict resolution
+  - conflict-management
+  - conflict-resolution
+  - constructive feedback
   - consumer insights
+  - content creation
   - content marketing
   - continuous improvement
   - contract law
   - contract management
+  - contract negotiation
+  - contractual agreements
+  - cooperation
+  - cooperative
+  - coordination
+  - coping
   - corporate entrepreneurship
   - corporate governance
   - corporate image
   - corporate restructuring
-  - cost control
-  - cost management
   - cost benefit analysis
+  - cost control
+  - cost forecasting
+  - cost management
+  - courtesy
+  - creative
   - creative thinking
+  - creativity
+  - crisis communication
   - crisis management
+  - critical observation
+  - critical questioning
   - critical thinking
+  - critical-thinking
+  - crm
   - cross-cultural leadership
   - cross-cultural management
+  - cultural competence
+  - cultural intelligence
+  - curiosity
   - customer analysis
   - customer experience management
   - customer relationship management
-  - customer retention management
+  - customer relationships
   - customer retention
-  - customer segmentation
-  - coaching
-  - collaborating
-  - competitiveness
-  - conflict resolution
-  - crisis management
-  - critical thinking
-  - customer service
-  - collaborative
-  - compassion
-  - competitiveness
-  - conflict resolution
-  - creative thinking
-  - crisis management
-  - communication
-  - change management
-  - coaching
-  - customer relationship management
-  - contractual agreements
+  - customer retention management
   - customer satisfaction
-  - contract negotiation
+  - customer segmentation
   - customer service
-  - creativity
-  - coaching
-  - confidence
-  - cooperation
-  - courtesy
-  - communication
-  - collaboration
-  - customer service
-  - competitiveness
-  - competitive
-  - conflict management
-  - conflict-management
-  - conflict resolution
-  - conflict-resolution
-  - critical thinking
-  - critical-thinking
-  - creative
-  - cooperative
-  - creative thinking
-  - constructive feedback
-  - conflict management
-  - collaboration
-  - cooperation
-  - coordination
-  - curiosity
-  - calmness
-  - calm
-  - commitment
-  - coping
-  - cultural intelligence
-  - critical observation
-  - development
+  - data analysis
   - data transformation
+  - databases
+  - deal making
+  - deal-making
+  - dealing with
   - dealing with ambiguity
+  - debating
+  - debugging
   - decision frameworks
   - decision making
+  - decision-making
   - decisions making
+  - dedication
   - delegating
   - delegation
+  - dependability
+  - deployment
   - design sense
   - developing budgets
   - developing business plans
+  - developing kpis
   - developing metrics
   - developing proposals
+  - developing relationships
   - developing sales collaterals
   - developing sales proposals
   - developing strategic alliances
+  - development
   - digital business strategy
   - digital marketing
+  - digital media
   - digital strategy
   - diplomacy
   - diplomacy techniques
   - direct marketing
+  - direction
+  - disability awareness
+  - discipline
   - display advertising
   - dispute resolution
   - distribution strategy
-  - dealing with
-  - decision making
-  - delegation
-  - design sense
-  - diplomacy
-  - disability awareness
-  - dispute resolution
   - diversity awareness
-  - decision making
-  - delegation
-  - design sense
-  - diplomacy
-  - dispute resolution
-  - data analysis
-  - digital marketing
-  - decision making
-  - digital media
   - drawing
-  - delegation
-  - dispute resolution
-  - disability awareness
-  - diversity awareness
-  - dedication
-  - dependability
-  - deal making
-  - deal-making
-  - decision making
-  - decision-making
-  - databases
-  - delegation
-  - decision-making
-  - discipline
-  - dependability
-  - diplomacy
-  - decision making
-  - delegation
+  - drive
+  - ecommerce
+  - editing
+  - effective communicator
+  - email marketing
+  - emotion management
+  - emotional intelligence
+  - emotional regulation
+  - empathy
   - endurance
+  - energy
+  - engaging employees
   - enterprise resource management
+  - enterprise resource planning
+  - enthusiasm
+  - entrepreneurial thinking
+  - entrepreneurship
+  - ergonomic sensitivity
+  - erp
   - establishing rapport
   - establishing trust
   - ethics
   - event management
-  - expense management
-  - emotional intelligence
-  - endurance
-  - emotion management
-  - emotional intelligence
-  - empathy
-  - enthusiasm
-  - entrepreneurial thinking
-  - emotional regulation
-  - empathy
-  - enthusiasm
-  - entrepreneurship
-  - ecommerce
   - event planning
-  - editing
-  - energy
-  - enthusiasm
-  - emotional intelligence
-  - empathy
-  - effective communicator
-  - emotion management
-  - ergonomic sensitivity
-  - empathy
+  - execution
+  - executive communication
+  - expense management
+  - facilitating
   - facilitating meetings
+  - facilitation
+  - facility management
+  - feasibility studies
   - financial analysis
   - financial audit
   - financial forecasting
   - financial management
   - financial modeling
-  - first impressions
-  - forecasting
-  - franchising
-  - facilitation
-  - friendliness
-  - facilitating
-  - flexibility
-  - friendliness
-  - forecasting
-  - facilitation
-  - financial risk
   - financial reporting
-  - financial analysis
-  - fundraising
-  - facility management
-  - facilitation
-  - following direction
+  - financial risk
+  - first impressions
+  - flexibility
+  - flexible
+  - focus
+  - focused
   - follow instructions
   - follow regulations
   - follow rules
-  - functions well under pressure
-  - flexibility
-  - flexible
+  - following direction
+  - forecasting
+  - franchising
   - friendliness
   - friendly
-  - focus
-  - focused
+  - functions well under pressure
+  - fundraising
   - game theory
-  - go to market strategy
-  - go-to-market strategies
-  - growth strategy
-  - guerrilla marketing
-  - giving feedback
-  - graphic design
-  - graphics
-  - grant writing
-  - good attitude
-  - grit
-  - goal setting
   - generosity
   - generous
-  - horizontal integration
-  - human resource management
-  - humor
-  - hospitality
+  - giving feedback
+  - go to market strategy
+  - go-to-market strategies
+  - goal setting
+  - good attitude
+  - governance
+  - grant writing
+  - graphic design
+  - graphics
+  - grit
+  - growth strategy
+  - guerrilla marketing
   - honest
-  - humorous
+  - horizontal integration
+  - hospitality
+  - human resource management
+  - humility
   - humor
   - humorous
-  - humility
+  - idea exchange
   - identifying constraints
   - identifying critical success factors
+  - identifying customer requirements
   - identifying leads
   - identifying opportunities
+  - identifying requirement
+  - imagination
+  - implementing best practices
+  - implementing standards
+  - improvization
+  - independence
+  - independent
   - industry knowledge
+  - influence
   - influencing
+  - influential
   - information analysis
+  - initiative
   - innovation
   - innovation management
   - innovation strategy
+  - innovative
+  - insight
+  - inspiration
+  - inspiring
   - integrated marketing
+  - integrity
   - intellectual property law
   - intercultural competence
-  - international marketing
-  - interviewing
-  - investor relations
-  - innovation
-  - inspiring
-  - intercultural competence
-  - interpersonal relationships
-  - interviewing
-  - influence
-  - innovation
-  - interpersonal
-  - interpersonal skills
   - internal audit
-  - interviewing
-  - integrated marketing
-  - inspiring
+  - international marketing
+  - interpersonal
+  - interpersonal relationships
   - interpersonal skill
-  - influencing
-  - influence
-  - influential
-  - independence
-  - independent
+  - interpersonal skills
   - interviewing
-  - innovation
-  - innovative
-  - idea exchange
-  - initiative
-  - inspiration
-  - imagination
-  - insight
-  - integrity
-  - initiative
   - introspection
   - introspective
-  - knowledge management
+  - intuition
+  - inventiveness
+  - investor relations
   - key account development
-  - knowledge sharing
   - knowledge base
+  - knowledge management
+  - knowledge sharing
+  - kpi reporting
+  - lateral thinking
   - launch marketing
+  - lead generation
+  - leadership
+  - leadership development
   - leading teams
+  - lean manufacturing
   - leveraging
   - liability risks
   - liability valuation
+  - listening
+  - litigation
+  - local marketing
   - location strategy
+  - logical reasoning
+  - logical thinking
   - logistics
+  - logistics management
   - loyalty marketing
   - loyalty programs
-  - listening
-  - leadership
-  - listening
-  - leadership
-  - logistics management
-  - local marketing
-  - leadership development
-  - lean manufacturing
-  - litigation
-  - logical thinking
-  - leadership
-  - listening
-  - leadership
-  - listening
-  - lateral thinking
-  - logical reasoning
+  - maintaining best practices
+  - maintaining standards
+  - management
   - management by objective
+  - manager management
   - managerial accounting
   - managerial statistics
+  - managing
   - managing a client engagement
   - managing appointments
   - managing budgets
@@ -6198,6 +6198,7 @@ case_agnostic_whole_resume:
   - managing operations
   - managing productivity
   - managing quality
+  - managing remote teams
   - managing risk
   - managing risk-return
   - managing sales partners
@@ -6207,6 +6208,7 @@ case_agnostic_whole_resume:
   - managing team dynamics
   - managing teams
   - managing upsell activities
+  - managing virtual teams
   - market assessments
   - market knowledge
   - market research
@@ -6217,80 +6219,88 @@ case_agnostic_whole_resume:
   - marketing law
   - marketing management
   - marketing mix
+  - marketing operations
   - marketing simulation
   - marketing strategy
+  - measurement
+  - measuring
+  - media design
+  - mediation
   - meeting management
+  - mentoring
   - mentoring sales teams
+  - merchandising
+  - mind mapping
   - mobile marketing
   - modeling decisions
   - monitoring
+  - motivated
   - motivating
-  - manager management
-  - managing
-  - managing difficult conversations
-  - managing remote teams
-  - managing virtual teams
-  - meeting management
-  - mentoring
-  - motivating
-  - motivational
-  - management
-  - managing
-  - mentoring
   - motivation
-  - motivated
-  - multitasking
-  - motivating
+  - motivational
   - motivative
-  - mediation
-  - motivated
-  - mind mapping
-  - mentoring
-  - new product acceptance
-  - negotiation
-  - networking
-  - negotiating
-  - networking
+  - multitasking
   - negotiating
   - negotiation
   - network administration
   - network systems
-  - non-verbal communication
   - networking
+  - new product acceptance
+  - non-verbal communication
+  - office administration
+  - office politics
+  - online advertising
+  - open-minded
+  - openness
+  - openness to feedback
   - operations management
   - operations strategy
-  - opportunity management
-  - order fulfillment management
-  - organization design
-  - organizing
   - opinion research
-  - office politics
-  - organization
-  - openness to feedback
-  - organization
-  - organized
-  - order fulfillment
-  - online advertising
-  - organizational development
-  - operations management
-  - organizational structure
-  - office administration
-  - outsourcing
+  - opportunity management
   - optimism
-  - open-minded
-  - organized
+  - order fulfillment
+  - order fulfillment management
   - organization
+  - organization design
+  - organizational development
+  - organizational structure
+  - organized
+  - organizing
+  - outsourcing
+  - partnerships
+  - patience
+  - patient
+  - people management
+  - perceiving emotions
+  - perceptiveness
   - performance appraisal
+  - performance management
+  - performance tuning
+  - perseverance
+  - persistence
   - personal branding
   - persuasion
+  - persuasive
+  - physical communication
   - planning
   - politics
   - positioning
+  - positive
+  - positive reinforcement
+  - positivity
+  - predictive modeling
+  - prepared
   - preparing
+  - presentation skills
+  - presentations
+  - presenting
   - pricing
   - pricing strategy
   - prioritization
+  - prioritizing
+  - probabilistic modeling
   - problem solving
+  - process improvement
   - procurement
   - product demonstration
   - product development
@@ -6302,128 +6312,75 @@ case_agnostic_whole_resume:
   - product positioning
   - product research
   - product strategy
+  - professionalism
   - program management
   - project management
+  - project planning
+  - project-management
   - promoting
   - promotion
   - promotion strategy
+  - proposal writing
   - prospecting
   - protecting
   - prototyping
+  - providing continuous feedback
   - providing feedback
+  - public policy
+  - public relations
   - public speaking
   - publicity
-  - performance management
-  - personal branding
-  - persuasion
-  - physical communication
-  - planning
-  - presentation skills
-  - problem solving
-  - process improvement
-  - public speaking
-  - proposal writing
-  - patience
-  - perceptiveness
-  - perseverance
-  - positivity
-  - presenting
-  - problem solving
-  - persuasion
-  - people management
-  - persistence
-  - public speaking
-  - predictive modeling
-  - probabilistic modeling
-  - problem solving
-  - patience
-  - persuasion
-  - perseverance
-  - persistence
-  - planning
   - punctuality
-  - performance management
-  - problem solving
-  - process improvement
-  - positive
-  - positivity
-  - project management
-  - project-management
-  - patient
-  - persuasive
-  - positive
-  - project management
-  - public speaking
-  - persuasion
-  - presenting
-  - presentations
-  - performance tuning
-  - public speaking
-  - project planning
-  - program management
-  - public relations
-  - public policy
-  - problem solving
-  - partnerships
-  - presentations
-  - pricing strategy
-  - persistence
-  - professionalism
-  - patience
-  - positive reinforcement
-  - prioritizing
-  - planning
-  - quality management
-  - quote management
-  - quick-wittedness
-  - quick-witted
-  - quick witted
   - qualitative research
-  - quantitative research
   - quality improvement
+  - quality management
+  - quantitative research
   - query writing
   - questioning
+  - quick witted
+  - quick-witted
+  - quick-wittedness
+  - quote management
   - r&d
   - raising capital
+  - reasoning
   - recruiting
   - regulatory compliance
   - regulatory reporting
+  - relationship
+  - reliability
   - removing obstacles
   - reporting
   - reputation management
   - research
+  - research skills
+  - resilience
+  - resolving issues
   - resource allocation
+  - resource management
+  - resourceful
+  - resourcefulness
+  - respect
+  - respectability
+  - respectfulness
+  - responsibility
+  - responsible
+  - results orientation
+  - results oriented
   - results-focus
+  - results-orientation
+  - results-oriented
   - retail strategy
   - revenue forecasting
   - revenue management
+  - rewards programs
   - risk analysis
   - risk management
-  - research
-  - resilience
-  - research skills
-  - resilience
-  - research
-  - resourcefulness
-  - resourceful
-  - resolving issues
-  - respectability
-  - respectfulness
-  - reliability
-  - resilience
-  - results-orientation
-  - results orientation
-  - results oriented
-  - results-oriented
-  - relationship
-  - results oriented
-  - results-oriented
-  - research
-  - recruiting
-  - respect
-  - responsibility
-  - responsible
+  - safety conscious
+  - sales closing
+  - sales management
   - sales motivation
+  - sales operations
   - sales partner strategy
   - sales pipeline management
   - sales pitching
@@ -6433,912 +6390,808 @@ case_agnostic_whole_resume:
   - sales strategy
   - sales tactics
   - scheduling
+  - scheduling skills
+  - self assessment
+  - self aware
+  - self awareness
+  - self confidence
+  - self control
+  - self direct
+  - self leadership
+  - self monitor
+  - self supervising
+  - self-aware
+  - self-awareness
+  - self-direct
+  - self-esteem
+  - self-management
+  - self-monitor
+  - self-motivated
+  - self-presentation
+  - self-starter
+  - self-supervising
+  - selling
+  - selling skills
+  - sensitive
+  - sensitivity
+  - setting direction and influencing people to follow
+  - setting incentives
+  - setting quotas
+  - simplify complex
+  - six sigma
+  - social intelligence
+  - social media
   - social media marketing
+  - social responsibility
+  - social skills
+  - software documentation
   - sourcing
+  - speaking rhythm
+  - staff development
+  - stage presence
   - statistical analysis
+  - storyboarding
   - storytelling
+  - strategic
   - strategic hiring
   - strategic management
   - strategic planning
   - strategic positioning
+  - strategic skills
   - strategic sourcing
   - strategy
   - strategy execution
-  - scheduling
-  - self assessment
-  - self awareness
-  - self confidence
-  - self leadership
-  - selling
-  - storytelling
-  - strategic planning
+  - strategy formulation
+  - strategy planning
   - stress management
+  - succession planning
   - supervising
-  - scheduling skills
-  - self assessment
-  - self awareness
-  - self confidence
-  - strategic skills
-  - stress management
+  - supervision
   - supervision skills
-  - six sigma
-  - storytelling
-  - supervising
-  - selling skills
-  - social skills
-  - scheduling
-  - self direct
-  - self monitor
-  - self-supervising
-  - self supervising
-  - strategic planning
-  - safety conscious
-  - scheduling
-  - self-awareness
-  - self awareness
-  - self-aware
-  - self aware
-  - stress management
-  - self-direct
-  - self-monitor
-  - storytelling
-  - supervising
-  - strategic planning
-  - social media
-  - staff development
-  - sales management
-  - strategy
   - supervisory skills
-  - software documentation
-  - self-management
-  - self-motivated
-  - sensitivity
-  - sensitive
-  - self-starter
-  - stress management
-  - scheduling
+  - supply chain management
+  - sustainability
+  - tactical
   - taking criticism
   - talent management
-  - team building
-  - technology savvy
-  - technology trend awareness
-  - time management
-  - tolerance of change and uncertainty
-  - train the trainer
-  - training
-  - troubleshooting
-  - time management
-  - troubleshooting
-  - team player
+  - target market analysis
+  - targeted communication
+  - task delegation
+  - task planning
   - teaching
   - team building
-  - time management
+  - team lead
   - team management
-  - troubleshooting
-  - timely
-  - troubleshooting
-  - team building
-  - teamwork
-  - trainability
   - team player
+  - teamwork
+  - technical communication
   - technology savvy
   - technology trend awareness
+  - time management
+  - timely
+  - tolerance
+  - tolerance of change and uncertainty
   - tolerant
+  - train the trainer
+  - trainability
   - trainable
   - training
+  - transitional strategies
+  - trend awareness
   - troubleshooting
-  - team player
-  - training
-  - teamwork
-  - tolerance
   - trust
   - trusting
-  - user interface design
-  - user experience
-  - underwriting
-  - user acceptance testing
   - under pressure
-  - verbal communication
-  - visual communication
-  - verbal communication
+  - understanding emotions
+  - underwriting
+  - upselling
+  - user acceptance testing
+  - user experience
+  - user interface design
   - vendor management
-  - video production
-  - volunteering
-  - volunteer management
-  - video editing
-  - visual merchandising
   - verbal communication
-  - versatility
   - versatile
-  - writing
-  - writing reports and proposals
-  - work ethic
-  - written communication
-  - writing
+  - versatility
+  - vertical integration
+  - video editing
+  - video production
+  - vision
+  - visual communication
+  - visual merchandising
+  - visual presentation
+  - volunteer management
+  - volunteering
+  - warfare strategies
   - web design
   - web development
-  - willingness
-  - willing
-  - willingness to learn
-  - work ethic
   - well under pressure
-  - writing
+  - whiteboarding
+  - willing
+  - willingness
+  - willingness to learn
+  - witty
   - work ethic
+  - writing
+  - writing reports and proposals
   - written communication
 case_agnostic_work:
   company_consumer:
-  - 99 Cents Only Stores
-  - - Abercrombie & Fitch
-    - Abercrombie and Fitch
-  - 'Accor '
-  - Advance Auto Parts
-  - Alaska Air Group
-  - - Albertsons
-    - Albertsons Co
-  - Alliance One International
-  - Altria Group
-  - Aman Resorts
-  - AMC Networks
-  - American Airlines Group
-  - American Eagle Outfitters
-  - APA Group
-  - Asbury Automotive Group
-  - Ascena Retail Group
-  - Ascott Limited
-  - Atlas Air
-  - AutoNation
-  - AutoZone
-  - - Avis Budget Group
-    - Avis Budget
-  - Avon Products
-  - - ' Ball Corp'
-    - ' Ball '
-  - Banyan Tree Holdings
-  - - Barnes & Noble
-    - Barnes & Noble Education
-  - Beazer Homes
-  - - Bed Bath & Beyond
-    - Bed Bath and Beyond
-  - Best Buy
-  - Big Lots
-  - - BJs Wholesale Club
-    - BJs Wholesale
-  - Bloomin Brands
-  - Boyd Gaming
-  - Brinker International
-  - Brunswick
-  - Buffalo Wild Wings
-  - - BuildABear
-    - Build A Bear
-  - Buick
-  - Burlington Stores
-  - Cabelas
-  - Cadillac
-  - Caesars Entertainment
-  - Caseys General Stores
-  - Cheesecake Factory
-  - Chevrolet
-  - - Chicos FAS
-    - Chicos
-  - - Chipotle Mexican Grill
-    - Chipotle
-  - Chrysler
-  - - Cinemark Holdings
-    - Cinemark
-  - Columbia Sportswear
-  - - Costco
-    - Costco Wholesale
-  - - Cracker Barrel Old Country Store
-    - Cracker Barrel
-  - DR Horton
-  - - Delta Air Lines
-    - Delta Airlines
-  - Dillards
-  - Dodge
-  - Dollar General
-  - Dollar Tree
-  - Dominos Pizza
-  - Eldorado Resorts
-  - Estee Lauder
-  - Fiat Chrysler
-  - Finish Line
-  - Foot Locker
-  - Ford
-  - Fossil Group
-  - GameStop
-  - Gap Inc
-  - General Motors
-  - GMC
-  - Hallmark
-  - - Harley Davidson
-    - HarleyDavidson
-  - Hasbro
-  - Herman Miller
-  - - Hertz Global Holdings
-    - Hertz
-  - - Hilton Worldwide Holdings
-    - Hilton Worldwide
-  - Home Depot
-  - - Host Hotels & Resorts
-    - Host Hotels and Resorts
-  - - Hovnanian Enterprises
-    - Hovnanian
-  - - Hyatt Hotels
-    - Hyatt
-  - - JC Penney
-    - JCPenney
-  - - JCrew Group
-    - Jcrew
-  - Jeep
-  - - JetBlue Airways
-    - JetBlue
-  - - ' KB Home '
-  - Kohls
-  - L Brands
-  - Las Vegas Sands
-  - Lennar
-  - Levi Strauss
-  - Lincoln Motor Company
-  - - Live Nation Entertainment
-    - Live Nation
-  - - ' Lowes '
-  - Macys
-  - M/I Homes
-  - McDonalds
-  - Meritage Homes
-  - MGM Resorts
-  - - Michaels Stores
-    - Michaels Companies
-  - Neiman Marcus
-  - Newell Brands
-  - Nike
-  - Nordstrom
-  - - OReilly Automotive
-    - O Reilly Automotive
-  - Office Depot
-  - Overstockcom
-  - Panera Bread
-  - - Park Hotels & Resorts
-    - Park Hotels and Resorts
-  - Party City
-  - Penske Automotive
-  - Pier 1 Imports
-  - Ralph Lauren
-  - RAM
-  - Sally Beauty
-  - - Sears Holdings
-    - ' Sears '
-  - - Sherwin Williams
-    - SherwinWilliams
-  - Skechers
-  - Southwest Airlines
-  - Spirit Airlines
-  - Staples
-  - Starbucks
-  - Steelcase
-  - - Tapestry
-    - Kate Spade New York
-    - Stuart Weitzman
-  - Taylor Morrison Home
-  - Toll Brothers
-  - Toys R Us
-  - Tractor Supply
-  - TravelCenters of America
-  - Tupperware Brands
-  - Ulta Beauty
-  - Under Armour
-  - - United Continental
-    - United Airlines
-  - United Natural Foods
-  - Urban Outfitters
-  - Vail Resorts
-  - Valspar
-  - Valvoline
-  - - Walgreens Boots Alliance
-    - Walgreens Boots
-    - Walgreens
-  - Walmart
-  - Whirlpool
-  - Whole Foods Market
-  - William Lyon Homes
-  - - Williams Sonoma
-    - WilliamsSonoma
-  - Winnebago
-  - Wolverine World Wide
-  - Wynn Resorts
+  - 99 cents only stores
+  - mcdonalds
+  - panera bread
+  - starbucks
+  - abercrombie & fitch
+  - abercrombie and fitch
+  - \x20accor\x20
+  - advance auto parts
+  - alaska air group
+  - albertsons
+  - albertsons co
+  - alliance one international
+  - altria group
+  - aman resorts
+  - amc networks
+  - del friscos restaurant group
+  - bravo brio restaurant group
+  - restaurant brands
+  - restaurant brands international
+  - restaurant group
+  - levy restaurants
+  - portillos restaurants
+  - american airlines group
+  - american eagle outfitters
+  - apa group
+  - asbury automotive group
+  - ascena retail group
+  - ascott limited
+  - atlas air
+  - autonation
+  - autozone
+  - avis budget group
+  - avis budget
+  - avon products
+  - \x20ball corp
+  - \x20ball\x20
+  - banyan tree holdings
+  - barnes & noble
+  - barnes & noble education
+  - beazer homes
+  - bed bath & beyond
+  - bed bath and beyond
+  - best buy
+  - big lots
+  - bjs wholesale club
+  - bjs wholesale
+  - boyd gaming
+  - brunswick
+  - buffalo wild wings
+  - buildabear
+  - build a bear
+  - buick
+  - burlington stores
+  - cabelas
+  - cadillac
+  - caesars entertainment
+  - caseys general stores
+  - cheesecake factory
+  - chevrolet
+  - chicos fas
+  - chicos
+  - chipotle
+  - chrysler
+  - cinemark holdings
+  - cinemark
+  - columbia sportswear
+  - costco
+  - cracker barrel
+  - dr horton
+  - darden restaurants
+  - delta air lines
+  - delta airlines
+  - dillards
+  - dodge
+  - dollar general
+  - dollar tree
+  - dominos pizza
+  - eldorado resorts
+  - estee lauder
+  - fiat chrysler
+  - finish line
+  - foot locker
+  - \x20ford\x20
+  - fossil group
+  - gamestop
+  - gap inc
+  - general motors
+  - gmc
+  - hallmark
+  - harley davidson
+  - harleydavidson
+  - hasbro
+  - herman miller
+  - hertz global holdings
+  - hertz
+  - hilton worldwide holdings
+  - hilton worldwide
+  - home depot
+  - host hotels & resorts
+  - host hotels and resorts
+  - hovnanian enterprises
+  - hovnanian
+  - hyatt hotels
+  - hyatt
+  - jc penney
+  - jcpenney
+  - jcrew group
+  - jcrew
+  - jeep
+  - jetblue airways
+  - jetblue
+  - \x20kb home
+  - kohls
+  - l brands
+  - las vegas sands
+  - lennar
+  - levi strauss
+  - lincoln motor company
+  - live nation entertainment
+  - live nation
+  - \x20lowes\x20
+  - macys
+  - magnolia bakery
+  - m/i homes
+  - meritage homes
+  - mgm resorts
+  - michaels stores
+  - michaels companies
+  - neiman marcus
+  - newell brands
+  - nike
+  - nordstrom
+  - oreilly automotive
+  - o reilly automotive
+  - office depot
+  - overstockcom
+  - park hotels & resorts
+  - park hotels and resorts
+  - party city
+  - penske automotive
+  - pier 1 imports
+  - ralph lauren
+  - restaurants unlimited inc
+  - restaurant brands international
+  - restaurant brands int"
+  - real mex restaurants
+  - sally beauty
+  - sears holdings
+  - sears
+  - sherwin williams
+  - sherwinwilliams
+  - skechers
+  - southwest airlines
+  - spirit airlines
+  - staples
+  - steelcase
+  - tapestry
+  - kate spade new york
+  - stuart weitzman
+  - taylor morrison home
+  - toll brothers
+  - toys r us
+  - tractor supply
+  - travelcenters of america
+  - tupperware brands
+  - ulta beauty
+  - under armour
+  - united continental
+  - united airlines
+  - united natural foods
+  - urban outfitters
+  - vail resorts
+  - valspar
+  - valvoline
+  - walgreens boots alliance
+  - walgreens boots
+  - walgreens
+  - whirlpool
+  - william lyon homes
+  - williams sonoma
+  - williamssonoma
+  - winnebago
+  - voodoo doughnut
+  - wolverine world wide
+  - wynn resorts
+  - winn dixie
+  - whole foods market
   company_energychem:
-  - ' AES '
-  - A Schulman
-  - Airgas
-  - Albemarle
-  - Alcoa
-  - Aleris
-  - Alliance Resource Partners
-  - Alliant Energy
-  - Alon USA Energy
-  - Ameren
-  - American Electric Power
-  - American Water Works
-  - Anadarko Petroleum
-  - Antero Resources
-  - Arch Coal
-  - Atmos Energy
-  - Air Liquide
-  - AkzoNobel
-  - Asahi Kasei
-  - Arkema
-  - Air Products & Chemicals
-  - - AMark Precious Metals
-    - A Mark Precious Metals
-  - - Air Products & Chemicals
-    - Air Products and Chemicals
-  - - Ashland Global
-    - Ashland Global Specialty Chemicals
-  - Baker Hughes
-  - Berry Global
-  - BP
-  - Bharat Petroleum
-  - BASF
-  - Braskem
-  - Bayer
-  - Borealis
-  - CenterPoint Energy
-  - Cheniere Energy
-  - Chesapeake Energy
-  - Cimarex Energy
-  - CMS Energy
-  - ConocoPhillips
-  - Consol Energy
-  - Consolidated Edison
-  - Consumers Energy
-  - Contura Energy
-  - China National Petroleum Corporation
-  - Chevron Corporation
-  - China National Offshore Oil
-  - Centrica
-  - ConocoPhillips
-  - CEPSA
-  - Covestro
-  - Chevron Phillips Chemical
-  - Clariant
-  - - C&J Energy
-    - C&J Energy Services
-  - - CF Industries Holdings
-    - CF Industries
-  - - Cabot
-    - Cabot Oil and Gas
-    - Cabot Oil & Gas
-  - Devon Energy
-  - Diamondback Energy
-  - Dominion Energy
-  - Dow Chemical
-  - DTE Energy
-  - Duke Energy
-  - DowDuPont
-  - DuPont
-  - DSM
-  - DIC
-  - Eastman Chemical
-  - Energy Transfer Equity
-  - Eversource Energy
-  - Exelon
-  - Exxon Mobil
-  - Eni
-  - Engie
-  - Equinor
-  - Enterprise Products
-  - Ecopetrol
-  - ExxonMobil
-  - Evonik Industries
-  - Eastman Chemical
-  - Ecolab
-  - Florida Power & Light
-  - FirstEnergy
-  - Formosa Plastics
-  - - FMC Technologies
-    - ' FMC '
-  - - Ferrellgas Partners
-    - Ferrellgas
-  - Genesis Energy
-  - Georgia Power
-  - Great Plains Energy
-  - Gazprom
-  - GS Caltex
-  - Halliburton
-  - Hawaiian Electric Industries
-  - Hindustan Petroleum
-  - Hellenic Petroleum
-  - Huntsman
-  - Hanwha Chemical
-  - Indian Oil Corporation
-  - Idemitsu Kosan
-  - Ineos
-  - Indorama Ventures
-  - JX Holdings
-  - Komatsu Mining
-  - Kuwait Petroleum Corporation
-  - Liberty Oilfield Services
-  - Lukoil
-  - LyondellBasell
-  - LG Chem
-  - Lotte Chemical
-  - Lanxess
-  - Martin Marietta Materials
-  - Murphy Oil
-  - Marathon Petroleum
-  - Motor Oil Hellas
-  - MOL
-  - Mitsubishi Chemical
-  - Mitsui Chemicals
-  - Mosaic
-  - - Marathon Oil
-    - Marathon Petroleum
-  - National Oilwell Varco
-  - New Jersey Resources
-  - Newmont Goldcorp
-  - Newmont Mining
-  - NextEra Energy
-  - NGL Energy Partners
-  - Noble Energy
-  - NRG Energy
-  - NuStar Energy
-  - National Iranian Oil Company
-  - Oasis Petroleum
-  - Occidental Petroleum
-  - OGE Energy
-  - ONGC
-  - OMV Group
-  - Pacific Gas & Electric
-  - PBF Energy
-  - Peabody Energy
-  - Portland General Electric
-  - PPG Industries
-  - Public Service Elec & Gas
-  - Puget Energy
-  - PDVSA
-  - Pemex
-  - Phillips 66
-  - Petronas
-  - PTT
-  - Petrobras
-  - Pertamina
-  - PKN Orlen
-  - PPG Industries
-  - Praxair
-  - PTT Global Chemical
-  - Renewable Energy Group
-  - Royal Dutch Shell
-  - Rosneft
-  - Reliance Industries
-  - Repsol
-  - Reliance Industries
-  - Sempra Energy
-  - SM Energy
-  - Southern California Edison
-  - Southwest Gas Holdings
-  - Southwestern Energy
-  - Spectra Energy
-  - Summit Materials
-  - Superior Energy Services
-  - Sinopec Group
-  - Saudi Aramco
-  - Sonatrach
-  - SOCAR
-  - Schlumberger
-  - Suncor Energy
-  - SINOPEC
-  - SABIC
-  - Sumitomo Chemical
-  - ShinEtsu Chemical
-  - Solvay
-  - Syngenta
-  - SK Innovation
-  - Sasol
-  - Total SA
-  - The Linde Group
-  - Toray Industries
-  - Tosoh
-  - United Refining
-  - United States Steel
-  - Valero Energy
-  - Vistra Energy
-  - Valero Energy
-  - WEC Energy
-  - Westar Energy
-  - Westlake Chemical
-  - Whiting Petroleum
-  - Worthington Industries
-  - WPX Energy
-  - Westlake Chemical
-  - Wanhua Group
-  - Xcel Energy
-  - Yara International
+  - \x20aes\x20
+  - a schulman
+  - airgas
+  - albemarle
+  - alcoa
+  - aleris
+  - alliance resource partners
+  - alliant energy
+  - alon usa energy
+  - ameren
+  - american electric power
+  - american water works
+  - anadarko petroleum
+  - antero resources
+  - arch coal
+  - atmos energy
+  - air liquide
+  - akzonobel
+  - asahi kasei
+  - arkema
+  - air products & chemicals
+  - amark precious metals
+  - a mark precious metals
+  - air products & chemicals
+  - air products and chemicals
+  - ashland global
+  - ashland global specialty chemicals
+  - baker hughes
+  - berry global
+  - \x20bp\x20
+  - bharat petroleum
+  - basf
+  - braskem
+  - bayer
+  - borealis
+  - centerpoint energy
+  - cheniere energy
+  - chesapeake energy
+  - cimarex energy
+  - cms energy
+  - conocophillips
+  - consol energy
+  - consolidated edison
+  - consumers energy
+  - contura energy
+  - china national petroleum corporation
+  - chevron corporation
+  - china national offshore oil
+  - centrica
+  - cepsa
+  - covestro
+  - chevron phillips chemical
+  - clariant
+  - c&j energy
+  - c&j energy services
+  - cf industries holdings
+  - cf industries
+  - cabot oil and gas
+  - cabot oil & gas
+  - devon energy
+  - diamondback energy
+  - dominion energy
+  - dow chemical
+  - dte energy
+  - duke energy
+  - dowdupont
+  - dupont
+  - dsm
+  - \x20dic\x20
+  - eastman chemical
+  - energy transfer equity
+  - eversource energy
+  - exelon
+  - exxon mobil
+  - \x20eni\x20
+  - engie
+  - equinor
+  - enterprise products
+  - ecopetrol
+  - exxonmobil
+  - evonik industries
+  - ecolab
+  - florida power & light
+  - firstenergy
+  - formosa plastics
+  - fmc technologies
+  - \x20fmc\x20
+  - ferrellgas partners
+  - ferrellgas
+  - genesis energy
+  - georgia power
+  - great plains energy
+  - gazprom
+  - gs caltex
+  - halliburton
+  - hawaiian electric industries
+  - hindustan petroleum
+  - hellenic petroleum
+  - huntsman
+  - hanwha chemical
+  - indian oil corporation
+  - idemitsu kosan
+  - ineos
+  - indorama ventures
+  - jx holdings
+  - komatsu mining
+  - kuwait petroleum corporation
+  - liberty oilfield services
+  - lukoil
+  - lyondellbasell
+  - lg chem
+  - lotte chemical
+  - lanxess
+  - martin marietta materials
+  - murphy oil
+  - marathon petroleum
+  - motor oil hellas
+  - mitsubishi chemical
+  - mitsui chemicals
+  - mosaic
+  - marathon oil
+  - marathon petroleum
+  - national oilwell varco
+  - new jersey resources
+  - newmont goldcorp
+  - newmont mining
+  - nextera energy
+  - ngl energy partners
+  - noble energy
+  - nrg energy
+  - nustar energy
+  - national iranian oil company
+  - oasis petroleum
+  - occidental petroleum
+  - oge energy
+  - ongc
+  - omv group
+  - pacific gas & electric
+  - pbf energy
+  - peabody energy
+  - portland general electric
+  - ppg industries
+  - public service elec & gas
+  - puget energy
+  - pdvsa
+  - pemex
+  - phillips 66
+  - petronas
+  - ptt
+  - petrobras
+  - pertamina
+  - pkn orlen
+  - praxair
+  - ptt global chemical
+  - renewable energy group
+  - royal dutch shell
+  - rosneft
+  - reliance industries
+  - repsol
+  - sempra energy
+  - sm energy
+  - southern california edison
+  - southwest gas holdings
+  - southwestern energy
+  - spectra energy
+  - summit materials
+  - superior energy services
+  - sinopec group
+  - saudi aramco
+  - sonatrach
+  - socar
+  - schlumberger
+  - suncor energy
+  - sinopec
+  - sabic
+  - sumitomo chemical
+  - shinetsu chemical
+  - solvay
+  - syngenta
+  - sk innovation
+  - sasol
+  - total sa
+  - the linde group
+  - toray industries
+  - tosoh
+  - united refining
+  - united states steel
+  - valero energy
+  - vistra energy
+  - wec energy
+  - westar energy
+  - westlake chemical
+  - whiting petroleum
+  - worthington industries
+  - wpx energy
+  - wanhua group
+  - xcel energy
+  - yara international
   company_fin:
-  - ' AIG '
-  - - ' USAA '
-    - United Services Automobile Association
-  - Affiliated Managers Group
-  - Aflac
-  - Alliance Holdings
-  - Allstate
-  - Ally Financial
-  - Amazon
-  - American Equity Investment Life Holding
-  - American Express
-  - American Family Insurance Group
-  - American Financial Group
-  - American National Insurance
-  - Ameriprise Financial
-  - Amica Mutual Insurance
-  - AmTrust Financial Services
-  - Annaly Capital Management
-  - Apollo Global Management
-  - Arthur J Gallagher
-  - Assurant
-  - AAC Capital Partners
-  - ABS Capital
-  - Avista Capital Partners
-  - Affinity Equity Partners
-  - Advent International
-  - Apollo Global Management
-  - Apax Partners
-  - Agricultural Bank of China
-  - Australia and New Zealand Banking Group
-  - ABN Amro Group NV
-  - - AutoOwners Insurance
-    - Auto Owners Insurance
-  - - AvalonBay
-    - AvalonBay Communities
-  - Bank of Montreal
-  - Bank of New York Mellon
-  - Berkshire Hathaway
-  - BGC Partners
-  - BlackRock
-  - Blackstone
-  - Boston Properties
-  - Brighthouse Financial
-  - Baring Vostok Capital Partners
-  - Bruckmann Rosser Sherrill & Co
-  - Bridgepoint Capital
-  - Bain Capital
-  - Bank of China
-  - Bank of America
-  - BNP Paribas
-  - Banco Santander
-  - Barclays PLC
-  - Bank of Communications
-  - Banco Bilbao Vizcaya Argentaria
-  - Bank of Montreal
-  - BB&T and SunTrust Banks
-  - Bank of Beijing
-  - Bank of New York Mellon
-  - Banco Itau
-  - - BB&T Corp
-    - ' BB&T'
-  - - Bank of America
-    - Merrill Lynch
-  - - Broadridge Financial Solutions
-    - Broadridge
-    - Broadridge Financial
-  - Canadian Imperial Bank of Commerce
-  - CBRE Group
-  - Charles Schwab
-  - Cincinnati Financial
-  - Citigroup
-  - CNO Financial Group
-  - Country Financial
-  - Court Square Capital Partners
-  - CVC Capital Partners
-  - CIVC Partners
-  - Castle Harlan
-  - CIP Capital
-  - CCMP Capital
-  - Capvis
-  - Carlyle Group
-  - CVC Capital Partners
-  - Clayton Dubilier & Rice
-  - China Construction Bank Corporation
-  - Credit Agricole
-  - Citigroup Inc
-  - China Merchants Bank
-  - Credit Mutuel
-  - China CITIC Bank
-  - China Minsheng Bank
-  - Credit Suisse
-  - Commonwealth Bank
-  - China Everbright Bank
-  - Commerzbank
-  - Canadian Imperial Bank of Commerce
-  - CaixaBank
-  - Capital One
-  - - Capital One Financial
-    - Capital One
-  - - Cboe Global Markets
-    - Chicago Board Options Exchange
-    - BATS Global Markets
-  - - Citizens Financial Group
-    - Citizens Financial
-  - - Crestwood Equity Partners
-    - Crestwood Equity
-  - DLJ Merchant Banking
-  - Diamond Castle Holdings
-  - Deutsche Bank
-  - DZ Bank
-  - Danske Bank
-  - DBS Bank
-  - - Digital Realty Trust
-    - Digital Realty
-  - - Discover Financial Services
-    - Discover Financial
-  - Equity Residential
-  - Erie Insurance Group
-  - Equistone Partners
-  - EnCap Investments
-  - - E*Trade Financial
-    - E*Trade
-    - Etrade
-  - - Edward Jones
-    - Jones Financial
-  - Fannie Mae
-  - Farmers Insurance
-  - Federated Mutual Insurance
-  - Fifth Third Bancorp
-  - First American Financial
-  - First Republic Bank
-  - - Fidelity National
-    - Fidelity National Financial
-    - Fidelity National Information Services
-  - Groupe BPCE
-  - Goldman Sachs
-  - - Genworth Financial
-    - Genworth
-  - - Goldman Sachs Group
-    - Goldman Sachs
-  - - Guardian Life Insurance Company of America
-    - Guardian Life
-  - Hanover Insurance
-  - Hospitality Properties Trust
-  - HSBC Holdings PLC
-  - Hua Xia Bank
-  - - Hartford Financial Services
-    - Hartford Financial
-  - - Huntington Bancshares
-    - Huntington National Bank
-  - Irving Place Capital
-  - Industrial and Commercial Bank of China
-  - ING Group
-  - 'Industrial Bank '
-  - Intesa Sanpaolo
-  - Itau Unibanco
-  - Jefferies Financial Group
-  - JPMorgan Chase & Co
-  - Japan Post Bank
-  - - JP Morgan Chase
-    - JPMorgan
-    - JPMorgan Chase
-    - Chase Bank
-  - Kohlberg Kravis Roberts
-  - KB Financial Group Inc
-  - LPL Financial
-  - Lightyear Capital
-  - Lloyds Banking Group
-  - - Liberty Mutual Insurance Group
-    - Liberty Mutual
-  - MetLife
-  - Moodys
-  - Morgan Stanley
-  - MidOcean Partners
-  - Madison Dearborn Partners
-  - Metalmark Capital
-  - Mitsubishi UFJ Financial Group
-  - Mizuho Financial Group
-  - Morgan Stanley
-  - - M&T Bank
-    - M&T Bank Corp
-    - M and T Bank
-    - M & T Bank
-  - - Massachusetts Mutual Life Insurance
-    - Massachusetts Mutual
-    - Mass Mutual
-  - - Mutual of America Life Insurance
-    - Mutual of America
-  - - Mutual of Omaha Insurance
-    - Mutual of Omaha
-  - Nasdaq
-  - Nationstar Mortgage Holdings
-  - New Residential Investment
-  - NLV Financial
-  - Northern Trust
-  - Northwestern Mutual
-  - Neuberger Berman
-  - Norinchukin Bank
-  - Nordea
-  - National Australia Bank
-  - Nomura Holdings Inc
-  - Nonghyup Bank
-  - - New York Community Bancorp
-    - New York Community Bank
-    - NY Community Bancorp
-    - NY Community Bank
-  - - New York Life Insurance
-    - New York Life
-    - NY Life Insurance
-  - PayPal
-  - PAI Partners
-  - Pamlico
-  - Postal Savings Bank of China
-  - Ping An Bank
-  - PNC Financial Services
-  - - PNC Financial Services
-    - PNC Financial
-  - - Penn Mutual Life Insurance
-    - Penn Mutual
-  - - Principal Financial
-    - Principal Global Investors
-  - - Prudential Financial
-    - Prudential
-  - Raymond James Financial
-  - Realogy
-  - Regions Financial
-  - Royal Bank of Canada
-  - Royal Bank of Scotland Group
-  - Rabobank
-  - Resona Holdings
-  - - Reinsurance Group of America
-    - ' RGA '
-  - Scotiabank
-  - Securian Financial
-  - Selective Insurance Group
-  - SL Green Realty
-  - State Street
-  - SunTrust Banks
-  - SVB Financial
-  - Synchrony Financial
-  - Sumitomo Mitsui Financial Group
-  - Societe Generale
-  - Shanghai Pudong Development Bank
-  - Scotiabank
-  - Standard Chartered
-  - State Bank of India
-  - Sumitomo Mitsui Trust Holdings
-  - Shinhan Financial Group
-  - Sberbank of Russia
-  - - S&P Global
-    - Standard & Poors
-    - Standard&Poors
-    - Standard and Poors
-  - - Sentry Insurance Group
-    - Sentry Insurance
-  - - Simon Property Group
-    - Simon Property
-  - - State Farm Insurance
-    - State Farm
-  - - Stifel Financial
-    - Stifel
-  - TD Ameritrade
-  - TransUnion
-  - Travelers
-  - Trimaran Capital Partners
-  - Trilantic Capital Partners
-  - Terra Firma Capital
-  - TPG Capital
-  - Thoma Bravo
-  - TorontoDominion Bank
-  - - T Rowe Price
-    - Trowe Price
-  - - TIAA
-    - Teachers Insurance and Annuity Association
-  - - Thrivent Financial for Lutherans
-    - Thrivent Financial
-  - - Toronto Dominion Bank
-    - TorontoDominion Bank
-  - UBS Capital
-  - UBS
-  - UniCredit
-  - US Bancorp
-  - - US Bancorp
-    - US Bank
-  - Vornado Realty Trust
-  - Voya Financial
-  - Vista Equity Partners
-  - Wells Fargo
-  - Welsh Carson Anderson & Stowe
-  - Willis Stein & Partners
-  - William Blair
-  - Warburg Pincus
-  - Wells Fargo & Co
-  - Westpac
-  - - Western & Southern Financial Group
-    - Western & Southern Financial
-    - Western and Southern Financial
-  - - Zions Bancorp
-    - Zions Bank
+  - \x20aig\x20
+  - \x20usaa\x20
+  - united services automobile association
+  - affiliated managers group
+  - aflac
+  - alliance holdings
+  - allstate
+  - ally financial
+  - amazon
+  - american equity
+  - american express
+  - american family insurance group
+  - american financial group
+  - american national insurance
+  - ameriprise financial
+  - amica mutual insurance
+  - amtrust financial services
+  - annaly capital management
+  - apollo global management
+  - arthur j gallagher
+  - assurant
+  - aac capital partners
+  - abs capital
+  - avista capital partners
+  - affinity equity partners
+  - advent international
+  - apax partners
+  - agricultural bank of china
+  - australia and new zealand banking group
+  - abn amro group nv
+  - autoowners insurance
+  - auto owners insurance
+  - avalonbay
+  - avalonbay communities
+  - bank of montreal
+  - bank of new york mellon
+  - berkshire hathaway
+  - bgc partners
+  - blackrock
+  - blackstone
+  - boston properties
+  - brighthouse financial
+  - baring vostok capital partners
+  - bruckmann rosser sherrill & co
+  - bridgepoint capital
+  - bain capital
+  - bank of china
+  - bank of america
+  - bnp paribas
+  - banco santander
+  - barclays plc
+  - bank of communications
+  - banco bilbao vizcaya argentaria
+  - bb&t and suntrust banks
+  - bank of beijing
+  - banco itau
+  - bb&t corp
+  - bb&t
+  - bank of america
+  - merrill lynch
+  - broadridge financial solutions
+  - broadridge
+  - broadridge financial
+  - canadian imperial bank of commerce
+  - cbre group
+  - charles schwab
+  - cincinnati financial
+  - citigroup
+  - cno financial group
+  - country financial
+  - court square capital partners
+  - cvc capital partners
+  - civc partners
+  - castle harlan
+  - cip capital
+  - ccmp capital
+  - capvis
+  - carlyle group
+  - clayton dubilier & rice
+  - china construction bank corporation
+  - credit agricole
+  - citigroup
+  - china merchants bank
+  - credit mutuel
+  - china citic bank
+  - china minsheng bank
+  - credit suisse
+  - commonwealth bank
+  - china everbright bank
+  - commerzbank
+  - caixabank
+  - capital one
+  - cboe global markets
+  - chicago board options exchange
+  - bats global markets
+  - citizens financial
+  - crestwood equity
+  - dlj merchant banking
+  - diamond castle holdings
+  - deutsche bank
+  - dz bank
+  - danske bank
+  - dbs bank
+  - digital realty
+  - discover financial
+  - equity residential
+  - erie insurance group
+  - equistone partners
+  - encap investments
+  - e*trade
+  - etrade
+  - edward jones
+  - jones financial
+  - fannie mae
+  - farmers insurance
+  - federated mutual insurance
+  - fifth third bancorp
+  - first american financial
+  - first republic bank
+  - fidelity national
+  - fidelity national financial
+  - fidelity national information services
+  - groupe bpce
+  - goldman sachs
+  - genworth financial
+  - genworth
+  - goldman sachs group
+  - goldman sachs
+  - guardian life insurance company of america
+  - guardian life
+  - hanover insurance
+  - hospitality properties trust
+  - hsbc holdings plc
+  - hua xia bank
+  - hartford financial services
+  - hartford financial
+  - huntington bancshares
+  - huntington national bank
+  - irving place capital
+  - industrial and commercial bank of china
+  - ing group
+  - industrial bank
+  - intesa sanpaolo
+  - itau unibanco
+  - jefferies financial group
+  - jpmorgan chase & co
+  - japan post bank
+  - jp morgan chase
+  - jpmorgan
+  - jpmorgan chase
+  - chase bank
+  - kohlberg kravis roberts
+  - kb financial group
+  - lpl financial
+  - lightyear capital
+  - lloyds banking group
+  - liberty mutual insurance group
+  - liberty mutual
+  - metlife
+  - moodys
+  - morgan stanley
+  - midocean partners
+  - madison dearborn partners
+  - metalmark capital
+  - mitsubishi ufj financial group
+  - mizuho financial group
+  - m&t bank
+  - m&t bank corp
+  - m and t bank
+  - m & t bank
+  - massachusetts mutual life insurance
+  - massachusetts mutual
+  - mass mutual
+  - mutual of america life insurance
+  - mutual of america
+  - mutual of omaha insurance
+  - mutual of omaha
+  - nasdaq
+  - nationstar mortgage holdings
+  - new residential investment
+  - nlv financial
+  - northern trust
+  - northwestern mutual
+  - neuberger berman
+  - norinchukin bank
+  - nordea
+  - national australia bank
+  - nomura holdings inc
+  - nonghyup bank
+  - new york community bancorp
+  - new york community bank
+  - ny community bancorp
+  - ny community bank
+  - new york life insurance
+  - new york life
+  - ny life insurance
+  - paypal
+  - pai partners
+  - pamlico
+  - postal savings bank of china
+  - ping an bank
+  - pnc financial
+  - penn mutual life insurance
+  - penn mutual
+  - principal financial
+  - principal global investors
+  - prudential financial
+  - prudential
+  - raymond james financial
+  - realogy
+  - regions financial
+  - royal bank of canada
+  - royal bank of scotland group
+  - rabobank
+  - resona holdings
+  - reinsurance group of america
+  - \x20rga\x20
+  - scotiabank
+  - securian financial
+  - selective insurance group
+  - sl green realty
+  - state street
+  - suntrust banks
+  - svb financial
+  - synchrony financial
+  - sumitomo mitsui financial group
+  - societe generale
+  - shanghai pudong development bank
+  - standard chartered
+  - state bank of india
+  - sumitomo mitsui trust holdings
+  - shinhan financial group
+  - sberbank of russia
+  - s&p global
+  - standard & poors
+  - standard&poors
+  - standard and poors
+  - sentry insurance group
+  - sentry insurance
+  - simon property
+  - state farm insurance
+  - state farm
+  - stifel financial
+  - stifel
+  - td ameritrade
+  - transunion
+  - travelers
+  - trimaran capital partners
+  - trilantic capital partners
+  - terra firma capital
+  - tpg capital
+  - thoma bravo
+  - torontodominion bank
+  - t rowe price
+  - trowe price
+  - tiaa
+  - teachers insurance and annuity association
+  - thrivent financial for lutherans
+  - thrivent financial
+  - toronto dominion bank
+  - torontodominion bank
+  - \x20ubs\x20
+  - unicredit
+  - us bancorp
+  - us bank
+  - vornado realty trust
+  - voya financial
+  - vista equity partners
+  - wells fargo
+  - welsh carson anderson & stowe
+  - willis stein & partners
+  - william blair
+  - warburg pincus
+  - wells fargo & co
+  - westpac
+  - western & southern financial
+  - western and southern financial
+  - zions bancorp
+  - zions bank
   company_foodbev:
+  - CHS
+  - Dole
+  - JBS
+  - Mars
   - 2 Sisters Food Group
   - Archer Daniels Midland
   - Arla Foods
   - Asahi Group
   - Associated British Foods
-  - All Joy Foods
-  - Agrana
-  - AnheuserBusch InBev
-  - Agropur
-  - Amoy Food
-  - Alpina Productos Alimenticios
-  - Agrokor
-  - Atlantic Grupa
-  - Arla Foods
-  - Atria
-  - Alter Eco
-  - Amorino
-  - Alnatura
-  - Asbach Uralt
-  - August Storck
-  - Arapian
-  - Aavin
-  - Al Nassma Chocolate
-  - Amira Nature Foods
-  - Amul
-  - Amedei
-  - Auricchio
-  - Autogrill
-  - Abbey Cheese Company
-  - Abrakebabra Investments
-  - Ardsallagh Goat Farm
-  - Angel Bakeries
-  - Ajinomoto
-  - Asahi Breweries
-  - Americana Group
-  - Ah Cacao Real Chocolate
-  - Alpura
-  - Alsea
-  - Australian Homemade
-  - AVEBE
-  - Alliance Group
-  - Ajegroup
-  - Alicorp
-  - AmRest
-  - Almarai
-  - ABR Holdings
-  - Aalst Chocolate
-  - Asian Home Gourmet
-  - Ayam Brand
-  - AarhusKarlshamn
-  - Abba Seafood
-  - Arla Foods
-  - Apikoglu
-  - A E Rodda & Son
-  - AG Barr
-  - Antonelli Bros Ltd
-  - Associated British Foods
-  - A L Simpkin & Co Ltd
-  - Alvarado Street Bakery
-  - Arizmendi Bakery
-  - Au Bon Pain
-  - Avalon International Breads
-  - Archer Daniels Midland
-  - Abdallah Candies
-  - Amano Artisan Chocolate
-  - American Licorice Company
-  - Annabelle Candy Company
-  - Askinosie Chocolate
-  - All American Foods
-  - Alpenrose Dairy
-  - Aurora Organic Dairy
-  - ATreat Bottling Company
-  - Adirondack Beverages
-  - American Beverage Association
-  - Appalachian Brewing Company
-  - Arizona Beverage Company
-  - A Zeregas Sons Inc
-  - Amys Kitchen
-  - Albertsons
-  - Axium Foods
-  - Amalgamated Sugar Company
-  - American Crystal Sugar Company
-  - American Sugar Refining
-  - Alimentos La Giralda
-  - An Giang Coffee
   - All Joy Foods
   - Agrana
   - AnheuserBusch InBev
@@ -7537,124 +7390,11 @@ case_agnostic_work:
   - Badia Spices
   - Basic Food Flavors
   - Bien Hoa Sugar
-  - Bakers
-  - BOS Ice Tea
-  - Baiada Poultry
-  - Bakers Delight
-  - Balfours
-  - BaskinRobbins Australia
-  - Beerenberg Farm
-  - Bega Cheese
-  - Bellamys Australia
-  - Bickfords Australia
-  - Boost Juice
-  - Breadtop
-  - Bulla Dairy Foods
-  - Bundaberg Brewed Drinks
-  - Brauerei Ottakringer
-  - Bahra Biscuit Factory
-  - Brazilian Fast Food Corporation
-  - BRF SA
-  - Bothwell Cheese
-  - Bright Food
-  - Bel Group
-  - Biscuiterie SaintMichel
-  - Biscuits Fossier
-  - Bonnat Chocolates
-  - Bonduelle
-  - Bongrain
-  - Bahlsen
-  - Born Feinkost
-  - Banas Dairy
-  - Balaji Wafers
-  - Bikanervala
-  - Bihar State Milk Cooperative Federation
-  - Bisk Farm
-  - Bonn Group of Industries
-  - Britannia Industries
-  - BTW
-  - Balconi
-  - Balocco
-  - Barilla Group
-  - Bartolo Nardini
-  - Bertagni
-  - Barrys Tea
-  - Beal Organic Cheese
-  - Bewleys
-  - Bluebell Falls
-  - Burren Smokehouse
-  - Butlers Chocolates
-  - Bermans Bakery
-  - BOH Plantations
-  - Bachoco
-  - Bufalo
-  - Bavaria Brewery
-  - Bama Gruppen
-  - Brynild Gruppen
-  - Babayevsky
-  - Bambi
-  - BIP Brewery
-  - Bee Cheng Hiang
-  - Bengawan Solo
-  - BreadTalk
-  - BEHER
-  - Borges Mediterranean Group
-  - Barry Callebaut
-  - Bell Food Group
-  - Boon Rawd Brewery
-  - Bermudez Biscuit Company
-  - Bakkavor
-  - Bates Dairy
-  - Baxters
-  - Bens Cookies
-  - Benugo
-  - Bernard Matthews Ltd
-  - Bompas & Parr
-  - Booker Group
-  - Braces Bakery
-  - Brains Brewery
-  - Britvic
-  - Burtons Biscuit Company
-  - Big Apple Bagels
-  - Blue Chip Cookies
-  - Boudin Bakery
-  - Breadsmith
-  - Bobs Red Mill
-  - Bunge Limited
-  - Boyer Brothers
-  - Brachs
-  - Brown and Haley
-  - Bittersweet Plantation Dairy
-  - BelGioioso Cheese
-  - Blue Bell Creameries
-  - Brewster Dairy
-  - Byrne Dairy
-  - Bai Brands
-  - Boylan Bottling Company
-  - BrownForman
-  - Bruce Foods
-  - Brynwood Partners
-  - Bush Brothers and Company
-  - Bellisio Foods
-  - Blue Diamond Growers
-  - Buddy Fruits
-  - Boars Head Provision Company
-  - Burgers Smokehouse
-  - BR Guest
-  - Bloomin Brands
-  - Bravo Brio Restaurant Group
-  - Brinker International
-  - Beer Nuts
-  - Blairs Sauces and Snacks
-  - Badia Spices
-  - Basic Food Flavors
-  - Bien Hoa Sugar
   - - BrownForman
     - Brown Formanm
     - Jack Daniels
     - Woodford Reserve
     - Old Forester
-  - CHS
   - Cargill
   - Chiquita
   - Clorox
@@ -7772,120 +7512,6 @@ case_agnostic_work:
   - ConAgra Foods
   - Chocolates El Rey
   - Cuulong Fish
-  - Cevital
-  - Choppies
-  - Clover
-  - Colcom Foods
-  - Camperdown Dairy International
-  - Canberra Milk
-  - Cavalier Chocolate
-  - Confiserie Roodthooft
-  - Copacol
-  - Canyon Creek Food Company
-  - Chapmans
-  - Cott
-  - Castano
-  - Compania de las Cervecerias Unidas
-  - Concha y Toro
-  - Chaoda Modern Agriculture
-  - COFCO Group
-  - Convenience Retail Asia
-  - Carlsberg Group
-  - Chr Hansen
-  - CoRo Food
-  - Cloetta
-  - Castel Group
-  - Comigel
-  - Compagnie des Fromages et RichesMonts
-  - Cooperl Arc Atlantique
-  - C Hahne Muhlenwerke GmbH & Co KG
-  - Coppenrath & Wiese
-  - Cafe Coffee Day
-  - Candico
-  - Creambell
-  - Campari Group
-  - Carapelli
-  - Cielo
-  - Cirio
-  - Coppola Foods
-  - Cahills Farm Cheese
-  - Carlow Brewing Company
-  - Carrigaline Farmhouse Cheese
-  - C&C Group
-  - Calbee
-  - Chilchota Alimentos
-  - Cholula Hot Sauce
-  - Chelsea Sugar Refinery
-  - Cookie Time
-  - Cermaq
-  - Coop Norge
-  - Corporacion Lindley SA
-  - CDO Foodsphere
-  - Century Pacific Food
-  - Cerealis
-  - Cofaco
-  - Conservas Ramirez
-  - Conserveira do Sul
-  - Cherkizovo
-  - CJ Group
-  - Crown Confectionery
-  - Calidad Pascual
-  - Campofrio Food Group
-  - Cargills
-  - Ceylon Biscuits Limited
-  - Ceylon Cold Stores
-  - Cloetta
-  - Cailler
-  - Chiquita Brands International
-  - Coffee World
-  - Coop
-  - Confiserie Sprungli
-  - Charoen Pokphand Foods
-  - Carib Brewery
-  - Chumak
-  - Charbonnel et Walker
-  - Clarks Pies
-  - Coop Food
-  - Compass Group
-  - Connoisseurs Bakery
-  - Cook Trading
-  - Cooplands
-  - Cranswick plc
-  - Carlos Bake Shop
-  - Cavanagh Company
-  - Collin Street Bakery
-  - Crumbs Bake Shop
-  - Cargill
-  - CHS Inc
-  - ContiGroup Companies
-  - Carolina Foods
-  - Chagrin Falls Popcorn Shop
-  - Chocolove
-  - Cabot Creamery
-  - CalMaine
-  - CassClay
-  - Chaseholm Farm Creamery
-  - Clover Stornetta Farms
-  - Cowgirl Creamery
-  - Crystal Creamery
-  - Cypress Point Creamery
-  - Castle Brands
-  - Cawy Bottling Company
-  - Crunk Energy Drink
-  - Catterton Partners
-  - Cherrybrook Kitchen
-  - Colavita
-  - Cuisine Solutions
-  - Captain Kens Foods
-  - Calavo Growers
-  - Columbus Salame
-  - Casa Sanchez Foods
-  - Charles Chips
-  - Crystal Hot Sauce
-  - Campbell Soup Company
-  - ConAgra Foods
-  - Chocolates El Rey
-  - Cuulong Fish
   - - Campbell
     - Pepperidge Farm
     - Snyders of Hanover
@@ -7901,81 +7527,11 @@ case_agnostic_work:
   - - Conagra
     - Conagra Foods
     - Conagra Brands
-  - Dole
   - Dairy Farmers of America
   - Danone
   - Dean Foods
   - Del Monte
   - Diageo
-  - Distell Group Limited
-  - Darrell Lea
-  - Dick Smith Foods
-  - Do & Co
-  - Delhaize Group
-  - Duc dO
-  - Daiya
-  - DanD Foods
-  - Dare Foods
-  - Dachan Food
-  - Dairy Farm International Holdings
-  - Danish Agro
-  - Danish Crown AmbA
-  - DAVA Foods
-  - Dalloyau
-  - Danone
-  - Daregal
-  - Debauve & Gallais
-  - Delifrance
-  - Dusseldorfer Lowensenf
-  - Dr Oetker
-  - Dabur
-  - Dudhsagar Dairy
-  - De Cecco
-  - Divella
-  - Domori
-  - Donegal Creameries
-  - Douwe Egberts
-  - Droste
-  - Den Lille Nottefabrikken
-  - Drammens Is
-  - Dalda
-  - Don Jorge
-  - Delta Cafes
-  - Doosan Corporation
-  - Daintee
-  - Delica
-  - Dachan Food
-  - Dairy Crest
-  - Delamere Dairy
-  - Devro
-  - Dietary Foods Ltd
-  - Divine Chocolate
-  - Druckers Vienna Patisserie
-  - Dagoba Chocolate
-  - Dans Chocolates
-  - Dylans Candy Bar
-  - Dairy Farmers of America
-  - Darigold
-  - DCI Cheese Company
-  - Dean Foods
-  - Days Beverages
-  - Deep Foods
-  - Del Monte Foods
-  - Dole Food Company
-  - Driscolls
-  - DArtagnan
-  - Dakota Beef
-  - Daniele Inc
-  - Dietz & Watson
-  - Darden Restaurants
-  - Del Friscos Restaurant Group
-  - Delaware North
-  - Dine Brands Global
-  - Dunkin Brands
-  - Dot Foods
-  - Dakota Style
-  - Daves Gourmet
-  - DogGone Sauce
   - Distell Group Limited
   - Darrell Lea
   - Dick Smith Foods
@@ -8073,29 +7629,6 @@ case_agnostic_work:
   - Empire Kosher
   - Elmers Fine Foods
   - Empresas Polar
-  - Ernest Hillier Chocolates
-  - Earths Own Food Company
-  - Elior Group
-  - Evga SA
-  - Everest Spices
-  - Elledi
-  - Ezaki Glico
-  - Efreshcom
-  - Emersons Brewery
-  - Evansdale Cheese
-  - Engro Corporation
-  - Enrique Cassinelli and Sons
-  - Ebro Foods
-  - Engelholms Glass
-  - Emmi AG
-  - Est Cola
-  - Efes Beverage Group
-  - Ellsworth Cooperative Creamery
-  - Eden Foods Inc
-  - Edwards Baking
-  - Empire Kosher
-  - Elmers Fine Foods
-  - Empresas Polar
   - FEMSA
   - Fonterra
   - Famous Brands
@@ -8147,121 +7680,7 @@ case_agnostic_work:
   - Franks RedHot
   - Frenchs
   - Frontier Natural Products Coop
-  - Famous Brands
-  - Ferguson Plarre Bakehouses
-  - Frosty Boy
-  - Fufeng Group
-  - Fujian Dali Group
-  - Franck
-  - FriisHolm
-  - Fazer
-  - Fleury Michon
-  - Frosta AG
-  - Fazer
-  - Faasos
-  - Ferrero SpA
-  - Flahavans
-  - Fyffes
-  - Fujimitsu Corporation
-  - Fujiya
-  - Felda Global Ventures Holdings
-  - FrieslandCampina
-  - Fonterra
-  - Foodstuffs
-  - Foxton Fizz
-  - Felleskjopet
-  - Fjordland
-  - Friele
-  - Fauji Foundation
-  - Figaro Coffee Company
-  - Frulact
-  - Findus
-  - FranchesMontagnes Brewery
-  - Flavorite Ice Cream
-  - F Duerr & Sons
-  - Foxs Confectionery
-  - Fiendish Feet
-  - First Milk
-  - Fivemiletown Creamery
-  - Flowers Foods
-  - Fuji Food
-  - Friesingers Candies
-  - Flagship Food Group
-  - Freds Frozen Foods
-  - Floyd Wilcox & Sons Inc
-  - Franklin Baker Company
-  - Fresh Del Monte Produce
-  - Friedas Inc
-  - Foster Farms
-  - Franks RedHot
-  - Frenchs
-  - Frontier Natural Products Coop
   - Grupo Lala
-  - Golden Web
-  - Grupo Arcor
-  - Glacio
-  - Garoto
-  - Grupo Petropolis
-  - Ganong Bros
-  - Gay Lea
-  - George Weston Limited
-  - Global Sweeteners
-  - Grupo Nutresa
-  - Groupe Bigard
-  - Groupe Doux
-  - Groupe Holder
-  - Groupe Le Duff
-  - Groupe Limagrain
-  - Granini
-  - Gelati Cecchi
-  - Giovanni Rana
-  - Girolamo Luxardo
-  - Granarolo
-  - Grom
-  - Guglielmo coffee
-  - Gustobene
-  - Gleeson Group
-  - Greencore
-  - Grupo Andersons
-  - Grupo Bimbo
-  - Gruma
-  - Grupo Lala
-  - Grupo La Nortenita
-  - Grupo Lala
-  - Goodman Fielder
-  - Greggs
-  - Gartnerhallen
-  - Gourmet Foods
-  - Grupo RAR
-  - Gyeonggi Snack Company
-  - Galletas Gullon
-  - Grupo Calvo
-  - Gunnar Dafgard
-  - Gulsan
-  - Gelato Italia
-  - Ginsters
-  - Goldenfry
-  - Greene King
-  - Graze
-  - Grodzinski Bakery
-  - Great Harvest Bread Company
-  - Gavilon
-  - Georgetown Cupcake
-  - Gertrude Hawk Chocolates
-  - Giambris Quality Sweets
-  - Goetzes Candy Company
-  - Guittard Chocolate Company
-  - Gallikers
-  - Gossner Foods
-  - Grafton Village Cheese Company
-  - Guayaki
-  - Goya Foods
-  - Gustobene
-  - Global Franchise Group
-  - Gordon Food Service
-  - Golden Flake
-  - Gold Pure Food Products Co
-  - General Mills
   - Golden Web
   - Grupo Arcor
   - Glacio
@@ -8402,60 +7821,6 @@ case_agnostic_work:
   - Highlands Coffee
   - Huda Beer
   - Hue Beer
-  - Havanna
-  - Haighs Chocolates
-  - Huon Aquaculture
-  - Hangzhou Wahaha Group
-  - Hanwei Group
-  - Huiyuan Juice
-  - HKScan
-  - Hediard
-  - Halloren Chocolate Factory
-  - Handlmaier
-  - Hans Adler
-  - Haribo
-  - Haitoglou Bros
-  - Haldirams
-  - Heritage Foods
-  - Hadji Bey
-  - House Foods
-  - Heineken International
-  - Healtheries
-  - Hubbard Foods
-  - HennigOlsen Iskremfabrikk
-  - HOFF Norske Potetindustrier
-  - Hval Sjokoladefabrikk
-  - Hortex
-  - Hollys Coffee
-  - Hero Group
-  - HeySong Corporation
-  - Hsin Tung Yang
-  - House of Angostura
-  - Higgidy
-  - Hope and Greenwood
-  - Hovis
-  - HR Bradfords
-  - Happy Cow Creamery
-  - Hershey Creamery Company
-  - Hilmar Cheese Company
-  - Horizon Organic
-  - HP Hood
-  - Hint Water
-  - Hosmer Mountain Soda
-  - Hollandia Produce
-  - Hatfield Quality Meats
-  - Heritage Foods USA
-  - Hormel
-  - Herlocher Foods
-  - Huy Fong Foods
-  - Hain Celestial Group
-  - Hormel
-  - Habeco
-  - Hai Ha Confectionery
-  - Hanoimilk
-  - Highlands Coffee
-  - Huda Beer
-  - Hue Beer
   - - Hersey Company
     - Hersheys
   - - Hormel Foods
@@ -8484,34 +7849,9 @@ case_agnostic_work:
   - Isalys
   - Idahoan Foods
   - Ingredion
-  - Inghams Enterprises
-  - Isis Central Sugar Mill
-  - International Meal Company
-  - IANSA
-  - Intersnack
-  - Ion
-  - Idhayam
-  - Indian dairy products
-  - ITC Limited
-  - Indofood
-  - Irwins Bakery
-  - Ibarra
-  - Isklar
-  - Indykpol
-  - Inmarko
-  - Imlek ad
-  - Irwins Bakery
-  - Italian Peoples Bakery
-  - Idaho Candy Company
-  - Impact Confections
-  - Ice River Springs
-  - Isalys
-  - Idahoan Foods
-  - Ingredion
   - - International Flavors & Fragrances
     - International Flavors and Fragrances
     - Intl Flavors & Fragrances
-  - JBS
   - Julius Meinl
   - Jules Destrooper
   - John Martin Brewery
@@ -8531,28 +7871,6 @@ case_agnostic_work:
   - Joseph Gallo Farms
   - Junket
   - Jones Soda
-  - Jel Sert
-  - J&Ds Down Home Enterprises
-  - Julius Meinl
-  - Jules Destrooper
-  - John Martin Brewery
-  - JBS SA
-  - Jim Pattison Group
-  - Just Us!
-  - Jubilant FoodWorks
-  - Jarritos
-  - Jose Cuervo
-  - Jollibee
-  - Jeongin Food
-  - Joeun Food
-  - Jordans
-  - Jelly Belly
-  - Joyva
-  - Just Born
-  - Joseph Gallo Farms
-  - Junket
-  - Jones Soda
-  - J & J Snack Foods
   - Jel Sert
   - J&Ds Down Home Enterprises
   - - JM Smucker
@@ -8562,67 +7880,6 @@ case_agnostic_work:
     - J & J
   - Kerry Group
   - Kirin Holdings
-  - Kenya Wine Agencies Limited
-  - Kawartha Dairy Company
-  - Kee Wah Bakery
-  - Kweichow Moutai Company
-  - Koestlin
-  - Kras
-  - Kohberg Bakery Group
-  - Knuthenlund
-  - Kaslink Foods
-  - KYKNOS SA
-  - Karachi Bakery
-  - Karnataka Milk Federation
-  - Kerala Cooperative Milk Marketing Federation
-  - Kerala Solvent Extractions
-  - KS Oils
-  - Kerry Group
-  - Kabaya
-  - Kagome
-  - Kikkoman
-  - Kirin Company
-  - Kout Food Group
-  - Karts
-  - Ketel One
-  - Kavli
-  - Kavli Trust
-  - Kamis
-  - Krasny Oktyabr Open JointStock Company
-  - Knjaz Milos ad
-  - Killiney Kopitiam
-  - Korea Tobacco & Ginseng Corporation
-  - Kalise Menorquina
-  - Kimlan Foods
-  - Kuo Yuan Ye
-  - Khon Kaen Sugar
-  - KC Confectionery Limited
-  - Kiss Baking Company Limited
-  - Kristal Kola
-  - Khortytsia
-  - Konti Group
-  - Kremenchukmyaso
-  - Konditor & Cook
-  - Kings Hawaiian
-  - Kossars Bialys
-  - King Arthur Flour
-  - Kuli Kuli Inc
-  - Keggs Candies
-  - Kerns
-  - Kristian Regale
-  - Krinos Foods
-  - Kronos Foods
-  - K&Ns Foods USA
-  - Kansas City Steak Company
-  - Kiolbassa Sausage
-  - Koch Foods
-  - Koegel Meat Company
-  - Kroger
-  - Kars Nuts
-  - Kelloggs
-  - Kraft Heinz
-  - Keurig Dr Pepper
-  - Kinh Do Corporation
   - Kenya Wine Agencies Limited
   - Kawartha Dairy Company
   - Kee Wah Bakery
@@ -8752,62 +8009,6 @@ case_agnostic_work:
   - Lettuce Entertain You Enterprises
   - Landrys Inc
   - Lubys
-  - Les Domaines Agricoles
-  - La Serenisima
-  - Lion Dairy & Drinks
-  - Le Pain Quotidien
-  - Leonidas
-  - Lotus Bakeries
-  - Lassonde Industries
-  - Laura Secord Chocolates
-  - Lesters Foods Ltd
-  - La Rose Noire
-  - Logismose Meyers
-  - La Vie Claire
-  - Lactalis
-  - Lur Berri
-  - Lorenz SnackWorld
-  - La Molisana
-  - Lavazza
-  - Lazzaroni
-  - Loacker
-  - Lakeland Dairies
-  - Lyons Tea
-  - LEOC Japan
-  - La Costena
-  - Lucas Bols
-  - Lewis Road Creamery
-  - Livestock Improvement Corporation
-  - Lerum
-  - La Iberica
-  - Liwayway Holdings Company
-  - Lactogal
-  - La Fantana
-  - Lotte Confectionery
-  - Lantmannen
-  - La Clandestine Absinthe
-  - Lindt & Sprungli
-  - Lion Capital LLP
-  - Lloyd Maunder
-  - Loch Duart
-  - La Segunda Central Bakery
-  - Le Macaron
-  - Levain Bakery
-  - Liz Lovely
-  - Little Crow Foods
-  - Love Grown Foods
-  - Land OLakes
-  - Leprino Foods
-  - Lifeway Foods
-  - Luzianne
-  - La Loma Foods
-  - Lucks Incorporated
-  - Limoneira
-  - Lobels of New York
-  - Lettuce Entertain You Enterprises
-  - Landrys Inc
-  - Lubys
-  - Mars
   - Maple Leaf Foods
   - McCain Foods
   - Mead Johnson
@@ -8834,115 +8035,6 @@ case_agnostic_work:
   - Meica
   - Mestemacher
   - Muller
-  - Mymuesli
-  - Melissa SA
-  - Mevgal
-  - Miran Pastourma
-  - Mahashian Di Hatti
-  - Marico
-  - Mavalli Tiffin Room
-  - Meat Products of India
-  - Milk Mantra
-  - Monginis
-  - Morarka Organic
-  - Mother Dairy
-  - MTR Foods
-  - Mayora Indah
-  - Marzadro Distillery
-  - Massimo Zanetti Beverage Group
-  - Mauds Ice Creams
-  - Murphys Ice Cream
-  - Maruchan
-  - Maruha Nichiro
-  - Marukome
-  - Meiji Dairies
-  - Meiji Seika
-  - Mizkan
-  - Morinaga
-  - Mamee DoubleDecker
-  - Munchys
-  - Mayordomo
-  - McCashins Brewery
-  - Monteiths
-  - My Food Bag
-  - Maarud
-  - Mitchells Fruit Farms Limited
-  - Murree Brewery
-  - Mama Sitas Holding Company
-  - Maxs of Manila
-  - Monde Nissin
-  - Maspex
-  - Mlekara Subotica
-  - MahouSan Miguel Group
-  - Maliban Biscuit Manufactories Limited
-  - Mackmyra Whisky
-  - Max Felchlin
-  - Migros
-  - Minor International
-  - Mitr Phol
-  - Mado
-  - Mackies
-  - McCowans
-  - Metcalfes Food Company
-  - Michton
-  - Millies Cookies
-  - Moo Free Limited
-  - Mornflake
-  - Martins Famous Pastry Shoppe Inc
-  - Mrs Fields
-  - MFA Incorporated
-  - Magnolia Bakery
-  - Monsanto
-  - Mast Brothers
-  - Marich Confectionery
-  - Marin French Cheese Company
-  - Maytag Dairy Farms
-  - Murrays Cheese
-  - Manhattan Special
-  - Martinellis
-  - Matt Brewing Company
-  - Molson Coors Brewing Company
-  - Monarch Beverage Inc
-  - Manischewitz
-  - Mrs Ts Pierogies
-  - Maui Pineapple Company
-  - Marathon Enterprises Inc
-  - Molinaris
-  - McDonalds
-  - Mrs Fishers
-  - Martins Potato Chips
-  - McKee Foods
-  - Mikesells
-  - McCormick & Company
-  - Mezzetta
-  - Mrs Cubbisons Foods
-  - Mt Olive Pickle Company
-  - Michigan Sugar
-  - Mars Incorporated
-  - McCormick & Company
-  - Monarch Beverage Company
-  - Mondelez International
-  - Meat Corporation of Namibia
-  - Melcom
-  - Molinos Rio de la Plata
-  - Mrs Macs Pies
-  - Murray Goulburn Cooperative
-  - Manner
-  - Meurens
-  - Marfrig
-  - M&M Food Market
-  - Maple Leaf Foods
-  - Maypole Dairy Products
-  - McCain Foods
-  - Metro Inc
-  - Mikes Hard Lemonade Co
-  - MTY Food Group
-  - Mengniu Dairy
-  - Menier Chocolate
-  - Michel et Augustin
-  - Mederer GmbH
-  - Meica
-  - Mestemacher Muller
   - Mymuesli
   - Melissa SA
   - Mevgal
@@ -9082,73 +8174,8 @@ case_agnostic_work:
   - Niman Ranch
   - Norbest
   - Nueskes Applewood Smoked Meats
-  - Nile Breweries Limited
-  - Norco Cooperative
-  - Nuttelex
-  - Neuhaus
-  - Natures Path
-  - Naya Waters
-  - Nomad Foods
-  - Niederegger
-  - Nordzucker
-  - Nardini
-  - Nonino Grappa
-  - Nobo
-  - Nippon Flour Mills
-  - Nippon Ham
-  - Nippon Suisan Kaisha
-  - Nissin Foods
-  - Nutreco
-  - Nora Industrier
-  - Nortura
-  - Norway Royal Salmon
-  - National Foods Limited
-  - Nadec
-  - Nectar doo
-  - Nongshim
-  - Nutrexpa
-  - Norrmejerier
-  - Nestle
-  - Nemiroff
-  - Neals Yard Dairy
-  - Natures Harmony Farm
-  - National Beverage
-  - Natrona Bottling Company
-  - Numi Organic Tea
-  - Newmans Own
-  - National Beef Packing Company
-  - Niman Ranch
-  - Norbest
-  - Nueskes Applewood Smoked Meats
   - Ocean Spray
   - Oscar Mayer
-  - Olymel
-  - Organic Meadow Cooperative
-  - Orissa State Cooperative Milk Producers Federation
-  - Old Bushmills Distillery
-  - Ornua
-  - Osem
-  - Orkla Group
-  - OMORe
-  - Orion Confectionery
-  - Ottogi
-  - Osborne Group
-  - Osotspa
-  - Obolon
-  - Oakhouse Foods
-  - Orwashers bakery
-  - Organic Valley
-  - Old Orchard Brands
-  - Oogave
-  - Ocean Spray
-  - Organically Grown Company
-  - Omaha Steaks
-  - Oberweis Dairy
-  - Ovation Brands
-  - Oberto Sausage Company
-  - Old Dutch Foods
-  - Odells
-  - Olivio Premium Products
   - Olymel
   - Organic Meadow Cooperative
   - Orissa State Cooperative Milk Producers Federation
@@ -9243,71 +8270,6 @@ case_agnostic_work:
   - Pure Indian Foods
   - PepsiCo
   - Post Holdings
-  - Pioneer Foods
-  - Patties Foods
-  - Preshafood
-  - Pez
-  - Premiere Moisson
-  - Premium Brands Holdings Corporation
-  - Purdys Chocolates
-  - Purity Factories
-  - Postobon
-  - Podravka
-  - Picard Surgeles
-  - Pernod Ricard
-  - Papadopoulos
-  - Paulig
-  - Parle Agro
-  - Parle Products
-  - Patanjali Ayurved
-  - Perigreen
-  - Pulla Reddy Sweets
-  - Punjabi Chandu Halwai Karachiwala
-  - Parmalat
-  - Pernigotti
-  - Polli
-  - Prigat
-  - Polar Ice Cream
-  - Progressive Enterprises
-  - Pakola
-  - Puin
-  - Pulmuone
-  - Pescanova
-  - Pelwatte Sugar Industries PLC
-  - Pagen
-  - Polarbrod
-  - Peppersmith
-  - Peters Food Services
-  - Plum Baby
-  - Pork Farms
-  - Pukka Herbs
-  - Pukka Pies
-  - Premier Foods
-  - Princes Group
-  - Peanut Butter & Co
-  - POET
-  - Penn State University Creamery
-  - Pierres Ice Cream Company
-  - Point Reyes Farmstead Cheese Company
-  - Prairie Farms Dairy
-  - Peets Coffee & Tea
-  - Poland Spring
-  - Polar Beverages
-  - Premama
-  - Peas of Mind
-  - Pero Family Farms Food Company
-  - Parker House Sausage Company
-  - Pat LaFrieda Meat Purveyors
-  - Perdue Farms
-  - Plumrose USA
-  - Panera Bread
-  - Performance Food Group
-  - Publix
-  - Plochmans
-  - Pompeian Inc
-  - Pure Indian Foods
-  - PepsiCo
-  - Post Holdings
   - - PepsiCo
     - Tropicana
     - Frito Lay
@@ -9321,63 +8283,6 @@ case_agnostic_work:
   - Quala
   - Quely
   - Quiggins
-  - Quala
-  - Quely
-  - Quiggins
-  - Retail Food Group
-  - Rauch
-  - Red Bull GmbH
-  - Recipe Unlimited
-  - Restaurant Brands International
-  - Rogers Sugar
-  - Raisio Group
-  - Rajesh Masala
-  - REI Agro Limited
-  - Ruchi Soya
-  - R&H Hall
-  - Ramly Group
-  - Remia
-  - Royal Wessanen
-  - Restaurant Brands
-  - Republic Biscuit Corporation
-  - RFM Corporation
-  - Rot Front Open JointStock Company
-  - Rubin
-  - Roberts
-  - Ricola
-  - Rivella
-  - Red Bull
-  - Roshen
-  - R&R Ice Cream
-  - Rakusens
-  - Restaurant Group
-  - Riverford
-  - Roadchef
-  - Rowse Honey
-  - Racine Danish Kringles
-  - Revival Soy
-  - Riceland Foods
-  - Reeds Candy
-  - Rocky Mountain Chocolate Factory
-  - Rogue Creamery
-  - R Torre & Company Inc
-  - Red Diamond
-  - Richelieu Foods
-  - Rhee Bros Inc
-  - Rosa Food
-  - Resers Fine Foods
-  - Rhino Foods
-  - Ruiz Foods
-  - Red Gold
-  - Robertsons Hams
-  - Real Mex Restaurants
-  - Restaurants Unlimited Inc
-  - Roark Capital Group
-  - Reyes Holdings
-  - Roberts American Gourmet Food
-  - Rudolph Foods
-  - Reily Foods Company
-  - Rich Products
   - Retail Food Group
   - Rauch
   - Red Bull GmbH
@@ -9460,125 +8365,6 @@ case_agnostic_work:
   - Sri Krishna Sweets
   - Suguna Foods
   - Suminter India Organics
-  - San Carlo
-  - Sterilgarda
-  - Shamrock Foods
-  - Strauss
-  - Sapporo Brewery
-  - Shidax
-  - Snow Brand Milk Products
-  - Suntory
-  - Sabah Tea
-  - Sime Darby
-  - Sidral Mundet
-  - Sigma Alimentos
-  - Silver Fern Farms
-  - Speights
-  - Synlait
-  - SalMar
-  - Synnove Finden
-  - Shan Food Industries
-  - Shezan International
-  - San Miguel Corporation
-  - San Miguel Food and Beverage
-  - Serenitea
-  - SL Agritech Corporation
-  - Sovena Group
-  - Sumol + Compal
-  - Savola Group
-  - Swisslion Group
-  - Samyang Food
-  - Seoul Milk
-  - Snackbox Food Holdings
-  - SPC Group
-  - Sulbing
-  - San Nicasio
-  - SIA Glass
-  - Schweizer Getraenke AG Obermeilen
-  - S M Jaleel and Company
-  - Solo Beverage Company
-  - Sandora
-  - SoyuzViktan
-  - Svitoch
-  - SABMiller
-  - Sainsburys
-  - Samworth Brothers
-  - Sayers
-  - Scotty Brand Ltd
-  - Skinny Candy
-  - Slimming World
-  - Square Pie
-  - SSP Group
-  - Stoats Porridge Bars
-  - Swizzels Matlow
-  - Schmidt Baking Company
-  - Semifreddis Bakery
-  - Sprinkles Cupcakes
-  - Sunbeam Bread
-  - Sanders Confectionery
-  - Sarris Candies
-  - Scharffen Berger Chocolate Maker
-  - Schimpffs Confectionery
-  - Sees Candies
-  - Smarties Candy Company
-  - Somebodys Mothers Chocolate Sauce
-  - Spangler Candy Company
-  - Sargento
-  - Schoeps Ice Cream
-  - Schreiber Foods
-  - Shamrock Farms
-  - Siggis Dairy
-  - Smiling Hill Farm
-  - SmithFoods
-  - Straus Family Creamery
-  - Sunshine Dairy
-  - Sweet Grass Dairy
-  - Steaz
-  - Street King
-  - Suja Juice
-  - Sclafani Foods
-  - Seneca Foods
-  - Streits
-  - Schwan Food Company
-  - Simple and Crisp
-  - Sunkist Growers Incorporated
-  - Sentinel Capital Partners
-  - Starbucks
-  - Stockade Companies
-  - Saladinos Inc
-  - SuperValu
-  - Shearers Foods
-  - Snak King
-  - SnydersLance
-  - Silver Spring Foods
-  - Solo Foods
-  - Spreckels Sugar Company
-  - Seaboard Corporation
-  - Sabeco
-  - SOMED
-  - Spur Corporation
-  - SanCor
-  - San Remo Macaroni Company
-  - Sanitarium
-  - Schweppes Australia
-  - So Natural
-  - Sustagen
-  - Shollar water
-  - Sofia Mel
-  - Saputo
-  - Sobeys
-  - SunOpta
-  - Soprole
-  - Shuanghui
-  - Stauning Whisky
-  - SARIA
-  - Sudzucker
-  - Shanthi Feeds
-  - Skylark Group
-  - Sri Krishna Sweets
-  - Suguna Foods
-  - Suminter India Organics
-  - Sacla Italia
   - San Carlo
   - Sterilgarda
   - Shamrock Foods
@@ -9758,103 +8544,7 @@ case_agnostic_work:
   - Tootsie Roll Industries
   - Tyson Foods
   - Trung Nguyen
-  - Tiger Brands
-  - Tilda Uganda
-  - Tongaat Hulett
-  - Tassal
-  - The a2 Milk Company
-  - Thomas Foods International
-  - Three Threes Condiments
-  - Tien Chun VeTsin
-  - Ting Hsin International Group
-  - Toms International
-  - Tereos
-  - The Soufflet Group
-  - Teekampagne
-  - Teekanne
-  - Terkenlis
-  - The Grand Sweets and Snacks
-  - Tasty Bite
-  - Tayto
-  - Tara
-  - Tohato
-  - Toyo Suisan
-  - The Italian Baker
-  - Talleys Group
-  - Tatua Dairy Company
-  - Tegel Foods
-  - Tine
-  - Tymbark
-  - Tee Yih Jia
-  - Tory Food
-  - TaTung
-  - Tetra Laval
-  - Tropenhaus Frutigen
-  - Ting Hsin International Group
-  - Tingyi
-  - Tao Kae Noi
-  - Thai President Foods
-  - Thai Union Group
-  - ThaiBev
-  - Tekel Birasi
-  - Tangerine Confectionery
-  - Tate & Lyle
-  - Tesco
-  - Tunnocks
-  - Tyrrells
-  - The Claxton Bakery
-  - The Andersons
-  - The Leavitt Corporation
-  - Two Degrees Food
-  - Taza Chocolate
-  - TCHO
-  - The Warrell Corporation
-  - Tillamook County Creamery Association
-  - Talking Rain
-  - Tavalon Tea
-  - Tazo
-  - Turkey Hill
-  - Troegs Brewing Company
-  - Tabatchnick
-  - Trappeys Hot Sauce
-  - The Bauman Family
-  - The Morning Star Company
-  - Taylor Farms
-  - Turbana
-  - Tallgrass Beef Company
-  - The Briad Group
-  - The Wendys Company
-  - Thanasi Foods
-  - Tabasco sauce
-  - Tapatio hot sauce
-  - Texas Pete
-  - The CocaCola Company
-  - The Hershey Company
-  - The JM Smucker Company
-  - T Marzetti Company
-  - TreeHouse Foods
-  - Tootsie Roll Industries
-  - Tyson Foods
-  - Trung Nguyen
   - Unilever
-  - UniPresident Enterprises Corporation
-  - United Plantations
-  - Unilever
-  - Universal Robina
-  - Udders
-  - Unser Bier
-  - UniPresident Enterprises Corporation
-  - Ummah Foods
-  - United States Bakery
-  - US Mills
-  - United Cooperative
-  - Unreal Brands
-  - United Dairy Farmers
-  - Usingers
-  - US Foods
-  - Utz Quality Foods
-  - Urban Accents
-  - US Sugar Corporation
   - UniPresident Enterprises Corporation
   - United Plantations
   - Unilever
@@ -9874,34 +8564,6 @@ case_agnostic_work:
   - Urban Accents
   - US Sugar Corporation
   - Vion Food
-  - Vinagro
-  - Vanparys
-  - Vigor SA
-  - Vitta Foods
-  - Voortman Cookies
-  - Viro
-  - Vindija
-  - Valio
-  - Valrhona
-  - Vivartia
-  - Vadilal
-  - Venchi
-  - Vicenzi
-  - Voiello
-  - Valeo Foods
-  - Valentina
-  - Vion NV
-  - Vinmonopolet
-  - Valouro
-  - Vilac
-  - VillarsMaitreChocolatier
-  - Vestey Group
-  - Voodoo Doughnut
-  - Vermont Creamery
-  - Vanberg & DeWulf
-  - Vitarroz
-  - Vinacafe
-  - Vinamilk
   - Vinagro
   - Vanparys
   - Vigor SA
@@ -9978,73 +8640,10 @@ case_agnostic_work:
   - WingTime
   - Western Sugar Cooperative
   - WhiteWave Foods
-  - Warrnambool Cheese and Butter
-  - Weis
-  - Wendys Supa Sundaes
-  - Wesfarmers
-  - Want Want
-  - Waldemar Behn
-  - Wild
-  - Westland Milk Products
-  - Whitestone cheese
-  - Whittakers
-  - Wigram Beer
-  - Winiary
-  - WimmBillDann Foods
-  - Wasabrod
-  - Want Want
-  - WeiChuan Food Corporation
-  - Waitrose
-  - Walkers Nonsuch
-  - Walkers Shortbread
-  - Warburtons
-  - Warrens Bakery
-  - Welcome Break
-  - Whitbread
-  - Whitby Seafoods Ltd
-  - Wilkin & Sons
-  - William Jackson Food Group
-  - Wrights Pies
-  - Westminster Cracker Company
-  - Whetstone Chocolates
-  - Whitmans
-  - Wainwright Dairy
-  - Winchester Cheese Company
-  - Winder Farms
-  - Wisconsin Cheeseman
-  - White Rock Beverages
-  - Whos Your Daddy Inc
-  - Wish Farms
-  - Walmart
-  - Winder Farms
-  - Winn Dixie
-  - Whole Foods Market
-  - Wise Foods
-  - Wyandot Snacks
-  - Wickles
-  - WingTime
-  - Western Sugar Cooperative
-  - WhiteWave Foods
   - - WH Group
     - Shuanghui Group
   - Xinjiang Chalkis CoLtd
   - Yurun Group
-  - Ysco
-  - Yili Group
-  - Yurun Group
-  - Yehuda Matzos
-  - Yakult
-  - Yamazaki Baking
-  - Yit Foh Tenom Coffee
-  - Ya Kun Kaya Toast
-  - Yeo Hiap Seng
-  - Yeolmae Food
-  - Yildiz Holding
-  - Yarych Confectionery
-  - Yeo Valley
-  - Yanceys Fancy
-  - Yarnell Ice Cream Co
-  - Yum! Brands
   - Ysco
   - Yili Group
   - Yurun Group
@@ -10072,2171 +8671,1939 @@ case_agnostic_work:
   - ZhL
   - Zacky Farms
   - Zevia
-  - Zoo Holdings Group
-  - Zvecevo
-  - Zott
-  - Zensho
-  - Zealong
-  - Zajecarsko pivo
-  - ZhL
-  - Zacky Farms
-  - Zevia
   - cakovecki mlinovi
   - stark
   company_health:
-  - Abbott Laboratories
-  - AbbVie
-  - Acadia Healthcare
-  - Aetna
-  - Agilent Technologies
-  - Alere
-  - Alexion Pharmaceuticals
-  - Allergan
-  - Allscripts Healthcare Solutions
-  - AmerisourceBergen
-  - Amgen
-  - AMN Healthcare Services
-  - Anthem
-  - Astellas
-  - AstraZeneca
-  - AbbVie
-  - Amgen
-  - Abbott Laboratories
-  - AstraZeneca
-  - Allergan
-  - Astellas
-  - Alexion Pharmaceuticals
-  - Bayer
-  - Becton Dickinson
-  - BioRad Laboratories
-  - BioMarin
-  - Biogen
-  - Boston Scientific
-  - BristolMyers Squibb
-  - Biogen
-  - Bayer
-  - BioMarin
-  - - Baxter International
-    - Baxter
-  - - BristolMyers Squibb
-    - Bristol Myers Squibb
-  - Cardinal Health
-  - Celgene
-  - Cerner
-  - Cigna
-  - Community Health Systems
-  - CVS Health
-  - Celgene
-  - Daiichi Sankyo
-  - Danaher
-  - Diplomat Pharmacy
-  - Daiichi Sankyo
-  - - DaVita HealthCare Partners
-    - DaVita HealthCare
-  - Eli Lilly
-  - Eisai Pharmaceutical
-  - Encompass Health
-  - Envision Healthcare
-  - Express Scripts Holding
-  - Eli Lilly & Co
-  - Eisai Pharmaceutical
-  - Genesis Healthcare
-  - Gilead Sciences
-  - GlaxoSmithKline
-  - Gilead Sciences
-  - HCA Healthcare
-  - Healthcare Services Group
-  - HealthSouth
-  - Humana
-  - Iasis Healthcare
-  - Illumnia
-  - Incyte
-  - Illumina
-  - Incyte
-  - Johnson & Johnson
-  - Kindred Healthcare
-  - LifePoint Health
-  - - Laboratory Corp of America
-    - Laboratory Corporation of America
-    - LabCorp
-  - Magellan Health
-  - McCormick
-  - McKesson
-  - Medical Mutual of Ohio
-  - Merck
-  - Molina Healthcare
-  - Mylan
-  - Merck & Co
-  - Mylan
-  - Novartis
-  - Novo Nordisk
-  - Novartis
-  - Novo Nordisk
-  - Perrigo
-  - Pfizer
-  - PharMerica
-  - PRA Health Sciences
-  - Pfizer
-  - Perrigo
-  - Roche
-  - Regeneron Pharmaceuticals
-  - - Regeneron Pharmaceuticals
-    - Regeneron
-  - Sanofi
-  - Select Medical Holdings
-  - Shire Pharmaceuticals
-  - St Jude Medical
-  - Stryker
-  - Syneos Health
-  - Sanofi
-  - Stryker Corporation
-  - Shire Pharmaceuticals
-  - Takeda Pharmaceuticals
-  - Tenet Healthcare
-  - Thermo Fisher Scientific
-  - Takeda Pharmaceutical
-  - UnitedHealth Group
-  - Universal Health Services
-  - Varian Medical Systems
-  - Vertex Pharmaceuticals
-  - WellCare Health Plans
-  - Zimmer Biomet
-  - Zoetis
+  - abbott laboratories
+  - abbvie
+  - acadia healthcare
+  - aetna
+  - agilent technologies
+  - alere
+  - alexion pharmaceuticals
+  - allergan
+  - allscripts healthcare solutions
+  - amerisourcebergen
+  - amgen
+  - amn healthcare services
+  - anthem
+  - astellas
+  - astrazeneca
+  - amgen
+  - abbott laboratories
+  - astrazeneca
+  - allergan
+  - astellas
+  - alexion pharmaceuticals
+  - bayer
+  - becton dickinson
+  - biorad laboratories
+  - biomarin
+  - biogen
+  - boston scientific
+  - bristolmyers squibb
+  - biogen
+  - bayer
+  - biomarin
+  - baxter international
+  - baxter
+  - bristolmyers squibb
+  - bristol myers squibb
+  - cardinal health
+  - celgene
+  - cerner
+  - cigna
+  - community health systems
+  - cvs health
+  - celgene
+  - daiichi sankyo
+  - danaher
+  - diplomat pharmacy
+  - daiichi sankyo
+  - davita healthcare partners
+  - davita healthcare
+  - eli lilly
+  - eisai pharmaceutical
+  - encompass health
+  - envision healthcare
+  - express scripts holding
+  - eli lilly & co
+  - eisai pharmaceutical
+  - genesis healthcare
+  - gilead sciences
+  - glaxosmithkline
+  - gilead sciences
+  - hca healthcare
+  - healthcare services group
+  - healthsouth
+  - humana
+  - iasis healthcare
+  - illumnia
+  - incyte
+  - illumina
+  - incyte
+  - johnson & johnson
+  - kindred healthcare
+  - lifepoint health
+  - laboratory corp of america
+  - laboratory corporation of america
+  - labcorp
+  - magellan health
+  - mccormick
+  - mckesson
+  - medical mutual of ohio
+  - merck
+  - molina healthcare
+  - mylan
+  - merck & co
+  - mylan
+  - novartis
+  - novo nordisk
+  - novartis
+  - novo nordisk
+  - perrigo
+  - pfizer
+  - pharmerica
+  - pra health sciences
+  - pfizer
+  - perrigo
+  - roche
+  - regeneron pharmaceuticals
+  - regeneron pharmaceuticals
+  - regeneron
+  - sanofi
+  - select medical holdings
+  - shire pharmaceuticals
+  - st jude medical
+  - stryker
+  - syneos health
+  - sanofi
+  - stryker corporation
+  - shire pharmaceuticals
+  - takeda pharmaceuticals
+  - tenet healthcare
+  - thermo fisher scientific
+  - takeda pharmaceutical
+  - unitedhealth group
+  - universal health services
+  - varian medical systems
+  - vertex pharmaceuticals
+  - wellcare health plans
+  - zimmer biomet
+  - zoetis
   company_industrial:
-  - ' 3M '
-  - AO Smith
-  - Acuity Brands
-  - AGCO
-  - AK Steel Holding
-  - - Alleghany
-    - Allegheny Technologies
-  - Allison Transmission Holdings
-  - - American Axle & Manufacturing
-    - American Axle and Manufacturing
-  - Ametek
-  - - Anixter International
-    - Anixter
-  - Applied Industrial Technologies
-  - - AptarGroup
-    - Aptar
-  - Arconic
-  - Autoliv
-  - Avery Dennison
-  - B/E Aerospace
-  - Beacon Roofing Supply
-  - Belden
-  - Bemis
-  - Benchmark Electronics
-  - Boeing
-  - Boise Cascade
-  - BorgWarner
-  - Builders FirstSource
-  - Carlisle
-  - Carpenter Technology
-  - Caterpillar
-  - Commercial Metals
-  - Crane
-  - Cummins
-  - Deere
-  - Dover
-  - Emerson Electric
-  - Esterline Technologies
-  - Flowserve
-  - Fluor
-  - Fortive
-  - - Fortune Brands Home & Security
-    - Fortune Brands
-    - Fortune Brands Home and Security
-  - Foundation Building Materials
-  - General Dynamics
-  - General Electric
-  - - Honeywell International
-    - Honeywell
-  - Hubbell
-  - - Hyster Yale Materials
-    - HysterYale
-    - Hyster Yale
-  - Illinois Tool Works
-  - Kansas City Southern
-  - Kennametal
-  - Keysight Technologies
-  - L3 Technologies
-  - Lockheed Martin
-  - Masco
-  - Modine Manufacturing
-  - Mohawk Industries
-  - Mueller Industries
-  - NCI Building Systems
-  - Norfolk Southern
-  - - Northrop Grumman
-    - Orbital ATK
-  - Owens Corning
-  - - Parker Hannifin
-    - ParkerHannifin
-  - Patrick Industries
-  - Phillips 66
-  - Polaris Industries
-  - Rayonier Advanced Materials
-  - Raytheon
-  - Rockwell Automation
-  - Rockwell Collins
-  - - Schnitzer Steel Industries
-    - Schnitzer Steel
-  - - Snap on
-    - Snapon
-  - Spirit AeroSystems
-  - Roper Technologies
-  - - Stanley Black & Decker
-    - Black & Decker
-    - Stanley Works
-    - Stanley Black and Decker
-  - Steel Dynamics
-  - Thor Industries
-  - Timken
-  - TopBuild
-  - Toro
-  - Trinity Industries
-  - Union Pacific
-  - United Technologies
-  - Valmont Industries
-  - Vulcan Materials
-  - - Westinghouse Air Brake
-    - Westinghouse Air Brake Technologies
-    - WABTEC
-  - Xylem
+  - " 3m "
+  - ao smith
+  - acuity brands
+  - agco
+  - ak steel holding
+  - alleghany
+  - allegheny technologies
+  - allison transmission holdings
+  - american axle & manufacturing
+  - american axle and manufacturing
+  - ametek
+  - anixter international
+  - anixter
+  - applied industrial technologies
+  - aptargroup
+  - aptar
+  - arconic
+  - autoliv
+  - avery dennison
+  - b/e aerospace
+  - beacon roofing supply
+  - belden
+  - bemis
+  - benchmark electronics
+  - boeing
+  - boise cascade
+  - borgwarner
+  - builders firstsource
+  - carlisle
+  - carpenter technology
+  - caterpillar
+  - commercial metals
+  - crane
+  - cummins
+  - deere
+  - dover
+  - emerson electric
+  - esterline technologies
+  - flowserve
+  - fluor
+  - fortive
+  - fortune brands home & security
+  - fortune brands
+  - fortune brands home and security
+  - foundation building materials
+  - general dynamics
+  - general electric
+  - honeywell international
+  - honeywell
+  - hubbell
+  - hyster yale materials
+  - hysteryale
+  - hyster yale
+  - illinois tool works
+  - kansas city southern
+  - kennametal
+  - keysight technologies
+  - l3 technologies
+  - lockheed martin
+  - masco
+  - modine manufacturing
+  - mohawk industries
+  - mueller industries
+  - nci building systems
+  - norfolk southern
+  - northrop grumman
+  - orbital atk
+  - owens corning
+  - parker hannifin
+  - parkerhannifin
+  - patrick industries
+  - phillips 66
+  - polaris industries
+  - rayonier advanced materials
+  - raytheon
+  - rockwell automation
+  - rockwell collins
+  - schnitzer steel industries
+  - schnitzer steel
+  - snap on
+  - snapon
+  - spirit aerosystems
+  - roper technologies
+  - stanley black & decker
+  - black & decker
+  - stanley works
+  - stanley black and decker
+  - steel dynamics
+  - thor industries
+  - timken
+  - topbuild
+  - toro
+  - trinity industries
+  - union pacific
+  - united technologies
+  - valmont industries
+  - vulcan materials
+  - westinghouse air brake
+  - westinghouse air brake technologies
+  - wabtec
+  - xylem
   company_other:
-  - ' CBS '
-  - ' CDW '
-  - ' CSRA '
-  - ' CSX '
-  - ' Coty '
-  - ' DSW '
-  - ' Dana '
-  - ' EQT '
-  - ' Evergy '
-  - ' Freds '
-  - ' GGP '
-  - ' GMS '
-  - ' Greif '
-  - ' HCP '
-  - ' HNI '
-  - ' HSN '
-  - ' ITT '
-  - ' KBR '
-  - ' KKR '
-  - ' Kirby '
-  - ' LKQ '
-  - ' Lear '
-  - ' ManTech '
-  - ' Moog '
-  - ' NCR '
-  - ' NVR '
-  - ' PCM '
-  - ' PPL '
-  - ' PVH '
-  - ' Regis '
-  - ' UGI '
-  - ' USG '
-  - ' VCA '
-  - ' VWR '
-  - 22nd Century Media
+  - 22nd century media
   - 360i
-  - 3M
-  - 3M Company
-  - 5 Rabbit Cerveceria
-  - Adrian Smith + Gordon Gill Architecture
-  - Acme Boots a unit of DoubleH Boots
-  - Avlon Industries
-  - Academy Chicago Publishers   one of the oldest independent publishers in Chicago
-  - Adtalem Global Education
-  - Abt Electronics
-  - Aldi Inc
-  - Ace Hardware
-  - ACCO Brands
-  - Alliant Credit Union
-  - Amalgamated Bank of Chicago
-  - Avant
-  - Accuquote
-  - Arthur J Gallagher & Co
-  - Ariel Investments
-  - AJ Canfield Company
-  - Argus Brewery
-  - Allen Brothers
-  - Amys Candy Bar
-  - Argo Tea
-  - Abbvie
-  - Astellas Pharma
-  - Accretive Health
-  - Allscripts
-  - Amcol
-  - Armstrong Tools
-  - A and T Recovery
-  - Alligator Records
-  - Atavistic Records
-  - Academy Chicago Publishers
-  - Allured Business Media
-  - American Technical Publishers
-  - AT Kearney
-  - Accenture
-  - A Eicoff & Company
-  - Acquity Group
-  - AKPD Message and Media
-  - All By Students
-  - Aon Hewitt
-  - Anixter
-  - Andrew Corporation
-  - Accuquote
-  - Adar Inc
-  - Adeptia
-  - Arc Technology Group
-  - Aircell
-  - American Sammy
-  - AAR Corporation
-  - Anacostia Rail Holdings Company
-  - American Hotel Register Company
-  - ABN AMRO Clearing
-  - Aon Corporation Americas region headquarters
-  - Astellas US LLC
-  - Amada Co
-  - ArcelorMittal
-  - ACNielsen North America HQ
-  - Acxiom
-  - Affiliated Computer Services
-  - AlcatelLucent
-  - AT&T Inc
-  - American Airlines
-  - APL Logistics
-  - Allianz
-  - AXA
-  - Atos
-  - AbbVie Inc
-  - ABIOMED Inc
-  - Accenture plc
-  - Adobe Systems Inc
-  - Advanced Micro Devices Inc
-  - AES Corp
-  - Affiliated Managers Group Inc
-  - AFLAC Inc
-  - Agilent Technologies Inc
-  - Air Products & Chemicals Inc
-  - Akamai Technologies Inc
-  - Alaska Air Group Inc
-  - Albemarle Corp
-  - Alexandria Real Estate Equities
-  - Allegion
-  - Allergan Plc
-  - Alliant Energy Corp
-  - Allstate Corp
-  - Alphabet Inc Class A
-  - Alphabet Inc Class C
-  - Altria Group Inc
-  - Amazoncom Inc
-  - Amcor plc
-  - Ameren Corp
-  - American Express Co
-  - American International Group
-  - American Tower Corp
-  - American Water Works Company Inc
-  - AmerisourceBergen Corp
-  - AMETEK Inc
-  - Amgen Inc
-  - Amphenol Corp
-  - Analog Devices Inc
-  - ANSYS
-  - Aon plc
-  - AO Smith Corp
-  - Apache Corporation
-  - Apartment Investment & Management
-  - Apple Inc
-  - Applied Materials Inc
-  - Aptiv Plc
-  - ArcherDanielsMidland Co
-  - Arconic Inc
-  - Arthur J Gallagher & Co
-  - Atmos Energy Corp
-  - AT&T Inc
-  - Autodesk Inc
-  - Automatic Data Processing
-  - AutoZone Inc
-  - AvalonBay Communities Inc
-  - Avery Dennison Corp
-  - BrightView Holdings
-  - Buckeye Partners
-  - Bulley & Andrews
-  - Baird & Warner
-  - Brookfield Properties Retail Group
-  - Bradford Exchange
-  - BRK Brands Inc
-  - Blistex Incorporated
-  - BarBri
-  - Blick Art Materials
-  - Bucketfeet
-  - Bally Total Fitness
-  - Big Monster Toys
-  - Brunswick Corporation
-  - BankFinancial FSB
-  - BMO Harris Bank
-  - Braintree
-  - Bankers Life
-  - Blue Cross Blue Shield Association
-  - Baderbrau
-  - Beam Suntory
-  - Bernard Food Industries
-  - Budlong Pickle Company
-  - Bell Flavors & Fragrances
-  - Baxter International
-  - Broadway In Chicago
-  - Bloodshot Records
-  - Barrington Broadcasting
-  - Big Ten Network
-  - Baker Tilly Virchow Krause LLP
-  - Baker & McKenzie
-  - Banner & Witcoff
-  - Bartlit Beck Herman Palenchar & Scott
-  - BDO USA LLP
-  - Burrell Communications Group
-  - Basecamp
-  - BigMachines
-  - Babaroga
-  - BMW of North America Central Region Office
-  - Bridgestone
-  - BMO Harris Bank
-  - Barilla Americas HQ
-  - Butterball
-  - Bystronic North America headquarters
-  - BAE Systems
-  - Bechtel
-  - Baker Hughes Co
-  - Ball Corp
-  - Bank of America Corp
-  - Baxter International Inc
-  - BB&T Corporation
-  - Best Buy Co Inc
-  - Biogen Inc
-  - Block H&R
-  - Boeing Company
-  - Booking Holdings Inc
-  - Broadcom Inc
-  - Broadridge Financial Solutions
-  - BrownForman Corp
-  - - BMC Stock Holdings
-    - BMC Stock
-  - - Blackhawk Network Holdings
-    - Blackhawk Network
-  - - BlueLinx Holdings
-    - BlueLinx
-  - - BonTon Stores
-    - BonTon
-  - - Briggs & Stratton
-    - Briggs and Stratton
-    - Briggs&Stratton
-  - - Brocade Communications Systems
-    - Brocade Communications
-  - - Brown & Brown
-    - Brown and Brown
-  - CH Robinson Worldwide
-  - CACI International
-  - Cadence Design Systems
-  - Caleres
-  - California Resources
-  - Calpine
-  - CarMax
-  - Carters
-  - Carvana
-  - Catalent
-  - CDK Global
-  - Celanese
-  - Centene
-  - Century Communities
-  - CH2M Hill
-  - Chemours
-  - Church & Dwight
-  - Ciena
-  - CIT Group
-  - CME Group
-  - Colfax
-  - Colony Capital
-  - Comerica
-  - Concho Resources
-  - Conduent
-  - Constellation Brands
-  - Continental Resources
-  - Convergys
-  - CoreCivic
-  - CoreLogic
-  - Corning
-  - Corteva
-  - Crown Holdings
-  - CST Brands
-  - Collins Engineers
-  - Cordogan Clark & Associates
-  - CTLGroup
-  - CenterPoint Properties
-  - Chicago Embroidery Company
-  - Chamberlain Group
-  - Chicago Faucet
-  - Chicago Lock
-  - Career Education Corporation
-  - CDW
-  - Clark Brands
-  - Cartridge World
-  - Claires Stores
-  - Crate & Barrel
-  - Cards Against Humanity
-  - Coskata
-  - Chicago Board Options Exchange
-  - Chicago Stock Exchange
-  - CME Group
-  - CNA Financial
-  - Combined Insurance
-  - Calamos
-  - Chicago Options Associates
-  - Chicago Growth Partners
-  - Citadel LLC
-  - Culligan
-  - Central Grocers Cooperative
-  - Chicago International Produce Market
-  - Cloverhill Bakery
-  - Colonial Ice Cream
-  - Conagra Brands
-  - CF Industries
-  - Cake Girls
-  - Cosi
-  - Cancer Treatment Centers of America
-  - Caremark Rx
-  - Catamaran Corporation
-  - CNH
-  - Continental Packaging Solutions
-  - Cummins Allison
-  - Cedille Records
-  - Chicago Recording Company
-  - Criminal IQ Records
-  - Carus Publishing Company
-  - Chicago Reader
-  - Channel Awesome
-  - College Football News
-  - Consequence of Sound
-  - Crowe Horwath
-  - Centro Inc
-  - CramerKrasselt
-  - Challenger Gray & Christmas
-  - Callpod
-  - Convia
-  - CareerBuilder
-  - Carscom
-  - CheapTickets
-  - Cleversafe
-  - Computhink
-  - CacheFly
-  - Covenant Aviation Security
-  - Caravan Tours
-  - CheapTickets
-  - Chicago Trolley Company
-  - Chicago Union Station Company
-  - Continental Automotive Systems
-  - Citgo
-  - Caterpillar Inc
-  - Cision US HQ
-  - Colliers International Midwest HQ
-  - Canon USA
-  - Cognizant
-  - CSX Transportation
-  - China National Petroleum
-  - China State Construction
-  - Chevron
-  - China Construction Bank
-  - Costco
-  - Caterpillar Inc
-  - Computer Sciences Corporation
-  - Convergys
-  - Cooper Tire & Rubber Company
-  - C H Robinson Worldwide
-  - Cabot Oil & Gas
-  - Cadence Design Systems
-  - Campbell Soup
-  - Capital One Financial
-  - Capri Holdings
-  - Cardinal Health Inc
-  - Carmax Inc
-  - Carnival Corp
-  - Caterpillar Inc
-  - Cboe Global Markets
-  - CBS Corp
-  - CDW
-  - Celanese
-  - Celgene Corp
-  - Centene Corporation
-  - CenturyLink Inc
-  - CF Industries Holdings Inc
-  - Charles Schwab Corporation
-  - Charter Communications
-  - Chevron Corp
-  - Chipotle Mexican Grill
-  - Chubb Limited
-  - Church & Dwight
-  - CIGNA Corp
-  - Cintas Corporation
-  - Cisco Systems
-  - Citizens Financial Group
-  - Citrix Systems
-  - CME Group Inc
-  - CocaCola Company
-  - Cognizant Technology Solutions
-  - ColgatePalmolive
-  - Comcast Corp
-  - Comerica Inc
-  - Conagra Brands
-  - Concho Resources
-  - Constellation Brands
-  - Copart Inc
-  - Corning Inc
-  - Corteva
-  - Costco Wholesale Corp
-  - Coty Inc
-  - Crown Castle International Corp
-  - CSX Corp
-  - Cummins Inc
-  - - CR Bard
-    - CRBard
-  - - CUNA Mutual Group
-    - CUNA Mutual
-  - - CalAtlantic Group
-    - CalAtlantic
-  - - CalMaine Foods
-    - CalMaine
-  - - Calumet Specialty Products
-    - Calumet Specialty Products Partners
-  - - Camping World Holdings
-    - Camping World
-  - - Central Garden & Pet
-    - Central Garden and Pet
-  - - Charles River Laboratories
-    - Charles River
-  - - Charter Communications
-    - Charter Comm
-  - - Cisco Systems
-    - Cisco
-  - - ClevelandCliffs
-    - Cleveland Cliffs
-  - - Comfort Systems USA
-    - Comfort Systems
-  - - CommScope Holding
-    - CommScope
-  - - Cooper Cos
-    - CooperCompanies
-  - - Cooper Tire & Rubber
-    - Cooper Tire and Rubber
-  - - CooperStandard Holdings
-    - CooperStandard
-    - Cooper Standard Holdings
-    - Cooper Standard
-  - - CoreMark Holding
-    - Core Mark Holding
-    - CoreMark
-  - - Crown Castle International
-    - Crown Castle
-  - - Curtiss Wright
-    - CurtissWright
-  - Darling Ingredients
-  - DaVita
-  - DCP Midstream
-  - Deckers Outdoor
-  - Dentsply Sirona
-  - Dicks Sporting Goods
-  - Diebold Nixdorf
-  - Discovery
-  - Dominion Resources
-  - Domtar
-  - Donaldson
-  - DST Systems
-  - Dynegy
-  - Design Toscano
-  - DeVry University
-  - Disaster Kleenup International
-  - DuPont Danisco
-  - Discover Financial Services
-  - Doumak
-  - Dawn Equipment Company
-  - Dover Corporation
-  - Delmark Records
-  - Drag City
-  - Daily Herald
-  - Desplaines Valley News
-  - Design Museum of Chicago
-  - Dean Media Group
-  - Draftfcb
-  - Davka
-  - Dieselpoint Inc
-  - Day 1 Studios
-  - Donlen Corporation
-  - Durham School Services
-  - Dyson USA
-  - DigitasLBi
-  - Daimler
-  - Damco
-  - Deere & Company
-  - Dell
-  - Denso
-  - D R Horton
-  - Danaher Corp
-  - DaVita Inc
-  - Deere & Co
-  - Delta Air Lines Inc
-  - Dentsply Sirona
-  - Digital Realty Trust Inc
-  - Discover Financial Services
-  - Discovery Inc Class A
-  - Discovery Inc Class C
-  - Dish Network
-  - Dover Corp
-  - Dow Inc
-  - DTE Energy Co
-  - Duke Realty Corp
-  - DuPont de Nemours Inc
-  - - Delek US Holdings
-    - Delek
-  - - Delta Tucker Holdings
-    - Delta Tucker
-  - - Discovery Communications
-    - Discovery Inc
-    - Discovery Networks
-  - - DuPont
-    - DowDuPont
-  - Echo Global Logistics
-  - EchoStar
-  - Edgewell Personal Care
-  - Edison International
-  - Edwards Lifesciences
-  - Element Solutions
-  - Enable Midstream Partners
-  - EnerSys
-  - EnLink Midstream
-  - Ensign Group
-  - Entergy
-  - Enterprise Products Partners
-  - EOG Resources
-  - Equinix
-  - Essendant
-  - Euronet Worldwide
-  - Evercore
-  - Expeditors International of Washington
-  - Edward Hines Lumber Company
-  - Equity Global Management
-  - EQ Office
-  - Enesco
-  - Encyclopedia Britannica
-  - Essendant
-  - Empire Today
-  - ELoan
-  - Eagle Insurance
-  - EbyBrown
-  - ElectroMotive Diesel
-  - Engineered Glass Products
-  - Ecycler
-  - Earwig Music Company
-  - Epitonic
-  - Eye of the Storm Records
-  - Edelson McGuire
-  - Edelman
-  - Epsilon
-  - EV Interactive
-  - Experian
-  - Exor
-  - Eastman Kodak Company
-  - E*Trade
-  - Eaton Corporation
-  - Ecolab Inc
-  - Edison Intl
-  - Edwards Lifesciences
-  - Emerson Electric Company
-  - Entergy Corp
-  - EOG Resources
-  - Equifax Inc
-  - Equinix
-  - Essex Property Trust Inc
-  - Estee Lauder Cos
-  - Evergy
-  - Everest Re Group Ltd
-  - Exelon Corp
-  - Expedia Group
-  - Expeditors
-  - Extra Space Storage
-  - Exxon Mobil Corp
-  - - EMCOR Group
-    - EMCOR
-  - - Engility Holdings
-    - Engility
-  - F5 Networks
-  - Fastenal
-  - First Data
-  - First Horizon National
-  - First Solar
-  - FM Global
-  - Ford Motor
-  - Franklin Resources
-  - Freddie Mac
-  - FreeportMcMoRan
-  - FTI Consulting
-  - Fordham Company
-  - First Alert
-  - Fortune Brands Home & Security
-  - Follett Corporation
-  - Florists Transworld Delivery
-  - Fellowes Inc
-  - FASA
-  - First American Bank
-  - First Midwest Bancorp
-  - Feefighters
-  - Frontenac Company
-  - Fannie May a unit of 1800Flowers
-  - Ferrara Candy Company
-  - Flat Out Crazy
-  - Federal Signal Corporation
-  - Family Video
-  - Flying Fish Records
-  - Farm Progress
-  - Fensler Films
-  - Fitch Even Tabin & Flannery
-  - Forsythe Technology
-  - Fieldglass
-  - Flexera Software
-  - FreightCar America
-  - Ford Motor Company
-  - Fitch Group
-  - Fresenius Kabi USA
-  - Fujifilm Medical
-  - FANUC
-  - Ford Motor Company
-  - F5 Networks
-  - Facebook Inc
-  - Fastenal Co
-  - Federal Realty Investment Trust
-  - FedEx Corporation
-  - Fidelity National Information Services
-  - FirstEnergy Corp
-  - Fiserv Inc
-  - FleetCor Technologies Inc
-  - FLIR Systems
-  - Flowserve Corporation
-  - FMC Corporation
-  - Ford Motor
-  - Fortinet
-  - Fortive Corp
-  - Fortune Brands Home & Security
-  - Fox Corporation Class A
-  - Fox Corporation Class B
-  - Franklin Resources
-  - FreeportMcMoRan Inc
-  - - 'Fiserv '
-  - - FleetCor Technologies
-    - FleetCor
-  - Gannett
-  - Gardner Denver
-  - Gartner
-  - Generac Holdings
-  - General Cable
-  - Genesco
-  - Genuine Parts
-  - GEO Group
-  - Global Partners
-  - Global Payments
-  - GNC Holdings
-  - Graham Holdings
-  - Granite Construction
-  - Graybar Electric
-  - Green Plains
-  - Griffon
-  - Group 1 Automotive
-  - Graham Anderson Probst & White
-  - Great Lakes Dredge and Dock Company
-  - Gridiron Enterprises
-  - Guaranteed Rate
-  - Gardner Rich & Co
-  - GCM Grosvenor
-  - GETCO
-  - GTCR
-  - Guggenheim Partners
-  - Goose Island Brewery
-  - Giordanos Pizzeria
-  - Get Money Gang Entertainment
-  - Glitch Mode Recordings
-  - Good News Publishers
-  - Goodheart Willcox
-  - Graham Media Group
-  - Grant Thornton LLP
-  - Goldberg Weisman Cairo
-  - GrubHub
-  - Gogo Inflight Internet
-  - GATX Corporation
-  - GE Transportation
-  - Gerdau
-  - Google
-  - Glencore
-  - Garmin Ltd
-  - Gartner Inc
-  - Genuine Parts
-  - Globe Life Inc
-  - Global Payments Inc
-  - Goldman Sachs Group
-  - 'Grainger '
-  - - GIII Apparel Group
-    - GIII Appael
-  - - Genesee & Wyoming
-    - Genesee and Wyoming
-  - - Goodyear Tire & Rubber
-    - Goodyear
-    - Goodyear Tire and Rubber
-  - - Graphic Packaging Holding
-    - Graphic Packaging
-  - - Greenbrier Companies
-    - Greenbrier
-  - Hanesbrands
-  - Hawaiian Holdings
-  - HC2 Holdings
-  - HCA Holdings
-  - Henry Schein
-  - Herc Holdings
-  - Hexcel
-  - Hexion
-  - HollyFrontier
-  - Hologic
-  - HRG Group
-  - Hub Group
-  - Huntington Ingalls
-  - Hedrich Blessing Photographers
-  - Holabird & Root
-  - Hartmarx
-  - Horween Leather Company
-  - Haeger Potteries
-  - Hearthware Home Products
-  - HSBC Finance a subsidiary of HSBC
-  - Health Care Service Corporation
-  - Hub International
-  - Harris Associates
-  - Henry Crown and Company
-  - Half Acre Beer Company
-  - Hannah Banana Bread Company
-  - Hillshire Brands
-  - Harolds Chicken Shack
-  - Heartland Foods
-  - Hospira
-  - Hendrickson International
-  - Hefty Records
-  - Haymarket Books
-  - HighBeam Research
-  - Harpo Productions
-  - Hinshaw & Culbertson LLP
-  - Horwitz Horwitz & Associates
-  - Huron Consulting Group
-  - Havas
-  - Heidrick & Struggles
-  - Hostway
-  - Hyatt
-  - Hub Group
-  - Hyundai Motor Company
-  - Hitachi High Technologies America
-  - Honda
-  - Halliburton Co
-  - Hanesbrands Inc
-  - HarleyDavidson
-  - Hartford Financial SvcGp
-  - Hasbro Inc
-  - Healthpeak Properties
-  - Helmerich & Payne
-  - Henry Schein
-  - Hess Corporation
-  - Hewlett Packard Enterprise
-  - Hilton Worldwide Holdings Inc
-  - HollyFrontier Corp
-  - Hologic
-  - Honeywell Intl Inc
-  - Hormel Foods Corp
-  - Host Hotels & Resorts
-  - HP Inc
-  - Humana Inc
-  - Huntington Bancshares
-  - Huntington Ingalls Industries
-  - - HB Fuller
-    - HBFuller
-  - - HD Supply Holdings
-    - HD Supply
-  - - Hain Celestial Group
-    - Hain Celestial
-  - - Helmerich & Payne
-    - Helmerich and PayneHelmerich Payne
-  - - HillRom Holdings
-    - HillRom
-    - Hill Rom
-  - Icahn Enterprises
-  - Ingles Markets
-  - Insight Enterprises
-  - Insperity
-  - Interactive Brokers Group
-  - Intercontinental Exchange
-  - International Paper
-  - Interpublic Group
-  - INTL FCStone
-  - Intuit
-  - Intuitive Surgical
-  - IQVIA Holdings
-  - Itron
-  - Islamica
-  - International Star Registry
-  - IGA
-  - International Pool Tour
-  - Integrys Energy Group
-  - Incapital
-  - Intelligentsia Coffee & Tea
-  - Intelligent Medical Objects
-  - Ideal Industries
-  - IDEX Corporation
-  - Invisible Records
-  - IP Pixel
-  - IRI
-  - InterCall
-  - Incredible Technologies
-  - Iron Galaxy Studios
-  - Iowa Pacific Holdings
-  - Ineos/Innovene
-  - IBM
-  - ICBC
-  - Inventec
-  - IDEX Corporation
-  - IDEXX Laboratories
-  - IHS Markit Ltd
-  - Illumina Inc
-  - IngersollRand PLC
-  - Intel Corp
-  - Intercontinental Exchange
-  - International Business Machines
-  - International Paper
-  - Interpublic Group
-  - Intl Flavors & Fragrances
-  - Intuit Inc
-  - Intuitive Surgical Inc
-  - Invesco Ltd
-  - IPG Photonics Corp
-  - IQVIA Holdings Inc
-  - Iron Mountain Incorporated
-  - - 'IDEX '
-  - - IDEXX Laboratories
-    - IDEXX Lab
-  - - 'Infor '
-  - - InterActiveCorp
-    - IAC
-  - Jacobs Engineering Group
-  - Jones Lang LaSalle
-  - Juniper Networks
-  - James McHugh Construction Co
-  - JMB Realty
-  - Jones Lang LaSalle
-  - JewelOsco
-  - Jays Foods
-  - John Crane Inc
-  - JBT Corporation
-  - Johanns Face Records
-  - Johnson Publishing Company
-  - Jellyvision
-  - Jenner & Block
-  - John Galt Solutions Inc
-  - Jellyvision Games
-  - Jet Support Services Inc
-  - JPMorgan Chase
-  - James Hardie Industries US headquarters
-  - JPMorgan Chase
-  - Jack Henry & Associates
-  - Jacobs Engineering Group
-  - J B Hunt Transport Services
-  - JM Smucker
-  - Johnson Controls International
-  - Juniper Networks
-  - - JB Hunt Transport Services
-    - JBHunt
-    - JB Hunt Transport
-    - JB Hunt
-  - - JELDWEN Holding
-    - JELD WEN
-    - JELDWEN
-  - Kaman
-  - Keane Group
-  - Kelly Services
-  - Kemper
-  - KeyCorp
-  - Kinder Morgan
-  - Knights of Columbus
-  - Kraton
-  - Kirkegaard Associates
-  - Krueck and Sexton Architects
-  - Klein Tools
-  - 'Kendall College LLC '
-  - Kenzer & Company
-  - Killerspin
-  - Kemper Corporation
-  - Kemper Direct
-  - Koval Distillery
-  - Kraft Foods Group Inc
-  - Kerasotes Theatres
-  - KM Communications Inc
-  - Katten Muchin Rosenman
-  - Kirkland & Ellis
-  - Kleinschmidt Inc
-  - Kokua Hospitality LLC
-  - Komatsu Limited US headquarters
-  - Kellogg Co
-  - KeyCorp
-  - KimberlyClark
-  - Kimco Realty
-  - Kinder Morgan
-  - KLA Corporation
-  - Kohls Corp
-  - Kraft Heinz Co
-  - Kroger Co
-  - - KLA Tencor
-    - KLATencor
-  - - KapStone Paper & Packaging
-    - KapStone Paper and Packaging
-    - KapStone Paper
-  - - Kar Auction Services
-    - Kar Auction
-  - - Knight Swift Transportation
-    - Knight Swift
-    - KnightSwift
-  - Lam Research
-  - Landstar System
-  - Laureate Education
-  - LCI Industries
-  - Legg Mason
-  - Lennox
-  - Leucadia
-  - Liberty Interactive
-  - Liberty Media
-  - Lincoln Electric
-  - Lincoln National
-  - Lithia Motors
-  - Loews
-  - LSC Communications
-  - Lucien Lagrange Architects
-  - LifeGem
-  - Lyon & Healy
-  - Leslie Hindman Auctioneers
-  - Lake Capital
-  - Lightbank
-  - Levy Restaurants
-  - LKQ Corporation
-  - Lengua Armada Discos
-  - LoFidelity Records
-  - Legacycom
-  - Locke Lord
-  - Laughlin Constable
-  - Leo Burnett Worldwide
-  - Littelfuse
-  - LiveWatch Security
-  - Latigent
-  - Looking Glass Networks
-  - Livingston International
-  - LiNing
-  - LifeWatch
-  - Lafarge North America headquarters
-  - L Brands Inc
-  - L3Harris Technologies
-  - Laboratory Corp of America Holding
-  - Lam Research
-  - Lamb Weston Holdings Inc
-  - Las Vegas Sands Corp
-  - Leggett & Platt
-  - Leidos Holdings
-  - Lennar Corp
-  - 'Lilly '
-  - Lincoln National
-  - Linde plc
-  - LKQ Corporation
-  - Lockheed Martin Corp
-  - Loews Corp
-  - Lowes Cos
-  - - Lamb Weston Holdings
-    - Lamb Weston
-  - - Land Olakes
-    - Land O Lakes
-  - - Leggett & Platt
-    - Leggett and Platt
-    - Leggett
-  - - Leidos Holdings
-    - Leidos
-  - - LouisianaPacific
-    - Louisiana Pacific
-  - Magellan Midstream Partners
-  - ManpowerGroup
-  - Markel
-  - MasTec
-  - Matson
-  - Maxim Integrated Products
-  - Maximus
-  - MDC Holdings
-  - Mednax
-  - Mercury General
-  - Meritor
-  - Metaldyne Performance
-  - Middleby
-  - MKS Instruments
-  - MPM Holdings
-  - MRC Global
-  - MSC Industrial Direct
-  - Magellan Development Group
-  - Marshall USA
-  - McMasterCarr
-  - Midas
-  - Mayfair Games
-  - Mesirow Financial
-  - Morningstar Inc
-  - Magnetar Capital
-  - MK Capital
-  - Metropolis Coffee Company
-  - Metropolitan Brewing
-  - MillerCoors
-  - Mead Johnson Nutrition
-  - Merisant
-  - Morton Salt
-  - Monicals Pizza
-  - Mortons The Steakhouse
-  - Marathon Pharmaceuticals
-  - Medline Industries
-  - Metal Management
-  - Marmon Group
-  - MSDSonline
-  - Minty Fresh
-  - Metromix
-  - MuggleNet
-  - Midway Broadcasting Corporation
-  - Moody Radio
-  - MPI Home Video
-  - McGladrey
-  - Masuda Funai
-  - Mayer Brown
-  - McAndrews Held & Malloy
-  - McDermott Will & Emery
-  - Molex
-  - Motorola Mobility
-  - Motorola Solutions
-  - Midway Games
-  - Mountain King Studios
-  - Motor Coach Industries
-  - Medela
-  - McKesson Corporation
-  - Makino
-  - Mazak Midwest Technology Center
-  - Misumi US headquarters
-  - Mori Seiki US headquarters
-  - McGrawHill
-  - Mintel
-  - Mitsubishi Electric
-  - Mitutoyo
-  - Mitsubishi
-  - Maersk
-  - 'McKesson Corporation '
-  - Motorola
-  - Mumbais dabbawalas
-  - M&T Bank Corp
-  - Macerich
-  - Macys Inc
-  - Marathon Oil Corp
-  - MarketAxess
-  - Marriott Intl
-  - Marsh & McLennan
-  - Masco Corp
-  - Mastercard Inc
-  - McCormick & Co
-  - Maxim Integrated Products Inc
-  - McDonalds Corp
-  - McKesson Corp
-  - Medtronic plc
-  - MetLife Inc
-  - Mettler Toledo
-  - MGM Resorts International
-  - Microsoft Corp
-  - MidAmerica Apartments
-  - Moodys Corp
-  - Motorola Solutions Inc
-  - MSCI Inc
-  - Mylan NV
-  - - MDU Resources Group
-    - MDU Resources
-  - - Marriott International
-    - Marriott
-  - - Marsh & McLennan
-    - Marsh and McLennan
-  - - Mettler Toledo International
-    - Mettler Toledo
-    - MettlerToledo
-  - - Motorola Solutions
-    - Motorola
-  - Navient
-  - Navistar International
-  - NetApp
-  - Newfield Exploration
-  - Newmark Group
-  - NewMarket
-  - News Corp
-  - Nexeo Solutions
-  - Nexstar Media Group
-  - NiSource
-  - Nordson
-  - Nu Skin Enterprises
-  - Nuance Communications
-  - Nucor
-  - Nagle Hartray Architecture
-  - New Power Generation International
-  - Nicor
-  - NiSource
-  - Nadex
-  - Nuveen Investments
-  - Nalco Holding Company
-  - Northwestern University Press
-  - Newsweb Corporation
-  - NBC Sports Chicago
-  - Navigant Consulting Inc
-  - Neuros Technology
-  - Newark Corporation
-  - Nextpoint
-  - Novarra Inc
-  - Namco Cybertainment
-  - NetherRealm Studios
-  - National Van Lines Inc
-  - Navistar International
-  - Nissan Forklift
-  - Nissan North America
-  - Noritake
-  - Navigon
-  - NEC
-  - Nortel
-  - Northrop Grumman Electronic Systems
-  - Northrop Grumman
-  - Nasdaq Inc
-  - National Oilwell Varco Inc
-  - NetApp
-  - Netflix Inc
-  - News Corp Class A
-  - News Corp Class B
-  - Nielsen Holdings
-  - NiSource Inc
-  - Noble Energy Inc
-  - Norfolk Southern Corp
-  - Northern Trust Corp
-  - Northrop Grumman
-  - NortonLifeLock
-  - Norwegian Cruise Line Holdings
-  - Nucor Corp
-  - Nvidia Corporation
-  - NVR Inc
-  - - National General Holdings
-    - National General
-  - Oceaneering International
-  - Ohio National Mutual
-  - Old Republic International
-  - Olin
-  - Omnicom Group
-  - OneMain Holdings
-  - Oneok
-  - Oshkosh
-  - Oxxford Clothes
-  - Orderzonecom
-  - OneChicago
-  - Options Clearing Corporation
-  - 'Old Republic International '
-  - Open Court Publishing Company
-  - Oprah Winfrey Network
-  - Orbitz
-  - Orderzonecom
-  - OneSpan
-  - Open Kernel Labs
-  - Orbitz
-  - OMRON
-  - OReilly Automotive
-  - Omnicom Group
-  - ONEOK
-  - Oracle Corp
-  - - Old Dominion Freight Line
-    - Old Dominion
-  - - Owens & Minor
-    - Owens and Minor
-  - - Owens Illinois
-    - OwensIllinois
-  - Paccar
-  - Pacific Life
-  - Palo Alto Networks
-  - Parexel
-  - Patterson
-  - Paychex
-  - PC Connection
-  - Penn National Gaming
-  - PerkinElmer
-  - Peter Kiewit Sons
-  - PG&E
-  - Philip Morris
-  - Pinnacle Entertainment
-  - Pinnacle West Capital
-  - Pioneer Natural Resources
-  - Platform Specialty Products
-  - Plexus
-  - PolyOne
-  - Presidio
-  - Priceline
-  - PriceSmart
-  - Primoris Services
-  - Prologis
-  - Public Service Enterprise
-  - Publix Super Markets
-  - PulteGroup
-  - Perkins+Will
-  - Pactiv
-  - Pampered Chef
-  - PrepMe
-  - Patel Brothers
-  - Peapod
-  - Paper Source
-  - Pacific Global Bank
-  - PTI Securities & Futures
-  - Prospect Partners
-  - Pabst Brewing Company
-  - Pipeworks Brewing
-  - Portillos Restaurants
-  - Potbelly Sandwich Works
-  - Packaging Corporation of America
-  - Panduit
-  - Positron! Records
-  - Pink
-  - Pitchfork Media
-  - Polnet Communications
-  - Product Development Technologies
-  - Peoples Law Office
-  - Plan B Advertising Agency
-  - Public Communications Inc
-  - Paylocity Corporation
-  - ParkWhiz
-  - Peapod
-  - ProLockbox LLC
-  - Passport Software
-  - ParkWhiz
-  - Popular Inc
-  - Pearson Education publishing as Scott Foresman
-  - Paychex
-  - Panasonic Factory Solutions Company of America
-  - PC Connection
-  - Ping An Insurance
-  - PolyOne Corporation
-  - PACCAR Inc
-  - Packaging Corporation of America
-  - ParkerHannifin
-  - Paychex Inc
-  - Pentair plc
-  - Peoples United Financial
-  - PepsiCo Inc
-  - PerkinElmer
-  - Pfizer Inc
-  - Philip Morris International
-  - Pinnacle West Capital
-  - Pioneer Natural Resources
-  - PPL Corp
-  - Principal Financial Group
-  - Procter & Gamble
-  - Progressive Corp
-  - Prologis
-  - Prudential Financial
-  - Public Serv Enterprise Inc
-  - Pulte Homes Inc
-  - PVH Corp
-  - - Packaging Corp of America
-    - Packaging Corporation of America
-  - - Par Pacific Holdings
-    - Par Pacific
-  - - Plains GP Holdings
-    - Plains GP
-  - - Ply Gem Holdings
-    - Ply Gem
-  - Qorvo
-  - Qualcomm
-  - Quanta Services
-  - Quest Diagnostics
-  - Quintiles Transnational
-  - Qurate Retail
-  - Quill Corporation
-  - Quaker Oats Company a unit of PepsiCo
-  - Qorvo
-  - Quanta Services Inc
-  - QUALCOMM Inc
-  - Quest Diagnostics
-  - - Quad/Graphics
-    - QuadGraphics
-  - Range Resources
-  - Regal Beloit
-  - ResMed
-  - Resolute Forest Products
-  - REV Group
-  - Revlon
-  - Rexnord
-  - Rite Aid
-  - Roadrunner Transportation Systems
-  - Ross Stores
-  - RPM International
-  - Rush Enterprises
-  - Ryder System
-  - Ryerson Holding
-  - Recycled Paper Greetings
-  - RustOleum
-  - Reynolds Group Holdings
-  - Rand McNally
-  - Replogle
-  - Riverside Publishing
-  - Road Ranger
-  - Radio Flyer
-  - Revell
-  - Riddell
-  - RCP Advisors
-  - Republic Tobacco
-  - Resurrection Health Care
-  - Raybestos
-  - Ryerson Inc
-  - Redbox Automated Retail LLC
-  - RR Donnelley
-  - Rise Interactive
-  - Roundarch Isobar
-  - RemObjects Software
-  - Robomodo
-  - Rail World Inc
-  - Rexam
-  - Ricardo plc
-  - Robert Bosch Corp
-  - Ryobi
-  - Ralph Lauren Corporation
-  - Raymond James Financial Inc
-  - Raytheon Co
-  - Realty Income Corporation
-  - Regency Centers Corporation
-  - Regions Financial Corp
-  - Republic Services Inc
-  - ResMed
-  - Robert Half International
-  - Rockwell Automation Inc
-  - Rollins Inc
-  - Ross Stores
-  - Royal Caribbean Cruises Ltd
-  - - RR Donnelley & Sons
-    - RR Donnelley
-  - - Regal Entertainment Group
-    - Regal Entertainment
-  - - Reliance Steel & Aluminum
-    - Reliance Steel and Aluminum
-  - - Rent A Center
-    - RentACenter
-  - - Robert Half International
-    - Robert Half
-  - Sabre
-  - Sanmina
-  - SCANA
-  - ScanSource
-  - Schneider National
-  - Science Applications International
-  - Scientific Games
-  - Scripps Networks Interactive
-  - Seaboard
-  - Sealed Air
-  - SemGroup
-  - Service Corp International
-  - ServiceNow
-  - Silgan Holdings
-  - SiteOne Landscape Supply
-  - SkyWest
-  - Skyworks Solutions
-  - Sonic Automotive
-  - Sonoco Products
-  - SpartanNash
-  - Spectrum Brands
-  - Sprague Resources
-  - Sprouts Farmers Market
-  - SPX FLOW
-  - Stepan
-  - Stewart Information Services
-  - Supervalu
-  - Swift Transportation
-  - Symantec
-  - Synnex
-  - Synopsys
-  - Sysco
-  - SmithGroup
-  - Skidmore Owings & Merrill
-  - Solomon Cordwell Buenz
-  - Studio Gang Architects
-  - Strategic Hotels & Resorts
-  - Serta
-  - Solo Cup Company
-  - Shure Incorporated
-  - Specimen Products
-  - SK Hand Tools
-  - Sears Holdings Corporation
-  - SuperValu Pharmacies
-  - Sanford LP
-  - SRAM Corporation
-  - Stern
-  - SVM
-  - Safeway Insurance Group
-  - Strom Products
-  - SauerDanfoss
-  - Stepan Company
-  - SmurfitStone Container
-  - Sloan Valve Company
-  - Switchcraft
-  - Sick Room Records
-  - Sourcebooks
-  - Star Farm Productions
-  - SunTimes Media Group
-  - Siskel/Jacobs Productions
-  - Standing Point Films
-  - Schiff Hardin
-  - Seyfarth Shaw
-  - Sidley Austin
-  - Shareasale
-  - ShopLocal
-  - Someoddpilot
-  - Starcom
-  - Strata
-  - Spencer Stuart
-  - SurePayroll
-  - Shure
-  - SilkRoad
-  - Sittercitycom
-  - SpotHero
-  - S&C Electric
-  - Springcm
-  - ServerCentral
-  - Steadfast Networks
-  - SpotHero
-  - Standard Parking
-  - Subaru of America Regional Office  Central
-  - Sunstar Americas
-  - Schneider Electric
-  - Smithfield Foods
-  - Siemens Healthcare US headquarters
-  - Siemens Building Technologies US headquarters
-  - SSAB North America
-  - Subaru Industrial Power Products
-  - Sumitomo Corporation of America
-  - Suzo Happ North America HQ
-  - Salesforcecom
-  - SAP SE
-  - STMicroelectronics
-  - Sinopec
-  - State Grid
-  - Samsung Electronics
-  - SAIC Motor
-  - Sears
-  - Shop Direct
-  - Starwood Hotels & Resorts Worldwide
-  - Salesforcecom
-  - SBA Communications
-  - Schlumberger Ltd
-  - Seagate Technology
-  - Sealed Air
-  - SherwinWilliams
-  - Simon Property Group Inc
-  - Skyworks Solutions
-  - Snapon
-  - Southern Co
-  - S&P Global Inc
-  - Stanley Black & Decker
-  - Starbucks Corp
-  - State Street Corp
-  - Stryker Corp
-  - Synopsys Inc
-  - Sysco Corp
-  - - Scotts MiracleGro
-    - Scotts Miracle Gro
-  - - ServiceMaster Global Holdings
-    - ServiceMaster
-  - - Smart & Final Stores
-    - Smart and Final Stores
-  - - Snyders Lance
-    - SnydersLance
-  - Tailored Brands
-  - Targa Resources
-  - Tech Data
-  - TEGNA
-  - Teleflex
-  - Tempur Sealy
-  - Tenneco
-  - Teradata
-  - Teradyne
-  - Terex
-  - Tesla
-  - Tesoro
-  - Tetra Tech
-  - Texas Roadhouse
-  - Textron
-  - TJX
-  - Tops Holding
-  - Torchmark
-  - Total System Services
-  - Tower International
-  - TransDigm Group
-  - TRI Pointe Group
-  - Trimble
-  - TriNet Group
-  - Triumph Group
-  - TrueBlue
-  - Tutor Perini
-  - Thermos LLC
-  - Turtle Wax
-  - Tribeca Flashpoint Media Arts Academy
-  - True Value
-  - The Land of Nod
-  - The Pampered Chef
-  - Threadless
-  - The Care of Trees
-  - TDC Games
-  - Ty Inc
-  - TransMarket Group
-  - Tropicana Products
-  - Two Brothers Brewing
-  - Topco Associates
-  - The Great American Bagel Bakery
-  - Tenneco
-  - Thermique Technologies
-  - The Frantz Manufacturing Company
-  - Tripp Lite
-  - Thick Records
-  - Thrill Jockey
-  - Touch and Go Records
-  - Third World Press
-  - Tribune Company
-  - Tyndale House
-  - The Onion
-  - The Second City
-  - Tribune Broadcasting
-  - TicketsNow
-  - Trustwave Holdings
-  - Translatecom
-  - ThoughtWorks
-  - Telephone and Data Systems
-  - Tellabs
-  - Transco Railway Products
-  - TTX Company
-  - Toyota Motor Sales USA Inc
-  - Takeda Pharmaceutical Company US headquarters
-  - Tyco International
-  - Toshiba America
-  - Toyota
-  - Total
-  - Trafigura
-  - The Vanguard Group
-  - The Bank of New York Mellon Corp
-  - The Clorox Company
-  - The Cooper Companies
-  - The Mosaic Company
-  - TMobile US
-  - T Rowe Price Group
-  - TakeTwo Interactive
-  - Tapestry Inc
-  - Target Corp
-  - TE Connectivity Ltd
-  - TechnipFMC
-  - Teleflex
-  - Textron Inc
-  - Tiffany & Co
-  - Twitter Inc
-  - TJX Companies Inc
-  - Tractor Supply Company
-  - TransDigm Group
-  - The Travelers Companies Inc
-  - TripAdvisor
-  - The Walt Disney Company
-  - - Teledyne Technologies
-    - Teledyne
-  - - Telephone & Data Systems
-    - Telephone and Data Systems
-  - - Triple S Management
-    - TripleS Management
-    - 'Triple S '
-  - - Twenty First Century Fox
-    - TwentyFirst Century Fox
-  - 'US Foods '
-  - Unified Grocers
-  - Unisys
-  - Univar
-  - Universal
-  - Universal Forest Products
-  - Univision Communications
-  - Unum Group
-  - UrbanLab
-  - US Music Corporation
-  - Universal Audio
-  - Ulta
-  - UOP LLC
-  - Urban Partnership Bank
-  - US Futures Exchange
-  - USG Corporation
-  - University of Chicago Press
-  - UBid
-  - Underwriters Laboratories
-  - Univa
-  - US Cellular
-  - USRobotics
-  - United Continental Holdings
-  - Union Tank Car Company
-  - US Steel
-  - Uber
-  - UPS
-  - UnitedHealth
-  - 'Unipart '
-  - United States Army
-  - United States Marine Corps
-  - UDR Inc
-  - Under Armour Class A
-  - Under Armour Class C
-  - Union Pacific Corp
-  - United Airlines Holdings
-  - United Health Group Inc
-  - United Parcel Service
-  - United Rentals Inc
-  - Universal Health Services Inc
-  - Unum Group
-  - Vantiv
-  - Vectren
-  - Ventas
-  - Veritiv
-  - Verso
-  - Viacom
-  - Vishay Intertechnology
-  - Vista Outdoor
-  - Visteon
-  - Ventas
-  - Vaughan
-  - ValTest Distributors
-  - Vanee Foods
-  - Vienna Beef
-  - Viskase
-  - Vetsprevail
-  - Velsicol Chemical Corporation
-  - Victory Records
-  - Venture
-  - Victor Technology
-  - Vivid Seats
-  - Volkswagen
-  - Verizon
-  - VF Corp
-  - Ventas Inc
-  - Verisign Inc
-  - Verisk Analytics
-  - Verizon Communications
-  - Vertex Pharmaceuticals Inc
-  - Viacom Inc
-  - Visa Inc
-  - - VeriFone Systems
-    - VeriFone
-  - - Verisk Analytics
-    - Verisk
-  - Wabash National
-  - WABCO
-  - Warner Music
-  - Watsco
-  - Wayfair
-  - Weis Markets
-  - Welltower
-  - Werner Enterprises
-  - Western Digital
-  - Western Refining
-  - Western Union
-  - WestRock
-  - Weyerhaeuser
-  - WGL Holdings
-  - Windstream Holdings
-  - World Fuel Services
-  - Worldpay
-  - Wiss Janney Elstner Associates Inc
-  - Walter E Smithe
-  - WeberStephen Products
-  - World Book Encyclopedia
-  - WyzAnt
-  - Walgreens Boots Alliance
-  - Walgreen Company
-  - W W Grainger
-  - Wilson Sporting Goods
-  - Wirtz Corp
-  - William Blair & Company
-  - Wind Point Partners
-  - Wm Wrigley Jr Company
-  - Worlds Finest Chocolate
-  - Wheaton Franciscan Healthcare
-  - Walgreens
-  - World Dryer
-  - Wrapports
-  - Weigel Broadcasting
-  - WGN America
-  - Winston & Strawn
-  - WhittmanHart
-  - Westell
-  - WMS Industries
-  - Willis Group
-  - Wanxiang Group US headquarters
-  - Weichai Power
-  - Walgreens Boots Alliance
-  - Wipro
-  - Wabtec Corporation
-  - Walgreens Boots Alliance
-  - Waste Management Inc
-  - Waters Corporation
-  - Wec Energy Group Inc
-  - WellCare
-  - Welltower Inc
-  - Western Digital
-  - Western Union Co
-  - WestRock
-  - Weyerhaeuser
-  - Whirlpool Corp
-  - Williams Cos
-  - Willis Towers Watson
-  - Wynn Resorts Ltd
-  - - WESCO
-    - WESCO International
-  - - WR Berkley
-    - WRBerkley
-  - - Wyndham Worldwide
-    - Wyndham
-  - Xilinx
-  - XPO Logistics
-  - XLnet
-  - XL Group
-  - Xcel Energy Inc
-  - Xilinx
-  - Xylem Inc
-  - YRC Worldwide
-  - Yellow Cab Company
-  - Yaskawa Electric Corporation
-  - Yelp
-  - Yum! Brands Inc
-  - Zayo Group
-  - Zizzle
-  - Zorch International
-  - Zenith Electronics
-  - Zoom Vacations
-  - Zurich Financial Services
-  - ZF Friedrichshafen
-  - Zimmer Biomet Holdings
-  - Zions Bancorp
-  - crowdSPRING
-  - eBay Inc
+  - 5 rabbit cerveceria
+  - a and t recovery
+  - a eicoff & company
+  - aar corporation
+  - abbvie inc
+  - abiomed inc
+  - abn amro clearing
+  - abt electronics
+  - academy chicago publishers
+  - academy chicago publishers   one of the oldest independent publishers in chicago
+  - accenture plc
+  - acco brands
+  - accretive health
+  - accuquote
+  - ace hardware
+  - acme boots a unit of doubleh boots
+  - acnielsen north america hq
+  - acquity group
+  - acxiom
+  - adar inc
+  - adeptia
+  - adobe systems inc
+  - adrian smith + gordon gill architecture
+  - advanced micro devices inc
+  - aes corp
+  - affiliated computer services
+  - affiliated managers group inc
+  - aflac inc
+  - agilent technologies inc
+  - air products & chemicals inc
+  - aircell
+  - aj canfield company
+  - akamai technologies inc
+  - akpd message and media
+  - alaska air group inc
+  - albemarle corp
+  - alcatellucent
+  - aldi inc
+  - alexandria real estate equities
+  - all by students
+  - allegion
+  - allen brothers
+  - allergan plc
+  - alliant credit union
+  - alliant energy corp
+  - allianz
+  - alligator records
+  - allscripts
+  - allstate corp
+  - allured business media
+  - alphabet inc class a
+  - alphabet inc class c
+  - altria group inc
+  - amada co
+  - amalgamated bank of chicago
+  - amazoncom inc
+  - amcol
+  - amcor plc
+  - ameren corp
+  - american airlines
+  - american express co
+  - american hotel register company
+  - american international group
+  - american sammy
+  - american technical publishers
+  - american tower corp
+  - american water works company inc
+  - amerisourcebergen corp
+  - ametek inc
+  - amgen inc
+  - amphenol corp
+  - amys candy bar
+  - anacostia rail holdings company
+  - analog devices inc
+  - andrew corporation
+  - ansys
+  - ao smith corp
+  - aon corporation americas region headquarters
+  - aon hewitt
+  - aon plc
+  - apache corporation
+  - apartment investment & management
+  - apl logistics
+  - apple inc
+  - applied materials inc
+  - aptiv plc
+  - arc technology group
+  - arcelormittal
+  - archerdanielsmidland co
+  - arconic inc
+  - argo tea
+  - argus brewery
+  - ariel investments
+  - armstrong tools
+  - arthur j gallagher & co
+  - astellas pharma
+  - astellas us llc
+  - at&t inc
+  - atavistic records
+  - atmos energy corp
+  - atos
+  - autodesk inc
+  - autozone inc
+  - avalonbay communities inc
+  - avant
+  - avery dennison corp
+  - avlon industries
+  - axa
+  - babaroga
+  - baderbrau
+  - bae systems
+  - baird & warner
+  - baker & mckenzie
+  - baker hughes co
+  - baker tilly virchow krause llp
+  - ball corp
+  - bally total fitness
+  - bank of america corp
+  - bank of new york mellon corp
+  - bankers life
+  - bankfinancial fsb
+  - banner & witcoff
+  - barbri
+  - barilla americas hq
+  - barrington broadcasting
+  - bartlit beck herman palenchar & scott
+  - basecamp
+  - baxter international inc
+  - bb&t corporation
+  - bdo usa llp
+  - beam suntory
+  - bechtel
+  - bell flavors & fragrances
+  - bernard food industries
+  - best buy co inc
+  - big monster toys
+  - big ten network
+  - bigmachines
+  - biogen inc
+  - blackhawk network
+  - blick art materials
+  - blistex incorporated
+  - block h&r
+  - bloodshot records
+  - blue cross blue shield association
+  - bluelinx
+  - bmc stock
+  - bmo harris bank
+  - bmw of north america central region office
+  - boeing company
+  - bonton
+  - booking holdings inc
+  - bradford exchange
+  - braintree
+  - bridgestone
+  - briggs & stratton
+  - briggs and stratton
+  - briggs&stratton
+  - brightview holdings
+  - brk brands inc
+  - broadcom inc
+  - broadway in chicago
+  - brocade communications
+  - brookfield properties retail group
+  - brown & brown
+  - brown and brown
+  - brownforman corp
+  - brunswick corporation
+  - bucketfeet
+  - buckeye partners
+  - budlong pickle company
+  - bulley & andrews
+  - burrell communications group
+  - butterball
+  - bystronic north america headquarters
+  - c h robinson worldwide
+  - cachefly
+  - caci international
+  - cadence design systems
+  - cake girls
+  - calamos
+  - calatlantic
+  - caleres
+  - california resources
+  - callpod
+  - calpine
+  - calumet specialty products
+  - campbell soup
+  - camping world
+  - cancer treatment centers of america
+  - canon usa
+  - capri holdings
+  - caravan tours
+  - cardinal health inc
+  - cards against humanity
+  - career education corporation
+  - careerbuilder
+  - caremark rx
+  - carmax
+  - carmax inc
+  - carnival corp
+  - carscom
+  - carters
+  - cartridge world
+  - carus publishing company
+  - carvana
+  - catalent
+  - catamaran corporation
+  - caterpillar inc
+  - cbs
+  - cbs corp
+  - cdk global
+  - cdw
+  - cedille records
+  - celanese
+  - celgene corp
+  - centene
+  - centene corporation
+  - centerpoint properties
+  - central garden & pet
+  - central garden and pet
+  - central grocers cooperative
+  - centro inc
+  - century communities
+  - centurylink inc
+  - cf industries holdings inc
+  - ch robinson worldwide
+  - ch2m hill
+  - challenger gray & christmas
+  - chamberlain group
+  - channel awesome
+  - charles river
+  - charles schwab corporation
+  - charter communications
+  - cheaptickets
+  - chemours
+  - chevron
+  - chevron corp
+  - chicago embroidery company
+  - chicago faucet
+  - chicago growth partners
+  - chicago international produce market
+  - chicago lock
+  - chicago options associates
+  - chicago reader
+  - chicago recording company
+  - chicago stock exchange
+  - chicago trolley company
+  - chicago union station company
+  - china construction bank
+  - china national petroleum
+  - china state construction
+  - chubb limited
+  - church & dwight
+  - ciena
+  - cigna corp
+  - cintas corporation
+  - cisco
+  - cisco systems
+  - cision us hq
+  - cit group
+  - citadel llc
+  - citgo
+  - claires stores
+  - clark brands
+  - cleveland cliffs
+  - clevelandcliffs
+  - cleversafe
+  - clorox company
+  - cloverhill bakery
+  - cme group
+  - cme group inc
+  - cna financial
+  - cnh
+  - cognizant
+  - colfax
+  - college football news
+  - colliers international midwest hq
+  - collins engineers
+  - colonial ice cream
+  - colony capital
+  - combined insurance
+  - comcast corp
+  - comerica
+  - comerica inc
+  - comfort systems
+  - commscope
+  - computer sciences corporation
+  - computhink
+  - concho resources
+  - conduent
+  - consequence of sound
+  - constellation brands
+  - continental automotive systems
+  - continental packaging solutions
+  - continental resources
+  - convergys
+  - convia
+  - cooper companies
+  - cooper cos
+  - cooper standard
+  - cooper tire & rubber
+  - cooper tire & rubber company
+  - cooper tire and rubber
+  - coopercompanies
+  - cooperstandard
+  - copart inc
+  - cordogan clark & associates
+  - core mark
+  - corecivic
+  - corelogic
+  - coremark
+  - corning
+  - corning inc
+  - corteva
+  - cosi
+  - coskata
+  - costco wholesale corp
+  - coty
+  - coty inc
+  - covenant aviation security
+  - cr bard
+  - cramerkrasselt
+  - crate & barrel
+  - crbard
+  - criminal iq records
+  - crowdspring
+  - crowe horwath
+  - crown castle
+  - crown castle international corp
+  - crown holdings
+  - csra
+  - cst brands
+  - csx
+  - csx corp
+  - csx transportation
+  - ctlgroup
+  - culligan
+  - cummins allison
+  - cummins inc
+  - cuna mutual
+  - curtiss wright
+  - curtisswright
+  - d r horton
+  - daily herald
+  - daimler
+  - damco
+  - dana
+  - danaher corp
+  - darling ingredients
+  - davita
+  - davita inc
+  - davka
+  - dawn equipment company
+  - day 1 studios
+  - dcp midstream
+  - dean media group
+  - deckers outdoor
+  - deere & co
+  - deere & company
+  - delek
+  - dell
+  - delmark records
+  - delta air lines inc
+  - delta tucker
+  - denso
+  - dentsply sirona
+  - design museum of chicago
+  - design toscano
+  - desplaines valley news
+  - devry university
+  - dicks sporting goods
+  - diebold nixdorf
+  - dieselpoint inc
+  - digital realty trust inc
+  - digitaslbi
+  - disaster kleenup international
+  - discovery
+  - discovery communications
+  - discovery inc
+  - discovery inc class a
+  - discovery inc class c
+  - discovery networks
+  - dominion resources
+  - domtar
+  - donaldson
+  - donlen corporation
+  - doumak
+  - dover corp
+  - dover corporation
+  - dow inc
+  - draftfcb
+  - drag city
+  - dst systems
+  - dsw
+  - dte energy co
+  - duke realty corp
+  - dupont danisco
+  - dupont de nemours inc
+  - durham school services
+  - dynegy
+  - dyson usa
+  - eagle insurance
+  - earwig music company
+  - eastman kodak company
+  - eaton corporation
+  - ebay inc
+  - ebybrown
+  - echo global logistics
+  - echostar
+  - ecolab inc
+  - ecycler
+  - edelman
+  - edelson mcguire
+  - edgewell personal care
+  - edison international
+  - edison intl
+  - edward hines lumber company
+  - edwards lifesciences
+  - electromotive diesel
+  - element solutions
+  - eloan
+  - emcor
+  - emerson electric company
+  - empire today
+  - enable midstream partners
+  - encyclopedia britannica
+  - enersys
+  - enesco
+  - engility
+  - engineered glass products
+  - enlink midstream
+  - ensign group
+  - entergy
+  - entergy corp
+  - enterprise products partners
+  - eog resources
+  - epitonic
+  - epsilon
+  - eq office
+  - eqt
+  - equifax inc
+  - equinix
+  - equity global management
+  - essendant
+  - essex property trust inc
+  - estee lauder cos
+  - euronet worldwide
+  - ev interactive
+  - evercore
+  - everest re group ltd
+  - evergy
+  - exelon corp
+  - exor
+  - expeditors
+  - expeditors international of washington
+  - experian
+  - extra space storage
+  - exxon mobil corp
+  - eye of the storm records
+  - f5 networks
+  - facebook inc
+  - family video
+  - fannie may a unit of 1800flowers
+  - fanuc
+  - farm progress
+  - fasa
+  - fastenal
+  - fastenal co
+  - federal realty investment trust
+  - federal signal corporation
+  - fedex corporation
+  - feefighters
+  - fellowes inc
+  - fensler films
+  - ferrara candy company
+  - fieldglass
+  - first alert
+  - first american bank
+  - first data
+  - first horizon national
+  - first midwest bancorp
+  - first solar
+  - firstenergy corp
+  - fiserv
+  - fiserv inc
+  - fitch even tabin & flannery
+  - fitch group
+  - flat out crazy
+  - fleetcor
+  - fleetcor technologies inc
+  - flexera software
+  - flir systems
+  - florists transworld delivery
+  - flowserve corporation
+  - flying fish records
+  - fm global
+  - fmc corporation
+  - follett corporation
+  - ford motor
+  - ford motor company
+  - fordham company
+  - forsythe technology
+  - fortinet
+  - fortive corp
+  - fox corporation class a
+  - fox corporation class b
+  - franklin resources
+  - freddie mac
+  - freds
+  - freeportmcmoran
+  - freeportmcmoran inc
+  - freightcar america
+  - fresenius kabi usa
+  - frontenac company
+  - fti consulting
+  - fujifilm medical
+  - gannett
+  - gardner denver
+  - gardner rich & co
+  - garmin ltd
+  - gartner
+  - gartner inc
+  - gatx corporation
+  - gcm grosvenor
+  - ge transportation
+  - generac holdings
+  - general cable
+  - genesco
+  - genesee & wyoming
+  - genesee and wyoming
+  - genuine parts
+  - geo group
+  - gerdau
+  - get money gang entertainment
+  - getco
+  - ggp
+  - giii appael
+  - giordanos pizzeria
+  - glencore
+  - glitch mode recordings
+  - global partners
+  - global payments
+  - global payments inc
+  - globe life inc
+  - gms
+  - gnc holdings
+  - gogo inflight internet
+  - goldberg weisman cairo
+  - good news publishers
+  - goodheart willcox
+  - goodyear tire & rubber
+  - goodyear tire and rubber
+  - google
+  - goose island brewery
+  - graham anderson probst & white
+  - graham holdings
+  - graham media group
+  - grainger
+  - granite construction
+  - grant thornton llp
+  - graphic packaging
+  - graybar electric
+  - great lakes dredge and dock company
+  - green plains
+  - greenbrier
+  - greif
+  - gridiron enterprises
+  - griffon
+  - group 1 automotive
+  - grubhub
+  - gtcr
+  - guaranteed rate
+  - guggenheim partners
+  - haeger potteries
+  - hain celestial
+  - half acre beer company
+  - halliburton co
+  - hanesbrands
+  - hanesbrands inc
+  - hannah banana bread company
+  - harolds chicken shack
+  - harpo productions
+  - harris associates
+  - hartford financial svcgp
+  - hartmarx
+  - hasbro inc
+  - havas
+  - hawaiian holdings
+  - haymarket books
+  - hb fuller
+  - hbfuller
+  - hc2 holdings
+  - hca holdings
+  - hcp
+  - hd supply
+  - health care service corporation
+  - healthpeak properties
+  - hearthware home products
+  - heartland foods
+  - hedrich blessing photographers
+  - hefty records
+  - heidrick & struggles
+  - helmerich & payne
+  - helmerich and payne
+  - helmerich payne
+  - hendrickson international
+  - henry crown and company
+  - henry schein
+  - herc holdings
+  - hess corporation
+  - hexcel
+  - hexion
   - hhgregg
-  - iHeartMedia
+  - highbeam research
+  - hill rom
+  - hillrom
+  - hillshire brands
+  - hilton worldwide holdings inc
+  - hinshaw & culbertson llp
+  - hitachi high technologies america
+  - hni
+  - holabird & root
+  - hollyfrontier
+  - hollyfrontier corp
+  - hologic
+  - honda
+  - honeywell intl inc
+  - hormel foods corp
+  - horween leather company
+  - horwitz horwitz & associates
+  - hospira
+  - hostway
+  - hrg group
+  - hsbc finance a subsidiary of hsbc
+  - hsn
+  - hub group
+  - hub international
+  - humana inc
+  - huntington ingalls
+  - huron consulting group
+  - hyundai motor company
+  - ibm
+  - icahn enterprises
+  - icbc
+  - ideal industries
+  - idex
+  - idex corporation
+  - idexx lab
+  - idexx laboratories
+  - " iga "
+  - iheartmedia
+  - ihs markit ltd
+  - illumina inc
+  - incapital
+  - incredible technologies
+  - ineos/innovene
+  - infor
+  - ingersollrand
+  - ingersoll rand
+  - ingles markets
+  - insight enterprises
+  - insperity
+  - integrys energy group
+  - intel corp
+  - intelligent medical objects
+  - intelligentsia coffee & tea
+  - interactive brokers group
+  - interactivecorp
+  - intercall
+  - intercontinental exchange
+  - international business machines
+  - international paper
+  - international pool tour
+  - international star registry
+  - interpublic group
+  - intl fcstone
+  - intuit
+  - intuit inc
+  - intuitive surgical
+  - intuitive surgical inc
+  - inventec
+  - invesco ltd
+  - invisible records
+  - iowa pacific holdings
+  - ip pixel
+  - ipg photonics corp
+  - iqvia holdings
+  - iqvia holdings inc
+  - " iri "
+  - iron galaxy studios
+  - iron mountain incorporated
+  - islamica
+  - itron
+  - " itt "
+  - j b hunt transport services
+  - jack henry & associates
+  - jacobs engineering group
+  - james hardie industries us headquarters
+  - james mchugh construction co
+  - jays foods
+  - jb hunt
+  - jbhunt
+  - jbt corporation
+  - jeld wen
+  - jeldwen
+  - jellyvision
+  - jellyvision games
+  - jenner & block
+  - jet support services inc
+  - jewelosco
+  - jmb realty
+  - johanns face records
+  - john crane inc
+  - john galt solutions inc
+  - johnson controls international
+  - johnson publishing company
+  - jones lang lasalle
+  - juniper networks
+  - kaman
+  - kapstone paper
+  - kar auction
+  - katten muchin rosenman
+  - " kbr "
+  - keane group
+  - kellogg co
+  - kelly services
+  - kemper
+  - kemper corporation
+  - kemper direct
+  - kendall college llc
+  - kenzer & company
+  - kerasotes theatres
+  - keycorp
+  - killerspin
+  - kimco realty
+  - kinder morgan
+  - kirby
+  - kirkegaard associates
+  - kirkland & ellis
+  - kkr
+  - kla corporation
+  - kla tencor
+  - klatencor
+  - klein tools
+  - kleinschmidt inc
+  - km communications inc
+  - knight swift
+  - knights of columbus
+  - knightswift
+  - kohls corp
+  - kokua hospitality llc
+  - komatsu limited us headquarters
+  - koval distillery
+  - kraft foods group inc
+  - kraft heinz co
+  - kraton
+  - kroger co
+  - krueck and sexton architects
+  - l brands inc
+  - l3harris technologies
+  - laboratory corp of america holding
+  - lafarge north america headquarters
+  - lake capital
+  - lam research
+  - lamb weston
+  - lamb weston holdings inc
+  - land o lakes
+  - landstar system
+  - las vegas sands corp
+  - latigent
+  - laughlin constable
+  - laureate education
+  - lci industries
+  - lear
+  - legacycom
+  - legg mason
+  - leggett & platt
+  - leggett and platt
+  - leidos
+  - leidos holdings
+  - lengua armada discos
+  - lennar corp
+  - lennox
+  - leo burnett worldwide
+  - leslie hindman auctioneers
+  - leucadia
+  - liberty interactive
+  - liberty media
+  - lifegem
+  - lifewatch
+  - lightbank
+  - lincoln electric
+  - lincoln national
+  - linde plc
+  - lining
+  - lithia motors
+  - littelfuse
+  - livewatch security
+  - livingston international
+  - lkq
+  - lkq corporation
+  - locke lord
+  - lockheed martin corp
+  - loews
+  - loews corp
+  - lofidelity records
+  - looking glass networks
+  - louisiana pacific
+  - louisianapacific
+  - lowes cos
+  - lsc communications
+  - lucien lagrange architects
+  - lyon & healy
+  - macerich
+  - macys inc
+  - maersk
+  - magellan development group
+  - magellan midstream partners
+  - magnetar capital
+  - makino
+  - manpowergroup
+  - mantech
+  - marathon oil corp
+  - marathon pharmaceuticals
+  - markel
+  - marketaxess
+  - marmon group
+  - marriott
+  - marriott intl
+  - marsh & mclennan
+  - marsh and mclennan
+  - marshall usa
+  - masco corp
+  - mastec
+  - mastercard inc
+  - masuda funai
+  - matson
+  - maxim integrated products
+  - maxim integrated products inc
+  - maximus
+  - mayer brown
+  - mayfair games
+  - mazak midwest technology center
+  - mcandrews held & malloy
+  - mccormick & co
+  - mcdermott will & emery
+  - mcdonalds corp
+  - mcgladrey
+  - mcgrawhill
+  - mckesson corp
+  - mckesson corporation
+  - mcmastercarr
+  - mdc holdings
+  - mdu resources
+  - mead johnson nutrition
+  - medela
+  - medline industries
+  - mednax
+  - medtronic plc
+  - mercury general
+  - merisant
+  - meritor
+  - mesirow financial
+  - metal management
+  - metaldyne performance
+  - metlife inc
+  - metromix
+  - metropolis coffee company
+  - metropolitan brewing
+  - mettler toledo
+  - mettlertoledo
+  - mgm resorts international
+  - microsoft corp
+  - midamerica apartments
+  - midas
+  - middleby
+  - midway broadcasting corporation
+  - midway games
+  - millercoors
+  - mintel
+  - minty fresh
+  - misumi us headquarters
+  - mitsubishi
+  - mitsubishi electric
+  - mitutoyo
+  - mk capital
+  - mks instruments
+  - molex
+  - monicals pizza
+  - moody radio
+  - moodys corp
+  - moog
+  - mori seiki us headquarters
+  - morningstar inc
+  - morton salt
+  - mortons the steakhouse
+  - mosaic company
+  - motor coach industries
+  - motorola
+  - motorola mobility
+  - motorola solutions
+  - motorola solutions inc
+  - mountain king studios
+  - mpi home video
+  - mpm holdings
+  - mrc global
+  - msc industrial direct
+  - msci inc
+  - msdsonline
+  - mugglenet
+  - mumbais dabbawalas
+  - nadex
+  - nagle hartray architecture
+  - nalco holding company
+  - namco cybertainment
+  - nasdaq inc
+  - national general
+  - national oilwell varco inc
+  - national van lines inc
+  - navient
+  - navigant consulting inc
+  - navigon
+  - navistar international
+  - nbc sports chicago
+  - ncr
+  - nec
+  - netapp
+  - netflix inc
+  - netherrealm studios
+  - neuros technology
+  - new power generation international
+  - newark corporation
+  - newfield exploration
+  - newmark group
+  - newmarket
+  - news corp
+  - news corp class a
+  - news corp class b
+  - newsweb corporation
+  - nexeo solutions
+  - nexstar media group
+  - nextpoint
+  - nicor
+  - nielsen holdings
+  - nisource
+  - nisource inc
+  - nissan forklift
+  - nissan north america
+  - noble energy inc
+  - nordson
+  - norfolk southern corp
+  - noritake
+  - nortel
+  - northern trust corp
+  - northrop grumman electronic systems
+  - northwestern university press
+  - nortonlifelock
+  - norwegian cruise line holdings
+  - novarra inc
+  - nu skin enterprises
+  - nuance communications
+  - nucor
+  - nucor corp
+  - nuveen investments
+  - nvidia corporation
+  - nvr
+  - nvr inc
+  - oceaneering international
+  - ohio national mutual
+  - old dominion
+  - old republic international
+  - olin
+  - omnicom group
+  - omron
+  - onechicago
+  - onemain holdings
+  - oneok
+  - onespan
+  - open court publishing company
+  - open kernel labs
+  - oprah winfrey network
+  - options clearing corporation
+  - oracle corp
+  - orbitz
+  - orderzonecom
+  - oshkosh
+  - owens & minor
+  - owens and minor
+  - owens illinois
+  - owensillinois
+  - oxxford clothes
+  - pabst brewing company
+  - paccar
+  - paccar inc
+  - pacific global bank
+  - pacific life
+  - packaging corp of america
+  - packaging corporation of america
+  - pactiv
+  - palo alto networks
+  - pampered chef
+  - panasonic factory solutions company of america
+  - panduit
+  - paper source
+  - par pacific
+  - parexel
+  - parkwhiz
+  - passport software
+  - patel brothers
+  - patterson
+  - paychex
+  - paychex inc
+  - paylocity corporation
+  - pc connection
+  - pcm
+  - peapod
+  - pearson education publishing as scott foresman
+  - penn national gaming
+  - pentair plc
+  - peoples law office
+  - peoples united financial
+  - pepsico inc
+  - perkinelmer
+  - perkins+will
+  - peter kiewit sons
+  - pfizer inc
+  - pg&e
+  - philip morris
+  - philip morris international
+  - ping an insurance
+  - pink
+  - pinnacle entertainment
+  - pinnacle west capital
+  - pioneer natural resources
+  - pipeworks brewing
+  - pitchfork media
+  - plains gp
+  - plan b advertising agency
+  - platform specialty products
+  - plexus
+  - ply gem
+  - polnet communications
+  - polyone
+  - polyone corporation
+  - popular inc
+  - positron! records
+  - potbelly sandwich works
+  - ppl
+  - ppl corp
+  - prepme
+  - presidio
+  - priceline
+  - pricesmart
+  - primoris services
+  - principal financial group
+  - procter & gamble
+  - product development technologies
+  - progressive corp
+  - prolockbox llc
+  - prologis
+  - prospect partners
+  - pti securities & futures
+  - public communications inc
+  - public serv enterprise inc
+  - public service enterprise
+  - publix super markets
+  - pulte homes inc
+  - pultegroup
+  - pvh
+  - pvh corp
+  - qorvo
+  - quad/graphics
+  - quadgraphics
+  - quaker oats company a unit of pepsico
+  - qualcomm
+  - qualcomm inc
+  - quanta services
+  - quanta services inc
+  - quest diagnostics
+  - quill corporation
+  - quintiles transnational
+  - qurate retail
+  - radio flyer
+  - rail world inc
+  - ralph lauren corporation
+  - rand mcnally
+  - range resources
+  - raybestos
+  - raymond james financial inc
+  - raytheon co
+  - rcp advisors
+  - realty income corporation
+  - recycled paper greetings
+  - redbox automated retail llc
+  - regal beloit
+  - regal entertainment
+  - regency centers corporation
+  - regions financial corp
+  - regis
+  - reliance steel & aluminum
+  - reliance steel and aluminum
+  - remobjects software
+  - rent a center
+  - rentacenter
+  - replogle
+  - republic services inc
+  - republic tobacco
+  - resmed
+  - resolute forest products
+  - resurrection health care
+  - rev group
+  - revell
+  - revlon
+  - rexam
+  - rexnord
+  - reynolds group holdings
+  - ricardo plc
+  - riddell
+  - rise interactive
+  - rite aid
+  - riverside publishing
+  - road ranger
+  - roadrunner transportation systems
+  - robert bosch corp
+  - robert half
+  - robert half international
+  - robomodo
+  - rockwell automation inc
+  - rollins inc
+  - ross stores
+  - roundarch isobar
+  - royal caribbean cruises
+  - rpm international
+  - rr donnelley
+  - rush enterprises
+  - rustoleum
+  - ryder system
+  - ryerson holding
+  - ryerson inc
+  - ryobi
+  - s&c electric
+  - s&p global inc
+  - sabre
+  - safeway insurance group
+  - saic motor
+  - samsung electronics
+  - sanford lp
+  - sanmina
+  - sap se
+  - sauerdanfoss
+  - sba communications
+  - scana
+  - scansource
+  - schiff hardin
+  - schlumberger ltd
+  - schneider electric
+  - schneider national
+  - science applications international
+  - scientific games
+  - scotts miracle gro
+  - scotts miraclegro
+  - scripps networks interactive
+  - seaboard
+  - seagate technology
+  - sealed air
+  - sears
+  - sears holdings corporation
+  - semgroup
+  - serta
+  - servercentral
+  - service corp international
+  - servicemaster
+  - servicenow
+  - seyfarth shaw
+  - shareasale
+  - shop direct
+  - shoplocal
+  - shure
+  - shure incorporated
+  - sick room records
+  - sidley austin
+  - siemens building technologies us headquarters
+  - siemens healthcare us headquarters
+  - silgan holdings
+  - silkroad
+  - simon property group inc
+  - siskel/jacobs productions
+  - siteone landscape supply
+  - sittercitycom
+  - sk hand tools
+  - skidmore owings & merrill
+  - skywest
+  - skyworks solutions
+  - sloan valve company
+  - smart & final stores
+  - smart and final stores
+  - smithgroup
+  - smurfitstone container
+  - snyders lance
+  - solo cup company
+  - solomon cordwell buenz
+  - someoddpilot
+  - sonic automotive
+  - sonoco products
+  - sourcebooks
+  - southern co
+  - spartannash
+  - specimen products
+  - spectrum brands
+  - spencer stuart
+  - spothero
+  - sprague resources
+  - springcm
+  - sprouts farmers market
+  - spx flow
+  - sram corporation
+  - ssab north america
+  - standard parking
+  - standing point films
+  - star farm productions
+  - starbucks corp
+  - starcom
+  - starwood hotels & resorts worldwide
+  - state grid
+  - state street corp
+  - steadfast networks
+  - stepan
+  - stepan company
+  - stern
+  - stewart information services
+  - stmicroelectronics
+  - strata
+  - strategic hotels & resorts
+  - strom products
+  - stryker corp
+  - studio gang architects
+  - subaru industrial power products
+  - subaru of america regional office  central
+  - sumitomo corporation of america
+  - sunstar americas
+  - suntimes media group
+  - supervalu pharmacies
+  - surepayroll
+  - suzo happ north america hq
+  - svm
+  - swift transportation
+  - switchcraft
+  - symantec
+  - synnex
+  - synopsys
+  - synopsys inc
+  - sysco
+  - sysco corp
+  - t rowe price group
+  - tailored brands
+  - takeda pharmaceutical company us headquarters
+  - taketwo interactive
+  - tapestry inc
+  - targa resources
+  - target corp
+  - tdc games
+  - te connectivity ltd
+  - tech data
+  - technipfmc
+  - tegna
+  - teledyne
+  - teleflex
+  - telephone & data systems
+  - tellabs
+  - tempur sealy
+  - tenneco
+  - teradata
+  - teradyne
+  - terex
+  - tesla
+  - tesoro
+  - tetra tech
+  - texas roadhouse
+  - textron
+  - textron inc
+  - the care of trees
+  - the frantz manufacturing company
+  - the great american bagel bakery
+  - the land of nod
+  - the onion
+  - the pampered chef
+  - the second city
+  - the travelers companies
+  - the walt disney company
+  - thermique technologies
+  - thermos llc
+  - thick records
   - thinkorswim
+  - third world press
+  - thoughtworks
+  - threadless
+  - thrill jockey
+  - ticketsnow
+  - tiffany & co
+  - tjx
+  - tjx companies inc
+  - tmobile us
+  - topco associates
+  - tops holding
+  - torchmark
+  - toshiba america
+  - total
+  - total system services
+  - touch and go records
+  - tower international
+  - toyota
+  - toyota motor sales usa inc
+  - tractor supply company
+  - trafigura
+  - transco railway products
+  - transdigm group
+  - translatecom
+  - transmarket group
+  - tri pointe group
+  - tribeca flashpoint media arts academy
+  - tribune broadcasting
+  - tribune company
+  - trimble
+  - trinet group
+  - tripadvisor
+  - triple s
+  - triple s management
+  - triples management
+  - tripp lite
+  - triumph group
+  - tropicana products
+  - true value
+  - trueblue
+  - trustwave holdings
+  - ttx company
+  - turtle wax
+  - tutor perini
+  - twenty first century fox
+  - twentyfirst century fox
+  - twitter inc
+  - two brothers brewing
+  - ty inc
+  - tyco international
+  - tyndale house
+  - uber
+  - ubid
+  - udr inc
+  - ugi
+  - ulta
+  - underwriters laboratories
+  - unified grocers
+  - union pacific corp
+  - union tank car company
+  - unipart
+  - unisys
+  - united airlines holdings
+  - united continental holdings
+  - united health group
+  - united rentals inc
+  - united states army
+  - united states marine corps
+  - unitedhealth
+  - univa
+  - univar
+  - universal
+  - universal audio
+  - universal forest products
+  - universal health service
+  - university of chicago press
+  - univision communications
+  - unum group
+  - uop llc
+  - ups
+  - urban partnership bank
+  - urbanlab
+  - us cellular
+  - us futures exchange
+  - us music corporation
+  - us steel
+  - usg
+  - usg corporation
+  - usrobotics
+  - valtest distributors
+  - vanee foods
+  - vanguard group
+  - vantiv
+  - vaughan
+  - vca
+  - vectren
+  - velsicol chemical corporation
+  - ventas
+  - ventas inc
+  - venture
+  - verifone
+  - verisign inc
+  - verisk
+  - verisk analytics
+  - veritiv
+  - verso
+  - vertex pharmaceuticals inc
+  - vetsprevail
+  - vf corp
+  - viacom
+  - viacom inc
+  - victor technology
+  - victory records
+  - vienna beef
+  - visa inc
+  - vishay intertechnology
+  - viskase
+  - vista outdoor
+  - visteon
+  - vivid seats
+  - volkswagen
+  - vwr
+  - w w grainger
+  - wabash national
+  - wabco
+  - wabtec corporation
+  - walgreen company
+  - walter e smithe
+  - wanxiang group us headquarters
+  - warner music
+  - waste management inc
+  - waters corporation
+  - watsco
+  - wayfair
+  - weberstephen products
+  - wec energy group inc
+  - weichai power
+  - weigel broadcasting
+  - weis markets
+  - wellcare
+  - welltower
+  - welltower inc
+  - werner enterprises
+  - wesco
+  - westell
+  - western digital
+  - western refining
+  - western union
+  - western union co
+  - westrock
+  - weyerhaeuser
+  - wgl holdings
+  - wgn america
+  - wheaton franciscan healthcare
+  - whirlpool corp
+  - whittmanhart
+  - william blair & company
+  - williams cos
+  - willis group
+  - willis towers watson
+  - wilson sporting goods
+  - wind point partners
+  - windstream holdings
+  - winston & strawn
+  - wipro
+  - wirtz corp
+  - wiss janney elstner associates inc
+  - wm wrigley jr company
+  - wms industries
+  - world book encyclopedia
+  - world dryer
+  - world fuel services
+  - worldpay
+  - worlds finest chocolate
+  - wr berkley
+  - wrapports
+  - wrberkley
+  - wyndham
+  - wyndham worldwide
+  - wynn resorts ltd
+  - wyzant
+  - xcel energy inc
+  - xilinx
+  - xl group
+  - xlnet
+  - xpo logistics
+  - xylem inc
+  - yaskawa electric corporation
+  - yellow cab company
+  - yelp
+  - yrc worldwide
+  - yum! brands inc
+  - zayo group
+  - zenith electronics
+  - zf friedrichshafen
+  - zimmer biomet holdings
+  - zizzle
+  - zoom vacations
+  - zorch international
+  - zurich financial services
   company_services:
-  - - ' ADP '
-    - Automatic Data Processing
-  - - ' Brinks '
-  - - ' EY '
-  - 20th Century Fox Television
-  - AECOM
-  - Alaska Communications
-  - Align Technology
-  - Alliance Data Systems
-  - Altice
-  - American Greetings
-  - American Tower
-  - Apollo Education Group
-  - Aramark
-  - ASGN
-  - AT&T
-  - ABC Studios
-  - Amblin Television
-  - - Adtalem Global Education
-    - DeVry Education Group
-  - - Amerco
-    - UHAUAL
-  - - ArcBest
-    - ABF Freight
-  - Boston Consulting Group
-  - Brookdale Senior Living
-  - CenturyLink
-  - Cintas
-  - Clean Harbors
-  - Comcast
-  - Consolidated Communications
-  - DISH Network
-  - Disney
-  - - Dycom Industries
-    - Dycom
-  - Ecolab
-  - Equifax
-  - Frontier Communications
-  - FedEx
-  - H&R Block
-  - Iron Mountain
-  - L3 Communications
-  - Level 3 Communications
-  - Mastercard
-  - Meredith
-  - MGM Television
-  - New Line Television
-  - Public Storage
-  - Republic Services
-  - Sinclair Broadcast Group
-  - Stericycle
-  - Sony Pictures
-  - Time Warner
-  - Tribune Media
-  - - TDS Telecom
-    - Telephone and Data Systems
-  - United Rentals
-  - Universal Studio
-  - - United Parcel Service
-    - ' UPS '
-  - Visa
-  - - Verizon Communications
-    - Verizon
-  - WW Grainger
-  - Walt Disney
-  - Waste Management
-  - Warner Bros Television
+  - " adp "
+  - " brinks "
+  - " ey "
+  - " ups "
+  - 20th century fox television
+  - abc studios
+  - abf freight
+  - accenture
+  - adtalem global education
+  - aecom
+  - alaska communications
+  - align technology
+  - alliance data systems
+  - altice
+  - amblin television
+  - american greetings
+  - american tower
+  - amerco
+  - apollo education group
+  - aramark
+  - arcbest
+  - asgn
+  - at kearney
+  - at&t
+  - automatic data processing
+  - boston consulting group
+  - brookdale senior living
+  - centurylink
+  - cintas
+  - clean harbors
+  - comcast
+  - consolidated communications
+  - devry education group
+  - dish network
+  - disney
+  - dycom industries
+  - dycom
+  - ecolab
+  - equifax
+  - fedex
+  - frontier communications
+  - h&r block
+  - iron mountain
+  - l3 communications
+  - level 3 communications
+  - mastercard
+  - meredith
+  - mgm television
+  - new line television
+  - public storage
+  - republic services
+  - sinclair broadcast group
+  - sony pictures
+  - stericycle
+  - tds telecom
+  - telephone and data systems
+  - time warner
+  - tribune media
+  - uhaual
+  - united rentals
+  - united parcel service
+  - universal studio
+  - verizon communications
+  - verizon
+  - visa
+  - walt disney
+  - warner bros television
+  - waste management
+  - ww grainger
   company_tech:
-  - - ' ADT '
-  - Activision Blizzard
-  - Acer
-  - Advanced Micro Devices
-  - Akamai Technologies
-  - Alphabet
-  - Amkor Technology
-  - Amphenol
-  - Analog Devices
-  - Apache
-  - Apple
-  - Applied Materials
-  - Arista Networks
-  - Arrow Electronics
-  - AT&T
-  - Asus
-  - Autodesk
-  - Avaya
-  - Avnet
-  - - Adobe
-    - Adobe Systems
-  - Baidu
-  - Booz Allen Hamilton
-  - Broadcom
-  - - Booking Holdings
-    - Bookingcom
-    - Pricelinecom
-    - Agodacom
-    - Kayakcom
-    - Cheapflights
-    - Rentalcarscom
-    - Momondo
-    - OpenTable
-  - Cornerstone onDemand
-  - Cypress Semiconductor
-  - - Citrix Systems
-    - Citrix
-  - - Cognizant Technology Solutions
-    - Cognizant Technology
-  - Dell Technologies
-  - DXC Technology
-  - Electronic Arts
-  - - Expedia
-    - Expedia Group
-  - Facebook
-  - Foxconn
-  - Fitbit
-  - Fujitsu
-  - GoDaddy
-  - Groupon
-  - Halogen Software
-  - Hitachi
-  - Huawei
-  - - Harman International Industries
-    - Harman International
-  - - Hewlett Packard Enterprise
-    - Hewlett Packard
-    - HP Inc
-  - - 'IBM '
-  - - 'Intel '
-  - JDcom
-  - - Jabil Circuit
-    - Jabil
-  - Kenexa
-  - Lawson Software
-  - Lenovo
-  - LG Electronics
-  - Lyft
-  - Microchip Technology
-  - Micron Technology
-  - Microsoft
-  - - Maxar Technologies
-    - Maxar
-  - Netflix
-  - Nvidia
-  - ON Semiconductor
-  - Oracle
-  - Panasonic
-  - Pitney Bowes
-  - Red Hat
-  - Saba Software
-  - Samsung
-  - SAP
-  - Shutterfly
-  - Square
-  - SS&C Technologies
-  - Skillsoft
-  - Sony
-  - Sumtotal Systems
-  - Super Micro Computer
-  - - Salesforce
-    - salesforcecom
-  - Taleo Corporation
-  - TCS
-  - Tencent
-  - Texas Instruments
-  - TTM Technologies
-  - Twitter
-  - Workday
-  - Xerox
-  - Yahoo
-  - Zebra Technologies
-  - eBay
-  - iCIMS
+  - " adt "
+  - activision blizzard
+  - acer
+  - advanced micro devices
+  - akamai technologies
+  - alphabet
+  - amkor technology
+  - amphenol
+  - analog devices
+  - apache
+  - apple
+  - applied materials
+  - arista networks
+  - arrow electronics
+  - at&t
+  - asus
+  - autodesk
+  - avaya
+  - avnet
+  - adobe
+  - adobe systems
+  - baidu
+  - booz allen hamilton
+  - broadcom
+  - booking holdings
+  - bookingcom
+  - pricelinecom
+  - agodacom
+  - kayakcom
+  - cheapflights
+  - rentalcarscom
+  - momondo
+  - opentable
+  - cornerstone ondemand
+  - cypress semiconductor
+  - citrix systems
+  - citrix
+  - cognizant technology solutions
+  - cognizant technology
+  - dell technologies
+  - dxc technology
+  - electronic arts
+  - expedia
+  - expedia group
+  - facebook
+  - foxconn
+  - fitbit
+  - fujitsu
+  - godaddy
+  - groupon
+  - halogen software
+  - hitachi
+  - huawei
+  - harman international industries
+  - harman international
+  - hewlett packard enterprise
+  - hewlett packard
+  - hp inc
+  - "ibm "
+  - "intel "
+  - jdcom
+  - jabil circuit
+  - jabil
+  - kenexa
+  - lawson software
+  - lenovo
+  - lg electronics
+  - lyft
+  - microchip technology
+  - micron technology
+  - microsoft
+  - maxar technologies
+  - maxar
+  - netflix
+  - nvidia
+  - on semiconductor
+  - oracle
+  - panasonic
+  - pitney bowes
+  - red hat
+  - saba software
+  - samsung
+  - sap
+  - shutterfly
+  - square
+  - ss&c technologies
+  - skillsoft
+  - sony
+  - sumtotal systems
+  - super micro computer
+  - salesforce
+  - salesforcecom
+  - taleo corporation
+  - tcs
+  - tencent
+  - texas instruments
+  - ttm technologies
+  - twitter
+  - workday
+  - xerox
+  - yahoo
+  - zebra technologies
+  - ebay
+  - icims
 case_sensitive_education:
   associate_education_level:
   - - Associate of Arts
     - A.A.
-    - ' AA '
+    - " AA "
   - - Associate of Science
     - A.S.
-    - ' AS '
+    - " AS "
   - - Associate of Applied Science
     - A.A.S.
-    - ' AAS '
+    - " AAS "
   - - Associate of General Studies
     - A.G.S.
-    - ' AGS '
+    - " AGS "
   - Associates Degree
   - Community College
   bachelor_education_level:
   - - Bachelor of Arts
     - Bachelors of Arts
     - B.A.
-    - ' BA '
+    - " BA "
   - - Bachelor of Fine Arts
     - Bachelor in Fine Arts
     - Bachelors of Fine Arts
     - B.F.A.
-    - ' BFA '
+    - " BFA "
   - - Bachelor of Science
     - Bachelors of Science
     - Bachelor in Science
     - B.S.
-    - ' BS '
-    - ' BSC '
+    - " BS "
+    - " BSC "
     - BSc
     - B.Sc
   - - Bachelor of Engineering
     - Bachelor in Engineering
     - Bachelors of Engineering
     - B.E.
-    - ' BE '
+    - " BE "
   - - Bachelor of Economics
     - Bachelors of Economics
     - Bachelor in Economics
@@ -12260,7 +10627,7 @@ case_sensitive_education:
     - Bachelors of Business Administration
     - Bachelor in Business Administration
     - B.B.A.
-    - ' BBA '
+    - " BBA "
   - - Bachelor of Business
     - Bachelors of Business
     - Bachelor in Business
@@ -12271,7 +10638,7 @@ case_sensitive_education:
   - - Bachelor of Health Science
     - Bachelors of Health Science
     - Bachelor in Health Science
-    - ' BHS '
+    - " BHS "
     - B.H.S.
   - - Bachelor of Law
     - Bachelors of Law
@@ -12279,19 +10646,19 @@ case_sensitive_education:
   - - Bachelor Degree
     - Bachelors Degree
     - Bachelors Degree
-    - Bachelor's Degree
+    - Bachelor"s Degree
   doctor_education_level:
   - - J.D.
     - Juris Doctor
     - Law School
   - - Medical Doctor
     - M.D.
-    - ' MD '
+    - " MD "
     - Doctor of Medicine
     - Medical School
   - - Doctor of Dental Surgery
     - D.D.S.
-    - ' DDS '
+    - " DDS "
   - - Doctor of Pharmacy
     - Pharm.D.
     - PharmD
@@ -12303,50 +10670,50 @@ case_sensitive_education:
   master_education_level:
   - - Master of Business Administration
     - Masters of Business Administration
-    - Master's of Business Administration
-    - ' MBA'
+    - Master"s of Business Administration
+    - " MBA"
     - M.B.A.
   - - Master of Fine Arts
     - Masters of Fine Arts
-    - Master's of Fine Arts
+    - Master"s of Fine Arts
     - M.F.A.
-    - ' MFA '
+    - " MFA "
   - - Master of Education
     - Masters of Education
-    - Master's of Education
+    - Master"s of Education
   - - Master of Business
     - Masters of Business
-    - Master's of Business
+    - Master"s of Business
   - - Master of Public Administration
-    - Master's of Public Administration
+    - Master"s of Public Administration
     - Masters of Public Administration
     - Master in Public Administration
     - M.P.A
-    - ' MPA '
+    - " MPA "
   - - Master of Public Policy
-    - Master's of Public Policy
+    - Master"s of Public Policy
     - Masters of Public Policy
     - Master in Public Policy
     - M.P.P.
-    - ' MPP '
+    - " MPP "
   - - Master of Business Finance
-    - Master's of Business Finance
+    - Master"s of Business Finance
     - Masters of Business Finance
     - Master in Business Finance
-    - ' MBF '
+    - " MBF "
   - - Master of Arts
     - Masters of Arts
-    - Master's of Arts
+    - Master"s of Arts
     - M.A.
-    - ' MA '
+    - " MA "
   - - Master of Science
     - Masters of Science
-    - Master's of Science
+    - Master"s of Science
     - MSc
     - M.S.
     - M.Sc
-    - ' MS '
-    - ' MS.'
+    - " MS "
+    - " MS."
   - Graduate Education
   - Graduate School
 data_schema_dir: ../data/schema

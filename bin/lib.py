@@ -20,7 +20,7 @@ AVAILABLE_EXTENSIONS = {'.csv', '.doc', '.docx', '.eml', '.epub', '.gif', '.htm'
                         '.tif', '.tiff', '.tsv', '.txt', '.wav', '.xls', '.xlsx'}
 
 
-def load_confs(confs_path='../TESTING.yaml'):
+def load_confs(confs_path='../confs/config.yaml'):
     """
     Load the .yaml file
     """
@@ -84,7 +84,7 @@ def term_count(string_to_search, term):
         result = re.findall(regular_expression, string_to_search)
         return len(result)
     except Exception:
-        logging.error('Error occurred during regex search')
+        logging.error('Error occurred during regex search: {}'.format(term))
         return 0
 
 
@@ -97,7 +97,7 @@ def term_count_case_sensitive(string_to_search, term):
         result = re.findall(regular_expression, string_to_search)
         return len(result)
     except Exception:
-        logging.error('Error occurred during regex search')
+        logging.error('Error occurred during regex search: {}'.format(term))
         return 0
 
 

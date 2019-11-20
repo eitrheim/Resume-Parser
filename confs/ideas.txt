@@ -40,7 +40,7 @@ FLUENT IN
 Certifications:
 EIT/FE exam
 Category II certified vibration analyst through the Vibration Institute    '
-
+certifications as PMP, PRINCE
 
 fulbright
 deans list
@@ -49,14 +49,12 @@ Psi Chi Honor Society
 
 https://github.com/summanlp/textrank
 https://github.com/stanfordmlgroup/chexpert-labeler
+https://github.com/binoydutt/Resume-Job-Description-Matching
 
 Automated Resume Screening System: https://github.com/JAIJANYANI/Automated-Resume-Screening-System
 NER: https://towardsdatascience.com/a-review-of-named-entity-recognition-ner-using-automatic-summarization-of-resumes-5248a75de175
 
 List of skills from :https://www.kaggle.com/vingkan/strategeion-resume-skills#skills.txt
 
-781 soft skills
-
-
-
-
+A/B testing
+CRO - conversion rate optimization

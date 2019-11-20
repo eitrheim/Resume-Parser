@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup as bs
 import requests
 import re
 import itertools
+from operator import itemgetter
 
 
 def update_yaml(main_section, sub_section, wiki_extension):
@@ -67,7 +68,7 @@ def update_yaml(main_section, sub_section, wiki_extension):
             x = x.split(' (')[0].split('[')[0]
             x = re.sub('[,.-]', '', x).replace('\'', '').lstrip()
             print(x)
-            data_loaded[main_section][sub_section].append(x)
+            data_loaded[main_section][sub_section].append(x.lower())
 
     try:
         data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=lambda x: x[0])
@@ -122,7 +123,7 @@ def update_yaml_dash_comma_split(main_section, sub_section, wiki_extension):
             x = x.split(' (')[0].split('[')[0].split(' –')[0].split(' -')[0].split(',')[0]
             x = re.sub('[,.-]', '', x).replace('\'', '').replace('–', ' ').replace('–', ' ').lstrip()
             print(x)
-            data_loaded[main_section][sub_section].append(x)
+            data_loaded[main_section][sub_section].append(x.lower())
 
     try:
         data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=lambda x: x[0])
@@ -155,7 +156,7 @@ def update_yaml_table1(main_section, sub_section, wiki_extension, col):
             x = cells[col].text.split('[')[0].split(' /')[0].split('(')[0]
             x = re.sub('[,.-]', '', x).replace('\n', '').replace('\'', '').replace(' ^', '').lstrip()
             print(x)
-            data_loaded[main_section][sub_section].append(x)
+            data_loaded[main_section][sub_section].append(x.lower())
 
     try:
         data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=lambda x: x[0])
@@ -188,7 +189,7 @@ def update_yaml_table2(main_section, sub_section, wiki_extension, col):
             x = cells[col].text.split('[')[0].split(' /')[0].split('(')[0]
             x = re.sub('[,.-]', '', x).replace('\n', '').replace('\'', '').replace(' ^', '').lstrip()
             print(x)
-            data_loaded[main_section][sub_section].append(x)
+            data_loaded[main_section][sub_section].append(x.lower())
 
     try:
         data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=lambda x: x[0])
@@ -223,7 +224,7 @@ def update_yaml_table2lists(main_section, sub_section, wiki_extension, col):
                 x = re.sub('[.-]', '', x).replace('\n', '').replace('\'', '').replace(' ^', '').lstrip()
                 if x != "":
                     print(x)
-                    data_loaded[main_section][sub_section].append(x)
+                    data_loaded[main_section][sub_section].append(x.lower())
 
     try:
         data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=lambda x: x[0])
@@ -256,7 +257,7 @@ def update_yaml_table3(main_section, sub_section, wiki_extension, col):
             x = cells[col].text.split('[')[0].split(' /')[0].split('(')[0]
             x = re.sub('[,.-]', '', x).replace('\n', '').replace('\'', '').replace(' ^', '').lstrip()
             print(x)
-            data_loaded[main_section][sub_section].append(x)
+            data_loaded[main_section][sub_section].append(x.lower())
 
     try:
         data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=lambda x: x[0])
@@ -289,7 +290,7 @@ def update_yaml_table4(main_section, sub_section, wiki_extension, col):
             x = cells[col].text.split('[')[0].split(' /')[0].split('(')[0]
             x = re.sub('[,.-]', '', x).replace('\n', '').replace('\'', '').replace(' ^', '').lstrip()
             print(x)
-            data_loaded[main_section][sub_section].append(x)
+            data_loaded[main_section][sub_section].append(x.lower())
 
     try:
         data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=lambda x: x[0])
@@ -324,7 +325,7 @@ def update_yaml_table4all(main_section, sub_section, wiki_extension, col):
                 x = cells[col].text.split('[')[0].split(' /')[0].split('(')[0]
                 x = re.sub('[,.-]', '', x).replace('\n', '').replace('\'', '').replace(' ^', '').lstrip()
                 print(x)
-                data_loaded[main_section][sub_section].append(x)
+                data_loaded[main_section][sub_section].append(x.lower())
 
     try:
         data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=lambda x: x[0])
@@ -357,7 +358,7 @@ def update_yaml_table5(main_section, sub_section, wiki_extension, col):
             x = cells[col].text.split('[')[0].split(' /')[0].split('(')[0]
             x = re.sub('[,.-]', '', x).replace('\n', '').replace('\'', '').replace(' ^', '').lstrip()
             print(x)
-            data_loaded[main_section][sub_section].append(x)
+            data_loaded[main_section][sub_section].append(x.lower())
 
     try:
         data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=lambda x: x[0])
@@ -394,7 +395,7 @@ def update_yaml_table6(main_section, sub_section, wiki_extension):
                         x = tag.text.split(" (")[0]
                         x = re.sub('[,.-]', '', x).replace('\n', '').replace('\'', '')
                         print(x)
-                        data_loaded[main_section][sub_section].append(x)
+                        data_loaded[main_section][sub_section].append(x.lower())
     except:
         right_table = soup.find('table', class_='wikitable sortable')
         for row in right_table.findAll('tr'):
@@ -441,7 +442,7 @@ def update_yaml_table7(main_section, sub_section, wiki_extension):
                     x = tag.text.split(" (")[0]
                     x = re.sub('[,.-]', '', x).replace('\n', '').replace('\'', '')
                     print(x)
-                    data_loaded[main_section][sub_section].append(x)
+                    data_loaded[main_section][sub_section].append(x.lower())
 
     try:
         data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=lambda x: x[0])
@@ -463,16 +464,14 @@ def sort_yaml(main_section, sub_section):
         except yaml.YAMLError as exc:
             print(exc)
     try:
-        data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=lambda x: x[0])
-        data_loaded[main_section][sub_section] = list(
-            k for k, _ in itertools.groupby(data_loaded[main_section][sub_section]))
-        print("\nSorted and Dropped Duplicates")
+        data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=itemgetter(0, 1, 2, 3))
+        data_loaded[main_section][sub_section] = list(k for k, _ in itertools.groupby(data_loaded[main_section][sub_section]))
     except IndexError:
         pass
 
     with open('confs/config.yaml', 'w') as fp:
         yaml.dump(data_loaded, fp)
-    print("Updated Yaml File Saved")
+    print(sub_section, "Sorted & Saved")
 
 
 ############################ updating schools ############################
@@ -552,16 +551,21 @@ def sort_yaml(main_section, sub_section):
 # update_yaml('case_agnostic_education', 'other_universities', 'National_university')
 
 
+# if it says community college move it to community/technical college
+with open('confs/config.yaml', 'r') as stream:
+    data_loaded = yaml.safe_load(stream)
 
-
-
-
-
-
-
-
-
-
+for item in data_loaded['case_agnostic_education']['other_universities']:
+    if 'Community College' in item:
+        data_loaded['case_agnostic_education']['community_college'].append(item)
+        data_loaded['case_agnostic_education']['other_universities'].remove(item)
+        print(item, "added to community_college")
+    if 'Technical College' in item:
+        data_loaded['case_agnostic_education']['community_college'].append(item)
+        data_loaded['case_agnostic_education']['other_universities'].remove(item)
+        print(item, "added to community_college")
+with open('confs/config.yaml', 'w') as fp:
+    yaml.dump(data_loaded, fp)
 
 
 # deleting schools in 'other' if they are in another section
@@ -581,24 +585,19 @@ with open('confs/config.yaml', 'w') as fp:
     yaml.dump(data_loaded, fp)
 
 
-# if it says community college move it to community/technical college
+############################ cleaning up softskills section ############################
 with open('confs/config.yaml', 'r') as stream:
     data_loaded = yaml.safe_load(stream)
 
-for item in data_loaded['case_agnostic_education']['other_universities']:
-    if 'Community College' in item:
-        data_loaded['case_agnostic_education']['community_college'].append(item)
-        data_loaded['case_agnostic_education']['other_universities'].remove(item)
-        print(item, "added to community_college")
-    if 'Technical College' in item:
-        data_loaded['case_agnostic_education']['community_college'].append(item)
-        data_loaded['case_agnostic_education']['other_universities'].remove(item)
-        print(item, "added to community_college")
+myLIST = []
+for item in data_loaded['case_agnostic_whole_resume']['soft_skills']:
+    myLIST.append(item.lower())
+myLIST = sorted(list(set(myLIST)))
+data_loaded['case_agnostic_whole_resume']['soft_skills'] = myLIST
+
 with open('confs/config.yaml', 'w') as fp:
     yaml.dump(data_loaded, fp)
-
-
-
+print("Updated Yaml File Saved")
 
 
 ############################ updating companies ############################
@@ -698,34 +697,18 @@ with open('confs/config.yaml', 'w') as fp:
 # update_yaml_dash_comma_split('case_agnostic_work', 'company_tech', 'List_of_semiconductor_IP_core_vendors')
 # update_yaml_dash_comma_split('case_agnostic_work', 'company_energychem', 'List_of_United_States_electric_companies')
 
-# sort_yaml('case_agnostic_work', 'company_foodbev')
-# sort_yaml('case_agnostic_work', 'company_fin')
-# sort_yaml('case_agnostic_work', 'company_tech')
-# sort_yaml('case_agnostic_work', 'company_services')
-# sort_yaml('case_agnostic_work', 'company_health')
-# sort_yaml('case_agnostic_work', 'company_energychem')
-# sort_yaml('case_agnostic_work', 'company_other')
-# sort_yaml('case_agnostic_hobbies', 'hobbies')
-sort_yaml('case_agnostic_skill', 'technical_skills')
-sort_yaml('case_agnostic_whole_resume', 'soft_skills')
 
-
-
+# # deleting companies in consumer if they are in foodbev
 with open('confs/config.yaml', 'r') as stream:
     data_loaded = yaml.safe_load(stream)
 
-myLIST = []
-for item in data_loaded['case_agnostic_whole_resume']['soft_skills']:
-    myLIST.append(item.lower())
-myLIST = list(set(myLIST))
-data_loaded['case_agnostic_whole_resume']['soft_skills'] = myLIST
+for item in data_loaded['case_agnostic_work']['company_foodbev']:
+    if item in data_loaded['case_agnostic_work']['company_consumer']:
+        data_loaded['case_agnostic_work']['company_consumer'].remove(item)
+        print(item, "deleted from company_consumer")
 
 with open('confs/config.yaml', 'w') as fp:
     yaml.dump(data_loaded, fp)
-print("Updated Yaml File Saved")
-
-
-
 
 # # deleting companies in 'other' if they are in another section
 with open('confs/config.yaml', 'r') as stream:
@@ -742,6 +725,7 @@ for company_type in data_loaded['case_agnostic_work'].keys():
 
 with open('confs/config.yaml', 'w') as fp:
     yaml.dump(data_loaded, fp)
+
 
 ##################################################
 # figure out how to scrape these
@@ -789,3 +773,31 @@ with open('confs/config.yaml', 'w') as fp:
 # https://en.wikipedia.org/wiki/List_of_conglomerates
 # https://en.wikipedia.org/wiki/List_of_company_registers#United_States
 # https://en.wikipedia.org/wiki/List_of_film_production_companies
+
+
+# sorting sections
+# sort_yaml('case_agnostic_work', 'company_foodbev')
+# sort_yaml('case_agnostic_work', 'company_fin')
+# sort_yaml('case_agnostic_work', 'company_tech')
+# sort_yaml('case_agnostic_work', 'company_services')
+# sort_yaml('case_agnostic_work', 'company_health')
+# sort_yaml('case_agnostic_work', 'company_energychem')
+# sort_yaml('case_agnostic_work', 'company_other')
+# sort_yaml('case_agnostic_hobbies', 'hobbies')
+# sort_yaml('case_agnostic_skill', 'technical_skills')
+# sort_yaml('case_agnostic_whole_resume', 'soft_skills')
+
+
+############################ cleaning up x section if flat ############################
+x = 'company_other'
+
+with open('confs/config.yaml', 'r') as stream:
+    data_loaded = yaml.safe_load(stream)
+myLIST = []
+for item in data_loaded['case_agnostic_work'][x]:
+    myLIST.append(item.lower().strip())
+myLIST = sorted(list(set(myLIST)))
+data_loaded['case_agnostic_work'][x] = myLIST
+with open('confs/config.yaml', 'w') as fp:
+    yaml.dump(data_loaded, fp)
+print("Updated Yaml File Saved")
