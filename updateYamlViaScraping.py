@@ -698,14 +698,34 @@ with open('confs/config.yaml', 'w') as fp:
 # update_yaml_dash_comma_split('case_agnostic_work', 'company_tech', 'List_of_semiconductor_IP_core_vendors')
 # update_yaml_dash_comma_split('case_agnostic_work', 'company_energychem', 'List_of_United_States_electric_companies')
 
-sort_yaml('case_agnostic_work', 'company_foodbev')
-sort_yaml('case_agnostic_work', 'company_fin')
-sort_yaml('case_agnostic_work', 'company_tech')
-sort_yaml('case_agnostic_work', 'company_services')
-sort_yaml('case_agnostic_work', 'company_health')
-sort_yaml('case_agnostic_work', 'company_energychem')
-sort_yaml('case_agnostic_work', 'company_other')
-sort_yaml('case_agnostic_hobbies', 'hobbies')
+# sort_yaml('case_agnostic_work', 'company_foodbev')
+# sort_yaml('case_agnostic_work', 'company_fin')
+# sort_yaml('case_agnostic_work', 'company_tech')
+# sort_yaml('case_agnostic_work', 'company_services')
+# sort_yaml('case_agnostic_work', 'company_health')
+# sort_yaml('case_agnostic_work', 'company_energychem')
+# sort_yaml('case_agnostic_work', 'company_other')
+# sort_yaml('case_agnostic_hobbies', 'hobbies')
+sort_yaml('case_agnostic_skill', 'technical_skills')
+sort_yaml('case_agnostic_whole_resume', 'soft_skills')
+
+
+
+with open('confs/config.yaml', 'r') as stream:
+    data_loaded = yaml.safe_load(stream)
+
+myLIST = []
+for item in data_loaded['case_agnostic_whole_resume']['soft_skills']:
+    myLIST.append(item.lower())
+myLIST = list(set(myLIST))
+data_loaded['case_agnostic_whole_resume']['soft_skills'] = myLIST
+
+with open('confs/config.yaml', 'w') as fp:
+    yaml.dump(data_loaded, fp)
+print("Updated Yaml File Saved")
+
+
+
 
 # # deleting companies in 'other' if they are in another section
 with open('confs/config.yaml', 'r') as stream:

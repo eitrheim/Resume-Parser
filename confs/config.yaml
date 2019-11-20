@@ -5400,7 +5400,7 @@ case_agnostic_education:
   - Duke University
   - Ecole normale superieure
   - - Ecole Polytechnique Federale de Lausanne
-    - ' EPFL '
+    - EPFL
   - Emory University
   - ETH Zurich
   - Florida State University
@@ -5528,7 +5528,13 @@ case_agnostic_hobbies:
   hobbies:
   - Basketball
   - Baseball
+  - Basketball
+  - Baseball
   - Drag Racing
+  - Diving
+  - Football
+  - Golf
+  - Gymnastics
   - Golf
   - Hockey
   - Juggling
@@ -5539,30 +5545,65 @@ case_agnostic_hobbies:
   - Surfing
   - Swimming
   - Skiing
+  - Swimming
+  - Soccer
   - Traveling
   - Table Tennis
   - Volleyball
   - Water Skiing
+  - bird watching
+  - blogging
+  - boating
   - chess
   - cooking
   - camping
+  - craft beer
+  - collecting art
+  - calligraphy
+  - collecting
+  - dancing
+  - endurance sports
   - football
+  - fishing
+  - gardening
+  - guitar
+  - geocaching
   - hiking
+  - hunting
+  - ironman
   - jogging
+  - knitting
+  - movies
+  - magic
+  - origami
   - painting
   - piano
+  - philanthropy
+  - photography
+  - podcast
   - reading
   - running
   - rock climbing
+  - robotics
+  - racing cars
   - swimming
   - soccer
   - snowboarding
   - skiing
+  - sewing
+  - sculpting
+  - strategy games
   - tacos
   - travel
   - trekking
+  - triathlon
+  - team sports
   - volleyball
   - video games
+  - volunteering
+  - video games
+  - wine
+  - yoga
 case_agnostic_languages:
   languages:
   - Akkadian
@@ -5621,6 +5662,111 @@ case_agnostic_languages:
   - Urdu
   - Uzbek
   - Yiddish
+case_agnostic_skill:
+  technical_skills:
+  - ' C'
+  - ' R'
+  - - ' GCP'
+    - Google Cloud Platform
+  - Axioma
+  - Azkaban
+  - Airflow
+  - AutoCAD
+  - Adobe Photoshop
+  - Algorithms
+  - - Agile methodology
+    - Agile
+  - - Amazon Web Services
+    - ' AWS'
+  - - Azure
+    - Mircosoft Azure
+  - Big data
+  - C++
+  - C#
+  - CRD
+  - CSS
+  - Clustering
+  - Database design
+  - Data pipeline
+  - Data architecture
+  - Data engineering
+  - Data mining
+  - Decision trees
+  - Elixir
+  - FactSet
+  - Hive
+  - H20
+  - Html
+  - - Hadoop
+    - Apache Hadoop
+  - - Hbase
+    - Apache Hbase
+  - IBM Cloud
+  - JavaScript
+  - Java
+  - Javascript
+  - JQuery
+  - Java
+  - Jsp
+  - Jspf
+  - - Java
+    - JavaEE
+  - Keras
+  - Kanban
+  - Linux
+  - Luigi
+  - Matlab
+  - MondoDB
+  - MS SQL Server
+  - MATLAB
+  - Machine learning
+  - - Mac
+    - MacOS
+  - - MySQL
+    - My SQL
+  - Neo4j
+  - Neural networks
+  - Objective-C
+  - Oracle
+  - - Oracle
+    - Oracle database
+  - PHP
+  - PCF
+  - Python
+  - Pylearn2
+  - - Postgress
+    - Postgresql
+  - Quickbooks
+  - Rust
+  - Ruby
+  - Robotic Process Automation
+  - Swift
+  - SQL
+  - Scala
+  - SmartCo
+  - SDLC
+  - Storm
+  - Spark-Streaming
+  - SQL
+  - Software development
+  - - Sklearn
+    - scikit-learn
+    - sk-learn
+    - scikitlearn
+  - - Spark
+    - Apache Spark
+  - - Tensorflow
+    - tensor-flow
+  - UI design
+  - Unix
+  - VHDL
+  - - VBA
+    - Visual Basic for Applications
+    - Visual Basic
+  - Windows Server
+  - Windows
+  - Wordpress
+  - Waterfall
 case_agnostic_whole_resume:
   certifications:
   - - Chartered Financial Analyst
@@ -5637,6 +5783,788 @@ case_agnostic_whole_resume:
   - cum laude
   - magna cum laude
   - summa cum laude
+  soft_skills:
+  - account management
+  - account-based marketing
+  - action-oriented
+  - active listening
+  - adaptability
+  - advertising
+  - advertising management
+  - analyzing rfps
+  - answering customer questions
+  - arrangement
+  - assertiveness
+  - asset management
+  - awareness of applicable laws
+  - adaptability
+  - artistic sense
+  - assertiveness
+  - adaptability
+  - artistic sense
+  - assertiveness
+  - auditing
+  - adaptability
+  - adaptable
+  - artistic
+  - analytical
+  - attentiveness
+  - assertiveness
+  - automation
+  - adobe illustrator
+  - agile methodologies
+  - analytical
+  - agility
+  - authenticity
+  - authentic
+  - balanced scorecard
+  - behavioral finance
+  - benchmarking
+  - brainstorming
+  - brand audit
+  - brand management
+  - brand measurement
+  - brand strategy
+  - branding
+  - budget control
+  - budget variance analysis
+  - building trust
+  - business acumen
+  - business analysis
+  - business development
+  - business disputes
+  - business ethics
+  - business financing
+  - business knowledge
+  - business law
+  - business model
+  - business planning
+  - business process management
+  - body language
+  - business ethics
+  - business etiquette
+  - business trend awareness
+  - business analysis
+  - budgeting
+  - business strategy
+  - business process improvement
+  - business services
+  - business planning
+  - branding
+  - business intelligence
+  - business process
+  - business ethic
+  - business etiquette
+  - business trend awareness
+  - balance
+  - business driven
+  - business-driven
+  - brainstorming
+  - b2b marketing
+  - customer relationship management
+  - crm
+  - call management
+  - category management
+  - category strategy
+  - championing initiatives
+  - channel management
+  - channel strategy
+  - channels management
+  - choice modeling
+  - clarity
+  - closing deals
+  - coaching
+  - commercial perspective
+  - communication
+  - competitive analysis
+  - competitive focus
+  - competitive strategy
+  - competitor analysis
+  - compliance
+  - conciseness
+  - conducting studies
+  - consumer insights
+  - content marketing
+  - continuous improvement
+  - contract law
+  - contract management
+  - corporate entrepreneurship
+  - corporate governance
+  - corporate image
+  - corporate restructuring
+  - cost control
+  - cost management
+  - cost benefit analysis
+  - creative thinking
+  - crisis management
+  - critical thinking
+  - cross-cultural leadership
+  - cross-cultural management
+  - customer analysis
+  - customer experience management
+  - customer relationship management
+  - customer retention management
+  - customer retention
+  - customer segmentation
+  - coaching
+  - collaborating
+  - competitiveness
+  - conflict resolution
+  - crisis management
+  - critical thinking
+  - customer service
+  - collaborative
+  - compassion
+  - competitiveness
+  - conflict resolution
+  - creative thinking
+  - crisis management
+  - communication
+  - change management
+  - coaching
+  - customer relationship management
+  - contractual agreements
+  - customer satisfaction
+  - contract negotiation
+  - customer service
+  - creativity
+  - coaching
+  - confidence
+  - cooperation
+  - courtesy
+  - communication
+  - collaboration
+  - customer service
+  - competitiveness
+  - competitive
+  - conflict management
+  - conflict-management
+  - conflict resolution
+  - conflict-resolution
+  - critical thinking
+  - critical-thinking
+  - creative
+  - cooperative
+  - creative thinking
+  - constructive feedback
+  - conflict management
+  - collaboration
+  - cooperation
+  - coordination
+  - curiosity
+  - calmness
+  - calm
+  - commitment
+  - coping
+  - cultural intelligence
+  - critical observation
+  - development
+  - data transformation
+  - dealing with ambiguity
+  - decision frameworks
+  - decision making
+  - decisions making
+  - delegating
+  - delegation
+  - design sense
+  - developing budgets
+  - developing business plans
+  - developing metrics
+  - developing proposals
+  - developing sales collaterals
+  - developing sales proposals
+  - developing strategic alliances
+  - digital business strategy
+  - digital marketing
+  - digital strategy
+  - diplomacy
+  - diplomacy techniques
+  - direct marketing
+  - display advertising
+  - dispute resolution
+  - distribution strategy
+  - dealing with
+  - decision making
+  - delegation
+  - design sense
+  - diplomacy
+  - disability awareness
+  - dispute resolution
+  - diversity awareness
+  - decision making
+  - delegation
+  - design sense
+  - diplomacy
+  - dispute resolution
+  - data analysis
+  - digital marketing
+  - decision making
+  - digital media
+  - drawing
+  - delegation
+  - dispute resolution
+  - disability awareness
+  - diversity awareness
+  - dedication
+  - dependability
+  - deal making
+  - deal-making
+  - decision making
+  - decision-making
+  - databases
+  - delegation
+  - decision-making
+  - discipline
+  - dependability
+  - diplomacy
+  - decision making
+  - delegation
+  - endurance
+  - enterprise resource management
+  - establishing rapport
+  - establishing trust
+  - ethics
+  - event management
+  - expense management
+  - emotional intelligence
+  - endurance
+  - emotion management
+  - emotional intelligence
+  - empathy
+  - enthusiasm
+  - entrepreneurial thinking
+  - emotional regulation
+  - empathy
+  - enthusiasm
+  - entrepreneurship
+  - ecommerce
+  - event planning
+  - editing
+  - energy
+  - enthusiasm
+  - emotional intelligence
+  - empathy
+  - effective communicator
+  - emotion management
+  - ergonomic sensitivity
+  - empathy
+  - facilitating meetings
+  - financial analysis
+  - financial audit
+  - financial forecasting
+  - financial management
+  - financial modeling
+  - first impressions
+  - forecasting
+  - franchising
+  - facilitation
+  - friendliness
+  - facilitating
+  - flexibility
+  - friendliness
+  - forecasting
+  - facilitation
+  - financial risk
+  - financial reporting
+  - financial analysis
+  - fundraising
+  - facility management
+  - facilitation
+  - following direction
+  - follow instructions
+  - follow regulations
+  - follow rules
+  - functions well under pressure
+  - flexibility
+  - flexible
+  - friendliness
+  - friendly
+  - focus
+  - focused
+  - game theory
+  - go to market strategy
+  - go-to-market strategies
+  - growth strategy
+  - guerrilla marketing
+  - giving feedback
+  - graphic design
+  - graphics
+  - grant writing
+  - good attitude
+  - grit
+  - goal setting
+  - generosity
+  - generous
+  - horizontal integration
+  - human resource management
+  - humor
+  - hospitality
+  - honest
+  - humorous
+  - humor
+  - humorous
+  - humility
+  - identifying constraints
+  - identifying critical success factors
+  - identifying leads
+  - identifying opportunities
+  - industry knowledge
+  - influencing
+  - information analysis
+  - innovation
+  - innovation management
+  - innovation strategy
+  - integrated marketing
+  - intellectual property law
+  - intercultural competence
+  - international marketing
+  - interviewing
+  - investor relations
+  - innovation
+  - inspiring
+  - intercultural competence
+  - interpersonal relationships
+  - interviewing
+  - influence
+  - innovation
+  - interpersonal
+  - interpersonal skills
+  - internal audit
+  - interviewing
+  - integrated marketing
+  - inspiring
+  - interpersonal skill
+  - influencing
+  - influence
+  - influential
+  - independence
+  - independent
+  - interviewing
+  - innovation
+  - innovative
+  - idea exchange
+  - initiative
+  - inspiration
+  - imagination
+  - insight
+  - integrity
+  - initiative
+  - introspection
+  - introspective
+  - knowledge management
+  - key account development
+  - knowledge sharing
+  - knowledge base
+  - launch marketing
+  - leading teams
+  - leveraging
+  - liability risks
+  - liability valuation
+  - location strategy
+  - logistics
+  - loyalty marketing
+  - loyalty programs
+  - listening
+  - leadership
+  - listening
+  - leadership
+  - logistics management
+  - local marketing
+  - leadership development
+  - lean manufacturing
+  - litigation
+  - logical thinking
+  - leadership
+  - listening
+  - leadership
+  - listening
+  - lateral thinking
+  - logical reasoning
+  - management by objective
+  - managerial accounting
+  - managerial statistics
+  - managing a client engagement
+  - managing appointments
+  - managing budgets
+  - managing change
+  - managing contacts
+  - managing difficult conversations
+  - managing difficult people
+  - managing diversity
+  - managing financial risk
+  - managing group dynamics
+  - managing large accounts
+  - managing liability
+  - managing operations
+  - managing productivity
+  - managing quality
+  - managing risk
+  - managing risk-return
+  - managing sales partners
+  - managing sales productivity
+  - managing selling costs
+  - managing strategic objectives
+  - managing team dynamics
+  - managing teams
+  - managing upsell activities
+  - market assessments
+  - market knowledge
+  - market research
+  - market segmentation
+  - market segmentation analysis
+  - marketing communications
+  - marketing intelligence management
+  - marketing law
+  - marketing management
+  - marketing mix
+  - marketing simulation
+  - marketing strategy
+  - meeting management
+  - mentoring sales teams
+  - mobile marketing
+  - modeling decisions
+  - monitoring
+  - motivating
+  - manager management
+  - managing
+  - managing difficult conversations
+  - managing remote teams
+  - managing virtual teams
+  - meeting management
+  - mentoring
+  - motivating
+  - motivational
+  - management
+  - managing
+  - mentoring
+  - motivation
+  - motivated
+  - multitasking
+  - motivating
+  - motivative
+  - mediation
+  - motivated
+  - mind mapping
+  - mentoring
+  - new product acceptance
+  - negotiation
+  - networking
+  - negotiating
+  - networking
+  - negotiating
+  - negotiation
+  - network administration
+  - network systems
+  - non-verbal communication
+  - networking
+  - operations management
+  - operations strategy
+  - opportunity management
+  - order fulfillment management
+  - organization design
+  - organizing
+  - opinion research
+  - office politics
+  - organization
+  - openness to feedback
+  - organization
+  - organized
+  - order fulfillment
+  - online advertising
+  - organizational development
+  - operations management
+  - organizational structure
+  - office administration
+  - outsourcing
+  - optimism
+  - open-minded
+  - organized
+  - organization
+  - performance appraisal
+  - personal branding
+  - persuasion
+  - planning
+  - politics
+  - positioning
+  - preparing
+  - pricing
+  - pricing strategy
+  - prioritization
+  - problem solving
+  - procurement
+  - product demonstration
+  - product development
+  - product differentiation
+  - product knowledge
+  - product launch
+  - product life cycle management
+  - product portfolio management
+  - product positioning
+  - product research
+  - product strategy
+  - program management
+  - project management
+  - promoting
+  - promotion
+  - promotion strategy
+  - prospecting
+  - protecting
+  - prototyping
+  - providing feedback
+  - public speaking
+  - publicity
+  - performance management
+  - personal branding
+  - persuasion
+  - physical communication
+  - planning
+  - presentation skills
+  - problem solving
+  - process improvement
+  - public speaking
+  - proposal writing
+  - patience
+  - perceptiveness
+  - perseverance
+  - positivity
+  - presenting
+  - problem solving
+  - persuasion
+  - people management
+  - persistence
+  - public speaking
+  - predictive modeling
+  - probabilistic modeling
+  - problem solving
+  - patience
+  - persuasion
+  - perseverance
+  - persistence
+  - planning
+  - punctuality
+  - performance management
+  - problem solving
+  - process improvement
+  - positive
+  - positivity
+  - project management
+  - project-management
+  - patient
+  - persuasive
+  - positive
+  - project management
+  - public speaking
+  - persuasion
+  - presenting
+  - presentations
+  - performance tuning
+  - public speaking
+  - project planning
+  - program management
+  - public relations
+  - public policy
+  - problem solving
+  - partnerships
+  - presentations
+  - pricing strategy
+  - persistence
+  - professionalism
+  - patience
+  - positive reinforcement
+  - prioritizing
+  - planning
+  - quality management
+  - quote management
+  - quick-wittedness
+  - quick-witted
+  - quick witted
+  - qualitative research
+  - quantitative research
+  - quality improvement
+  - query writing
+  - questioning
+  - r&d
+  - raising capital
+  - recruiting
+  - regulatory compliance
+  - regulatory reporting
+  - removing obstacles
+  - reporting
+  - reputation management
+  - research
+  - resource allocation
+  - results-focus
+  - retail strategy
+  - revenue forecasting
+  - revenue management
+  - risk analysis
+  - risk management
+  - research
+  - resilience
+  - research skills
+  - resilience
+  - research
+  - resourcefulness
+  - resourceful
+  - resolving issues
+  - respectability
+  - respectfulness
+  - reliability
+  - resilience
+  - results-orientation
+  - results orientation
+  - results oriented
+  - results-oriented
+  - relationship
+  - results oriented
+  - results-oriented
+  - research
+  - recruiting
+  - respect
+  - responsibility
+  - responsible
+  - sales motivation
+  - sales partner strategy
+  - sales pipeline management
+  - sales pitching
+  - sales planning
+  - sales program formulation
+  - sales promotion
+  - sales strategy
+  - sales tactics
+  - scheduling
+  - social media marketing
+  - sourcing
+  - statistical analysis
+  - storytelling
+  - strategic hiring
+  - strategic management
+  - strategic planning
+  - strategic positioning
+  - strategic sourcing
+  - strategy
+  - strategy execution
+  - scheduling
+  - self assessment
+  - self awareness
+  - self confidence
+  - self leadership
+  - selling
+  - storytelling
+  - strategic planning
+  - stress management
+  - supervising
+  - scheduling skills
+  - self assessment
+  - self awareness
+  - self confidence
+  - strategic skills
+  - stress management
+  - supervision skills
+  - six sigma
+  - storytelling
+  - supervising
+  - selling skills
+  - social skills
+  - scheduling
+  - self direct
+  - self monitor
+  - self-supervising
+  - self supervising
+  - strategic planning
+  - safety conscious
+  - scheduling
+  - self-awareness
+  - self awareness
+  - self-aware
+  - self aware
+  - stress management
+  - self-direct
+  - self-monitor
+  - storytelling
+  - supervising
+  - strategic planning
+  - social media
+  - staff development
+  - sales management
+  - strategy
+  - supervisory skills
+  - software documentation
+  - self-management
+  - self-motivated
+  - sensitivity
+  - sensitive
+  - self-starter
+  - stress management
+  - scheduling
+  - taking criticism
+  - talent management
+  - team building
+  - technology savvy
+  - technology trend awareness
+  - time management
+  - tolerance of change and uncertainty
+  - train the trainer
+  - training
+  - troubleshooting
+  - time management
+  - troubleshooting
+  - team player
+  - teaching
+  - team building
+  - time management
+  - team management
+  - troubleshooting
+  - timely
+  - troubleshooting
+  - team building
+  - teamwork
+  - trainability
+  - team player
+  - technology savvy
+  - technology trend awareness
+  - tolerant
+  - trainable
+  - training
+  - troubleshooting
+  - team player
+  - training
+  - teamwork
+  - tolerance
+  - trust
+  - trusting
+  - user interface design
+  - user experience
+  - underwriting
+  - user acceptance testing
+  - under pressure
+  - verbal communication
+  - visual communication
+  - verbal communication
+  - vendor management
+  - video production
+  - volunteering
+  - volunteer management
+  - video editing
+  - visual merchandising
+  - verbal communication
+  - versatility
+  - versatile
+  - writing
+  - writing reports and proposals
+  - work ethic
+  - written communication
+  - writing
+  - web design
+  - web development
+  - willingness
+  - willing
+  - willingness to learn
+  - work ethic
+  - well under pressure
+  - writing
+  - work ethic
+  - written communication
 case_agnostic_work:
   company_consumer:
   - 99 Cents Only Stores
