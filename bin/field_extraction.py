@@ -1,5 +1,7 @@
 import logging
 import re
+from datetime import datetime
+from dateutil import relativedelta
 from gensim.utils import simple_preprocess
 import lib
 
@@ -202,15 +204,15 @@ def years_of_experience(input_string):
     for i in range(len(tokens)):
         if tokens[i] in months:
             try:
-                if int(tokens[i+2]) in range(1970,2025):
+                if int(tokens[i+2]) in range(1970, 2025):
                     if tokens[i+3] == ' - ':
                         if tokens[i+4] in ['current', 'present', 'today']:
                             list_of_dates.append(''.join(tokens[i:i+5]))
                         elif tokens[i+4] in months:
                             try:
-                                if int(tokens[i+6]) in range(1970,2025):
+                                if int(tokens[i+6]) in range(1970, 2025):
                                     list_of_dates.append(''.join(tokens[i:i+7]))
-                                elif int(tokens[i+6]) in range(0,100):
+                                elif int(tokens[i+6]) in range(0, 100):
                                     list_of_dates.append(''.join(tokens[i:i+7]))
                                 else:
                                     pass
@@ -223,9 +225,9 @@ def years_of_experience(input_string):
                             list_of_dates.append(''.join(tokens[i:i+7]))
                         elif tokens[i+6] in months:
                             try:
-                                if int(tokens[i+8]) in range(1970,2025):
+                                if int(tokens[i+8]) in range(1970, 2025):
                                     list_of_dates.append(''.join(tokens[i:i+9]))
-                                elif int(tokens[i+8]) in range(0,100):
+                                elif int(tokens[i+8]) in range(0, 100):
                                     list_of_dates.append(''.join(tokens[i:i+9]))
                                 else:
                                     pass
@@ -234,15 +236,15 @@ def years_of_experience(input_string):
                         else:
                             pass
 
-                elif int(tokens[i+2]) in range(0,100):
+                elif int(tokens[i+2]) in range(0, 100):
                     if tokens[i+3] == ' - ':
                         if tokens[i+4] in ['current', 'present', 'today']:
                             list_of_dates.append(''.join(tokens[i:i+5]))
                         elif tokens[i+4] in months:
                             try:
-                                if int(tokens[i+6]) in range(1970,2025):
+                                if int(tokens[i+6]) in range(1970, 2025):
                                     list_of_dates.append(''.join(tokens[i:i+7]))
-                                elif int(tokens[i+6]) in range(0,100):
+                                elif int(tokens[i+6]) in range(0, 100):
                                     list_of_dates.append(''.join(tokens[i:i+7]))
                                 else:
                                     pass
@@ -255,9 +257,9 @@ def years_of_experience(input_string):
                             list_of_dates.append(''.join(tokens[i:i+7]))
                         elif tokens[i+6] in months:
                             try:
-                                if int(tokens[i+8]) in range(1970,2025):
+                                if int(tokens[i+8]) in range(1970, 2025):
                                     list_of_dates.append(''.join(tokens[i:i+9]))
-                                elif int(tokens[i+8]) in range(0,100):
+                                elif int(tokens[i+8]) in range(0, 100):
                                     list_of_dates.append(''.join(tokens[i:i+9]))
                                 else:
                                     pass
@@ -268,4 +270,59 @@ def years_of_experience(input_string):
 
             except:
                 pass
-    return list_of_dates
+    return str(list_of_dates)
+
+
+def months_of_experience(list_of_dates):
+    yrs = list_of_dates.apply(lambda x: x.replace('january', 'jan').replace('february', 'feb').replace('march', 'mar')
+                              .replace('april', 'apr').replace('june', 'jun').replace('july', 'jul').replace('august', 'aug')
+                              .replace('september', 'sep').replace('sept', 'sep').replace('october', 'oct').
+                              replace('november', 'nov').replace('december', 'dec').replace('to', '-'))
+
+    today = str(datetime.today().strftime('%b %Y'))
+    yrs = yrs.apply(lambda x: x.replace('current', today).replace('present', today).replace('today', today))
+    yrs = yrs.apply(lambda x: re.sub("[\'\[\]]", '', x).split(', '))
+
+    # this assumes they list jobs in reverse chronological order
+    mos_of_experience = []
+    for row in yrs:
+        if row == ['']:
+            experience = relativedelta.relativedelta(0, 0)
+        else:
+            try:
+                a = datetime.strptime(row[0].split(' - ')[1], '%b %Y')
+            except ValueError:
+                a = datetime.strptime(row[0].split(' - ')[1], '%b %y')
+            try:
+                b = datetime.strptime(row[-1].split(' - ')[0], '%b %Y')
+            except ValueError:
+                b = datetime.strptime(row[-1].split(' - ')[0], '%b %y')
+            experience = relativedelta.relativedelta(a, b)
+        experience = experience.months + experience.years * 12
+
+        if len(row) < 2:
+            z = relativedelta.relativedelta(0, 0)
+        elif experience == relativedelta.relativedelta(0, 0):
+            pass
+        else:
+            z = relativedelta.relativedelta(0, 0)
+            for item in range(1, len(row)):
+                try:
+                    a = datetime.strptime(row[item].split(' - ')[1], '%b %Y')
+                except ValueError:
+                    a = datetime.strptime(row[item].split(' - ')[1], '%b %y')
+                try:
+                    b = datetime.strptime(row[item - 1].split(' - ')[0], '%b %Y')
+                except ValueError:
+                    b = datetime.strptime(row[item - 1].split(' - ')[0], '%b %y')
+                if relativedelta.relativedelta(b, a).months + relativedelta.relativedelta(b, a).years * 12 > 0:
+                    z = z + relativedelta.relativedelta(b, a)
+        experience_gaps = z
+        experience_gaps = experience_gaps.months + experience_gaps.years * 12
+
+        if experience_gaps > experience:
+            mos_of_experience.append(0)
+        else:
+            mos_of_experience.append(int(experience - experience_gaps))
+
+    return mos_of_experience
