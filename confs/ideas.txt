@@ -4,14 +4,9 @@ Degree related:
 https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/degree-types/qualifications
 
 Majors
-Biz admin --- biz
-biz analyitcs --- analytics
-industrial management engineering.. is that IM eng or I eng?
 https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees
 
-
-STEM soft skills
-
+Colleges
 https://en.wikipedia.org/wiki/Category:University_and_college_rankings
 https://en.wikipedia.org/wiki/Professional_certification
 for the acronyms
@@ -21,13 +16,15 @@ https://en.wikipedia.org/wiki/List_of_colloquial_names_for_universities_and_coll
 Companies
 some might be case sensitve..?
 Target
-Where have successful ones come from?
-look at high mbo scores, match with resume, look at work of those resumes
+Where have successful ones come from? look at high mbo scores, match with resume, look at work of those resumes
 
 GPA related:
 Cumulative Average Point (CAP): 4.32/5.0
 parse GRE, GMAT etc?
 
+Hard skills
+parse C++
+List of skills from :https://www.kaggle.com/vingkan/strategeion-resume-skills#skills.txt
 
 Section not caught:
 Skills and Interests
@@ -37,11 +34,7 @@ OTHER SKILLS & INTERESTS
 To get more languagues
 FLUENT IN
 
-Certifications:
-EIT/FE exam
-Category II certified vibration analyst through the Vibration Institute    '
-certifications as PMP, PRINCE
-
+Scholarships
 fulbright
 deans list
 any special kinds of scholarships
@@ -53,8 +46,3 @@ https://github.com/binoydutt/Resume-Job-Description-Matching
 
 Automated Resume Screening System: https://github.com/JAIJANYANI/Automated-Resume-Screening-System
 NER: https://towardsdatascience.com/a-review-of-named-entity-recognition-ner-using-automatic-summarization-of-resumes-5248a75de175
-
-List of skills from :https://www.kaggle.com/vingkan/strategeion-resume-skills#skills.txt
-
-A/B testing
-CRO - conversion rate optimization

@@ -466,6 +466,23 @@ def sort_yaml(main_section, sub_section):
     try:
         data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=itemgetter(0, 1, 2, 3))
         data_loaded[main_section][sub_section] = list(k for k, _ in itertools.groupby(data_loaded[main_section][sub_section]))
+        data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=itemgetter(0, 1, 2, 3))
+    except IndexError:
+        pass
+
+    with open('confs/config.yaml', 'w') as fp:
+        yaml.dump(data_loaded, fp)
+    print(sub_section, "Sorted & Saved")
+
+
+def sort_yaml_flat(main_section, sub_section):
+    with open('confs/config.yaml', 'r') as stream:
+        try:
+            data_loaded = yaml.safe_load(stream)
+        except yaml.YAMLError as exc:
+            print(exc)
+    try:
+        data_loaded[main_section][sub_section] = sorted(list(set(data_loaded[main_section][sub_section])))
     except IndexError:
         pass
 
@@ -776,28 +793,14 @@ with open('confs/config.yaml', 'w') as fp:
 
 
 # sorting sections
-# sort_yaml('case_agnostic_work', 'company_foodbev')
-# sort_yaml('case_agnostic_work', 'company_fin')
-# sort_yaml('case_agnostic_work', 'company_tech')
-# sort_yaml('case_agnostic_work', 'company_services')
-# sort_yaml('case_agnostic_work', 'company_health')
-# sort_yaml('case_agnostic_work', 'company_energychem')
-# sort_yaml('case_agnostic_work', 'company_other')
-# sort_yaml('case_agnostic_hobbies', 'hobbies')
-# sort_yaml('case_agnostic_skill', 'technical_skills')
-# sort_yaml('case_agnostic_whole_resume', 'soft_skills')
-
-
-############################ cleaning up x section if flat ############################
-x = 'company_other'
-
-with open('confs/config.yaml', 'r') as stream:
-    data_loaded = yaml.safe_load(stream)
-myLIST = []
-for item in data_loaded['case_agnostic_work'][x]:
-    myLIST.append(item.lower().strip())
-myLIST = sorted(list(set(myLIST)))
-data_loaded['case_agnostic_work'][x] = myLIST
-with open('confs/config.yaml', 'w') as fp:
-    yaml.dump(data_loaded, fp)
-print("Updated Yaml File Saved")
+# sort_yaml_flat('case_agnostic_work', 'company_foodbev')
+# sort_yaml_flat('case_agnostic_work', 'company_fin')
+# sort_yaml_flat('case_agnostic_work', 'company_tech')
+# sort_yaml_flat('case_agnostic_work', 'company_services')
+# sort_yaml_flat('case_agnostic_work', 'company_health')
+# sort_yaml_flat('case_agnostic_work', 'company_energychem')
+# sort_yaml_flat('case_agnostic_work', 'company_other')
+# sort_yaml_flat('case_agnostic_work', 'company_consumer')
+# sort_yaml_flat('case_agnostic_hobbies', 'hobbies')
+sort_yaml_flat('case_agnostic_whole_resume', 'soft_skills')
+sort_yaml('case_agnostic_skill', 'technical_skills')
