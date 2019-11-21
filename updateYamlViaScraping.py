@@ -464,9 +464,9 @@ def sort_yaml(main_section, sub_section):
         except yaml.YAMLError as exc:
             print(exc)
     try:
-        data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=itemgetter(0, 1, 2, 3))
+        data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=itemgetter(0, 1))
         data_loaded[main_section][sub_section] = list(k for k, _ in itertools.groupby(data_loaded[main_section][sub_section]))
-        data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=itemgetter(0, 1, 2, 3))
+        data_loaded[main_section][sub_section] = sorted(data_loaded[main_section][sub_section], key=itemgetter(0, 1))
     except IndexError:
         pass
 
@@ -739,12 +739,12 @@ with open('confs/config.yaml', 'w') as fp:
 # sort_yaml_flat('case_agnostic_work', 'company_energychem')
 # sort_yaml_flat('case_agnostic_work', 'company_other')
 # sort_yaml_flat('case_agnostic_work', 'company_consumer')
-sort_yaml_flat('case_agnostic_hobbies', 'hobbies')
+# sort_yaml_flat('case_agnostic_hobbies', 'hobbies')
 # sort_yaml('case_agnostic_whole_resume', 'honor_societies')
 # sort_yaml('case_agnostic_education', 'community_college')
 # sort_yaml('case_agnostic_education', 'other_universities')
 # sort_yaml_flat('case_agnostic_work', 'company_foodbev')
-# sort_yaml('case_agnostic_skill', 'technical_skills')
+sort_yaml('case_agnostic_skill', 'technical_skills')
 
 ############################ cleaning up softskills section ############################
 with open('confs/config.yaml', 'r') as stream:

@@ -1423,6 +1423,7 @@ case_agnostic_education:
     - Business Logistics
     - Logistics Management
     - Supply Chain Management
+    - Supply Chain
   - - Management
     - Institutional Management
     - Operations Management
@@ -4170,30 +4171,20 @@ case_agnostic_languages:
   - Yiddish
 case_agnostic_skill:
   technical_skills:
-  - \x20C\x20
-  - \x20SAP\x20
-  - \x20R\x20
-  - \x20SAS\x20
-  - - \x20GCP
-    - Google Cloud Platform
-  - - \x20Mac\x20
-    - MacOS
-    - Mac OS
+  - AP style
   - Ableton live suite
+  - Abaqus
+  - Acrobat Distiller
+  - Adobe Fireworks
+  - Adobe Flash
   - Airflow
   - Algorithms
-  - AP style
   - App Development
-  - DBMS
-  - Weblogic
-  - Final Cut
+  - Ariba
   - AutoCAD
-  - Acrobat Distiller
   - Axioma
-  - Azkaban
-  - Bloomberg
-  - DHTML
   - Azure
+  - Azkaban
   - - Adobe creative suite
     - Adobe Photoshop
     - Photoshop
@@ -4210,8 +4201,10 @@ case_agnostic_skill:
   - - Azure
     - Mircosoft Azure
   - Big data
+  - Bloomberg
   - C#
   - C++
+  - CREST
   - CRD
   - CSS
   - Clustering
@@ -4219,92 +4212,90 @@ case_agnostic_skill:
     - Cognos
   - - Content Management Systems
     - \x20CMS\x20
+  - DBMS
+  - DHTML
   - Database design
   - Data pipeline
   - Data architecture
   - Data engineering
   - Data mining
-  - - Data visualization
-    - Data visualization software
   - Decision trees
+  - Deltek
   - Docker
   - Dreamweaver
+  - - Data visualization
+    - Data visualization software
   - Elixir
-  - Adobe Fireworks
-  - Adobe Flash
+  - - Excel
+    - Microsoft Excel
+    - MS Excel
   - FactSet
   - Facebook for business
+  - Final Cut
   - Google adwords
   - Google analytics
-  - - \x20Git\x20
-    - Verision control
-    - github
-    - gitlab
   - - Graphic User Interface
     - \x20GUI\x20
   - H20
-  - \x20Hive\x20
+  - HRIS
+  - Hubspot sales
+  - Hyperion
   - - HRIS
     - HRIS systems
     - HRIS technologies
-  - \x20Html
-  - Hubspot sales
   - - Hadoop
     - Apache Hadoop
   - - Hbase
     - Apache Hbase
   - IBM Cloud
   - JQuery
-  - - JavaScript
-    - Java Script
+  - JSON
+  - Jenkins
   - Jsp\x20
   - Jspf
-  - JSON
+  - - JavaScript
+    - Java Script
   - - Java\x20
     - JavaEE
   - Kanban
-  - XML
-  - WML
   - Keras\x20
   - Keyword optimization
+  - Labeling Databases
+  - LaTeX
+  - LexisNexis
   - Linux
   - Luigi
   - MATLAB
-  - Hyperion
+  - MYOB
   - Matlab
   - Machine learning
+  - Mathematica
+  - Maven
   - Mendeley
-  - - Microsoft office
-    - MS office
-  - - Microsoft Word
-    - MS word
-  - - Excel
-    - Microsoft Excel
-    - MS Excel
+  - MongoDB
   - - Microsoft Access
     - MS Access
     - Access Database
-  - - Microsoft Publisher
-    - MS Publisher
-  - - Visio
-    - Microsoft Visio
-  - MongoDB
-  - NodeXL
-  - WestLaw
-  - LexisNexis
   - - Microsoft PowerPoint
     - PowerPoint
-  - - SQL Server
-    - MS SQL Server
+  - - Microsoft Publisher
+    - MS Publisher
+  - - Microsoft Word
+    - MS word
+  - - Microsoft office
+    - MS office
   - NVivo
   - Neo4j
   - Neural networks
+  - NodeXL
   - Objective C
   - - Oracle
     - Oracle database
   - PCF
   - PHP
+  - Peoplesoft
   - Power BI
+  - Precima
   - Python
   - Pylearn2
   - - PostgreSQL
@@ -4312,33 +4303,30 @@ case_agnostic_skill:
   - Quickbooks
   - - QuarkXpress
     - Quark Xpress
+  - RAPTOR
   - Robotic Process Automation
   - Rust
   - Ruby
   - SDLC
   - SPSS
-  - Syteline
-  - RAPTOR
-  - MYOB
-  - XLTRC2
   - SQL
-  - Abaqus
-  - LaTeX
-  - SolidWorks
   - SQLite
-  - Mathematica
   - STATA
   - Scala
-  - \x20SSIS\x20
   - Sendgrid
   - SmartCo
   - Smalltalk
+  - SolidWorks
   - Software development
   - Software Development
   - Spark Streaming
   - Storm
+  - SupplyTrack
   - Surveyxact
   - Swift
+  - Syteline
+  - - SQL Server
+    - MS SQL Server
   - - Search engine optimization
     - SEO
   - - Sklearn
@@ -4354,46 +4342,75 @@ case_agnostic_skill:
     - tensor flow
   - UI design
   - UWP
+  - Ultipro
   - Unit testing
   - Unix
   - VHDL
-  - HRIS
-  - Ultipro
   - - VBA
     - Visual Basic for Applications
     - Visual Basic
+  - - Visio
+    - Microsoft Visio
+  - WML
   - WPF
-  - Deltek
   - Waterfall
+  - Weblogic
+  - WestLaw
   - Web scraping
-  - Peoplesoft
   - Windows Server
   - Windows
   - Wordpress
   - XAML
   - XHTML
+  - XLTRC2
+  - XML
+  - \x20AWK\x20
+  - \x20SEB\x20
+  - \x20Sed\x20
+  - \x20C\x20
+  - \x20SAP\x20
+  - \x20R\x20
+  - \x20SAS\x20
+  - \x20Hive\x20
+  - \x20Html
+  - \x20SSIS\x20
+  - - \x20GCP
+    - Google Cloud Platform
+  - - \x20Git\x20
+    - Verision control
+    - github
+    - gitlab
+  - - \x20Mac\x20
+    - MacOS
+    - Mac OS
   - operating systems
 case_agnostic_whole_resume:
   certifications:
   - - Chartered Financial Analyst
-    - CFA
+    - \x20CFA\x20
+  - - Certified Quality Engineer
+    - \x20CQE\x20
+  - - Hazard analysis and critical control points
+    - HACCP
   - - Certified Public Accountant
-    - CPA
+    - \x20CPA\x20
   - - Association of Chartered Certified Accountant
-    - ACCA
+    - \x20ACCA\x20
+    - Certified Management Accountant
+    - \x20CMA\x20
   - - Chartered Institute of Management Accountants
-    - CIMA
+    - \x20CIMA\x20
   - - Association of Certified Financial Crime Specialists
-    - ACFCS
+    - \x20ACFCSv
   - - Certified in Production and Inventory Management
-    - CPIM
+    - \x20CPIM\x20
   - - Professional in Human Resources
-    - PHR
+    - \x20PHR\x20
   - - PRINCE2
     - PRojects IN Controlled Environments
   - - Project Management Professional
-    - PMP
-  - FE exam
+    - \x20PMP\x20
+  - \x20FE exam
   honor_societies:
   - Alpha Beta Gamma
   - Alpha Chi
@@ -4523,8 +4540,10 @@ case_agnostic_whole_resume:
     - Fulbright Program
     - Fulbright Award
   soft_skills:
+  - ability to learn
   - account based marketing
   - account management
+  - accountable
   - accruacy
   - action oriented
   - active listening
@@ -4532,11 +4551,15 @@ case_agnostic_whole_resume:
   - ad effectiveness
   - adaptability
   - adaptable
+  - adjusts
+  - administrative
   - advertising
   - advertising management
-  - agile methodologies
+  - aggressivley pursue
   - agility
+  - agreeable
   - alternative dispute resolution
+  - analysis
   - analytical
   - analyzing rfps
   - answering customer questions
@@ -4559,6 +4582,7 @@ case_agnostic_whole_resume:
   - behavioral finance
   - benchmarking
   - benefits administration
+  - best practices
   - body language
   - brainstorming
   - brand ambassador
@@ -4567,10 +4591,12 @@ case_agnostic_whole_resume:
   - brand measurement
   - brand strategy
   - branding
+  - broad thinker
   - budget control
   - budget development
   - budget variance analysis
   - budgeting
+  - build rapport
   - build relationship
   - building relationship
   - building trust
@@ -4610,6 +4636,7 @@ case_agnostic_whole_resume:
   - charisma
   - choice modeling
   - clarity
+  - clear
   - closing deals
   - coaching
   - collaborating
@@ -4620,7 +4647,10 @@ case_agnostic_whole_resume:
   - commercial perspective
   - commitment
   - communicate effectively
+  - communicate findings
+  - communicate recommendations
   - communication
+  - communication skills
   - community engagement
   - compassion
   - competitive
@@ -4634,11 +4664,14 @@ case_agnostic_whole_resume:
   - compliance
   - concept design
   - concept testing
+  - conceptual skills
   - conciseness
   - conducting studies
   - confidence
+  - confident
   - conflict management
   - conflict resolution
+  - conscientious
   - constructive feedback
   - consumer insights
   - content creation
@@ -4647,15 +4680,18 @@ case_agnostic_whole_resume:
   - contract law
   - contract management
   - contract negotiation
+  - contracting
   - contractual agreements
   - cooperation
   - cooperative
+  - coordinate
   - coordination
   - coping
   - corporate entrepreneurship
   - corporate governance
   - corporate image
   - corporate restructuring
+  - cost accounting
   - cost benefit analysis
   - cost control
   - cost forecasting
@@ -4672,11 +4708,15 @@ case_agnostic_whole_resume:
   - crm
   - cross cultural leadership
   - cross cultural management
+  - culinary
   - cultural competence
   - cultural intelligence
   - curiosity
   - customer analysis
   - customer experience management
+  - customer focus
+  - customer management
+  - customer penetration
   - customer relationship management
   - customer relationships
   - customer retention
@@ -4685,6 +4725,7 @@ case_agnostic_whole_resume:
   - customer segmentation
   - customer service
   - data analysis
+  - data modeling
   - data transformation
   - databases
   - deal making
@@ -4702,6 +4743,8 @@ case_agnostic_whole_resume:
   - deployment
   - design sense
   - detail oriented
+  - develop actionable
+  - develop actionable insights
   - developing budgets
   - developing business plans
   - developing kpis
@@ -4722,9 +4765,12 @@ case_agnostic_whole_resume:
   - direction
   - disability awareness
   - discipline
+  - discretion
   - display advertising
   - dispute resolution
   - distribution strategy
+  - distributor
+  - distributor channel
   - diversity awareness
   - drawing
   - drive
@@ -4738,8 +4784,10 @@ case_agnostic_whole_resume:
   - emotion management
   - emotional intelligence
   - emotional regulation
+  - empathetic
   - empathy
   - employee relations
+  - encouraging
   - endurance
   - energetic
   - energy
@@ -4747,12 +4795,14 @@ case_agnostic_whole_resume:
   - enterprise resource management
   - enterprise resource planning
   - enthusiasm
+  - enthusiastic
   - entrepreneurial thinking
   - entrepreneurship
   - ergonomic sensitivity
   - establish trust
   - establishing rapport
   - establishing trust
+  - ethical
   - ethics
   - event management
   - event planning
@@ -4764,7 +4814,10 @@ case_agnostic_whole_resume:
   - facilitation
   - facility management
   - fast learner
+  - fast paced environment
   - feasibility studies
+  - financial accounting
+  - financial acumen
   - financial analysis
   - financial audit
   - financial forecasting
@@ -4780,14 +4833,21 @@ case_agnostic_whole_resume:
   - follow instructions
   - follow regulations
   - follow rules
+  - follow through
   - following direction
+  - food manufacturing
+  - food processing systems
+  - food regulation
+  - foodservice
   - forecasting
+  - forging relationships
   - franchising
   - friendliness
   - friendly
   - functions well under pressure
   - fundraising
   - game theory
+  - generate insights
   - generosity
   - generous
   - giving feedback
@@ -4796,6 +4856,7 @@ case_agnostic_whole_resume:
   - goal setting
   - good attitude
   - governance
+  - gracious
   - grant writing
   - graphic design
   - graphics
@@ -4803,14 +4864,20 @@ case_agnostic_whole_resume:
   - growth strategies
   - growth strategy
   - guerrilla marketing
+  - happy
+  - hard working
+  - helpful
+  - high morals
   - honest
   - horizontal integration
   - hospitality
   - human resource management
+  - humble
   - humility
   - humor
   - humorous
   - idea exchange
+  - identify opportunities
   - identifying constraints
   - identifying critical success factors
   - identifying customer requirements
@@ -4819,6 +4886,7 @@ case_agnostic_whole_resume:
   - identifying requirement
   - imagination
   - imaginative
+  - impactful
   - implementing best practices
   - implementing standards
   - improvization
@@ -4826,10 +4894,12 @@ case_agnostic_whole_resume:
   - independent
   - industry knowledge
   - influence
+  - influence customer
   - influencing
   - influencing people
   - influential
   - information analysis
+  - ingredients
   - initiative
   - innovation
   - innovation management
@@ -4854,8 +4924,11 @@ case_agnostic_whole_resume:
   - introspective
   - intuition
   - inventiveness
+  - inventory management
   - investor relations
+  - issue resolution
   - key account development
+  - key player
   - knowledge base
   - knowledge management
   - knowledge sharing
@@ -4863,6 +4936,7 @@ case_agnostic_whole_resume:
   - lateral thinking
   - launch marketing
   - lead generation
+  - leader
   - leadership
   - leadership development
   - leading teams
@@ -4870,15 +4944,18 @@ case_agnostic_whole_resume:
   - leveraging
   - liability risks
   - liability valuation
+  - lifelong learner
   - listening
   - litigation
   - local marketing
   - location strategy
   - logical reasoning
   - logical thinking
+  - logisitics
   - logistics
   - logistics management
   - long term partnership
+  - loyal
   - loyalty marketing
   - loyalty programs
   - maintaining best practices
@@ -4886,6 +4963,7 @@ case_agnostic_whole_resume:
   - management
   - management by objective
   - manager management
+  - managerial
   - managerial accounting
   - managerial statistics
   - managing
@@ -4915,6 +4993,7 @@ case_agnostic_whole_resume:
   - managing teams
   - managing upsell activities
   - managing virtual teams
+  - manufacturing processes
   - market assessments
   - market expertise
   - market knowledge
@@ -4927,6 +5006,7 @@ case_agnostic_whole_resume:
   - marketing management
   - marketing mix
   - marketing operations
+  - marketing principles
   - marketing simulation
   - marketing strategy
   - mazimizing
@@ -4938,18 +5018,22 @@ case_agnostic_whole_resume:
   - mentoring
   - mentoring sales teams
   - merchandising
+  - meticulous
   - mind mapping
   - minimal supervision
   - minimizing
   - mobile marketing
   - modeling decisions
   - monetization strategies
+  - monitor
   - monitoring
   - motivated
   - motivating
   - motivation
   - motivational
   - motivative
+  - multi task
+  - multitask
   - multitasking
   - negotiate contracts
   - negotiating
@@ -4959,6 +5043,7 @@ case_agnostic_whole_resume:
   - networking
   - new product acceptance
   - non- erbal communication
+  - nurturing
   - office administration
   - office politics
   - on boarding
@@ -4971,6 +5056,7 @@ case_agnostic_whole_resume:
   - opinion research
   - opportunity management
   - optimism
+  - optimistic
   - order fulfillment
   - order fulfillment management
   - organization
@@ -4980,13 +5066,17 @@ case_agnostic_whole_resume:
   - organized
   - organizing
   - outsourcing
+  - packaging
   - part of a team
+  - participate
   - partnerships
   - passion for selling
   - passionate
   - patience
   - patient
+  - pdca methodology
   - people management
+  - people skills
   - perceiving emotions
   - perceptiveness
   - performance appraisal
@@ -4994,11 +5084,14 @@ case_agnostic_whole_resume:
   - performance tuning
   - perseverance
   - persistence
+  - personable
   - personal branding
   - persuasion
   - persuasive
+  - photography
   - physical communication
   - planning
+  - poised
   - politics
   - positioning
   - positive
@@ -5016,8 +5109,11 @@ case_agnostic_whole_resume:
   - prioritization
   - prioritize
   - prioritizing
+  - pro active
   - proactive
   - probabilistic modeling
+  - problem resolution
+  - problem resultion
   - problem solving
   - process improvement
   - procurement
@@ -5042,6 +5138,8 @@ case_agnostic_whole_resume:
   - prospecting
   - protecting
   - prototyping
+  - provide business insights
+  - provide business recommendations
   - providing continuous feedback
   - providing feedback
   - public policy
@@ -5050,8 +5148,11 @@ case_agnostic_whole_resume:
   - publicity
   - punctuality
   - qualitative research
+  - quality assurance
   - quality improvement
   - quality management
+  - quality standards
+  - quantitative analysis
   - quantitative research
   - query writing
   - questioning
@@ -5068,11 +5169,13 @@ case_agnostic_whole_resume:
   - relationship
   - relationship build
   - reliability
+  - reliable
   - removing obstacles
   - reporting
   - reputation management
   - research
   - research skills
+  - reserach
   - resilience
   - resolving issues
   - resolving problem
@@ -5082,20 +5185,25 @@ case_agnostic_whole_resume:
   - resourcefulness
   - respect
   - respectability
+  - respectful
   - respectfulness
   - responsibility
   - responsible
+  - restaurant
   - results focus
   - results orientation
   - results oriented
+  - retail sales management
   - retail strategy
   - revenue forecasting
   - revenue management
   - rewards programs
   - risk analysis
   - risk management
+  - safe work practices
   - safety conscious
   - sales closing
+  - sales experience
   - sales management
   - sales motivation
   - sales operations
@@ -5107,6 +5215,7 @@ case_agnostic_whole_resume:
   - sales promotion
   - sales strategy
   - sales tactics
+  - sanitation
   - scheduling
   - scheduling skills
   - self assessment
@@ -5115,6 +5224,7 @@ case_agnostic_whole_resume:
   - self confidence
   - self control
   - self direct
+  - self disciplined
   - self esteem
   - self improvement
   - self leadership
@@ -5126,6 +5236,7 @@ case_agnostic_whole_resume:
   - self supervising
   - selling
   - selling skills
+  - sense of design
   - sensitive
   - sensitivity
   - setting direction
@@ -5133,6 +5244,8 @@ case_agnostic_whole_resume:
   - setting quotas
   - simplify complex
   - six sigma
+  - six sigma blackbelt
+  - sociability
   - social intelligence
   - social media
   - social media marketing
@@ -5144,6 +5257,7 @@ case_agnostic_whole_resume:
   - speaking rhythm
   - staff development
   - stage presence
+  - stategic
   - statistical analysis
   - storyboarding
   - storytelling
@@ -5154,6 +5268,7 @@ case_agnostic_whole_resume:
   - strategic positioning
   - strategic skills
   - strategic sourcing
+  - strategic thinking
   - strategy
   - strategy execution
   - strategy formulation
@@ -5163,9 +5278,15 @@ case_agnostic_whole_resume:
   - supervising
   - supervision
   - supervision skills
+  - supervisory
   - supervisory skills
+  - supply chain
   - supply chain management
+  - supply management
+  - support new
+  - supportive
   - sustainability
+  - synthesize raw data
   - tactical
   - taking criticism
   - talent management
@@ -5173,18 +5294,24 @@ case_agnostic_whole_resume:
   - targeted communication
   - task delegation
   - task planning
+  - tatical
+  - teachable
   - teaching
   - team building
   - team lead
   - team management
   - team player
   - teamwork
+  - technical
   - technical communication
   - technology savvy
   - technology trend awareness
+  - territory management
   - thought leadership
   - time management
   - timely
+  - timely feedback
+  - timely guidance
   - tolerance
   - tolerance of change and uncertainty
   - tolerant
@@ -5198,12 +5325,14 @@ case_agnostic_whole_resume:
   - troubleshooting
   - trust
   - trusting
+  - typography
   - under pressure
   - understanding emotions
   - underwriting
   - upselling
   - usability engineering
   - usability testing
+  - usda regulatory
   - user acceptance testing
   - user experience
   - user interface design
@@ -5223,9 +5352,12 @@ case_agnostic_whole_resume:
   - warfare strategies
   - web design
   - web development
+  - web management
+  - web programming
   - well under pressure
   - whiteboarding
   - willing
+  - willing to change
   - willingness
   - willingness to learn
   - witty
