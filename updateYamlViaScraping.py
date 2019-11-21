@@ -492,34 +492,6 @@ def sort_yaml_flat(main_section, sub_section):
 
 
 ############################ updating schools ############################
-                # list_of_links = []
-                # print("Accessing Wikipedia")
-                # html = requests.get('https://en.wikipedia.org/wiki/List_of_college_athletic_programs_by_U.S._state').text
-                # soup = bs(html, 'html.parser')
-                # for i, li in enumerate(soup.select('li')):
-                #     if list(li.attrs.keys()) == ['class']:
-                #         pass
-                #     elif list(li.attrs.keys()) == ['id']:
-                #         pass
-                #     elif list(li.attrs.keys()) == ['style']:
-                #         pass
-                #     elif li.text == 'List of Division I athletic directors':
-                #         break
-                #     else:
-                #         list_of_links.append(li.text)
-                #         print(li.text)
-                #
-                # for link in list_of_links:
-                #     update_yaml_table4all('case_agnostic_education', 'other_universities', link, 1)
-
-                # update_yaml_table7('case_agnostic_education', 'other_universities', 'List_of_NAIA_institutions')
-                # update_yaml_table7('case_agnostic_education', 'other_universities', 'List_of_NCAA_Division_I_institutions')
-                # update_yaml_table7('case_agnostic_education', 'other_universities', 'List_of_NCAA_Division_II_institutions')
-                # update_yaml_table7('case_agnostic_education', 'other_universities', 'List_of_NCAA_Division_III_institutions')
-                # update_yaml_table4('case_agnostic_education', 'other_universities', 'List_of_USCAA_institutions', 0)
-                # update_yaml('case_agnostic_education', 'community_college', 'List_of_community_colleges')
-                # update_yaml_table4all('case_agnostic_education', 'other_universities', 'List_of_NCCAA_institutions', 0)
-                # update_yaml_table4('case_agnostic_education', 'other_universities', 'List_of_historically_black_colleges_and_universities', 0)
 # update_yaml_table4('case_agnostic_education', 'other_universities', 'List_of_American_colleges_and_universities_abroad', 0)
 # update_yaml('case_agnostic_education', 'other_universities', 'List_of_NAIH_Institutions')
 # update_yaml_table4('case_agnostic_education', 'other_universities', 'List_of_NCAA_Division_II_wrestling_programs', 0)
@@ -581,6 +553,7 @@ for item in data_loaded['case_agnostic_education']['other_universities']:
         data_loaded['case_agnostic_education']['community_college'].append(item)
         data_loaded['case_agnostic_education']['other_universities'].remove(item)
         print(item, "added to community_college")
+
 with open('confs/config.yaml', 'w') as fp:
     yaml.dump(data_loaded, fp)
 
@@ -602,33 +575,7 @@ with open('confs/config.yaml', 'w') as fp:
     yaml.dump(data_loaded, fp)
 
 
-############################ cleaning up softskills section ############################
-with open('confs/config.yaml', 'r') as stream:
-    data_loaded = yaml.safe_load(stream)
-
-myLIST = []
-for item in data_loaded['case_agnostic_whole_resume']['soft_skills']:
-    myLIST.append(item.lower())
-myLIST = sorted(list(set(myLIST)))
-data_loaded['case_agnostic_whole_resume']['soft_skills'] = myLIST
-
-with open('confs/config.yaml', 'w') as fp:
-    yaml.dump(data_loaded, fp)
-print("Updated Yaml File Saved")
-
-
 ############################ updating companies ############################
-            # update_yaml('case_agnostic_work', 'company_foodbev', 'List_of_food_companies')
-            # update_yaml_table1('case_agnostic_work', 'company_health', 'List_of_largest_biotechnology_and_pharmaceutical_companies', 1)
-            # update_yaml_table4('case_agnostic_work', 'company_fin', 'List_of_largest_banks', 1)
-            # update_yaml_table2('case_agnostic_work', 'company_energychem', 'List_of_largest_oil_and_gas_companies_by_revenue', 1)
-            # update_yaml('case_agnostic_work', 'company_services', 'List_of_management_consulting_firms')
-            # update_yaml_table2('case_agnostic_work', 'company_energychem', 'List_of_largest_chemical_producers', 1)
-            # update_yaml('case_agnostic_work', 'company_other', 'List_of_companies_in_the_Chicago_metropolitan_area')
-            # update_yaml_table2('case_agnostic_work', 'company_other', 'List_of_largest_companies_by_revenue', 0)
-            # update_yaml('case_agnostic_work', 'company_other', 'List_of_Six_Sigma_companies')
-            # update_yaml_table4('case_agnostic_work', 'company_other', 'List_of_S%26P_500_companies', 1)
-            # update_yaml('case_agnostic_work', 'company_health', 'List_of_pharmaceutical_companies')
 # update_yaml('case_agnostic_work', 'company_fin', 'List_of_asset_management_firms')
 # update_yaml_table1('case_agnostic_work', 'company_fin', 'List_of_asset_management_firms', 1)
 # update_yaml('case_agnostic_work', 'company_fin', 'List_of_investment_banks')
@@ -715,22 +662,14 @@ print("Updated Yaml File Saved")
 # update_yaml_dash_comma_split('case_agnostic_work', 'company_energychem', 'List_of_United_States_electric_companies')
 
 
-# # deleting companies in consumer if they are in foodbev
 with open('confs/config.yaml', 'r') as stream:
     data_loaded = yaml.safe_load(stream)
-
+# # deleting companies in consumer if they are in foodbev
 for item in data_loaded['case_agnostic_work']['company_foodbev']:
     if item in data_loaded['case_agnostic_work']['company_consumer']:
         data_loaded['case_agnostic_work']['company_consumer'].remove(item)
         print(item, "deleted from company_consumer")
-
-with open('confs/config.yaml', 'w') as fp:
-    yaml.dump(data_loaded, fp)
-
 # # deleting companies in 'other' if they are in another section
-with open('confs/config.yaml', 'r') as stream:
-    data_loaded = yaml.safe_load(stream)
-
 for company_type in data_loaded['case_agnostic_work'].keys():
     if company_type == 'company_other':
         pass
@@ -739,7 +678,6 @@ for company_type in data_loaded['case_agnostic_work'].keys():
             if item in data_loaded['case_agnostic_work']['company_other']:
                 data_loaded['case_agnostic_work']['company_other'].remove(item)
                 print(item, "deleted from company_other")
-
 with open('confs/config.yaml', 'w') as fp:
     yaml.dump(data_loaded, fp)
 
@@ -797,13 +735,71 @@ with open('confs/config.yaml', 'w') as fp:
 # sort_yaml_flat('case_agnostic_work', 'company_fin')
 # sort_yaml_flat('case_agnostic_work', 'company_tech')
 # sort_yaml_flat('case_agnostic_work', 'company_services')
-sort_yaml_flat('case_agnostic_work', 'company_health')
+# sort_yaml_flat('case_agnostic_work', 'company_health')
 # sort_yaml_flat('case_agnostic_work', 'company_energychem')
 # sort_yaml_flat('case_agnostic_work', 'company_other')
 # sort_yaml_flat('case_agnostic_work', 'company_consumer')
-# sort_yaml_flat('case_agnostic_hobbies', 'hobbies')
+sort_yaml_flat('case_agnostic_hobbies', 'hobbies')
 # sort_yaml('case_agnostic_whole_resume', 'honor_societies')
 # sort_yaml('case_agnostic_education', 'community_college')
 # sort_yaml('case_agnostic_education', 'other_universities')
 # sort_yaml_flat('case_agnostic_work', 'company_foodbev')
 # sort_yaml('case_agnostic_skill', 'technical_skills')
+
+############################ cleaning up softskills section ############################
+with open('confs/config.yaml', 'r') as stream:
+    data_loaded = yaml.safe_load(stream)
+
+myLIST = []
+for item in data_loaded['case_agnostic_whole_resume']['soft_skills']:
+    myLIST.append(item.lower())
+myLIST = sorted(list(set(myLIST)))
+data_loaded['case_agnostic_whole_resume']['soft_skills'] = myLIST
+
+with open('confs/config.yaml', 'w') as fp:
+    yaml.dump(data_loaded, fp)
+print("Updated Yaml File Saved")
+
+
+# already run:
+# update_yaml('case_agnostic_work', 'company_foodbev', 'List_of_food_companies')
+# update_yaml_table1('case_agnostic_work', 'company_health', 'List_of_largest_biotechnology_and_pharmaceutical_companies', 1)
+# update_yaml_table4('case_agnostic_work', 'company_fin', 'List_of_largest_banks', 1)
+# update_yaml_table2('case_agnostic_work', 'company_energychem', 'List_of_largest_oil_and_gas_companies_by_revenue', 1)
+# update_yaml('case_agnostic_work', 'company_services', 'List_of_management_consulting_firms')
+# update_yaml_table2('case_agnostic_work', 'company_energychem', 'List_of_largest_chemical_producers', 1)
+# update_yaml('case_agnostic_work', 'company_other', 'List_of_companies_in_the_Chicago_metropolitan_area')
+# update_yaml_table2('case_agnostic_work', 'company_other', 'List_of_largest_companies_by_revenue', 0)
+# update_yaml('case_agnostic_work', 'company_other', 'List_of_Six_Sigma_companies')
+# update_yaml_table4('case_agnostic_work', 'company_other', 'List_of_S%26P_500_companies', 1)
+# update_yaml('case_agnostic_work', 'company_health', 'List_of_pharmaceutical_companies')
+
+# list_of_links = []
+# print("Accessing Wikipedia")
+# html = requests.get('https://en.wikipedia.org/wiki/List_of_college_athletic_programs_by_U.S._state').text
+# soup = bs(html, 'html.parser')
+# for i, li in enumerate(soup.select('li')):
+#     if list(li.attrs.keys()) == ['class']:
+#         pass
+#     elif list(li.attrs.keys()) == ['id']:
+#         pass
+#     elif list(li.attrs.keys()) == ['style']:
+#         pass
+#     elif li.text == 'List of Division I athletic directors':
+#         break
+#     else:
+#         list_of_links.append(li.text)
+#         print(li.text)
+#
+# for link in list_of_links:
+#     update_yaml_table4all('case_agnostic_education', 'other_universities', link, 1)
+
+# update_yaml_table7('case_agnostic_education', 'other_universities', 'List_of_NAIA_institutions')
+# update_yaml_table7('case_agnostic_education', 'other_universities', 'List_of_NCAA_Division_I_institutions')
+# update_yaml_table7('case_agnostic_education', 'other_universities', 'List_of_NCAA_Division_II_institutions')
+# update_yaml_table7('case_agnostic_education', 'other_universities', 'List_of_NCAA_Division_III_institutions')
+# update_yaml_table4('case_agnostic_education', 'other_universities', 'List_of_USCAA_institutions', 0)
+# update_yaml('case_agnostic_education', 'community_college', 'List_of_community_colleges')
+# update_yaml_table4all('case_agnostic_education', 'other_universities', 'List_of_NCCAA_institutions', 0)
+# update_yaml_table4('case_agnostic_education', 'other_universities', 'List_of_historically_black_colleges_and_universities', 0)
+# update_yaml('case_agnostic_hobbies', 'hobbies', 'List_of_hobbies')

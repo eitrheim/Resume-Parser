@@ -3712,80 +3712,405 @@ case_agnostic_education:
   - Yale University
 case_agnostic_hobbies:
   hobbies:
-  - Baseball
-  - Basketball
-  - Diving
-  - Drag Racing
-  - Football
-  - Golf
-  - Gymnastics
-  - Hockey
-  - Juggling
-  - Knife Throwing
-  - Motor Cross
-  - Reading
-  - Rollerblading
-  - Rugby
-  - Skiing
-  - Soccer
-  - Surfing
-  - Swimming
-  - Table Tennis
-  - Traveling
-  - Volleyball
-  - Water Skiing
+  - 3d printing
+  - acrobatics
+  - acting
+  - action figure
+  - air sports
+  - aircraft spotting
+  - airsoft
+  - amateur astronomy
+  - amateur radio
+  - animal fancy
+  - animation
+  - antiquing
+  - antiquities
+  - aquascaping
+  - archery
+  - art collecting
+  - article
+  - astronomy
+  - audiophile
+  - auto audiophilia
+  - auto racing
+  - axe throwing
+  - backpacking
+  - badminton
+  - baking
+  - base jumping
+  - baseball
+  - basketball
+  - baton twirling
+  - beach volleyball
+  - beatboxing
+  - beauty pageants
+  - beekeeping
+  - billiards
   - bird watching
+  - birdwatching
+  - blacksmithing
   - blogging
+  - bmx
+  - board games
+  - board sports
   - boating
+  - bodybuilding
+  - book clubs
+  - book collecting
+  - book restoration
+  - bowling
+  - boxing
+  - brazilian jiujitsu
+  - breadmaking
+  - breakdancing
+  - bridge
+  - building
+  - bus spotting
+  - butterfly watching
+  - cabaret
   - calligraphy
   - camping
+  - candle making
+  - canoeing
+  - canyoning
+  - car building
+  - card games
+  - cartophily
+  - caving
+  - cheerleading
+  - cheesemaking
   - chess
+  - climbing
+  - clothesmaking
+  - coffee roasting
+  - coin collecting
   - collecting
   - collecting art
+  - color guard
+  - coloring
+  - comic book
+  - composting
+  - computer programming
+  - confectionery
   - cooking
+  - cosplaying
+  - couponing
   - craft beer
+  - crafting
+  - creative writing
+  - cricket
+  - crocheting
+  - crossstitch
+  - crossword puzzles
+  - cryptography
+  - cue sports
+  - curling
+  - cycling
+  - dance
   - dancing
+  - darts
+  - debate
+  - deltiology
+  - diary writing
+  - diecast toy
+  - digital arts
+  - disc golf
+  - distro hopping
+  - diving
+  - diy
+  - djing
+  - do it yourself
+  - dog sport
+  - dolls
+  - dowsing
+  - drag racing
+  - drama
+  - drawing
+  - drink mixing
+  - driving
+  - eating
+  - electronics
+  - element collecting
+  - embroidery
   - endurance sports
+  - entertainment lists
+  - ephemera collecting
+  - equestrianism
+  - esports
+  - eurobilltracker
+  - exhibition drill
+  - experimenting
+  - fantasy sports
+  - fashion
+  - fashion design
+  - fencing
+  - field hockey
+  - figure skating
   - fishing
+  - fishkeeping
+  - flag football
+  - flower arranging
+  - flower collecting flower pressing
+  - flower growing
+  - flying
+  - flying disc
+  - footbag
   - football
+  - foraging
+  - foreign language learning
+  - fossil hunting
+  - freestyle football
+  - furniture building
+  - gaming
   - gardening
+  - genealogy
   - geocaching
+  - ghost hunting
+  - glassblowing
+  - gold prospecting
+  - golf
+  - golfing
+  - gongoozling
+  - graffiti
+  - graphic design
   - guitar
+  - gunsmithing
+  - gymnastics
+  - handball
+  - herbalism
+  - herp keeping
+  - herping
   - hiking
+  - hobbies
+  - hockey
+  - home improvement
+  - homebrewing
+  - hooping
+  - horseback riding
+  - hula hooping
   - hunting
+  - hydroponics
+  - ice hockey
+  - ice skating
+  - inline skating
+  - insect collecting
   - ironman
+  - jewelry making
+  - jigsaw puzzles
   - jogging
+  - judo
+  - juggling
+  - jujitsu
+  - jukskei
+  - kabaddi
+  - karaoke
+  - karate
+  - kart racing
+  - kayaking
+  - kendama
+  - kite flying
+  - kitesurfing
+  - knife collecting
+  - knife making
+  - knife throwing
   - knitting
+  - knot tying
+  - kombucha brewing
+  - lace making
+  - lacrosse
+  - lapidary
+  - larping
+  - laser tag
+  - learning
+  - leather crafting
+  - lego building
+  - letterboxing
+  - listening to music
+  - listening to podcasts
+  - lock picking
+  - longboarding
+  - lotology
+  - machining
+  - macrame
   - magic
+  - magnet fishing
+  - mahjong
+  - makeup
+  - marbles
+  - marching band
+  - martial arts
+  - media related to hobbies at wikimedia commons
+  - meditation
+  - metal detecting
+  - metalworking
+  - meteorology
+  - microscopy
+  - mineral collecting
+  - model aircraft
+  - model building
+  - model engineering
+  - motor cross
+  - motor sports
+  - mountain biking
+  - mountaineering
   - movies
+  - memorabilia collecting
+  - movies
+  - mushroom hunting
+  - mycology
+  - nail art
+  - needlepoint
+  - netball
+  - nordic skating
+  - orienteering
   - origami
+  - paintball
   - painting
+  - parkour
   - philanthropy
+  - philately
+  - phillumeny
   - photography
   - piano
-  - podcast
+  - playing instruments
+  - musical instruments
+  - podcasts
+  - poker
+  - polo
+  - pottery
+  - powerlifting
+  - practical jokes
+  - pressed flower craft
+  - puzzles
+  - quilling
+  - quilting
+  - quizzes
   - racing cars
+  - racquetball
+  - car racing
+  - rafting
+  - rail transport modeling
+  - rappelling
+  - rapping
   - reading
+  - record collecting
+  - refinishing
+  - road biking
+  - robot combat
   - robotics
+  - rock balancing
   - rock climbing
+  - rock tumbling
+  - roller derby
+  - roller skating
+  - rollerblading
+  - rubiks cube
+  - rugby
   - running
+  - sailing
+  - sand art
+  - satellite watching
+  - scouting
+  - scrapbooking
+  - scuba diving
+  - rowing
   - sculpting
+  - scutelliphily
+  - sea glass collecting
+  - seashell collecting
   - sewing
+  - shoemaking
+  - shooting
+  - shopping
+  - shortwave listening
+  - singing
+  - skateboarding
+  - sketching
   - skiing
+  - skimboarding
+  - skydiving
+  - slacklining
+  - slot car racing
   - snowboarding
+  - soapmaking
   - soccer
+  - social media
+  - softball
+  - speed skating
+  - speedcubing
+  - sport stacking
+  - sports memorabilia
+  - squash
+  - stamp collecting
+  - standup comedy
+  - stone collecting
+  - stone skipping
   - strategy games
+  - stuffed toy collecting
+  - sun bathing
+  - surfing
+  - survivalism
   - swimming
+  - table football
+  - table tennis
   - tacos
+  - taekwondo
+  - tai chi
+  - taxidermy
   - team sports
+  - tennis
+  - tennis polo
+  - tether car
+  - thrifting
+  - ticket collecting
+  - topiary
+  - tour skating
+  - toys
+  - trainspotting
+  - trapshooting
   - travel
+  - traveling
   - trekking
   - triathlon
+  - ultimate frisbee
+  - urban exploration
+  - vacation
+  - vegetable farming
+  - vehicle restoration
+  - video editing
+  - video game collecting
+  - video game developing
   - video games
+  - video gaming
+  - videophilia
+  - view history
+  - vintage cars
+  - vintage clothing
   - volleyball
   - volunteering
+  - walking
+  - watching movies
+  - watching television
+  - water polo
+  - water sports
+  - water wkiing
+  - weaving
+  - weight training
+  - weightlifting
+  - welding
+  - whale watching
+  - whittling
+  - wikipedia editing
   - wine
+  - winemaking
+  - wood carving
+  - woodworking
+  - word searches
+  - worldbuilding
+  - wrestling
+  - writing
   - yoga
+  - yoyoing
 case_agnostic_languages:
   languages:
   - Akkadian
@@ -4018,16 +4343,16 @@ case_agnostic_skill:
   - - Search engine optimization
     - SEO
   - - Sklearn
-    - scikit-learn
+    - scikitlearn
     - scikit learn
-    - sk-learn
+    - sk learn
     - scikitlearn
   - - Spark
     - Apache Spark
   - Tableau
   - Typeform
   - - Tensorflow
-    - tensor-flow
+    - tensor flow
   - UI design
   - UWP
   - Unit testing
@@ -4199,10 +4524,10 @@ case_agnostic_whole_resume:
     - Fulbright Program
     - Fulbright Award
   soft_skills:
+  - account based marketing
   - account management
-  - account-based marketing
   - accruacy
-  - action-oriented
+  - action oriented
   - active listening
   - ad design
   - ad effectiveness
@@ -4271,12 +4596,11 @@ case_agnostic_whole_resume:
   - business services
   - business strategy
   - business trend awareness
-  - business-driven
   - call management
   - calm
   - calmness
   - campaign managment
-  - can-do attitute
+  - can do attitute
   - category management
   - category strategy
   - championing initiatives
@@ -4316,8 +4640,6 @@ case_agnostic_whole_resume:
   - confidence
   - conflict management
   - conflict resolution
-  - conflict-management
-  - conflict-resolution
   - constructive feedback
   - consumer insights
   - content creation
@@ -4348,10 +4670,9 @@ case_agnostic_whole_resume:
   - critical observation
   - critical questioning
   - critical thinking
-  - critical-thinking
   - crm
-  - cross-cultural leadership
-  - cross-cultural management
+  - cross cultural leadership
+  - cross cultural management
   - cultural competence
   - cultural intelligence
   - curiosity
@@ -4368,14 +4689,12 @@ case_agnostic_whole_resume:
   - data transformation
   - databases
   - deal making
-  - deal-making
   - dealing with
   - dealing with ambiguity
   - debating
   - debugging
   - decision frameworks
   - decision making
-  - decision-making
   - decisions making
   - dedication
   - delegating
@@ -4383,7 +4702,7 @@ case_agnostic_whole_resume:
   - dependability
   - deployment
   - design sense
-  - detail-oriented
+  - detail oriented
   - developing budgets
   - developing business plans
   - developing kpis
@@ -4473,8 +4792,8 @@ case_agnostic_whole_resume:
   - generosity
   - generous
   - giving feedback
+  - go to market strategies
   - go to market strategy
-  - go-to-market strategies
   - goal setting
   - good attitude
   - governance
@@ -4509,6 +4828,7 @@ case_agnostic_whole_resume:
   - industry knowledge
   - influence
   - influencing
+  - influencing people
   - influential
   - information analysis
   - initiative
@@ -4560,7 +4880,6 @@ case_agnostic_whole_resume:
   - logistics
   - logistics management
   - long term partnership
-  - long-term partnership
   - loyalty marketing
   - loyalty programs
   - maintaining best practices
@@ -4588,7 +4907,7 @@ case_agnostic_whole_resume:
   - managing quality
   - managing remote teams
   - managing risk
-  - managing risk-return
+  - managing risk return
   - managing sales partners
   - managing sales productivity
   - managing selling costs
@@ -4640,12 +4959,12 @@ case_agnostic_whole_resume:
   - network systems
   - networking
   - new product acceptance
-  - non-verbal communication
+  - non- erbal communication
   - office administration
   - office politics
-  - on-boarding
+  - on boarding
   - online advertising
-  - open-minded
+  - open minded
   - openness
   - openness to feedback
   - operations management
@@ -4717,7 +5036,6 @@ case_agnostic_whole_resume:
   - program management
   - project management
   - project planning
-  - project-management
   - promoting
   - promotion
   - promotion strategy
@@ -4740,8 +5058,7 @@ case_agnostic_whole_resume:
   - questioning
   - quick learner
   - quick witted
-  - quick-witted
-  - quick-wittedness
+  - quick wittedness
   - quote management
   - r&d
   - raising capital
@@ -4769,11 +5086,9 @@ case_agnostic_whole_resume:
   - respectfulness
   - responsibility
   - responsible
+  - results focus
   - results orientation
   - results oriented
-  - results-focus
-  - results-orientation
-  - results-oriented
   - retail strategy
   - revenue forecasting
   - revenue management
@@ -4801,25 +5116,20 @@ case_agnostic_whole_resume:
   - self confidence
   - self control
   - self direct
+  - self esteem
+  - self improvement
   - self leadership
+  - self management
   - self monitor
+  - self motivated
+  - self presentation
+  - self starter
   - self supervising
-  - self-aware
-  - self-awareness
-  - self-direct
-  - self-esteem
-  - self-improvement
-  - self-management
-  - self-monitor
-  - self-motivated
-  - self-presentation
-  - self-starter
-  - self-supervising
   - selling
   - selling skills
   - sensitive
   - sensitivity
-  - setting direction and influencing people to follow
+  - setting direction
   - setting incentives
   - setting quotas
   - simplify complex
