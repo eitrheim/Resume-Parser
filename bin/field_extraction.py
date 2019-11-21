@@ -51,7 +51,7 @@ def gpa_extractor(input_string):
 
 def extract_fields(df):
     # note all commas and apostrophes are removed at this point from the extract_skills_case_ functions
-    print("Extracting certifications, latin honors, soft skills")
+    print("Extracting certifications, latin honors, soft skills, honor societies, scholarships/awards")
     for extractor, items_of_interest in lib.get_conf('case_agnostic_whole_resume').items():
         # column name is title of the sections in the yaml file
         df[extractor] = df['text'].apply(lambda x: extract_skills_case_agnostic(x, items_of_interest))
@@ -64,15 +64,49 @@ def extract_fields(df):
             df.latin_honors.loc[i].remove('cum laude')
         else:
             pass
+    x = df[df.honor_societies == df.honor_societies]  # so it doesn't look at nans
+    for i in x.index:
+        if 'Alpha Epsilon Delta' in x.honor_societies.loc[i]:
+            df.honor_societies.loc[i].remove('Alpha Epsilon')
+        if 'Alpha Epsilon Rho' in x.honor_societies.loc[i]:
+            df.honor_societies.loc[i].remove('Alpha Epsilon')
+        if 'Phi Alpha Epsilon' in x.honor_societies.loc[i]:
+            df.honor_societies.loc[i].remove('Alpha Epsilon')
+        if 'Omega Chi Epsilon' in x.honor_societies.loc[i]:
+            df.honor_societies.loc[i].remove('Chi Epsilon')
+        if 'Sigma Lambda Alpha' in x.honor_societies.loc[i]:
+            df.honor_societies.loc[i].remove('Lambda Alpha')
+        if 'Phi Lambda Sigma' in x.honor_societies.loc[i]:
+            df.honor_societies.loc[i].remove('Lambda Sigma')
+        if 'Delta Phi Alpha' in x.honor_societies.loc[i]:
+            df.honor_societies.loc[i].remove('Phi Alpha')
+        if 'Phi Alpha Epsilon' in x.honor_societies.loc[i]:
+            df.honor_societies.loc[i].remove('Phi Alpha')
+        if 'Phi Alpha Theta' in x.honor_societies.loc[i]:
+            df.honor_societies.loc[i].remove('Phi Alpha')
+        if 'Sigma Phi Alpha' in x.honor_societies.loc[i]:
+            df.honor_societies.loc[i].remove('Phi Alpha')
+        if 'Alpha Phi Sigma' in x.honor_societies.loc[i]:
+            df.honor_societies.loc[i].remove('Phi Sigma')
+        if 'Phi Sigma Iota' in x.honor_societies.loc[i]:
+            df.honor_societies.loc[i].remove('Phi Sigma')
+        if 'Phi Sigma Pi' in x.honor_societies.loc[i]:
+            df.honor_societies.loc[i].remove('Phi Sigma')
+        if 'Phi Sigma Tau' in x.honor_societies.loc[i]:
+            df.honor_societies.loc[i].remove('Phi Sigma')
+        if 'Pi Tau Sigma' in x.honor_societies.loc[i]:
+            df.honor_societies.loc[i].remove('Tau Sigma')
+        if 'Tau Sigma Delta' in x.honor_societies.loc[i]:
+            df.honor_societies.loc[i].remove('Tau Sigma')
 
     print("Extracting universities and majors/minors")
     for extractor, items_of_interest in lib.get_conf('case_agnostic_education').items():
-        df[extractor] = df['Edu'].apply(lambda x: extract_skills_case_agnostic(str(x).replace(' - ', ' ').replace(' & ', ' and ').replace('-', ' ').replace(',', ''), items_of_interest))
+        df[extractor] = df['Edu'].apply(lambda x: extract_skills_case_agnostic(str(x).replace(' & ', ' and '), items_of_interest))
     # TODO use word2vec to get all similar majors?
 
     print("Extracting level of education")
     for extractor, items_of_interest in lib.get_conf('case_sensitive_education').items():
-        df[extractor] = df['Edu'].apply(lambda x: extract_skills_case_sensitive(x.replace('\n', ' '), items_of_interest))
+        df[extractor] = df['Edu'].apply(lambda x: extract_skills_case_sensitive(x, items_of_interest))
 
     print("Extracting coursework")
     for extractor, items_of_interest in lib.get_conf('case_agnostic_courses').items():
@@ -84,15 +118,15 @@ def extract_fields(df):
 
     print("Extracting hobbies and interests")
     for extractor, items_of_interest in lib.get_conf('case_agnostic_hobbies').items():
-        df[extractor] = df['Hobby'].apply(lambda x: extract_skills_case_agnostic(x.replace('\'', ''), items_of_interest))
+        df[extractor] = df['Hobby'].apply(lambda x: extract_skills_case_agnostic(x, items_of_interest))
 
     print("Extracting technical skills")
     for extractor, items_of_interest in lib.get_conf('case_agnostic_skill').items():
-        df[extractor] = df['Skill'].apply(lambda x: extract_skills_case_agnostic(re.sub('[,.]', '', x), items_of_interest))
+        df[extractor] = df['Skill'].apply(lambda x: extract_skills_case_agnostic(x.replace('.', ''), items_of_interest))
 
     print("Extracting companies worked at")
     for extractor, items_of_interest in lib.get_conf('case_agnostic_work').items():
-        df[extractor] = df['Work'].apply(lambda x: extract_skills_case_agnostic(re.sub('[,.-]', '', x), items_of_interest))
+        df[extractor] = df['Work'].apply(lambda x: extract_skills_case_agnostic(x.replace('.', ''), items_of_interest))
 
     return df
 
@@ -118,7 +152,7 @@ def extract_skills_case_agnostic(resume_text, items_of_interest):
         # iterate through each string in the list of equivalent words (i.e. a line in the yaml file)
         # TODO incorporate word2vec here?
         for skill_alias in skill_alias_list:
-            skill_matches += lib.term_count(resume_text.replace(':', '').replace(',', '').replace('\'', ''), skill_alias.lower())  # add the # of matches for each alias
+            skill_matches += lib.term_count(resume_text.replace('-', ' ').replace(':', '').replace(',', '').replace('\'', ''), skill_alias.lower())  # add the # of matches for each alias
 
         if skill_matches > 0:  # if at least one alias is found, add skill name to set of skills
             matched_skills.add(skill_name.replace('\x20', ''))
@@ -126,7 +160,7 @@ def extract_skills_case_agnostic(resume_text, items_of_interest):
     if len(matched_skills) == 0:  # so it doesn't save 'set()' in the csv when it's empty
         matched_skills = ''
 
-    return matched_skills
+    return list(matched_skills)
 
 
 def extract_skills_case_sensitive(resume_text, items_of_interest):
@@ -147,7 +181,7 @@ def extract_skills_case_sensitive(resume_text, items_of_interest):
         skill_matches = 0
         # TODO incorporate word2vec here?
         for skill_alias in skill_alias_list:
-            skill_matches += lib.term_count_case_sensitive(resume_text.replace(':', '').replace(',', '').replace('\'', ''), skill_alias)
+            skill_matches += lib.term_count(resume_text.replace('-', ' ').replace(':', '').replace(',', '').replace('\'', ''), skill_alias.lower())  # add the # of matches for each alias
 
         if skill_matches > 0:
             matched_skills.add(skill_name.replace('\x20', ''))
@@ -155,7 +189,7 @@ def extract_skills_case_sensitive(resume_text, items_of_interest):
     if len(matched_skills) == 0:
         matched_skills = ''
 
-    return matched_skills
+    return list(matched_skills)
 
 
 def years_of_experience(input_string):

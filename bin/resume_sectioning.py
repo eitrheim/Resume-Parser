@@ -133,6 +133,8 @@ def section_into_columns(observations):
                 df['AcademicLocation'].loc[i] = df.text.loc[i].lower().find('\nacademic background')
             elif df.text.loc[i].lower().find('academic qualification') != -1:
                 df['AcademicLocation'].loc[i] = df.text.loc[i].lower().find('\nacademic qualification')
+            elif df.text.loc[i].lower().find('academic experience') != -1:
+                df['AcademicLocation'].loc[i] = df.text.loc[i].lower().find('\nacademic experience')
             else:
                 df['AcademicLocation'].loc[i] = df.text.loc[i].lower().find('\nacademic training')
         if df.text.loc[i].lower().find('related course') != -1:
@@ -185,18 +187,33 @@ def section_into_columns(observations):
             elif df.text.loc[i].lower().find('\nexperience') != -1:
                 df['ExperienceLocation'].loc[i] = df.text.loc[i].lower().find('\nexperience')
             elif df.text.loc[i].lower().find('experience\n') != -1:
-                df['ExperienceLocation'].loc[i] = df.text.loc[i].lower().find('experience\n')
+                if df.text.loc[i].lower().find('academic experience\n') != -1:
+                    pass
+                elif df.text.loc[i].lower().find('abroad experience\n') != -1:
+                    pass
+                else:
+                    df['ExperienceLocation'].loc[i] = df.text.loc[i].lower().find('experience\n')
             elif df.text.loc[i].lower().replace(':', ' ').find('experience \n'):
-                df['ExperienceLocation'].loc[i] = df.text.loc[i].lower().replace(':', ' ').find('experience \n')
+                if df.text.loc[i].lower().find('academic experience \n') != -1:
+                    pass
+                elif df.text.loc[i].lower().find('abroad experience \n') != -1:
+                    pass
+                else:
+                    df['ExperienceLocation'].loc[i] = df.text.loc[i].lower().replace(':', ' ').find('experience \n')
             elif df.text.loc[i].lower().replace(':', ' ').replace('-', ' ').find(' experience \n'):
-                df['ExperienceLocation'].loc[i] = df.text.loc[i].lower().replace(':', ' ').find(' experience \n')
-            # else ... ?
-            # TODO make sure it doesn't take study abroad experience and stuff like that
+                if df.text.loc[i].lower().find('academic experience  \n') != -1:
+                    pass
+                elif df.text.loc[i].lower().find('abroad experience  \n') != -1:
+                    pass
+                else:
+                    df['ExperienceLocation'].loc[i] = df.text.loc[i].lower().replace(':', ' ').find(' experience \n')
             # experience
             # work experience
             # professional experience
             # additional experience
             # relevant experience
+            # legal experience
+            # other experience
             # teaching experience
             # xyz experience
         if df.text.loc[i].lower().find('apprenticeships') != -1:

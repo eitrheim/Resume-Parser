@@ -66,7 +66,7 @@ def update_yaml(main_section, sub_section, wiki_extension):
         else:
             x = li.text
             x = x.split(' (')[0].split('[')[0]
-            x = re.sub('[,.-]', '', x).replace('\'', '').lstrip()
+            x = re.sub('[,.]', '', x).replace('-', '').replace('\'', '').lstrip()
             print(x)
             data_loaded[main_section][sub_section].append(x.lower())
 
@@ -121,7 +121,7 @@ def update_yaml_dash_comma_split(main_section, sub_section, wiki_extension):
         else:
             x = li.text
             x = x.split(' (')[0].split('[')[0].split(' –')[0].split(' -')[0].split(',')[0]
-            x = re.sub('[,.-]', '', x).replace('\'', '').replace('–', ' ').replace('–', ' ').lstrip()
+            x = re.sub('[,.]', '', x).replace('-', '').replace('\'', '').replace('–', ' ').replace('–', ' ').lstrip()
             print(x)
             data_loaded[main_section][sub_section].append(x.lower())
 
@@ -154,7 +154,7 @@ def update_yaml_table1(main_section, sub_section, wiki_extension, col):
         cells = row.findAll('td')
         if len(cells) > 1:
             x = cells[col].text.split('[')[0].split(' /')[0].split('(')[0]
-            x = re.sub('[,.-]', '', x).replace('\n', '').replace('\'', '').replace(' ^', '').lstrip()
+            x = re.sub('[,.]', '', x).replace('-', '').replace('\n', '').replace('\'', '').replace(' ^', '').lstrip()
             print(x)
             data_loaded[main_section][sub_section].append(x.lower())
 
@@ -187,7 +187,7 @@ def update_yaml_table2(main_section, sub_section, wiki_extension, col):
         cells = row.findAll('td')
         if len(cells) > 1:
             x = cells[col].text.split('[')[0].split(' /')[0].split('(')[0]
-            x = re.sub('[,.-]', '', x).replace('\n', '').replace('\'', '').replace(' ^', '').lstrip()
+            x = re.sub('[,.]', '', x).replace('-', '').replace('\n', '').replace('\'', '').replace(' ^', '').lstrip()
             print(x)
             data_loaded[main_section][sub_section].append(x.lower())
 
@@ -221,7 +221,7 @@ def update_yaml_table2lists(main_section, sub_section, wiki_extension, col):
         if len(cells) > 1:
             for x in cells[col].text.split(','):
                 x = x.split('[')[0].split(' /')[0].split('(')[0]
-                x = re.sub('[.-]', '', x).replace('\n', '').replace('\'', '').replace(' ^', '').lstrip()
+                x = re.sub('[.]', '', x).replace('-', '').replace('\n', '').replace('\'', '').replace(' ^', '').lstrip()
                 if x != "":
                     print(x)
                     data_loaded[main_section][sub_section].append(x.lower())
@@ -255,7 +255,7 @@ def update_yaml_table3(main_section, sub_section, wiki_extension, col):
         cells = row.findAll('td')
         if len(cells) > 1:
             x = cells[col].text.split('[')[0].split(' /')[0].split('(')[0]
-            x = re.sub('[,.-]', '', x).replace('\n', '').replace('\'', '').replace(' ^', '').lstrip()
+            x = re.sub('[,.]', '', x).replace('-', '').replace('\n', '').replace('\'', '').replace(' ^', '').lstrip()
             print(x)
             data_loaded[main_section][sub_section].append(x.lower())
 
@@ -288,7 +288,7 @@ def update_yaml_table4(main_section, sub_section, wiki_extension, col):
         cells = row.findAll('td')
         if len(cells) > 1:
             x = cells[col].text.split('[')[0].split(' /')[0].split('(')[0]
-            x = re.sub('[,.-]', '', x).replace('\n', '').replace('\'', '').replace(' ^', '').lstrip()
+            x = re.sub('[,.]', '', x).replace('-', '').replace('\n', '').replace('\'', '').replace(' ^', '').lstrip()
             print(x)
             data_loaded[main_section][sub_section].append(x.lower())
 
@@ -323,7 +323,7 @@ def update_yaml_table4all(main_section, sub_section, wiki_extension, col):
             cells = row.findAll('td')
             if len(cells) > 1:
                 x = cells[col].text.split('[')[0].split(' /')[0].split('(')[0]
-                x = re.sub('[,.-]', '', x).replace('\n', '').replace('\'', '').replace(' ^', '').lstrip()
+                x = re.sub('[,.]', '', x).replace('-', '').replace('\n', '').replace('\'', '').replace(' ^', '').lstrip()
                 print(x)
                 data_loaded[main_section][sub_section].append(x.lower())
 
@@ -356,7 +356,7 @@ def update_yaml_table5(main_section, sub_section, wiki_extension, col):
         cells = row.findAll('td')
         if len(cells) > 1:
             x = cells[col].text.split('[')[0].split(' /')[0].split('(')[0]
-            x = re.sub('[,.-]', '', x).replace('\n', '').replace('\'', '').replace(' ^', '').lstrip()
+            x = re.sub('[,.]', '', x).replace('-', '').replace('\n', '').replace('\'', '').replace(' ^', '').lstrip()
             print(x)
             data_loaded[main_section][sub_section].append(x.lower())
 
@@ -393,7 +393,7 @@ def update_yaml_table6(main_section, sub_section, wiki_extension):
                         pass
                     else:
                         x = tag.text.split(" (")[0]
-                        x = re.sub('[,.-]', '', x).replace('\n', '').replace('\'', '')
+                        x = re.sub('[,.]', '', x).replace('-', '').replace('\n', '').replace('\'', '')
                         print(x)
                         data_loaded[main_section][sub_section].append(x.lower())
     except:
@@ -440,7 +440,7 @@ def update_yaml_table7(main_section, sub_section, wiki_extension):
                     pass
                 else:
                     x = tag.text.split(" (")[0]
-                    x = re.sub('[,.-]', '', x).replace('\n', '').replace('\'', '')
+                    x = re.sub('[,.]', '', x).replace('-', '').replace('\n', '').replace('\'', '')
                     print(x)
                     data_loaded[main_section][sub_section].append(x.lower())
 
@@ -622,12 +622,13 @@ print("Updated Yaml File Saved")
             # update_yaml_table1('case_agnostic_work', 'company_health', 'List_of_largest_biotechnology_and_pharmaceutical_companies', 1)
             # update_yaml_table4('case_agnostic_work', 'company_fin', 'List_of_largest_banks', 1)
             # update_yaml_table2('case_agnostic_work', 'company_energychem', 'List_of_largest_oil_and_gas_companies_by_revenue', 1)
+            # update_yaml('case_agnostic_work', 'company_services', 'List_of_management_consulting_firms')
             # update_yaml_table2('case_agnostic_work', 'company_energychem', 'List_of_largest_chemical_producers', 1)
             # update_yaml('case_agnostic_work', 'company_other', 'List_of_companies_in_the_Chicago_metropolitan_area')
             # update_yaml_table2('case_agnostic_work', 'company_other', 'List_of_largest_companies_by_revenue', 0)
             # update_yaml('case_agnostic_work', 'company_other', 'List_of_Six_Sigma_companies')
             # update_yaml_table4('case_agnostic_work', 'company_other', 'List_of_S%26P_500_companies', 1)
-# update_yaml('case_agnostic_work', 'company_health', 'List_of_pharmaceutical_companies')
+            # update_yaml('case_agnostic_work', 'company_health', 'List_of_pharmaceutical_companies')
 # update_yaml('case_agnostic_work', 'company_fin', 'List_of_asset_management_firms')
 # update_yaml_table1('case_agnostic_work', 'company_fin', 'List_of_asset_management_firms', 1)
 # update_yaml('case_agnostic_work', 'company_fin', 'List_of_investment_banks')
@@ -643,7 +644,6 @@ print("Updated Yaml File Saved")
 # update_yaml('case_agnostic_work', 'company_energychem', 'List_of_oilfield_service_companies')
 # update_yaml('case_agnostic_work', 'company_industrial', 'List_of_wind_turbine_manufacturers')
 # update_yaml_table4('case_agnostic_work', 'company_industrial', 'List_of_traction_motor_manufacturers', 0)
-# update_yaml('case_agnostic_work', 'company_services', 'List_of_management_consulting_firms')
 # update_yaml('case_agnostic_work', 'company_industrial', 'List_of_touch-solution_manufacturers')
 # update_yaml_table2('case_agnostic_work', 'company_energychem', 'List_of_steel_producers', 13)
 # update_yaml_table4('case_agnostic_work', 'company_tech', 'Semiconductor_equipment_sales_leaders_by_year', 1)
@@ -797,10 +797,13 @@ with open('confs/config.yaml', 'w') as fp:
 # sort_yaml_flat('case_agnostic_work', 'company_fin')
 # sort_yaml_flat('case_agnostic_work', 'company_tech')
 # sort_yaml_flat('case_agnostic_work', 'company_services')
-# sort_yaml_flat('case_agnostic_work', 'company_health')
+sort_yaml_flat('case_agnostic_work', 'company_health')
 # sort_yaml_flat('case_agnostic_work', 'company_energychem')
 # sort_yaml_flat('case_agnostic_work', 'company_other')
 # sort_yaml_flat('case_agnostic_work', 'company_consumer')
 # sort_yaml_flat('case_agnostic_hobbies', 'hobbies')
-sort_yaml_flat('case_agnostic_whole_resume', 'soft_skills')
-sort_yaml('case_agnostic_skill', 'technical_skills')
+# sort_yaml('case_agnostic_whole_resume', 'honor_societies')
+# sort_yaml('case_agnostic_education', 'community_college')
+# sort_yaml('case_agnostic_education', 'other_universities')
+# sort_yaml_flat('case_agnostic_work', 'company_foodbev')
+# sort_yaml('case_agnostic_skill', 'technical_skills')

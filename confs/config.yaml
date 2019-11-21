@@ -31,17 +31,16 @@ case_agnostic_education:
   - Allen Community College
   - Anne Arundel Community College
   - Alpena Community College
-  - AnokaRamsey Community College
+  - Anoka Ramsey Community College
   - Atlantic Cape Community College
   - Alvin Community College
-  - Alabama Southern Community College
   - Arau Community College Arau
   - American Samoa Community College
   - Arizona Western College
   - Arkansas Northeastern College
-  - Arkansas State UniversityBeebe
-  - Arkansas State UniversityMountain Home
-  - Arkansas State UniversityNewport
+  - Arkansas State University Beebe
+  - Arkansas State University Mountain Home
+  - Arkansas State University Newport
   - Aims Community College
   - Arapahoe Community College
   - Asnuntuck Community College
@@ -50,20 +49,15 @@ case_agnostic_education:
   - Athens Technical College
   - Atlanta Technical College
   - Augusta Technical College
-  - Allen Community College
   - Ashland Community and Technical College
   - Allegany College of Maryland
-  - Anne Arundel Community College
-  - Alpena Community College
   - Alexandria Technical and Community College
-  - AnokaRamsey Community College
   - Anoka Technical College
   - Aaniiih Nakoda College
   - Alamance Community College
-  - AshevilleBuncombe Technical Community College
+  - Asheville Buncombe Technical Community College
   - Aiken Technical College
   - Alamo Community College District
-  - Alvin Community College
   - Amarillo College
   - Angelina College
   - Austin Community College District
@@ -81,7 +75,6 @@ case_agnostic_education:
   - Blue Mountain Community College
   - Bucks County Community College
   - Beaver County Community College
-  - Bishop State Community College
   - Butler Community College
   - Baton Rouge Community College
   - Bunker Hill Community College
@@ -96,39 +89,24 @@ case_agnostic_education:
   - Bayan Baru Community College Air Itam
   - Bukit Mertajam Community College Tanah Liat
   - Bevill State Community College
-  - Bishop State Community College
   - Black River Technical College
   - Broward College
   - Black Hawk College
   - Barton Community College
-  - Butler Community College
   - Big Sandy Community and Technical College
   - Bluegrass Community and Technical College
-  - Baton Rouge Community College
-  - Bossier Parish Community College
-  - Baltimore City Community College
   - Berkshire Community College
-  - Bristol Community College
-  - Bunker Hill Community College
-  - Bay de Noc Community College
   - Bay Mills Community College
   - Bitterroot College of the University of Montana
   - Blackfeet Community College
-  - Borough of Manhattan Community College
-  - Bronx Community College
   - Beaufort County Community College
   - Bladen Community College
   - Blue Ridge Community College
-  - Brunswick Community College
   - Bismarck State College
   - Belmont College
-  - Blue Mountain Community College
-  - Bucks County Community College
-  - Butler County Community College
   - Blinn College
   - Brazosport College
   - Brookhaven College
-  - Blue Ridge Community College
   - Bates Technical College
   - Bellevue College
   - Bellingham Technical College
@@ -139,7 +117,7 @@ case_agnostic_education:
   - Calhoun Community College
   - Chattahoochee Valley Community College
   - Coastal Alabama Community College Brewton
-  - ChandlerGilbert Community College
+  - Chandler Gilbert Community College
   - Cerro Coso Community College
   - Clovis Community College
   - Colorado Northwestern Community College
@@ -155,49 +133,37 @@ case_agnostic_education:
   - Cincinnati State Technical and Community College
   - Columbus State Community College
   - Chemeketa Community College
-  - Community College of Allegheny CountyAllegheny
-  - Community College of Allegheny CountyNorth
+  - Community College of Allegheny County Allegheny
+  - Community College of Allegheny County North
   - Community College of Beaver County
   - Community College of Philadelphia
   - Chattanooga State Technical Community College
   - Columbia State Community College
-  - Central Maine Community College
-  - Calhoun Community College
-  - Chattahoochee Valley Community College
-  - Coastal Alabama Community College Brewton
   - Central Alabama Community College
   - Coffeyville Community College
-  - CopiahLincoln Community College
+  - Copiah Lincoln Community College
   - Clinton Community College
   - Cape Fear Community College
   - Clark State Community College
   - Clackamas Community College
-  - Community College of Allegheny CountyBoyce
+  - Community College of Allegheny County Boyce
   - Community College of Rhode Island
   - Cleveland State Community College
-  - Central Alabama Community College
   - Coastal Alabama Community College
   - Cowley County Community College
   - Corning Community College
   - Central Carolina Community College
   - Cuyahoga Community College
-  - Community College of Allegheny CountySouth
-  - Coastal Alabama Community College
+  - Community College of Allegheny County South
   - Chenderoh Community College Kuala Kangsar
-  - Calhoun Community College
-  - Central Alabama Community College
-  - Chattahoochee Valley Community College
-  - Coastal Alabama Community College
   - Community College of the Air Force
   - Central Arizona College
   - Cochise College
   - Coconino County Community College
-  - ChandlerGilbert Community College
   - College of the Ouachitas
   - Cossatot Community College
   - Colorado Community Colleges Online
   - Colorado Mountain College
-  - Colorado Northwestern Community College
   - Community College of Aurora
   - Community College of Denver
   - Capital Community College
@@ -212,13 +178,7 @@ case_agnostic_education:
   - City Colleges of Chicago
   - College of DuPage
   - College of Lake County
-  - Clinton Community College
-  - Cloud County Community College
-  - Coffeyville Community College
-  - Colby Community College
-  - Cowley County Community College
   - Central Louisiana Technical Community College
-  - Central Maine Community College
   - Carroll Community College
   - Cecil College
   - Chesapeake College
@@ -227,24 +187,13 @@ case_agnostic_education:
   - Cape Cod Community College
   - Central Lakes College
   - Century College
-  - Coahoma Community College
-  - CopiahLincoln Community College
   - Crowder College
   - Chief Dull Knife College
   - City College at Montana State University Billings
   - Central Community College
   - College of Southern Nevada
   - Central New Mexico Community College
-  - Clovis Community College
-  - Cayuga Community College
-  - Clinton Community College
-  - ColumbiaGreene Community College
-  - Corning Community College
-  - Caldwell Community College & Technical Institute
-  - Cape Fear Community College
   - Carteret Community College
-  - Catawba Valley Community College
-  - Central Carolina Community College
   - Central Piedmont Community College
   - Cleveland Community College
   - Coastal Carolina Community College
@@ -252,25 +201,14 @@ case_agnostic_education:
   - Craven Community College
   - Cankdeska Cikana Community College
   - Central Ohio Technical College
-  - Cincinnati State Technical and Community College
-  - Clark State Community College
-  - Columbus State Community College
-  - Cuyahoga Community College
   - Carl Albert State College
   - Connors State College
   - Central Oregon Community College
-  - Chemeketa Community College
-  - Clackamas Community College
   - Clatsop Community College
   - Columbia Gorge Community College
   - Community College of Allegheny County
-  - Community College of Beaver County
-  - Community College of Philadelphia
-  - Community College of Rhode Island
   - Central Carolina Technical College
   - Chattanooga State Community College
-  - Cleveland State Community College
-  - Columbia State Community College
   - Central Texas College
   - Cisco College
   - Clarendon College
@@ -307,25 +245,13 @@ case_agnostic_education:
   - Dine College
   - Delaware Technical Community College
   - Daytona State College
-  - Danville Area Community College
-  - Des Moines Area Community College
-  - Dodge City Community College
-  - Delgado Community College
   - Delta College
   - Dakota County Technical College
-  - Dawson Community College
-  - Dine College
   - Dona Ana Community College
-  - Dutchess Community College
-  - Davidson County Community College
   - Durham Technical Community College
   - Dakota College at Bottineau
-  - Delaware County Community College
   - Denmark Technical College
-  - Dyersburg State Community College
   - Dallas County Community College District
-  - Brookhaven College
-  - Cedar Valley College
   - Eastfield College
   - El Centro College
   - Mountain View College
@@ -342,34 +268,22 @@ case_agnostic_education:
   - Erie Community College
   - Edison Community College
   - El Paso Community College
-  - Enterprise State Community College
   - East Mississippi Community College
-  - Enterprise State Community College
   - Eastern Arizona College
   - Estrella Mountain Community College
   - East Arkansas Community College
   - Eastern Florida State College
   - Eastern Idaho Technical College
   - East St Louis Community College Center
-  - Elgin Community College
   - Eastern Iowa Community College
-  - Clinton Community College
   - Muscatine Community College
   - Scott Community College
-  - Ellsworth Community College
   - Elizabethtown Community and Technical College
-  - Eastern Maine Community College
-  - East Central Community College
-  - East Mississippi Community College
   - East Central College
-  - Erie Community College
   - Edgecombe Community College
   - Eastern Gateway Community College
   - Edison Community College Piqua
   - Eastern Oklahoma State College
-  - Eastfield College
-  - El Centro College
-  - El Paso Community College
   - Eastern Shore Community College
   - Edmonds Community College
   - Everett Community College
@@ -379,28 +293,25 @@ case_agnostic_education:
   - Frederick Community College
   - Fond du Lac Tribal & Community College
   - Finger Lakes Community College
-  - FultonMontgomery Community College
+  - Fulto ontgomery Community College
   - Front Range Community College
   - Florida Gateway College
   - Florida Keys Community College
-  - Florida SouthWestern State College
+  - Florida South Western State College
   - Florida State College at Jacksonville
   - Frontier Community College
-  - Fort Scott Community College
-  - Frederick Community College
   - Fond du Lac Tribal and Community College
   - Flathead Valley Community College
   - Fort Peck Community College
-  - Finger Lakes Community College
-  - FultonMontgomery Community College
+  - Fulton Montgomery Community College
   - Fayetteville Technical Community College
   - Forsyth Technical Community College
   - Fort Berthold Community College
-  - FlorenceDarlington Technical College
+  - Florence Darlington Technical College
   - Frank Phillips College
   - Fox Valley Technical College
   - Gadsden State Community College
-  - GateWay Community College
+  - Gate Way Community College
   - Glendale Community College
   - Gateway Community College
   - Garden City Community College
@@ -409,33 +320,21 @@ case_agnostic_education:
   - Genesee Community College
   - Guilford Technical Community College
   - Great Bay Community College
-  - Gadsden State Community College
   - Gogebic Community College
   - Grik Community College Gerik
-  - Gadsden State Community College
   - Gila Community College
-  - GateWay Community College
-  - Glendale Community College
-  - Gateway Community College
   - Gulf Coast State College
   - Georgia Northwestern Technical College
   - Georgia Piedmont Technical College
   - Gwinnett Technical College
   - Guam Community College
-  - Garden City Community College
   - Gateway Community and Technical College
   - Garrett College
   - Greenfield Community College
-  - Glen Oaks Community College
-  - Gogebic Community College
-  - Grand Rapids Community College
   - Gallatin College Montana State University
   - Great Falls College Montana State University
-  - Great Bay Community College
-  - Genesee Community College
   - Guttman Community College
   - Gaston College
-  - Guilford Technical Community College
   - Greenville Technical College
   - Galveston College
   - Grayson County College
@@ -464,39 +363,23 @@ case_agnostic_education:
   - Hulu Selangor Community College Batang Kali
   - H Councill Trenholm State Technical College
   - Housatonic Community College
-  - Hillsborough Community College
   - Hawaii Community College
   - Honolulu Community College
   - Harold Washington College
   - Harry S Truman College
   - Harper College
-  - Heartland Community College
-  - Highland Community College
   - Hawkeye Community College
-  - Highland Community College
-  - Hutchinson Community College
   - Hazard Community and Technical College
   - Henderson Community College
   - Hopkinsville Community College
-  - Hagerstown Community College
-  - Harford Community College
-  - Howard Community College
-  - Holyoke Community College
   - Henry Ford Community College
   - Hennepin Technical College
-  - Hibbing Community College
-  - Hinds Community College
-  - Holmes Community College
   - Helena College University of Montana
   - Highlands College of Montana Tech
-  - Herkimer County Community College
-  - Hostos Community College
-  - Hudson Valley Community College
   - Halifax Community College
   - Haywood Community College
   - Hocking College
-  - Harrisburg Area Community College
-  - HorryGeorgetown Technical College
+  - Horry Georgetown Technical College
   - Hill College
   - Houston Community College System
   - Howard College
@@ -512,18 +395,10 @@ case_agnostic_education:
   - Indian River State College
   - Illinois Central College
   - Illinois Eastern Community Colleges
-  - Illinois Valley Community College
   - Ivy Tech Community College of Indiana
-  - Indian Hills Community College
-  - Iowa Central Community College
-  - Iowa Lakes Community College
   - Iowa Valley Community College District
   - Iowa Valley Community College
-  - Iowa Western Community College
-  - Independence Community College
   - Inver Hills Community College
-  - Itasca Community College
-  - Itawamba Community College
   - Isothermal Community College
   - Instituto Comercial de Puerto Rico Community College
   - John Wood Community College
@@ -532,7 +407,7 @@ case_agnostic_education:
   - Jefferson Community College
   - Johnston Community College
   - Jackson State Community College
-  - Jamestown Community CollegeCattaraugus Campus
+  - Jamestown Community College Cattaraugus Campus
   - Jasin Community College Jasin
   - Jelebu Community College Kuala Klawang
   - Jempol Community College Bahau
@@ -540,18 +415,12 @@ case_agnostic_education:
   - J F Ingram State Technical College
   - Jefferson State Community College
   - John A Logan College
-  - John Wood Community College
   - Joliet Junior College
-  - Johnson County Community College
   - Jefferson Community and Technical College
   - Jackson College
   - Jones County Junior College
   - Jefferson College
-  - Jamestown Community College
-  - Jefferson Community College
   - James Sprunt Community College
-  - Johnston Community College
-  - Jackson State Community College
   - J Sargeant Reynolds Community College
   - John Tyler Community College
   - Kankakee Community College
@@ -571,17 +440,10 @@ case_agnostic_education:
   - Kodiak College
   - Kapiolani Community College
   - Kauai Community College
-  - KennedyKing College
-  - Kankakee Community College
+  - Kennedy King College
   - Kaskaskia College
   - Kishwaukee College
-  - Kirkwood Community College
-  - Kansas City Kansas Community College
   - Kennebec Valley Community College
-  - Kalamazoo Valley Community College
-  - Kellogg Community College
-  - Kirtland Community College
-  - Kingsborough Community College
   - Klamath Community College
   - Kilian Community College
   - Kilgore College
@@ -600,63 +462,39 @@ case_agnostic_education:
   - Lehigh Carbon Community College
   - Laredo Community College
   - Laramie County Community College
-  - Lawson State Community College
   - Lurleen B Wallace Community College
   - Lincoln Land Community College
   - Lorain County Community College
-  - LinnBenton Community College
+  - Linn Benton Community College
   - Luzerne County Community College
-  - Lurleen B Wallace Community College
   - Ledang Community College Tangkak
   - Langkawi Community College Langkawi
-  - Lawson State Community College
-  - Lurleen B Wallace Community College
-  - Lamar Community College
-  - LakeSumter State College
+  - Lake Sumter State College
   - Lanier Technical College
   - Leeward Community College
   - Lincoln Trail College
   - Lake Land College
   - Lewis and Clark Community College
-  - Lincoln Land Community College
-  - Labette Community College
   - LE Fletcher Technical Community College
   - Louisiana Delta Community College
   - Louisiana Technical College
   - Lake Michigan College
-  - Lansing Community College
   - Lake Superior College
   - Little Big Horn College
   - Lakes Region Community College
-  - Luna Community College
-  - LaGuardia Community College
-  - Lenoir Community College
   - Lake Region State College
-  - Lakeland Community College
-  - Lorain County Community College
-  - Lane Community College
-  - LinnBenton Community College
-  - Lehigh Carbon Community College
-  - Luzerne County Community College
   - Lake Area Technical Institute
-  - Laredo Community College
   - Lee College
-  - Lone Star CollegeCyFair
-  - Lone Star CollegeKingwood
-  - Lone Star CollegeMontgomery
-  - Lone Star CollegeNorth Harris
-  - Lone Star CollegeTomball
-  - Lone Star CollegeCyFair
-  - Lone Star CollegeKingwood
-  - Lone Star CollegeMontgomery
-  - Lone Star CollegeNorth Harris
-  - Lone Star CollegeTomball
+  - Lone Star College CyFair
+  - Lone Star College Kingwood
+  - Lone Star College Montgomery
+  - Lone Star College North Harris
+  - Lone Star College Tomball
   - Lord Fairfax Community College
   - Lake Washington Institute of Technology
   - Lower Columbia College
   - Lac Courte Oreilles Ojibwa Community College
   - Lakeshore Technical College
-  - Laramie County Community College
   - Mesa Community College
   - Moraine Valley Community College
   - Marshalltown Community College
@@ -676,7 +514,6 @@ case_agnostic_education:
   - Montgomery County Community College
   - Motlow State Community College
   - McLennan Community College
-  - Muscatine Community College
   - Massasoit Community College
   - Mid Michigan Community College
   - Mississippi Delta Community College
@@ -684,21 +521,15 @@ case_agnostic_education:
   - Masjid Tanah Community College Masjid Tanah
   - Mentakab Community College Temerloh
   - Marion Military Institute
-  - MatanuskaSusitna College
+  - Matanuska Susitna College
   - Maricopa County Community College
-  - ChandlerGilbert Community College
-  - Estrella Mountain Community College
-  - GateWay Community College
-  - Glendale Community College
-  - Mesa Community College
   - Paradise Valley Community College
   - Phoenix College
   - Rio Salado College
   - Scottsdale Community College
   - South Mountain Community College
-  - Mesa Community College
   - Mohave Community College
-  - MidSouth Community College
+  - Mid South Community College
   - Morgan Community College
   - Manchester Community College
   - Middlesex Community College
@@ -706,45 +537,24 @@ case_agnostic_education:
   - Moultrie Technical College
   - Maui Community College
   - Malcolm X College
-  - Metropolitan Community College
   - McHenry County College
-  - Moraine Valley Community College
   - Morton College
-  - Muscatine Community College
-  - Marshalltown Community College
   - Madisonville Community College
   - Maysville Community and Technical College
   - Montgomery College
-  - Massachusetts Bay Community College
-  - Massasoit Community College
-  - Middlesex Community College
   - Mount Wachusett Community College
-  - Macomb Community College
-  - Mid Michigan Community College
   - Monroe County Community College
   - Montcalm Community College
-  - Mott Community College
-  - Muskegon Community College
   - Mesabi Range Community and Technical College
   - Minneapolis Community and Technical College
   - Minnesota State College Southeast Technical
   - Minnesota State Community and Technical College
   - Minnesota West Community and Technical College
-  - Meridian Community College
-  - Mississippi Delta Community College
-  - Mississippi Gulf Coast Community College
-  - Metropolitan Community College
   - Mineral Area College
-  - Missouri State UniversityWest Plains
-  - Moberly Area Community College
-  - Miles Community College
+  - Missouri State University West Plains
   - Missoula College University of Montana
-  - Metropolitan Community College
-  - MidPlains Community College
-  - Manchester Community College
+  - Mid Plains Community College
   - Mesalands Community College
-  - Mohawk Valley Community College
-  - Monroe Community College
   - Martin Community College
   - Mayland Community College
   - McDowell Technical Community College
@@ -752,18 +562,13 @@ case_agnostic_education:
   - Montgomery Community College
   - Marion Technical College
   - Murray State College
-  - Mt Hood Community College
-  - Montgomery County Community College
   - Midlands Technical College
   - Mitchell Technical Institute
-  - Motlow State Community College
-  - Mountain View College
-  - McLennan Community College
   - Midland College
   - Mountain Empire Community College
   - Mountwest Community and Technical College
   - Madison Area Technical College
-  - MidState Technical College
+  - Mid State Technical College
   - Milwaukee Area Technical College
   - Moraine Park Technical College
   - North Iowa Area Community College
@@ -777,7 +582,6 @@ case_agnostic_education:
   - North Country Community College
   - Northampton Community College
   - Northeast Texas Community College
-  - NHTI Concords Community College
   - Northern Maine Community College
   - Northwest Mississippi Community College
   - Northeast Community College
@@ -797,36 +601,24 @@ case_agnostic_education:
   - Northwest Florida State College
   - North Georgia Technical College
   - North Idaho College
-  - North Iowa Area Community College
   - Northeast Iowa Community College
   - Northwest Iowa Community College
-  - Neosho County Community College
   - Northshore Technical Community College
   - Northwest Louisiana Technical College
-  - Nunez Community College
-  - Northern Maine Community College
   - North Shore Community College
-  - Northern Essex Community College
   - North Central Michigan College
   - Northwestern Michigan College
   - Normandale Community College
   - North Hennepin Community College
   - Northland Community & Technical College
-  - Northeast Mississippi Community College
-  - Northwest Mississippi Community College
   - North Central Missouri College
   - Nebraska College of Technical Agriculture
   - Nebraska Indian Community College
-  - Northeast Community College
   - Nashua Community College
-  - NHTI Concords Community College
   - New Mexico Junior College
   - New Mexico State University Alamogordo
   - Northern New Mexico College
   - New Mexico Military Institute
-  - Nassau Community College
-  - Niagara County Community College
-  - North Country Community College
   - Nash Community College
   - North Dakota State College of Science
   - Northern Marianas College
@@ -834,16 +626,13 @@ case_agnostic_education:
   - Northwest State Community College
   - Northeastern Oklahoma A&M College
   - Northern Oklahoma College
-  - Northampton Community College
   - Northeastern Technical College
   - Nashville State Community College
   - Northeast State Community College
   - Northeast Lakeview College
   - Northwest Vista College
-  - North Lake College
   - Navarro College
   - North Central Texas College
-  - Northeast Texas Community College
   - New River Community College
   - Northern Virginia Community College
   - North Seattle Community College
@@ -852,7 +641,6 @@ case_agnostic_education:
   - Northcentral Technical College
   - Northeast Wisconsin Technical College
   - Northern Wyoming Community College
-  - Gillette College
   - Sheridan College
   - Northwest College
   - Oakton Community College
@@ -865,21 +653,16 @@ case_agnostic_education:
   - Oconee Fall Line Technical College
   - Ogeechee Technical College
   - Okefenokee Technical College
-  - OliveHarvey College
+  - Olive Harvey College
   - Olney Central College
-  - Oakton Community College
   - Owensboro Community and Technical College
-  - Oakland Community College
   - Ozarks Technical Community College
-  - Onondaga Community College
-  - Owens Community College
   - Oklahoma City Community College
   - Oregon Coast Community College
-  - OrangeburgCalhoun Technical College
+  - Orangeburg Calhoun Technical College
   - Oglala Lakota College
   - Odessa College
   - Olympic College
-  - Paradise Valley Community College
   - Pima Community College
   - Pratt Community College
   - Pearl River Community College
@@ -892,34 +675,25 @@ case_agnostic_education:
   - Paya Besar Community College Gambang
   - Pasir Salak Community College Kampung Gajah
   - Prince William Sound College
-  - Paradise Valley Community College
-  - Phoenix College
-  - Pima Community College
   - Pulaski Technical College
   - Phillips Community College
   - Pikes Peak Community College
   - Pueblo Community College
   - Palm Beach State College
-  - PascoHernando Community College
+  - Pasco Hernando Community College
   - Pensacola State College
   - Polk State College
   - Parkland College
   - Prairie State College
-  - Pratt Community College
-  - Prince Georges Community College
   - Pine Technical College
-  - Pearl River Community College
   - Pamlico Community College
   - Piedmont Community College
-  - Pitt Community College
-  - Portland Community College
   - Pennsylvania Highlands Community College
   - Piedmont Technical College
   - Pellissippi State Community College
   - Palo Alto College
   - Panola College
   - Paris Junior College
-  - Patrick Henry Community College
   - Paul D Camp Community College
   - Piedmont Virginia Community College
   - Peninsula College
@@ -929,8 +703,6 @@ case_agnostic_education:
   - Quinsigamond Community College
   - Queensborough Community College
   - Quinebaug Valley Community College
-  - Quinsigamond Community College
-  - Queensborough Community College
   - Riverside Community College
   - Roxbury Community College
   - Rainy River Community College
@@ -945,7 +717,6 @@ case_agnostic_education:
   - Raub Community College Raub
   - Rompin Community College Kuala Rompin
   - Reid State Technical College
-  - Rio Salado College
   - Rich Mountain Community College
   - Red Rocks Community College
   - Richard J Daley College
@@ -953,36 +724,24 @@ case_agnostic_education:
   - Richland Community College
   - Rock Valley College
   - River Parishes Community College
-  - Roxbury Community College
-  - Rainy River Community College
   - Red Lake Nation College
   - Ridgewater College
-  - Riverland Community College
   - Rochester Community & Technical College
   - River Valley Community College
-  - Rockland Community College
   - Randolph Community College
   - Richmond Community College
-  - RoanokeChowan Community College
+  - Roanoke Chowan Community College
   - Robeson Community College
-  - Rockingham Community College
-  - RowanCabarrus Community College
+  - Rowan Cabarrus Community College
   - Rio Grande Community College
-  - Redlands Community College
   - Rose State College
-  - Rogue Community College
-  - Reading Area Community College
-  - Roane State Community College
-  - Richland College
   - Ranger College
   - Rappahannock Community College
   - Renton Technical College
   - Shelton State Community College
   - Southern Union State Community College
-  - Scottsdale Community College
   - Solano Community College
   - Sauk Valley Community College
-  - Scott Community College
   - Southwestern Community College
   - Seward County Community College
   - Southern Maine Community College
@@ -1001,19 +760,13 @@ case_agnostic_education:
   - Southwestern Oregon Community College
   - Southwest Tennessee Community College
   - Salt Lake Community College
-  - Southern Maine Community College
-  - Shelton State Community College
-  - Southern Union State Community College
   - Snead State Community College
-  - South Mountain Community College
   - Shawnee Community College
   - Southeastern Community College
   - Southwest Mississippi Community College
   - St Louis Community College
   - Suffolk County Community College
-  - Southeastern Community College
   - Southern State Community College
-  - Snead State Community College
   - Segamat Community College Segamat
   - Segamat 2 Community College Batu Aman
   - Sungai Petani Community College Sungai Petani
@@ -1023,11 +776,6 @@ case_agnostic_education:
   - Semporna Community College Semporna
   - Sabak Bernam Community College Sabak Bernam
   - Selayang Community College Batu Caves
-  - Shelton State Community College
-  - Snead State Community College
-  - Southern Union State Community College
-  - Scottsdale Community College
-  - South Mountain Community College
   - South Arkansas Community College
   - Southeast Arkansas College
   - Southern Arkansas University Tech
@@ -1036,84 +784,55 @@ case_agnostic_education:
   - Santa Fe College
   - Seminole State College of Florida
   - South Florida State College
-  - State College of Florida ManateeSarasota
+  - State College of Florida Manatee Sarasota
   - Savannah Technical College
   - South Georgia Technical College
   - Southeastern Technical College
   - Southern Crescent Technical College
   - Southwest Georgia Technical College
   - State Community College of East Saint Louis
-  - Sauk Valley Community College
-  - Shawnee Community College
   - South Suburban College
   - Southeastern Illinois College
   - Southwestern Illinois College
   - Spoon River College
-  - Scott Community College
-  - Southeastern Community College
-  - Southwestern Community College
-  - Seward County Community College
   - Somerset Community College
   - Southcentral Kentucky Community and Technical College
   - Southeast Kentucky Community and Technical College
   - South Central Louisiana Technical College
   - South Louisiana Community College
   - Sowela Technical Community College
-  - Southern Maine Community College
-  - Springfield Technical Community College
-  - St Clair County Community College
   - Schoolcraft College
   - Southwestern Michigan College
-  - St Cloud Technical and Community College
   - Saint Paul College
   - South Central College
-  - Southwest Mississippi Community College
-  - St Charles Community College
-  - St Louis Community College
-  - State Fair Community College
   - State Technical College of Missouri
   - Salish Kootenai College
   - Stone Child College
-  - Southeast Community College
   - San Juan College
   - Santa Fe Community College
   - Southwestern Indian Polytechnic Institute
-  - Schenectady County Community College
-  - Suffolk County Community College
-  - Sullivan County Community College
   - SUNY Adirondack
   - SUNY Broome Community College
   - SUNY Orange
   - SUNY Ulster
   - Sampson Community College
-  - Sandhills Community College
   - South Piedmont Community College
-  - Southeastern Community College
-  - Southwestern Community College
   - Stanly Community College
-  - Surry Community College
   - Sitting Bull College
-  - Sinclair Community College
-  - Southern State Community College
   - Stark State College
   - Seminole State College
-  - Southwestern Oregon Community College
   - Spartanburg Community College
   - Sisseton Wahpeton College
   - Southeast Technical Institute
-  - Southwest Tennessee Community College
   - St Philips College
   - San Antonio College
   - San Jacinto College
   - South Plains College
   - South Texas College
   - Southwest Texas Junior College
-  - Salt Lake Community College
   - Snow College
   - Southside Virginia Community College
   - Southwest Virginia Community College
-  - Spokane Community College
-  - Spokane Falls Community College
   - Seattle Community College District
   - Shoreline Community College
   - Skagit Valley College
@@ -1121,7 +840,6 @@ case_agnostic_education:
   - South Seattle Community College
   - Southern West Virginia Community and Technical College
   - Southwest Wisconsin Technical College
-  - Sheridan College
   - Tohono Oodham Community College
   - Tallahassee Community College
   - Three Rivers Community College
@@ -1133,85 +851,39 @@ case_agnostic_education:
   - Taiping Community College Kamunting
   - Teluk Intan Community College Seri Manjung
   - Tawau Community College Tawau
-  - Tohono Oodham Community College
-  - Cossatot Community College
-  - Phillips Community College
   - UACC Batesville
   - UACC Hope
   - UACC Morrilton
   - Trinidad State Junior College
-  - Three Rivers Community College
   - Tunxis Community College
-  - Tallahassee Community College
-  - Albany Technical College
-  - Altamaha Technical College
-  - Athens Technical College
-  - Atlanta Technical College
-  - Augusta Technical College
-  - Central Georgia Technical College
-  - Chattahoochee Technical College
-  - Columbus Technical College
-  - Georgia Northwestern Technical College
-  - Georgia Piedmont Technical College
-  - Gwinnett Technical College
-  - Lanier Technical College
-  - Moultrie Technical College
-  - North Georgia Technical College
-  - Oconee Fall Line Technical College
-  - Ogeechee Technical College
-  - Okefenokee Technical College
-  - Savannah Technical College
-  - South Georgia Technical College
-  - Southeastern Technical College
-  - Southern Crescent Technical College
-  - Southwest Georgia Technical College
   - West Georgia Technical College
   - Wiregrass Georgia Technical College
   - Triton College
-  - Three Rivers Community College
   - Truckee Meadows Community College
-  - Tompkins Cortland Community College
-  - TriCounty Community College
-  - Turtle Mountain Community College
+  - Tri County Community College
   - Terra Community College
   - Tulsa Community College
   - Tillamook Bay Community College
-  - Treasure Valley Community College
   - Technical College of the Lowcountry
-  - TriCounty Technical College
+  - Tri County Technical College
   - Trident Technical College
   - Tarrant County College
   - Temple College
   - Texarkana College
   - Texas Southmost College
   - Texas State Technical College System
-  - Trinity Valley Community College
   - Tyler Junior College
   - Thomas Nelson Community College
   - Tidewater Community College
   - Tacoma Community College
   - Ulster County Community College
   - Umpqua Community College
-  - Kenai Peninsula College
-  - Kodiak College
-  - MatanuskaSusitna College
-  - Prince William Sound College
   - - University of Alaska Fairbanks Community and Technical College
     - UAF Community and Technical College
   - University of Alaska Southeast has two community college campuses
-  - UACC Batesville
-  - UACC Hope
-  - UACC Morrilton
-  - Hawaii Community College
-  - Honolulu Community College
-  - Kapiolani Community College
-  - Kauai Community College
-  - Leeward Community College
-  - Maui Community College
   - Windward Community College
   - United Tribes Technical College
   - University of Cincinnati Clermont College
-  - Umpqua Community College
   - UWBaraboo/Sauk County
   - UWBarron County
   - UWFond du Lac
@@ -1229,9 +901,6 @@ case_agnostic_education:
   - Vance Granville Community College
   - Volunteer State Community College
   - Valencia College
-  - Vermilion Community College
-  - VanceGranville Community College
-  - Volunteer State Community College
   - Vernon College
   - Victoria College
   - Vermont Technical College
@@ -1248,32 +917,19 @@ case_agnostic_education:
   - Westmoreland County Community College
   - Walters State Community College
   - Western Wyoming Community College
-  - Wallace Community College
-  - Wallace State Community College
   - Wallace Community College Selma
-  - Wallace Community College
-  - Wallace Community College Selma
-  - Wallace State Community College
   - Western Colorado Community College
-  - West Georgia Technical College
-  - Wiregrass Georgia Technical College
-  - Windward Community College
   - Wilbur Wright College
   - Wabash Valley College
-  - Waubonsee Community College
   - Western Iowa Tech Community College
   - West Kentucky Community and Technical College
   - Washington County Community College
   - WorWic Community College
   - Washtenaw Community College
-  - Wayne County Community College District
   - West Shore Community College
   - White Earth Tribal and Community College
-  - Western Nebraska Community College
   - Western Nevada College
   - White Mountains Community College
-  - Westchester Community College
-  - Wake Technical Community College
   - Wayne Community College
   - Western Piedmont Community College
   - Wilkes Community College
@@ -1281,10 +937,8 @@ case_agnostic_education:
   - Williston State College
   - Washington State Community College
   - Western Oklahoma State College
-  - Westmoreland County Community College
   - Williamsburg Technical College
   - Western Dakota Technical Institute
-  - Walters State Community College
   - Weatherford College
   - Western Texas College
   - Wharton County Junior College
@@ -1294,26 +948,9 @@ case_agnostic_education:
   - Whatcom Community College
   - West Virginia Northern Community College
   - West Virginia University at Parkersburg
-  - Blackhawk Technical College
-  - Chippewa Valley Technical College
-  - Fox Valley Technical College
-  - Gateway Technical College
-  - Lakeshore Technical College
-  - Madison Area Technical College
-  - MidState Technical College
-  - Milwaukee Area Technical College
-  - Moraine Park Technical College
-  - Nicolet Area Technical College
-  - Northcentral Technical College
-  - Northeast Wisconsin Technical College
-  - Southwest Wisconsin Technical College
   - Waukesha County Technical College
   - Western Technical College
   - Wisconsin Indianhead Technical College
-  - Waukesha County Technical College
-  - Western Technical College
-  - Wisconsin Indianhead Technical College
-  - Western Wyoming Community College
   - Yavapai College
   - York County Community College
   - York Technical College
@@ -1321,7 +958,7 @@ case_agnostic_education:
   - Zane State College
   - Hinds Community College at Utica
   - J F Drake State Technical College
-  - Los Angeles TradeTechnical College
+  - Los Angeles Trade Technical College
   - Minnesota State Community & Technical College
   - Northwest Kansas Technical College
   - Trenholm State Technical College
@@ -1342,10 +979,9 @@ case_agnostic_education:
     - Astronomy
     - Planetary Science
   - - African Studies
-    - Pan-African Studies
-    - African-American Studies
+    - Pan African Studies
+    - African American Studies
     - Africana Studies
-    - Pan-African Studies
   - - Agricultural Business
     - Agricultural Economics
     - International Agriculture
@@ -1416,7 +1052,6 @@ case_agnostic_education:
   - - Asian Studies
     - Asian American Studies
     - Asian Area Studies
-    - Asian-American Studies
     - East Asian Civilizations
     - East Asian Studies
     - South Asia Studies
@@ -1603,7 +1238,7 @@ case_agnostic_education:
   - - Funeral Services
     - Mortuary Science
   - - Gender Studies
-    - Women"s Studies
+    - Womens Studies
     - Sexuality Studies
     - Gender and Sexuality Studies
   - - Genetics
@@ -1636,7 +1271,7 @@ case_agnostic_education:
     - Health Administration
     - Healthcare Management
   - - Hispanic Studies
-    - Hispanic-American Studies
+    - Hispanic American Studies
   - - History of Art
     - American History
     - Museum Studies
@@ -2039,7 +1674,8 @@ case_agnostic_education:
     - Ministry
     - Ministry Administration
     - Church Administration
-    - ChristianityReligious Ethics
+    - Christianity
+    - Religious Ethics
     - History of Christianity
     - History of Judaism
   - - Tourism
@@ -2252,7 +1888,7 @@ case_agnostic_education:
   - Arkansas State University
   - Arkansas Tech University
   - Arkansas Baptist College
-  - ASU MidSouth
+  - ASU Mid South
   - Academy of Art University
   - Azusa Pacific University
   - Allan Hancock College
@@ -2291,7 +1927,6 @@ case_agnostic_education:
   - Allegheny College
   - Alvernia University
   - Arcadia University
-  - Anderson University
   - Allen University
   - Augustana University
   - Austin Peay State University
@@ -2303,76 +1938,16 @@ case_agnostic_education:
   - Alderson Broaddus University
   - Alverno College
   - American University
-  - Alice Lloyd College
-  - Allen University
-  - Aquinas College
-  - Arizona Christian University
-  - Asbury University
-  - Ave Maria University
-  - Avila University
-  - Abilene Christian University
-  - Alabama Agricultural and Mechanical University
-  - Alabama State University
-  - Alcorn State University
-  - American University
-  - Appalachian State University
-  - Arkansas State University
-  - Auburn University
-  - Austin Peay State University
-  - Academy of Art University
-  - Adams State University
-  - Adelphi University
   - Albany State University
-  - Alderson Broaddus University
-  - American International College
-  - Anderson University
-  - Angelo State University
-  - Arkansas Tech University
-  - Ashland University
-  - Assumption College
-  - Auburn University at Montgomery
   - Augusta University
-  - Augustana University
-  - Azusa Pacific University
-  - Adrian College
   - Agnes Scott College
-  - Albertus Magnus College
-  - Albion College
-  - Albright College
-  - Alfred University
-  - Alfred State College
-  - Allegheny College
-  - Alma College
-  - Alvernia University
-  - Alverno College
-  - Anderson University
-  - Anna Maria College
-  - Arcadia University
-  - Augsburg University
-  - Augustana College
-  - Aurora University
-  - Austin College
-  - Averett University
-  - Albany College of Pharmacy and Health Sciences
-  - Andrews University
-  - Alice Lloyd College
   - Appalachian Bible College
   - Arlington Baptist University
-  - Alabama Agricultural and Mechanical University
-  - Alabama State University
-  - Auburn University
-  - Auburn University at Montgomery
   - Alabama A&M University
-  - Alabama State University
-  - Albany State University
-  - Alcorn State University
-  - Allen University
   - American Baptist College
-  - Arkansas Baptist College
   - Bucknell University
   - Bates College
   - Bowdoin College
-  - Bucknell University
   - Birmingham Southern College
   - Benedictine University at Mesa
   - Biola University
@@ -2393,15 +1968,12 @@ case_agnostic_education:
   - Baker University
   - Benedictine College
   - Bethany College
-  - Bethel College
   - Barclay College
   - Brown Mackie College
   - Bellarmine University
   - Berea College
   - Brescia University
   - Boyce College
-  - Bates College
-  - Bowdoin College
   - Bowie State University
   - Bentley University
   - Babson College
@@ -2426,12 +1998,11 @@ case_agnostic_education:
   - Barton College
   - Belmont Abbey College
   - Brevard College
-  - BarberScotia College
+  - Barber Scotia College
   - Bowling Green State University
   - Baldwin Wallace University
   - Bluffton University
   - Bacone College
-  - Bucknell University
   - Bloomsburg University of Pennsylvania
   - Bryn Athyn College
   - Bryn Mawr College
@@ -2440,107 +2011,25 @@ case_agnostic_education:
   - Bob Jones University
   - Black Hills State University
   - Belmont University
-  - Bethel University
   - Bryan College
   - Baylor University
   - Brigham Young University
   - Bridgewater College
   - Bluefield College
-  - Bryant & Stratton College
   - Bluefield State College
-  - Bethany College
   - Beloit College
-  - Bacone College
-  - Baker University
-  - Bellevue University
-  - Benedictine College
-  - Benedictine University at Mesa
-  - Bethany College
-  - Bethel University
-  - Bethel College
-  - Blue Mountain College
-  - Bluefield College
   - Brenau University
-  - Brescia University
   - Brewton Parker College
-  - Briar Cliff University
-  - Bryan College
-  - Ball State University
-  - Baylor University
-  - Belmont University
-  - BethuneCookman University
   - Binghamton University
-  - Boise State University
-  - Bowling Green State University
-  - Bradley University
-  - Brigham Young University
-  - Bryant University
-  - Bucknell University
-  - Butler University
-  - Barry University
-  - Barton College
-  - Belmont Abbey College
-  - Bemidji State University
-  - Benedict College
-  - Bentley University
-  - Biola University
-  - Black Hills State University
-  - Bloomfield College
-  - Bloomsburg University of Pennsylvania
-  - Bluefield State College
-  - Bowie State University
-  - Babson College
-  - Baldwin Wallace University
-  - Bard College
-  - Baruch College
-  - Bates College
-  - Bay Path University
-  - Becker College
-  - Belhaven University
-  - Beloit College
-  - Benedictine University
-  - Berea College
   - Berry College
-  - Bethany College
-  - Bethany Lutheran College
-  - Bethel University
-  - Birmingham Southern College
-  - Blackburn College
-  - Bluffton University
-  - Bowdoin College
-  - Brandeis University
-  - Brevard College
-  - Bridgewater College
-  - Bridgewater State University
-  - Brooklyn College
-  - Bryn Athyn College
-  - Bryn Mawr College
-  - Buena Vista University
-  - Buffalo State College
   - Berkeley College New Jersey
   - Berkeley College New York
-  - Bluefield State College
   - Bryant & Stratton College Albany
   - Bryant & Stratton College Buffalo
   - Bryant & Stratton College Greece
   - Bryant & Stratton College Liverpool
   - Bryant & Stratton College Syracuse
-  - Belhaven University
-  - Bluefield College
-  - Boyce College
-  - Bethel College
-  - BrewtonParker College
-  - Bob Jones University
-  - Barclay College
-  - Bethesda University
-  - Biola University
-  - BirminghamSouthern College
-  - BarberScotia College
-  - Benedict College
   - Bennett College
-  - BethuneCookman University
-  - Bluefield State College
-  - Bowie State University
   - College of Charleston
   - Creighton University
   - Colgate University
@@ -2571,7 +2060,9 @@ case_agnostic_education:
   - California Lutheran University
   - California Institute of Technology
   - Chapman University
-  - Claremont McKenna CollegeHarvey Mudd CollegeScripps College
+  - Claremont McKenna College
+  - Harvey Mudd College
+  - Scripps College
   - California State University Maritime Academy
   - College of Alameda
   - Cabrillo College
@@ -2601,7 +2092,6 @@ case_agnostic_education:
   - Colorado State University Pueblo
   - Colorado College
   - Central Connecticut State University
-  - Connecticut College
   - Chaminade University of Honolulu
   - College of Idaho
   - Chicago State University
@@ -2616,7 +2106,6 @@ case_agnostic_education:
   - Centre College
   - Campbellsville University
   - Centenary College of Louisiana
-  - Colby College
   - Coppin State University
   - CCBCCatonsville
   - CCBCDundalk
@@ -2637,13 +2126,11 @@ case_agnostic_education:
   - College of St Scholastica
   - Central Methodist University
   - College of the Ozarks
-  - Columbia College
   - Cottey College
   - Culver Stockton College
   - Central Christian College of the Bible
   - Calvary Bible College
   - Carroll College
-  - Creighton University
   - Chadron State College
   - Concordia University Nebraska
   - College of Saint Mary
@@ -2656,8 +2143,6 @@ case_agnostic_education:
   - Cumberland County College
   - County College of Morris
   - Canisius College
-  - Colgate University
-  - Concordia College
   - College of Saint Rose
   - Cazenovia College
   - City College of New York
@@ -2665,7 +2150,6 @@ case_agnostic_education:
   - College of Mount Saint Vincent
   - College of New Rochelle
   - College of Staten Island
-  - College of New Rochelle
   - Campbell University
   - Catawba College
   - Chowan College
@@ -2676,7 +2160,6 @@ case_agnostic_education:
   - College of Wooster
   - Cincinnati Christian University
   - Cameron University
-  - Concordia University
   - Corban University
   - California University of Pennsylvania
   - Chestnut Hill College
@@ -2691,18 +2174,14 @@ case_agnostic_education:
   - Charleston Southern University
   - Clemson University
   - Coastal Carolina University
-  - College of Charleston
   - Claflin University
   - Coker University
   - Converse College
-  - Columbia International University
-  - Columbia College
   - Columbia International University
   - Clinton College
   - Carson Newman University
   - Christian Brothers University
   - Cumberland University
-  - Crown College
   - Concordia University at Austin
   - Castleton University
   - College of William & Mary
@@ -2714,163 +2193,28 @@ case_agnostic_education:
   - Concordia University Wisconsin
   - Cardinal Stritch University
   - Catholic University of America
-  - California State University Maritime Academy
-  - Calumet College of St Joseph
-  - Campbellsville University
-  - Cardinal Stritch University
-  - Carlow University
-  - Carroll College
-  - Central Baptist College
   - Central Christian College of Kansas
-  - Central Methodist University
-  - Cincinnati Christian University
-  - Clarke University
-  - Cleary University
   - College of Coastal Georgia
-  - Columbia College
-  - Columbia International University
   - Concordia University Michigan
-  - Concordia University Nebraska
-  - Corban University
-  - Cornerstone University
-  - Cottey College
-  - Crowleys Ridge College
-  - Culver Stockton College
-  - Cumberland University
-  - College of Idaho
-  - College of the Ozarks
-  - College of Saint Mary
-  - California Polytechnic State University
-  - California State University Bakersfield
-  - California State University Fresno
-  - California State University Fullerton
-  - California State University Long Beach
-  - California State University Northridge
-  - California State University Sacramento
-  - Campbell University
-  - Canisius College
-  - Central Connecticut State University
-  - Central Michigan University
-  - College of Charleston
-  - Charleston Southern University
-  - Chicago State University
-  - Clemson University
-  - Cleveland State University
-  - Coastal Carolina University
-  - Colgate University
-  - Coppin State University
-  - Creighton University
-  - College of the Holy Cross
-  - College of William & Mary
-  - Caldwell University
-  - California University of Pennsylvania
-  - California State Polytechnic University Pomona
-  - California State University Chico
-  - California State University Dominguez Hills
-  - California State University East Bay
-  - California State University Los Angeles
-  - California State University Monterey Bay
-  - California State University San Bernardino
-  - California State University San Marcos
-  - California State University Stanislaus
-  - Cameron University
-  - Carson Newman University
-  - Catawba College
-  - Cedarville University
-  - Central State University
   - Central Washington University
-  - Chadron State College
-  - Chaminade University of Honolulu
-  - Chestnut Hill College
   - Chowan University
-  - Christian Brothers University
-  - Claflin University
-  - Clarion University of Pennsylvania
   - Clark Atlanta University
   - Clayton State University
   - Coker College
-  - Colorado Christian University
-  - Colorado Mesa University
-  - Colorado School of Mines
-  - Colorado State University Pueblo
   - Columbus State University
-  - Concord University
-  - Concordia College
-  - Concordia University Irvine
   - Concordia University Portland
   - Concordia University St Paul
-  - Converse College
-  - College of Saint Rose
   - Cabrini University
-  - Cairn University
-  - California Institute of Technology
-  - California Lutheran University
-  - Calvin College
-  - Capital University
-  - Carleton College
-  - Carroll University
-  - Carthage College
-  - Castleton University
-  - Catholic University of America
-  - Cazenovia College
-  - Cedar Crest College
-  - Centenary College of Louisiana
   - Centenary College of New Jersey
-  - Central College
-  - Centre College
-  - Chapman University
-  - Chatham University
-  - Christopher Newport University
-  - City College of New York
-  - Clark University
-  - Clarks Summit University
-  - Clarkson University
-  - Coe College
-  - Colby College
-  - Colby Sawyer College
-  - Colorado College
-  - Concordia College
-  - Concordia University Chicago
   - Concordia University Texas
-  - Concordia University Wisconsin
-  - Connecticut College
-  - Cornell College
   - Covenant College
-  - Crown College
-  - Curry College
-  - College of Mount Saint Vincent
-  - College of Saint Benedict
-  - College of Saint Elizabeth
-  - College of Wooster
   - Campbellsville University Harrodsburg
   - Campbellsville University Somerset
-  - Carlow University
-  - Central Penn College
-  - Christendom College
-  - Cleary University
-  - Clinton College
-  - Crown College
   - Culinary Institute of America
   - College of St Joseph
-  - Central Christian College of Kansas
-  - College of the Ozarks
-  - Campbellsville University
-  - Cairn University
-  - Cedarville University
-  - Cincinnati Christian University
-  - Concordia University Ann Arbor
   - Calvary University
   - Carver College
-  - Columbia International University
-  - Central Christian College of the Bible
-  - Champion Christian College
-  - Concordia College
-  - Central State University
   - Cheyney University of Pennsylvania
-  - Claflin University
-  - Clark Atlanta University
-  - Clinton College
-  - Coppin State University
   - Davidson College
   - Drake University
   - Dominican University of California
@@ -2881,7 +2225,6 @@ case_agnostic_education:
   - Dominican University
   - Dayspring Christian College
   - DePauw University
-  - Drake University
   - Dordt College
   - Dillard University
   - Dean College
@@ -2895,7 +2238,6 @@ case_agnostic_education:
   - Dominican College
   - DYouville College
   - Davis College
-  - Davidson College
   - Dickinson State University
   - Dakota College
   - Defiance College
@@ -2910,42 +2252,8 @@ case_agnostic_education:
   - Dallas Christian College
   - Dixie State University
   - Davis & Elkins College
-  - Dakota State University
-  - Dakota Wesleyan University
   - Dalton State College
-  - Dickinson State University
-  - Dillard University
-  - Doane College
-  - Dordt College
-  - Davidson College
-  - Delaware State University
-  - DePaul University
-  - Drake University
-  - Duquesne University
-  - Daemen College
-  - Dallas Baptist University
-  - Davenport University
-  - Davis & Elkins College
-  - Delta State University
-  - Dominican University of California
-  - Dominican College
-  - Drury University
-  - Dean College
-  - Defiance College
   - Delaware Valley University
-  - Denison University
-  - DePauw University
-  - DeSales University
-  - Dickinson College
-  - Dominican University
-  - Drew University
-  - DYouville College
-  - Davis College
-  - Dean College
-  - Dallas Baptist University
-  - Dallas Christian College
-  - Delaware State University
-  - Dillard University
   - Embry Riddle Aeronautical University Prescott
   - Ecclesia College
   - East Los Angeles College
@@ -2988,50 +2296,9 @@ case_agnostic_education:
   - Eastern Mennonite University
   - Emory and Henry College
   - Edgewood College
-  - Eastern Oregon University
-  - Edward Waters College
-  - Embry Riddle Aeronautical University Prescott
-  - Evangel University
-  - East Carolina University
-  - East Tennessee State University
-  - Eastern Illinois University
-  - Eastern Kentucky University
-  - Eastern Michigan University
   - Eastern Washington University
-  - Elon University
-  - East Central University
-  - East Stroudsburg University of Pennsylvania
-  - Eastern New Mexico University
-  - Eckerd College
-  - Edinboro University of Pennsylvania
-  - Elizabeth City State University
   - Embry Riddle Aeronautical University
-  - Emmanuel College
-  - Emporia State University
-  - Erskine College
-  - Earlham College
-  - East Texas Baptist University
-  - Eastern Connecticut State University
-  - Eastern Mennonite University
-  - Eastern Nazarene College
-  - Eastern University
-  - Edgewood College
-  - Elizabethtown College
-  - Elmhurst College
-  - Elmira College
-  - Elms College
-  - Emerson College
-  - Emmanuel College
-  - Emory and Henry College
-  - Endicott College
-  - Eureka College
   - East West University
-  - Ecclesia College
-  - Emmaus Bible College
-  - Emmanuel College
-  - Erskine College
-  - Edward Waters College
-  - Elizabeth City State University
   - Faulkner University
   - Fresno Pacific University
   - Feather River College
@@ -3077,55 +2344,9 @@ case_agnostic_education:
   - Freed Hardeman University
   - Ferrum College
   - Fairmont State University
-  - Faulkner University
-  - Fisher College
-  - Fisk University
-  - Florida College
-  - Florida Memorial University
-  - Florida National University
-  - Freed Hardeman University
-  - Friends University
-  - Fairfield University
-  - Fairleigh Dickinson University
-  - Florida A&M University
-  - Florida Atlantic University
-  - Florida Gulf Coast University
-  - Florida International University
-  - Fordham University
-  - Furman University
-  - Fairmont State University
-  - Fayetteville State University
-  - Felician University
-  - Ferris State University
-  - Flagler College
-  - Florida Southern College
-  - Florida Institute of Technology
-  - Fort Hays State University
-  - Fort Lewis College
   - Fort Valley State University
-  - Francis Marion University
-  - Franklin Pierce University
-  - Fresno Pacific University
-  - Fairleigh Dickinson University Florham
   - Farmingdale State College
-  - Ferrum College
-  - Finlandia University
-  - Fitchburg State University
-  - Fontbonne University
-  - Framingham State University
-  - Franciscan University of Steubenville
-  - Franklin & Marshall College
-  - Franklin College
   - Five Towns College
-  - Florida College
-  - Florida National University
-  - Faith Baptist Bible College
-  - Faulkner University
-  - Fayetteville State University
-  - Fisk University
-  - Florida A&M University
-  - Florida Memorial University
-  - Fort Valley State University
   - Grand Canyon University
   - Gavilan College
   - Golden West College
@@ -3162,47 +2383,16 @@ case_agnostic_education:
   - Glenville State College
   - George Washington University
   - Gallaudet University
-  - Georgetown College
   - Georgia Gwinnett College
-  - Goshen College
-  - Governors State University
   - Grace College & Seminary
-  - Graceland University
-  - Grand View University
-  - Gardner Webb University
-  - George Mason University
-  - George Washington University
   - Georgia Southern University
   - Georgia State University
   - Gonzaga University
-  - Grambling State University
-  - Grand Canyon University
-  - Gannon University
   - Georgia College & State University
   - Georgia Southwestern State University
-  - Georgian Court University
-  - Glenville State College
-  - Goldey Beacom College
-  - Grand Valley State University
-  - Gallaudet University
-  - Geneva College
-  - George Fox University
-  - Gettysburg College
-  - Gordon College
-  - Goucher College
-  - Greensboro College
   - Greenville University
-  - Grinnell College
-  - Grove City College
-  - Guilford College
-  - Gustavus Adolphus College
   - Gwynedd Mercy University
   - Grace Bible College
-  - Great Lakes Christian College
-  - Geneva College
-  - Grace College
-  - Greenville University
-  - Grambling State University
   - Humboldt University
   - Hamilton College
   - Haverford College
@@ -3232,7 +2422,6 @@ case_agnostic_education:
   - Hastings College
   - Hiram Scott College
   - Hofstra University
-  - Hamilton College
   - Hartwick College
   - Hilbert College
   - Hobart College
@@ -3242,7 +2431,6 @@ case_agnostic_education:
   - Heidelberg University
   - Hiram College
   - Holy Family University
-  - Haverford College
   - Harcum College
   - Hiwassee College
   - Houston Baptist University
@@ -3254,56 +2442,9 @@ case_agnostic_education:
   - Hollins University
   - Holy Family College
   - Howard University
-  - Hannibal LaGrange University
-  - Harris Stowe State University
-  - Haskell Indian Nations University
-  - Hastings College
-  - Holy Cross College
-  - Hope International University
-  - Huntington University
-  - Huston Tillotson University
-  - Hampton University
-  - High Point University
-  - Hofstra University
-  - Houston Baptist University
-  - Howard University
-  - Harding University
-  - Hawaii Pacific University
-  - Henderson State University
-  - Hillsdale College
-  - Holy Family University
-  - Holy Names University
-  - Humboldt State University
-  - Hamilton College
-  - Hamline University
-  - Hampden Sydney College
-  - Hanover College
-  - Hardin Simmons University
-  - Hartwick College
-  - Haverford College
-  - Heidelberg University
-  - Hendrix College
-  - Hilbert College
-  - Hiram College
-  - Hobart College
-  - Hollins University
-  - Hood College
-  - Hope College
-  - Houghton College
-  - Howard Payne University
-  - Hunter College
-  - Huntingdon College
   - Husson University
-  - Hampshire College
-  - Hiwassee College
-  - Houghton College
-  - Huntington University
-  - Hannibal LaGrange University
-  - Huntingdon College
-  - Hampton University
-  - HarrisStowe State University
-  - Howard University
-  - HustonTillotson University
+  - Harris Stowe State University
+  - Huston Tillotson University
   - Imperial Valley College
   - Irvine Valley College
   - Idaho State University
@@ -3326,27 +2467,7 @@ case_agnostic_education:
   - Ithaca College
   - Indiana University of Pennsylvania
   - Immaculata University
-  - Indiana Institute of Technology
-  - Indiana Wesleyan University
-  - Indiana University East
-  - Indiana University Kokomo
-  - Indiana University Northwest
-  - Indiana University South Bend
-  - Indiana University Southeast
-  - Idaho State University
-  - Illinois State University
-  - Indiana State University
-  - Indiana University   Purdue University Indianapolis
-  - Iona College
-  - Iowa State University
-  - Indiana University of Pennsylvania
-  - Illinois College
-  - Illinois Wesleyan University
-  - Immaculata University
   - Iowa Wesleyan University
-  - Ithaca College
-  - Iowa Wesleyan University
-  - Indiana Wesleyan University
   - Interdenominational Theological Center
   - Jacksonville State University
   - Judson College
@@ -3368,30 +2489,7 @@ case_agnostic_education:
   - Jarvis Christian College
   - Jacksonville College
   - James Madison University
-  - Jarvis Christian College
-  - John Brown University
-  - Johnson & Wales University North Miami
-  - Judson University
-  - Jackson State University
-  - Jacksonville University
-  - Jacksonville State University
-  - James Madison University
-  - Johnson C Smith University
-  - John Carroll University
-  - John Jay College of Criminal Justice
-  - Johnson & Wales University
-  - Johnson & Wales University Denver
-  - Juniata College
   - Johnson & Wales University Charlotte
-  - Judson College
-  - Johnson University
-  - Judson University
-  - Johnson University
-  - Jacksonville State University
-  - Judson College
-  - Jackson State University
-  - Jarvis Christian College
-  - Johnson C Smith University
   - Kent State University
   - Keiser University
   - Knox College
@@ -3405,35 +2503,14 @@ case_agnostic_education:
   - Keene State College
   - Kean University
   - Keuka College
-  - Kent State University
   - Kenyon College
   - Kent State University at Tuscarawas
   - Kutztown University of Pennsylvania
   - Keystone College
   - Kings College
   - King University
-  - Kansas Wesleyan University
-  - Keiser University
-  - Kentucky Christian University
-  - Kansas State University
   - Kennesaw State University
-  - Kent State University
-  - Kentucky State University
-  - Kentucky Wesleyan College
-  - King University
-  - Kutztown University of Pennsylvania
-  - Kalamazoo College
-  - Kean University
-  - Keene State College
-  - Kenyon College
-  - Keuka College
-  - Keystone College
-  - Kings College
-  - Knox College
   - Kent State University Tuscarawas
-  - Kentucky Christian University
-  - Kansas Christian College
-  - Kentucky State University
   - Knoxville College
   - Lafayette College
   - Lyon College
@@ -3458,7 +2535,6 @@ case_agnostic_education:
   - Lincoln College
   - Lincoln Christian University
   - Lindenwood University   Belleville
-  - Lincoln Christian University
   - Loras College
   - Luther College
   - Lindsey Wilson College
@@ -3477,7 +2553,6 @@ case_agnostic_education:
   - Lincoln University of Missouri
   - Lindenwood University
   - Little Priest Tribal College
-  - Luther College
   - Long Island University
   - Le Moyne College
   - Lehman College
@@ -3491,7 +2566,6 @@ case_agnostic_education:
   - Lewis & Clark College
   - Linfield College
   - La Salle University
-  - Lafayette College
   - Lehigh University
   - Lincoln University
   - Lock Haven University of Pennsylvania
@@ -3516,78 +2590,14 @@ case_agnostic_education:
   - Lynchburg College
   - Lakeland College
   - Lawrence University
-  - La Sierra University
-  - Langston University
-  - Lawrence Technological University
-  - Lewis Clark State College
-  - Life Pacific College
   - Life University
-  - Lincoln College
-  - Lincoln Christian University
   - Lindenwood University Belleville
-  - Lindsey Wilson College
   - Louisiana State University at Alexandria
   - Louisiana State University in Shreveport
-  - Lourdes University
-  - Loyola University New Orleans
-  - Lyon College
-  - La Salle University
-  - Lafayette College
-  - Lamar University
-  - Lehigh University
-  - Liberty University
-  - Lipscomb University
-  - Long Island University
-  - Longwood University
-  - Louisiana State University
-  - Louisiana Tech University
-  - Loyola University Chicago
-  - Loyola University Maryland
-  - Loyola Marymount University
-  - Lake Erie College
-  - Lake Superior State University
-  - Lander University
-  - Lane College
-  - Le Moyne College
-  - Lee University
-  - Lees McRae College
-  - LeMoyne Owen College
-  - Lenoir Rhyne University
-  - Lewis University
-  - Limestone College
-  - Lincoln University
-  - Lincoln Memorial University
-  - Lindenwood University
-  - Livingstone College
-  - Lock Haven University of Pennsylvania
-  - Lubbock Christian University
-  - Lynn University
   - La Roche College
   - LaGrange College
-  - Lake Forest College
   - Lakeland University
-  - Lancaster Bible College
-  - Lasell College
-  - Lawrence University
-  - Lebanon Valley College
-  - Lehman College
-  - Lesley University
-  - LeTourneau University
-  - Lewis & Clark College
-  - Linfield College
-  - Loras College
-  - Louisiana College
-  - Luther College
-  - Lycoming College
-  - Lynchburg College
-  - Lancaster Bible College
-  - Lincoln Christian University
-  - Lane College
-  - Langston University
-  - LeMoyneOwen College
-  - Lincoln University
-  - Lincoln University of Missouri
-  - Livingstone College
+  - LeMoyne Owen College
   - Moscow State University
   - Middlebury College
   - Miles College
@@ -3597,7 +2607,7 @@ case_agnostic_education:
   - Mendocino College
   - Merced College
   - Merritt College
-  - MiraCosta College
+  - Mira Costa College
   - Mission College
   - Modesto Junior College
   - Monterey Peninsula College
@@ -3606,7 +2616,6 @@ case_agnostic_education:
   - Mt San Jacinto College
   - Metropolitan State University of Denver
   - Mitchell College
-  - MiamiDade College
   - McKendree University
   - MacMurray College
   - Millikin University
@@ -3617,7 +2626,7 @@ case_agnostic_education:
   - Morningside College
   - Mount Mercy College
   - McPherson College
-  - MidAmerica Nazarene University
+  - Mid America Nazarene University
   - Manhattan Christian College
   - Marymount
   - Morehead State University
@@ -3652,7 +2661,6 @@ case_agnostic_education:
   - Missouri Western State University
   - Missouri Baptist University
   - Missouri Valley College
-  - Missouri State University West Plains
   - Montana State University
   - Montana State University Billings
   - Montana State University Northern
@@ -3674,7 +2682,7 @@ case_agnostic_education:
   - Meredith College
   - Methodist University
   - Montreat College
-  - MidAtlantic Christian University
+  - Mid Atlantic Christian University
   - Minot State University
   - Mayville State University
   - Miami University
@@ -3685,7 +2693,7 @@ case_agnostic_education:
   - Mount Vernon Nazarene University
   - Miami University Hamilton
   - Miami University Middletown
-  - MidAmerica Christian University
+  - Mid America Christian University
   - Multnomah University
   - Mansfield University of Pennsylvania
   - Mercyhurst University
@@ -3698,7 +2706,6 @@ case_agnostic_education:
   - Muhlenberg College
   - Manor College
   - Mercyhurst North East
-  - Manor College
   - Morris College
   - Mount Marty College
   - Middle Tennessee State University
@@ -3707,137 +2714,24 @@ case_agnostic_education:
   - Milligan College
   - Midwestern State University
   - McMurry University
-  - Middlebury College
   - Mary Baldwin University
   - Marymount University
   - Marshall University
   - Marquette University
   - Maranatha Baptist University
-  - Marian University
   - Mount Mary College
   - Milwaukee School of Engineering
-  - Madonna University
-  - Marian University
-  - Martin Methodist College
   - Marygrove College
-  - Marymount California University
-  - Mayville State University
-  - McPherson College
-  - Menlo College
-  - MidAmerica Christian University
-  - MidAmerica Nazarene University
   - Middle Georgia State University
-  - Midland University
-  - Midway University
-  - Milligan College
-  - Missouri Baptist University
-  - Missouri Valley College
-  - Montana State University Northern
   - Montana Tech of the University of Montana
-  - Montreat College
-  - Morningside College
-  - Morris College
-  - Mount Marty College
   - Mount Mercy University
-  - Mount Vernon Nazarene University
-  - Multnomah University
-  - Manhattan College
-  - Marist College
-  - Marquette University
-  - Marshall University
-  - McNeese State University
   - Mercer University
-  - Miami University
-  - Middle Tennessee State University
-  - Mississippi State University
-  - Mississippi Valley State University
-  - Missouri State University
-  - Monmouth University
-  - Montana State University
-  - Morehead State University
-  - Morgan State University
-  - Mount St Marys University
-  - Murray State University
-  - Malone University
-  - Mansfield University of Pennsylvania
-  - Mars Hill University
-  - Maryville University
-  - McKendree University
-  - Mercy College
-  - Mercyhurst University
-  - Metropolitan State University of Denver
-  - Michigan Technological University
-  - Midwestern State University
-  - Miles College
-  - Millersville University of Pennsylvania
-  - Minnesota State University Mankato
-  - Minnesota State University Moorhead
-  - Minot State University
-  - Mississippi College
-  - Missouri University of Science and Technology
-  - Missouri Southern State University
-  - Missouri Western State University
-  - Molloy College
-  - Montana State University Billings
   - Morehouse College
-  - Macalester College
-  - MacMurray College
-  - Maine Maritime Academy
-  - Manchester University
-  - Manhattanville College
-  - Maranatha Baptist University
-  - Marian University
-  - Marietta College
-  - Martin Luther College
-  - Mary Baldwin University
-  - Marymount University
-  - Maryville College
-  - Marywood University
-  - Massachusetts College of Liberal Arts
-  - Massachusetts Institute of Technology
-  - Massachusetts Maritime Academy
-  - McDaniel College
-  - McMurry University
-  - Medaille College
-  - Medgar Evers College
-  - Meredith College
-  - Messiah College
-  - Methodist University
-  - Middlebury College
-  - Millikin University
-  - Mills College
-  - Millsaps College
-  - Milwaukee School of Engineering
-  - Misericordia University
-  - Mississippi University for Women
-  - Mitchell College
-  - Monmouth College
-  - Montclair State University
-  - Moravian College
   - Morrisville State College
-  - Mount Aloysius College
-  - Mount Holyoke College
   - Mount Mary University
-  - Mount St Joseph University
-  - Mount Saint Mary College
-  - Muhlenberg College
-  - Muskingum University
-  - MidAtlantic Christian University
-  - Mississippi University for Women
-  - McMurry University
-  - MidAmerica Christian University
-  - Maranatha Baptist University
-  - Moody Bible Institute
-  - Manhattan Christian College
-  - Miles College
   - Meharry Medical College
-  - Miles College
-  - Mississippi Valley State University
-  - Morehouse College
   - Morehouse School of Medicine
-  - Morgan State University
   - Morris Brown College
-  - Morris College
   - Nanyang Technological University
   - Northern Arizona University
   - Notre Dame de Namur University
@@ -3892,59 +2786,8 @@ case_agnostic_education:
   - Norfolk State University
   - Northland College
   - Northwest University
-  - Northwest Christian University
-  - Northwestern College
-  - New Jersey Institute of Technology
-  - New Mexico State University
-  - Niagara University
-  - Nicholls State University
-  - Norfolk State University
-  - North Carolina Agricultural and Technical State University
-  - North Carolina Central University
-  - North Dakota State University
-  - Northern Arizona University
-  - Northern Illinois University
-  - Northern Kentucky University
-  - Northwestern State University
-  - New Mexico Highlands University
-  - New York Institute of Technology
-  - Newberry College
-  - Newman University
-  - North Greenville University
-  - Northeastern State University
-  - Northern Michigan University
-  - Northern State University
-  - Northwest Missouri State University
-  - Northwest Nazarene University
-  - Northwestern Oklahoma State University
-  - Northwood University
-  - Notre Dame College
-  - Notre Dame de Namur University
-  - Nova Southeastern University
-  - Nyack College
-  - Nazareth College
-  - Nebraska Wesleyan University
   - Neumann University
-  - New England College
-  - New Jersey City University
-  - Nichols College
-  - North Carolina Wesleyan College
-  - North Central College
-  - North Central University
-  - North Park University
-  - Northern Vermont University Johnson
-  - Northern Vermont University Lyndon
-  - Northland College
-  - Norwich University
-  - Notre Dame of Maryland University
-  - Navajo Technical University
-  - Nebraska Christian College
-  - North Central University
-  - North Greenville University
-  - New Hope Christian College
-  - Norfolk State University
   - North Carolina Agricultural & Technical State University
-  - North Carolina Central University
   - Oakwood University
   - Ottawa University Arizona
   - Ouachita Baptist University
@@ -3971,10 +2814,10 @@ case_agnostic_education:
   - Ohio Christian University
   - Ohio State University Lima Campus
   - Ohio State University Mansfield Campus
-  - Ohio UniversityChillicothe
+  - Ohio University Chillicothe
   - Ohio University Eastern Campus
   - Ohio University Lancaster
-  - Ohio UniversityZanesville
+  - Ohio University Zanesville
   - Oklahoma State University Stillwater
   - Oral Roberts University
   - Oklahoma Baptist University
@@ -3986,45 +2829,11 @@ case_agnostic_education:
   - Our Lady of the Lake University
   - Old Dominion University
   - Ohio Valley University
-  - Ohio Christian University
-  - Oklahoma City University
-  - Oklahoma Panhandle State University
-  - Oklahoma Wesleyan University
-  - Olivet Nazarene University
-  - Oregon Institute of Technology
-  - Ottawa University
-  - Our Lady of the Lake University
-  - Oakland University
-  - Ohio University
-  - Oklahoma State University Stillwater
-  - Old Dominion University
-  - Oral Roberts University
-  - Oakland City University
-  - Ohio Dominican University
-  - Ohio Valley University
-  - Oklahoma Baptist University
-  - Oklahoma Christian University
-  - Ouachita Baptist University
-  - Oberlin College
-  - Occidental College
   - Oglethorpe University
-  - Ohio Northern University
-  - Ohio Wesleyan University
-  - Olivet College
-  - Otterbein University
-  - Oakwood University
-  - Oklahoma Wesleyan University
-  - Oakland City University
-  - Ohio Christian University
-  - Oak Hills Christian College
-  - Olivet Nazarene University
-  - Ozark Christian College
-  - Ottawa University
-  - Oakwood University
   - Philander Smith College
   - Pepperdine University
   - Point Loma Nazarene University
-  - Pomona CollegePitzer College
+  - Pomona College Pitzer College
   - Pacific Union College
   - Providence Christian College
   - Palomar College
@@ -4032,7 +2841,7 @@ case_agnostic_education:
   - Porterville College
   - Post University
   - Palm Beach Atlantic University
-  - PascoHernando State College
+  - Pasco Hernando State College
   - Pensacola Christian College
   - Principia College
   - Purdue University Fort Wayne
@@ -4057,66 +2866,35 @@ case_agnostic_education:
   - Penn State Harrisburg
   - Penn State Schuylkill
   - Point Park University
-  - Pennsylvania College of Technology
-  - Penn State UniversityBeaver
-  - Penn State UniversityBrandywine
-  - Penn State UniversityDuBois
-  - Penn State UniversityFayette
-  - Penn State UniversityGreater Allegheny
-  - Penn State UniversityHazleton
-  - Penn State UniversityLehigh Valley
-  - Penn State UniversityMont Alto
-  - Penn State UniversityNew Kensington
-  - Penn State UniversitySchuylkill
-  - Penn State UniversityWilkesBarre
-  - Penn State UniversityWorthington Scranton
-  - Penn State UniversityYork
+  - Penn State University Beaver
+  - Penn State University Brandywine
+  - Penn State University DuBois
+  - Penn State University Fayette
+  - Penn State University Greater Allegheny
+  - Penn State University Hazleton
+  - Penn State University Lehigh Valley
+  - Penn State University Mont Alto
+  - Penn State University New Kensington
+  - Penn State University Schuylkill
+  - Penn State University Wilkes Barre
+  - Penn State University Worthington Scranton
+  - Penn State University York
   - Providence College
   - Presbyterian College
   - Presentation College
   - Prairie View A&M University
   - Paul Quinn College
-  - Pacific Union College
-  - Park University
-  - Paul Quinn College
-  - Penn State Schuylkill
-  - Peru State College
-  - Philander Smith College
   - Point University
-  - Point Park University
-  - Presentation College
-  - Providence Christian College
-  - Pepperdine University
-  - Portland State University
-  - Prairie View A&M University
-  - Presbyterian College
-  - Providence College
-  - Purdue University Fort Wayne
-  - Pace University
   - Paine College
-  - Palm Beach Atlantic University
-  - Pittsburg State University
-  - Point Loma Nazarene University
-  - Post University
-  - Purdue University Northwest
   - Pacific Lutheran University
-  - Pacific University
-  - Pennsylvania College of Technology
   - Pennsylvania State University Abington
   - Pennsylvania State University Altoona
   - Pennsylvania State University Berks College
   - Pennsylvania State University Erie
   - Pennsylvania State University Harrisburg
-  - Pfeiffer University
   - Piedmont College
-  - Pine Manor College
-  - Plymouth State University
   - Pitzer College
-  - Pratt Institute
-  - Principia College
   - Patrick Henry College
-  - Paul Quinn College
-  - Paul Smiths College
   - Penn State Beaver
   - Penn State Brandywine
   - Penn State DuBois
@@ -4126,30 +2904,16 @@ case_agnostic_education:
   - Penn State Lehigh Valley
   - Penn State Mont Alto
   - Penn State New Kensington
-  - Penn State Schuylkill
   - Penn State Shenango
-  - Penn State WilkesBarre
+  - Penn State Wilkes Barre
   - Penn State Worthington Scranton
   - Penn State York
-  - Pratt Institute
-  - Providence College
   - Piedmont International University
-  - Pensacola Christian College
-  - Portland Bible College
-  - Providence Christian College
-  - Paine College
-  - Paul Quinn College
   - Payne Theological Seminary
-  - Philander Smith College
-  - Prairie View A&M University
   - Quinnipiac University
   - Quincy University
   - Queens College
   - Queens University of Charlotte
-  - Quinnipiac University
-  - Queens University of Charlotte
-  - Queens College
-  - Quincy University
   - Rouen Business School
   - Reedley College
   - Rio Hondo College
@@ -4159,7 +2923,7 @@ case_agnostic_education:
   - Robert Morris University Illinois
   - Roosevelt University
   - Robert Morris University Peoria
-  - RoseHulman Institute of Technology
+  - Rose Hulman Institute of Technology
   - Regis College
   - Rochester College
   - Rust College
@@ -4190,41 +2954,7 @@ case_agnostic_education:
   - Roanoke College
   - Ripon College
   - Reinhardt University
-  - Robert Morris University
-  - Rochester College
-  - Rocky Mountain College
-  - Roosevelt University
-  - Rust College
-  - Radford University
-  - Rider University
-  - Robert Morris University
-  - Regis University
-  - Roberts Wesleyan College
-  - Rockhurst University
-  - Rogers State University
-  - Rollins College
-  - Ramapo College
-  - Randolph College
-  - Randolph Macon College
-  - Regis College
-  - Rhode Island College
-  - Rhodes College
-  - Ripon College
-  - Rivier University
-  - Roanoke College
-  - Rochester Institute of Technology
-  - Rockford University
-  - Roger Williams University
-  - RoseHulman Institute of Technology
-  - Rosemont College
-  - Rowan University
-  - Rutgers University Camden
-  - Rutgers University Newark
-  - Robert Morris University Peoria
-  - Roberts Wesleyan College
   - Regent University
-  - Randall University
-  - Rust College
   - Shanghai International Studies University
   - Singapore Management University
   - South Dakota School of Mines and Technology
@@ -4269,10 +2999,9 @@ case_agnostic_education:
   - Southern Illinois University Edwardsville
   - Saint Xavier University
   - Saint Marys College
-  - Saint MaryoftheWoods College
+  - Saint Maryofthe Woods College
   - Simpson College
   - St Ambrose University
-  - Southwestern College
   - Sterling College
   - St Johns College
   - St Mary of the Plains
@@ -4288,7 +3017,6 @@ case_agnostic_education:
   - Stevenson University
   - Stonehill College
   - Salem State University
-  - Simmons College
   - Smith College
   - Springfield College
   - Suffolk University
@@ -4370,7 +3098,6 @@ case_agnostic_education:
   - Southern Wesleyan University
   - Spartanburg Methodist College
   - South Dakota State University
-  - South Dakota School of Mines and Technology
   - Sewanee The University of the South
   - Sam Houston State University
   - Southern Methodist University
@@ -4381,9 +3108,9 @@ case_agnostic_education:
   - Southwestern University
   - Sul Ross State University
   - Southwestern Assemblies of God University
-  - San Jacinto CollegeCentral
-  - San Jacinto CollegeNorth
-  - San Jacinto CollegeSouth
+  - San Jacinto College Central
+  - San Jacinto College North
+  - San Jacinto College South
   - Southwestern Christian College
   - Southern Utah University
   - Saint Michaels College
@@ -4394,178 +3121,30 @@ case_agnostic_education:
   - Shepherd University
   - St Norbert College
   - Silver Lake College
-  - St Ambrose University
-  - St Andrews University
-  - St Louis College of Pharmacy
-  - St Thomas University
-  - Saint Xavier University
-  - San Diego Christian College
   - Savannah College of Art and Design
   - Savannah College of Art and Design Atlanta
-  - Shawnee State University
-  - Siena Heights University
-  - Sierra Nevada College
-  - Silver Lake College
-  - Simpson University
-  - Soka University of America
-  - Southeastern University
-  - Southern Oregon University
-  - Southern University at New Orleans
-  - Southwestern Assemblies of God University
-  - Southwestern Christian University
-  - Southwestern College
-  - Spring Arbor University
-  - Stephens College
-  - Sterling College
-  - Stillman College
-  - Sacred Heart University
-  - St Bonaventure University
-  - St Francis College
-  - Saint Francis University
-  - St Johns University
-  - Saint Josephs University
-  - Saint Louis University
-  - Saint Marys College of California
-  - Saint Peters University
-  - Sam Houston State University
-  - Samford University
-  - San Diego State University
-  - San Jose State University
-  - Santa Clara University
   - Savannah State University
   - Seattle University
-  - Seton Hall University
-  - Siena College
-  - South Carolina State University
-  - South Dakota State University
-  - Southeast Missouri State University
-  - Southeastern Louisiana University
-  - Southern University
-  - Southern Illinois University Carbondale
-  - Southern Illinois University Edwardsville
-  - Southern Methodist University
-  - Southern Utah University
-  - Stephen F Austin State University
-  - Stetson University
   - Stony Brook University
-  - Syracuse University
-  - Saginaw Valley State University
-  - Saint Anselm College
-  - Saint Augustines University
-  - St Cloud State University
-  - St Edwards University
-  - Saint Leo University
   - Saint Martins University
-  - St Marys University
-  - Saint Michaels College
-  - St Thomas Aquinas College
-  - Salem University
-  - San Francisco State University
   - Seattle Pacific University
-  - Seton Hill University
-  - Shaw University
-  - Shepherd University
-  - Shippensburg University of Pennsylvania
   - Shorter University
   - Simon Fraser University
-  - Slippery Rock University of Pennsylvania
-  - Sonoma State University
-  - South Dakota School of Mines and Technology
-  - Southeastern Oklahoma State University
-  - Southern Arkansas University
-  - Southern Connecticut State University
-  - Southern Nazarene University
-  - Southern New Hampshire University
-  - Southern Wesleyan University
-  - Southwest Baptist University
-  - Southwest Minnesota State University
-  - Southwestern Oklahoma State University
-  - Spring Hill College
-  - Stonehill College
-  - State University of New York at Brockport
-  - State University of New York at Canton
-  - State University of New York at Cobleskill
-  - State University of New York at Cortland
-  - State University of New York at Delhi
-  - State University of New York at Fredonia
-  - State University of New York at Geneseo
-  - State University of New York Maritime College
   - State University of New York Polytechnic Institute
-  - State University of New York at New Paltz
-  - State University of New York at Old Westbury
-  - State University of New York at Oneonta
-  - State University of New York at Oswego
-  - State University of New York at Plattsburgh
-  - State University of New York at Potsdam
-  - State University of New York at Purchase
-  - St Catherine University
-  - St John Fisher College
-  - Saint Johns University
   - St Josephs College
-  - Saint Josephs College of Maine
-  - St Lawrence University
-  - Saint Marys College
-  - St Marys College of Maryland
-  - Saint Marys University of Minnesota
-  - St Norbert College
-  - St Olaf College
-  - Saint Vincent College
-  - Salem College
-  - Salem State University
-  - Salisbury University
-  - Salve Regina University
-  - Sarah Lawrence College
-  - Schreiner University
-  - Sewanee The University of the South
-  - Shenandoah University
   - Simmons University
-  - Simpson College
-  - Skidmore College
-  - Smith College
-  - Southern Virginia University
-  - Southwestern University
-  - Spalding University
-  - Springfield College
-  - Stevens Institute of Technology
-  - Stevenson University
-  - Stockton University
-  - Suffolk University
-  - Sul Ross State University
-  - Susquehanna University
-  - Sweet Briar College
-  - Saint MaryoftheWoods College
-  - Selma University
-  - Silver Lake College
   - Southwestern Adventist University
   - Stratford University
   - SUNY Canton
   - SUNY ESF
   - SUNY Delhi
-  - Southwestern Assemblies of God University
-  - Southwestern Christian University
   - Simmons College of Kentucky
-  - Southeastern University
-  - Southern Wesleyan University
   - Southeastern Baptist College
   - SAGU American Indian College
-  - Southwestern Adventist University
-  - Samford University
-  - Spring Hill College
-  - Stillman College
-  - Selma University
-  - Savannah State University
-  - Selma University
-  - Shaw University
   - Shorter College
-  - Simmons College
-  - South Carolina State University
-  - Southern University at New Orleans
-  - Southern University at Shreveport
   - Southern University and A&M College
-  - Southwestern Christian College
   - Spelman College
   - St Augustines University
-  - Stillman College
   - Texas A&M University
   - Trinity College
   - Troy University
@@ -4573,11 +3152,9 @@ case_agnostic_education:
   - Talladega College
   - The Masters University
   - Taft College
-  - Trinity College
   - Trinity Baptist College
   - Trinity Christian College
   - Trinity International University
-  - Trinity Christian College
   - Trine University
   - Taylor University
   - Tabor College
@@ -4605,15 +3182,14 @@ case_agnostic_education:
   - Tusculum University
   - Tennessee Wesleyan University
   - Texas Christian University
-  - Texas A&M University
-  - Texas A&M UniversityCorpus Christi
+  - Texas A&M University Corpus Christi
   - Texas Southern University
   - Texas State University San Marcos
   - Texas Tech University
   - Tarleton State University
-  - Texas A&M UniversityCommerce
+  - Texas A&M University Commerce
   - Texas A&M International University
-  - Texas A&M UniversityKingsville
+  - Texas A&M University Kingsville
   - Texas Womans University
   - Texas Lutheran University
   - Trinity University
@@ -4624,69 +3200,18 @@ case_agnostic_education:
   - Trinity Washington University
   - The Evergreen State College
   - The Masters College
-  - Tabor College
-  - Talladega College
-  - Taylor University
   - Tennessee Wesleyan College
-  - Texas A&M University Texarkana
-  - Texas College
-  - Texas Wesleyan University
   - Thomas University
-  - Thomas More University
-  - Tougaloo College
-  - Trinity Christian College
-  - Trinity International University
   - Truett McConnell University
   - The Citadel
   - The Ohio State University
-  - Temple University
-  - Tennessee State University
-  - Tennessee Technological University
-  - Texas A&M University
   - Texas A&M University Corpus Christi
-  - Texas Christian University
-  - Texas Southern University
   - Texas State University
-  - Texas Tech University
-  - Towson University
-  - Troy University
-  - Thomas Jefferson University
   - Texas A&M University Commerce
   - Texas A&M University Kingsville
-  - Texas A&M International University
-  - Texas Womans University
-  - Tiffin University
-  - Trevecca Nazarene University
-  - Truman State University
   - Tusculum College
-  - Tuskegee University
-  - The College of New Jersey
-  - The Sage Colleges
   - The College of St Scholastica
-  - Texas Lutheran University
-  - Thiel College
-  - Thomas College
-  - Transylvania University
-  - Trine University
-  - Trinity College
-  - Trinity University
-  - Trinity Washington University
-  - The Apprentice School
-  - The Kings College
-  - Trinity Bible College
-  - Trinity Christian College
-  - Trinity International University
   - Toccoa Falls College
-  - Trinity Baptist College
-  - Trinity College
-  - Troy University
-  - Tuskegee University
-  - Talladega College
-  - Tennessee State University
-  - Texas College
-  - Texas Southern University
-  - Tougaloo College
-  - Tuskegee University
   - University of London
   - University of Northern Iowa
   - University of Nottingham
@@ -4714,7 +3239,6 @@ case_agnostic_education:
   - University of California Berkeley
   - University of the Pacific
   - University of San Diego
-  - University of San Francisco
   - University of California Davis
   - University of California Irvine
   - University of California Riverside
@@ -4755,7 +3279,6 @@ case_agnostic_education:
   - University of Indianapolis
   - University of Southern Indiana
   - University of Saint Francis
-  - University of Northern Iowa
   - Upper Iowa University
   - University of Dubuque
   - University of Saint Mary
@@ -4763,7 +3286,6 @@ case_agnostic_education:
   - University of Louisville
   - University of the Cumberlands
   - University of Pikeville
-  - Union College
   - University of Louisiana at Lafayette
   - University of Louisiana at Monroe
   - University of New Orleans
@@ -4801,7 +3323,6 @@ case_agnostic_education:
   - University of Nebraska Lincoln
   - University of Nebraska Omaha
   - University of Nebraska at Kearney
-  - Union College
   - University of Nevada Reno
   - University of Nevada Las Vegas
   - University of New Hampshire
@@ -4812,7 +3333,6 @@ case_agnostic_education:
   - United States Military Academy
   - University at Buffalo The State University of New York
   - United States Merchant Marine Academy
-  - Union College
   - Utica College
   - University of North Carolina at Charlotte
   - University of North Carolina at Chapel Hill
@@ -4874,7 +3394,6 @@ case_agnostic_education:
   - University of Texas of the Permian Basin
   - University of Dallas
   - University of Mary Hardin Baylor
-  - University of St Thomas
   - University of Texas at Dallas
   - University of Houston Victoria
   - Utah State University
@@ -4915,227 +3434,17 @@ case_agnostic_education:
   - University of the District of Columbia
   - University of Puerto Rico at Bayamon
   - University of Puerto Rico at Mayaguez
-  - University of Antelope Valley
-  - University of California Merced
-  - University of the Cumberlands
-  - University of Providence
-  - University of Houston Victoria
-  - University of Jamestown
-  - University of Maine at Fort Kent
-  - University of Michigan Dearborn
-  - University of Mobile
-  - University of Montana Western
-  - University of Northwestern Ohio
-  - University of Pikeville
-  - University of Rio Grande
-  - University of St Francis
-  - University of Saint Francis
-  - University of Saint Katherine
-  - University of Saint Mary
-  - University of St Thomas
-  - University of Science and Arts of Oklahoma
-  - University of South Carolina Beaufort
-  - University of the Southwest
-  - Union College
   - University of Victoria
   - University of the Virgin Islands
-  - University of Akron
-  - University of Alabama
-  - University of Alabama at Birmingham
   - University at Albany SUNY
-  - University of Arkansas
-  - University of Arkansas at Little Rock
-  - University of Arkansas at Pine Bluff
   - University at Buffalo
-  - University of California Berkeley
-  - University of California Davis
-  - University of California Irvine
-  - University of California Los Angeles
-  - University of California Riverside
-  - University of California Santa Barbara
-  - University of Central Arkansas
-  - University of Central Florida
-  - University of Cincinnati
-  - University of Colorado Boulder
-  - University of Dayton
-  - University of Delaware
-  - University of Denver
-  - University of Detroit Mercy
-  - University of Evansville
-  - University of Hartford
-  - University of Hawaii at Manoa
-  - University of Houston
-  - University of Idaho
-  - University of Illinois at Chicago
-  - University of Illinois at Urbana Champaign
-  - University of the Incarnate Word
-  - University of Kentucky
-  - University of Louisiana at Lafayette
-  - University of Louisiana at Monroe
-  - University of Louisville
-  - University of Maine
-  - University of Maryland Baltimore County
-  - University of Maryland Eastern Shore
-  - University of Massachusetts Amherst
-  - University of Massachusetts Lowell
-  - University of Memphis
-  - University of Mississippi
-  - University of Missouri
-  - University of Missouri Kansas City
-  - University of Montana
-  - University of Nebraska Lincoln
-  - University of Nebraska Omaha
-  - University of Nevada Las Vegas
-  - University of Nevada Reno
-  - University of New Hampshire
-  - University of New Mexico
-  - University of New Orleans
-  - University of North Carolina at Asheville
-  - University of North Carolina at Chapel Hill
-  - University of North Carolina at Charlotte
-  - University of North Carolina at Greensboro
-  - University of North Carolina at Wilmington
-  - University of North Dakota
-  - University of North Florida
-  - University of North Texas
-  - University of Northern Colorado
-  - University of Northern Iowa
-  - University of Oregon
-  - University of the Pacific
-  - University of Portland
-  - University of Rhode Island
-  - University of Richmond
-  - University of San Diego
-  - University of San Francisco
-  - University of South Alabama
-  - University of South Carolina
-  - University of South Carolina Upstate
-  - University of South Dakota
-  - University of South Florida
   - University of Southern Mississippi
-  - University of Tennessee at Chattanooga
-  - University of Tennessee at Martin
-  - University of Texas at Arlington
-  - University of Texas at Austin
-  - University of Texas at El Paso
-  - University of Texas Rio Grande Valley
-  - University of Texas at San Antonio
-  - University of Toledo
-  - University of Tulsa
-  - United States Air Force Academy
-  - United States Military Academy
-  - Utah State University
-  - Utah Valley University
-  - University of Virginia
-  - University of Wisconsin Green Bay
-  - University of Wisconsin Madison
-  - University of Wisconsin Milwaukee
-  - University of Wyoming
-  - University of Alabama in Huntsville
-  - University of Alaska Fairbanks
-  - University of Alaska Anchorage
   - University of Arkansas   Fort Smith
-  - University of Arkansas at Monticello
-  - University of Bridgeport
-  - University of Central Missouri
-  - University of Central Oklahoma
-  - University of Charleston
-  - University of Colorado Colorado Springs
-  - University of the District of Columbia
-  - University of Findlay
-  - University of Hawaii at Hilo
-  - University of Illinois at Springfield
-  - University of Indianapolis
-  - University of Mary
-  - University of Minnesota Crookston
-  - University of Minnesota Duluth
-  - University of Missouri St Louis
-  - University of Montevallo
-  - University of Mount Olive
-  - University of Nebraska at Kearney
-  - University of New Haven
-  - University of North Carolina at Pembroke
   - University of North Georgia
-  - University of Pittsburgh at Johnstown
-  - University of Puerto Rico at Bayamon
-  - University of Puerto Rico at Mayaguez
   - University of Puerto Rico at Rio Piedras
   - University of the Sciences
-  - University of Sioux Falls
-  - University of South Carolina Aiken
-  - University of Southern Indiana
-  - University of Tampa
-  - University of Texas of the Permian Basin
-  - Union University
-  - Upper Iowa University
-  - Urbana University
-  - Ursuline College
-  - University of Virginias College at Wise
-  - University of West Alabama
-  - University of West Florida
   - University of West Georgia
-  - University of Wisconsin Parkside
-  - University of California Santa Cruz
-  - University of Dallas
-  - University of Dubuque
-  - University of La Verne
-  - University of Maine at Farmington
-  - University of Maine at Presque Isle
-  - University of Mary Hardin Baylor
-  - University of Mary Washington
-  - University of Massachusetts Boston
-  - University of Massachusetts Dartmouth
-  - University of Minnesota Morris
-  - University of Mount Union
-  - University of New England
-  - University of Northwestern   St Paul
-  - University of the Ozarks
-  - University of Pittsburgh at Bradford
-  - University of Pittsburgh at Greensburg
   - University of Puget Sound
-  - University of Redlands
-  - University of Saint Joseph
-  - University of St Thomas
-  - University of Scranton
-  - University of Southern Maine
-  - University of Texas at Dallas
-  - Union College
-  - United States Coast Guard Academy
-  - United States Merchant Marine Academy
-  - Ursinus College
-  - Utica College
-  - University of Valley Forge
-  - University of Wisconsin Eau Claire
-  - University of Wisconsin La Crosse
-  - University of Wisconsin Oshkosh
-  - University of Wisconsin Platteville
-  - University of Wisconsin River Falls
-  - University of Wisconsin Stevens Point
-  - University of Wisconsin Stout
-  - University of Wisconsin Superior
-  - University of Wisconsin Whitewater
-  - University of Dallas
-  - University of Maine at Augusta
-  - University of Maine at Fort Kent
-  - University of Maine at Machias
-  - Unity College
-  - University of Valley Forge
-  - University of Northwestern   St Paul
-  - University of Saint Katherine
-  - University of Alabama
-  - University of North Alabama
-  - University of South Alabama
-  - University of Alabama at Birmingham
-  - University of Alabama in Huntsville
-  - University of Montevallo
-  - University of West Alabama
-  - University of Mobile
-  - University of Alaska Fairbanks
-  - University of Alaska Anchorage
-  - University of Arkansas at Pine Bluff
-  - University of the District of Columbia
-  - University of Maryland Eastern Shore
-  - University of the Virgin Islands
   - - University of California Santa Cruz
     - UC Santa Cruz
   - Vassar College
@@ -5144,7 +3453,6 @@ case_agnostic_education:
   - Victor Valley College
   - Valparaiso University
   - Vincennes University
-  - Vassar College
   - Vaughn College of Aeronautics and Technology
   - Valley City State University
   - Valor Christian College
@@ -5157,27 +3465,10 @@ case_agnostic_education:
   - Virginia Wesleyan University
   - Virginia University of Lynchburg
   - Viterbo University
-  - Valley City State University
-  - Vanguard University
-  - Viterbo University
-  - Voorhees College
-  - Valparaiso University
-  - Villanova University
-  - Virginia Commonwealth University
-  - Virginia Military Institute
   - Virginia Tech
   - Valdosta State University
-  - Virginia State University
-  - Virginia Union University
-  - Vassar College
-  - Virginia Wesleyan University
   - Vaughn College
   - Villa Maria College
-  - Virginia University of Lynchburg
-  - Virginia State University
-  - Virginia Union University
-  - Virginia University of Lynchburg
-  - Voorhees College
   - Wesleyan University
   - Williams College
   - Williams Baptist College
@@ -5190,13 +3481,11 @@ case_agnostic_education:
   - West Valley College
   - West Coast Baptist College
   - Western Colorado University
-  - Wesleyan University
   - Western Connecticut State University
   - Wilmington University
   - Wesley College
   - Warner University
   - Webber International University
-  - Warner University
   - Western Illinois University
   - Wheaton College
   - Wabash College
@@ -5211,8 +3500,6 @@ case_agnostic_education:
   - Wentworth Institute of Technology
   - Western New England University
   - Westfield State University
-  - Wheaton College
-  - Williams College
   - Worcester State University
   - Worcester Polytechnic Institute
   - Western Michigan University
@@ -5232,7 +3519,7 @@ case_agnostic_education:
   - Webb Institute
   - Western Carolina University
   - Wingate University
-  - WinstonSalem State University
+  - Winston Salem State University
   - William Peace University
   - Warren Wilson College
   - Wright State University
@@ -5247,7 +3534,6 @@ case_agnostic_education:
   - West Chester University of Pennsylvania
   - Washington and Jefferson College
   - Waynesburg University
-  - Westminster College
   - Widener University
   - Wilkes University
   - Wilson College
@@ -5259,7 +3545,6 @@ case_agnostic_education:
   - Wayland Baptist University
   - Wiley College
   - Weber State University
-  - Westminster College
   - Washington and Lee University
   - West Virginia University
   - West Liberty University
@@ -5268,117 +3553,26 @@ case_agnostic_education:
   - Wheeling University
   - West Virginia University Institute of Technology
   - Wisconsin Lutheran College
-  - Waldorf College
   - Walla Walla University
-  - Warner University
-  - Warner Pacific College
-  - Washington Adventist University
-  - Wayland Baptist University
-  - Webber International University
-  - West Virginia University Institute of Technology
-  - Westmont College
-  - Wilberforce University
-  - Wiley College
-  - William Carey University
-  - William Jessup University
-  - William Penn University
-  - William Woods University
-  - Williams Baptist College
-  - Wagner College
   - Washington State University
-  - Weber State University
-  - West Virginia University
-  - Western Carolina University
-  - Western Illinois University
-  - Western Kentucky University
-  - Western Michigan University
-  - Wichita State University
-  - Winthrop University
-  - Wofford College
-  - Wright State University
-  - Walsh University
-  - Washburn University
-  - Wayne State College
   - West Chester University
-  - West Liberty University
-  - West Texas A&M University
-  - West Virginia State University
-  - West Virginia Wesleyan College
-  - Western Colorado University
-  - Western New Mexico University
-  - Western Oregon University
   - Western Washington University
-  - Westminster College
-  - Wheeling University
-  - William Jewell College
-  - Wilmington University
-  - Wingate University
-  - Winona State University
   - Winston Salem State University
-  - Wabash College
-  - Wartburg College
   - Washington & Jefferson College
-  - Washington and Lee University
-  - Washington College
-  - Washington University in St Louis
-  - Waynesburg University
-  - Webster University
-  - Wells College
-  - Wentworth Institute of Technology
-  - Wesley College
   - Wesleyan College
-  - Wesleyan University
-  - Western Connecticut State University
-  - Western New England University
-  - Westfield State University
-  - Westminster College
-  - Wheaton College
   - Whitman College
-  - Whittier College
   - Whitworth University
-  - Widener University
-  - Wilkes University
-  - Willamette University
-  - William Paterson University
-  - William Peace University
-  - William Smith College
-  - Williams College
-  - Wilmington College
-  - Wilson College
-  - Wisconsin Lutheran College
-  - Wittenberg University
-  - Worcester Polytechnic Institute
-  - Worcester State University
-  - Warren Wilson College
-  - Washington Adventist University
-  - Webb Institute
   - Williamson College of the Trades
-  - Wright State UniversityLake Campus
-  - Welch College
-  - Warner University
-  - West Coast Baptist College
-  - West Virginia State University
-  - Wilberforce University
-  - Wiley College
-  - WinstonSalem State University
+  - Wright State University Lake Campus
   - Xavier University of Louisiana
   - Xavier University
-  - Xavier University of Louisiana
-  - Xavier University
-  - Xavier University of Louisiana
   - Yuba College
   - York College
   - Yeshiva University
-  - York College
   - Youngstown State University
   - York College of Pennsylvania
-  - York College
-  - Youngstown State University
   - Young Harris College
-  - Yeshiva University
   - York College City University of New York
-  - York College of Pennsylvania
-  - York College
   - Yellowstone Christian College
   top_100_universities:
   - Amherst College
@@ -5393,7 +3587,6 @@ case_agnostic_education:
   - Colorado State University
   - Cornell University
   - Dartmouth College
-  - Duke University
   - Drexel University
   - Duke University
   - Ecole normale superieure
@@ -5416,7 +3609,6 @@ case_agnostic_education:
   - - Nanyang Technological University
     - \x20NTU\x20
   - New York University
-  - New York University
   - Northeastern University
   - North Carolina State University
   - Ohio State University
@@ -5436,8 +3628,6 @@ case_agnostic_education:
   - United States Naval Academy
   - University of Arizona
   - University of British Columbia
-  - - University of California Berkeley
-    - UC Berkeley
   - - University of California Davis
     - UC Davis
   - - University of California Irvine
@@ -5464,7 +3654,6 @@ case_agnostic_education:
   - University of Minnesota
   - - University of Nebraska
     - University of Nebraska Lincoln
-    - University of NebraskaLincoln
   - - University of North Carolina Chapel Hill
     - UNC Chapel Hill
   - University of Notre Dame
@@ -5481,7 +3670,6 @@ case_agnostic_education:
   - University of Utah
   - University of Vermont
   - University of Washington
-  - Vanderbilt University
   - Vanderbilt University
   - Virginia Polytechnic Institute and State University
   - Wake Forest University
@@ -5537,6 +3725,7 @@ case_agnostic_hobbies:
   - Motor Cross
   - Reading
   - Rollerblading
+  - Rugby
   - Skiing
   - Soccer
   - Surfing
@@ -5618,7 +3807,7 @@ case_agnostic_languages:
   - Egyptian
   - English
   - French
-  - Ge"ez
+  - Geez
   - German
   - Greek
   - Hebrew
@@ -5776,6 +3965,9 @@ case_agnostic_skill:
   - - Visio
     - Microsoft Visio
   - MongoDB
+  - NodeXL
+  - WestLaw
+  - LexisNexis
   - - Microsoft PowerPoint
     - PowerPoint
   - - SQL Server
@@ -5783,7 +3975,7 @@ case_agnostic_skill:
   - NVivo
   - Neo4j
   - Neural networks
-  - Objective-C
+  - Objective C
   - - Oracle
     - Oracle database
   - PCF
@@ -5819,7 +4011,7 @@ case_agnostic_skill:
   - Smalltalk
   - Software development
   - Software Development
-  - Spark-Streaming
+  - Spark Streaming
   - Storm
   - Surveyxact
   - Swift
@@ -5878,10 +4070,134 @@ case_agnostic_whole_resume:
   - - Project Management Professional
     - PMP
   - FE exam
+  honor_societies:
+  - Alpha Beta Gamma
+  - Alpha Chi
+  - Alpha Epsilon
+  - Alpha Epsilon Delta
+  - Alpha Epsilon Rho
+  - Alpha Eta Mu Beta
+  - Alpha Iota Delta
+  - Alpha Kappa Delta
+  - Alpha Kappa Mu
+  - Alpha Lambda Delta
+  - Alpha Mu Gamma
+  - Alpha Nu Sigma
+  - Alpha Omega Alpha
+  - Alpha Phi Sigma
+  - Alpha Pi Mu
+  - Alpha Sigma Lambda
+  - Alpha Sigma Mu
+  - Alpha Sigma Nu
+  - Alpha Upsilon Alpha
+  - Beta Beta Beta
+  - Beta Gamma Sigma
+  - Beta Kappa Chi
+  - Beta Phi Mu
+  - Chi Beta Phi
+  - Chi Epsilon
+  - Chi Sigma Iota
+  - Delta Epsilon Sigma
+  - Delta Epsilon Tau
+  - Delta Mu Delta
+  - Delta Phi Alpha
+  - Delta Tau Alpha
+  - Epsilon Pi Phi
+  - Epsilon Pi Tau
+  - Eta Kappa Nu
+  - Eta Sigma Phi
+  - Gamma Sigma Delta
+  - Gamma Theta Upsilon
+  - Golden Key International Honour Society
+  - Iota Sigma Pi
+  - Iota Tau Alpha
+  - Kappa Mu Epsilon
+  - Kappa Omicron Nu
+  - Kappa Tau Alpha
+  - Lambda Alpha
+  - Lambda Iota Tau
+  - Lambda Pi Eta
+  - Lambda Sigma
+  - Mortar Board
+  - Mu Alpha Theta
+  - Mu Kappa Tau
+  - Mu Sigma Rho
+  - - NSCS
+    - National Society of Collegiate Scholars
+  - National Society of Scabbard and Blade
+  - Nu Rho Psi
+  - Omega Chi Epsilon
+  - Omega Rho
+  - Omicron Delta Epsilon
+  - Order of Omega
+  - Order of the Coif
+  - Phi Alpha
+  - Phi Alpha Epsilon
+  - Phi Alpha Theta
+  - Phi Beta Delta
+  - Phi Beta Kappa
+  - Phi Delta Phi
+  - Phi Eta Sigma
+  - Phi Kappa Phi
+  - Phi Lambda Sigma
+  - Phi Lambda Upsilon
+  - Phi Sigma
+  - Phi Sigma Iota
+  - Phi Sigma Pi
+  - Phi Sigma Tau
+  - Phi Tau Phi
+  - Phi Upsilon Omicron
+  - Pi Delta Phi
+  - Pi Epsilon Tau
+  - Pi Gamma Mu
+  - Pi Kappa Lambda
+  - Pi Mu Epsilon
+  - Pi Omega Pi
+  - Pi Sigma Alpha
+  - Pi Tau Sigma
+  - Pi Theta Epsilon
+  - Psi Beta
+  - Psi Chi
+  - Rho Beta Epsilon
+  - Rho Chi
+  - Sigma Alpha Lambda
+  - Sigma Beta Delta
+  - Sigma Delta Pi
+  - Sigma Gamma Tau
+  - Sigma Lambda Alpha
+  - Sigma Lambda Chi
+  - Sigma Phi Alpha
+  - Sigma Pi Sigma
+  - Sigma Tau Delta
+  - Sigma Theta Tau
+  - Sigma Zeta
+  - Society for Collegiate Journalists
+  - Tau Alpha Pi
+  - Tau Beta Pi
+  - Tau Sigma
+  - Tau Sigma Delta
+  - The Order of Barristers
+  - Theta Alpha Kappa
+  - Theta Chi Beta
+  - Upsilon Phi Delta
+  - Upsilon Pi Epsilon
+  - Xi Sigma Pi
   latin_honors:
   - cum laude
   - magna cum laude
   - summa cum laude
+  scholarships_awards:
+  - Presidential Scholar
+  - National Alumni Scholar
+  - Athletic Scholarship
+  - Rhodes Scholars
+  - National Merit Scholarship
+  - Robert C Byrd Honors Scholarship
+  - Deans List
+  - Presidents List
+  - - Fulbright Scholar
+    - Fulbright Program
+    - Fulbright Award
   soft_skills:
   - account management
   - account-based marketing
@@ -5931,6 +4247,7 @@ case_agnostic_whole_resume:
   - budget development
   - budget variance analysis
   - budgeting
+  - build relationship
   - building relationship
   - building trust
   - business acumen
@@ -6093,6 +4410,7 @@ case_agnostic_whole_resume:
   - diversity awareness
   - drawing
   - drive
+  - drive business
   - eager to learn
   - ecommerce
   - editing
@@ -6114,6 +4432,7 @@ case_agnostic_whole_resume:
   - entrepreneurial thinking
   - entrepreneurship
   - ergonomic sensitivity
+  - establish trust
   - establishing rapport
   - establishing trust
   - ethics
@@ -6163,6 +4482,7 @@ case_agnostic_whole_resume:
   - graphic design
   - graphics
   - grit
+  - growth strategies
   - growth strategy
   - guerrilla marketing
   - honest
@@ -6239,6 +4559,8 @@ case_agnostic_whole_resume:
   - logical thinking
   - logistics
   - logistics management
+  - long term partnership
+  - long-term partnership
   - loyalty marketing
   - loyalty programs
   - maintaining best practices
@@ -6276,6 +4598,7 @@ case_agnostic_whole_resume:
   - managing upsell activities
   - managing virtual teams
   - market assessments
+  - market expertise
   - market knowledge
   - market research
   - market segmentation
@@ -6288,6 +4611,7 @@ case_agnostic_whole_resume:
   - marketing operations
   - marketing simulation
   - marketing strategy
+  - mazimizing
   - measurement
   - measuring
   - media design
@@ -6297,6 +4621,8 @@ case_agnostic_whole_resume:
   - mentoring sales teams
   - merchandising
   - mind mapping
+  - minimal supervision
+  - minimizing
   - mobile marketing
   - modeling decisions
   - monetization strategies
@@ -6307,6 +4633,7 @@ case_agnostic_whole_resume:
   - motivational
   - motivative
   - multitasking
+  - negotiate contracts
   - negotiating
   - negotiation
   - network administration
@@ -6337,6 +4664,7 @@ case_agnostic_whole_resume:
   - outsourcing
   - part of a team
   - partnerships
+  - passion for selling
   - passionate
   - patience
   - patient
@@ -6364,6 +4692,7 @@ case_agnostic_whole_resume:
   - presentation skills
   - presentations
   - presenting
+  - price trends
   - pricing
   - pricing strategy
   - prioritization
@@ -6421,6 +4750,7 @@ case_agnostic_whole_resume:
   - regulatory compliance
   - regulatory reporting
   - relationship
+  - relationship build
   - reliability
   - removing obstacles
   - reporting
@@ -6501,6 +4831,7 @@ case_agnostic_whole_resume:
   - social skills
   - software documentation
   - sourcing
+  - sourcing strategies
   - speaking rhythm
   - staff development
   - stage presence
@@ -6542,11 +4873,13 @@ case_agnostic_whole_resume:
   - technical communication
   - technology savvy
   - technology trend awareness
+  - thought leadership
   - time management
   - timely
   - tolerance
   - tolerance of change and uncertainty
   - tolerant
+  - total cost of ownernship
   - train the trainer
   - trainability
   - trainable
@@ -6816,7 +5149,6 @@ case_agnostic_work:
   - chesapeake energy
   - chevron
   - chevron phillips chemical
-  - phillips 66
   - china national offshore oil
   - china national petroleum
   - cimarex energy
@@ -6911,6 +5243,7 @@ case_agnostic_work:
   - pertamina
   - petrobras
   - petronas
+  - phillips 66
   - pkn orlen
   - portland general electric
   - ppg industries
@@ -8212,6 +6545,7 @@ case_agnostic_work:
   - pace foods
   - pagen
   - pakola
+  - panera bread
   - papadopoulos
   - parker house sausage
   - parle agro
@@ -8589,7 +6923,6 @@ case_agnostic_work:
   - whittakers
   - whole foods market
   - whos your daddy
-  - panera bread
   - wigram beer
   - wilkin & sons
   - william jackson food
@@ -8634,95 +6967,292 @@ case_agnostic_work:
   - zott
   - zvecevo
   company_health:
-  - abbott laboratories
+  - 3m pharmaceuticals
+  - \x20acadia
+  - \x20alcon
+  - \x20btg\x20
+  - \x20cerner
+  - \x20cipla\x20
+  - \x20endo\x20
+  - \x20esteve\x20
+  - \x20horizon\x20
+  - \x20humana\x20
+  - \x20incepta\x20
+  - \x20intas\x20
+  - \x20ionis\x20
+  - \x20ipca\x20
+  - \x20ipsen\x20
+  - \x20juno\x20
+  - \x20kite\x20
+  - \x20knoll\x20
+  - \x20meda\x20
+  - \x20merck\x20
+  - \x20orexo\x20
+  - \x20orion\x20
+  - \x20renovo
+  - \x20saidal
+  - \x20salix
+  - \x20shire\x20
+  - \x20sutro\x20
+  - \x20taro\x20
+  - \x20tasly
+  - \x20teva\x20
+  - \x20ucb\x20
+  - abbott
   - abbvie
-  - acadia healthcare
+  - acg group
+  - acorda
+  - actavis
+  - actelion
+  - adcock ingram
+  - advanced chemical industries
+  - advanz
+  - advaxis
   - aetna
   - agilent technologies
+  - ajanta
+  - alembic
   - alere
-  - alexion pharmaceuticals
+  - alexion
+  - alkaloid
+  - alkermes
   - allergan
   - allscripts healthcare solutions
+  - almirall
+  - alnylam
+  - alphapharm
+  - alzheon
   - amerisourcebergen
   - amgen
   - amn healthcare services
+  - amylin
+  - anfatis
   - anthem
+  - apotex
+  - aptalis
+  - arbutus
+  - aryogen
+  - aspen pharmacare
   - astellas
+  - astra
   - astrazeneca
+  - aurobindo
+  - avax
+  - avella
+  - b braun melsungen
+  - bargn farmaceutici phils co
+  - barr
+  - bausch & lomb
+  - bausch health parent of bausch & lomb
+  - baxalta
   - baxter
   - baxter international
   - bayer
   - becton dickinson
+  - benitec
+  - beximco
+  - bial
+  - biocon
   - biogen
+  - biolex
   - biomarin
+  - biondvax
+  - bionova
   - biorad laboratories
+  - biotecnol
+  - biovail
+  - bluepharma
+  - boehringer ingelheim
+  - bosnalijek
   - boston scientific
   - bristol myers squibb
-  - bristolmyers squibb
+  - cadila healthcare
+  - cambridge antibody technology
+  - canadian plasma resources
+  - cangene
   - cardinal health
+  - carefusion
+  - catabasis
+  - catalent
+  - cathay drug
   - celgene
-  - cerner
+  - celltech
+  - cephalon
+  - chiesi
+  - chugai
   - cigna
+  - cinnagen
+  - clovis oncology
   - community health systems
+  - crucell
+  - csl behring
+  - csl parent of csl behring
+  - cubist
+  - curevac
   - cvs health
+  - cynapsus
+  - dabur
   - daiichi sankyo
   - danaher
   - davita healthcare
-  - davita healthcare partners
+  - dawakhana shifaul amraz
+  - debiopharm
+  - deuralijanta
+  - diabetology
+  - diffusion
   - diplomat pharmacy
+  - dr reddys
+  - eisai
   - eisai pharmaceutical
+  - elder
   - eli lilly
-  - eli lilly & co
+  - emcure
+  - emergent
   - encompass health
   - envision healthcare
+  - eskayef
   - express scripts holding
+  - fabrekramer
+  - ferring
+  - fortress
+  - fresenius
+  - galderma
+  - galmed
+  - gedeon richter
   - genesis healthcare
+  - gf harvey company
+  - gilead
   - gilead sciences
+  - glatt group
   - glaxosmithkline
+  - glenmark
+  - gpc biotech
+  - grifols
+  - grindeks
   - hca healthcare
   - healthcare services group
   - healthsouth
-  - humana
+  - help remedies
+  - hetero drugs
+  - hikma
+  - himispherx
+  - hospira
+  - hovione
+  - huadong medicine
   - iasis healthcare
   - illumina
   - incyte
+  - institute for oneworld health
+  - interphil
+  - janssen pharmaceutica
+  - jenapharm
+  - jninternational medical corporation
   - johnson & johnson
+  - julphar
+  - kimia farma
   - kindred healthcare
+  - kyowa hakko kirin
   - labcorp
+  - laboratoires pierre fabre
   - laboratory corp of america
   - laboratory corporation of america
   - lifepoint health
+  - lundbeck
+  - lupin limited
   - magellan health
+  - mallinckrodt
+  - mannkind
   - mccormick
+  - mcguff
   - mckesson
+  - mcneil consumer healthcare
+  - medarex
   - medical mutual of ohio
-  - merck
+  - medimmune
+  - medinfar
+  - melior discovery
+  - menarini
+  - mitsubishi tanabe
+  - molecular partners
   - molina healthcare
+  - mustang
   - mylan
+  - novabay
   - novartis
   - novo nordisk
+  - noxxon
+  - octapharma
+  - organext
+  - orthomcneil
+  - otsuka
+  - oxford biomedica
+  - panacea biotec
+  - path
+  - patheon
   - perrigo
   - pfizer
+  - pharma medica
+  - pharma nord
+  - pharmaceutical product development
+  - pharmacosmos
+  - pharmascience
   - pharmerica
+  - piramal group
+  - plexxikon
+  - pliva
   - pra health sciences
+  - procter & gamble
+  - prometic life sciences
+  - purdue pharma
+  - ranbaxy laboratories
+  - reckitt benckiser
   - regeneron
+  - repligen
   - roche\x20
-  - sanofi
+  - rubicon research
+  - sanofi\x20
+  - seed health
   - select medical holdings
-  - shire pharmaceutical
+  - serum institute of india
+  - servier
+  - shionogi
+  - siga technologies
+  - sigma healthcare
+  - sinopharm group
+  - smith kline & french
+  - solvay
+  - sphere fluidics
   - st jude medical
+  - stada arzneimittel
+  - strides arcolab
   - stryker
+  - sumitomo dainippon
+  - sunovion
+  - swedish orphan biovitrum
   - syneos health
-  - takeda pharmaceutical
+  - takeda
   - tenet healthcare
   - thermo fisher scientific
+  - torrent
+  - turing
+  - unichem
   - unitedhealth group
   - universal health services
+  - usv private limited
   - varian medical systems
+  - veloxis
+  - vertex
   - vertex pharmaceutical
+  - viromed
   - wellcare health plans
+  - wockhardt
+  - yuhan
+  - zandu realty
+  - zeneca
+  - zentiva
   - zimmer biomet
   - zoetis
+  - zymogenetics
   company_industrial:
   - \x203m\x20
   - ao smith
@@ -9040,7 +7570,6 @@ case_agnostic_work:
   - cartridge world
   - carus publishing
   - carvana
-  - catalent
   - catamaran
   - cbs\x20
   - cdk global
@@ -9284,7 +7813,6 @@ case_agnostic_work:
   - freightcar
   - fresenius kabi
   - frontenac
-  - fti consulting
   - fujifilm medical
   - gannett
   - gardner denver
@@ -9326,7 +7854,6 @@ case_agnostic_work:
   - graham media
   - grainger
   - granite construction
-  - grant thornton
   - graphic packaging
   - graybar electric
   - great lakes dredge and dock
@@ -9388,7 +7915,6 @@ case_agnostic_work:
   - honda
   - horween leather
   - horwitz horwitz & associates
-  - hospira
   - hostway
   - hrg group
   - hsbc finance
@@ -9563,7 +8089,6 @@ case_agnostic_work:
   - mazak midwest technology center
   - mcandrews held & malloy
   - mcdermott will & emery
-  - mcgladrey
   - mcgrawhill
   - mcmastercarr
   - mdc holdings
@@ -9626,7 +8151,6 @@ case_agnostic_work:
   - national general
   - national van lines
   - navient
-  - navigant consulting
   - navigon
   - navistar international
   - nbc sports chicago
@@ -9736,7 +8260,6 @@ case_agnostic_work:
   - priceline
   - pricesmart
   - primoris services
-  - procter & gamble
   - product development technologies
   - progressive
   - prolockbox
@@ -10050,7 +8573,6 @@ case_agnostic_work:
   - william blair & co
   - williams cos
   - willis group
-  - willis towers watson
   - wilson sporting goods
   - wind point partners
   - windstream holdings
@@ -10090,16 +8612,22 @@ case_agnostic_work:
   - \x20adp\x20
   - \x20aecom
   - \x20brinks\x20
+  - \x20cgi\x20
   - \x20ey\x20
+  - \x20sm&a\x20
   - \x20ups\x20
+  - a&g management consulting
   - abc studios
   - abf freight
   - accenture
+  - accountor
   - adtalem global education
   - alaska communications
   - align technology
+  - alixpartners
   - alliance data systems
   - altice
+  - altran
   - amblin television
   - amerco
   - american greetings
@@ -10107,17 +8635,37 @@ case_agnostic_work:
   - apollo education group
   - aramark
   - arcbest
+  - arthur d little
   - asgn
   - at kearney
   - at&t
   - automatic data processing
+  - avasant
+  - avascent
+  - axykno
+  - bain & company
+  - bdo consulting
+  - bearingpoint
+  - berkeley research group
+  - booz allen hamilton
   - boston consulting group
+  - bow & arrow
+  - brands of desire
   - brookdale senior living
+  - capco
+  - capgemini invent
   - centurylink
   - cintas
   - clean harbors
+  - cognizant technology solutions
   - comcast
+  - computer sciences corporation
   - consolidated communications
+  - corporate executive board
+  - cra international
+  - deloitte
+  - deloitte consulting
+  - detica
   - devry education group
   - dish network
   - disney
@@ -10125,23 +8673,72 @@ case_agnostic_work:
   - dycom industries
   - ecolab
   - equifax
+  - ernst & young
   - fedex
   - frontier communications
+  - fti consulting
+  - fulcrum worldwide
+  - grant thornton
   - h&r block
+  - hay group
+  - hcl axon
+  - hewitt associates
+  - hitachi consulting
+  - horvath & partners
+  - hp enterprise services
+  - huron consulting group
+  - ibm global business services
+  - icf international
+  - ikon marketing consultants
+  - infosys consulting
+  - ipl information processing
   - iron mountain
+  - itn consulting
+  - korn ferry
+  - kpmg
+  - kurt salmon
   - l3 communications
+  - lek consulting
   - level 3 communications
+  - logica
+  - management consulting group
+  - marsh & mclennan co
   - mastercard
+  - mcchrystal group
+  - mcgladrey
+  - mckinsey & co
   - meredith
   - mgm television
+  - mitchell madison group
+  - monitor group
+  - mott macdonald
+  - navigant consulting
   - new line television
+  - oliver wyman
+  - pa consulting group
+  - perficient
+  - pricewaterhousecoopers
+  - protiviti
+  - prtm
   - public storage
+  - qualpro
+  - ramboll management
   - republic services
+  - roland berger strategy
+  - sapient
+  - schlumberger business consulting
+  - sdg group
+  - simonkucher & partners
   - sinclair broadcast group
+  - slalom consulting
   - sony pictures
   - stericycle
+  - strategy&
+  - tata consultancy services
   - tds telecom
   - telephone and data systems
+  - the burke group
+  - the saint consulting group
   - time warner
   - tribune media
   - uhaul
@@ -10154,6 +8751,9 @@ case_agnostic_work:
   - walt disney
   - warner bros television
   - waste management
+  - west monroe partners
+  - willis towers watson
+  - ws atkins plc
   - ww grainger
   company_tech:
   - \x20acer\x20
@@ -10260,41 +8860,41 @@ case_sensitive_education:
   associate_education_level:
   - - Associate of Arts
     - A.A.
-    - ' AA '
+    - \x20AA\x20
   - - Associate of Science
     - A.S.
-    - ' AS '
+    - \x20AS\x20
   - - Associate of Applied Science
     - A.A.S.
-    - ' AAS '
+    - \x20AAS\x20
   - - Associate of General Studies
     - A.G.S.
-    - ' AGS '
+    - \x20AGS\x20
   - Associates Degree
   - Community College
   bachelor_education_level:
   - - Bachelor of Arts
     - Bachelors of Arts
     - B.A.
-    - ' BA '
+    - \x20BA\x20
   - - Bachelor of Fine Arts
     - Bachelor in Fine Arts
     - Bachelors of Fine Arts
     - B.F.A.
-    - ' BFA '
+    - \x20BFA\x20
   - - Bachelor of Science
     - Bachelors of Science
     - Bachelor in Science
     - B.S.
-    - ' BS '
-    - ' BSC '
+    - \x20BS\x20
+    - \x20BSC\x20
     - BSc
     - B.Sc
   - - Bachelor of Engineering
     - Bachelor in Engineering
     - Bachelors of Engineering
     - B.E.
-    - ' BE '
+    - \x20BE\x20
   - - Bachelor of Economics
     - Bachelors of Economics
     - Bachelor in Economics
@@ -10318,7 +8918,7 @@ case_sensitive_education:
     - Bachelors of Business Administration
     - Bachelor in Business Administration
     - B.B.A.
-    - ' BBA '
+    - \x20BBA\x20
   - - Bachelor of Business
     - Bachelors of Business
     - Bachelor in Business
@@ -10329,27 +8929,26 @@ case_sensitive_education:
   - - Bachelor of Health Science
     - Bachelors of Health Science
     - Bachelor in Health Science
-    - ' BHS '
+    - \x20BHS\x20
     - B.H.S.
   - - Bachelor of Law
     - Bachelors of Law
-    - LLB
+    - \x20LLB\x20
   - - Bachelor Degree
     - Bachelors Degree
     - Bachelors Degree
-    - Bachelor"s Degree
   doctor_education_level:
-  - - J.D.
+  - - \x20J.D.\x20
     - Juris Doctor
     - Law School
   - - Medical Doctor
-    - M.D.
-    - ' MD '
+    - \x20M.D.\x20
+    - \x20MD\x20
     - Doctor of Medicine
     - Medical School
   - - Doctor of Dental Surgery
-    - D.D.S.
-    - ' DDS '
+    - D\x20D.S.
+    - vDDS\x20
   - - Doctor of Pharmacy
     - Pharm.D.
     - PharmD
@@ -10361,50 +8960,41 @@ case_sensitive_education:
   master_education_level:
   - - Master of Business Administration
     - Masters of Business Administration
-    - Master"s of Business Administration
-    - ' MBA'
+    - \x20MBA\x20
     - M.B.A.
   - - Master of Fine Arts
     - Masters of Fine Arts
-    - Master"s of Fine Arts
     - M.F.A.
-    - ' MFA '
+    - \x20MFA\x20
   - - Master of Education
     - Masters of Education
-    - Master"s of Education
   - - Master of Business
     - Masters of Business
-    - Master"s of Business
   - - Master of Public Administration
-    - Master"s of Public Administration
     - Masters of Public Administration
     - Master in Public Administration
     - M.P.A
-    - ' MPA '
+    - \x20MPA\x20
   - - Master of Public Policy
-    - Master"s of Public Policy
     - Masters of Public Policy
     - Master in Public Policy
     - M.P.P.
-    - ' MPP '
+    - vMPP\x20
   - - Master of Business Finance
-    - Master"s of Business Finance
     - Masters of Business Finance
     - Master in Business Finance
-    - ' MBF '
+    - vMBF\x20
   - - Master of Arts
     - Masters of Arts
-    - Master"s of Arts
     - M.A.
-    - ' MA '
+    - \x20MA\x20
   - - Master of Science
     - Masters of Science
-    - Master"s of Science
     - MSc
     - M.S.
     - M.Sc
-    - ' MS '
-    - ' MS.'
+    - \x20MS\x20
+    - \x20MS.
   - Graduate Education
   - Graduate School
 data_schema_dir: ../data/schema

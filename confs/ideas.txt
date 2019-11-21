@@ -13,18 +13,12 @@ for the acronyms
 https://en.wikipedia.org/wiki/List_of_state_and_territorial_universities_in_the_United_States
 https://en.wikipedia.org/wiki/List_of_colloquial_names_for_universities_and_colleges_in_the_United_States
 
-Companies
-some might be case sensitve..?
-Target
+some might be case sensitve.. e.g. Target
 Where have successful ones come from? look at high mbo scores, match with resume, look at work of those resumes
 
-GPA related:
-Cumulative Average Point (CAP): 4.32/5.0
 parse GRE, GMAT etc?
 
-Hard skills
-parse C++
-List of skills from :https://www.kaggle.com/vingkan/strategeion-resume-skills#skills.txt
+Hard skills - parse C++
 
 Section not caught:
 Skills and Interests
@@ -34,15 +28,13 @@ OTHER SKILLS & INTERESTS
 To get more languagues
 FLUENT IN
 
-Scholarships
-fulbright
-deans list
-any special kinds of scholarships
-Psi Chi Honor Society
-
 https://github.com/summanlp/textrank
 https://github.com/stanfordmlgroup/chexpert-labeler
 https://github.com/binoydutt/Resume-Job-Description-Matching
-
-Automated Resume Screening System: https://github.com/JAIJANYANI/Automated-Resume-Screening-System
+https://github.com/JAIJANYANI/Automated-Resume-Screening-System
 NER: https://towardsdatascience.com/a-review-of-named-entity-recognition-ner-using-automatic-summarization-of-resumes-5248a75de175
+
+STEM backgroud
+bach degree
+MBA or business education
+2+ years of working experience
